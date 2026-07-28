@@ -20,6 +20,13 @@ type Product = {
   url: string;
 };
 
+type StoreSource = {
+  name: string;
+  domain: string;
+  url: string;
+  status: "Pendiente" | "Mapeada";
+};
+
 const categories = [
   "Todo",
   "Impresoras",
@@ -30,174 +37,199 @@ const categories = [
   "Accesorios",
 ];
 
-const stores = [
-  "Todas",
-  "3D Lab",
-  "PrintParts",
-  "Filamentos BA",
-  "Maker Shop",
-  "Tecno3D",
-  "Resina Norte",
+const storeSources: StoreSource[] = [
+  {
+    name: "TP3D",
+    domain: "tp3d.com.ar",
+    url: "https://tp3d.com.ar",
+    status: "Mapeada",
+  },
+  {
+    name: "Laboratorio 3D",
+    domain: "laboratorio3d.com.ar",
+    url: "https://laboratorio3d.com.ar",
+    status: "Mapeada",
+  },
+  {
+    name: "Erexit 3D",
+    domain: "erexit3d.com",
+    url: "https://erexit3d.com",
+    status: "Mapeada",
+  },
+  {
+    name: "Proyecto Color",
+    domain: "proyectocolor.com.ar",
+    url: "https://proyectocolor.com.ar",
+    status: "Mapeada",
+  },
+  {
+    name: "Kimera 3D",
+    domain: "kimera3d.com.ar",
+    url: "https://kimera3d.com.ar",
+    status: "Mapeada",
+  },
 ];
+
+const stores = ["Todas", ...storeSources.map((source) => source.name)];
 
 const products: Product[] = [
   {
     id: 1,
     name: "Bambu Lab A1 Combo",
     category: "Impresoras",
-    store: "3D Lab",
+    store: "TP3D",
     price: 1329000,
     previousPrice: 1395000,
     stock: "En stock",
-    city: "CABA",
+    city: "Argentina",
     rating: 4.8,
     shipping: "Envio gratis",
     updated: "hace 8 min",
     tags: ["FDM", "multicolor", "220x220x250"],
     color: "#4f8f82",
-    url: "#",
+    url: "https://tp3d.com.ar",
   },
   {
     id: 2,
     name: "Creality K1C",
     category: "Impresoras",
-    store: "Tecno3D",
+    store: "Laboratorio 3D",
     price: 1048000,
     stock: "Pocas unidades",
-    city: "Cordoba",
+    city: "Argentina",
     rating: 4.6,
     shipping: "Retiro o envio",
     updated: "hace 21 min",
     tags: ["CoreXY", "carbono", "300 C"],
     color: "#2f6fbc",
-    url: "#",
+    url: "https://laboratorio3d.com.ar",
   },
   {
     id: 3,
     name: "Anycubic Photon Mono M5s Pro",
     category: "Impresoras",
-    store: "Resina Norte",
+    store: "Erexit 3D",
     price: 938500,
     previousPrice: 1012000,
     stock: "Consultar",
-    city: "Salta",
+    city: "Argentina",
     rating: 4.5,
     shipping: "A coordinar",
     updated: "hace 1 h",
     tags: ["SLA", "14K", "resina"],
     color: "#8f5aa6",
-    url: "#",
+    url: "https://erexit3d.com",
   },
   {
     id: 4,
     name: "Filamento PLA+ Negro 1kg 1.75mm",
     category: "Filamentos",
-    store: "Filamentos BA",
+    store: "Proyecto Color",
     price: 22900,
     previousPrice: 24500,
     stock: "En stock",
-    city: "CABA",
+    city: "Argentina",
     rating: 4.9,
     shipping: "Llega hoy",
     updated: "hace 5 min",
     tags: ["PLA+", "1kg", "1.75mm"],
     material: "PLA+",
     color: "#21252b",
-    url: "#",
+    url: "https://proyectocolor.com.ar",
   },
   {
     id: 5,
     name: "PETG Cristal 1kg 1.75mm",
     category: "Filamentos",
-    store: "Maker Shop",
+    store: "Kimera 3D",
     price: 26800,
     stock: "En stock",
-    city: "Rosario",
+    city: "Argentina",
     rating: 4.7,
     shipping: "Envio 24/48 h",
     updated: "hace 13 min",
     tags: ["PETG", "translucido", "1kg"],
     material: "PETG",
     color: "#9bd5d0",
-    url: "#",
+    url: "https://kimera3d.com.ar",
   },
   {
     id: 6,
     name: "Resina ABS-Like Gris 1kg",
     category: "Resina",
-    store: "Resina Norte",
+    store: "Erexit 3D",
     price: 34500,
     previousPrice: 36900,
     stock: "En stock",
-    city: "Salta",
+    city: "Argentina",
     rating: 4.4,
     shipping: "Correo Argentino",
     updated: "hace 39 min",
     tags: ["ABS-like", "gris", "LCD"],
     material: "ABS-like",
     color: "#8d9198",
-    url: "#",
+    url: "https://erexit3d.com",
   },
   {
     id: 7,
     name: "Hotend all metal Spider V3",
     category: "Repuestos",
-    store: "PrintParts",
+    store: "TP3D",
     price: 73200,
     stock: "Pocas unidades",
-    city: "CABA",
+    city: "Argentina",
     rating: 4.3,
     shipping: "Retiro inmediato",
     updated: "hace 46 min",
     tags: ["hotend", "all metal", "Creality"],
     color: "#bf6b42",
-    url: "#",
+    url: "https://tp3d.com.ar",
   },
   {
     id: 8,
     name: "Boquillas MK8 pack x10 0.4mm",
     category: "Repuestos",
-    store: "Maker Shop",
+    store: "Laboratorio 3D",
     price: 7800,
     stock: "En stock",
-    city: "Rosario",
+    city: "Argentina",
     rating: 4.6,
     shipping: "Envio economico",
     updated: "hace 12 min",
     tags: ["nozzle", "0.4mm", "bronce"],
     color: "#c99a42",
-    url: "#",
+    url: "https://laboratorio3d.com.ar",
   },
   {
     id: 9,
     name: "Kit espatula + pinza + cutter",
     category: "Herramientas",
-    store: "3D Lab",
+    store: "Kimera 3D",
     price: 18400,
     stock: "En stock",
-    city: "CABA",
+    city: "Argentina",
     rating: 4.2,
     shipping: "Mercado Envios",
     updated: "hace 2 h",
     tags: ["postproceso", "starter", "kit"],
     color: "#5e747f",
-    url: "#",
+    url: "https://kimera3d.com.ar",
   },
   {
     id: 10,
     name: "Cama magnetica PEI 235x235",
     category: "Accesorios",
-    store: "Tecno3D",
+    store: "Proyecto Color",
     price: 31800,
     previousPrice: 34900,
     stock: "En stock",
-    city: "Cordoba",
+    city: "Argentina",
     rating: 4.5,
     shipping: "Envio 24/48 h",
     updated: "hace 18 min",
     tags: ["PEI", "Ender 3", "texturada"],
     color: "#d1a842",
-    url: "#",
+    url: "https://proyectocolor.com.ar",
   },
 ];
 
@@ -267,9 +299,9 @@ export default function Home() {
             <p className="eyebrow">Comparador argentino de impresion 3D</p>
             <h1>Busca una pieza, repuesto o maquina y compara tiendas en segundos.</h1>
             <p>
-              MVP navegable con catalogo inicial, filtros por rubro y tienda,
-              orden de precios, estado de stock y datos listos para conectar a
-              scrapers o feeds reales.
+              MVP navegable con las primeras tiendas candidatas cargadas:
+              TP3D, Laboratorio 3D, Erexit 3D, Proyecto Color y Kimera 3D.
+              Los precios siguen siendo demo hasta conectar cada fuente real.
             </p>
           </div>
 
@@ -343,7 +375,7 @@ export default function Home() {
         </div>
         <div>
           <strong>{stores.length - 1}</strong>
-          <span>tiendas demo</span>
+          <span>tiendas iniciales</span>
         </div>
         <div>
           <strong>{bestPrice ? price.format(bestPrice) : "-"}</strong>
@@ -445,8 +477,19 @@ export default function Home() {
           </ol>
           <div className="sync-box" id="tiendas">
             <span>Fuentes listas</span>
-            <strong>CSV · API · Scraping</strong>
+            <strong>5 tiendas candidatas</strong>
             <p>La interfaz ya separa producto, tienda y disponibilidad para conectar datos reales.</p>
+          </div>
+          <div className="source-list" aria-label="Tiendas iniciales">
+            {storeSources.map((source) => (
+              <a href={source.url} key={source.domain} target="_blank" rel="noreferrer">
+                <span>
+                  <strong>{source.name}</strong>
+                  <small>{source.domain}</small>
+                </span>
+                <em>{source.status}</em>
+              </a>
+            ))}
           </div>
         </aside>
       </section>

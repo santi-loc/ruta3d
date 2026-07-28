@@ -575,6 +575,56 @@ select {
   line-height: 1.5;
 }
 
+.source-list {
+  display: grid;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.source-list a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  min-height: 54px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #ffffff;
+  padding: 10px;
+}
+
+.source-list a:hover {
+  border-color: #9fbeb4;
+}
+
+.source-list span {
+  display: grid;
+  min-width: 0;
+  gap: 3px;
+}
+
+.source-list strong,
+.source-list small {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.source-list small {
+  color: var(--muted);
+}
+
+.source-list em {
+  flex: 0 0 auto;
+  border-radius: 999px;
+  background: #edf8f4;
+  color: var(--green-dark);
+  padding: 5px 8px;
+  font-size: 0.72rem;
+  font-style: normal;
+  font-weight: 900;
+}
+
 .empty-state {
   padding: 28px;
   text-align: center;
