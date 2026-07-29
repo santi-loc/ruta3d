@@ -3,6 +3,8 @@
 import { useMemo, useState } from "react";
 import erexitData from "@/data/erexit3d-products.json";
 import laboratorioData from "@/data/laboratorio3d-products.json";
+import proyectoColorData from "@/data/proyectocolor-products.json";
+import tp3dData from "@/data/tp3d-products.json";
 
 type Product = {
   id: string | number;
@@ -38,6 +40,7 @@ type ScrapedProduct = {
   category: string;
   store: string;
   price: number;
+  previousPrice?: number | null;
   transferPrice: number | null;
   stockLabel: string;
   brand: string | null;
@@ -61,7 +64,7 @@ const storeSources: StoreSource[] = [
     name: "TP3D",
     domain: "tp3d.com.ar",
     url: "https://tp3d.com.ar",
-    status: "Mapeada",
+    status: "Conectada",
   },
   {
     name: "Laboratorio 3D",
@@ -79,7 +82,7 @@ const storeSources: StoreSource[] = [
     name: "Proyecto Color",
     domain: "proyectocolor.com.ar",
     url: "https://proyectocolor.com.ar",
-    status: "Mapeada",
+    status: "Conectada",
   },
   {
     name: "Kimera 3D",
@@ -98,6 +101,7 @@ function toProduct(product: ScrapedProduct): Product {
     category: product.category,
     store: product.store,
     price: product.price,
+    previousPrice: product.previousPrice ?? undefined,
     transferPrice: product.transferPrice,
     stock:
       product.stockLabel === "Pocas unidades" || product.stockLabel === "Consultar"
@@ -108,53 +112,27 @@ function toProduct(product: ScrapedProduct): Product {
     shipping: `Dato real de ${product.store}`,
     updated: "scrape real",
     tags: product.tags.length ? product.tags : [product.brand ?? product.store],
-    color: product.store === "Laboratorio 3D" ? "#315f95" : "#8f5aa6",
+    color:
+      product.store === "Laboratorio 3D"
+        ? "#315f95"
+        : product.store === "TP3D"
+          ? "#4f8f82"
+          : product.store === "Proyecto Color"
+            ? "#bf6b42"
+            : "#8f5aa6",
     url: product.url,
     image: product.image,
-    material: product.tags.find((tag) => ["PLA", "PETG", "ABS", "ASA"].includes(tag)),
+    material: product.tags.find((tag) => ["PLA", "PETG", "ABS", "ASA", "TPU", "FLEX"].includes(tag)),
     source: "scraper",
   };
 }
 
 const realErexitProducts = (erexitData.products as ScrapedProduct[]).map(toProduct);
 const realLaboratorioProducts = (laboratorioData.products as ScrapedProduct[]).map(toProduct);
+const realTp3dProducts = (tp3dData.products as ScrapedProduct[]).map(toProduct);
+const realProyectoColorProducts = (proyectoColorData.products as ScrapedProduct[]).map(toProduct);
 
 const demoProducts: Product[] = [
-  {
-    id: 1,
-    name: "Bambu Lab A1 Combo",
-    category: "Impresoras",
-    store: "TP3D",
-    price: 1329000,
-    previousPrice: 1395000,
-    stock: "En stock",
-    city: "Argentina",
-    rating: 4.8,
-    shipping: "Envio gratis",
-    updated: "hace 8 min",
-    tags: ["FDM", "multicolor", "220x220x250"],
-    color: "#4f8f82",
-    url: "https://tp3d.com.ar",
-    source: "demo",
-  },
-  {
-    id: 4,
-    name: "Filamento PLA+ Negro 1kg 1.75mm",
-    category: "Filamentos",
-    store: "Proyecto Color",
-    price: 22900,
-    previousPrice: 24500,
-    stock: "En stock",
-    city: "Argentina",
-    rating: 4.9,
-    shipping: "Llega hoy",
-    updated: "hace 5 min",
-    tags: ["PLA+", "1kg", "1.75mm"],
-    material: "PLA+",
-    color: "#21252b",
-    url: "https://proyectocolor.com.ar",
-    source: "demo",
-  },
   {
     id: 5,
     name: "PETG Cristal 1kg 1.75mm",
@@ -173,22 +151,6 @@ const demoProducts: Product[] = [
     source: "demo",
   },
   {
-    id: 7,
-    name: "Hotend all metal Spider V3",
-    category: "Repuestos",
-    store: "TP3D",
-    price: 73200,
-    stock: "Pocas unidades",
-    city: "Argentina",
-    rating: 4.3,
-    shipping: "Retiro inmediato",
-    updated: "hace 46 min",
-    tags: ["hotend", "all metal", "Creality"],
-    color: "#bf6b42",
-    url: "https://tp3d.com.ar",
-    source: "demo",
-  },
-  {
     id: 9,
     name: "Kit espatula + pinza + cutter",
     category: "Herramientas",
@@ -204,26 +166,14 @@ const demoProducts: Product[] = [
     url: "https://kimera3d.com.ar",
     source: "demo",
   },
-  {
-    id: 10,
-    name: "Cama magnetica PEI 235x235",
-    category: "Accesorios",
-    store: "Proyecto Color",
-    price: 31800,
-    previousPrice: 34900,
-    stock: "En stock",
-    city: "Argentina",
-    rating: 4.5,
-    shipping: "Envio 24/48 h",
-    updated: "hace 18 min",
-    tags: ["PEI", "Ender 3", "texturada"],
-    color: "#d1a842",
-    url: "https://proyectocolor.com.ar",
-    source: "demo",
-  },
 ];
 
-const realProducts = [...realErexitProducts, ...realLaboratorioProducts];
+const realProducts = [
+  ...realErexitProducts,
+  ...realLaboratorioProducts,
+  ...realTp3dProducts,
+  ...realProyectoColorProducts,
+];
 const products = [...realProducts, ...demoProducts];
 const connectedStores = storeSources.filter((source) => source.status === "Conectada").length;
 
@@ -297,9 +247,10 @@ export default function Home() {
             <p className="eyebrow">Comparador argentino de impresion 3D</p>
             <h1>Busca una pieza, repuesto o maquina y compara tiendas en segundos.</h1>
             <p>
-              Erexit 3D y Laboratorio 3D ya estan conectadas con scraper propio:
-              traen productos, precios, stock, imagenes y links reales. Las
-              otras tiendas quedan como demos hasta sumar sus conectores.
+              Erexit 3D, Laboratorio 3D, TP3D y Proyecto Color ya estan
+              conectadas con scraper propio: traen productos, precios, stock,
+              imagenes y links reales. Kimera queda como demo hasta sumar su
+              conector.
             </p>
           </div>
 
@@ -488,12 +439,14 @@ export default function Home() {
           <ol>
             <li>Erexit 3D conectado con scraper paginado.</li>
             <li>Laboratorio 3D conectado con scraper paginado.</li>
+            <li>TP3D conectado por categorias PrestaShop.</li>
+            <li>Proyecto Color conectado por categoria WooCommerce.</li>
             <li>Normalizacion de nombres para agrupar productos equivalentes.</li>
           </ol>
           <div className="sync-box" id="tiendas">
             <span>Fuentes listas</span>
             <strong>{realProducts.length} ofertas reales</strong>
-            <p>Erexit y Laboratorio 3D ya entregan precio, stock, imagen, variantes y link canonico.</p>
+            <p>Cuatro tiendas ya entregan precio, stock, imagen, variantes cuando existen y link canonico.</p>
           </div>
           <div className="source-list" aria-label="Tiendas iniciales">
             {storeSources.map((source) => (

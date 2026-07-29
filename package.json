@@ -15,6 +15,10 @@
     "scrape:erexit3d:sample": "EREXIT_MAX_PAGES=1 node scripts/scrape-erexit3d.mjs --output=data/erexit3d-products.sample.json",
     "scrape:laboratorio3d": "node scripts/scrape-laboratorio3d.mjs",
     "scrape:laboratorio3d:sample": "LAB3D_MAX_PAGES=1 node scripts/scrape-laboratorio3d.mjs --output=data/laboratorio3d-products.sample.json",
+    "scrape:tp3d": "node scripts/scrape-tp3d.mjs",
+    "scrape:tp3d:sample": "TP3D_MAX_PAGES=1 node scripts/scrape-tp3d.mjs --output=data/tp3d-products.sample.json",
+    "scrape:proyectocolor": "node scripts/scrape-proyectocolor.mjs",
+    "scrape:proyectocolor:sample": "PROYECTO_COLOR_MAX_PAGES=1 node scripts/scrape-proyectocolor.mjs --output=data/proyectocolor-products.sample.json",
     "db:generate": "drizzle-kit generate"
   },
   "dependencies": {

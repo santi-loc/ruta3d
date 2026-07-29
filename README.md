@@ -3,8 +3,8 @@
 Comparador argentino de precios para productos de impresion 3D.
 
 El MVP muestra tiendas candidatas, filtros por categoria/tienda, orden por precio,
-stock y links de oferta. Erexit 3D y Laboratorio 3D ya tienen scrapers reales
-conectados.
+stock y links de oferta. Erexit 3D, Laboratorio 3D, TP3D y Proyecto Color ya
+tienen scrapers reales conectados.
 
 ## Comandos
 
@@ -13,6 +13,8 @@ pnpm run dev
 pnpm run build
 pnpm run scrape:erexit3d
 pnpm run scrape:laboratorio3d
+pnpm run scrape:tp3d
+pnpm run scrape:proyectocolor
 ```
 
 ## Scrapers conectados
@@ -21,8 +23,10 @@ Los scrapers estan en:
 
 - `scripts/scrape-erexit3d.mjs`
 - `scripts/scrape-laboratorio3d.mjs`
+- `scripts/scrape-tp3d.mjs`
+- `scripts/scrape-proyectocolor.mjs`
 
-Extraen desde sus catalogos `/productos/` y paginas sucesivas:
+Extraen desde sus catalogos y paginas sucesivas:
 
 - nombre
 - categoria inferida
@@ -40,6 +44,8 @@ Salida principal:
 ```bash
 data/erexit3d-products.json
 data/laboratorio3d-products.json
+data/tp3d-products.json
+data/proyectocolor-products.json
 ```
 
 Para probar solo la primera pagina:
@@ -47,6 +53,8 @@ Para probar solo la primera pagina:
 ```bash
 pnpm run scrape:erexit3d:sample
 pnpm run scrape:laboratorio3d:sample
+pnpm run scrape:tp3d:sample
+pnpm run scrape:proyectocolor:sample
 ```
 
 ## Proximos conectores
@@ -55,6 +63,4 @@ Las fuentes iniciales estan en `store-sources.json`.
 
 Pendientes:
 
-- TP3D
-- Proyecto Color
 - Kimera 3D
