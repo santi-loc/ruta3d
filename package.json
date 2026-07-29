@@ -13,6 +13,8 @@
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
     "scrape:erexit3d": "node scripts/scrape-erexit3d.mjs",
     "scrape:erexit3d:sample": "EREXIT_MAX_PAGES=1 node scripts/scrape-erexit3d.mjs --output=data/erexit3d-products.sample.json",
+    "scrape:laboratorio3d": "node scripts/scrape-laboratorio3d.mjs",
+    "scrape:laboratorio3d:sample": "LAB3D_MAX_PAGES=1 node scripts/scrape-laboratorio3d.mjs --output=data/laboratorio3d-products.sample.json",
     "db:generate": "drizzle-kit generate"
   },
   "dependencies": {

@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from "react";
 import erexitData from "@/data/erexit3d-products.json";
+import laboratorioData from "@/data/laboratorio3d-products.json";
 
 type Product = {
   id: string | number;
@@ -66,7 +67,7 @@ const storeSources: StoreSource[] = [
     name: "Laboratorio 3D",
     domain: "laboratorio3d.com.ar",
     url: "https://laboratorio3d.com.ar",
-    status: "Mapeada",
+    status: "Conectada",
   },
   {
     name: "Erexit 3D",
@@ -90,28 +91,33 @@ const storeSources: StoreSource[] = [
 
 const stores = ["Todas", ...storeSources.map((source) => source.name)];
 
-const realErexitProducts: Product[] = (erexitData.products as ScrapedProduct[]).map((product) => ({
-  id: product.id,
-  name: product.name,
-  category: product.category,
-  store: product.store,
-  price: product.price,
-  transferPrice: product.transferPrice,
-  stock:
-    product.stockLabel === "Pocas unidades" || product.stockLabel === "Consultar"
-      ? product.stockLabel
-      : "En stock",
-  city: "Argentina",
-  rating: 4.7,
-  shipping: "Dato real de Erexit",
-  updated: "scrape real",
-  tags: product.tags.length ? product.tags : [product.brand ?? "Erexit"],
-  color: "#8f5aa6",
-  url: product.url,
-  image: product.image,
-  material: product.tags.find((tag) => ["PLA", "PETG", "ABS"].includes(tag)),
-  source: "scraper",
-}));
+function toProduct(product: ScrapedProduct): Product {
+  return {
+    id: product.id,
+    name: product.name,
+    category: product.category,
+    store: product.store,
+    price: product.price,
+    transferPrice: product.transferPrice,
+    stock:
+      product.stockLabel === "Pocas unidades" || product.stockLabel === "Consultar"
+        ? product.stockLabel
+        : "En stock",
+    city: "Argentina",
+    rating: 4.7,
+    shipping: `Dato real de ${product.store}`,
+    updated: "scrape real",
+    tags: product.tags.length ? product.tags : [product.brand ?? product.store],
+    color: product.store === "Laboratorio 3D" ? "#315f95" : "#8f5aa6",
+    url: product.url,
+    image: product.image,
+    material: product.tags.find((tag) => ["PLA", "PETG", "ABS", "ASA"].includes(tag)),
+    source: "scraper",
+  };
+}
+
+const realErexitProducts = (erexitData.products as ScrapedProduct[]).map(toProduct);
+const realLaboratorioProducts = (laboratorioData.products as ScrapedProduct[]).map(toProduct);
 
 const demoProducts: Product[] = [
   {
@@ -129,22 +135,6 @@ const demoProducts: Product[] = [
     tags: ["FDM", "multicolor", "220x220x250"],
     color: "#4f8f82",
     url: "https://tp3d.com.ar",
-    source: "demo",
-  },
-  {
-    id: 2,
-    name: "Creality K1C",
-    category: "Impresoras",
-    store: "Laboratorio 3D",
-    price: 1048000,
-    stock: "Pocas unidades",
-    city: "Argentina",
-    rating: 4.6,
-    shipping: "Retiro o envio",
-    updated: "hace 21 min",
-    tags: ["CoreXY", "carbono", "300 C"],
-    color: "#2f6fbc",
-    url: "https://laboratorio3d.com.ar",
     source: "demo",
   },
   {
@@ -199,22 +189,6 @@ const demoProducts: Product[] = [
     source: "demo",
   },
   {
-    id: 8,
-    name: "Boquillas MK8 pack x10 0.4mm",
-    category: "Repuestos",
-    store: "Laboratorio 3D",
-    price: 7800,
-    stock: "En stock",
-    city: "Argentina",
-    rating: 4.6,
-    shipping: "Envio economico",
-    updated: "hace 12 min",
-    tags: ["nozzle", "0.4mm", "bronce"],
-    color: "#c99a42",
-    url: "https://laboratorio3d.com.ar",
-    source: "demo",
-  },
-  {
     id: 9,
     name: "Kit espatula + pinza + cutter",
     category: "Herramientas",
@@ -249,11 +223,9 @@ const demoProducts: Product[] = [
   },
 ];
 
-const products = [...realErexitProducts, ...demoProducts];
-const scrapedAt = new Intl.DateTimeFormat("es-AR", {
-  dateStyle: "short",
-  timeStyle: "short",
-}).format(new Date(erexitData.scrapedAt));
+const realProducts = [...realErexitProducts, ...realLaboratorioProducts];
+const products = [...realProducts, ...demoProducts];
+const connectedStores = storeSources.filter((source) => source.status === "Conectada").length;
 
 const price = new Intl.NumberFormat("es-AR", {
   style: "currency",
@@ -269,7 +241,11 @@ export default function Home() {
   const [stockOnly, setStockOnly] = useState(true);
 
   const filtered = useMemo(() => {
-    const normalizedQuery = query.trim().toLowerCase();
+    const queryTerms = query
+      .trim()
+      .toLowerCase()
+      .split(/\s+/)
+      .filter(Boolean);
 
     return products
       .filter((product) => {
@@ -286,7 +262,7 @@ export default function Home() {
           .toLowerCase();
 
         return (
-          (!normalizedQuery || haystack.includes(normalizedQuery)) &&
+          (!queryTerms.length || queryTerms.every((term) => haystack.includes(term))) &&
           (category === "Todo" || product.category === category) &&
           (store === "Todas" || product.store === store) &&
           (!stockOnly || product.stock !== "Consultar")
@@ -321,9 +297,9 @@ export default function Home() {
             <p className="eyebrow">Comparador argentino de impresion 3D</p>
             <h1>Busca una pieza, repuesto o maquina y compara tiendas en segundos.</h1>
             <p>
-              Erexit 3D ya esta conectado con scraper propio: trae productos,
-              precios, stock, imagenes y links reales. Las otras tiendas quedan
-              como demos hasta sumar sus conectores.
+              Erexit 3D y Laboratorio 3D ya estan conectadas con scraper propio:
+              traen productos, precios, stock, imagenes y links reales. Las
+              otras tiendas quedan como demos hasta sumar sus conectores.
             </p>
           </div>
 
@@ -392,8 +368,8 @@ export default function Home() {
 
       <section className="stats-band" aria-label="Resumen">
         <div>
-          <strong>{realErexitProducts.length}</strong>
-          <span>ofertas reales Erexit</span>
+          <strong>{realProducts.length}</strong>
+          <span>ofertas reales</span>
         </div>
         <div>
           <strong>{stores.length - 1}</strong>
@@ -404,8 +380,8 @@ export default function Home() {
           <span>precio mas bajo</span>
         </div>
         <div>
-          <strong>{scrapedAt}</strong>
-          <span>ultima captura</span>
+          <strong>{connectedStores}</strong>
+          <span>tiendas conectadas</span>
         </div>
       </section>
 
@@ -511,13 +487,13 @@ export default function Home() {
           <h2>Proximo modulo</h2>
           <ol>
             <li>Erexit 3D conectado con scraper paginado.</li>
+            <li>Laboratorio 3D conectado con scraper paginado.</li>
             <li>Normalizacion de nombres para agrupar productos equivalentes.</li>
-            <li>Historial de precios y alertas por WhatsApp o email.</li>
           </ol>
           <div className="sync-box" id="tiendas">
             <span>Fuentes listas</span>
-            <strong>{realErexitProducts.length} ofertas reales</strong>
-            <p>Erexit ya entrega precio, stock, imagen, variantes y link canonico desde el scraper.</p>
+            <strong>{realProducts.length} ofertas reales</strong>
+            <p>Erexit y Laboratorio 3D ya entregan precio, stock, imagen, variantes y link canonico.</p>
           </div>
           <div className="source-list" aria-label="Tiendas iniciales">
             {storeSources.map((source) => (

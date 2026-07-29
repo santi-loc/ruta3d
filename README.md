@@ -3,7 +3,8 @@
 Comparador argentino de precios para productos de impresion 3D.
 
 El MVP muestra tiendas candidatas, filtros por categoria/tienda, orden por precio,
-stock y links de oferta. Erexit 3D ya tiene un primer scraper real conectado.
+stock y links de oferta. Erexit 3D y Laboratorio 3D ya tienen scrapers reales
+conectados.
 
 ## Comandos
 
@@ -11,13 +12,17 @@ stock y links de oferta. Erexit 3D ya tiene un primer scraper real conectado.
 pnpm run dev
 pnpm run build
 pnpm run scrape:erexit3d
+pnpm run scrape:laboratorio3d
 ```
 
-## Scraper Erexit 3D
+## Scrapers conectados
 
-El scraper esta en `scripts/scrape-erexit3d.mjs`.
+Los scrapers estan en:
 
-Extrae desde `https://erexit3d.com/productos/` y paginas sucesivas:
+- `scripts/scrape-erexit3d.mjs`
+- `scripts/scrape-laboratorio3d.mjs`
+
+Extraen desde sus catalogos `/productos/` y paginas sucesivas:
 
 - nombre
 - categoria inferida
@@ -34,12 +39,14 @@ Salida principal:
 
 ```bash
 data/erexit3d-products.json
+data/laboratorio3d-products.json
 ```
 
 Para probar solo la primera pagina:
 
 ```bash
 pnpm run scrape:erexit3d:sample
+pnpm run scrape:laboratorio3d:sample
 ```
 
 ## Proximos conectores
@@ -49,6 +56,5 @@ Las fuentes iniciales estan en `store-sources.json`.
 Pendientes:
 
 - TP3D
-- Laboratorio 3D
 - Proyecto Color
 - Kimera 3D
