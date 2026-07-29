@@ -187,7 +187,7 @@ export default function Home() {
   const [query, setQuery] = useState("filamento pla");
   const [category, setCategory] = useState("Todo");
   const [store, setStore] = useState("Todas");
-  const [sort, setSort] = useState<"desc" | "asc">("desc");
+  const [sort, setSort] = useState<"desc" | "asc">("asc");
   const [stockOnly, setStockOnly] = useState(true);
 
   const filtered = useMemo(() => {
@@ -267,15 +267,6 @@ export default function Home() {
             </div>
 
             <div className="control-grid">
-              <label>
-                Categoria
-                <select value={category} onChange={(event) => setCategory(event.target.value)}>
-                  {categories.map((item) => (
-                    <option key={item}>{item}</option>
-                  ))}
-                </select>
-              </label>
-
               <label>
                 Tienda
                 <select value={store} onChange={(event) => setStore(event.target.value)}>
