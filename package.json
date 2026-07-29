@@ -1,5 +1,5 @@
 {
-  "name": "site-creator-vinext-starter",
+  "name": "filtrar-3d",
   "version": "0.1.0",
   "private": true,
   "engines": {
@@ -11,6 +11,8 @@
     "start": "WRANGLER_LOG_PATH=.wrangler/wrangler.log vinext start",
     "test": "npm run build && node --test tests/rendered-html.test.mjs",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
+    "scrape:erexit3d": "node scripts/scrape-erexit3d.mjs",
+    "scrape:erexit3d:sample": "EREXIT_MAX_PAGES=1 node scripts/scrape-erexit3d.mjs --output=data/erexit3d-products.sample.json",
     "db:generate": "drizzle-kit generate"
   },
   "dependencies": {

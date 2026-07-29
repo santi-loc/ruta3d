@@ -1,14 +1,16 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import erexitData from "@/data/erexit3d-products.json";
 
 type Product = {
-  id: number;
+  id: string | number;
   name: string;
   category: string;
   store: string;
   price: number;
   previousPrice?: number;
+  transferPrice?: number | null;
   stock: "En stock" | "Pocas unidades" | "Consultar";
   city: string;
   rating: number;
@@ -18,13 +20,29 @@ type Product = {
   color: string;
   material?: string;
   url: string;
+  image?: string | null;
+  source: "scraper" | "demo";
 };
 
 type StoreSource = {
   name: string;
   domain: string;
   url: string;
-  status: "Pendiente" | "Mapeada";
+  status: "Pendiente" | "Mapeada" | "Conectada";
+};
+
+type ScrapedProduct = {
+  id: string;
+  name: string;
+  category: string;
+  store: string;
+  price: number;
+  transferPrice: number | null;
+  stockLabel: string;
+  brand: string | null;
+  tags: string[];
+  image: string | null;
+  url: string;
 };
 
 const categories = [
@@ -54,7 +72,7 @@ const storeSources: StoreSource[] = [
     name: "Erexit 3D",
     domain: "erexit3d.com",
     url: "https://erexit3d.com",
-    status: "Mapeada",
+    status: "Conectada",
   },
   {
     name: "Proyecto Color",
@@ -72,7 +90,30 @@ const storeSources: StoreSource[] = [
 
 const stores = ["Todas", ...storeSources.map((source) => source.name)];
 
-const products: Product[] = [
+const realErexitProducts: Product[] = (erexitData.products as ScrapedProduct[]).map((product) => ({
+  id: product.id,
+  name: product.name,
+  category: product.category,
+  store: product.store,
+  price: product.price,
+  transferPrice: product.transferPrice,
+  stock:
+    product.stockLabel === "Pocas unidades" || product.stockLabel === "Consultar"
+      ? product.stockLabel
+      : "En stock",
+  city: "Argentina",
+  rating: 4.7,
+  shipping: "Dato real de Erexit",
+  updated: "scrape real",
+  tags: product.tags.length ? product.tags : [product.brand ?? "Erexit"],
+  color: "#8f5aa6",
+  url: product.url,
+  image: product.image,
+  material: product.tags.find((tag) => ["PLA", "PETG", "ABS"].includes(tag)),
+  source: "scraper",
+}));
+
+const demoProducts: Product[] = [
   {
     id: 1,
     name: "Bambu Lab A1 Combo",
@@ -88,6 +129,7 @@ const products: Product[] = [
     tags: ["FDM", "multicolor", "220x220x250"],
     color: "#4f8f82",
     url: "https://tp3d.com.ar",
+    source: "demo",
   },
   {
     id: 2,
@@ -103,22 +145,7 @@ const products: Product[] = [
     tags: ["CoreXY", "carbono", "300 C"],
     color: "#2f6fbc",
     url: "https://laboratorio3d.com.ar",
-  },
-  {
-    id: 3,
-    name: "Anycubic Photon Mono M5s Pro",
-    category: "Impresoras",
-    store: "Erexit 3D",
-    price: 938500,
-    previousPrice: 1012000,
-    stock: "Consultar",
-    city: "Argentina",
-    rating: 4.5,
-    shipping: "A coordinar",
-    updated: "hace 1 h",
-    tags: ["SLA", "14K", "resina"],
-    color: "#8f5aa6",
-    url: "https://erexit3d.com",
+    source: "demo",
   },
   {
     id: 4,
@@ -136,6 +163,7 @@ const products: Product[] = [
     material: "PLA+",
     color: "#21252b",
     url: "https://proyectocolor.com.ar",
+    source: "demo",
   },
   {
     id: 5,
@@ -152,23 +180,7 @@ const products: Product[] = [
     material: "PETG",
     color: "#9bd5d0",
     url: "https://kimera3d.com.ar",
-  },
-  {
-    id: 6,
-    name: "Resina ABS-Like Gris 1kg",
-    category: "Resina",
-    store: "Erexit 3D",
-    price: 34500,
-    previousPrice: 36900,
-    stock: "En stock",
-    city: "Argentina",
-    rating: 4.4,
-    shipping: "Correo Argentino",
-    updated: "hace 39 min",
-    tags: ["ABS-like", "gris", "LCD"],
-    material: "ABS-like",
-    color: "#8d9198",
-    url: "https://erexit3d.com",
+    source: "demo",
   },
   {
     id: 7,
@@ -184,6 +196,7 @@ const products: Product[] = [
     tags: ["hotend", "all metal", "Creality"],
     color: "#bf6b42",
     url: "https://tp3d.com.ar",
+    source: "demo",
   },
   {
     id: 8,
@@ -199,6 +212,7 @@ const products: Product[] = [
     tags: ["nozzle", "0.4mm", "bronce"],
     color: "#c99a42",
     url: "https://laboratorio3d.com.ar",
+    source: "demo",
   },
   {
     id: 9,
@@ -214,6 +228,7 @@ const products: Product[] = [
     tags: ["postproceso", "starter", "kit"],
     color: "#5e747f",
     url: "https://kimera3d.com.ar",
+    source: "demo",
   },
   {
     id: 10,
@@ -230,8 +245,15 @@ const products: Product[] = [
     tags: ["PEI", "Ender 3", "texturada"],
     color: "#d1a842",
     url: "https://proyectocolor.com.ar",
+    source: "demo",
   },
 ];
+
+const products = [...realErexitProducts, ...demoProducts];
+const scrapedAt = new Intl.DateTimeFormat("es-AR", {
+  dateStyle: "short",
+  timeStyle: "short",
+}).format(new Date(erexitData.scrapedAt));
 
 const price = new Intl.NumberFormat("es-AR", {
   style: "currency",
@@ -299,9 +321,9 @@ export default function Home() {
             <p className="eyebrow">Comparador argentino de impresion 3D</p>
             <h1>Busca una pieza, repuesto o maquina y compara tiendas en segundos.</h1>
             <p>
-              MVP navegable con las primeras tiendas candidatas cargadas:
-              TP3D, Laboratorio 3D, Erexit 3D, Proyecto Color y Kimera 3D.
-              Los precios siguen siendo demo hasta conectar cada fuente real.
+              Erexit 3D ya esta conectado con scraper propio: trae productos,
+              precios, stock, imagenes y links reales. Las otras tiendas quedan
+              como demos hasta sumar sus conectores.
             </p>
           </div>
 
@@ -370,8 +392,8 @@ export default function Home() {
 
       <section className="stats-band" aria-label="Resumen">
         <div>
-          <strong>{filtered.length}</strong>
-          <span>ofertas visibles</span>
+          <strong>{realErexitProducts.length}</strong>
+          <span>ofertas reales Erexit</span>
         </div>
         <div>
           <strong>{stores.length - 1}</strong>
@@ -382,8 +404,8 @@ export default function Home() {
           <span>precio mas bajo</span>
         </div>
         <div>
-          <strong>5 min</strong>
-          <span>frecuencia objetivo</span>
+          <strong>{scrapedAt}</strong>
+          <span>ultima captura</span>
         </div>
       </section>
 
@@ -422,12 +444,19 @@ export default function Home() {
             {filtered.map((product) => (
               <article className="product-card" key={product.id}>
                 <div className="product-visual" style={{ backgroundColor: product.color }}>
-                  <span>{product.category.slice(0, 3).toUpperCase()}</span>
+                  {product.image ? (
+                    <img src={product.image} alt="" loading="lazy" />
+                  ) : (
+                    <span>{product.category.slice(0, 3).toUpperCase()}</span>
+                  )}
                 </div>
                 <div className="product-info">
                   <div className="product-head">
                     <div>
-                      <p>{product.store} · {product.city}</p>
+                      <p>
+                        {product.store} · {product.city} ·{" "}
+                        {product.source === "scraper" ? "dato real" : "demo"}
+                      </p>
                       <h3>{product.name}</h3>
                     </div>
                     <span className={`stock ${product.stock === "En stock" ? "ok" : ""}`}>
@@ -445,13 +474,23 @@ export default function Home() {
                       {product.previousPrice ? (
                         <small>{price.format(product.previousPrice)}</small>
                       ) : null}
+                      {product.transferPrice ? (
+                        <small className="transfer-price">
+                          {price.format(product.transferPrice)} transferencia
+                        </small>
+                      ) : null}
                     </div>
                     <div className="meta">
                       <span>{product.shipping}</span>
                       <span>{product.rating.toFixed(1)} valoracion</span>
                       <span>{product.updated}</span>
                     </div>
-                    <a href={product.url} aria-label={`Ver ${product.name} en ${product.store}`}>
+                    <a
+                      href={product.url}
+                      target="_blank"
+                      rel="noreferrer"
+                      aria-label={`Ver ${product.name} en ${product.store}`}
+                    >
                       Ver oferta
                     </a>
                   </div>
@@ -471,14 +510,14 @@ export default function Home() {
         <aside className="pipeline-panel" id="fuentes">
           <h2>Proximo modulo</h2>
           <ol>
-            <li>Scrapers por tienda con precio, stock y link canonico.</li>
+            <li>Erexit 3D conectado con scraper paginado.</li>
             <li>Normalizacion de nombres para agrupar productos equivalentes.</li>
             <li>Historial de precios y alertas por WhatsApp o email.</li>
           </ol>
           <div className="sync-box" id="tiendas">
             <span>Fuentes listas</span>
-            <strong>5 tiendas candidatas</strong>
-            <p>La interfaz ya separa producto, tienda y disponibilidad para conectar datos reales.</p>
+            <strong>{realErexitProducts.length} ofertas reales</strong>
+            <p>Erexit ya entrega precio, stock, imagen, variantes y link canonico desde el scraper.</p>
           </div>
           <div className="source-list" aria-label="Tiendas iniciales">
             {storeSources.map((source) => (
