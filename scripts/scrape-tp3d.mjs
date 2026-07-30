@@ -42,12 +42,18 @@ function normalizeUrl(value) {
 
 function parseMoney(value) {
   if (!value) return null;
-  const normalized = decodeHtml(String(value))
-    .replace(/[^\d,.]/g, "")
-    .replace(/\./g, "")
-    .replace(",", ".");
+  const text = decodeHtml(String(value));
+  const match = text.match(/\d[\d.]*,\d{2}|\d[\d.]*/);
+  if (!match) return null;
+
+  const normalized = match[0].replace(/\./g, "").replace(",", ".");
   const amount = Number.parseFloat(normalized);
   return Number.isFinite(amount) ? amount : null;
+}
+
+function validTransferPrice(price, transferPrice) {
+  if (!price || !transferPrice) return null;
+  return transferPrice < price ? transferPrice : null;
 }
 
 function inferCategory(name, listingLabel) {
@@ -104,7 +110,8 @@ function extractProducts(html, sourceUrl, listingLabel) {
       const name = decodeHtml(block.match(/<h2[\s\S]*?<a[^>]*>([\s\S]*?)<\/a>\s*<\/h2>/)?.[1] ?? block.match(/alt="([^"]+)"/)?.[1] ?? "");
       const image = normalizeUrl(block.match(/data-full-size-image-url="([^"]+)"/)?.[1] ?? block.match(/<img[\s\S]*?src="([^"]+)"/)?.[1]);
       const price = parseMoney(block.match(/<span class="price"[^>]*>([\s\S]*?)<\/span>/)?.[1]);
-      const transferPrice = parseMoney(block.match(/<span class="pc-transfer-price"[^>]*>([\s\S]*?)<\/span>/)?.[1]);
+      const rawTransferPrice = parseMoney(block.match(/<span class="pc-transfer-price"[^>]*>([\s\S]*?)<\/span>/)?.[1]);
+      const transferPrice = validTransferPrice(price, rawTransferPrice);
 
       if (!name || !url || !price) return null;
 
