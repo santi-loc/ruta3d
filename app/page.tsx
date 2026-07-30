@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from "react";
 import erexitData from "@/data/erexit3d-products.json";
+import kimeraData from "@/data/kimera3d-products.json";
 import laboratorioData from "@/data/laboratorio3d-products.json";
 import proyectoColorData from "@/data/proyectocolor-products.json";
 import tp3dData from "@/data/tp3d-products.json";
@@ -16,10 +17,10 @@ type Product = {
   transferPrice?: number | null;
   stock: "En stock" | "Pocas unidades" | "Consultar";
   city: string;
-  rating: number;
   shipping: string;
   updated: string;
   tags: string[];
+  brand?: string;
   color: string;
   material?: string;
   url: string;
@@ -49,14 +50,14 @@ type ScrapedProduct = {
   url: string;
 };
 
-const categories = [
-  "Todo",
-  "Impresoras",
-  "Filamentos",
+const categoryOptions = [
+  "Todas",
+  "Impresoras FDM",
+  "Impresoras de Resina",
+  "Filamento",
   "Resina",
-  "Repuestos",
-  "Herramientas",
   "Accesorios",
+  "Repuestos",
 ];
 
 const storeSources: StoreSource[] = [
@@ -88,13 +89,70 @@ const storeSources: StoreSource[] = [
     name: "Kimera 3D",
     domain: "kimera3d.com.ar",
     url: "https://kimera3d.com.ar",
-    status: "Mapeada",
+    status: "Conectada",
   },
 ];
 
-const stores = ["Todas", ...storeSources.map((source) => source.name)];
+const connectedStoreSources = storeSources.filter((source) => source.status === "Conectada");
+const stores = ["Todas", ...connectedStoreSources.map((source) => source.name)];
+
+const filamentBrandNames = [
+  "Bambu Lab",
+  "Flashforge",
+  "Printalot",
+  "Anycubic",
+  "Artillery",
+  "Creality",
+  "Filanova",
+  "Filalab",
+  "Fremover",
+  "Elegoo",
+  "GST3D",
+  "GST",
+  "Hellbot",
+  "Toolbox",
+  "Filar",
+];
+const unknownBrand = "Sin marca";
+const unknownMaterial = "Sin material";
+const materialLabels = ["PLA", "PETG", "ABS", "ASA", "TPU", "FLEX", "NYLON", "PC", "PVA"];
+const materialSearchAliases = new Map([
+  ["pla", "PLA"],
+  ["petg", "PETG"],
+  ["abs", "ABS"],
+  ["asa", "ASA"],
+  ["tpu", "TPU"],
+  ["flex", "FLEX"],
+  ["nylon", "NYLON"],
+  ["pc", "PC"],
+  ["pva", "PVA"],
+]);
+const searchTermAliases = new Map([
+  ["boquilla", ["boquilla", "nozzle"]],
+  ["boquillas", ["boquilla", "boquillas", "nozzle", "nozzles"]],
+  ["nozzle", ["nozzle", "boquilla"]],
+  ["nozzles", ["nozzle", "nozzles", "boquilla", "boquillas"]],
+]);
+
+function inferBrand(name: string, tags: string[], brand?: string | null) {
+  const text = searchableText([name, brand, ...tags]);
+  const matchedBrand = filamentBrandNames.find((item) => text.includes(item.toLowerCase()));
+
+  if (matchedBrand === "GST") return "GST3D";
+
+  return matchedBrand ?? brand ?? unknownBrand;
+}
+
+function inferMaterial(name: string, tags: string[]) {
+  const text = searchableText([name, ...tags]);
+  const tokens = searchableTokens(text);
+
+  return materialLabels.find((material) => tokens.includes(material.toLowerCase())) ?? unknownMaterial;
+}
 
 function toProduct(product: ScrapedProduct): Product {
+  const tags = product.tags.length ? product.tags : [product.brand ?? product.store];
+
   return {
     id: product.id,
     name: product.name,
@@ -108,10 +166,10 @@ function toProduct(product: ScrapedProduct): Product {
         ? product.stockLabel
         : "En stock",
     city: "Argentina",
-    rating: 4.7,
     shipping: `Dato real de ${product.store}`,
     updated: "scrape real",
-    tags: product.tags.length ? product.tags : [product.brand ?? product.store],
+    tags,
+    brand: inferBrand(product.name, tags, product.brand),
     color:
       product.store === "Laboratorio 3D"
         ? "#315f95"
@@ -122,7 +180,7 @@ function toProduct(product: ScrapedProduct): Product {
             : "#8f5aa6",
     url: product.url,
     image: product.image,
-    material: product.tags.find((tag) => ["PLA", "PETG", "ABS", "ASA", "TPU", "FLEX"].includes(tag)),
+    material: inferMaterial(product.name, tags),
     source: "scraper",
   };
 }
@@ -131,51 +189,17 @@ const realErexitProducts = (erexitData.products as ScrapedProduct[]).map(toProdu
 const realLaboratorioProducts = (laboratorioData.products as ScrapedProduct[]).map(toProduct);
 const realTp3dProducts = (tp3dData.products as ScrapedProduct[]).map(toProduct);
 const realProyectoColorProducts = (proyectoColorData.products as ScrapedProduct[]).map(toProduct);
-
-const demoProducts: Product[] = [
-  {
-    id: 5,
-    name: "PETG Cristal 1kg 1.75mm",
-    category: "Filamentos",
-    store: "Kimera 3D",
-    price: 26800,
-    stock: "En stock",
-    city: "Argentina",
-    rating: 4.7,
-    shipping: "Envio 24/48 h",
-    updated: "hace 13 min",
-    tags: ["PETG", "translucido", "1kg"],
-    material: "PETG",
-    color: "#9bd5d0",
-    url: "https://kimera3d.com.ar",
-    source: "demo",
-  },
-  {
-    id: 9,
-    name: "Kit espatula + pinza + cutter",
-    category: "Herramientas",
-    store: "Kimera 3D",
-    price: 18400,
-    stock: "En stock",
-    city: "Argentina",
-    rating: 4.2,
-    shipping: "Mercado Envios",
-    updated: "hace 2 h",
-    tags: ["postproceso", "starter", "kit"],
-    color: "#5e747f",
-    url: "https://kimera3d.com.ar",
-    source: "demo",
-  },
-];
+const realKimeraProducts = (kimeraData.products as ScrapedProduct[]).map(toProduct);
 
 const realProducts = [
   ...realErexitProducts,
   ...realLaboratorioProducts,
   ...realTp3dProducts,
   ...realProyectoColorProducts,
+  ...realKimeraProducts,
 ];
-const products = [...realProducts, ...demoProducts];
-const connectedStores = storeSources.filter((source) => source.status === "Conectada").length;
+const products = realProducts;
+const connectedStores = connectedStoreSources.length;
 
 const price = new Intl.NumberFormat("es-AR", {
   style: "currency",
@@ -183,12 +207,268 @@ const price = new Intl.NumberFormat("es-AR", {
   maximumFractionDigits: 0,
 });
 
+function bestAvailablePrice(product: Product) {
+  return product.transferPrice ?? product.price;
+}
+
+const filamentQueryTerms = new Set(["filamento", "filamentos"]);
+const filamentMaterialTerms = new Set(["pla", "petg", "abs", "asa", "tpu", "flex", "nylon", "pc", "pva"]);
+const filamentProductPhrases = [
+  "filamento",
+  "filamentos",
+  "ecofila",
+  "rollo",
+  "bobina",
+  "recarga",
+];
+const nonFilamentProductWords = [
+  "sensor",
+  "resina",
+  "impresora",
+  "secador",
+  "secado",
+  "cable",
+  "cortador",
+  "corte",
+  "base",
+  "soporte",
+  "repuesto",
+  "boquilla",
+  "nozzle",
+  "hotend",
+  "termistor",
+  "correa",
+  "coller",
+  "final de carrera",
+  "extrusor",
+];
+
+function searchableText(values: Array<string | undefined | null>) {
+  return values.filter(Boolean).join(" ").toLowerCase();
+}
+
+function searchableTokens(text: string): string[] {
+  return text.match(/[a-z0-9.]+/g) ?? [];
+}
+
+function isFilamentProduct(product: Product) {
+  const text = searchableText([product.name, product.brand, product.material, ...product.tags]);
+  const tokens = searchableTokens(text);
+  const hasMaterialSignal = tokens.some((token) => filamentMaterialTerms.has(token));
+  const hasFilamentSignal =
+    hasMaterialSignal || filamentProductPhrases.some((word) => text.includes(word));
+  const hasAccessorySignal = nonFilamentProductWords.some((word) => text.includes(word));
+
+  return hasFilamentSignal && !hasAccessorySignal;
+}
+
+function queryTermMatches(term: string, haystack: string, product: Product) {
+  if (filamentQueryTerms.has(term)) return isFilamentProduct(product);
+  if (filamentMaterialTerms.has(term)) return product.material?.toLowerCase() === term;
+
+  return (searchTermAliases.get(term) ?? [term]).some((alias) => haystack.includes(alias));
+}
+
+function productText(product: Product) {
+  return searchableText([
+    product.name,
+    product.category,
+    product.brand,
+    product.material,
+    ...product.tags,
+  ]);
+}
+
+function isResinPrinter(product: Product) {
+  const text = productText(product);
+  const hasPrinterSignal =
+    text.includes("impresora") ||
+    text.includes("printer") ||
+    text.includes("halot") ||
+    text.includes("photon") ||
+    text.includes("saturn") ||
+    text.includes("mars");
+  const hasResinSignal =
+    text.includes("resina") ||
+    text.includes("msla") ||
+    text.includes("dlp") ||
+    text.includes("lcd") ||
+    text.includes("halot") ||
+    text.includes("photon") ||
+    text.includes("saturn") ||
+    text.includes("mars");
+
+  return hasPrinterSignal && hasResinSignal;
+}
+
+function isFdmPrinter(product: Product) {
+  const text = productText(product);
+  const hasPrinterSignal =
+    product.category === "Impresoras" ||
+    text.includes("impresora") ||
+    text.includes("printer") ||
+    text.includes("bambu lab a1") ||
+    text.includes("bambulab a1") ||
+    text.includes("bambu lab p1") ||
+    text.includes("bambulab p1") ||
+    text.includes("bambu lab x1") ||
+    text.includes("bambulab x1") ||
+    text.includes("adventurer") ||
+    text.includes("centauri carbon") ||
+    text.includes("prusa core") ||
+    text.includes("snapmaker");
+  const accessorySignal =
+    product.category === "Repuestos" ||
+    text.includes("camara") ||
+    text.includes("cámara") ||
+    text.includes("cable") ||
+    text.includes("kit cerramiento") ||
+    text.includes("hub ams") ||
+    text.includes("cama ") ||
+    text.includes("placa") ||
+    text.includes("nozzle") ||
+    text.includes("boquilla") ||
+    text.includes("hotend") ||
+    text.includes("scanner");
+
+  return hasPrinterSignal && !isResinPrinter(product) && !accessorySignal;
+}
+
+function isResinMaterial(product: Product) {
+  const text = productText(product);
+  const tokens = searchableTokens(text);
+  const isWashOrCure =
+    text.includes("lavado") ||
+    text.includes("curado") ||
+    text.includes("wash") ||
+    text.includes("cure") ||
+    text.includes("maquina") ||
+    text.includes("máquina");
+  const hasFilamentMaterial = tokens.some((token) => filamentMaterialTerms.has(token));
+
+  return (
+    !isResinPrinter(product) &&
+    product.category === "Resina" &&
+    !isWashOrCure &&
+    !hasFilamentMaterial
+  );
+}
+
+function isStrictFilament(product: Product) {
+  return isFilamentProduct(product) && !isFdmPrinter(product) && !isResinPrinter(product);
+}
+
+function productMatchesCategory(product: Product, category: string) {
+  if (category === "Todas") return true;
+  if (category === "Impresoras FDM") return isFdmPrinter(product);
+  if (category === "Impresoras de Resina") return isResinPrinter(product);
+  if (category === "Filamento") return isStrictFilament(product);
+  if (category === "Resina") return isResinMaterial(product);
+
+  return product.category === category;
+}
+
+const filamentBrands = [
+  ...new Set(products.map((product) => product.brand ?? unknownBrand)),
+].sort((a, b) => {
+  if (a === unknownBrand) return 1;
+  if (b === unknownBrand) return -1;
+
+  return a.localeCompare(b, "es");
+});
+
+const filamentBrandCounts = new Map(
+  filamentBrands.map((brand) => [
+    brand,
+    products.filter((product) => (product.brand ?? unknownBrand) === brand).length,
+  ]),
+);
+
+const filamentMaterials = [
+  ...new Set(products.filter(isFilamentProduct).map((product) => product.material ?? unknownMaterial)),
+].sort((a, b) => {
+  if (a === unknownMaterial) return 1;
+  if (b === unknownMaterial) return -1;
+
+  return materialLabels.indexOf(a) - materialLabels.indexOf(b);
+});
+
+const filamentMaterialCounts = new Map(
+  filamentMaterials.map((material) => [
+    material,
+    products.filter((product) => isFilamentProduct(product) && product.material === material).length,
+  ]),
+);
+
 export default function Home() {
-  const [query, setQuery] = useState("filamento pla");
-  const [category, setCategory] = useState("Todo");
+  const [query, setQuery] = useState("");
+  const [category, setCategory] = useState("Todas");
   const [store, setStore] = useState("Todas");
   const [sort, setSort] = useState<"desc" | "asc">("asc");
   const [stockOnly, setStockOnly] = useState(true);
+  const [selectedFilamentBrands, setSelectedFilamentBrands] = useState(filamentBrands);
+  const [selectedFilamentMaterials, setSelectedFilamentMaterials] = useState(filamentMaterials);
+  const [openFacet, setOpenFacet] = useState<"brands" | "materials" | null>(null);
+  const selectedFilamentBrandSet = useMemo(
+    () => new Set(selectedFilamentBrands),
+    [selectedFilamentBrands],
+  );
+  const searchedMaterials = useMemo(
+    () => [
+      ...new Set(
+        searchableTokens(query.toLowerCase())
+          .map((term) => materialSearchAliases.get(term))
+          .filter((material): material is string => Boolean(material)),
+      ),
+    ],
+    [query],
+  );
+  const effectiveSelectedFilamentMaterials = searchedMaterials.length
+    ? searchedMaterials
+    : selectedFilamentMaterials;
+  const selectedFilamentMaterialSet = useMemo(
+    () => new Set(effectiveSelectedFilamentMaterials),
+    [effectiveSelectedFilamentMaterials],
+  );
+
+  function handleQueryChange(value: string) {
+    setQuery(value);
+
+    const nextMaterials = searchableTokens(value.toLowerCase()).filter((term) =>
+      materialSearchAliases.has(term),
+    );
+    if (nextMaterials.length) setOpenFacet("materials");
+  }
+
+  function toggleFilamentBrand(brand: string) {
+    setSelectedFilamentBrands((current) =>
+      current.includes(brand) ? current.filter((item) => item !== brand) : [...current, brand],
+    );
+  }
+
+  function toggleFilamentMaterial(material: string) {
+    setSelectedFilamentMaterials((current) =>
+      current.includes(material)
+        ? current.filter((item) => item !== material)
+        : [...current, material],
+    );
+  }
+
+  function selectAllFilamentBrands() {
+    setSelectedFilamentBrands(filamentBrands);
+  }
+
+  function clearFilamentBrands() {
+    setSelectedFilamentBrands([]);
+  }
+
+  function selectAllFilamentMaterials() {
+    setSelectedFilamentMaterials(filamentMaterials);
+  }
+
+  function clearFilamentMaterials() {
+    setSelectedFilamentMaterials([]);
+  }
 
   const filtered = useMemo(() => {
     const queryTerms = query
@@ -196,34 +476,72 @@ export default function Home() {
       .toLowerCase()
       .split(/\s+/)
       .filter(Boolean);
+    const wantsFilaments = queryTerms.some(
+      (term) => filamentQueryTerms.has(term) || filamentMaterialTerms.has(term),
+    );
 
     return products
       .filter((product) => {
-        const haystack = [
+        const haystack = searchableText([
           product.name,
-          product.category,
           product.store,
           product.city,
           product.material,
           ...product.tags,
-        ]
-          .filter(Boolean)
-          .join(" ")
-          .toLowerCase();
+        ]);
 
         return (
-          (!queryTerms.length || queryTerms.every((term) => haystack.includes(term))) &&
-          (category === "Todo" || product.category === category) &&
+          (!queryTerms.length ||
+            queryTerms.every((term) => queryTermMatches(term, haystack, product))) &&
+          (!wantsFilaments || isFilamentProduct(product)) &&
+          selectedFilamentBrandSet.has(product.brand ?? unknownBrand) &&
+          (!isFilamentProduct(product) ||
+            selectedFilamentMaterialSet.has(product.material ?? unknownMaterial)) &&
+          productMatchesCategory(product, category) &&
           (store === "Todas" || product.store === store) &&
           (!stockOnly || product.stock !== "Consultar")
         );
       })
-      .sort((a, b) => (sort === "desc" ? b.price - a.price : a.price - b.price));
-  }, [category, query, sort, stockOnly, store]);
+      .sort((a, b) =>
+        sort === "desc"
+          ? bestAvailablePrice(b) - bestAvailablePrice(a)
+          : bestAvailablePrice(a) - bestAvailablePrice(b),
+      );
+  }, [
+    category,
+    query,
+    selectedFilamentBrandSet,
+    selectedFilamentMaterialSet,
+    sort,
+    stockOnly,
+    store,
+  ]);
 
   const bestPrice = filtered.length
-    ? filtered.reduce((min, product) => Math.min(min, product.price), filtered[0].price)
+    ? filtered.reduce(
+        (min, product) => Math.min(min, bestAvailablePrice(product)),
+        bestAvailablePrice(filtered[0]),
+      )
     : 0;
+  const hasActiveFilters =
+    query !== "" ||
+    category !== "Todas" ||
+    store !== "Todas" ||
+    sort !== "asc" ||
+    !stockOnly ||
+    selectedFilamentBrands.length !== filamentBrands.length ||
+    selectedFilamentMaterials.length !== filamentMaterials.length;
+
+  function resetFilters() {
+    setQuery("");
+    setCategory("Todas");
+    setStore("Todas");
+    setSort("asc");
+    setStockOnly(true);
+    setSelectedFilamentBrands(filamentBrands);
+    setSelectedFilamentMaterials(filamentMaterials);
+    setOpenFacet(null);
+  }
 
   return (
     <main className="app-shell">
@@ -235,10 +553,125 @@ export default function Home() {
             </span>
             <span>Filtrar 3D</span>
           </a>
-          <div className="topbar-links">
-            <a href="#resultados">Resultados</a>
-            <a href="#tiendas">Tiendas</a>
-            <a href="#fuentes">Fuentes</a>
+          <div className="top-menu" aria-label="Filtros principales">
+            <label className="top-search" htmlFor="search">
+              <span aria-hidden="true">⌕</span>
+              <strong>Buscar</strong>
+              <input
+                id="search"
+                value={query}
+                onChange={(event) => handleQueryChange(event.target.value)}
+                placeholder="PLA negro, boquilla, Bambu A1"
+              />
+            </label>
+
+            <details className="top-dropdown">
+              <summary>
+                <span>Categorias</span>
+                <small>{category}</small>
+              </summary>
+              <div className="menu-panel">
+                {categoryOptions.map((item) => (
+                  <button
+                    key={item}
+                    type="button"
+                    className={category === item ? "active" : ""}
+                    onClick={() => setCategory(item)}
+                  >
+                    {item}
+                  </button>
+                ))}
+              </div>
+            </details>
+
+            <details className="top-dropdown">
+              <summary>
+                <span>Tiendas</span>
+                <small>{store}</small>
+              </summary>
+              <div className="menu-panel">
+                {stores.map((item) => (
+                  <button
+                    key={item}
+                    type="button"
+                    className={store === item ? "active" : ""}
+                    onClick={() => setStore(item)}
+                  >
+                    {item}
+                  </button>
+                ))}
+              </div>
+            </details>
+
+            <details
+              className="top-dropdown wide"
+              open={openFacet === "brands"}
+              onToggle={(event) => setOpenFacet(event.currentTarget.open ? "brands" : null)}
+            >
+              <summary>
+                <span>Marcas</span>
+                <small>
+                  {selectedFilamentBrands.length}/{filamentBrands.length}
+                </small>
+              </summary>
+              <div className="menu-panel check-panel">
+                <div className="facet-actions" aria-label="Acciones de marcas">
+                  <button type="button" onClick={selectAllFilamentBrands}>
+                    Seleccionar todas
+                  </button>
+                  <button type="button" onClick={clearFilamentBrands}>
+                    Deseleccionar todas
+                  </button>
+                </div>
+                {filamentBrands.map((brand) => (
+                  <label className="facet-option compact" key={brand}>
+                    <input
+                      type="checkbox"
+                      checked={selectedFilamentBrandSet.has(brand)}
+                      onChange={() => toggleFilamentBrand(brand)}
+                    />
+                    <span className="facet-check" aria-hidden="true" />
+                    <span className="facet-name">{brand}</span>
+                    <small>{filamentBrandCounts.get(brand) ?? 0}</small>
+                  </label>
+                ))}
+              </div>
+            </details>
+
+            <details
+              className="top-dropdown wide"
+              open={openFacet === "materials"}
+              onToggle={(event) => setOpenFacet(event.currentTarget.open ? "materials" : null)}
+            >
+              <summary>
+                <span>Materiales</span>
+                <small>
+                  {effectiveSelectedFilamentMaterials.length}/{filamentMaterials.length}
+                </small>
+              </summary>
+              <div className="menu-panel check-panel">
+                <div className="facet-actions" aria-label="Acciones de materiales">
+                  <button type="button" onClick={selectAllFilamentMaterials}>
+                    Seleccionar todos
+                  </button>
+                  <button type="button" onClick={clearFilamentMaterials}>
+                    Deseleccionar todos
+                  </button>
+                </div>
+                {filamentMaterials.map((material) => (
+                  <label className="facet-option compact" key={material}>
+                    <input
+                      type="checkbox"
+                      checked={selectedFilamentMaterialSet.has(material)}
+                      onChange={() => toggleFilamentMaterial(material)}
+                    />
+                    <span className="facet-check" aria-hidden="true" />
+                    <span className="facet-name">{material}</span>
+                    <small>{filamentMaterialCounts.get(material) ?? 0}</small>
+                  </label>
+                ))}
+              </div>
+            </details>
           </div>
         </nav>
 
@@ -248,35 +681,12 @@ export default function Home() {
             <h1>Busca una pieza, repuesto o maquina y compara tiendas en segundos.</h1>
             <p>
               Erexit 3D, Laboratorio 3D, TP3D y Proyecto Color ya estan
-              conectadas con scraper propio: traen productos, precios, stock,
-              imagenes y links reales. Kimera queda como demo hasta sumar su
-              conector.
+              conectadas con scraper propio junto a Kimera 3D: traen productos,
+              precios, stock, imagenes y links reales.
             </p>
           </div>
 
           <form className="search-panel" onSubmit={(event) => event.preventDefault()}>
-            <label htmlFor="search">Producto</label>
-            <div className="search-input">
-              <span aria-hidden="true">⌕</span>
-              <input
-                id="search"
-                value={query}
-                onChange={(event) => setQuery(event.target.value)}
-                placeholder="Ej: PLA negro, boquilla 0.4, Bambu A1"
-              />
-            </div>
-
-            <div className="control-grid">
-              <label>
-                Tienda
-                <select value={store} onChange={(event) => setStore(event.target.value)}>
-                  {stores.map((item) => (
-                    <option key={item}>{item}</option>
-                  ))}
-                </select>
-              </label>
-            </div>
-
             <div className="toolbar" aria-label="Orden y disponibilidad">
               <div className="segmented">
                 <button
@@ -303,6 +713,14 @@ export default function Home() {
                 />
                 Solo disponibles
               </label>
+              <button
+                type="button"
+                className="reset-button"
+                onClick={resetFilters}
+                disabled={!hasActiveFilters}
+              >
+                Limpiar filtros
+              </button>
             </div>
           </form>
         </div>
@@ -319,7 +737,7 @@ export default function Home() {
         </div>
         <div>
           <strong>{bestPrice ? price.format(bestPrice) : "-"}</strong>
-          <span>precio mas bajo</span>
+          <span>mejor precio filtrado</span>
         </div>
         <div>
           <strong>{connectedStores}</strong>
@@ -328,32 +746,13 @@ export default function Home() {
       </section>
 
       <section className="content-grid" id="resultados">
-        <aside className="filters-panel" aria-label="Categorias rapidas">
-          <h2>Categorias</h2>
-          <div className="category-list">
-            {categories.map((item) => (
-              <button
-                key={item}
-                type="button"
-                className={category === item ? "active" : ""}
-                onClick={() => setCategory(item)}
-              >
-                <span>{item}</span>
-                <small>
-                  {item === "Todo"
-                    ? products.length
-                    : products.filter((product) => product.category === item).length}
-                </small>
-              </button>
-            ))}
-          </div>
-        </aside>
-
         <section className="results-panel">
           <div className="section-heading">
             <div>
               <p>Resultados</p>
-              <h2>Ordenados de precio {sort === "desc" ? "mayor a menor" : "menor a mayor"}</h2>
+              <h2>
+                Ordenados por mejor precio {sort === "desc" ? "mayor a menor" : "menor a mayor"}
+              </h2>
             </div>
             <span>{filtered.length} coincidencias</span>
           </div>
@@ -363,7 +762,7 @@ export default function Home() {
               <article className="product-card" key={product.id}>
                 <div className="product-visual" style={{ backgroundColor: product.color }}>
                   {product.image ? (
-                    <img src={product.image} alt="" loading="lazy" />
+                    <img src={product.image} alt="" loading="lazy" referrerPolicy="no-referrer" />
                   ) : (
                     <span>{product.category.slice(0, 3).toUpperCase()}</span>
                   )}
@@ -388,19 +787,19 @@ export default function Home() {
                   </div>
                   <div className="product-foot">
                     <div>
-                      <strong>{price.format(product.price)}</strong>
+                      <strong>{price.format(bestAvailablePrice(product))}</strong>
+                      <span className="price-label">
+                        {product.transferPrice ? "Mejor precio por transferencia" : "Precio lista"}
+                      </span>
                       {product.previousPrice ? (
                         <small>{price.format(product.previousPrice)}</small>
                       ) : null}
                       {product.transferPrice ? (
-                        <small className="transfer-price">
-                          {price.format(product.transferPrice)} transferencia
-                        </small>
+                        <small className="list-price">{price.format(product.price)} precio lista</small>
                       ) : null}
                     </div>
                     <div className="meta">
                       <span>{product.shipping}</span>
-                      <span>{product.rating.toFixed(1)} valoracion</span>
                       <span>{product.updated}</span>
                     </div>
                     <a
@@ -425,32 +824,6 @@ export default function Home() {
           </div>
         </section>
 
-        <aside className="pipeline-panel" id="fuentes">
-          <h2>Proximo modulo</h2>
-          <ol>
-            <li>Erexit 3D conectado con scraper paginado.</li>
-            <li>Laboratorio 3D conectado con scraper paginado.</li>
-            <li>TP3D conectado por categorias PrestaShop.</li>
-            <li>Proyecto Color conectado por categoria WooCommerce.</li>
-            <li>Normalizacion de nombres para agrupar productos equivalentes.</li>
-          </ol>
-          <div className="sync-box" id="tiendas">
-            <span>Fuentes listas</span>
-            <strong>{realProducts.length} ofertas reales</strong>
-            <p>Cuatro tiendas ya entregan precio, stock, imagen, variantes cuando existen y link canonico.</p>
-          </div>
-          <div className="source-list" aria-label="Tiendas iniciales">
-            {storeSources.map((source) => (
-              <a href={source.url} key={source.domain} target="_blank" rel="noreferrer">
-                <span>
-                  <strong>{source.name}</strong>
-                  <small>{source.domain}</small>
-                </span>
-                <em>{source.status}</em>
-              </a>
-            ))}
-          </div>
-        </aside>
       </section>
     </main>
   );
