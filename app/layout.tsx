@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import { headers } from "next/headers";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -16,43 +15,36 @@ const geistMono = Geist_Mono({
 const title = "Filtrar 3D";
 const description =
   "Comparador argentino para buscar impresoras 3D, filamentos, resinas, repuestos, accesorios y herramientas por tienda, precio y stock.";
+const metadataBase = new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://filtrar-3d.locatellisanti.chatgpt.site");
 
-export async function generateMetadata(): Promise<Metadata> {
-  const headerList = await headers();
-  const host = headerList.get("x-forwarded-host") ?? headerList.get("host") ?? "localhost:3000";
-  const protocol =
-    headerList.get("x-forwarded-proto") ?? (host.includes("localhost") ? "http" : "https");
-  const metadataBase = new URL(`${protocol}://${host}`);
-
-  return {
-    metadataBase,
+export const metadata: Metadata = {
+  metadataBase,
+  title,
+  description,
+  icons: {
+    icon: "/favicon.svg",
+    shortcut: "/favicon.svg",
+  },
+  openGraph: {
     title,
     description,
-    icons: {
-      icon: "/favicon.svg",
-      shortcut: "/favicon.svg",
-    },
-    openGraph: {
-      title,
-      description,
-      type: "website",
-      images: [
-        {
-          url: "/og.png",
-          width: 1200,
-          height: 630,
-          alt: "Filtrar 3D",
-        },
-      ],
-    },
-    twitter: {
-      card: "summary_large_image",
-      title,
-      description,
-      images: ["/og.png"],
-    },
-  };
-}
+    type: "website",
+    images: [
+      {
+        url: "/og.png",
+        width: 1200,
+        height: 630,
+        alt: "Filtrar 3D",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title,
+    description,
+    images: ["/og.png"],
+  },
+};
 
 export default function RootLayout({
   children,
