@@ -155,7 +155,6 @@ a {
   flex-wrap: wrap;
 }
 
-.top-search,
 .top-dropdown {
   min-height: 44px;
   border: 1px solid rgba(17, 19, 21, 0.08);
@@ -172,7 +171,6 @@ a {
     transform 120ms var(--ease-out);
 }
 
-.top-search:focus-within,
 .top-dropdown:focus-within,
 .top-dropdown:hover {
   border-color: rgba(23, 107, 93, 0.34);
@@ -182,49 +180,10 @@ a {
     0 16px 38px rgba(17, 19, 21, 0.08);
 }
 
-.top-search {
-  display: grid;
-  grid-template-columns: auto minmax(170px, 270px);
-  align-items: center;
-  gap: 10px;
-  padding: 0 12px;
-}
-
-.top-search strong,
 .top-dropdown summary span {
   color: var(--muted-strong);
   font-size: 0.76rem;
   font-weight: 760;
-}
-
-.top-search strong {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.top-search strong::before {
-  width: 8px;
-  height: 8px;
-  border: 2px solid var(--accent);
-  border-radius: 999px;
-  box-shadow: 5px 5px 0 -3px var(--accent);
-  content: "";
-}
-
-.top-search input {
-  width: 100%;
-  min-width: 0;
-  border: 0;
-  outline: 0;
-  background: transparent;
-  color: var(--ink);
-  font-size: 0.92rem;
-  font-weight: 520;
-}
-
-.top-search input::placeholder {
-  color: #7b838b;
 }
 
 .top-dropdown {
@@ -486,12 +445,12 @@ a {
 
 .workbench-scene {
   position: absolute;
-  inset: 2% -7% -3% -14%;
+  inset: 2% -7% -3% -18%;
   z-index: -1;
   border-radius: 34px;
   background:
-    linear-gradient(90deg, rgba(251, 252, 248, 0.2), rgba(251, 252, 248, 0.82) 54%, rgba(251, 252, 248, 0.26)),
-    url("/og.png") left bottom / cover no-repeat;
+    linear-gradient(90deg, rgba(251, 252, 248, 0.08), rgba(251, 252, 248, 0.42) 42%, rgba(251, 252, 248, 0.95) 64%),
+    url("/og.png") left bottom / auto 112% no-repeat;
   box-shadow: 0 34px 90px rgba(7, 20, 44, 0.12);
   transform: rotateX(1deg) rotateY(-5deg);
 }
@@ -515,11 +474,11 @@ a {
 }
 
 .window-top {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto minmax(220px, 1fr) auto;
   align-items: center;
-  justify-content: space-between;
   gap: 16px;
-  padding: 20px 22px 14px;
+  padding: 20px 22px 16px;
 }
 
 .window-top > div {
@@ -556,6 +515,72 @@ a {
   font-size: 0.78rem;
   font-weight: 850;
   box-shadow: 0 10px 24px rgba(7, 20, 44, 0.1);
+}
+
+.mockup-search {
+  display: grid;
+  grid-template-columns: 24px minmax(0, 1fr);
+  align-items: center;
+  gap: 10px;
+  min-height: 58px;
+  border: 1px solid rgba(7, 20, 44, 0.16);
+  border-radius: 14px;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(248, 250, 251, 0.9)),
+    #ffffff;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.95),
+    0 12px 24px rgba(7, 20, 44, 0.06);
+  padding: 0 16px;
+  transition:
+    border-color 180ms var(--ease-out),
+    box-shadow 180ms var(--ease-out),
+    transform 160ms var(--ease-out);
+}
+
+.mockup-search:focus-within {
+  border-color: rgba(22, 162, 52, 0.42);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.95),
+    0 0 0 4px rgba(22, 162, 52, 0.12),
+    0 18px 36px rgba(7, 20, 44, 0.1);
+  transform: translateY(-1px);
+}
+
+.mockup-search > span {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #667085;
+  border-radius: 999px;
+}
+
+.mockup-search > span::after {
+  position: absolute;
+  right: -6px;
+  bottom: -5px;
+  width: 8px;
+  height: 2px;
+  border-radius: 999px;
+  background: #667085;
+  transform: rotate(45deg);
+  content: "";
+}
+
+.mockup-search input {
+  width: 100%;
+  min-width: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: var(--ink);
+  font-size: 1rem;
+  font-weight: 620;
+}
+
+.mockup-search input::placeholder {
+  color: #7b838b;
+  font-weight: 560;
 }
 
 .search-panel,
@@ -1404,16 +1429,8 @@ a {
   }
 
   .top-menu,
-  .top-dropdown,
-  .top-search {
+  .top-dropdown {
     width: 100%;
-  }
-
-  .top-search {
-    grid-template-columns: 1fr;
-    gap: 3px;
-    min-height: auto;
-    padding: 9px 12px;
   }
 
   .top-dropdown summary {
@@ -1456,7 +1473,24 @@ a {
   }
 
   .window-top {
+    grid-template-columns: 1fr auto;
     padding: 16px 16px 12px;
+  }
+
+  .window-top > div {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .window-locale {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .mockup-search {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    min-height: 52px;
   }
 
   .comparison-window .search-panel {

@@ -74,16 +74,6 @@ export function ProductExplorer({
             <span>Filtrar 3D</span>
           </a>
           <div className="top-menu" aria-label="Filtros principales">
-            <label className="top-search" htmlFor="search">
-              <strong>Buscar</strong>
-              <input
-                id="search"
-                value={query}
-                onChange={(event) => handleQueryChange(event.target.value)}
-                placeholder="PLA negro, boquilla, Bambu A1"
-              />
-            </label>
-
             <details className="top-dropdown">
               <summary>
                 <span>Categorías</span>
@@ -202,6 +192,16 @@ export function ProductExplorer({
                   <span className="window-mark">F3D</span>
                   <strong>Filtrar 3D</strong>
                 </div>
+                <label className="mockup-search" htmlFor="search">
+                  <span aria-hidden="true" />
+                  <input
+                    id="search"
+                    value={query}
+                    onChange={(event) => handleQueryChange(event.target.value)}
+                    placeholder="PLA negro, boquilla, Bambu A1"
+                    aria-label="Buscar productos"
+                  />
+                </label>
                 <span className="window-locale">AR</span>
               </div>
 
