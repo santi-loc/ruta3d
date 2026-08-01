@@ -185,104 +185,72 @@ export function ProductExplorer({
           </div>
 
           <div className="hero-showcase" aria-label="Vista previa del comparador">
-            <div className="workbench-scene" aria-hidden="true" />
-            <div className="comparison-window">
-              <div className="window-top">
-                <div>
-                  <span className="window-mark">F3D</span>
-                  <strong>Filtrar 3D</strong>
-                </div>
-                <label className="mockup-search" htmlFor="search">
-                  <span aria-hidden="true" />
-                  <input
-                    id="search"
-                    value={query}
-                    onChange={(event) => handleQueryChange(event.target.value)}
-                    placeholder="PLA negro, boquilla, Bambu A1"
-                    aria-label="Buscar productos"
-                  />
-                </label>
-                <span className="window-locale">AR</span>
-              </div>
+            <div className="hero-preview-frame">
+              <Image
+                src="/og.png"
+                alt="Vista previa de Filtrar 3D con productos y precios de impresión 3D"
+                fill
+                priority
+                sizes="(max-width: 1080px) 100vw, 820px"
+              />
+              <label className="og-search-hotspot" htmlFor="search">
+                <input
+                  id="search"
+                  value={query}
+                  onChange={(event) => handleQueryChange(event.target.value)}
+                  aria-label="Buscar productos"
+                />
+              </label>
+            </div>
 
-              <form className="search-panel" onSubmit={(event) => event.preventDefault()}>
-                <div className="toolbar" aria-label="Orden y disponibilidad">
-                  <div className="segmented">
-                    <button
-                      type="button"
-                      className={sort === "desc" ? "active" : ""}
-                      aria-pressed={sort === "desc"}
-                      onClick={() => {
-                        setSort("desc");
-                        resetVisibleCount();
-                      }}
-                    >
-                      Mayor precio
-                    </button>
-                    <button
-                      type="button"
-                      className={sort === "asc" ? "active" : ""}
-                      aria-pressed={sort === "asc"}
-                      onClick={() => {
-                        setSort("asc");
-                        resetVisibleCount();
-                      }}
-                    >
-                      Menor precio
-                    </button>
-                  </div>
-
-                  <label className="toggle">
-                    <input
-                      type="checkbox"
-                      checked={stockOnly}
-                      onChange={(event) => {
-                        setStockOnly(event.target.checked);
-                        resetVisibleCount();
-                      }}
-                    />
-                    Solo disponibles
-                  </label>
+            <form className="hero-controls-dock" onSubmit={(event) => event.preventDefault()}>
+              <div className="toolbar" aria-label="Orden y disponibilidad">
+                <div className="segmented">
                   <button
                     type="button"
-                    className="reset-button"
-                    onClick={resetFilters}
-                    disabled={!hasActiveFilters}
+                    className={sort === "desc" ? "active" : ""}
+                    aria-pressed={sort === "desc"}
+                    onClick={() => {
+                      setSort("desc");
+                      resetVisibleCount();
+                    }}
                   >
-                    Limpiar filtros
+                    Mayor precio
+                  </button>
+                  <button
+                    type="button"
+                    className={sort === "asc" ? "active" : ""}
+                    aria-pressed={sort === "asc"}
+                    onClick={() => {
+                      setSort("asc");
+                      resetVisibleCount();
+                    }}
+                  >
+                    Menor precio
                   </button>
                 </div>
-              </form>
 
-              <div className="hero-table" aria-hidden="true">
-                <div className="hero-table-head">
-                  <span>Producto</span>
-                  <span>Tienda</span>
-                  <span>Precio</span>
-                </div>
-                {visibleProducts.slice(0, 4).map((product, index) => (
-                  <div className="hero-table-row" key={`hero-${product.id}`}>
-                    <span className="hero-thumb" style={{ backgroundColor: product.color }}>
-                      {product.image ? (
-                        <Image
-                          src={product.image}
-                          alt=""
-                          fill
-                          referrerPolicy="no-referrer"
-                          sizes="56px"
-                        />
-                      ) : (
-                        product.category.slice(0, 2)
-                      )}
-                    </span>
-                    <span className="hero-product-name">{product.name}</span>
-                    <span className="hero-store">{product.store}</span>
-                    <strong>{price.format(product.bestPrice)}</strong>
-                    <span className="hero-rank">{index + 1}</span>
-                  </div>
-                ))}
+                <label className="toggle">
+                  <input
+                    type="checkbox"
+                    checked={stockOnly}
+                    onChange={(event) => {
+                      setStockOnly(event.target.checked);
+                      resetVisibleCount();
+                    }}
+                  />
+                  Solo disponibles
+                </label>
+                <button
+                  type="button"
+                  className="reset-button"
+                  onClick={resetFilters}
+                  disabled={!hasActiveFilters}
+                >
+                  Limpiar filtros
+                </button>
               </div>
-            </div>
+            </form>
           </div>
         </div>
       </section>
