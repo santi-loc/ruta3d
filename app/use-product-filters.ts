@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import type { Product, SortDirection } from "@/lib/catalog";
 import {
   filamentBrands,
@@ -23,6 +23,7 @@ const filamentSearchTerms = new Set([
 ]);
 
 export function useProductFilters(products: Product[]) {
+  const loadingTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState("Todas");
   const [store, setStore] = useState("Todas");
@@ -32,6 +33,22 @@ export function useProductFilters(products: Product[]) {
   const [selectedFilamentMaterials, setSelectedFilamentMaterials] = useState(filamentMaterials);
   const [openFacet, setOpenFacet] = useState<"brands" | "materials" | null>(null);
   const [visibleCount, setVisibleCount] = useState(pageSize);
+  const [isLoadingResults, setIsLoadingResults] = useState(true);
+
+  useEffect(() => {
+    loadingTimer.current = setTimeout(() => setIsLoadingResults(false), 260);
+
+    return () => {
+      if (loadingTimer.current) clearTimeout(loadingTimer.current);
+    };
+  }, []);
+
+  function pulseResultsLoading() {
+    if (loadingTimer.current) clearTimeout(loadingTimer.current);
+    setIsLoadingResults(true);
+    loadingTimer.current = setTimeout(() => setIsLoadingResults(false), 220);
+  }
+
   const selectedFilamentBrandSet = useMemo(
     () => new Set(selectedFilamentBrands),
     [selectedFilamentBrands],
@@ -56,6 +73,7 @@ export function useProductFilters(products: Product[]) {
 
   function resetVisibleCount() {
     setVisibleCount(pageSize);
+    pulseResultsLoading();
   }
 
   function handleQueryChange(value: string) {
@@ -166,6 +184,7 @@ export function useProductFilters(products: Product[]) {
     handleQueryChange,
     hasActiveFilters,
     hiddenProducts,
+    isLoadingResults,
     openFacet,
     query,
     resetFilters,

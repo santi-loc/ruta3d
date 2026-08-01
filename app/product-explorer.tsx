@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import type { Product } from "@/lib/catalog";
 import {
   categoryOptions,
@@ -37,6 +38,7 @@ export function ProductExplorer({
     handleQueryChange,
     hasActiveFilters,
     hiddenProducts,
+    isLoadingResults,
     openFacet,
     query,
     resetFilters,
@@ -172,63 +174,116 @@ export function ProductExplorer({
 
         <div className="hero-grid">
           <div className="hero-copy">
+            <div className="hero-logo-lockup" aria-hidden="true">
+              <span className="hero-lens">
+                <span />
+              </span>
+              <strong>Filtrar <mark>3D</mark></strong>
+            </div>
             <p className="eyebrow">Comparador argentino de impresión 3D</p>
-            <h1>Buscá una pieza, repuesto o máquina y compará tiendas en segundos.</h1>
+            <h1>Buscá piezas, repuestos y máquinas como si tuvieras todas las tiendas abiertas.</h1>
             <p>
-              Erexit 3D, Laboratorio 3D, TP3D y Proyecto Color ya están conectadas con
-              scraper propio junto a Kimera 3D: traen productos, precios, stock, imágenes
-              y links reales.
+              Compará precio lista, transferencia, stock e imágenes reales de tiendas argentinas
+              en una sola vista.
             </p>
-          </div>
-
-          <form className="search-panel" onSubmit={(event) => event.preventDefault()}>
-            <div className="toolbar" aria-label="Orden y disponibilidad">
-              <div className="segmented">
-                <button
-                  type="button"
-                  className={sort === "desc" ? "active" : ""}
-                  aria-pressed={sort === "desc"}
-                  onClick={() => {
-                    setSort("desc");
-                    resetVisibleCount();
-                  }}
-                >
-                  Mayor precio
-                </button>
-                <button
-                  type="button"
-                  className={sort === "asc" ? "active" : ""}
-                  aria-pressed={sort === "asc"}
-                  onClick={() => {
-                    setSort("asc");
-                    resetVisibleCount();
-                  }}
-                >
-                  Menor precio
-                </button>
-              </div>
-
-              <label className="toggle">
-                <input
-                  type="checkbox"
-                  checked={stockOnly}
-                  onChange={(event) => {
-                    setStockOnly(event.target.checked);
-                    resetVisibleCount();
-                  }}
-                />
-                Solo disponibles
-              </label>
-              <button
-                type="button"
-                className="reset-button"
-                onClick={resetFilters}
-                disabled={!hasActiveFilters}
-              >
-                Limpiar filtros
+            <div className="hero-actions" aria-label="Acciones principales">
+              <a href="#resultados">Ver ofertas</a>
+              <button type="button" onClick={() => document.getElementById("search")?.focus()}>
+                Buscar producto
               </button>
             </div>
-          </form>
+          </div>
+
+          <div className="hero-showcase" aria-label="Vista previa del comparador">
+            <div className="workbench-scene" aria-hidden="true" />
+            <div className="comparison-window">
+              <div className="window-top">
+                <div>
+                  <span className="window-mark">F3D</span>
+                  <strong>Filtrar 3D</strong>
+                </div>
+                <span className="window-locale">AR</span>
+              </div>
+
+              <form className="search-panel" onSubmit={(event) => event.preventDefault()}>
+                <div className="toolbar" aria-label="Orden y disponibilidad">
+                  <div className="segmented">
+                    <button
+                      type="button"
+                      className={sort === "desc" ? "active" : ""}
+                      aria-pressed={sort === "desc"}
+                      onClick={() => {
+                        setSort("desc");
+                        resetVisibleCount();
+                      }}
+                    >
+                      Mayor precio
+                    </button>
+                    <button
+                      type="button"
+                      className={sort === "asc" ? "active" : ""}
+                      aria-pressed={sort === "asc"}
+                      onClick={() => {
+                        setSort("asc");
+                        resetVisibleCount();
+                      }}
+                    >
+                      Menor precio
+                    </button>
+                  </div>
+
+                  <label className="toggle">
+                    <input
+                      type="checkbox"
+                      checked={stockOnly}
+                      onChange={(event) => {
+                        setStockOnly(event.target.checked);
+                        resetVisibleCount();
+                      }}
+                    />
+                    Solo disponibles
+                  </label>
+                  <button
+                    type="button"
+                    className="reset-button"
+                    onClick={resetFilters}
+                    disabled={!hasActiveFilters}
+                  >
+                    Limpiar filtros
+                  </button>
+                </div>
+              </form>
+
+              <div className="hero-table" aria-hidden="true">
+                <div className="hero-table-head">
+                  <span>Producto</span>
+                  <span>Tienda</span>
+                  <span>Precio</span>
+                </div>
+                {visibleProducts.slice(0, 4).map((product, index) => (
+                  <div className="hero-table-row" key={`hero-${product.id}`}>
+                    <span className="hero-thumb" style={{ backgroundColor: product.color }}>
+                      {product.image ? (
+                        <Image
+                          src={product.image}
+                          alt=""
+                          fill
+                          referrerPolicy="no-referrer"
+                          sizes="56px"
+                        />
+                      ) : (
+                        product.category.slice(0, 2)
+                      )}
+                    </span>
+                    <span className="hero-product-name">{product.name}</span>
+                    <span className="hero-store">{product.store}</span>
+                    <strong>{price.format(product.bestPrice)}</strong>
+                    <span className="hero-rank">{index + 1}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -263,12 +318,16 @@ export function ProductExplorer({
             <span>{filtered.length} coincidencias</span>
           </div>
 
-          <div className="result-list">
-            {visibleProducts.map((product) => (
-              <ProductCard key={product.id} product={product} priceFormatter={price} />
-            ))}
+          <div className="result-list" aria-busy={isLoadingResults}>
+            {isLoadingResults ? (
+              <ProductListSkeleton />
+            ) : (
+              visibleProducts.map((product) => (
+                <ProductCard key={product.id} product={product} priceFormatter={price} />
+              ))
+            )}
 
-            {hiddenProducts ? (
+            {!isLoadingResults && hiddenProducts ? (
               <div className="load-more">
                 <span>
                   Mostrando {visibleProducts.length} de {filtered.length} ofertas.
@@ -282,7 +341,7 @@ export function ProductExplorer({
               </div>
             ) : null}
 
-            {!filtered.length ? (
+            {!isLoadingResults && !filtered.length ? (
               <div className="empty-state">
                 <h3>No encontré ofertas con esos filtros</h3>
                 <p>Probá buscar por material, marca o medida: PLA, PETG, 0.4mm, Ender, Bambu.</p>
@@ -292,5 +351,42 @@ export function ProductExplorer({
         </section>
       </section>
     </main>
+  );
+}
+
+function ProductListSkeleton() {
+  return (
+    <>
+      {Array.from({ length: 6 }).map((_, index) => (
+        <article className="product-card product-card-skeleton" key={index} aria-hidden="true">
+          <div className="product-visual skeleton-block" />
+          <div className="product-info">
+            <div className="product-head">
+              <div>
+                <span className="skeleton-line skeleton-line-kicker" />
+                <span className="skeleton-line skeleton-line-title" />
+              </div>
+              <span className="skeleton-pill" />
+            </div>
+            <div className="tag-row">
+              <span className="skeleton-chip" />
+              <span className="skeleton-chip short" />
+              <span className="skeleton-chip" />
+            </div>
+            <div className="product-foot">
+              <div>
+                <span className="skeleton-line skeleton-line-price" />
+                <span className="skeleton-line skeleton-line-label" />
+              </div>
+              <div className="meta">
+                <span className="skeleton-line skeleton-line-meta" />
+                <span className="skeleton-line skeleton-line-meta short" />
+              </div>
+              <span className="skeleton-button" />
+            </div>
+          </div>
+        </article>
+      ))}
+    </>
   );
 }
