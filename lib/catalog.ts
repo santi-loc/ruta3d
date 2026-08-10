@@ -5,9 +5,12 @@ import proyectoColorData from "@/data/proyectocolor-products.json";
 import tp3dData from "@/data/tp3d-products.json";
 import { bestAvailablePrice, validTransferPrice } from "@/lib/pricing";
 import sourceConfig from "@/store-sources.json";
+import { detectFilamentColors, type FilamentColor } from "@/lib/filament-colors";
 
 export type StockLabel = "En stock" | "Pocas unidades" | "Consultar";
 export type SortDirection = "desc" | "asc";
+export type FilamentWeightGroup = "0.25" | "0.5" | "1" | "over1";
+export type PrinterFrameType = "Abierta" | "Cerrada";
 
 export type Product = {
   id: string | number;
@@ -25,6 +28,9 @@ export type Product = {
   brand?: string;
   color: string;
   material?: string;
+  filamentColors: FilamentColor[];
+  colorConfidence: "variantes" | "declarado" | "normalizado" | "sin_dato";
+  filamentWeightGroup?: FilamentWeightGroup;
   url: string;
   image?: string | null;
   source: "scraper" | "demo";
@@ -34,6 +40,7 @@ export type Product = {
   isFdmPrinter: boolean;
   isResinPrinter: boolean;
   isResinMaterial: boolean;
+  printerFrameType?: PrinterFrameType;
 };
 
 type StoreSource = {
@@ -60,6 +67,11 @@ type ScrapedProduct = {
   stockLabel: string;
   brand: string | null;
   tags: string[];
+  color?: string | null;
+  variants?: Array<{
+    available?: boolean;
+    options?: string[];
+  }>;
   image: string | null;
   url: string;
 };
@@ -107,11 +119,22 @@ const filamentBrandNames = [
   "Hellbot",
   "Toolbox",
   "Filar",
+  "Elemental",
 ];
 
 export const unknownBrand = "Sin marca";
 export const unknownMaterial = "Sin material";
-export const materialLabels = ["PLA", "PETG", "ABS", "ASA", "TPU", "FLEX", "NYLON", "PC", "PVA"];
+export const penFilamentMaterial = "Lápiz 3D";
+export const materialLabels = ["PLA", "PETG", "ABS", "ASA", "TPU", "FLEX", "NYLON", "PC", "PVA", penFilamentMaterial];
+const excludedFilamentBrands = new Set([
+  "algolaser",
+  "anycubic",
+  "biqu",
+  "crealty",
+  "global",
+  "prusa",
+  "xtool",
+]);
 
 export const materialSearchAliases = new Map([
   ["pla", "PLA"],
@@ -123,11 +146,14 @@ export const materialSearchAliases = new Map([
   ["nylon", "NYLON"],
   ["pc", "PC"],
   ["pva", "PVA"],
+  ["lapiz", penFilamentMaterial],
+  ["lápiz", penFilamentMaterial],
 ]);
 
 const searchTermAliases = new Map([
   ["boquilla", ["boquilla", "nozzle"]],
   ["boquillas", ["boquilla", "boquillas", "nozzle", "nozzles"]],
+  ["cama", ["cama", "cama magnetica", "cama caliente", "base pei", "pei"]],
   ["nozzle", ["nozzle", "boquilla"]],
   ["nozzles", ["nozzle", "nozzles", "boquilla", "boquillas"]],
 ]);
@@ -155,6 +181,19 @@ const nonFilamentProductWords = [
   "coller",
   "final de carrera",
   "extrusor",
+  "ams",
+  "cfs",
+  "ace pro",
+  "multicolor",
+  "puffer",
+  "embudo",
+  "portabobinas",
+  "modulo laser",
+  "módulo laser",
+  "laser upgrade",
+  "scanner",
+  "escaner",
+  "escáner",
 ];
 
 export function searchableText(values: Array<string | undefined | null>) {
@@ -167,6 +206,8 @@ export function searchableTokens(text: string): string[] {
 
 function inferBrand(name: string, tags: string[], brand?: string | null) {
   const text = searchableText([name, brand, ...tags]);
+  if (text.includes("filamento mix pla small")) return "GST3D";
+  if (text.includes("elemental")) return "Elemental";
   const matchedBrand = filamentBrandNames.find((item) => text.includes(item.toLowerCase()));
 
   if (matchedBrand === "GST") return "GST3D";
@@ -177,8 +218,44 @@ function inferBrand(name: string, tags: string[], brand?: string | null) {
 function inferMaterial(name: string, tags: string[]) {
   const text = searchableText([name, ...tags]);
   const tokens = searchableTokens(text);
+  const isPenFilament = (
+    (text.includes("lapiz 3d") || text.includes("lápiz 3d")) &&
+    (text.includes("filamento") || text.includes("ecofila") || text.includes("small pack") || text.includes("mix pla") || text.includes("mix pcl"))
+  ) || (
+    text.includes("gst3d") &&
+    /\b(x?\s*5\s*metros|metros\s*x\s*10|x10\s*unidades|colores surtidos)\b/i.test(text)
+  );
+  if (isPenFilament) return penFilamentMaterial;
 
   return materialLabels.find((material) => tokens.includes(material.toLowerCase())) ?? unknownMaterial;
+}
+
+function filamentWeightGroup(weightKg: number): FilamentWeightGroup | undefined {
+  if (weightKg > 0.2 && weightKg <= 0.3) return "0.25";
+  if (weightKg > 0.3 && weightKg <= 0.6) return "0.5";
+  if (weightKg > 0.6 && weightKg <= 1.1) return "1";
+  if (weightKg > 1.1) return "over1";
+
+  return undefined;
+}
+
+function inferFilamentWeightGroup(values: Array<string | undefined | null>) {
+  const text = searchableText(values).replace(/,/g, ".");
+  const detectedWeights: number[] = [];
+
+  for (const match of text.matchAll(/\b(\d+(?:\.\d+)?)\s*(kg|kilo|kilos|kilogramo|kilogramos|k)\b/g)) {
+    const value = Number(match[1]);
+    if (value > 0 && value < 20) detectedWeights.push(value);
+  }
+
+  for (const match of text.matchAll(/\b(\d{2,4})\s*(g|gr|gramo|gramos)\b/g)) {
+    const value = Number(match[1]);
+    if (value >= 100 && value < 10_000) detectedWeights.push(value / 1000);
+  }
+
+  const largestWeight = Math.max(...detectedWeights);
+
+  return Number.isFinite(largestWeight) ? filamentWeightGroup(largestWeight) : undefined;
 }
 
 function baseProductText(product: Pick<Product, "name" | "category" | "brand" | "material" | "tags">) {
@@ -194,12 +271,51 @@ function baseProductText(product: Pick<Product, "name" | "category" | "brand" | 
 function detectFilamentProduct(product: Pick<Product, "name" | "brand" | "material" | "tags">) {
   const text = searchableText([product.name, product.brand, product.material, ...product.tags]);
   const tokens = searchableTokens(text);
+  const isPenFilament = (
+    (text.includes("lapiz 3d") || text.includes("lápiz 3d")) &&
+    (text.includes("filamento") || text.includes("ecofila") || text.includes("small pack") || text.includes("mix pla") || text.includes("mix pcl"))
+  ) || (
+    text.includes("gst3d") &&
+    /\b(x?\s*5\s*metros|metros\s*x\s*10|x10\s*unidades|colores surtidos)\b/i.test(text)
+  );
   const hasMaterialSignal = tokens.some((token) => filamentMaterialTerms.has(token));
   const hasFilamentSignal =
-    hasMaterialSignal || filamentProductPhrases.some((word) => text.includes(word));
+    isPenFilament || hasMaterialSignal || filamentProductPhrases.some((word) => text.includes(word));
   const hasAccessorySignal = nonFilamentProductWords.some((word) => text.includes(word));
 
-  return hasFilamentSignal && !hasAccessorySignal;
+  return hasFilamentSignal && (isPenFilament || !hasAccessorySignal);
+}
+
+function detectSparePart(product: Pick<Product, "name" | "category" | "brand" | "tags">) {
+  const text = searchableText([product.name, product.brand, ...product.tags]);
+  const isPrinterOrBundle = /\b(impresora|printer)\b/i.test(text) || /\bcombo\b/i.test(text);
+  const hasSparePartSignal = /\b(boquilla|nozzle|hotend|heatbreak|termistor|resistencia|extrusor|extruder|engranaje|cable|correa|motor|sensor|sonda|endstop|placa|mainboard|driver|ventilador|fan|rodamiento|polea|fuente|display|pantalla|touchscreen|ptfe|teflon|fep|lcd|cama magnetica|pei|superficie de repuesto|calefactor|heater|funda de silicona|disipador|bloque de hotend|barrel|tubo de teflon|acople conector|limpiador de boquillas)\b/i.test(text);
+
+  return !isPrinterOrBundle && hasSparePartSignal;
+}
+
+function detectAccessory(product: Pick<Product, "name" | "category" | "brand" | "tags">) {
+  const text = searchableText([product.name, product.category, product.brand, ...product.tags]);
+
+  return /\b(camara|cámara|camaras|cámaras|ams|cfs|ace pro|multicolor|puffer|embudo|portabobinas|asa superior|modulo laser|módulo laser|laser upgrade|secador|secadora|space pi|scanner|escaner|escáner|cr scan|ferret|otter|raptor|enclosure|cerramiento)\b/i.test(text);
+}
+
+function normalizedCategory(product: Pick<ScrapedProduct, "name" | "category" | "brand" | "tags">) {
+  const text = searchableText([product.name, product.category, product.brand, ...product.tags]);
+  if (/\b(resina|lavable al agua|mercury|mercuy|lavado|curado|wash|cure)\b/i.test(text)) return "Resina";
+  if (detectAccessory(product)) return "Accesorios";
+
+  return detectSparePart(product) ? "Repuestos" : product.category;
+}
+
+function isApprovedFilamentProduct(product: Pick<Product, "name" | "brand">) {
+  const brand = product.brand?.toLowerCase();
+
+  if (brand === unknownBrand.toLowerCase()) return false;
+  if (brand && excludedFilamentBrands.has(brand)) return false;
+  if (brand === "creality") return /creality\s+cr-silk\s+1\.0kg/i.test(product.name);
+
+  return true;
 }
 
 function detectResinPrinter(product: Pick<Product, "name" | "category" | "brand" | "material" | "tags">) {
@@ -245,6 +361,7 @@ function detectFdmPrinter(
     text.includes("snapmaker");
   const accessorySignal =
     product.category === "Repuestos" ||
+    product.category === "Accesorios" ||
     text.includes("camara") ||
     text.includes("cámara") ||
     text.includes("cable") ||
@@ -255,9 +372,32 @@ function detectFdmPrinter(
     text.includes("nozzle") ||
     text.includes("boquilla") ||
     text.includes("hotend") ||
-    text.includes("scanner");
+    text.includes("scanner") ||
+    text.includes("escaner") ||
+    text.includes("escáner") ||
+    text.includes("cr scan") ||
+    text.includes("ferret") ||
+    text.includes("otter") ||
+    text.includes("raptor") ||
+    text.includes("enclosure") ||
+    text.includes("cerramiento") ||
+    text.includes("ams") ||
+    text.includes("cfs") ||
+    text.includes("ace pro") ||
+    text.includes("multicolor") ||
+    text.includes("modulo laser") ||
+    text.includes("módulo laser");
 
   return hasPrinterSignal && !isResinPrinter && !accessorySignal;
+}
+
+function detectPrinterFrameType(product: Pick<Product, "name" | "category" | "brand" | "material" | "tags">): PrinterFrameType | undefined {
+  const text = baseProductText(product);
+
+  if (/\b(cerrada|cerrado|enclosed|corexy|carbon|x1|p1s|k1|k2|adventurer|guider|creator|centauri)\b/i.test(text)) return "Cerrada";
+  if (/\b(abierta|abierto|bedslinger|ender|a1|neptune|sv0|sovol|mega|sidewinder)\b/i.test(text)) return "Abierta";
+
+  return undefined;
 }
 
 function detectResinMaterial(
@@ -308,6 +448,7 @@ function formatScrapedAt(scrapedAt?: string) {
 
 function toProduct(product: ScrapedProduct, scrapedAt?: string): Product {
   const tags = product.tags.length ? product.tags : [product.brand ?? product.store];
+  const category = normalizedCategory({ ...product, tags });
   const brand = inferBrand(product.name, tags, product.brand);
   const material = inferMaterial(product.name, tags);
   const transferPrice = validTransferPrice(product.price, product.transferPrice);
@@ -318,7 +459,7 @@ function toProduct(product: ScrapedProduct, scrapedAt?: string): Product {
   const baseProduct = {
     id: product.id,
     name: product.name,
-    category: product.category,
+    category,
     store: product.store,
     price: product.price,
     previousPrice: product.previousPrice ?? undefined,
@@ -335,18 +476,40 @@ function toProduct(product: ScrapedProduct, scrapedAt?: string): Product {
     material,
     source: "scraper" as const,
     bestPrice: bestAvailablePrice(product.price, transferPrice),
-    searchText: searchableText([product.name, product.store, "Argentina", material, ...tags]),
+    searchText: searchableText([product.name, product.store, "Argentina", material, product.color, ...tags]),
   };
-  const isFilament = detectFilamentProduct(baseProduct);
+  const isSparePart = detectSparePart(baseProduct);
+  const isFilament = !isSparePart && detectFilamentProduct(baseProduct) && isApprovedFilamentProduct(baseProduct);
+  const availableVariantColors = (product.variants ?? [])
+    .filter((variant) => variant.available !== false)
+    .flatMap((variant) => variant.options ?? []);
+  const variantColors = isFilament
+    ? detectFilamentColors(searchableText(availableVariantColors)).map((match) => match.color)
+    : [];
+  const detectedColors = isFilament
+    ? detectFilamentColors(searchableText([product.name, product.color, product.url, ...tags]))
+    : [];
+  const filamentColors = [...new Set([...variantColors, ...detectedColors.map((match) => match.color)])];
+  const filamentWeightGroup = isFilament
+    ? inferFilamentWeightGroup([product.name, product.url, product.color, ...tags, ...availableVariantColors])
+    : undefined;
   const isResinPrinter = detectResinPrinter(baseProduct);
   const isFdmPrinter = detectFdmPrinter(baseProduct, isResinPrinter);
+  const isResinMaterial = detectResinMaterial(baseProduct, isResinPrinter);
+  const printerFrameType = isFdmPrinter ? detectPrinterFrameType(baseProduct) : undefined;
 
   return {
     ...baseProduct,
+    filamentColors,
+    colorConfidence: variantColors.length
+      ? "variantes"
+      : detectedColors[0]?.confidence ?? "sin_dato",
+    filamentWeightGroup,
     isFilament,
     isFdmPrinter,
     isResinPrinter,
-    isResinMaterial: detectResinMaterial(baseProduct, isResinPrinter),
+    isResinMaterial,
+    printerFrameType,
   };
 }
 
@@ -355,14 +518,24 @@ export function productMatchesCategory(product: Product, category: string) {
   if (category === "Impresoras FDM") return product.isFdmPrinter;
   if (category === "Impresoras de Resina") return product.isResinPrinter;
   if (category === "Filamento") return product.isFilament && !product.isFdmPrinter && !product.isResinPrinter;
-  if (category === "Resina") return product.isResinMaterial;
+  if (category === "Resina") return product.isResinMaterial || (product.category === "Resina" && !product.isResinPrinter);
 
   return product.category === category;
 }
 
 export function queryTermMatches(term: string, product: Product) {
   if (filamentQueryTerms.has(term)) return product.isFilament;
+  if (term === "lapiz" || term === "lápiz") return product.isFilament && product.material === penFilamentMaterial;
   if (filamentMaterialTerms.has(term)) return product.material?.toLowerCase() === term;
+  if (term === "cama") {
+    const tokens = searchableTokens(product.searchText);
+
+    return tokens.includes("cama") ||
+      product.searchText.includes("cama magnetica") ||
+      product.searchText.includes("cama caliente") ||
+      product.searchText.includes("base pei") ||
+      tokens.includes("pei");
+  }
 
   return (searchTermAliases.get(term) ?? [term]).some((alias) => product.searchText.includes(alias));
 }
@@ -379,19 +552,36 @@ const scrapedCatalogs = [
   kimeraData,
 ] as ScrapedCatalog[];
 
+const scrapedDates = scrapedCatalogs
+  .map((catalog) => catalog.scrapedAt ? new Date(catalog.scrapedAt) : null)
+  .filter((date): date is Date => Boolean(date) && !Number.isNaN(date.getTime()));
+
 const products = scrapedCatalogs.flatMap((catalog) =>
   catalog.products.map((product) => toProduct(product, catalog.scrapedAt)),
 );
 
 export const catalogProducts = products;
 
+export const catalogFreshness = {
+  productCount: products.length,
+  storeCount: connectedStoreSources.length,
+  oldestScrapedAt: scrapedDates.length
+    ? new Date(Math.min(...scrapedDates.map((date) => date.getTime()))).toISOString()
+    : null,
+  newestScrapedAt: scrapedDates.length
+    ? new Date(Math.max(...scrapedDates.map((date) => date.getTime()))).toISOString()
+    : null,
+};
+
 const catalogFacets = products.reduce(
   (facets, product) => {
-    const brand = product.brand ?? unknownBrand;
-    facets.brands.add(brand);
-    facets.brandCounts[brand] = (facets.brandCounts[brand] ?? 0) + 1;
-
     if (product.isFilament) {
+      const brand = product.brand ?? unknownBrand;
+      if (!excludedFilamentBrands.has(brand.toLowerCase())) {
+        facets.brands.add(brand);
+        facets.brandCounts[brand] = (facets.brandCounts[brand] ?? 0) + 1;
+      }
+
       const material = product.material ?? unknownMaterial;
       facets.materials.add(material);
       facets.materialCounts[material] = (facets.materialCounts[material] ?? 0) + 1;

@@ -20,11 +20,12 @@
     "scrape:tp3d:sample": "TP3D_MAX_PAGES=1 node scripts/scrape-tp3d.mjs --output=data/tp3d-products.sample.json",
     "scrape:proyectocolor": "node scripts/scrape-proyectocolor.mjs",
     "scrape:proyectocolor:sample": "PROYECTO_COLOR_MAX_PAGES=1 node scripts/scrape-proyectocolor.mjs --output=data/proyectocolor-products.sample.json",
+    "scrape:all": "node scripts/scrape-all.mjs",
     "db:generate": "drizzle-kit generate"
   },
   "dependencies": {
     "drizzle-orm": "0.45.2",
-    "next": "16.2.6",
+    "next": "16.2.12",
     "react": "19.2.6",
     "react-dom": "19.2.6"
   },

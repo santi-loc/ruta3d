@@ -14,6 +14,7 @@ const STORE = {
 
 const DEFAULT_OUTPUT = "data/kimera3d-products.json";
 const PER_PAGE = 100;
+const FETCH_TIMEOUT_MS = 20_000;
 
 const brandLabels = [
   "Bambu Lab",
@@ -112,6 +113,12 @@ function inferCategory(product) {
 }
 
 function inferBrand(product) {
+  const nameText = String(product.name ?? "").toLowerCase();
+  const namedBrand = brandLabels.find((label) => nameText.includes(label.toLowerCase()));
+  if (namedBrand === "Bambulab") return "Bambu Lab";
+  if (namedBrand === "PrintaLot") return "Printalot";
+  if (namedBrand) return namedBrand;
+
   const apiBrand = product.brands?.[0]?.name;
   if (apiBrand) return apiBrand;
 
@@ -207,8 +214,12 @@ function toScrapedProduct(product) {
 }
 
 async function fetchJson(url) {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
+
   try {
     const response = await fetch(url, {
+      signal: controller.signal,
       headers: {
         "user-agent":
           "Mozilla/5.0 (compatible; Filtrar3D/1.0; +https://filtrar-3d.locatellisanti.chatgpt.site)",
@@ -220,7 +231,7 @@ async function fetchJson(url) {
 
     return response.json();
   } catch {
-    for (let attempt = 1; attempt <= 8; attempt += 1) {
+    for (let attempt = 1; attempt <= 3; attempt += 1) {
       const temporaryPath = `/tmp/kimera3d-api-${process.pid}-${attempt}.json`;
 
       try {
@@ -228,11 +239,19 @@ async function fetchJson(url) {
           "curl",
           [
             "--http1.1",
+            "--connect-timeout",
+            "10",
+            "--max-time",
+            "25",
             "--retry",
-            "12",
+            "3",
             "--retry-all-errors",
             "--retry-delay",
             "2",
+            "-A",
+            "Mozilla/5.0 (compatible; Filtrar3D/1.0; +https://filtrar-3d.locatellisanti.chatgpt.site)",
+            "-H",
+            "accept: application/json",
             "-L",
             "--silent",
             "--show-error",
@@ -240,16 +259,18 @@ async function fetchJson(url) {
             temporaryPath,
             url,
           ],
-          { maxBuffer: 1024 * 128 },
+          { maxBuffer: 1024 * 128, timeout: FETCH_TIMEOUT_MS + 10_000 },
         );
         return JSON.parse(await readFile(temporaryPath, "utf8"));
       } catch (error) {
-        if (attempt === 8) throw error;
+        if (attempt === 3) throw error;
         await new Promise((resolve) => setTimeout(resolve, attempt * 1500));
       } finally {
         await unlink(temporaryPath).catch(() => {});
       }
     }
+  } finally {
+    clearTimeout(timeout);
   }
 }
 

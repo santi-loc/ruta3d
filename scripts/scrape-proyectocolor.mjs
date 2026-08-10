@@ -60,11 +60,12 @@ function validTransferPrice(price, transferPrice) {
 
 function inferCategory(name, classes, listingLabel) {
   const text = `${name} ${classes} ${listingLabel}`.toLowerCase();
+  const productName = name.toLowerCase();
 
   if (text.includes("laser") || text.includes("láser") || text.includes("grabadora") || text.includes("grabado")) {
     return "Herramientas";
   }
-  if (text.includes("filamento") || text.includes("filamentos") || text.includes("pla") || text.includes("petg") || text.includes("abs") || text.includes("asa") || text.includes("tpu")) {
+  if (productName.includes("filamento") || productName.includes("ecofila")) {
     return "Filamentos";
   }
   if (text.includes("resina")) return "Resina";
@@ -80,11 +81,12 @@ function inferCategory(name, classes, listingLabel) {
 function makeTags(name, classes, brand, listingLabel) {
   const text = `${name} ${classes} ${listingLabel}`.toLowerCase();
   const nameText = name.toLowerCase();
+  const nameTokens = new Set(nameText.match(/[a-z0-9]+/g) ?? []);
   const tags = new Set();
 
   if (brand) tags.add(brand);
   for (const material of ["PLA", "PETG", "ABS", "ASA", "TPU", "FLEX"]) {
-    if (nameText.includes(material.toLowerCase())) tags.add(material);
+    if (nameTokens.has(material.toLowerCase())) tags.add(material);
   }
   for (const productBrand of ["Bambu Lab", "Creality", "Anycubic", "GST3D", "Fremover", "Toolbox", "Filanova", "Hellbot"]) {
     if (text.includes(productBrand.toLowerCase())) tags.add(productBrand);

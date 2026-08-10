@@ -1,0 +1,35 @@
+name: Actualizar catálogos
+
+on:
+  schedule:
+    # Todos los días a las 08:00 UTC (05:00 en Argentina durante UTC-3).
+    - cron: "0 8 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-catalog
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: corepack enable
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm run scrape:all
+      - run: pnpm run test
+      - name: Guardar catálogos actualizados
+        run: |
+          git config user.name "filtrar-3d-bot"
+          git config user.email "actions@github.com"
+          git add data/*-products.json
+          git diff --cached --quiet || git commit -m "chore: actualizar catálogos"
+          git push

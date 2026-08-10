@@ -3,4 +3,8 @@ allowBuilds:
   sharp: true
   unrs-resolver: true
   workerd: true
+overrides:
+  next>postcss: 8.5.23
+  next>sharp: 0.35.0
+  miniflare>sharp: 0.35.0
 confirmModulesPurge: false

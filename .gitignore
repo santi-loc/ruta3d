@@ -42,3 +42,8 @@ tsconfig.tsbuildinfo
 /.wrangler/
 /outputs/
 /work/
+
+# local Codex tooling
+/.agents/
+/.codex/
+/skills-lock.json

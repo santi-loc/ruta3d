@@ -41,7 +41,7 @@ export function ProductCard({ product, priceFormatter }: ProductCardProps) {
           <div>
             <strong>{priceFormatter.format(product.bestPrice)}</strong>
             <span className="price-label">
-              {product.transferPrice ? "Mejor precio por transferencia" : "Precio lista"}
+              {product.transferPrice ? "Medio de pago: transferencia" : "Medio de pago: precio de lista"}
             </span>
             {product.previousPrice ? <small>{priceFormatter.format(product.previousPrice)}</small> : null}
             {product.transferPrice ? (
