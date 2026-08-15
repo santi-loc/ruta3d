@@ -4,6 +4,9 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Privacidad | Ruta 3D",
   description: "Información sobre privacidad en Ruta 3D.",
+  alternates: {
+    canonical: "/privacidad",
+  },
 };
 
 export default function PrivacyPage() {

@@ -1,16 +1,34 @@
+import type { Metadata } from "next";
 import { ProductExplorer } from "./product-explorer";
 import { catalogFreshness, catalogProducts, filamentBrands, filamentMaterials, stores } from "@/lib/catalog";
+import { siteDescription } from "@/lib/site";
+import { HomeJsonLd } from "./seo-json-ld";
+
+export const metadata: Metadata = {
+  title: "Comparador argentino de impresión 3D",
+  description: siteDescription,
+  alternates: {
+    canonical: "/",
+  },
+};
 
 export default async function Home({ searchParams }: { searchParams: Promise<{ q?: string }> }) {
   const { q } = await searchParams;
   return (
-    <ProductExplorer
-      products={catalogProducts}
-      filamentBrands={filamentBrands}
-      filamentMaterials={filamentMaterials}
-      stores={stores}
-      catalogFreshness={catalogFreshness}
-      initialQuery={q ?? ""}
-    />
+    <>
+      <HomeJsonLd
+        products={catalogProducts}
+        productCount={catalogFreshness.productCount}
+        storeCount={catalogFreshness.storeCount}
+      />
+      <ProductExplorer
+        products={catalogProducts}
+        filamentBrands={filamentBrands}
+        filamentMaterials={filamentMaterials}
+        stores={stores}
+        catalogFreshness={catalogFreshness}
+        initialQuery={q ?? ""}
+      />
+    </>
   );
 }

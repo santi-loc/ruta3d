@@ -4,6 +4,9 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Términos de uso | Ruta 3D",
   description: "Términos de uso de Ruta 3D.",
+  alternates: {
+    canonical: "/terminos",
+  },
 };
 
 export default function TermsPage() {

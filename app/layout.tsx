@@ -1,22 +1,42 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next";
+import { siteDescription, siteName, siteUrl } from "@/lib/site";
 import "./globals.css";
 
-const title = "Ruta 3D";
-const description =
-  "Comparador argentino para buscar impresoras 3D, filamentos, resinas, repuestos, accesorios y herramientas por tienda, precio y stock.";
-const metadataBase = new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://ruta3d.vercel.app");
+const metadataBase = new URL(siteUrl);
 
 export const metadata: Metadata = {
   metadataBase,
-  title,
-  description,
+  title: {
+    default: `${siteName} | Comparador argentino de impresión 3D`,
+    template: `%s | ${siteName}`,
+  },
+  description: siteDescription,
+  applicationName: siteName,
+  authors: [{ name: siteName }],
+  creator: siteName,
+  publisher: siteName,
+  alternates: {
+    canonical: "/",
+  },
+  keywords: [
+    "impresoras 3D Argentina",
+    "filamentos 3D Argentina",
+    "comparador impresión 3D",
+    "precio filamento PLA",
+    "resina 3D Argentina",
+    "repuestos impresora 3D",
+  ],
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",
   },
   openGraph: {
-    title,
-    description,
+    title: `${siteName} | Comparador argentino de impresión 3D`,
+    description: siteDescription,
+    url: "/",
+    siteName,
+    locale: "es_AR",
     type: "website",
     images: [
       {
@@ -29,8 +49,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title,
-    description,
+    title: `${siteName} | Comparador argentino de impresión 3D`,
+    description: siteDescription,
     images: ["/og.png"],
   },
 };
@@ -42,7 +62,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es-AR">
-      <body>{children}</body>
+      <body>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }

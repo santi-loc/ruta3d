@@ -18,7 +18,7 @@ export const filamentWeightOptions: FilamentWeightGroup[] = ["0.25", "0.5", "1",
 export const printerFrameOptions: PrinterFrameType[] = ["Abierta", "Cerrada"];
 export { filamentColorOptions } from "@/lib/filament-colors";
 
-export const resinTypeOptions = ["Standard", "ABS Like", "Lavable al agua", "Tough", "Flexible", "Alta velocidad", "Vegetal"];
+export const resinTypeOptions = ["Standard", "Dura", "ABS Like", "Lavable al agua", "Alta velocidad", "Vegetal"];
 
 function printerMinimumPrice(product: Product) {
   if (product.brand === "Bambu Lab") return 300_000;
@@ -32,6 +32,7 @@ function defaultFilamentMaterials(materials: string[]) {
 
 function resinTypeAliases(type: string) {
   if (type === "Standard") return ["standard", "estandar"];
+  if (type === "Dura") return ["dura", "durable", "tough"];
   if (type === "ABS Like") return ["abs like", "abs-like", "abs"];
   if (type === "Lavable al agua") return ["lavable al agua", "water washable", "water-washable"];
   if (type === "Alta velocidad") return ["alta velocidad", "high speed", "fast", "rapid"];
@@ -211,7 +212,9 @@ export function useProductFilters(
   function togglePrinterBrand(brand: string) {
     resetVisibleCount();
     setSelectedPrinterBrands((current) =>
-      current.includes(brand) ? current.filter((item) => item !== brand) : [...current, brand],
+      current.includes(brand)
+        ? current.filter((item) => item !== brand)
+        : [...current.filter((item) => item !== "__none__"), brand],
     );
   }
 

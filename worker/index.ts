@@ -51,10 +51,13 @@ interface ExecutionContext {
 const worker = {
   async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
     if (request.method !== "GET" && request.method !== "HEAD") {
-      return new Response("Method not allowed", {
-        status: 405,
-        headers: { Allow: "GET, HEAD" },
-      });
+      return withSecurityHeaders(
+        new Response("Method not allowed", {
+          status: 405,
+          headers: { Allow: "GET, HEAD" },
+        }),
+        request,
+      );
     }
 
     const url = new URL(request.url);

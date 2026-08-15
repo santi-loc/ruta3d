@@ -233,7 +233,9 @@ const nonFilamentProductWords = [
   "portabobinas",
   "modulo laser",
   "módulo laser",
+  "módulo láser",
   "laser upgrade",
+  "láser upgrade",
   "scanner",
   "escaner",
   "escáner",
@@ -251,6 +253,9 @@ function inferBrand(name: string, tags: string[], brand?: string | null) {
   const text = searchableText([name, brand, ...tags]);
   if (text.includes("filamento mix pla small")) return "GST3D";
   if (text.includes("elemental")) return "Elemental";
+  if (/\bams\b/i.test(text) || text.includes("bambulab")) return "Bambu Lab";
+  if (/\bcfs\b/i.test(text)) return "Creality";
+  if (/\bace pro\b/i.test(text)) return "Anycubic";
   const matchedBrand = filamentBrandNames.find((item) => text.includes(item.toLowerCase()));
 
   if (matchedBrand === "GST") return "GST3D";
@@ -316,8 +321,8 @@ function baseProductText(product: Pick<Product, "name" | "category" | "brand" | 
   ]);
 }
 
-function detectFilamentProduct(product: Pick<Product, "name" | "brand" | "material" | "tags">) {
-  const text = searchableText([product.name, product.brand, product.material, ...product.tags]);
+function detectFilamentProduct(product: Pick<Product, "name" | "category" | "brand" | "material" | "tags">) {
+  const text = searchableText([product.name, product.category, product.brand, product.material, ...product.tags]);
   const tokens = searchableTokens(text);
   const isPenFilament = (
     (text.includes("lapiz 3d") || text.includes("lápiz 3d")) &&
@@ -345,8 +350,9 @@ function detectSparePart(product: ProductClassificationInput) {
 
 function detectAccessory(product: ProductClassificationInput) {
   const text = searchableText([product.name, product.category, product.brand, ...product.tags]);
+  const isPrinterListing = /\b(impresora|printer)\b/i.test(text);
 
-  return /\b(camara|cámara|camaras|cámaras|ams|cfs|ace pro|multicolor|puffer|embudo|portabobinas|asa superior|modulo laser|módulo laser|laser upgrade|secador|secadora|space pi|scanner|escaner|escáner|cr scan|ferret|otter|raptor|enclosure|cerramiento)\b/i.test(text);
+  return !isPrinterListing && /\b(camara|cámara|camaras|cámaras|ams|cfs|ace pro|multicolor|puffer|embudo|portabobinas|asa superior|modulo laser|módulo laser|laser upgrade|secador|secadora|space pi|scanner|escaner|escáner|cr scan|ferret|otter|raptor|enclosure|cerramiento)\b/i.test(text);
 }
 
 function normalizedCategory(product: Pick<ScrapedProduct, "name" | "category" | "brand" | "tags">) {
@@ -433,10 +439,6 @@ function detectFdmPrinter(
     text.includes("raptor") ||
     text.includes("enclosure") ||
     text.includes("cerramiento") ||
-    text.includes("ams") ||
-    text.includes("cfs") ||
-    text.includes("ace pro") ||
-    text.includes("multicolor") ||
     text.includes("modulo laser") ||
     text.includes("módulo laser");
 
@@ -530,7 +532,7 @@ function toProduct(product: ScrapedProduct, scrapedAt?: string): Product {
     material,
     source: "scraper" as const,
     bestPrice: bestAvailablePrice(product.price, transferPrice),
-    searchText: searchableText([product.name, product.store, "Argentina", material, product.color, ...tags]),
+    searchText: searchableText([product.name, product.category, product.brand, product.store, "Argentina", material, product.color, ...tags]),
   };
   const isSparePart = detectSparePart(baseProduct);
   const isFilament = !isSparePart && detectFilamentProduct(baseProduct) && isApprovedFilamentProduct(baseProduct);

@@ -1,5 +1,5 @@
 export const filamentColorOptions = [
-  "Negro", "Blanco", "Gris", "Rojo", "Naranja", "Amarillo", "Verde", "Azul", "Natural",
+  "Negro", "Blanco", "Gris", "Rojo", "Naranja", "Amarillo", "Verde", "Azul", "Violeta", "Rosa", "Dorado", "Natural",
 ] as const;
 
 export type FilamentColor = (typeof filamentColorOptions)[number];
@@ -13,6 +13,9 @@ const declaredColorAliases: Array<[FilamentColor, string[]]> = [
   ["Negro", ["negro", "black"]], ["Blanco", ["blanco", "white"]], ["Gris", ["gris", "gray", "grey"]],
   ["Rojo", ["rojo", "red"]], ["Naranja", ["naranja", "orange"]], ["Amarillo", ["amarillo", "yellow"]],
   ["Verde", ["verde", "green"]], ["Azul", ["azul", "blue"]],
+  ["Violeta", ["violeta", "violet", "purple", "purpura", "púrpura", "lila", "lavanda", "lavender"]],
+  ["Rosa", ["rosa", "pink", "magenta", "fucsia", "fuchsia"]],
+  ["Dorado", ["dorado", "gold", "golden", "oro"]],
   // Natural es un acabado propio del filamento; no equivale a blanco.
   ["Natural", ["natural"]],
 ];
@@ -21,6 +24,9 @@ const normalizedColorAliases: Array<[FilamentColor, string[]]> = [
   ["Negro", ["onyx", "carbon", "midnight"]], ["Blanco", ["ivory", "marfil"]], ["Gris", ["silver", "plata"]],
   ["Rojo", ["crimson", "scarlet"]], ["Naranja", ["coral"]], ["Verde", ["lime", "olive", "oliva"]],
   ["Azul", ["sky", "ocean", "cielo"]],
+  ["Violeta", ["morado", "mauve", "uva"]],
+  ["Rosa", ["rose", "salmon", "salmón"]],
+  ["Dorado", ["champagne", "metal gold"]],
 ];
 
 function includesWholeAlias(text: string, alias: string) {

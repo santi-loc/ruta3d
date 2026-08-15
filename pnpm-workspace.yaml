@@ -4,7 +4,13 @@ allowBuilds:
   unrs-resolver: true
   workerd: true
 overrides:
+  brace-expansion@<1.1.18: 1.1.18
+  brace-expansion@>=4.0.0 <5.0.9: 5.0.9
+  esbuild@<=0.24.2: 0.25.12
+  js-yaml@>=4.0.0 <4.3.1: 4.3.1
   next>postcss: 8.5.23
   next>sharp: 0.35.0
   miniflare>sharp: 0.35.0
 confirmModulesPurge: false
+minimumReleaseAgeExclude:
+  - vinext@1.0.0-beta.6
