@@ -18,6 +18,8 @@ export const filamentWeightOptions: FilamentWeightGroup[] = ["0.25", "0.5", "1",
 export const printerFrameOptions: PrinterFrameType[] = ["Abierta", "Cerrada"];
 export { filamentColorOptions } from "@/lib/filament-colors";
 
+export const resinTypeOptions = ["Standard", "ABS Like", "Lavable al agua", "Tough", "Flexible", "Alta velocidad", "Vegetal"];
+
 function printerMinimumPrice(product: Product) {
   if (product.brand === "Bambu Lab") return 300_000;
   if (product.brand === "Creality") return 350_000;
@@ -28,6 +30,22 @@ function defaultFilamentMaterials(materials: string[]) {
   return materials.filter((material) => material !== penFilamentMaterial);
 }
 
+function resinTypeAliases(type: string) {
+  if (type === "Standard") return ["standard", "estandar"];
+  if (type === "ABS Like") return ["abs like", "abs-like", "abs"];
+  if (type === "Lavable al agua") return ["lavable al agua", "water washable", "water-washable"];
+  if (type === "Alta velocidad") return ["alta velocidad", "high speed", "fast", "rapid"];
+  if (type === "Vegetal") return ["vegetal", "plant based", "plant-based", "bio"];
+
+  return [type.toLowerCase()];
+}
+
+function productMatchesResinType(product: Product, type: string) {
+  const text = product.searchText.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+
+  return resinTypeAliases(type).some((alias) => text.includes(alias));
+}
+
 function productMatchesPriceBounds(product: Product, min: number | null, max: number | null) {
   return (min === null || product.bestPrice >= min) && (max === null || product.bestPrice <= max);
 }
@@ -36,6 +54,8 @@ export function useProductFilters(
   products: Product[],
   filamentBrands: string[],
   filamentMaterials: string[],
+  resinPrinterBrands: string[] = [],
+  resinMaterialBrands: string[] = [],
   initialQuery = "",
 ) {
   const loadingTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -52,6 +72,9 @@ export function useProductFilters(
   const [priceMax, setPriceMaxState] = useState<number | null>(null);
   const [selectedPrinterBrands, setSelectedPrinterBrands] = useState<string[]>([]);
   const [selectedPrinterFrames, setSelectedPrinterFrames] = useState<PrinterFrameType[]>([...printerFrameOptions]);
+  const [selectedResinPrinterBrands, setSelectedResinPrinterBrands] = useState(resinPrinterBrands);
+  const [selectedResinMaterialBrands, setSelectedResinMaterialBrands] = useState(resinMaterialBrands);
+  const [selectedResinTypes, setSelectedResinTypes] = useState([...resinTypeOptions]);
   const [openFacet, setOpenFacet] = useState<"brands" | "materials" | null>(null);
   const [visibleCount, setVisibleCount] = useState(pageSize);
   const [isLoadingResults, setIsLoadingResults] = useState(true);
@@ -103,6 +126,9 @@ export function useProductFilters(
       setPriceMaxState(null);
       setSelectedPrinterBrands([]);
       setSelectedPrinterFrames([...printerFrameOptions]);
+      setSelectedResinPrinterBrands(resinPrinterBrands);
+      setSelectedResinMaterialBrands(resinMaterialBrands);
+      setSelectedResinTypes([...resinTypeOptions]);
       setOpenFacet(null);
     }
     resetVisibleCount();
@@ -202,6 +228,51 @@ export function useProductFilters(
   function selectAllPrinterFrames() { resetVisibleCount(); setSelectedPrinterFrames([...printerFrameOptions]); }
   function clearPrinterFrames() { resetVisibleCount(); setSelectedPrinterFrames([]); }
 
+  function toggleResinPrinterBrand(brand: string) {
+    resetVisibleCount();
+    setSelectedResinPrinterBrands((current) =>
+      current.includes(brand) ? current.filter((item) => item !== brand) : [...current, brand],
+    );
+  }
+
+  function selectResinPrinterBrand(brand: string) {
+    resetVisibleCount();
+    setSelectedResinPrinterBrands([brand]);
+  }
+
+  function selectAllResinPrinterBrands() { resetVisibleCount(); setSelectedResinPrinterBrands(resinPrinterBrands); }
+  function clearResinPrinterBrands() { resetVisibleCount(); setSelectedResinPrinterBrands([]); }
+
+  function toggleResinMaterialBrand(brand: string) {
+    resetVisibleCount();
+    setSelectedResinMaterialBrands((current) =>
+      current.includes(brand) ? current.filter((item) => item !== brand) : [...current, brand],
+    );
+  }
+
+  function selectResinMaterialBrand(brand: string) {
+    resetVisibleCount();
+    setSelectedResinMaterialBrands([brand]);
+  }
+
+  function selectAllResinMaterialBrands() { resetVisibleCount(); setSelectedResinMaterialBrands(resinMaterialBrands); }
+  function clearResinMaterialBrands() { resetVisibleCount(); setSelectedResinMaterialBrands([]); }
+
+  function toggleResinType(type: string) {
+    resetVisibleCount();
+    setSelectedResinTypes((current) =>
+      current.includes(type) ? current.filter((item) => item !== type) : [...current, type],
+    );
+  }
+
+  function selectResinType(type: string) {
+    resetVisibleCount();
+    setSelectedResinTypes([type]);
+  }
+
+  function selectAllResinTypes() { resetVisibleCount(); setSelectedResinTypes([...resinTypeOptions]); }
+  function clearResinTypes() { resetVisibleCount(); setSelectedResinTypes([]); }
+
   function selectAllFilamentBrands() {
     resetVisibleCount();
     setSelectedFilamentBrands(filamentBrands);
@@ -231,11 +302,16 @@ export function useProductFilters(
     const wantsPrinters = queryTerms.some((term) => term.startsWith("impresor") || term === "printer");
     const needsPrinterPriceFloor =
       wantsPrinters || category === "Impresoras FDM" || category === "Impresoras de Resina";
-    const isPrinterFilterActive = category === "Impresoras FDM" || category === "Impresoras de Resina" || wantsPrinters;
+    const isFdmPrinterFilterActive = category === "Impresoras FDM" || (wantsPrinters && category !== "Impresoras de Resina");
+    const isResinPrinterFilterActive = category === "Impresoras de Resina";
+    const isResinMaterialFilterActive = category === "Resina";
     const colorFilterIsActive = selectedFilamentColors.length !== filamentColorOptions.length;
     const weightFilterIsActive = selectedFilamentWeights.length !== filamentWeightOptions.length;
     const printerBrandFilterIsActive = selectedPrinterBrands.length > 0;
     const printerFrameFilterIsActive = selectedPrinterFrames.length !== printerFrameOptions.length;
+    const resinPrinterBrandFilterIsActive = selectedResinPrinterBrands.length !== resinPrinterBrands.length;
+    const resinMaterialBrandFilterIsActive = selectedResinMaterialBrands.length !== resinMaterialBrands.length;
+    const resinTypeFilterIsActive = selectedResinTypes.length !== resinTypeOptions.length;
 
     return products
       .filter((product) => {
@@ -256,14 +332,23 @@ export function useProductFilters(
             !product.filamentWeightGroup ||
             selectedFilamentWeights.includes(product.filamentWeightGroup)) &&
           productMatchesPriceBounds(product, priceMin, priceMax) &&
-          (!isPrinterFilterActive ||
+          (!isFdmPrinterFilterActive ||
             !printerBrandFilterIsActive ||
             selectedPrinterBrands.includes(product.brand ?? unknownBrand)) &&
-          (!isPrinterFilterActive ||
+          (!isFdmPrinterFilterActive ||
             !printerFrameFilterIsActive ||
             !product.isFdmPrinter ||
             !product.printerFrameType ||
             selectedPrinterFrames.includes(product.printerFrameType)) &&
+          (!isResinPrinterFilterActive ||
+            !resinPrinterBrandFilterIsActive ||
+            selectedResinPrinterBrands.includes(product.brand ?? unknownBrand)) &&
+          (!isResinMaterialFilterActive ||
+            !resinMaterialBrandFilterIsActive ||
+            selectedResinMaterialBrands.includes(product.brand ?? unknownBrand)) &&
+          (!isResinMaterialFilterActive ||
+            !resinTypeFilterIsActive ||
+            selectedResinTypes.some((type) => productMatchesResinType(product, type))) &&
           productMatchesCategory(product, category) &&
           (store === "Todas" || product.store === store) &&
           (!stockOnly || product.stock !== "Consultar")
@@ -296,6 +381,11 @@ export function useProductFilters(
     priceMax,
     selectedPrinterBrands,
     selectedPrinterFrames,
+    resinPrinterBrands.length,
+    selectedResinPrinterBrands,
+    resinMaterialBrands.length,
+    selectedResinMaterialBrands,
+    selectedResinTypes,
     sort,
     stockOnly,
     store,
@@ -318,7 +408,10 @@ export function useProductFilters(
     priceMin !== null ||
     priceMax !== null ||
     selectedPrinterBrands.length > 0 ||
-    selectedPrinterFrames.length !== printerFrameOptions.length;
+    selectedPrinterFrames.length !== printerFrameOptions.length ||
+    selectedResinPrinterBrands.length !== resinPrinterBrands.length ||
+    selectedResinMaterialBrands.length !== resinMaterialBrands.length ||
+    selectedResinTypes.length !== resinTypeOptions.length;
 
   function resetFilters() {
     setQuery("");
@@ -334,6 +427,9 @@ export function useProductFilters(
     setPriceMaxState(null);
     setSelectedPrinterBrands([]);
     setSelectedPrinterFrames([...printerFrameOptions]);
+    setSelectedResinPrinterBrands(resinPrinterBrands);
+    setSelectedResinMaterialBrands(resinMaterialBrands);
+    setSelectedResinTypes([...resinTypeOptions]);
     setOpenFacet(null);
     resetVisibleCount();
   }
@@ -358,6 +454,9 @@ export function useProductFilters(
     clearPriceBounds,
     clearPrinterBrands,
     clearPrinterFrames,
+    clearResinMaterialBrands,
+    clearResinPrinterBrands,
+    clearResinTypes,
     selectedFilamentBrandSet,
     selectedFilamentBrands,
     selectedFilamentMaterialSet,
@@ -368,6 +467,9 @@ export function useProductFilters(
     priceMax,
     selectedPrinterBrands,
     selectedPrinterFrames,
+    selectedResinMaterialBrands,
+    selectedResinPrinterBrands,
+    selectedResinTypes,
     setCategory,
     setOpenFacet,
     setPriceMin,
@@ -382,10 +484,16 @@ export function useProductFilters(
     selectAllFilamentMaterials,
     selectAllPrinterBrands,
     selectAllPrinterFrames,
+    selectAllResinMaterialBrands,
+    selectAllResinPrinterBrands,
+    selectAllResinTypes,
     selectFilamentBrand,
     selectFilamentColor,
     selectFilamentWeight,
     selectFilamentMaterial,
+    selectResinMaterialBrand,
+    selectResinPrinterBrand,
+    selectResinType,
     sort,
     stockOnly,
     store,
@@ -395,6 +503,9 @@ export function useProductFilters(
     toggleFilamentMaterial,
     togglePrinterBrand,
     togglePrinterFrame,
+    toggleResinMaterialBrand,
+    toggleResinPrinterBrand,
+    toggleResinType,
     visibleCount,
     visibleProducts,
   };

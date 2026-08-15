@@ -8,14 +8,14 @@ web
 
 ## Users
 
-Filtrar 3D serves two primary Argentine audiences:
+Ruta 3D serves two primary Argentine audiences:
 
 - Makers and hobbyists who need to compare 3D printing products, prices, stock, and stores quickly before buying.
 - Workshops, studios, and small businesses that buy 3D printing materials, parts, accessories, or machines on a recurring basis and need efficient price discovery.
 
 ## Product Purpose
 
-Filtrar 3D is an Argentine price comparison tool for 3D printing products. It helps users search for printers, filament, resin, accessories, parts, and related products across connected Argentine stores, then compare price, stock, category, store, product image, and offer links in one place.
+Ruta 3D is an Argentine price comparison tool for 3D printing products. It helps users search for printers, filament, resin, accessories, parts, and related products across connected Argentine stores, then compare price, stock, category, store, product image, and offer links in one place.
 
 Success means users can find relevant real listings faster than visiting each store separately, with enough trustworthy information to decide where to buy.
 
@@ -49,7 +49,7 @@ Durable constraints:
 
 ## Brand Commitments
 
-The product name is Filtrar 3D. The current voice is practical, direct, and Argentine Spanish. Future copy should stay useful and buying-oriented rather than hype-driven.
+The product name is Ruta 3D. The current voice is practical, direct, and Argentine Spanish. Future copy should stay useful and buying-oriented rather than hype-driven.
 
 ## Evidence on Hand
 

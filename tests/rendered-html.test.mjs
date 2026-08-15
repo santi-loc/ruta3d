@@ -23,7 +23,7 @@ async function render(path = "/") {
   );
 }
 
-test("server-renders the Filtrar 3D app shell", async () => {
+test("server-renders the Ruta 3D app shell", async () => {
   const response = await render();
   assert.equal(response.status, 200);
   assert.match(response.headers.get("content-type") ?? "", /^text\/html\b/i);
@@ -32,7 +32,7 @@ test("server-renders the Filtrar 3D app shell", async () => {
   assert.match(response.headers.get("content-security-policy") ?? "", /frame-ancestors 'none'/);
 
   const html = await response.text();
-  assert.match(html, /Filtrar 3D/);
+  assert.match(html, /Ruta 3D/);
   assert.match(html, /Comparador argentino de impresión 3D/);
   assert.match(html, /Buscar/);
   assert.match(html, /Menor precio/);
@@ -59,15 +59,17 @@ test("keeps catalog data out of the client page module", async () => {
 });
 
 test("keeps product taxonomy and progressive rendering wired", async () => {
-  const [catalog, explorer, filters] = await Promise.all([
+  const [catalog, explorer, filters, filterUtils] = await Promise.all([
     readFile(new URL("../lib/catalog.ts", import.meta.url), "utf8"),
     readFile(new URL("../app/product-explorer.tsx", import.meta.url), "utf8"),
     readFile(new URL("../app/use-product-filters.ts", import.meta.url), "utf8"),
+    readFile(new URL("../lib/filter-utils.ts", import.meta.url), "utf8"),
   ]);
 
   assert.match(catalog, /"Herramientas"/);
   assert.match(catalog, /product\.isFdmPrinter/);
   assert.match(catalog, /product\.isResinPrinter/);
+  assert.match(catalog, /product\.isResinCuring/);
   assert.match(catalog, /product\.isResinMaterial/);
   assert.match(filters, /pageSize = 48/);
   assert.match(filters, /useProductFilters/);
@@ -85,6 +87,29 @@ test("keeps product taxonomy and progressive rendering wired", async () => {
   assert.match(explorer, /productos más/);
   assert.match(explorer, /visibleProducts\.length \|\| showsFilterSidebar/);
   assert.match(explorer, /Lápiz 3D/);
+  assert.match(explorer, /Técnicos/);
+  assert.match(explorer, /ABS/);
+  assert.match(explorer, /NYLON/);
+  assert.match(explorer, /PC/);
+  assert.match(explorer, /PVC/);
+  assert.match(explorer, /PA6-GF/);
+  assert.match(explorer, /PPA-CF/);
+  assert.match(catalog, /"PLA Silk"/);
+  assert.match(catalog, /"PEBA"/);
+  assert.match(catalog, /"PVC"/);
+  assert.match(catalog, /material !== unknownMaterial/);
+  assert.match(catalog, /isBambuLaserModule/);
+  assert.match(catalog, /detectSparePart\(product\)\) return "Repuestos"/);
+  assert.match(catalog, /buffer de filamento/);
+  assert.match(explorer, /menu-section-trigger/);
+  assert.match(explorer, /setCategory\("Impresoras de Resina"\); handleQueryChange\("", false\); selectAllResinPrinterBrands/);
+  assert.match(explorer, /setCategory\("Curadoras"\); handleQueryChange\("", false\)/);
+  assert.match(explorer, /setCategory\("Resina"\); handleQueryChange\("", false\); selectAllResinMaterialBrands/);
+  assert.match(explorer, /isFdmPrinterSearch \? <details open><summary>Tipo/);
+  assert.match(explorer, /isResinPrinterSearch \? <details open><summary>Marca/);
+  assert.match(explorer, /isResinMaterialSearch \? <details open><summary>Tipo/);
+  assert.match(explorer, /Marcas resina/);
+  assert.match(filterUtils, /\["standard", \["standard", "estandar"\]\]/);
   assert.match(explorer, /priceRangeLabel/);
   assert.match(explorer, /printerFrameOptions/);
   assert.match(catalog, /excludedFilamentBrands/);
@@ -102,6 +127,20 @@ test("renders all available colors from catalog variants", async () => {
 
   assert.match(html, /Disponible en/);
   assert.match(html, /Color no informado por la tienda/);
+});
+
+test("keeps curing machines discoverable from resin searches", async () => {
+  const response = await render("/?q=Elegoo%20curado");
+  const html = await response.text();
+
+  assert.match(html, /MAQUINA DE LAVADO Y CURADO ELEGOO MERCUY 3,0 PLUS|Máquina de lavado y curado Elegoo/i);
+});
+
+test("matches standard resin products also named estandar", async () => {
+  const response = await render("/?q=standard");
+  const html = await response.text();
+
+  assert.match(html, /Resina Est[aá]ndar 1kg Anycubic/i);
 });
 
 test("keeps scraped price data internally consistent", async () => {

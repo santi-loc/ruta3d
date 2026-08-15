@@ -3,9 +3,11 @@
 import Image from "next/image";
 import { useEffect, useMemo, useState, useSyncExternalStore } from "react";
 import type { FilamentWeightGroup, Product } from "@/lib/catalog";
+import { Ruta3DMark } from "./ruta-3d-mark";
 import {
   filamentWeightOptions,
   printerFrameOptions,
+  resinTypeOptions,
   useProductFilters,
 } from "./use-product-filters";
 
@@ -29,6 +31,7 @@ const price = new Intl.NumberFormat("es-AR", {
   maximumFractionDigits: 0,
 });
 const count = new Intl.NumberFormat("es-AR");
+const unknownBrandLabel = "Sin marca";
 
 const fdmBrands = ["Bambu Lab", "Creality", "Elegoo", "Flashforge", "Snapmaker", "Anycubic", "Artillery", "Hellbot"];
 const printerAccessoryBrands = ["Bambu Lab", "Creality", "Elegoo", "Flashforge", "Anycubic", "Prusa", "Artillery", "Ender", "Snapmaker"];
@@ -57,9 +60,9 @@ const sparePartGroups = [
   },
 ] as const;
 const resinPrinterBrands = ["Anycubic", "Elegoo", "Creality", "Uniformation"];
-const curingBrands = ["Anycubic", "Elegoo", "Creality"];
-const resinTypes = ["Standard", "ABS Like", "Lavable al agua", "Tough", "Flexible", "Alta velocidad", "Vegetal"];
 const plaVariants = ["PLA", "PLA Flex", "PLA Silk", "PLA Art", "PLA Wood"];
+const technicalFilamentMaterials = ["ABS", "ASA", "NYLON", "PC", "PVC", "PVA", "PEBA", "PA6-GF", "PPA-CF"];
+const technicalFilamentMaterialSet = new Set(technicalFilamentMaterials);
 const filamentColors = [
   ["Negro", "#202020"], ["Blanco", "#f6f3eb"], ["Gris", "#8b9196"], ["Rojo", "#d94343"],
   ["Naranja", "#e98432"], ["Amarillo", "#e9c52b"], ["Verde", "#39a95d"], ["Azul", "#427fd2"], ["Natural", "#dfc89f"],
@@ -120,6 +123,14 @@ function parsePriceInput(value: string) {
   return Number.isFinite(numericValue) && numericValue > 0 ? numericValue : null;
 }
 
+function availableBrands(products: Product[], predicate: (product: Product) => boolean, preferredOrder: string[] = []) {
+  const brands = [...new Set(products.filter(predicate).map((product) => product.brand).filter((brand): brand is string => Boolean(brand) && brand !== unknownBrandLabel))];
+  const preferred = preferredOrder.filter((brand) => brands.includes(brand));
+  const remaining = brands.filter((brand) => !preferredOrder.includes(brand)).sort((a, b) => a.localeCompare(b, "es"));
+
+  return [...preferred, ...remaining];
+}
+
 function CategoryIcon({ type }: { type: "filament" | "resin" | "parts" | "printer" }) {
   const common = { fill: "none", stroke: "currentColor", strokeLinecap: "round" as const, strokeLinejoin: "round" as const, strokeWidth: 1.8 };
 
@@ -152,6 +163,19 @@ export function ProductExplorer({
   const [savedProductsRestored, setSavedProductsRestored] = useState(false);
   const [selectedSparePart, setSelectedSparePart] = useState<string | null>(null);
   const [selectedSpareBrand, setSelectedSpareBrand] = useState<string | null>(null);
+  const [selectedSpareFamily, setSelectedSpareFamily] = useState<"fdm" | "resin" | null>(null);
+  const availableResinPrinterBrands = useMemo(
+    () => availableBrands(products, (product) => product.isResinPrinter, resinPrinterBrands),
+    [products],
+  );
+  const availableCuringBrands = useMemo(
+    () => availableBrands(products, (product) => product.isResinCuring, resinPrinterBrands),
+    [products],
+  );
+  const availableResinMaterialBrands = useMemo(
+    () => availableBrands(products, (product) => product.isResinMaterial, resinPrinterBrands),
+    [products],
+  );
 
   const toggleTheme = () => {
     localStorage.setItem("filtrar-3d-theme", isDark ? "light" : "dark");
@@ -175,16 +199,25 @@ export function ProductExplorer({
     clearPriceBounds,
     clearPrinterBrands,
     clearPrinterFrames,
+    clearResinMaterialBrands,
+    clearResinPrinterBrands,
+    clearResinTypes,
     selectAllFilamentBrands,
     selectAllFilamentColors,
     selectAllFilamentMaterials,
     selectAllFilamentWeights,
     selectAllPrinterBrands,
     selectAllPrinterFrames,
+    selectAllResinMaterialBrands,
+    selectAllResinPrinterBrands,
+    selectAllResinTypes,
     selectFilamentBrand,
     selectFilamentColor,
     selectFilamentMaterial,
     selectFilamentWeight,
+    selectResinMaterialBrand,
+    selectResinPrinterBrand,
+    selectResinType,
     selectedFilamentBrands,
     selectedFilamentColors,
     selectedFilamentMaterials,
@@ -193,6 +226,9 @@ export function ProductExplorer({
     priceMax,
     selectedPrinterBrands,
     selectedPrinterFrames,
+    selectedResinMaterialBrands,
+    selectedResinPrinterBrands,
+    selectedResinTypes,
     setVisibleCount,
     setPriceMin,
     setPriceMax,
@@ -206,20 +242,34 @@ export function ProductExplorer({
     toggleFilamentWeight,
     togglePrinterBrand,
     togglePrinterFrame,
+    toggleResinMaterialBrand,
+    toggleResinPrinterBrand,
+    toggleResinType,
     hiddenProducts,
     visibleCount,
     visibleProducts,
-  } = useProductFilters(products, filamentBrands, filamentMaterials, initialQuery);
+  } = useProductFilters(products, filamentBrands, filamentMaterials, availableResinPrinterBrands, availableResinMaterialBrands, initialQuery);
   const hasSearchQuery = query.trim().length > 0;
   const showsResults = hasSearchQuery || category !== "Todas";
-  const materialMenuOptions = filamentMaterials.flatMap((material) => material === "PLA" ? plaVariants : [material]);
+  const materialMenuOptions = filamentMaterials
+    .filter((material) => material !== "PLA Silk" && !technicalFilamentMaterialSet.has(material))
+    .flatMap((material) => material === "PLA" ? plaVariants : [material]);
   const defaultFilamentMaterialCount = filamentMaterials.filter((material) => material !== "Lápiz 3D").length;
-  const isFilamentSearch = category === "Filamento" || /\b(filamento|filamentos|pla|petg|abs|asa|tpu|flex|nylon|pva|pc)\b/i.test(query);
-  const isPrinterSearch = category === "Impresoras FDM" || category === "Impresoras de Resina" || /\b(impresora|impresoras|printer)\b/i.test(query);
-  const showsFilterSidebar = isFilamentSearch || isPrinterSearch;
+  const isFilamentSearch = category === "Filamento" || /\b(filamento|filamentos|pla|silk|slik|petg|abs|asa|tpu|flex|nylon|pvc|pva|pc|peba|pa6|ppa)\b/i.test(query);
+  const isFdmPrinterSearch = category === "Impresoras FDM" || (category === "Todas" && /\b(impresora|impresoras|printer)\b/i.test(query));
+  const isResinPrinterSearch = category === "Impresoras de Resina";
+  const isCuringSearch = category === "Curadoras";
+  const isResinMaterialSearch = category === "Resina";
+  const isPrinterSearch = isFdmPrinterSearch || isResinPrinterSearch;
+  const isResinSearch = isResinPrinterSearch || isCuringSearch || isResinMaterialSearch;
+  const showsFilterSidebar = isFilamentSearch || isPrinterSearch || isCuringSearch || isResinMaterialSearch;
   const priceSlider = isFilamentSearch
     ? { min: 0, max: 30_000, step: 1000, start: "$0", middle: "$15k / $20k", end: "$30k" }
-    : { min: 300_000, max: 3_000_000, step: 50_000, start: "$300k", middle: "$1.5M", end: "$3M" };
+    : isResinMaterialSearch
+      ? { min: 0, max: 150_000, step: 5000, start: "$0", middle: "$75k", end: "$150k" }
+      : isResinPrinterSearch || isCuringSearch
+        ? { min: 230_000, max: 2_000_000, step: 25_000, start: "$230k", middle: "$1M", end: "$2M" }
+        : { min: 300_000, max: 3_000_000, step: 50_000, start: "$300k", middle: "$1.5M", end: "$3M" };
   const priceMinSliderValue = Math.max(priceSlider.min, Math.min(priceMin ?? priceSlider.min, priceSlider.max));
   const priceMaxSliderValue = Math.max(priceSlider.min, Math.min(priceMax ?? priceSlider.max, priceSlider.max));
   const selectedColorContext = isFilamentSearch && selectedFilamentColors.length > 0 && selectedFilamentColors.length < filamentColors.length
@@ -234,30 +284,36 @@ export function ProductExplorer({
     selectedFilamentColors.length !== filamentColors.length ? `${selectedFilamentColors.length} colores` : null,
     selectedFilamentWeights.length !== filamentWeightOptions.length ? `${selectedFilamentWeights.length} pesos` : null,
     priceMin !== null || priceMax !== null ? priceRangeLabel(priceMin, priceMax) : null,
-    selectedPrinterBrands.length ? `${selectedPrinterBrands.length} marcas de impresora` : null,
-    selectedPrinterFrames.length !== printerFrameOptions.length ? selectedPrinterFrames.join(", ") : null,
+    isFdmPrinterSearch && selectedPrinterBrands.length ? `${selectedPrinterBrands.length} marcas FDM` : null,
+    isFdmPrinterSearch && selectedPrinterFrames.length !== printerFrameOptions.length ? selectedPrinterFrames.join(", ") : null,
+    isResinPrinterSearch && selectedResinPrinterBrands.length !== availableResinPrinterBrands.length ? `${selectedResinPrinterBrands.length} marcas de resina` : null,
+    isResinMaterialSearch && selectedResinMaterialBrands.length !== availableResinMaterialBrands.length ? `${selectedResinMaterialBrands.length} marcas de resina` : null,
+    isResinMaterialSearch && selectedResinTypes.length !== resinTypeOptions.length ? `${selectedResinTypes.length} tipos` : null,
   ].filter((filter): filter is string => Boolean(filter));
 
-  const updateSparePartSearch = (part: string | null, brand: string | null, nextCategory = "Repuestos") => {
+  const updateSparePartSearch = (part: string | null, brand: string | null, family: "fdm" | "resin" | null, nextCategory = "Repuestos") => {
     setCategory(nextCategory);
-    handleQueryChange([part, brand].filter((value): value is string => Boolean(value)).join(" "), false);
+    handleQueryChange([part, brand, family === "resin" ? "resina" : null].filter((value): value is string => Boolean(value)).join(" "), false);
   };
 
   const selectSparePart = (part: string, nextCategory = "Repuestos") => {
     const nextPart = selectedSparePart === part ? null : part;
     setSelectedSparePart(nextPart);
-    updateSparePartSearch(nextPart, selectedSpareBrand, nextCategory);
+    updateSparePartSearch(nextPart, selectedSpareBrand, selectedSpareFamily, nextCategory);
   };
 
-  const selectSpareBrand = (brand: string) => {
-    const nextBrand = selectedSpareBrand === brand ? null : brand;
+  const selectSpareBrand = (brand: string, family: "fdm" | "resin") => {
+    const nextBrand = selectedSpareBrand === brand && selectedSpareFamily === family ? null : brand;
+    const nextFamily = nextBrand ? family : null;
     setSelectedSpareBrand(nextBrand);
-    updateSparePartSearch(selectedSparePart, nextBrand);
+    setSelectedSpareFamily(nextFamily);
+    updateSparePartSearch(selectedSparePart, nextBrand, nextFamily);
   };
 
   const resetAllFilters = () => {
     setSelectedSparePart(null);
     setSelectedSpareBrand(null);
+    setSelectedSpareFamily(null);
     resetFilters();
   };
   const savedProductIdSet = useMemo(() => new Set(savedProductIds), [savedProductIds]);
@@ -295,9 +351,8 @@ export function ProductExplorer({
     <main id="inicio" className={`app-shell ${isDark ? "theme-dark" : "theme-light"}`}>
       <header className="site-header">
         <div className="site-header-main">
-          <a className="site-header-brand" href="#inicio" aria-label="Filtrar 3D, inicio">
-            <span className="site-header-mark" aria-hidden="true"><span /></span>
-            <strong>Filtrar <mark>3D</mark></strong>
+          <a className="site-header-brand" href="#inicio" aria-label="Ruta 3D, inicio">
+            <Ruta3DMark className="site-header-mark" />
           </a>
           <div className="site-header-actions">
             <button
@@ -377,9 +432,8 @@ export function ProductExplorer({
         <Image className="comparison-art" src="/hero-printing-kit.png" alt="" aria-hidden="true" width={1672} height={941} sizes="(max-width: 1100px) 92vw, 58vw" />
         <div className="hero-grid">
           <div className="hero-copy">
-            <div className="hero-logo-lockup" aria-label="Filtrar 3D">
-              <span className="hero-lens"><span /></span>
-              <strong>Filtrar <mark>3D</mark></strong>
+            <div className="hero-logo-lockup" aria-label="Ruta 3D">
+              <Ruta3DMark className="hero-route-mark" />
             </div>
             <h1>Comparador argentino de impresión 3D</h1>
             <p className="hero-trust-line">
@@ -390,13 +444,12 @@ export function ProductExplorer({
             <div className="comparator-window">
               <header className="comparator-header">
                 <div className="comparator-brand">
-                  <span className="mini-lens" aria-hidden="true"><span /></span>
-                  <strong>Filtrar <mark>3D</mark></strong>
+                  <Ruta3DMark className="mini-route-mark" />
                 </div>
                 <div className="comparator-search-stack">
                   <label className="comparator-search" htmlFor="search">
                     <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5" /><path d="m16 16 4.2 4.2" /></svg>
-                    <input id="search" value={query} onChange={(event) => { setSelectedSparePart(null); setSelectedSpareBrand(null); handleQueryChange(event.target.value); }} aria-label="Buscar productos" />
+                    <input id="search" value={query} onChange={(event) => { setSelectedSparePart(null); setSelectedSpareBrand(null); setSelectedSpareFamily(null); handleQueryChange(event.target.value); }} aria-label="Buscar productos" />
                   </label>
                   <div className="toolbar comparator-toolbar" aria-label="Orden y disponibilidad">
                     <div className="segmented">
@@ -425,6 +478,10 @@ export function ProductExplorer({
                         return <button key={material} type="button" className={isPlaVariant ? query.toLowerCase() === material.toLowerCase() ? "selected" : "" : selectedFilamentMaterials.length === 1 && selectedFilamentMaterials[0] === material ? "selected" : ""} onClick={() => { setCategory("Filamento"); if (isPlaVariant) handleQueryChange(material, false); else { handleQueryChange("", false); selectFilamentMaterial(material); } }}>{material}</button>;
                       })}
                     </section>
+                    <section className="technical-material-section">
+                      <p>Técnicos</p>
+                      {technicalFilamentMaterials.map((material) => <button key={material} type="button" className={selectedFilamentMaterials.length === 1 && selectedFilamentMaterials[0] === material ? "selected" : ""} onClick={() => { setCategory("Filamento"); handleQueryChange("", false); selectFilamentMaterial(material); }}>{material}</button>)}
+                    </section>
                     <section>
                       <p>Marcas</p>
                       {filamentBrands.map((brand) => <button key={brand} type="button" className={selectedFilamentBrands.length === 1 && selectedFilamentBrands[0] === brand ? "selected" : ""} onClick={() => { setCategory("Filamento"); selectFilamentBrand(brand); }}>{brand}</button>)}
@@ -440,21 +497,22 @@ export function ProductExplorer({
                   </div>
                 </div>
                 <div className="category-menu resin-menu">
-                  <button type="button" className={category === "Resina" ? "active" : ""} onClick={() => { setCategory("Resina"); resetVisibleCount(); }}>
+                  <button type="button" className={isResinSearch ? "active" : ""} onClick={() => { setCategory("Resina"); handleQueryChange("", false); selectAllResinMaterialBrands(); selectAllResinTypes(); }}>
                     <CategoryIcon type="resin" />Resina
                   </button>
                   <div className="mega-menu resin-mega-menu" aria-label="Filtros de resina">
                     <section>
-                      <p>Impresoras de resina</p>
-                      {resinPrinterBrands.map((brand) => <button key={brand} type="button" onClick={() => handleQueryChange(brand, false)}>{brand}</button>)}
+                      <button className="menu-section-trigger" type="button" onClick={() => { setCategory("Impresoras de Resina"); handleQueryChange("", false); selectAllResinPrinterBrands(); }}>Impresoras de resina</button>
+                      {availableResinPrinterBrands.map((brand) => <button key={brand} type="button" className={selectedResinPrinterBrands.length === 1 && selectedResinPrinterBrands[0] === brand ? "selected" : ""} onClick={() => { setCategory("Impresoras de Resina"); handleQueryChange("", false); selectResinPrinterBrand(brand); }}>{brand}</button>)}
                     </section>
                     <section>
-                      <p>Curadoras</p>
-                      {curingBrands.map((brand) => <button key={brand} type="button" onClick={() => handleQueryChange(`${brand} curado`, false)}>{brand}</button>)}
+                      <button className="menu-section-trigger" type="button" onClick={() => { setCategory("Curadoras"); handleQueryChange("", false); }}>Curadoras</button>
+                      {availableCuringBrands.map((brand) => <button key={brand} type="button" onClick={() => { setCategory("Curadoras"); handleQueryChange(`${brand} curado`, false); }}>{brand}</button>)}
                     </section>
                     <section>
-                      <p>Resinas</p>
-                      {resinTypes.map((type) => <button key={type} type="button" onClick={() => { setCategory("Resina"); handleQueryChange(type, false); }}>{type}</button>)}
+                      <button className="menu-section-trigger" type="button" onClick={() => { setCategory("Resina"); handleQueryChange("", false); selectAllResinMaterialBrands(); selectAllResinTypes(); }}>Resina</button>
+                      {resinTypeOptions.map((type) => <button key={type} type="button" className={selectedResinTypes.length === 1 && selectedResinTypes[0] === type ? "selected" : ""} onClick={() => { setCategory("Resina"); handleQueryChange("", false); selectAllResinTypes(); selectResinType(type); }}>{type}</button>)}
+                      {availableResinMaterialBrands.map((brand) => <button key={brand} type="button" className={selectedResinMaterialBrands.length === 1 && selectedResinMaterialBrands[0] === brand ? "selected" : ""} onClick={() => { setCategory("Resina"); handleQueryChange("", false); selectAllResinTypes(); selectResinMaterialBrand(brand); }}>{brand}</button>)}
                     </section>
                   </div>
                 </div>
@@ -474,8 +532,12 @@ export function ProductExplorer({
                       </section>
                     ))}
                     <section className="parts-brand-section">
-                      <p>Marca de impresora</p>
-                      {printerAccessoryBrands.map((brand) => <button key={brand} type="button" className={selectedSpareBrand === brand ? "selected" : ""} onClick={() => selectSpareBrand(brand)}>{brand}</button>)}
+                      <p>Marcas FDM</p>
+                      {printerAccessoryBrands.map((brand) => <button key={brand} type="button" className={selectedSpareBrand === brand && selectedSpareFamily === "fdm" ? "selected" : ""} onClick={() => selectSpareBrand(brand, "fdm")}>{brand}</button>)}
+                    </section>
+                    <section className="parts-brand-section">
+                      <p>Marcas resina</p>
+                      {availableResinPrinterBrands.map((brand) => <button key={brand} type="button" className={selectedSpareBrand === brand && selectedSpareFamily === "resin" ? "selected" : ""} onClick={() => selectSpareBrand(brand, "resin")}>{brand}</button>)}
                     </section>
                   </div>
                 </div>
@@ -506,11 +568,14 @@ export function ProductExplorer({
                     {visibleProducts.length || showsFilterSidebar ? (
                       <div className={showsFilterSidebar ? "filament-search-layout" : undefined}>
                         {showsFilterSidebar ? (
-                          <aside className="filament-filter-sidebar" aria-label={isPrinterSearch ? "Filtrar impresoras" : "Filtrar filamentos"}>
+                          <aside className="filament-filter-sidebar" aria-label={isPrinterSearch ? "Filtrar impresoras" : isResinMaterialSearch ? "Filtrar resinas" : "Filtrar filamentos"}>
                             <div className="filament-filter-title"><h3>Filtrar</h3><button type="button" onClick={resetFilters}>Limpiar</button></div>
                             <details open><summary>Precio</summary><div className="filter-price-range"><div className="price-filter-heading"><strong>{priceRangeLabel(priceMin, priceMax)}</strong><button type="button" onClick={clearPriceBounds}>Limpiar</button></div><div className="dual-range"><input type="range" min={priceSlider.min} max={priceSlider.max} step={priceSlider.step} value={priceMinSliderValue} onChange={(event) => setPriceMin(Number(event.target.value))} aria-label="Precio mínimo" /><input type="range" min={priceSlider.min} max={priceSlider.max} step={priceSlider.step} value={priceMaxSliderValue} onChange={(event) => setPriceMax(Number(event.target.value))} aria-label="Precio máximo" /></div><div className="price-range-scale"><span>{priceSlider.start}</span><span>{priceSlider.middle}</span><span>{priceSlider.end}</span></div><div className="price-inputs"><label><span>Mínimo</span><input inputMode="numeric" value={priceMin ?? ""} placeholder={String(priceSlider.min)} onChange={(event) => setPriceMin(parsePriceInput(event.target.value))} /></label><label><span>Máximo</span><input inputMode="numeric" value={priceMax ?? ""} placeholder={String(priceSlider.max)} onChange={(event) => setPriceMax(parsePriceInput(event.target.value))} /></label></div></div></details>
-                            {isPrinterSearch ? <details open><summary>Tipo</summary><div className="filter-actions"><button type="button" onClick={selectAllPrinterFrames}>Todas</button><button type="button" onClick={clearPrinterFrames}>Ninguna</button></div><div className="filter-options">{printerFrameOptions.map((frame) => <label key={frame}><input type="checkbox" checked={selectedPrinterFrames.includes(frame)} onChange={() => togglePrinterFrame(frame)} /><span>{frame}</span></label>)}</div><p className="filament-color-note">Si no se detecta abierta/cerrada, queda al final para que no se pierda.</p></details> : null}
-                            {isPrinterSearch ? <details open><summary>Marca</summary><div className="filter-actions"><button type="button" onClick={clearPrinterBrands}>Todas</button><button type="button" onClick={() => selectAllPrinterBrands(["__none__"])}>Ninguna</button></div><div className="filter-options">{fdmBrands.map((brand) => <label key={brand}><input type="checkbox" checked={!selectedPrinterBrands.length || selectedPrinterBrands.includes(brand)} onChange={() => togglePrinterBrand(brand)} /><span>{brand}</span></label>)}</div></details> : null}
+                            {isFdmPrinterSearch ? <details open><summary>Tipo</summary><div className="filter-actions"><button type="button" onClick={selectAllPrinterFrames}>Todas</button><button type="button" onClick={clearPrinterFrames}>Ninguna</button></div><div className="filter-options">{printerFrameOptions.map((frame) => <label key={frame}><input type="checkbox" checked={selectedPrinterFrames.includes(frame)} onChange={() => togglePrinterFrame(frame)} /><span>{frame}</span></label>)}</div><p className="filament-color-note">Si no se detecta abierta/cerrada, queda al final para que no se pierda.</p></details> : null}
+                            {isFdmPrinterSearch ? <details open><summary>Marca</summary><div className="filter-actions"><button type="button" onClick={clearPrinterBrands}>Todas</button><button type="button" onClick={() => selectAllPrinterBrands(["__none__"])}>Ninguna</button></div><div className="filter-options">{fdmBrands.map((brand) => <label key={brand}><input type="checkbox" checked={!selectedPrinterBrands.length || selectedPrinterBrands.includes(brand)} onChange={() => togglePrinterBrand(brand)} /><span>{brand}</span></label>)}</div></details> : null}
+                            {isResinPrinterSearch ? <details open><summary>Marca</summary><div className="filter-actions"><button type="button" onClick={selectAllResinPrinterBrands}>Todas</button><button type="button" onClick={clearResinPrinterBrands}>Ninguna</button></div><div className="filter-options">{availableResinPrinterBrands.map((brand) => <label key={brand}><input type="checkbox" checked={selectedResinPrinterBrands.includes(brand)} onChange={() => toggleResinPrinterBrand(brand)} /><span>{brand}</span></label>)}</div></details> : null}
+                            {isResinMaterialSearch ? <details open><summary>Marca</summary><div className="filter-actions"><button type="button" onClick={selectAllResinMaterialBrands}>Todas</button><button type="button" onClick={clearResinMaterialBrands}>Ninguna</button></div><div className="filter-options">{availableResinMaterialBrands.map((brand) => <label key={brand}><input type="checkbox" checked={selectedResinMaterialBrands.includes(brand)} onChange={() => toggleResinMaterialBrand(brand)} /><span>{brand}</span></label>)}</div></details> : null}
+                            {isResinMaterialSearch ? <details open><summary>Tipo</summary><div className="filter-actions"><button type="button" onClick={selectAllResinTypes}>Todos</button><button type="button" onClick={clearResinTypes}>Ninguno</button></div><div className="filter-options">{resinTypeOptions.map((type) => <label key={type}><input type="checkbox" checked={selectedResinTypes.includes(type)} onChange={() => toggleResinType(type)} /><span>{type}</span></label>)}</div></details> : null}
                             {isFilamentSearch ? <details open><summary>Marca</summary><div className="filter-actions"><button type="button" onClick={selectAllFilamentBrands}>Todas</button><button type="button" onClick={clearFilamentBrands}>Ninguna</button></div><div className="filter-options">{filamentBrands.map((brand) => <label key={brand}><input type="checkbox" checked={selectedFilamentBrands.includes(brand)} onChange={() => toggleFilamentBrand(brand)} /><span>{brand}</span></label>)}</div></details> : null}
                             {isFilamentSearch ? <details><summary>Material</summary><div className="filter-actions"><button type="button" onClick={selectAllFilamentMaterials}>Todas</button><button type="button" onClick={clearFilamentMaterials}>Ninguna</button></div><div className="filter-options">{filamentMaterials.map((material) => <label key={material}><input type="checkbox" checked={selectedFilamentMaterials.includes(material)} onChange={() => toggleFilamentMaterial(material)} /><span>{material}</span></label>)}</div></details> : null}
                             {isFilamentSearch ? <details><summary>Color</summary><div className="filter-actions"><button type="button" onClick={selectAllFilamentColors}>Todas</button><button type="button" onClick={clearFilamentColors}>Ninguna</button></div><div className="filter-options">{filamentColors.map(([color, hex]) => <label key={color}><input type="checkbox" checked={selectedFilamentColors.includes(color)} onChange={() => toggleFilamentColor(color)} /><i className="sidebar-color-dot" style={{ backgroundColor: hex }} /><span>{color}</span></label>)}</div><p className="filament-color-note">Si una tienda no informa el color, su oferta queda al final para que no se pierda.</p></details> : null}
@@ -556,7 +621,7 @@ export function ProductExplorer({
         </div>
       </section>
 
-      <section className="site-info" aria-label="Información sobre Filtrar 3D">
+      <section className="site-info" aria-label="Información sobre Ruta 3D">
         <div className="site-info-inner">
           <section id="como-funciona" className="info-section">
             <h2>Compará antes de comprar</h2>
@@ -568,7 +633,7 @@ export function ProductExplorer({
           </section>
           <section className="info-section coffee-section">
             <h2>Invitame un cafecito</h2>
-            <p><span className="coffee-note"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h13v7a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5Z" /><path d="M17 10h1a3 3 0 0 1 0 6h-1M7 4v2M11 3v3M15 4v2" /></svg>Si te sirve Filtrar 3D, podés apoyar el proyecto con un cafecito.</span></p>
+            <p><span className="coffee-note"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h13v7a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5Z" /><path d="M17 10h1a3 3 0 0 1 0 6h-1M7 4v2M11 3v3M15 4v2" /></svg>Si te sirve Ruta 3D, podés apoyar el proyecto con un cafecito.</span></p>
           </section>
         </div>
         <aside id="sumar-tienda" className="store-cta">
@@ -576,11 +641,11 @@ export function ProductExplorer({
             <h2>¿Tenés una tienda de impresión 3D?</h2>
             <p>Queremos sumar comercios argentinos al comparador para que más compradores encuentren sus productos.</p>
           </div>
-          <a href="mailto:lok3d.co@gmail.com?subject=Quiero%20sumar%20mi%20tienda%20a%20Filtrar%203D">Quiero sumar mi tienda</a>
+          <a href="mailto:lok3d.co@gmail.com?subject=Quiero%20sumar%20mi%20tienda%20a%20Ruta%203D">Quiero sumar mi tienda</a>
         </aside>
       </section>
       <footer className="site-footer">
-        <p>Filtrar 3D compara ofertas; no procesa pagos ni reemplaza la información publicada por cada tienda.</p>
+        <p>Ruta 3D compara ofertas; no procesa pagos ni reemplaza la información publicada por cada tienda.</p>
         <div className="site-footer-links">
           <a href="/privacidad">Privacidad</a>
           <a href="/terminos">Términos</a>

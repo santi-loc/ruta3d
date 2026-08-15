@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const title = "Filtrar 3D";
+const title = "Ruta 3D";
 const description =
   "Comparador argentino para buscar impresoras 3D, filamentos, resinas, repuestos, accesorios y herramientas por tienda, precio y stock.";
 const metadataBase = new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://filtrar-3d.locatellisanti.chatgpt.site");
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
         url: "/og.png",
         width: 1200,
         height: 630,
-        alt: "Filtrar 3D",
+        alt: "Ruta 3D",
       },
     ],
   },

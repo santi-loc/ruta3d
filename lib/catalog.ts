@@ -39,6 +39,7 @@ export type Product = {
   isFilament: boolean;
   isFdmPrinter: boolean;
   isResinPrinter: boolean;
+  isResinCuring: boolean;
   isResinMaterial: boolean;
   printerFrameType?: PrinterFrameType;
 };
@@ -85,6 +86,7 @@ export const categoryOptions = [
   "Todas",
   "Impresoras FDM",
   "Impresoras de Resina",
+  "Curadoras",
   "Filamento",
   "Resina",
   "Accesorios",
@@ -125,7 +127,23 @@ const filamentBrandNames = [
 export const unknownBrand = "Sin marca";
 export const unknownMaterial = "Sin material";
 export const penFilamentMaterial = "Lápiz 3D";
-export const materialLabels = ["PLA", "PETG", "ABS", "ASA", "TPU", "FLEX", "NYLON", "PC", "PVA", penFilamentMaterial];
+export const materialLabels = [
+  "PLA",
+  "PLA Silk",
+  "PETG",
+  "ABS",
+  "ASA",
+  "TPU",
+  "FLEX",
+  "NYLON",
+  "PC",
+  "PVC",
+  "PVA",
+  "PEBA",
+  "PA6-GF",
+  "PPA-CF",
+  penFilamentMaterial,
+];
 const excludedFilamentBrands = new Set([
   "algolaser",
   "anycubic",
@@ -138,6 +156,8 @@ const excludedFilamentBrands = new Set([
 
 export const materialSearchAliases = new Map([
   ["pla", "PLA"],
+  ["silk", "PLA Silk"],
+  ["slik", "PLA Silk"],
   ["petg", "PETG"],
   ["abs", "ABS"],
   ["asa", "ASA"],
@@ -145,7 +165,11 @@ export const materialSearchAliases = new Map([
   ["flex", "FLEX"],
   ["nylon", "NYLON"],
   ["pc", "PC"],
+  ["pvc", "PVC"],
   ["pva", "PVA"],
+  ["peba", "PEBA"],
+  ["pa6", "PA6-GF"],
+  ["ppa", "PPA-CF"],
   ["lapiz", penFilamentMaterial],
   ["lápiz", penFilamentMaterial],
 ]);
@@ -154,12 +178,22 @@ const searchTermAliases = new Map([
   ["boquilla", ["boquilla", "nozzle"]],
   ["boquillas", ["boquilla", "boquillas", "nozzle", "nozzles"]],
   ["cama", ["cama", "cama magnetica", "cama caliente", "base pei", "pei"]],
+  ["estandar", ["estandar", "standard"]],
   ["nozzle", ["nozzle", "boquilla"]],
   ["nozzles", ["nozzle", "nozzles", "boquilla", "boquillas"]],
+  ["standard", ["standard", "estandar"]],
 ]);
 
 const filamentQueryTerms = new Set(["filamento", "filamentos"]);
-const filamentMaterialTerms = new Set(materialLabels.map((material) => material.toLowerCase()));
+const filamentMaterialTerms = new Set([
+  ...materialLabels.map((material) => material.toLowerCase()),
+  "silk",
+  "slik",
+  "peba",
+  "pa6",
+  "ppa",
+  "pvc",
+]);
 const filamentProductPhrases = ["filamento", "filamentos", "ecofila", "rollo", "bobina", "recarga"];
 const nonFilamentProductWords = [
   "sensor",
@@ -185,6 +219,8 @@ const nonFilamentProductWords = [
   "cfs",
   "ace pro",
   "multicolor",
+  "buffer",
+  "búfer",
   "puffer",
   "embudo",
   "portabobinas",
@@ -226,6 +262,11 @@ function inferMaterial(name: string, tags: string[]) {
     /\b(x?\s*5\s*metros|metros\s*x\s*10|x10\s*unidades|colores surtidos)\b/i.test(text)
   );
   if (isPenFilament) return penFilamentMaterial;
+  if (text.includes("gst3d") && /\bsli?k\b/i.test(text)) return "PLA Silk";
+  if (/\b(pla[\s-]*)?(dual[\s-]*)?(tri[\s-]*)?sli?k\b/i.test(text)) return "PLA Silk";
+  if (/\bpeba\b/i.test(text)) return "PEBA";
+  if (/\bpa6[\s-]*gf\b/i.test(text)) return "PA6-GF";
+  if (/\bppa[\s-]*cf\b/i.test(text)) return "PPA-CF";
 
   return materialLabels.find((material) => tokens.includes(material.toLowerCase())) ?? unknownMaterial;
 }
@@ -289,7 +330,8 @@ function detectFilamentProduct(product: Pick<Product, "name" | "brand" | "materi
 function detectSparePart(product: Pick<Product, "name" | "category" | "brand" | "tags">) {
   const text = searchableText([product.name, product.brand, ...product.tags]);
   const isPrinterOrBundle = /\b(impresora|printer)\b/i.test(text) || /\bcombo\b/i.test(text);
-  const hasSparePartSignal = /\b(boquilla|nozzle|hotend|heatbreak|termistor|resistencia|extrusor|extruder|engranaje|cable|correa|motor|sensor|sonda|endstop|placa|mainboard|driver|ventilador|fan|rodamiento|polea|fuente|display|pantalla|touchscreen|ptfe|teflon|fep|lcd|cama magnetica|pei|superficie de repuesto|calefactor|heater|funda de silicona|disipador|bloque de hotend|barrel|tubo de teflon|acople conector|limpiador de boquillas)\b/i.test(text);
+  const isBambuLaserModule = text.includes("bambu lab") && /\b(modulo laser|módulo laser|laser upgrade)\b/i.test(text);
+  const hasSparePartSignal = isBambuLaserModule || /\b(boquilla|nozzle|hotend|heatbreak|termistor|resistencia|extrusor|extruder|engranaje|cable|correa|motor|sensor|sonda|endstop|placa|mainboard|driver|ventilador|fan|rodamiento|polea|fuente|display|pantalla|touchscreen|ptfe|teflon|fep|lcd|cama magnetica|pei|superficie de repuesto|calefactor|heater|funda de silicona|disipador|bloque de hotend|barrel|tubo de teflon|acople conector|limpiador de boquillas|buffer de filamento|búfer de filamento|filament buffer|modulo de bombeo|módulo de bombeo|bomba de resina|tanque de resina|vat de resina|film fep|release film|plataforma de curado)\b/i.test(text);
 
   return !isPrinterOrBundle && hasSparePartSignal;
 }
@@ -302,10 +344,11 @@ function detectAccessory(product: Pick<Product, "name" | "category" | "brand" | 
 
 function normalizedCategory(product: Pick<ScrapedProduct, "name" | "category" | "brand" | "tags">) {
   const text = searchableText([product.name, product.category, product.brand, ...product.tags]);
+  if (detectSparePart(product)) return "Repuestos";
   if (/\b(resina|lavable al agua|mercury|mercuy|lavado|curado|wash|cure)\b/i.test(text)) return "Resina";
   if (detectAccessory(product)) return "Accesorios";
 
-  return detectSparePart(product) ? "Repuestos" : product.category;
+  return product.category;
 }
 
 function isApprovedFilamentProduct(product: Pick<Product, "name" | "brand">) {
@@ -320,6 +363,8 @@ function isApprovedFilamentProduct(product: Pick<Product, "name" | "brand">) {
 
 function detectResinPrinter(product: Pick<Product, "name" | "category" | "brand" | "material" | "tags">) {
   const text = baseProductText(product);
+  const hasCuringSignal = /\b(lavado|curado|curadora|wash|cure|mercury|mercuy)\b/i.test(text);
+  const hasAccessorySignal = /\b(accesorio|repuesto|modulo|módulo|bombeo|plataforma|tanque|vat|film|fep|pantalla|lcd screen|camara|cámara|tapa|cover)\b/i.test(text);
   const hasPrinterSignal =
     text.includes("impresora") ||
     text.includes("printer") ||
@@ -337,7 +382,7 @@ function detectResinPrinter(product: Pick<Product, "name" | "category" | "brand"
     text.includes("saturn") ||
     text.includes("mars");
 
-  return hasPrinterSignal && hasResinSignal;
+  return !hasCuringSignal && !hasAccessorySignal && hasPrinterSignal && hasResinSignal;
 }
 
 function detectFdmPrinter(
@@ -400,26 +445,28 @@ function detectPrinterFrameType(product: Pick<Product, "name" | "category" | "br
   return undefined;
 }
 
-function detectResinMaterial(
+function detectResinCuring(
   product: Pick<Product, "name" | "category" | "brand" | "material" | "tags">,
   isResinPrinter: boolean,
 ) {
   const text = baseProductText(product);
-  const tokens = searchableTokens(text);
-  const isWashOrCure =
-    text.includes("lavado") ||
-    text.includes("curado") ||
-    text.includes("wash") ||
-    text.includes("cure") ||
-    text.includes("maquina") ||
-    text.includes("máquina");
-  const hasFilamentMaterial = tokens.some((token) => filamentMaterialTerms.has(token));
 
   return (
     !isResinPrinter &&
     product.category === "Resina" &&
-    !isWashOrCure &&
-    !hasFilamentMaterial
+    /\b(lavado|curado|curadora|wash|cure|mercury|mercuy)\b/i.test(text)
+  );
+}
+
+function detectResinMaterial(
+  product: Pick<Product, "name" | "category" | "brand" | "material" | "tags">,
+  isResinPrinter: boolean,
+  isResinCuring: boolean,
+) {
+  return (
+    !isResinPrinter &&
+    !isResinCuring &&
+    product.category === "Resina"
   );
 }
 
@@ -495,7 +542,8 @@ function toProduct(product: ScrapedProduct, scrapedAt?: string): Product {
     : undefined;
   const isResinPrinter = detectResinPrinter(baseProduct);
   const isFdmPrinter = detectFdmPrinter(baseProduct, isResinPrinter);
-  const isResinMaterial = detectResinMaterial(baseProduct, isResinPrinter);
+  const isResinCuring = detectResinCuring(baseProduct, isResinPrinter);
+  const isResinMaterial = detectResinMaterial(baseProduct, isResinPrinter, isResinCuring);
   const printerFrameType = isFdmPrinter ? detectPrinterFrameType(baseProduct) : undefined;
 
   return {
@@ -508,6 +556,7 @@ function toProduct(product: ScrapedProduct, scrapedAt?: string): Product {
     isFilament,
     isFdmPrinter,
     isResinPrinter,
+    isResinCuring,
     isResinMaterial,
     printerFrameType,
   };
@@ -517,8 +566,9 @@ export function productMatchesCategory(product: Product, category: string) {
   if (category === "Todas") return true;
   if (category === "Impresoras FDM") return product.isFdmPrinter;
   if (category === "Impresoras de Resina") return product.isResinPrinter;
+  if (category === "Curadoras") return product.isResinCuring;
   if (category === "Filamento") return product.isFilament && !product.isFdmPrinter && !product.isResinPrinter;
-  if (category === "Resina") return product.isResinMaterial || (product.category === "Resina" && !product.isResinPrinter);
+  if (category === "Resina") return product.isResinMaterial;
 
   return product.category === category;
 }
@@ -526,7 +576,12 @@ export function productMatchesCategory(product: Product, category: string) {
 export function queryTermMatches(term: string, product: Product) {
   if (filamentQueryTerms.has(term)) return product.isFilament;
   if (term === "lapiz" || term === "lápiz") return product.isFilament && product.material === penFilamentMaterial;
-  if (filamentMaterialTerms.has(term)) return product.material?.toLowerCase() === term;
+  if (filamentMaterialTerms.has(term)) {
+    const searchedMaterial = materialSearchAliases.get(term) ?? term.toUpperCase();
+    if (searchedMaterial === "PLA") return product.isFilament && product.material?.startsWith("PLA");
+
+    return product.isFilament && product.material === searchedMaterial;
+  }
   if (term === "cama") {
     const tokens = searchableTokens(product.searchText);
 
@@ -583,8 +638,10 @@ const catalogFacets = products.reduce(
       }
 
       const material = product.material ?? unknownMaterial;
-      facets.materials.add(material);
-      facets.materialCounts[material] = (facets.materialCounts[material] ?? 0) + 1;
+      if (material !== unknownMaterial) {
+        facets.materials.add(material);
+        facets.materialCounts[material] = (facets.materialCounts[material] ?? 0) + 1;
+      }
     }
 
     return facets;

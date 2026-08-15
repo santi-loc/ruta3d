@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { Product } from "@/lib/catalog";
+import { Ruta3DMark } from "./ruta-3d-mark";
 
 type AnswerKey = "use" | "multicolor" | "large" | "technical" | "budget";
 type Answers = Record<AnswerKey, string>;
@@ -196,7 +197,7 @@ export function PrinterGuide({ products }: { products: Product[] }) {
   return (
     <main className="printer-guide-page">
       <header className="site-header guide-site-header">
-        <div className="site-header-main"><Link className="site-header-brand" href="/" aria-label="Filtrar 3D, inicio"><span className="site-header-mark" aria-hidden="true"><span /></span><strong>Filtrar <mark>3D</mark></strong></Link><div className="site-header-actions"><a className="header-contact" href="mailto:lok3d.co@gmail.com">Contacto</a></div></div>
+        <div className="site-header-main"><Link className="site-header-brand" href="/" aria-label="Ruta 3D, inicio"><Ruta3DMark className="site-header-mark" /></Link><div className="site-header-actions"><a className="header-contact" href="mailto:lok3d.co@gmail.com">Contacto</a></div></div>
         <nav className="site-header-nav" aria-label="Navegación principal"><Link href="/#comparador">Comparador</Link><Link href="/#como-funciona">Cómo funciona</Link><Link className="printer-guide-trigger" href="/que-impresora-compro">¿Qué impresora compro?</Link><Link href="/#transparencia">Precios y stock</Link><Link href="/#sumar-tienda">Sumá tu tienda</Link></nav>
       </header>
       <section className="guide-intro">

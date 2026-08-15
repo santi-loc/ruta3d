@@ -144,7 +144,7 @@ async function fetchPage(listing, page) {
   const url = `${STORE.baseUrl}${listing.path}${pageSuffix}`;
   const response = await fetch(url, {
     headers: {
-      "user-agent": "Filtrar3D MVP scraper (+https://filtrar-3d.locatellisanti.chatgpt.site)",
+      "user-agent": "Ruta3D MVP scraper (+https://filtrar-3d.locatellisanti.chatgpt.site)",
       accept: "text/html,application/xhtml+xml",
     },
   });

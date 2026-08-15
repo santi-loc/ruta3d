@@ -222,7 +222,7 @@ async function fetchJson(url) {
       signal: controller.signal,
       headers: {
         "user-agent":
-          "Mozilla/5.0 (compatible; Filtrar3D/1.0; +https://filtrar-3d.locatellisanti.chatgpt.site)",
+          "Mozilla/5.0 (compatible; Ruta3D/1.0; +https://filtrar-3d.locatellisanti.chatgpt.site)",
         accept: "application/json",
       },
     });
@@ -249,7 +249,7 @@ async function fetchJson(url) {
             "--retry-delay",
             "2",
             "-A",
-            "Mozilla/5.0 (compatible; Filtrar3D/1.0; +https://filtrar-3d.locatellisanti.chatgpt.site)",
+            "Mozilla/5.0 (compatible; Ruta3D/1.0; +https://filtrar-3d.locatellisanti.chatgpt.site)",
             "-H",
             "accept: application/json",
             "-L",

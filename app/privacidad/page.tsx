@@ -2,17 +2,17 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Privacidad | Filtrar 3D",
-  description: "Información sobre privacidad en Filtrar 3D.",
+  title: "Privacidad | Ruta 3D",
+  description: "Información sobre privacidad en Ruta 3D.",
 };
 
 export default function PrivacyPage() {
   return (
     <main className="legal-page">
       <div className="legal-page-inner">
-        <Link href="/" className="legal-back">← Volver a Filtrar 3D</Link>
+        <Link href="/" className="legal-back">← Volver a Ruta 3D</Link>
         <h1>Privacidad</h1>
-        <p className="legal-lead">Filtrar 3D es un comparador de ofertas de impresión 3D. Esta página explica, de forma simple, qué información usa el sitio.</p>
+        <p className="legal-lead">Ruta 3D es un comparador de ofertas de impresión 3D. Esta página explica, de forma simple, qué información usa el sitio.</p>
         <section>
           <h2>Datos de las ofertas</h2>
           <p>Mostramos información pública de catálogos de tiendas conectadas, como nombre de producto, precio, disponibilidad, imagen y enlace de la oferta.</p>

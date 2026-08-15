@@ -176,7 +176,7 @@ async function fetchPage(listing, page) {
     try {
       const response = await fetch(url, {
         headers: {
-          "user-agent": "Filtrar3D MVP scraper (+https://filtrar-3d.locatellisanti.chatgpt.site)",
+          "user-agent": "Ruta3D MVP scraper (+https://filtrar-3d.locatellisanti.chatgpt.site)",
           accept: "text/html,application/xhtml+xml",
         },
         signal: controller.signal,
