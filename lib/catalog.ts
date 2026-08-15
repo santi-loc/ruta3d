@@ -77,6 +77,13 @@ type ScrapedProduct = {
   url: string;
 };
 
+type ProductClassificationInput = {
+  name: string;
+  category: string;
+  brand?: string | null;
+  tags: string[];
+};
+
 type ScrapedCatalog = {
   scrapedAt?: string;
   products: ScrapedProduct[];
@@ -327,7 +334,7 @@ function detectFilamentProduct(product: Pick<Product, "name" | "brand" | "materi
   return hasFilamentSignal && (isPenFilament || !hasAccessorySignal);
 }
 
-function detectSparePart(product: Pick<Product, "name" | "category" | "brand" | "tags">) {
+function detectSparePart(product: ProductClassificationInput) {
   const text = searchableText([product.name, product.brand, ...product.tags]);
   const isPrinterOrBundle = /\b(impresora|printer)\b/i.test(text) || /\bcombo\b/i.test(text);
   const isBambuLaserModule = text.includes("bambu lab") && /\b(modulo laser|módulo laser|laser upgrade)\b/i.test(text);
@@ -336,7 +343,7 @@ function detectSparePart(product: Pick<Product, "name" | "category" | "brand" | 
   return !isPrinterOrBundle && hasSparePartSignal;
 }
 
-function detectAccessory(product: Pick<Product, "name" | "category" | "brand" | "tags">) {
+function detectAccessory(product: ProductClassificationInput) {
   const text = searchableText([product.name, product.category, product.brand, ...product.tags]);
 
   return /\b(camara|cámara|camaras|cámaras|ams|cfs|ace pro|multicolor|puffer|embudo|portabobinas|asa superior|modulo laser|módulo laser|laser upgrade|secador|secadora|space pi|scanner|escaner|escáner|cr scan|ferret|otter|raptor|enclosure|cerramiento)\b/i.test(text);
@@ -609,7 +616,7 @@ const scrapedCatalogs = [
 
 const scrapedDates = scrapedCatalogs
   .map((catalog) => catalog.scrapedAt ? new Date(catalog.scrapedAt) : null)
-  .filter((date): date is Date => Boolean(date) && !Number.isNaN(date.getTime()));
+  .filter((date): date is Date => date !== null && !Number.isNaN(date.getTime()));
 
 const products = scrapedCatalogs.flatMap((catalog) =>
   catalog.products.map((product) => toProduct(product, catalog.scrapedAt)),
