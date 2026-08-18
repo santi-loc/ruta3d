@@ -1,6 +1,9 @@
 import { desc } from "drizzle-orm";
 import { getDb } from "../../../../../db";
+import { isPlainRecord, sanitizeSearchQuery } from "../../../../../lib/security";
 import { notes } from "../../../db/schema";
+
+const maxContentLength = 2_000;
 
 function toRouteErrorMessage(error: unknown) {
   const message = error instanceof Error ? error.message : "Unexpected error";
@@ -35,12 +38,23 @@ export async function GET() {
 
 export async function POST(request: Request) {
   try {
-    const payload = (await request.json()) as {
-      title?: string;
-      content?: string;
-    };
-    const title = payload.title?.trim() ?? "";
-    const content = payload.content?.trim() ?? "";
+    if (!request.headers.get("content-type")?.toLowerCase().includes("application/json")) {
+      return Response.json({ error: "application/json is required" }, { status: 415 });
+    }
+
+    const payload = await request.json();
+    if (!isPlainRecord(payload)) {
+      return Response.json({ error: "invalid payload" }, { status: 400 });
+    }
+
+    const title = sanitizeSearchQuery(payload.title, 120);
+    const content = typeof payload.content === "string"
+      ? payload.content
+        .normalize("NFKC")
+        .replace(/[\u0000-\u0008\u000b\u000c\u000e-\u001f\u007f]/g, " ")
+        .trim()
+        .slice(0, maxContentLength)
+      : "";
 
     if (!title) {
       return Response.json({ error: "title is required" }, { status: 400 });

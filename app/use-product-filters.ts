@@ -12,6 +12,7 @@ import {
   unknownMaterial,
 } from "@/lib/filter-utils";
 import { filamentColorOptions, type FilamentColor } from "@/lib/filament-colors";
+import { sanitizeSearchQuery } from "@/lib/security";
 
 export const pageSize = 48;
 export const filamentWeightOptions: FilamentWeightGroup[] = ["0.25", "0.5", "1", "over1"];
@@ -60,7 +61,7 @@ export function useProductFilters(
   initialQuery = "",
 ) {
   const loadingTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
-  const [query, setQuery] = useState(initialQuery);
+  const [query, setQuery] = useState(sanitizeSearchQuery(initialQuery));
   const [category, setCategory] = useState("Todas");
   const [store, setStore] = useState("Todas");
   const [sort, setSort] = useState<SortDirection | null>("asc");
@@ -113,7 +114,8 @@ export function useProductFilters(
   }
 
   function handleQueryChange(value: string, resetSearchFilters = true) {
-    setQuery(value);
+    const nextQuery = sanitizeSearchQuery(value);
+    setQuery(nextQuery);
     if (resetSearchFilters) {
       setCategory("Todas");
       setStore("Todas");
@@ -134,7 +136,7 @@ export function useProductFilters(
     }
     resetVisibleCount();
 
-    if (queryContainsMaterial(value)) setOpenFacet("materials");
+    if (queryContainsMaterial(nextQuery)) setOpenFacet("materials");
   }
 
   function toggleFilamentBrand(brand: string) {

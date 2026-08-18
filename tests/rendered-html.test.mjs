@@ -97,6 +97,34 @@ test("applies security headers to rejected methods", async () => {
   assert.match(response.headers.get("content-security-policy") ?? "", /frame-ancestors 'none'/);
 });
 
+test("sanitizes user-controlled search params before rendering", async () => {
+  const response = await render("/?q=%3Cscript%3Ealert(1)%3C%2Fscript%3Ejavascript%3Aalert(1)");
+  assert.equal(response.status, 200);
+
+  const html = await response.text();
+  assert.doesNotMatch(html, /<script>alert\(1\)<\/script>/i);
+  assert.doesNotMatch(html, /javascript:alert\(1\)/i);
+});
+
+test("does not expose obvious secrets in rendered html", async () => {
+  const response = await render("/");
+  assert.equal(response.status, 200);
+
+  const html = await response.text();
+  assert.doesNotMatch(html, /(?:api[_-]?key|secret|private[_-]?key|access[_-]?token)\s*[:=]/i);
+  assert.doesNotMatch(html, /sk-[A-Za-z0-9_-]{20,}/);
+  assert.doesNotMatch(html, /AKIA[0-9A-Z]{16}/);
+});
+
+test("rejects unsafe image optimization requests before paid transforms", async () => {
+  const response = await fetchWorker(
+    new Request("http://localhost/_vinext/image?url=https%3A%2F%2Fevil.example%2Fprobe.png&w=640&q=75"),
+  );
+
+  assert.equal(response.status, 400);
+  assert.equal(response.headers.get("x-content-type-options"), "nosniff");
+});
+
 test("keeps catalog data out of the client page module", async () => {
   const [page, explorer, catalog] = await Promise.all([
     readFile(new URL("../app/page.tsx", import.meta.url), "utf8"),
@@ -285,4 +313,17 @@ test("keeps scraped catalog data safe to render", async () => {
       }
     }
   }
+});
+
+test("publishes catalog refresh status for stale scrape fallbacks", async () => {
+  const manifest = JSON.parse(await readFile(new URL("../data/catalog-refresh.json", import.meta.url), "utf8"));
+
+  assert.match(manifest.status, /^(ok|partial)$/);
+  assert.equal(typeof manifest.updatedStores, "number");
+  assert.equal(typeof manifest.staleStores, "number");
+  assert.ok(Array.isArray(manifest.stores));
+
+  const response = await render("/");
+  const html = await response.text();
+  assert.match(html, /Datos actualizados entre|Última actualización parcial/);
 });

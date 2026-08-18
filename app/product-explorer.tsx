@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useEffect, useMemo, useState, useSyncExternalStore } from "react";
 import type { FilamentWeightGroup, Product } from "@/lib/catalog";
+import { parseSafePositiveInteger } from "@/lib/security";
 import { Ruta3DMark } from "./ruta-3d-mark";
 import {
   filamentWeightOptions,
@@ -19,6 +20,11 @@ type ProductExplorerProps = {
   catalogFreshness: {
     productCount: number;
     storeCount: number;
+    refreshStatus: "ok" | "partial";
+    refreshedAt: string | null;
+    lastSuccessfulFullRefreshAt: string | null;
+    staleStores: number;
+    staleStoreNames: string[];
     oldestScrapedAt: string | null;
     newestScrapedAt: string | null;
   };
@@ -122,8 +128,7 @@ function dateLabel(value: string | null) {
 }
 
 function parsePriceInput(value: string) {
-  const numericValue = Number(value.replace(/\D/g, ""));
-  return Number.isFinite(numericValue) && numericValue > 0 ? numericValue : null;
+  return parseSafePositiveInteger(value);
 }
 
 function availableBrands(products: Product[], predicate: (product: Product) => boolean, preferredOrder: string[] = []) {
@@ -357,6 +362,14 @@ export function ProductExplorer({
     .filter((product): product is Product => Boolean(product));
   const newestScrapeLabel = dateLabel(catalogFreshness.newestScrapedAt);
   const oldestScrapeLabel = dateLabel(catalogFreshness.oldestScrapedAt);
+  const refreshAttemptLabel = dateLabel(catalogFreshness.refreshedAt);
+  const fullRefreshLabel = dateLabel(catalogFreshness.lastSuccessfulFullRefreshAt);
+  const staleStoresLabel = catalogFreshness.staleStoreNames.length
+    ? catalogFreshness.staleStoreNames.join(", ")
+    : "algunas tiendas";
+  const catalogNotice = catalogFreshness.refreshStatus === "partial"
+    ? `Última actualización parcial el ${refreshAttemptLabel}. Se conservan precios previos de ${staleStoresLabel}; el último refresh completo fue el ${fullRefreshLabel}.`
+    : `Datos actualizados entre ${oldestScrapeLabel} y ${newestScrapeLabel}.`;
   const mobileCategoryTitle = mobileCategoryPanel === "filament"
     ? "Filamento"
     : mobileCategoryPanel === "resin"
@@ -401,7 +414,7 @@ export function ProductExplorer({
     const restoreTimer = window.setTimeout(() => {
       try {
         const saved = JSON.parse(localStorage.getItem(savedProductsStorageKey) ?? "[]");
-        if (Array.isArray(saved)) setSavedProductIds(saved.filter((id) => typeof id === "string"));
+        if (Array.isArray(saved)) setSavedProductIds(saved.filter((id) => typeof id === "string").slice(0, 100));
       } catch {
         setSavedProductIds([]);
       }
@@ -428,7 +441,7 @@ export function ProductExplorer({
 
   const toggleSavedProduct = (product: Product) => {
     const id = String(product.id);
-    setSavedProductIds((current) => current.includes(id) ? current.filter((savedId) => savedId !== id) : [id, ...current]);
+    setSavedProductIds((current) => current.includes(id) ? current.filter((savedId) => savedId !== id) : [id, ...current].slice(0, 100));
   };
 
   return (
@@ -866,7 +879,7 @@ export function ProductExplorer({
           </section>
           <section id="transparencia" className="info-section">
             <h2>Precios y stock de referencia</h2>
-            <p>Los valores y la disponibilidad se obtienen de catálogos conectados. Hoy mostramos {count.format(catalogFreshness.productCount)} ofertas de {catalogFreshness.storeCount} tiendas, con datos actualizados entre {oldestScrapeLabel} y {newestScrapeLabel}. El precio final y el stock se confirman en la tienda de destino.</p>
+            <p>Los valores y la disponibilidad se obtienen de catálogos conectados. Hoy mostramos {count.format(catalogFreshness.productCount)} ofertas de {catalogFreshness.storeCount} tiendas. {catalogNotice} El precio final y el stock se confirman en la tienda de destino.</p>
           </section>
           <section id="cafecito" className="info-section coffee-section">
             <h2>Invitame un cafecito</h2>

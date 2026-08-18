@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { Product } from "@/lib/catalog";
+import { parseSafePositiveInteger, sanitizeSearchQuery } from "@/lib/security";
 import { Ruta3DMark } from "./ruta-3d-mark";
 
 type AnswerKey = "use" | "multicolor" | "large" | "technical" | "budget";
@@ -48,8 +49,7 @@ function publicOpinion(name: string) {
 }
 
 function parsePriceInput(value: string) {
-  const numericValue = Number(value.replace(/\D/g, ""));
-  return Number.isFinite(numericValue) && numericValue > 0 ? numericValue : null;
+  return parseSafePositiveInteger(value);
 }
 
 function priceRangeLabel(min: number | null, max: number | null) {
@@ -184,15 +184,16 @@ export function PrinterGuide({ products }: { products: Product[] }) {
     const score = buyerFit(profile, searchedAnswers).filter((check) => check.level === "yes").length + Number(isMultihead && searchedAnswers.multicolor === "often");
     return { profile, offers: offers.slice(0, 3), score };
   }).filter((entry): entry is { profile: typeof profiles[number]; offers: Product[]; score: number } => Boolean(entry)).sort((a, b) => b.score - a.score || a.offers[0].bestPrice - b.offers[0].bestPrice), [products, searchedAnswers, searchedBudgetRange]);
-  const matchedRecommendations = modelSearch.trim() ? recommendations.filter(({ profile }) => profile.name.toLocaleLowerCase("es-AR").includes(modelSearch.trim().toLocaleLowerCase("es-AR"))) : recommendations;
+  const safeModelSearch = sanitizeSearchQuery(modelSearch);
+  const matchedRecommendations = safeModelSearch ? recommendations.filter(({ profile }) => profile.name.toLocaleLowerCase("es-AR").includes(safeModelSearch.toLocaleLowerCase("es-AR"))) : recommendations;
   const catalogSearchMatches = useMemo(() => {
-    const query = modelSearch.trim().toLocaleLowerCase("es-AR");
+    const query = sanitizeSearchQuery(modelSearch).toLocaleLowerCase("es-AR");
     if (!query) return [];
     return products.filter((product) => product.isFdmPrinter && /\b(impresora|printer)\b/i.test(product.name) && product.searchText.includes(query)).sort((a, b) => a.bestPrice - b.bestPrice).filter((product, index, list) => list.findIndex((candidate) => candidate.name === product.name) === index);
   }, [modelSearch, products]);
-  const visibleRecommendations = showAllRecommendations || modelSearch.trim() ? matchedRecommendations : matchedRecommendations.slice(0, 3);
+  const visibleRecommendations = showAllRecommendations || safeModelSearch ? matchedRecommendations : matchedRecommendations.slice(0, 3);
   const remainingRecommendations = Math.max(0, matchedRecommendations.length - 3);
-  const hasNoBudgetMatches = Boolean(searchedBudgetRange && recommendations.length === 0 && !modelSearch.trim());
+  const hasNoBudgetMatches = Boolean(searchedBudgetRange && recommendations.length === 0 && !safeModelSearch);
 
   return (
     <main className="printer-guide-page">
@@ -220,9 +221,9 @@ export function PrinterGuide({ products }: { products: Product[] }) {
             const fit = unmetCriteria === 0 ? 3 : unmetCriteria === 1 ? 2 : 1;
             const opinion = publicOpinion(profile.name);
             return <article key={profile.name} className="guide-model"><div className="guide-model-photo">{offers[0].image ? <Image src={offers[0].image} alt={offers[0].name} fill sizes="(max-width: 760px) 90vw, 300px" /> : <span>3D</span>}</div><div className="guide-model-copy"><div className="guide-model-title"><h3>{profile.name}</h3><span className={profile.combo ? "combo-badge" : "base-badge"}>{profile.combo ? "FDM · Combo / AMS" : "Impresora FDM"}</span></div><p>{profile.note}</p><ul className="guide-model-features">{profile.features.map((feature) => <li key={feature}>{feature}</li>)}</ul>{checks.length ? <ul className="guide-buyer-fit">{checks.map((check) => <li className={check.level} key={check.label}><span>{check.level === "yes" ? "✓" : check.level === "partial" ? "—" : "×"}</span>{check.label}</li>)}</ul> : null}<div className={`guide-fit fit-${fit}`} aria-label={`Nivel de recomendación: ${fit} de 3`}><span>Qué tan recomendada para vos</span><i aria-hidden="true">{[1, 2, 3].map((bar) => <b className={bar <= fit ? "active" : ""} key={bar} />)}</i></div><div className="guide-public-opinion"><div><span>Opinión general online</span><strong>{opinion.summary}</strong><a href={opinion.url} target="_blank" rel="noreferrer">{opinion.source.startsWith("Buscar") ? "Buscar opiniones recientes" : `Leer reseña en ${opinion.source}`}</a></div></div><strong>Desde {price.format(offers[0].bestPrice)}</strong><div className="guide-offers">{offers.map((offer) => <a key={offer.id} href={offer.url} target="_blank" rel="noreferrer"><span>{offer.store}</span><b>{price.format(offer.bestPrice)}</b><small>{offer.stock}</small></a>)}</div><Link className="guide-search-model" href={`/?q=${encodeURIComponent(profile.name)}`}>Buscar esta impresora en el comparador</Link></div></article>;
-          })}{remainingRecommendations > 0 && !modelSearch.trim() ? <button type="button" className="guide-more-recommendations" aria-expanded={showAllRecommendations} onClick={() => setShowAllRecommendations((current) => !current)}><span>{showAllRecommendations ? "Ver menos impresoras" : `Ver ${remainingRecommendations} impresora${remainingRecommendations === 1 ? "" : "s"} más`}</span><svg viewBox="0 0 16 16" aria-hidden="true"><path d="m3 6 5 5 5-5" /></svg></button> : null}</>}
+          })}{remainingRecommendations > 0 && !safeModelSearch ? <button type="button" className="guide-more-recommendations" aria-expanded={showAllRecommendations} onClick={() => setShowAllRecommendations((current) => !current)}><span>{showAllRecommendations ? "Ver menos impresoras" : `Ver ${remainingRecommendations} impresora${remainingRecommendations === 1 ? "" : "s"} más`}</span><svg viewBox="0 0 16 16" aria-hidden="true"><path d="m3 6 5 5 5-5" /></svg></button> : null}</>}
           {hasNoBudgetMatches ? <div className="guide-budget-empty"><h2>No hay impresoras por ese precio</h2><p>Probá ampliar el mínimo o máximo del presupuesto para ver las impresoras FDM disponibles.</p></div> : null}
-          {modelSearch.trim() && catalogSearchMatches.length ? <section className="guide-catalog-search-results" aria-label="Impresoras encontradas en el comparador"><h2>También encontradas en el comparador</h2><p>Estas publicaciones no tienen todavía una ficha técnica curada para medir todos los criterios.</p>{catalogSearchMatches.filter((product) => !profiles.some((profile) => profile.terms.some((term) => product.searchText.includes(term)))).map((product) => <article key={product.id} className="guide-catalog-match"><div><h3>{product.name}</h3><span>Impresora FDM</span></div><strong>Desde {price.format(product.bestPrice)}</strong><Link href={`/?q=${encodeURIComponent(product.name)}`}>Ver todas las ofertas</Link></article>)}</section> : null}
+          {safeModelSearch && catalogSearchMatches.length ? <section className="guide-catalog-search-results" aria-label="Impresoras encontradas en el comparador"><h2>También encontradas en el comparador</h2><p>Estas publicaciones no tienen todavía una ficha técnica curada para medir todos los criterios.</p>{catalogSearchMatches.filter((product) => !profiles.some((profile) => profile.terms.some((term) => product.searchText.includes(term)))).map((product) => <article key={product.id} className="guide-catalog-match"><div><h3>{product.name}</h3><span>Impresora FDM</span></div><strong>Desde {price.format(product.bestPrice)}</strong><Link href={`/?q=${encodeURIComponent(product.name)}`}>Ver todas las ofertas</Link></article>)}</section> : null}
         </aside>
       </section>
       <p className="guide-disclaimer">Las recomendaciones son orientativas. Confirmá especificaciones, precio y stock en la tienda antes de comprar.</p>

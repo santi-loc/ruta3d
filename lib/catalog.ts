@@ -1,4 +1,5 @@
 import erexitData from "@/data/erexit3d-products.json";
+import refreshData from "@/data/catalog-refresh.json";
 import kimeraData from "@/data/kimera3d-products.json";
 import laboratorioData from "@/data/laboratorio3d-products.json";
 import proyectoColorData from "@/data/proyectocolor-products.json";
@@ -87,6 +88,22 @@ type ProductClassificationInput = {
 type ScrapedCatalog = {
   scrapedAt?: string;
   products: ScrapedProduct[];
+};
+
+type CatalogRefreshStore = {
+  store: string;
+  status: "updated" | "stale";
+  reason?: string;
+  count: number;
+  scrapedAt: string | null;
+};
+
+type CatalogRefreshManifest = {
+  status?: "ok" | "partial";
+  refreshedAt?: string | null;
+  lastSuccessfulFullRefreshAt?: string | null;
+  staleStores?: number;
+  stores?: CatalogRefreshStore[];
 };
 
 export const categoryOptions = [
@@ -619,6 +636,10 @@ const scrapedCatalogs = [
 const scrapedDates = scrapedCatalogs
   .map((catalog) => catalog.scrapedAt ? new Date(catalog.scrapedAt) : null)
   .filter((date): date is Date => date !== null && !Number.isNaN(date.getTime()));
+const refreshManifest = refreshData as CatalogRefreshManifest;
+const staleStoreNames = (refreshManifest.stores ?? [])
+  .filter((store) => store.status === "stale")
+  .map((store) => store.store);
 
 const products = scrapedCatalogs.flatMap((catalog) =>
   catalog.products.map((product) => toProduct(product, catalog.scrapedAt)),
@@ -629,6 +650,11 @@ export const catalogProducts = products;
 export const catalogFreshness = {
   productCount: products.length,
   storeCount: connectedStoreSources.length,
+  refreshStatus: refreshManifest.status === "partial" ? "partial" : "ok",
+  refreshedAt: refreshManifest.refreshedAt ?? null,
+  lastSuccessfulFullRefreshAt: refreshManifest.lastSuccessfulFullRefreshAt ?? null,
+  staleStores: refreshManifest.staleStores ?? staleStoreNames.length,
+  staleStoreNames,
   oldestScrapedAt: scrapedDates.length
     ? new Date(Math.min(...scrapedDates.map((date) => date.getTime()))).toISOString()
     : null,
