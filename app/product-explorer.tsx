@@ -205,6 +205,7 @@ export function ProductExplorer({
     resetVisibleCount,
     setCategory,
     setStore,
+    store,
     clearFilamentBrands,
     clearFilamentColors,
     clearFilamentMaterials,
@@ -263,7 +264,7 @@ export function ProductExplorer({
     visibleProducts,
   } = useProductFilters(products, filamentBrands, filamentMaterials, availableResinPrinterBrands, availableResinMaterialBrands, initialQuery);
   const hasSearchQuery = query.trim().length > 0;
-  const showsResults = hasSearchQuery || category !== "Todas";
+  const showsResults = hasSearchQuery || category !== "Todas" || store !== "Todas";
   const materialMenuOptions = filamentMaterials
     .filter((material) => material !== "PLA Silk" && !technicalFilamentMaterialSet.has(material))
     .flatMap((material) => material === "PLA" ? plaVariants : [material]);
@@ -290,6 +291,7 @@ export function ProductExplorer({
     : null;
   const appliedFilters = [
     category !== "Todas" ? category : null,
+    store !== "Todas" ? store : null,
     sort === "asc" ? "Menor precio" : sort === "desc" ? "Mayor precio" : null,
     stockOnly ? "Solo disponibles" : null,
     selectedFilamentBrands.length !== filamentBrands.length ? `${selectedFilamentBrands.length} marcas` : null,
@@ -360,6 +362,9 @@ export function ProductExplorer({
   const savedProducts = savedProductIds
     .map((id) => productById.get(id))
     .filter((product): product is Product => Boolean(product));
+  const resultsTitle = hasSearchQuery
+    ? `Resultados para “${query.trim()}”`
+    : `Resultados de ${category !== "Todas" ? category : store}`;
   const newestScrapeLabel = dateLabel(catalogFreshness.newestScrapedAt);
   const oldestScrapeLabel = dateLabel(catalogFreshness.oldestScrapedAt);
   const refreshAttemptLabel = dateLabel(catalogFreshness.refreshedAt);
@@ -552,7 +557,7 @@ export function ProductExplorer({
                   <div className="toolbar comparator-toolbar" aria-label="Orden y disponibilidad">
                     <div className="segmented">
                       <button type="button" className={sort === "desc" ? "active" : ""} aria-pressed={sort === "desc"} onClick={() => { setSort("desc"); resetVisibleCount(); }}>Mayor precio</button>
-                      <button type="button" className={sort === "asc" ? "active" : ""} aria-pressed={sort === "asc"} onClick={() => { setSort((current) => current === "asc" ? null : "asc"); resetVisibleCount(); }}>Menor precio</button>
+                      <button type="button" className={sort === "asc" ? "active" : ""} aria-pressed={sort === "asc"} onClick={() => { setSort("asc"); resetVisibleCount(); }}>Menor precio</button>
                     </div>
                     <label className="toggle"><input type="checkbox" checked={stockOnly} onChange={(event) => { setStockOnly(event.target.checked); resetVisibleCount(); }} />Solo disponibles</label>
                     <button type="button" className="search-reset-button" onClick={resetAllFilters} disabled={!hasActiveFilters}>Limpiar filtros</button>
@@ -811,7 +816,7 @@ export function ProductExplorer({
                   <>
                     <div className="search-results-heading comparator-results-heading">
                       <div>
-                        <h2>{hasSearchQuery ? `Resultados para “${query.trim()}”` : `Resultados de ${category}`}</h2>
+                        <h2>{resultsTitle}</h2>
                         <p>{filtered.length} {filtered.length === 1 ? "producto encontrado" : "productos encontrados"}{selectedColorContext ? <><span aria-hidden="true"> · </span><strong className="results-color-context">{selectedColorContext}</strong></> : null}</p>
                       </div>
                     </div>
