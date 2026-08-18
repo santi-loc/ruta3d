@@ -106,6 +106,18 @@ type CatalogRefreshManifest = {
   stores?: CatalogRefreshStore[];
 };
 
+type CatalogFreshness = {
+  productCount: number;
+  storeCount: number;
+  refreshStatus: "ok" | "partial";
+  refreshedAt: string | null;
+  lastSuccessfulFullRefreshAt: string | null;
+  staleStores: number;
+  staleStoreNames: string[];
+  oldestScrapedAt: string | null;
+  newestScrapedAt: string | null;
+};
+
 export const categoryOptions = [
   "Todas",
   "Impresoras FDM",
@@ -647,7 +659,7 @@ const products = scrapedCatalogs.flatMap((catalog) =>
 
 export const catalogProducts = products;
 
-export const catalogFreshness = {
+export const catalogFreshness: CatalogFreshness = {
   productCount: products.length,
   storeCount: connectedStoreSources.length,
   refreshStatus: refreshManifest.status === "partial" ? "partial" : "ok",
