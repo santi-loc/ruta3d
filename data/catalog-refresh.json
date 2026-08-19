@@ -1,11 +1,47 @@
 {
-  "startedAt": null,
-  "refreshedAt": null,
-  "status": "ok",
+  "startedAt": "2026-08-19T08:08:06.899Z",
+  "refreshedAt": "2026-08-19T08:08:34.388Z",
+  "status": "partial",
   "lastSuccessfulFullRefreshAt": null,
   "updatedStores": 0,
-  "staleStores": 0,
-  "oldestScrapedAt": null,
-  "newestScrapedAt": null,
-  "stores": []
+  "staleStores": 5,
+  "oldestScrapedAt": "2026-08-17T18:50:22.440Z",
+  "newestScrapedAt": "2026-08-17T18:55:55.423Z",
+  "stores": [
+    {
+      "store": "Erexit 3D",
+      "status": "stale",
+      "reason": "exit 1",
+      "count": 54,
+      "scrapedAt": "2026-08-17T18:50:22.440Z"
+    },
+    {
+      "store": "Laboratorio 3D",
+      "status": "stale",
+      "reason": "exit 1",
+      "count": 92,
+      "scrapedAt": "2026-08-17T18:50:26.102Z"
+    },
+    {
+      "store": "TP3D",
+      "status": "stale",
+      "reason": "exit 1",
+      "count": 458,
+      "scrapedAt": "2026-08-17T18:51:05.109Z"
+    },
+    {
+      "store": "Proyecto Color",
+      "status": "stale",
+      "reason": "exit 1",
+      "count": 1173,
+      "scrapedAt": "2026-08-17T18:55:37.946Z"
+    },
+    {
+      "store": "Kimera 3D",
+      "status": "stale",
+      "reason": "exit 1",
+      "count": 335,
+      "scrapedAt": "2026-08-17T18:55:55.423Z"
+    }
+  ]
 }
