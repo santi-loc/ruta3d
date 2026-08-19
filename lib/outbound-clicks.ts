@@ -30,7 +30,7 @@ const createStoreIndexSql = "CREATE INDEX IF NOT EXISTS idx_outbound_clicks_stor
 const createProductIndexSql = "CREATE INDEX IF NOT EXISTS idx_outbound_clicks_product_id ON outbound_clicks (product_id)";
 
 export async function ensureOutboundClicksSchema() {
-  const d1 = getD1();
+  const d1 = await getD1();
 
   await d1.prepare(createClicksTableSql).run();
   await d1.prepare(createStoreIndexSql).run();
@@ -44,7 +44,7 @@ export async function recordOutboundClick(input: {
   targetUrl: string;
   source: string;
 }) {
-  const d1 = getD1();
+  const d1 = await getD1();
 
   await ensureOutboundClicksSchema();
   await d1
@@ -57,7 +57,7 @@ export async function recordOutboundClick(input: {
 }
 
 export async function getStoreClickSummaries(): Promise<StoreClickSummary[]> {
-  const d1 = getD1();
+  const d1 = await getD1();
 
   await ensureOutboundClicksSchema();
   const rows = await d1
@@ -73,7 +73,7 @@ export async function getStoreClickSummaries(): Promise<StoreClickSummary[]> {
 }
 
 export async function getProductClickSummaries(): Promise<ProductClickSummary[]> {
-  const d1 = getD1();
+  const d1 = await getD1();
 
   await ensureOutboundClicksSchema();
   const rows = await d1
