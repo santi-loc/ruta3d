@@ -11,7 +11,13 @@ import { detectFilamentColors, type FilamentColor } from "@/lib/filament-colors"
 export type StockLabel = "En stock" | "Pocas unidades" | "Consultar";
 export type SortDirection = "desc" | "asc";
 export type FilamentWeightGroup = "0.25" | "0.5" | "1" | "over1";
-export type PrinterFrameType = "Abierta" | "Cerrada";
+export type PrinterFrameType = "Abierta" | "Cerrada" | "Multicolor";
+export type StoreArea = "Córdoba" | "CABA" | "La Plata" | "Online";
+
+export type StoreLocation = {
+  area: StoreArea;
+  address: string;
+};
 
 export type Product = {
   id: string | number;
@@ -23,6 +29,9 @@ export type Product = {
   transferPrice?: number | null;
   stock: StockLabel;
   city: string;
+  storeLocations: StoreLocation[];
+  storeLocationSummary: string;
+  isOnlineOnly: boolean;
   shipping: string;
   updated: string;
   tags: string[];
@@ -43,13 +52,17 @@ export type Product = {
   isResinCuring: boolean;
   isResinMaterial: boolean;
   printerFrameType?: PrinterFrameType;
+  printerFeatures: PrinterFrameType[];
 };
 
-type StoreSource = {
+export type StoreSource = {
   name: string;
   domain: string;
   url: string;
   status: "Pendiente" | "Mapeada" | "Conectada";
+  locations: StoreLocation[];
+  storeLocationSummary: string;
+  isOnlineOnly: boolean;
 };
 
 type StoreSourceConfig = {
@@ -57,6 +70,31 @@ type StoreSourceConfig = {
   domain: string;
   baseUrl: string;
 };
+
+const storeLocationsByName: Record<string, StoreLocation[]> = {
+  "TP3D": [{ area: "Córdoba", address: "Rufino Cuervo 1085, X5000 Córdoba" }],
+  "Erexit 3D": [{ area: "Online", address: "Tienda online" }],
+  "Proyecto Color": [
+    { area: "CABA", address: "Av. Gaona 1575, C1416DRD Cdad. Autónoma de Buenos Aires" },
+    { area: "Córdoba", address: "Tristán Malbrán 3784, X5009ACO Córdoba" },
+  ],
+  "Kimera 3D": [{ area: "Online", address: "Tienda online" }],
+  "Laboratorio 3D": [{ area: "La Plata", address: "Avenida 520, C. 13 Bis y, B1900 La Plata, Provincia de Buenos Aires" }],
+};
+
+function storeLocationsFor(store: string) {
+  return storeLocationsByName[store] ?? [{ area: "Online" as const, address: "Ubicación no informada" }];
+}
+
+function storeLocationSummaryFor(store: string) {
+  const locations = storeLocationsFor(store);
+  if (locations.every((location) => location.area === "Online")) return "Solo online";
+
+  const physicalAreas = locations
+    .filter((location) => location.area !== "Online")
+    .map((location) => location.area);
+  return `Retiro/local en ${physicalAreas.join(" y ")}`;
+}
 
 type ScrapedProduct = {
   id: string;
@@ -135,6 +173,9 @@ export const storeSources: StoreSource[] = (sourceConfig as StoreSourceConfig[])
   domain: source.domain,
   url: source.baseUrl,
   status: "Conectada",
+  locations: storeLocationsFor(source.name),
+  storeLocationSummary: storeLocationSummaryFor(source.name),
+  isOnlineOnly: storeLocationsFor(source.name).every((location) => location.area === "Online"),
 }));
 
 export const connectedStoreSources = storeSources.filter((source) => source.status === "Conectada");
@@ -432,8 +473,13 @@ function detectFdmPrinter(
   isResinPrinter: boolean,
 ) {
   const text = baseProductText(product);
+  const isBambuX2dPrinter =
+    /\b(bambu\s+(lab\s+)?x2d|bambulab\s+x2d|x2d)\b/i.test(text) &&
+    /\b(impresora|printer|combo|ams|multicolor)\b/i.test(text) &&
+    !/\b(hotend\s+con\s+boquilla|correa|repuesto|spare)\b/i.test(text);
   const hasPrinterSignal =
     product.category === "Impresoras" ||
+    isBambuX2dPrinter ||
     text.includes("impresora") ||
     text.includes("printer") ||
     text.includes("bambu lab a1") ||
@@ -442,6 +488,8 @@ function detectFdmPrinter(
     text.includes("bambulab p1") ||
     text.includes("bambu lab x1") ||
     text.includes("bambulab x1") ||
+    text.includes("bambu lab x2") ||
+    text.includes("bambulab x2") ||
     text.includes("adventurer") ||
     text.includes("centauri carbon") ||
     text.includes("prusa core") ||
@@ -471,16 +519,41 @@ function detectFdmPrinter(
     text.includes("modulo laser") ||
     text.includes("módulo laser");
 
-  return hasPrinterSignal && !isResinPrinter && !accessorySignal;
+  return hasPrinterSignal && !isResinPrinter && (isBambuX2dPrinter || !accessorySignal);
 }
 
-function detectPrinterFrameType(product: Pick<Product, "name" | "category" | "brand" | "material" | "tags">): PrinterFrameType | undefined {
+function detectPrinterFrameType(
+  product: Pick<Product, "name" | "category" | "brand" | "material" | "tags" | "bestPrice">,
+): Exclude<PrinterFrameType, "Multicolor"> | undefined {
   const text = baseProductText(product);
 
-  if (/\b(cerrada|cerrado|enclosed|corexy|carbon|x1|p1s|k1|k2|adventurer|guider|creator|centauri)\b/i.test(text)) return "Cerrada";
+  if (/\b(creality\s+hi|k2\s+se|spark\s*x\s*i7|bambu\s+(lab\s+)?a2l|bambu\s+(lab\s+)?a1|bambulab\s+a1|kobra\s+3\s+max)\b/i.test(text)) {
+    return "Abierta";
+  }
+
+  if (/\b(k1c|kobra\s+s1(?:\s+max)?|bambu\s+(lab\s+)?p2s|bambulab\s+p2s|bambu\s+(lab\s+)?x1c|bambulab\s+x1c|prusa\s+core\s+one|bambu\s+(lab\s+)?h2s|bambulab\s+h2s|bambu\s+(lab\s+)?x2d|bambulab\s+x2d|x2d)\b/i.test(text)) {
+    return product.bestPrice >= 800_000 ? "Cerrada" : undefined;
+  }
+
+  if (/\b(cerrada|cerrado|enclosed|corexy|carbon|x1|p1s|k1|k2|adventurer|guider|creator|centauri)\b/i.test(text)) {
+    return product.bestPrice >= 800_000 ? "Cerrada" : undefined;
+  }
+
   if (/\b(abierta|abierto|bedslinger|ender|a1|neptune|sv0|sovol|mega|sidewinder)\b/i.test(text)) return "Abierta";
 
   return undefined;
+}
+
+function detectPrinterFeatures(
+  product: Pick<Product, "name" | "category" | "brand" | "material" | "tags" | "bestPrice">,
+): PrinterFrameType[] {
+  const frameType = detectPrinterFrameType(product);
+  const text = baseProductText(product);
+  const isMulticolor = /\b(multicolor|ams|ams\s+lite|ams\s*2|cfs|cfs\s*lite|ace\s+pro|ifs|combo)\b/i.test(text);
+
+  return [frameType, isMulticolor ? "Multicolor" : undefined].filter(
+    (feature): feature is PrinterFrameType => Boolean(feature),
+  );
 }
 
 function detectResinCuring(
@@ -551,6 +624,9 @@ function toProduct(product: ScrapedProduct, scrapedAt?: string): Product {
     transferPrice,
     stock,
     city: "Argentina",
+    storeLocations: storeLocationsFor(product.store),
+    storeLocationSummary: storeLocationSummaryFor(product.store),
+    isOnlineOnly: storeLocationsFor(product.store).every((location) => location.area === "Online"),
     shipping: `Dato real de ${product.store}`,
     updated: formatScrapedAt(scrapedAt),
     tags,
@@ -582,7 +658,10 @@ function toProduct(product: ScrapedProduct, scrapedAt?: string): Product {
   const isFdmPrinter = detectFdmPrinter(baseProduct, isResinPrinter);
   const isResinCuring = detectResinCuring(baseProduct, isResinPrinter);
   const isResinMaterial = detectResinMaterial(baseProduct, isResinPrinter, isResinCuring);
-  const printerFrameType = isFdmPrinter ? detectPrinterFrameType(baseProduct) : undefined;
+  const printerFeatures = isFdmPrinter ? detectPrinterFeatures(baseProduct) : [];
+  const printerFrameType = printerFeatures.find(
+    (feature): feature is Exclude<PrinterFrameType, "Multicolor"> => feature === "Abierta" || feature === "Cerrada",
+  );
 
   return {
     ...baseProduct,
@@ -597,6 +676,7 @@ function toProduct(product: ScrapedProduct, scrapedAt?: string): Product {
     isResinCuring,
     isResinMaterial,
     printerFrameType,
+    printerFeatures,
   };
 }
 

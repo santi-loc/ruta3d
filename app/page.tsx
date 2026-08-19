@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { ProductExplorer } from "./product-explorer";
-import { catalogFreshness, catalogProducts, filamentBrands, filamentMaterials, stores } from "@/lib/catalog";
+import { catalogFreshness, catalogProducts, filamentBrands, filamentMaterials, storeSources, stores } from "@/lib/catalog";
 import { sanitizeSearchQuery } from "@/lib/security";
 import { siteDescription } from "@/lib/site";
 import { HomeJsonLd } from "./seo-json-ld";
@@ -28,6 +28,7 @@ export default async function Home({ searchParams }: { searchParams: Promise<{ q
         products={catalogProducts}
         filamentBrands={filamentBrands}
         filamentMaterials={filamentMaterials}
+        storeLinks={storeSources.map((source) => ({ name: source.name, url: source.url }))}
         stores={stores}
         catalogFreshness={catalogFreshness}
         initialQuery={initialQuery}

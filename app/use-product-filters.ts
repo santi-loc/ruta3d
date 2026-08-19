@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { penFilamentMaterial, type FilamentWeightGroup, type PrinterFrameType, type Product, type SortDirection } from "@/lib/catalog";
+import { penFilamentMaterial, type FilamentWeightGroup, type PrinterFrameType, type Product, type SortDirection, type StoreArea } from "@/lib/catalog";
 import {
   normalizeQuery,
   productMatchesCategory,
@@ -12,14 +12,39 @@ import {
   unknownMaterial,
 } from "@/lib/filter-utils";
 import { filamentColorOptions, type FilamentColor } from "@/lib/filament-colors";
-import { sanitizeSearchQuery } from "@/lib/security";
+import { sanitizeLiveSearchQuery, sanitizeSearchQuery } from "@/lib/security";
 
 export const pageSize = 48;
 export const filamentWeightOptions: FilamentWeightGroup[] = ["0.25", "0.5", "1", "over1"];
-export const printerFrameOptions: PrinterFrameType[] = ["Abierta", "Cerrada"];
+export const printerFrameOptions: PrinterFrameType[] = ["Abierta", "Cerrada", "Multicolor"];
 export { filamentColorOptions } from "@/lib/filament-colors";
 
 export const resinTypeOptions = ["Standard", "Dura", "ABS Like", "Lavable al agua", "Alta velocidad", "Vegetal"];
+type NearbyStoreArea = Exclude<StoreArea, "Online">;
+
+function postalCodeNumber(value: string) {
+  const match = value.trim().toUpperCase().match(/\d{4}/);
+  return match ? Number(match[0]) : null;
+}
+
+function postalCodeArea(value: string): NearbyStoreArea | null {
+  const normalized = value.trim().toUpperCase().replace(/[\s-]/g, "");
+  const numericCode = postalCodeNumber(normalized);
+
+  if ((normalized.startsWith("X") && numericCode !== null && numericCode >= 5000 && numericCode <= 5999) || (numericCode !== null && numericCode >= 5000 && numericCode <= 5999)) {
+    return "Córdoba";
+  }
+
+  if ((normalized.startsWith("C") && numericCode !== null && numericCode >= 1000 && numericCode <= 1499) || (numericCode !== null && numericCode >= 1000 && numericCode <= 1499)) {
+    return "CABA";
+  }
+
+  if ((normalized.startsWith("B") && numericCode !== null && numericCode >= 1900 && numericCode <= 1904) || (numericCode !== null && numericCode >= 1900 && numericCode <= 1904)) {
+    return "La Plata";
+  }
+
+  return null;
+}
 
 function printerMinimumPrice(product: Product) {
   if (product.brand === "Bambu Lab") return 300_000;
@@ -64,6 +89,8 @@ export function useProductFilters(
   const [query, setQuery] = useState(sanitizeSearchQuery(initialQuery));
   const [category, setCategory] = useState("Todas");
   const [store, setStore] = useState("Todas");
+  const [nearbyPostalCode, setNearbyPostalCodeState] = useState("");
+  const [nearbyOnly, setNearbyOnly] = useState(false);
   const [sort, setSort] = useState<SortDirection | null>("asc");
   const [stockOnly, setStockOnly] = useState(false);
   const [selectedFilamentBrands, setSelectedFilamentBrands] = useState(filamentBrands);
@@ -103,6 +130,9 @@ export function useProductFilters(
   const effectiveSelectedFilamentMaterials = queryMaterials.length
     ? queryMaterials
     : selectedFilamentMaterials;
+  const nearbyStoreArea = useMemo(() => postalCodeArea(nearbyPostalCode), [nearbyPostalCode]);
+  const hasUsablePostalCode = /\d{4}/.test(nearbyPostalCode);
+  const hasNoNearbyStores = nearbyOnly && hasUsablePostalCode && nearbyStoreArea === null;
   const selectedFilamentMaterialSet = useMemo(
     () => new Set(effectiveSelectedFilamentMaterials),
     [effectiveSelectedFilamentMaterials],
@@ -114,11 +144,12 @@ export function useProductFilters(
   }
 
   function handleQueryChange(value: string, resetSearchFilters = true) {
-    const nextQuery = sanitizeSearchQuery(value);
+    const nextQuery = sanitizeLiveSearchQuery(value);
     setQuery(nextQuery);
     if (resetSearchFilters) {
       setCategory("Todas");
       setStore("Todas");
+      setNearbyOnly(false);
       setSort("asc");
       setStockOnly(false);
       setSelectedFilamentBrands(filamentBrands);
@@ -210,6 +241,11 @@ export function useProductFilters(
   function setPriceMin(value: number | null) { setPriceBounds(value, priceMax); }
   function setPriceMax(value: number | null) { setPriceBounds(priceMin, value); }
   function clearPriceBounds() { setPriceBounds(null, null); }
+
+  function setNearbyPostalCode(value: string) {
+    resetVisibleCount();
+    setNearbyPostalCodeState(value.toUpperCase().replace(/[^A-Z0-9\s-]/g, "").slice(0, 12));
+  }
 
   function togglePrinterBrand(brand: string) {
     resetVisibleCount();
@@ -343,8 +379,7 @@ export function useProductFilters(
           (!isFdmPrinterFilterActive ||
             !printerFrameFilterIsActive ||
             !product.isFdmPrinter ||
-            !product.printerFrameType ||
-            selectedPrinterFrames.includes(product.printerFrameType)) &&
+            selectedPrinterFrames.some((feature) => product.printerFeatures.includes(feature))) &&
           (!isResinPrinterFilterActive ||
             !resinPrinterBrandFilterIsActive ||
             selectedResinPrinterBrands.includes(product.brand ?? unknownBrand)) &&
@@ -356,6 +391,7 @@ export function useProductFilters(
             selectedResinTypes.some((type) => productMatchesResinType(product, type))) &&
           productMatchesCategory(product, category) &&
           (store === "Todas" || product.store === store) &&
+          (!nearbyOnly || nearbyStoreArea === null || product.storeLocations.some((location) => location.area === nearbyStoreArea)) &&
           (!stockOnly || product.stock !== "Consultar")
         );
       })
@@ -394,6 +430,8 @@ export function useProductFilters(
     sort,
     stockOnly,
     store,
+    nearbyOnly,
+    nearbyStoreArea,
   ]);
   const visibleProducts = filtered.slice(0, visibleCount);
   const hiddenProducts = Math.max(filtered.length - visibleProducts.length, 0);
@@ -404,6 +442,8 @@ export function useProductFilters(
     query !== "" ||
     category !== "Todas" ||
     store !== "Todas" ||
+    nearbyOnly ||
+    nearbyPostalCode !== "" ||
     sort !== "asc" ||
     stockOnly ||
     selectedFilamentBrands.length !== filamentBrands.length ||
@@ -422,6 +462,8 @@ export function useProductFilters(
     setQuery("");
     setCategory("Todas");
     setStore("Todas");
+    setNearbyPostalCodeState("");
+    setNearbyOnly(false);
     setSort("asc");
     setStockOnly(false);
     setSelectedFilamentBrands(filamentBrands);
@@ -446,9 +488,13 @@ export function useProductFilters(
     filtered,
     handleQueryChange,
     hasActiveFilters,
+    hasNoNearbyStores,
     hiddenProducts,
     isLoadingResults,
     openFacet,
+    nearbyOnly,
+    nearbyPostalCode,
+    nearbyStoreArea,
     query,
     resetFilters,
     resetVisibleCount,
@@ -482,6 +528,8 @@ export function useProductFilters(
     setSort,
     setStockOnly,
     setStore,
+    setNearbyOnly,
+    setNearbyPostalCode,
     setVisibleCount,
     selectAllFilamentBrands,
     selectAllFilamentColors,

@@ -10,6 +10,7 @@ const nextConfig: NextConfig = {
       { protocol: "https", hostname: "laboratorio3d.com.ar" },
       { protocol: "https", hostname: "proyectocolor.com.ar" },
       { protocol: "https", hostname: "tp3d.com.ar" },
+      { protocol: "https", hostname: "cdn.cafecito.app" },
     ],
   },
 };

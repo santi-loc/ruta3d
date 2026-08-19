@@ -1,0 +1,2 @@
+CREATE INDEX `idx_outbound_clicks_store_clicked_at` ON `outbound_clicks` (`store`,`clicked_at`);--> statement-breakpoint
+CREATE INDEX `idx_outbound_clicks_product_id` ON `outbound_clicks` (`product_id`);

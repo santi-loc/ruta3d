@@ -1,5 +1,6 @@
 import Image from "next/image";
 import type { Product } from "@/lib/catalog";
+import { outboundProductUrl } from "@/lib/outbound-links";
 
 type ProductCardProps = {
   product: Product;
@@ -26,7 +27,7 @@ export function ProductCard({ product, priceFormatter }: ProductCardProps) {
         <div className="product-head">
           <div>
             <p>
-              {product.store} - {product.city} - {product.source === "scraper" ? "dato real" : "demo"}
+              {product.store} - {product.storeLocationSummary} - {product.source === "scraper" ? "dato real" : "demo"}
             </p>
             <h3>{product.name}</h3>
           </div>
@@ -53,7 +54,7 @@ export function ProductCard({ product, priceFormatter }: ProductCardProps) {
             <span>{product.updated}</span>
           </div>
           <a
-            href={product.url}
+            href={outboundProductUrl(product, "product-card")}
             target="_blank"
             rel="noreferrer"
             aria-label={`Ver ${product.name} en ${product.store}`}

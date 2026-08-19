@@ -1,8 +1,10 @@
 "use client";
 
 import Image from "next/image";
+import type { FormEvent } from "react";
 import { useEffect, useMemo, useState, useSyncExternalStore } from "react";
-import type { FilamentWeightGroup, Product } from "@/lib/catalog";
+import type { FilamentWeightGroup, Product, StoreArea } from "@/lib/catalog";
+import { outboundProductUrl, outboundStoreUrl } from "@/lib/outbound-links";
 import { parseSafePositiveInteger } from "@/lib/security";
 import { Ruta3DMark } from "./ruta-3d-mark";
 import {
@@ -16,6 +18,7 @@ type ProductExplorerProps = {
   products: Product[];
   filamentBrands: string[];
   filamentMaterials: string[];
+  storeLinks: { name: string; url: string }[];
   stores: string[];
   catalogFreshness: {
     productCount: number;
@@ -38,13 +41,24 @@ const price = new Intl.NumberFormat("es-AR", {
 });
 const count = new Intl.NumberFormat("es-AR");
 const unknownBrandLabel = "Sin marca";
+type PhysicalStoreArea = Exclude<StoreArea, "Online">;
+type PhysicalStoreLocation = Product["storeLocations"][number] & { area: PhysicalStoreArea };
+const storeAreaReferencePostalCodes: Record<PhysicalStoreArea, number> = {
+  "CABA": 1416,
+  "La Plata": 1900,
+  "Córdoba": 5000,
+};
+
+function isPhysicalStoreLocation(location: Product["storeLocations"][number]): location is PhysicalStoreLocation {
+  return location.area !== "Online";
+}
 
 const fdmBrands = ["Bambu Lab", "Creality", "Elegoo", "Flashforge", "Snapmaker", "Anycubic", "Artillery", "Hellbot"];
 const printerAccessoryBrands = ["Bambu Lab", "Creality", "Elegoo", "Flashforge", "Anycubic", "Prusa", "Artillery", "Snapmaker"];
 const sparePartGroups = [
   {
     label: "Hotend y extrusión",
-    parts: [["Boquillas", "boquilla"], ["Nozzles", "nozzle"], ["Hotends", "hotend"], ["Extrusores", "extrusor"]],
+    parts: [["Boquillas", "boquilla"], ["Hotends", "hotend"], ["Extrusores", "extrusor"]],
   },
   {
     label: "Movimiento y cama",
@@ -84,6 +98,7 @@ const filamentWeightLabels: Record<FilamentWeightGroup, string> = {
 const themeChangeEvent = "filtrar-3d-theme-change";
 const savedProductsStorageKey = "filtrar-3d-saved-products";
 type MobileCategoryPanel = "filament" | "resin" | "parts" | "printer";
+type ContactModal = "recommendation" | "store" | null;
 
 function subscribeToTheme(onStoreChange: () => void) {
   window.addEventListener(themeChangeEvent, onStoreChange);
@@ -131,6 +146,11 @@ function parsePriceInput(value: string) {
   return parseSafePositiveInteger(value);
 }
 
+function postalCodeNumber(value: string) {
+  const match = value.trim().toUpperCase().match(/\d{4}/);
+  return match ? Number(match[0]) : null;
+}
+
 function availableBrands(products: Product[], predicate: (product: Product) => boolean, preferredOrder: string[] = []) {
   const brands = [...new Set(products.filter(predicate).map((product) => product.brand).filter((brand): brand is string => Boolean(brand) && brand !== unknownBrandLabel))];
   const preferred = preferredOrder.filter((brand) => brands.includes(brand));
@@ -164,6 +184,7 @@ export function ProductExplorer({
   products,
   filamentBrands,
   filamentMaterials,
+  storeLinks,
   stores,
   catalogFreshness,
   initialQuery,
@@ -177,6 +198,8 @@ export function ProductExplorer({
   const [selectedSpareBrand, setSelectedSpareBrand] = useState<string | null>(null);
   const [selectedSpareFamily, setSelectedSpareFamily] = useState<"fdm" | "resin" | null>(null);
   const [mobileCategoryPanel, setMobileCategoryPanel] = useState<MobileCategoryPanel | null>(null);
+  const [contactModal, setContactModal] = useState<ContactModal>(null);
+  const [showBackToTop, setShowBackToTop] = useState(false);
   const availableResinPrinterBrands = useMemo(
     () => availableBrands(products, (product) => product.isResinPrinter, resinPrinterBrands),
     [products],
@@ -200,12 +223,16 @@ export function ProductExplorer({
     filtered,
     handleQueryChange,
     hasActiveFilters,
+    hasNoNearbyStores,
     query,
     resetFilters,
     resetVisibleCount,
     setCategory,
     setStore,
     store,
+    nearbyOnly,
+    nearbyPostalCode,
+    nearbyStoreArea,
     clearFilamentBrands,
     clearFilamentColors,
     clearFilamentMaterials,
@@ -248,6 +275,8 @@ export function ProductExplorer({
     setPriceMax,
     setSort,
     setStockOnly,
+    setNearbyOnly,
+    setNearbyPostalCode,
     sort,
     stockOnly,
     toggleFilamentBrand,
@@ -264,7 +293,7 @@ export function ProductExplorer({
     visibleProducts,
   } = useProductFilters(products, filamentBrands, filamentMaterials, availableResinPrinterBrands, availableResinMaterialBrands, initialQuery);
   const hasSearchQuery = query.trim().length > 0;
-  const showsResults = hasSearchQuery || category !== "Todas" || store !== "Todas";
+  const showsResults = hasSearchQuery || category !== "Todas" || store !== "Todas" || nearbyOnly;
   const materialMenuOptions = filamentMaterials
     .filter((material) => material !== "PLA Silk" && !technicalFilamentMaterialSet.has(material))
     .flatMap((material) => material === "PLA" ? plaVariants : [material]);
@@ -292,6 +321,7 @@ export function ProductExplorer({
   const appliedFilters = [
     category !== "Todas" ? category : null,
     store !== "Todas" ? store : null,
+    nearbyOnly && nearbyStoreArea ? `Cerca de tu CP: ${nearbyStoreArea}` : nearbyOnly && nearbyPostalCode ? "Sin tiendas cerca" : null,
     sort === "asc" ? "Menor precio" : sort === "desc" ? "Mayor precio" : null,
     stockOnly ? "Solo disponibles" : null,
     selectedFilamentBrands.length !== filamentBrands.length ? `${selectedFilamentBrands.length} marcas` : null,
@@ -359,12 +389,56 @@ export function ProductExplorer({
   };
   const savedProductIdSet = useMemo(() => new Set(savedProductIds), [savedProductIds]);
   const productById = useMemo(() => new Map(products.map((product) => [String(product.id), product])), [products]);
+  const storeLinkByName = useMemo(() => new Map(storeLinks.map((source) => [source.name, source.url])), [storeLinks]);
   const savedProducts = savedProductIds
     .map((id) => productById.get(id))
     .filter((product): product is Product => Boolean(product));
+  const nearbyStoreGuide = useMemo(() => {
+    const postalCode = postalCodeNumber(nearbyPostalCode);
+    const byStore = new Map<string, Product>();
+
+    for (const product of products) {
+      if (!byStore.has(product.store)) byStore.set(product.store, product);
+    }
+
+    const physicalStores = stores
+      .slice(1)
+      .flatMap((storeName) => {
+        const product = byStore.get(storeName);
+        return product && !product.isOnlineOnly ? [product] : [];
+      })
+      .map((product) => {
+        const distance = product.storeLocations
+          .filter(isPhysicalStoreLocation)
+          .reduce((closest, location) => {
+            if (postalCode === null) return closest;
+            return Math.min(closest, Math.abs(storeAreaReferencePostalCodes[location.area] - postalCode));
+          }, Number.POSITIVE_INFINITY);
+
+        return {
+          areaLabel: product.storeLocations
+            .filter(isPhysicalStoreLocation)
+            .map((location) => location.area)
+            .join(" y "),
+          distance,
+          name: product.store,
+          url: storeLinkByName.get(product.store) ?? product.url,
+        };
+      })
+      .sort((a, b) => a.distance - b.distance || a.name.localeCompare(b.name, "es"));
+
+    const onlineStores = stores
+      .slice(1)
+      .flatMap((storeName) => {
+        const product = byStore.get(storeName);
+        return product?.isOnlineOnly ? [{ name: product.store, url: storeLinkByName.get(product.store) ?? product.url }] : [];
+      });
+
+    return { onlineStores, physicalStores };
+  }, [nearbyPostalCode, products, storeLinkByName, stores]);
   const resultsTitle = hasSearchQuery
     ? `Resultados para “${query.trim()}”`
-    : `Resultados de ${category !== "Todas" ? category : store}`;
+    : `Resultados de ${category !== "Todas" ? category : nearbyOnly && nearbyStoreArea ? "tiendas cerca de tu CP" : nearbyOnly ? "otras tiendas" : store}`;
   const newestScrapeLabel = dateLabel(catalogFreshness.newestScrapedAt);
   const oldestScrapeLabel = dateLabel(catalogFreshness.oldestScrapedAt);
   const refreshAttemptLabel = dateLabel(catalogFreshness.refreshedAt);
@@ -375,6 +449,12 @@ export function ProductExplorer({
   const catalogNotice = catalogFreshness.refreshStatus === "partial"
     ? `Última actualización parcial el ${refreshAttemptLabel}. Se conservan precios previos de ${staleStoresLabel}; el último refresh completo fue el ${fullRefreshLabel}.`
     : `Datos actualizados entre ${oldestScrapeLabel} y ${newestScrapeLabel}.`;
+  const selectStore = (storeName: string) => {
+    setStore(storeName);
+    resetVisibleCount();
+    setIsStoreMenuOpen(false);
+    document.getElementById("comparador")?.scrollIntoView({ behavior: "smooth" });
+  };
   const mobileCategoryTitle = mobileCategoryPanel === "filament"
     ? "Filamento"
     : mobileCategoryPanel === "resin"
@@ -414,6 +494,37 @@ export function ProductExplorer({
   const filterResinCuringByBrand = (brand: string | null = null) => { setCategory("Curadoras"); handleQueryChange(brand ? `${brand} curado` : "", false); selectAllResinPrinterBrands(); selectAllResinMaterialBrands(); selectAllResinTypes(); };
   const filterResinMaterialsByType = (type: string) => { setCategory("Resina"); handleQueryChange("", false); selectAllResinPrinterBrands(); chooseResinType(type); };
   const filterResinMaterialsByBrand = (brand: string) => { setCategory("Resina"); handleQueryChange("", false); selectAllResinPrinterBrands(); chooseResinMaterialBrand(brand); };
+  const openContactModal = (modal: Exclude<ContactModal, null>) => {
+    setContactModal(modal);
+    setIsStoreMenuOpen(false);
+    setIsSavedPanelOpen(false);
+  };
+  const closeContactModal = () => setContactModal(null);
+  const sendContactForm = (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+
+    const form = new FormData(event.currentTarget);
+    const name = String(form.get("name") ?? "").trim();
+    const email = String(form.get("email") ?? "").trim();
+    const storeName = String(form.get("storeName") ?? "").trim();
+    const storeUrl = String(form.get("storeUrl") ?? "").trim();
+    const storePhone = String(form.get("storePhone") ?? "").trim();
+    const message = String(form.get("message") ?? "").trim();
+    const subject = contactModal === "store" ? "Sumar tienda a Ruta 3D" : "Mejora para Ruta 3D";
+    const body = [
+      name ? `Nombre: ${name}` : null,
+      email ? `Email: ${email}` : null,
+      storeName ? `Tienda: ${storeName}` : null,
+      storeUrl ? `Web: ${storeUrl}` : null,
+      storePhone ? `Teléfono: ${storePhone}` : null,
+      "",
+      message || "Hola, quería enviar esta información para Ruta 3D:",
+    ].filter((line): line is string => line !== null).join("\n");
+    const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=lok3d.co@gmail.com&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+    window.open(gmailUrl, "_blank", "noopener,noreferrer");
+    closeContactModal();
+  };
 
   useEffect(() => {
     const restoreTimer = window.setTimeout(() => {
@@ -434,7 +545,7 @@ export function ProductExplorer({
   }, [savedProductIds, savedProductsRestored]);
 
   useEffect(() => {
-    if (!mobileCategoryPanel) return undefined;
+    if (!mobileCategoryPanel && !contactModal) return undefined;
 
     const previousOverflow = document.body.style.overflow;
     document.body.style.overflow = "hidden";
@@ -442,11 +553,43 @@ export function ProductExplorer({
     return () => {
       document.body.style.overflow = previousOverflow;
     };
-  }, [mobileCategoryPanel]);
+  }, [mobileCategoryPanel, contactModal]);
+
+  useEffect(() => {
+    if (!contactModal) return undefined;
+
+    const closeOnEscape = (event: KeyboardEvent) => {
+      if (event.key === "Escape") closeContactModal();
+    };
+
+    window.addEventListener("keydown", closeOnEscape);
+    return () => window.removeEventListener("keydown", closeOnEscape);
+  }, [contactModal]);
+
+  useEffect(() => {
+    const updateBackToTopVisibility = () => {
+      const threshold = Math.max(720, window.innerHeight * 0.85);
+      setShowBackToTop(window.scrollY > threshold);
+    };
+
+    updateBackToTopVisibility();
+    window.addEventListener("scroll", updateBackToTopVisibility, { passive: true });
+    window.addEventListener("resize", updateBackToTopVisibility);
+
+    return () => {
+      window.removeEventListener("scroll", updateBackToTopVisibility);
+      window.removeEventListener("resize", updateBackToTopVisibility);
+    };
+  }, []);
 
   const toggleSavedProduct = (product: Product) => {
     const id = String(product.id);
     setSavedProductIds((current) => current.includes(id) ? current.filter((savedId) => savedId !== id) : [id, ...current].slice(0, 100));
+  };
+
+  const scrollBackToTop = () => {
+    const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    window.scrollTo({ top: 0, behavior: reduceMotion ? "auto" : "smooth" });
   };
 
   return (
@@ -472,7 +615,7 @@ export function ProductExplorer({
               <span>Guardados</span>
               {savedProducts.length ? <b>{savedProducts.length}</b> : null}
             </button>
-            <a className="header-contact" href="mailto:lok3d.co@gmail.com">Contacto</a>
+            <button type="button" className="header-contact" onClick={() => openContactModal("recommendation")}>Contacto</button>
             <button
               type="button"
               className="theme-switch"
@@ -494,16 +637,22 @@ export function ProductExplorer({
             <button type="button" aria-expanded={isStoreMenuOpen} aria-controls="store-menu" onClick={() => setIsStoreMenuOpen((open) => !open)} onKeyDown={(event) => { if (event.key === "Escape") setIsStoreMenuOpen(false); }}>Tiendas <span aria-hidden="true">⌄</span></button>
             <div id="store-menu" className="site-nav-dropdown-menu" aria-label="Lista de tiendas">
               {stores.slice(1).map((store) => (
-                <button key={store} type="button" onClick={() => { setStore(store); setIsStoreMenuOpen(false); document.getElementById("comparador")?.scrollIntoView({ behavior: "smooth" }); }}>
-                  {store}
-                </button>
+                <div className="store-menu-row" key={store}>
+                  <button type="button" onClick={() => selectStore(store)}>
+                    <span>{store}</span>
+                    <small>{products.find((product) => product.store === store)?.storeLocationSummary ?? "Ubicación no informada"}</small>
+                  </button>
+                  <a className="store-menu-visit" href={outboundStoreUrl({ store, url: storeLinkByName.get(store) ?? "", source: "store-menu" })} target="_blank" rel="noreferrer" aria-label={`Visitar tienda original de ${store}`}>
+                    Visitar
+                  </a>
+                </div>
               ))}
             </div>
           </div>
-          <a href="#como-funciona">Cómo funciona</a>
-          <a className="printer-guide-trigger" href="/que-impresora-compro">¿Qué impresora compro?</a>
-          <a href="#transparencia">Precios y stock</a>
-          <a href="#sumar-tienda">Sumá tu tienda</a>
+          <a href="#como-funciona" onClick={() => setIsStoreMenuOpen(false)}>Cómo funciona</a>
+          <a className="printer-guide-trigger" href="/que-impresora-compro" onClick={() => setIsStoreMenuOpen(false)}>¿Qué impresora compro?</a>
+          <a href="#transparencia" onClick={() => setIsStoreMenuOpen(false)}>Precios y stock</a>
+          <button type="button" className="nav-link-button" onClick={() => openContactModal("store")}>Sumá tu tienda</button>
         </nav>
         {isSavedPanelOpen ? (
           <section id="saved-products-panel" className="saved-products-panel" aria-label="Productos guardados">
@@ -518,7 +667,7 @@ export function ProductExplorer({
               <div className="saved-products-list">
                 {savedProducts.map((product) => (
                   <article key={product.id} className="saved-product">
-                    <a href={product.url} target="_blank" rel="noreferrer">
+                    <a href={outboundProductUrl(product, "saved-products")} target="_blank" rel="noreferrer">
                       <span className="saved-product-image">{product.image ? <Image src={product.image} alt={product.name} fill sizes="72px" /> : product.category.slice(0, 3).toUpperCase()}</span>
                       <span>
                         <small>{product.store}</small>
@@ -560,6 +709,11 @@ export function ProductExplorer({
                       <button type="button" className={sort === "asc" ? "active" : ""} aria-pressed={sort === "asc"} onClick={() => { setSort("asc"); resetVisibleCount(); }}>Menor precio</button>
                     </div>
                     <label className="toggle"><input type="checkbox" checked={stockOnly} onChange={(event) => { setStockOnly(event.target.checked); resetVisibleCount(); }} />Solo disponibles</label>
+                    <label className="zone-filter">
+                      <span>Código postal</span>
+                      <input value={nearbyPostalCode} inputMode="text" autoComplete="postal-code" placeholder="Ej. X5000" onChange={(event) => setNearbyPostalCode(event.target.value)} />
+                      <span className="zone-filter-check"><input type="checkbox" checked={nearbyOnly} onChange={(event) => { setNearbyOnly(event.target.checked); resetVisibleCount(); }} />Tiendas cerca de mí</span>
+                    </label>
                     <button type="button" className="search-reset-button" onClick={resetAllFilters} disabled={!hasActiveFilters}>Limpiar filtros</button>
                   </div>
                   {appliedFilters.length ? <div className="active-search-filters" aria-label="Filtros aplicados">{appliedFilters.map((filter) => <span key={filter}>{filter}</span>)}</div> : null}
@@ -790,16 +944,24 @@ export function ProductExplorer({
                       ) : null}
 
                       {mobileCategoryPanel === "printer" ? (
-                        <details open>
-                          <summary onClick={() => { setCategory("Impresoras FDM"); clearPrinterBrands(); }}>Marcas</summary>
-                          <div className="mobile-filter-options">
-                            {fdmBrands.map((brand) => (
-                              <button key={brand} type="button" className={selectedPrinterBrands.includes(brand) ? "selected" : ""} onClick={() => { setCategory("Impresoras FDM"); handleQueryChange("", false); togglePrinterBrand(brand); }}>
-                                {brand}
-                              </button>
-                            ))}
-                          </div>
-                        </details>
+                        <>
+                          <details open>
+                            <summary onClick={() => { setCategory("Impresoras FDM"); selectAllPrinterFrames(); }}>Tipo</summary>
+                            <div className="mobile-filter-options">
+                              {printerFrameOptions.map((frame) => <button key={frame} type="button" className={selectedPrinterFrames.includes(frame) ? "selected" : ""} onClick={() => { setCategory("Impresoras FDM"); togglePrinterFrame(frame); }}>{frame}</button>)}
+                            </div>
+                          </details>
+                          <details>
+                            <summary onClick={() => { setCategory("Impresoras FDM"); clearPrinterBrands(); }}>Marcas</summary>
+                            <div className="mobile-filter-options">
+                              {fdmBrands.map((brand) => (
+                                <button key={brand} type="button" className={selectedPrinterBrands.includes(brand) ? "selected" : ""} onClick={() => { setCategory("Impresoras FDM"); handleQueryChange("", false); togglePrinterBrand(brand); }}>
+                                  {brand}
+                                </button>
+                              ))}
+                            </div>
+                          </details>
+                        </>
                       ) : null}
                     </div>
 
@@ -819,6 +981,33 @@ export function ProductExplorer({
                         <h2>{resultsTitle}</h2>
                         <p>{filtered.length} {filtered.length === 1 ? "producto encontrado" : "productos encontrados"}{selectedColorContext ? <><span aria-hidden="true"> · </span><strong className="results-color-context">{selectedColorContext}</strong></> : null}</p>
                       </div>
+                      {hasNoNearbyStores ? (
+                        <aside className="nearby-store-guide" aria-label="Tiendas por cercanía aproximada">
+                          <div>
+                            <strong>Locales más cercanos</strong>
+                            <ol>
+                              {nearbyStoreGuide.physicalStores.map((store) => (
+                                <li key={store.name}>
+                                  <button type="button" onClick={() => selectStore(store.name)}>
+                                    <span>{store.name}</span>
+                                    <small>{store.areaLabel}</small>
+                                  </button>
+                                </li>
+                              ))}
+                            </ol>
+                          </div>
+                          {nearbyStoreGuide.onlineStores.length ? (
+                            <div>
+                              <strong>Online</strong>
+                              <div className="nearby-online-stores">
+                                {nearbyStoreGuide.onlineStores.map((store) => (
+                                  <button key={store.name} type="button" onClick={() => selectStore(store.name)}>{store.name}</button>
+                                ))}
+                              </div>
+                            </div>
+                          ) : null}
+                        </aside>
+                      ) : null}
                     </div>
                     {visibleProducts.length || showsFilterSidebar ? (
                       <div className={showsFilterSidebar ? "filament-search-layout" : undefined}>
@@ -826,7 +1015,7 @@ export function ProductExplorer({
                           <aside className="filament-filter-sidebar" aria-label={isPrinterSearch ? "Filtrar impresoras" : isResinMaterialSearch ? "Filtrar resinas" : "Filtrar filamentos"}>
                             <div className="filament-filter-title"><h3>Filtrar</h3><button type="button" onClick={resetFilters}>Limpiar</button></div>
                             <details open><summary>Precio</summary><div className="filter-price-range"><div className="price-filter-heading"><strong>{priceRangeLabel(priceMin, priceMax)}</strong><button type="button" onClick={clearPriceBounds}>Limpiar</button></div><div className="dual-range"><input type="range" min={priceSlider.min} max={priceSlider.max} step={priceSlider.step} value={priceMinSliderValue} onChange={(event) => setPriceMin(Number(event.target.value))} aria-label="Precio mínimo" /><input type="range" min={priceSlider.min} max={priceSlider.max} step={priceSlider.step} value={priceMaxSliderValue} onChange={(event) => setPriceMax(Number(event.target.value))} aria-label="Precio máximo" /></div><div className="price-range-scale"><span>{priceSlider.start}</span><span>{priceSlider.middle}</span><span>{priceSlider.end}</span></div><div className="price-inputs"><label><span>Mínimo</span><input inputMode="numeric" value={priceMin ?? ""} placeholder={String(priceSlider.min)} onChange={(event) => setPriceMin(parsePriceInput(event.target.value))} /></label><label><span>Máximo</span><input inputMode="numeric" value={priceMax ?? ""} placeholder={String(priceSlider.max)} onChange={(event) => setPriceMax(parsePriceInput(event.target.value))} /></label></div></div></details>
-                            {isFdmPrinterSearch ? <details open><summary>Tipo</summary><div className="filter-actions"><button type="button" onClick={selectAllPrinterFrames}>Todas</button><button type="button" onClick={clearPrinterFrames}>Ninguna</button></div><div className="filter-options">{printerFrameOptions.map((frame) => <label key={frame}><input type="checkbox" checked={selectedPrinterFrames.includes(frame)} onChange={() => togglePrinterFrame(frame)} /><span>{frame}</span></label>)}</div><p className="filament-color-note">Si no se detecta abierta/cerrada, queda al final para que no se pierda.</p></details> : null}
+                            {isFdmPrinterSearch ? <details open><summary>Tipo</summary><div className="filter-actions"><button type="button" onClick={selectAllPrinterFrames}>Todas</button><button type="button" onClick={clearPrinterFrames}>Ninguna</button></div><div className="filter-options">{printerFrameOptions.map((frame) => <label key={frame}><input type="checkbox" checked={selectedPrinterFrames.includes(frame)} onChange={() => togglePrinterFrame(frame)} /><span>{frame}</span></label>)}</div><p className="filament-color-note">Al filtrar por tipo se muestran solo modelos detectados en esa característica.</p></details> : null}
                             {isFdmPrinterSearch ? <details><summary>Marca</summary><div className="filter-actions"><button type="button" onClick={clearPrinterBrands}>Todas</button><button type="button" onClick={() => selectAllPrinterBrands(["__none__"])}>Ninguna</button></div><div className="filter-options">{fdmBrands.map((brand) => <label key={brand}><input type="checkbox" checked={!selectedPrinterBrands.length || selectedPrinterBrands.includes(brand)} onChange={() => togglePrinterBrand(brand)} /><span>{brand}</span></label>)}</div></details> : null}
                             {isResinPrinterSearch ? <details><summary>Marca</summary><div className="filter-actions"><button type="button" onClick={selectAllResinPrinterBrands}>Todas</button><button type="button" onClick={clearResinPrinterBrands}>Ninguna</button></div><div className="filter-options">{availableResinPrinterBrands.map((brand) => <label key={brand}><input type="checkbox" checked={selectedResinPrinterBrands.includes(brand)} onChange={() => toggleResinPrinterBrand(brand)} /><span>{brand}</span></label>)}</div></details> : null}
                             {isResinMaterialSearch ? <details open><summary>Material</summary><div className="filter-actions"><button type="button" onClick={selectAllResinTypes}>Todos</button><button type="button" onClick={clearResinTypes}>Ninguno</button></div><div className="filter-options">{resinTypeOptions.map((type) => <label key={type}><input type="checkbox" checked={selectedResinTypes.includes(type)} onChange={() => toggleResinType(type)} /><span>{type}</span></label>)}</div></details> : null}
@@ -838,6 +1027,12 @@ export function ProductExplorer({
                           </aside>
                         ) : null}
                       <div className="product-search-grid">
+                        {hasNoNearbyStores ? (
+                          <div className="nearby-empty-notice">
+                            <strong>No hay tiendas cerca de tu código postal</strong>
+                            <span>Te mostramos el resto de las ofertas conectadas; arriba tenés las tiendas físicas ordenadas de más cerca a más lejos.</span>
+                          </div>
+                        ) : null}
                         {visibleProducts.length ? visibleProducts.map((product) => (
                           <article className={`product-search-card ${savedProductIdSet.has(String(product.id)) ? "is-saved" : ""}`} key={product.id}>
                             <button
@@ -849,12 +1044,12 @@ export function ProductExplorer({
                             >
                               <BookmarkIcon filled={savedProductIdSet.has(String(product.id))} />
                             </button>
-                            <a className="product-search-link" href={product.url} target="_blank" rel="noreferrer" aria-label={`Ver ${product.name} en ${product.store}`}>
+                            <a className="product-search-link" href={outboundProductUrl(product, "catalog-card")} target="_blank" rel="noreferrer" aria-label={`Ver ${product.name} en ${product.store}`}>
                               <div className="product-search-image" style={{ backgroundColor: product.color }}>
                                 {product.image ? <Image src={product.image} alt={product.name} fill sizes="(max-width: 700px) 44vw, (max-width: 1100px) 28vw, 20vw" /> : <span>{product.category.slice(0, 3).toUpperCase()}</span>}
                               </div>
                               <div className="product-search-copy">
-                                <p>{product.store}</p>
+                                <p className="product-store-line"><span>{product.store}</span><b className={`store-mode-label ${product.isOnlineOnly ? "is-online" : ""}`}>{product.storeLocationSummary}</b></p>
                                 <h3>{product.name}</h3>
                                 {isFilamentSearch && product.isFilament ? <span className={`filament-color-status ${product.filamentColors.length ? "has-color" : "missing-color"}`}>{colorAvailabilityLabel(product)}</span> : null}
                                 <strong>{price.format(product.bestPrice)}</strong>
@@ -880,7 +1075,7 @@ export function ProductExplorer({
         <div className="site-info-inner">
           <section id="como-funciona" className="info-section">
             <h2>Compará antes de comprar</h2>
-            <p>Buscá por producto, marca o material; filtrá por tienda y disponibilidad; después abrí la oferta para completar la compra directamente con el comercio.</p>
+            <p>Buscá por producto, marca o material; filtrá por tienda, zona y disponibilidad; después abrí la oferta para completar la compra directamente con el comercio. Algunas tiendas conectadas venden solo online.</p>
           </section>
           <section id="transparencia" className="info-section">
             <h2>Precios y stock de referencia</h2>
@@ -889,16 +1084,73 @@ export function ProductExplorer({
           <section id="cafecito" className="info-section coffee-section">
             <h2>Invitame un cafecito</h2>
             <p><span className="coffee-note"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h13v7a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5Z" /><path d="M17 10h1a3 3 0 0 1 0 6h-1M7 4v2M11 3v3M15 4v2" /></svg>Si te sirve Ruta 3D, podés apoyar el proyecto con un cafecito.</span></p>
+            <a className="cafecito-button" href="https://cafecito.app/santi-loc" rel="noopener" target="_blank">
+              <Image src="https://cdn.cafecito.app/imgs/buttons/button_1.png" alt="Invitame un café en cafecito.app" width={250} height={55} />
+            </a>
           </section>
         </div>
-        <aside id="sumar-tienda" className="store-cta">
+        <aside id="contacto" className="store-cta">
           <div>
-            <h2>¿Tenés una tienda de impresión 3D?</h2>
-            <p>Queremos sumar comercios argentinos al comparador para que más compradores encuentren sus productos.</p>
+            <h2>Ayudanos a mejorar</h2>
+            <p>¿Tenés una recomendación, una mejora o una tienda de impresión 3D para sumar? Escribinos y lo revisamos para las próximas vueltas de Ruta 3D.</p>
+            <span className="contact-email">lok3d.co@gmail.com</span>
           </div>
-          <a href="mailto:lok3d.co@gmail.com?subject=Quiero%20sumar%20mi%20tienda%20a%20Ruta%203D">Quiero sumar mi tienda</a>
+          <div className="store-cta-actions">
+            <button type="button" onClick={() => openContactModal("recommendation")}>Enviar recomendación</button>
+            <button type="button" onClick={() => openContactModal("store")}>Sumá tu tienda</button>
+          </div>
         </aside>
       </section>
+      {contactModal ? (
+        <section className="contact-modal" role="dialog" aria-modal="true" aria-labelledby="contact-modal-title">
+          <button type="button" className="contact-modal-backdrop" aria-label="Cerrar contacto" onClick={closeContactModal} />
+          <form className="contact-card" onSubmit={sendContactForm}>
+            <header>
+              <div>
+                <h2 id="contact-modal-title">{contactModal === "store" ? "Sumá tu tienda" : "Enviar recomendación"}</h2>
+                <p>{contactModal === "store" ? "Pasame los datos de la tienda y la reviso para conectarla al comparador." : "Contame qué falta, qué viste raro o qué querés que Ruta 3D compare mejor."}</p>
+              </div>
+              <button type="button" className="contact-close" aria-label="Cerrar" onClick={closeContactModal}>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18" /></svg>
+              </button>
+            </header>
+            <div className="contact-fields">
+              <label>
+                <span>Tu nombre</span>
+                <input name="name" autoComplete="name" />
+              </label>
+              <label>
+                <span>Tu email</span>
+                <input name="email" type="email" autoComplete="email" />
+              </label>
+              {contactModal === "store" ? (
+                <>
+                  <label>
+                    <span>Nombre de la tienda</span>
+                    <input name="storeName" required />
+                  </label>
+                  <label>
+                    <span>Web o Instagram</span>
+                    <input name="storeUrl" required placeholder="https://" />
+                  </label>
+                  <label>
+                    <span>Teléfono de contacto</span>
+                    <input name="storePhone" inputMode="tel" autoComplete="tel" />
+                  </label>
+                </>
+              ) : null}
+              <label className="contact-message">
+                <span>{contactModal === "store" ? "Qué vende o qué datos conviene revisar" : "Recomendación o mejora"}</span>
+                <textarea name="message" required rows={5} />
+              </label>
+            </div>
+            <footer>
+              <span>Se abre Gmail web con el mensaje listo para enviar.</span>
+              <button type="submit">{contactModal === "store" ? "Preparar tienda" : "Preparar recomendación"}</button>
+            </footer>
+          </form>
+        </section>
+      ) : null}
       <footer className="site-footer">
         <p>Ruta 3D compara ofertas; no procesa pagos ni reemplaza la información publicada por cada tienda.</p>
         <div className="site-footer-links">
@@ -907,6 +1159,17 @@ export function ProductExplorer({
           <a href="#inicio">Volver arriba</a>
         </div>
       </footer>
+      <button
+        type="button"
+        className={`back-to-top ${showBackToTop ? "is-visible" : ""}`}
+        onClick={scrollBackToTop}
+        aria-label="Volver arriba"
+      >
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M12 19V5" />
+          <path d="m6 11 6-6 6 6" />
+        </svg>
+      </button>
 
     </main>
   );

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { catalogProducts } from "@/lib/catalog";
+import { catalogProducts, storeSources, stores } from "@/lib/catalog";
 import { PrinterGuide } from "../printer-guide";
 
 export const metadata: Metadata = {
@@ -16,5 +16,11 @@ export const metadata: Metadata = {
 };
 
 export default function PrinterGuidePage() {
-  return <PrinterGuide products={catalogProducts} />;
+  return (
+    <PrinterGuide
+      products={catalogProducts}
+      storeLinks={storeSources.map((source) => ({ name: source.name, url: source.url }))}
+      stores={stores}
+    />
+  );
 }
