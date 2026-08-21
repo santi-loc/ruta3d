@@ -43,7 +43,7 @@ export default async function StoreMetricsPage() {
       getProductClickSummaries(),
     ]);
   } catch {
-    errorMessage = "Todavía no hay una base de métricas disponible. Cuando el sitio esté publicado con D1, esta pantalla va a mostrar los clics reales.";
+    errorMessage = "Las métricas ya están preparadas, pero esta pantalla necesita correr en la publicación con D1 vinculada para leer y guardar clics reales. En local o sin base conectada se muestra este estado informativo.";
   }
 
   const totalClicks = storeSummaries.reduce((total, store) => total + store.clicks, 0);
@@ -60,7 +60,12 @@ export default async function StoreMetricsPage() {
         <strong>{numberFormatter.format(totalClicks)} clics totales</strong>
       </header>
 
-      {errorMessage ? <p className="metrics-notice">{errorMessage}</p> : null}
+      {errorMessage ? (
+        <div className="metrics-notice">
+          <strong>Base de métricas no disponible en este entorno</strong>
+          <p>{errorMessage}</p>
+        </div>
+      ) : null}
 
       <section className="metrics-section" aria-labelledby="store-clicks-title">
         <div className="metrics-section-heading">

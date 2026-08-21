@@ -34,6 +34,11 @@ export function ProductCard({ product, priceFormatter }: ProductCardProps) {
           <span className={`stock ${product.stock === "En stock" ? "ok" : ""}`}>{product.stock}</span>
         </div>
         <div className="tag-row">
+          {product.purchaseModes.filter((mode) => mode !== "Entrega inmediata").map((mode) => (
+            <span className={mode === product.bestPriceMode ? "purchase-mode-tag active" : "purchase-mode-tag"} key={mode}>
+              {mode === "Preventa" ? product.saleNoticeLabel ?? product.preorderLabel ?? mode : mode}
+            </span>
+          ))}
           {product.tags.map((tag, index) => (
             <span key={`${product.id}-${tag}-${index}`}>{tag}</span>
           ))}

@@ -14,24 +14,31 @@
     "priority": 2
   },
   {
+    "name": "Lefasoc",
+    "domain": "lefasoc.com.ar",
+    "baseUrl": "https://lefasoc.com.ar",
+    "integration": "scraper-tiendanube-html-variants",
+    "priority": 3
+  },
+  {
     "name": "Erexit 3D",
     "domain": "erexit3d.com",
     "baseUrl": "https://erexit3d.com",
     "integration": "scraper-html-variants",
-    "priority": 3
+    "priority": 4
   },
   {
     "name": "Proyecto Color",
     "domain": "proyectocolor.com.ar",
     "baseUrl": "https://proyectocolor.com.ar",
     "integration": "scraper-woocommerce-category",
-    "priority": 4
+    "priority": 5
   },
   {
     "name": "Kimera 3D",
     "domain": "kimera3d.com.ar",
     "baseUrl": "https://kimera3d.com.ar",
     "integration": "scraper-woocommerce-store-api-full-catalog",
-    "priority": 5
+    "priority": 6
   }
 ]

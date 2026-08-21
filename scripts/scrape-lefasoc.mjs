@@ -2,25 +2,46 @@ import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 const STORE = {
-  name: "Laboratorio 3D",
-  domain: "laboratorio3d.com.ar",
-  baseUrl: "https://laboratorio3d.com.ar",
+  name: "Lefasoc",
+  domain: "lefasoc.com.ar",
+  baseUrl: "https://lefasoc.com.ar",
   listingPath: "/productos/",
 };
 
-const DEFAULT_OUTPUT = "data/laboratorio3d-products.json";
-const MAX_PAGES = Number.parseInt(process.env.LAB3D_MAX_PAGES ?? "12", 10);
+const DEFAULT_OUTPUT = "data/lefasoc-products.json";
+const MAX_PAGES = Number.parseInt(process.env.LEFASOC_MAX_PAGES ?? "8", 10);
+
+const brandLabels = [
+  "3N3",
+  "Bambu Lab",
+  "Bambulab",
+  "Creality",
+  "Elegoo",
+  "Flashforge",
+  "Generico",
+  "Grilon3",
+  "Kyocera",
+  "Lefasoc",
+  "Lefasoc3D",
+  "Roby",
+  "Snapmaker",
+  "Toshiba",
+];
 
 function decodeHtml(value = "") {
   return value
     .replaceAll("&quot;", '"')
     .replaceAll("&#34;", '"')
     .replaceAll("&#39;", "'")
+    .replaceAll("&#8211;", "-")
+    .replaceAll("&#36;", "$")
+    .replaceAll("&#038;", "&")
     .replaceAll("&amp;", "&")
     .replaceAll("&lt;", "<")
     .replaceAll("&gt;", ">")
     .replaceAll("&nbsp;", " ")
     .replace(/<[^>]+>/g, "")
+    .replace(/\s+/g, " ")
     .trim();
 }
 
@@ -41,23 +62,31 @@ function parseMoney(value) {
   return Number.isFinite(amount) ? amount : null;
 }
 
-function parsePriceFromCents(rawValue) {
-  const cents = Number.parseInt(rawValue ?? "", 10);
-  return Number.isFinite(cents) ? cents / 100 : null;
-}
-
 function inferCategory(name) {
   const text = name.toLowerCase();
 
-  if (text.includes("filamento") || text.includes("pla") || text.includes("petg") || text.includes("abs") || text.includes("asa")) {
-    return "Filamentos";
-  }
-
   if (text.includes("resina")) return "Resina";
-  if (text.includes("impresora") || text.includes("bambu") || text.includes("creality") || text.includes("snapmaker")) {
+  if (text.includes("impresora") || text.includes("bambu") || text.includes("creality") || text.includes("flashforge")) {
     return "Impresoras";
   }
-  if (text.includes("hotend") || text.includes("boquilla") || text.includes("nozzle") || text.includes("repuesto")) {
+  if (
+    text.includes("filamento") ||
+    text.includes("pla") ||
+    text.includes("petg") ||
+    text.includes("abs") ||
+    text.includes("asa") ||
+    text.includes("tpu")
+  ) {
+    return "Filamentos";
+  }
+  if (
+    text.includes("hotend") ||
+    text.includes("boquilla") ||
+    text.includes("nozzle") ||
+    text.includes("placa") ||
+    text.includes("repuesto") ||
+    text.includes("sensor")
+  ) {
     return "Repuestos";
   }
   if (text.includes("laser") || text.includes("herramienta") || text.includes("vaso")) return "Herramientas";
@@ -65,20 +94,38 @@ function inferCategory(name) {
   return "Accesorios";
 }
 
-function makeTags(name, variants, brand) {
+function inferBrand(name, jsonLdBrand) {
+  if (jsonLdBrand) return jsonLdBrand === "Bambulab" ? "Bambu Lab" : jsonLdBrand;
+
   const text = name.toLowerCase();
+  const brand = brandLabels.find((label) => text.includes(label.toLowerCase()));
+
+  if (brand === "Bambulab") return "Bambu Lab";
+  if (brand === "Lefasoc3D") return "Lefasoc3D";
+
+  return brand ?? null;
+}
+
+function makeTags(name, variants, brand) {
+  const text = [
+    name,
+    brand,
+    ...variants.flatMap((variant) => [variant.option0, variant.option1, variant.option2, variant.sku]),
+  ]
+    .filter(Boolean)
+    .join(" ")
+    .toLowerCase();
   const tags = new Set();
 
   if (brand) tags.add(brand);
-  for (const material of ["PLA", "PETG", "ABS", "ASA"]) {
-    if (text.includes(material.toLowerCase()) || variants.some((variant) => variant.option0 === material || variant.option1 === material)) {
-      tags.add(material);
-    }
+  for (const material of ["PLA", "PETG", "ABS", "ASA", "TPU", "FLEX"]) {
+    if (text.includes(material.toLowerCase())) tags.add(material);
   }
   if (text.includes("1kg") || text.includes("1 kg")) tags.add("1kg");
+  if (text.includes("500 ml")) tags.add("500ml");
+  if (text.includes("1 litro")) tags.add("1 litro");
   if (text.includes("bambu")) tags.add("Bambu Lab");
   if (text.includes("creality")) tags.add("Creality");
-  if (text.includes("filalab")) tags.add("Filalab");
 
   return [...tags].slice(0, 5);
 }
@@ -96,8 +143,7 @@ function isDepositVariant(variant) {
   const text = variantText(variant);
 
   return /\b(sena|senal|reserva|reservar|anticipo|apartado|separar|deposito)\b/.test(text) ||
-    /\b(pre[\s-]?venta|entrega\s+(enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|setiembre|octubre|noviembre|diciembre))\b/.test(text) &&
-      /\b(cuota|saldo|restante)\b/.test(text);
+    /\bpre[\s-]?venta\b/.test(text) && /\b(cuota|saldo|restante)\b/.test(text);
 }
 
 function inferPurchaseModes(name, url, variants) {
@@ -125,7 +171,7 @@ function stockLabel(stock, available, hasKnownStock) {
 function extractJsonLdProducts(html) {
   const products = new Map();
   const scriptRegex =
-    /<script type="application\/ld\+json" data-component=['"]structured-data\.item['"]>\s*([\s\S]*?)\s*<\/script>/g;
+    /<script type=["']application\/ld\+json["'][^>]*data-component=['"]structured-data\.item['"][^>]*>\s*([\s\S]*?)\s*<\/script>/g;
 
   for (const match of html.matchAll(scriptRegex)) {
     try {
@@ -135,7 +181,7 @@ function extractJsonLdProducts(html) {
         products.set(url, json);
       }
     } catch {
-      // Ignore malformed snippets and keep scraping the rest of the catalog.
+      // Ignore malformed structured data and continue with product cards.
     }
   }
 
@@ -162,27 +208,31 @@ function extractProducts(html, sourceUrl) {
     const [, productId] = match;
     const block = match[0];
     const variants = parseVariants(block.match(/data-variants="([\s\S]*?)"/)?.[1]);
-    const name = decodeHtml(block.match(/<div class="[^"]*\bjs-item-name\b[^"]*"[^>]*>([\s\S]*?)<\/div>/)?.[1] ?? "");
-    const url = normalizeUrl(block.match(/<a href="(https:\/\/laboratorio3d\.com\.ar\/productos\/[^"]+)"/)?.[1]);
+    const url = normalizeUrl(block.match(/<a[^>]+href="(https:\/\/lefasoc\.com\.ar\/productos\/[^"]+|\/productos\/[^"]+)"/)?.[1]);
     const jsonLd = url ? jsonLdByUrl.get(url) : null;
-    const brand = jsonLd?.brand?.name ?? null;
+    const name = decodeHtml(
+      block.match(/<div class="[^"]*\bjs-item-name\b[^"]*"[^>]*>([\s\S]*?)<\/div>/)?.[1] ??
+        jsonLd?.name ??
+        "",
+    );
+    const brand = inferBrand(name, jsonLd?.brand?.name ?? null);
     const availableVariants = variants.filter((variant) => variant.available !== false && variant.is_visible !== false);
-    const priceVariants = availableVariants.length ? availableVariants : variants;
+    const nonDepositVariants = (availableVariants.length ? availableVariants : variants).filter((variant) => !isDepositVariant(variant));
+    const priceVariants = nonDepositVariants.length ? nonDepositVariants : (availableVariants.length ? availableVariants : variants);
     const priceCandidates = priceVariants
       .map((variant) => Number(variant.price_number))
       .filter((value) => Number.isFinite(value) && value > 0);
-    const price =
-      priceCandidates.length > 0
-        ? Math.min(...priceCandidates)
-        : Number.parseFloat(jsonLd?.offers?.price ?? "") ||
-          parsePriceFromCents(block.match(/data-product-price="(\d+)"/)?.[1]);
+    const price = priceCandidates.length > 0 ? Math.min(...priceCandidates) : Number.parseFloat(jsonLd?.offers?.price ?? "");
+    const previousPriceCandidates = priceVariants
+      .map((variant) => Number(variant.compare_at_price_number))
+      .filter((value) => Number.isFinite(value) && value > 0);
     const transferPriceCandidates = priceVariants
       .map((variant) => parseMoney(variant.price_with_payment_discount_short))
       .filter((value) => Number.isFinite(value) && value > 0);
     const stockNumbers = variants
       .map((variant) => Number(variant.stock))
       .filter((amount) => Number.isFinite(amount) && amount > 0);
-    const jsonLdStock = Number.parseInt(jsonLd?.offers?.inventoryLevel?.value ?? "0", 10);
+    const jsonLdStock = Number.parseInt(jsonLd?.offers?.inventoryLevel?.value ?? "", 10);
     const stock = stockNumbers.reduce((total, amount) => total + amount, Number.isFinite(jsonLdStock) ? jsonLdStock : 0);
     const hasKnownStock = stockNumbers.length > 0 || Number.isFinite(jsonLdStock);
     const available = variants.length > 0 ? variants.some((variant) => variant.available === true) : jsonLd?.offers?.availability?.includes("InStock");
@@ -191,7 +241,7 @@ function extractProducts(html, sourceUrl) {
     if (!name || !url || !price) continue;
 
     products.push({
-      id: `laboratorio3d-${productId}`,
+      id: `lefasoc-${productId}`,
       sourceProductId: productId,
       store: STORE.name,
       domain: STORE.domain,
@@ -199,6 +249,7 @@ function extractProducts(html, sourceUrl) {
       category: inferCategory(name),
       price,
       currency: "ARS",
+      previousPrice: previousPriceCandidates.length ? Math.min(...previousPriceCandidates) : null,
       transferPrice: transferPriceCandidates.length ? Math.min(...transferPriceCandidates) : null,
       purchaseModes: inferPurchaseModes(name, url, variants),
       stock,
@@ -226,7 +277,7 @@ function extractProducts(html, sourceUrl) {
 }
 
 async function fetchPage(page) {
-  const url = page === 1 ? `${STORE.baseUrl}${STORE.listingPath}` : `${STORE.baseUrl}${STORE.listingPath}page/${page}/`;
+  const url = page === 1 ? `${STORE.baseUrl}${STORE.listingPath}` : `${STORE.baseUrl}${STORE.listingPath}?page=${page}`;
   const response = await fetch(url, {
     headers: {
       "user-agent": "Ruta3D MVP scraper (+https://filtrar-3d.locatellisanti.chatgpt.site)",
@@ -235,7 +286,7 @@ async function fetchPage(page) {
   });
 
   if (!response.ok) {
-    throw new Error(`Laboratorio 3D responded ${response.status} for ${url}`);
+    throw new Error(`Lefasoc responded ${response.status} for ${url}`);
   }
 
   return { url, html: await response.text() };
@@ -277,7 +328,7 @@ const result = await scrape();
 await mkdir(path.dirname(outputPath), { recursive: true });
 await writeFile(outputPath, `${JSON.stringify(result, null, 2)}\n`);
 
-console.log(`Scraped ${result.count} Laboratorio 3D products into ${path.relative(process.cwd(), outputPath)}`);
+console.log(`Scraped ${result.count} Lefasoc products into ${path.relative(process.cwd(), outputPath)}`);
 for (const page of result.pages) {
   console.log(`- page ${page.page}: ${page.added}/${page.found} new products`);
 }

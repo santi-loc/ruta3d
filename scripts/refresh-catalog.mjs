@@ -15,6 +15,11 @@ const scrapers = [
     output: "data/laboratorio3d-products.json",
   },
   {
+    name: "Lefasoc",
+    script: "scripts/scrape-lefasoc.mjs",
+    output: "data/lefasoc-products.json",
+  },
+  {
     name: "TP3D",
     script: "scripts/scrape-tp3d.mjs",
     output: "data/tp3d-products.json",

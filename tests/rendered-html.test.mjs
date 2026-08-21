@@ -6,6 +6,7 @@ const allowedProductHostsByStore = new Map([
   ["Erexit 3D", new Set(["erexit3d.com", "acdn-us.mitiendanube.com"])],
   ["Kimera 3D", new Set(["kimera3d.com.ar", "acdn-us.mitiendanube.com"])],
   ["Laboratorio 3D", new Set(["laboratorio3d.com.ar", "acdn-us.mitiendanube.com"])],
+  ["Lefasoc", new Set(["lefasoc.com.ar", "acdn-us.mitiendanube.com"])],
   ["Proyecto Color", new Set(["proyectocolor.com.ar"])],
   ["TP3D", new Set(["tp3d.com.ar"])],
 ]);

@@ -3,6 +3,7 @@ import { spawn } from "node:child_process";
 const scrapers = [
   ["Erexit 3D", "scripts/scrape-erexit3d.mjs"],
   ["Laboratorio 3D", "scripts/scrape-laboratorio3d.mjs"],
+  ["Lefasoc", "scripts/scrape-lefasoc.mjs"],
   ["TP3D", "scripts/scrape-tp3d.mjs"],
   ["Proyecto Color", "scripts/scrape-proyectocolor.mjs"],
   ["Kimera 3D", "scripts/scrape-kimera3d.mjs"],

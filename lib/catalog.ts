@@ -1,6 +1,7 @@
 import erexitData from "@/data/erexit3d-products.json";
 import refreshData from "@/data/catalog-refresh.json";
 import kimeraData from "@/data/kimera3d-products.json";
+import lefasocData from "@/data/lefasoc-products.json";
 import laboratorioData from "@/data/laboratorio3d-products.json";
 import proyectoColorData from "@/data/proyectocolor-products.json";
 import tp3dData from "@/data/tp3d-products.json";
@@ -13,10 +14,13 @@ export type SortDirection = "desc" | "asc";
 export type FilamentWeightGroup = "0.25" | "0.5" | "1" | "over1";
 export type PrinterFrameType = "Abierta" | "Cerrada" | "Multicolor";
 export type StoreArea = "Córdoba" | "CABA" | "La Plata" | "Online";
+export type PurchaseMode = "Preventa" | "Entrega inmediata";
 
 export type StoreLocation = {
   area: StoreArea;
   address: string;
+  lat?: number;
+  lng?: number;
 };
 
 export type Product = {
@@ -53,6 +57,11 @@ export type Product = {
   isResinMaterial: boolean;
   printerFrameType?: PrinterFrameType;
   printerFeatures: PrinterFrameType[];
+  purchaseModes: PurchaseMode[];
+  bestPriceMode?: PurchaseMode;
+  preorderLabel?: string;
+  saleNoticeLabel?: string;
+  saleNoticeType?: "preorder" | "deposit";
 };
 
 export type StoreSource = {
@@ -72,14 +81,18 @@ type StoreSourceConfig = {
 };
 
 const storeLocationsByName: Record<string, StoreLocation[]> = {
-  "TP3D": [{ area: "Córdoba", address: "Rufino Cuervo 1085, X5000 Córdoba" }],
+  "TP3D": [{ area: "Córdoba", address: "Rufino Cuervo 1085, X5000 Córdoba", lat: -31.438, lng: -64.165 }],
   "Erexit 3D": [{ area: "Online", address: "Tienda online" }],
   "Proyecto Color": [
-    { area: "CABA", address: "Av. Gaona 1575, C1416DRD Cdad. Autónoma de Buenos Aires" },
-    { area: "Córdoba", address: "Tristán Malbrán 3784, X5009ACO Córdoba" },
+    { area: "CABA", address: "Av. Gaona 1575, C1416DRD Cdad. Autónoma de Buenos Aires", lat: -34.614, lng: -58.459 },
+    { area: "Córdoba", address: "Tristán Malbrán 3784, X5009ACO Córdoba", lat: -31.356, lng: -64.232 },
   ],
   "Kimera 3D": [{ area: "Online", address: "Tienda online" }],
-  "Laboratorio 3D": [{ area: "La Plata", address: "Avenida 520, C. 13 Bis y, B1900 La Plata, Provincia de Buenos Aires" }],
+  "Laboratorio 3D": [{ area: "La Plata", address: "Avenida 520, C. 13 Bis y, B1900 La Plata, Provincia de Buenos Aires", lat: -34.926, lng: -57.999 }],
+  "Lefasoc": [
+    { area: "CABA", address: "Virrey Cevallos 149, CABA", lat: -34.609, lng: -58.384 },
+    { area: "CABA", address: "Godoy Cruz 2443, CABA", lat: -34.581, lng: -58.426 },
+  ],
 };
 
 function storeLocationsFor(store: string) {
@@ -104,12 +117,15 @@ type ScrapedProduct = {
   price: number;
   previousPrice?: number | null;
   transferPrice: number | null;
+  purchaseModes?: PurchaseMode[];
   stockLabel: string;
   brand: string | null;
   tags: string[];
   color?: string | null;
   variants?: Array<{
     available?: boolean;
+    isDeposit?: boolean;
+    price?: number;
     options?: string[];
   }>;
   image: string | null;
@@ -196,6 +212,7 @@ const filamentBrandNames = [
   "GST3D",
   "GST",
   "Hellbot",
+  "Grilon3",
   "Toolbox",
   "Filar",
   "Elemental",
@@ -491,6 +508,7 @@ function detectFdmPrinter(
     text.includes("bambu lab x2") ||
     text.includes("bambulab x2") ||
     text.includes("adventurer") ||
+    text.includes("creator 5") ||
     text.includes("centauri carbon") ||
     text.includes("prusa core") ||
     text.includes("snapmaker");
@@ -531,7 +549,7 @@ function detectPrinterFrameType(
     return "Abierta";
   }
 
-  if (/\b(k1c|kobra\s+s1(?:\s+max)?|bambu\s+(lab\s+)?p2s|bambulab\s+p2s|bambu\s+(lab\s+)?x1c|bambulab\s+x1c|prusa\s+core\s+one|bambu\s+(lab\s+)?h2s|bambulab\s+h2s|bambu\s+(lab\s+)?x2d|bambulab\s+x2d|x2d)\b/i.test(text)) {
+  if (/\b(k1c|creator\s+5(?:\s+pro)?|kobra\s+s1(?:\s+max)?|bambu\s+(lab\s+)?p2s|bambulab\s+p2s|bambu\s+(lab\s+)?x1c|bambulab\s+x1c|prusa\s+core\s+one|bambu\s+(lab\s+)?h2s|bambulab\s+h2s|bambu\s+(lab\s+)?x2d|bambulab\s+x2d|x2d)\b/i.test(text)) {
     return product.bestPrice >= 800_000 ? "Cerrada" : undefined;
   }
 
@@ -586,6 +604,7 @@ function storeColor(store: string) {
   if (store === "TP3D") return "#4f8f82";
   if (store === "Proyecto Color") return "#bf6b42";
   if (store === "Kimera 3D") return "#5874a8";
+  if (store === "Lefasoc") return "#2d8c73";
 
   return "#8f5aa6";
 }
@@ -604,12 +623,105 @@ function formatScrapedAt(scrapedAt?: string) {
   })}`;
 }
 
+function normalizePurchaseText(value: string) {
+  return value.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+}
+
+function purchaseModesFromText(value: string): PurchaseMode[] {
+  const text = normalizePurchaseText(value);
+  const modes = new Set<PurchaseMode>();
+
+  if (/\bpre[\s-]?venta\b/.test(text) || /\bentrega\s+(enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|setiembre|octubre|noviembre|diciembre)\b/.test(text)) {
+    modes.add("Preventa");
+  }
+  if (/\bentrega\s+inmediata\b/.test(text)) modes.add("Entrega inmediata");
+
+  return [...modes];
+}
+
+function variantLooksLikeDeposit(variant: NonNullable<ScrapedProduct["variants"]>[number]) {
+  const text = normalizePurchaseText((variant.options ?? []).join(" "));
+
+  return Boolean(variant.isDeposit) || /\b(sena|senal|reserva|reservar|anticipo|apartado|separar|deposito)\b/.test(text);
+}
+
+function lowestPricedVariant(product: ScrapedProduct) {
+  const variants = product.variants ?? [];
+  const availableVariants = variants.filter((variant) => variant.available !== false);
+  const candidateVariants = availableVariants.length ? availableVariants : variants;
+  const pricedVariants = candidateVariants
+    .map((variant) => ({
+      isDeposit: variantLooksLikeDeposit(variant),
+      price: Number(variant.price),
+    }))
+    .filter((variant) => Number.isFinite(variant.price) && variant.price > 0)
+    .sort((a, b) => a.price - b.price);
+
+  return pricedVariants[0] ?? { isDeposit: false, price: product.price };
+}
+
+function preorderLabelFromText(value: string) {
+  const text = normalizePurchaseText(value);
+  const monthMatch = text.match(/\b(?:pre[\s-]?venta|entrega)\s+(enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|setiembre|octubre|noviembre|diciembre)\b/);
+
+  if (monthMatch) {
+    const month = monthMatch[1] === "setiembre" ? "septiembre" : monthMatch[1];
+    return `Preventa ${month.charAt(0).toUpperCase()}${month.slice(1)}`;
+  }
+
+  return /\bpre[\s-]?venta\b/.test(text) ? "Preventa" : undefined;
+}
+
+function inferPurchaseModes(product: ScrapedProduct): PurchaseMode[] {
+  const modes = new Set<PurchaseMode>(product.purchaseModes ?? []);
+  for (const mode of purchaseModesFromText([product.name, product.url, ...product.tags].join(" "))) modes.add(mode);
+  for (const variant of product.variants ?? []) {
+    for (const mode of purchaseModesFromText((variant.options ?? []).join(" "))) modes.add(mode);
+    if (variantLooksLikeDeposit(variant)) modes.add("Preventa");
+  }
+
+  if (!modes.size && product.stockLabel !== "Consultar") modes.add("Entrega inmediata");
+
+  return [...modes];
+}
+
+function inferPreorderLabel(product: ScrapedProduct) {
+  const candidates = [
+    product.name,
+    product.url,
+    ...product.tags,
+    ...(product.variants ?? []).flatMap((variant) => variant.options ?? []),
+  ];
+
+  return candidates.map(preorderLabelFromText).find(Boolean);
+}
+
+function bestPricePurchaseMode(product: ScrapedProduct, purchaseModes: PurchaseMode[]): PurchaseMode | undefined {
+  const variants = product.variants ?? [];
+  const pricedVariants = variants.filter((variant) =>
+    variant.available !== false &&
+    !variantLooksLikeDeposit(variant) &&
+    Number.isFinite(variant.price) &&
+    Number(variant.price) > 0,
+  );
+  const lowestVariant = pricedVariants.sort((a, b) => Number(a.price) - Number(b.price))[0];
+  const variantModes = lowestVariant ? purchaseModesFromText((lowestVariant.options ?? []).join(" ")) : [];
+
+  return variantModes[0] ?? (purchaseModes.length === 1 ? purchaseModes[0] : undefined);
+}
+
 function toProduct(product: ScrapedProduct, scrapedAt?: string): Product {
   const tags = product.tags.length ? product.tags : [product.brand ?? product.store];
   const category = normalizedCategory({ ...product, tags });
   const brand = inferBrand(product.name, tags, product.brand);
   const material = inferMaterial(product.name, tags);
-  const transferPrice = validTransferPrice(product.price, product.transferPrice);
+  const listedVariant = lowestPricedVariant(product);
+  const productPrice = listedVariant.price;
+  const transferPrice = validTransferPrice(productPrice, product.transferPrice);
+  const purchaseModes = inferPurchaseModes(product);
+  const preorderLabel = inferPreorderLabel(product);
+  const saleNoticeLabel = listedVariant.isDeposit ? "Seña / reserva" : preorderLabel;
+  const saleNoticeType: Product["saleNoticeType"] = listedVariant.isDeposit ? "deposit" : preorderLabel ? "preorder" : undefined;
   const stock: StockLabel =
     product.stockLabel === "Pocas unidades" || product.stockLabel === "Consultar"
       ? product.stockLabel
@@ -619,7 +731,7 @@ function toProduct(product: ScrapedProduct, scrapedAt?: string): Product {
     name: product.name,
     category,
     store: product.store,
-    price: product.price,
+    price: productPrice,
     previousPrice: product.previousPrice ?? undefined,
     transferPrice,
     stock,
@@ -636,8 +748,13 @@ function toProduct(product: ScrapedProduct, scrapedAt?: string): Product {
     image: product.image,
     material,
     source: "scraper" as const,
-    bestPrice: bestAvailablePrice(product.price, transferPrice),
-    searchText: searchableText([product.name, product.category, product.brand, product.store, "Argentina", material, product.color, ...tags]),
+    bestPrice: bestAvailablePrice(productPrice, transferPrice),
+    purchaseModes,
+    bestPriceMode: bestPricePurchaseMode(product, purchaseModes),
+    preorderLabel,
+    saleNoticeLabel,
+    saleNoticeType,
+    searchText: searchableText([product.name, product.category, product.brand, product.store, "Argentina", material, product.color, ...purchaseModes, ...tags]),
   };
   const isSparePart = detectSparePart(baseProduct);
   const isFilament = !isSparePart && detectFilamentProduct(baseProduct) && isApprovedFilamentProduct(baseProduct);
@@ -720,6 +837,7 @@ export function normalizeQuery(query: string) {
 const scrapedCatalogs = [
   erexitData,
   laboratorioData,
+  lefasocData,
   tp3dData,
   proyectoColorData,
   kimeraData,

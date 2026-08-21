@@ -48,9 +48,31 @@ const storeAreaReferencePostalCodes: Record<PhysicalStoreArea, number> = {
   "La Plata": 1900,
   "Córdoba": 5000,
 };
+const argentinaMapBounds = {
+  maxLat: -21,
+  maxLng: -53,
+  minLat: -55,
+  minLng: -74,
+};
+const storeAreaCoordinates: Record<PhysicalStoreArea, { lat: number; lng: number }> = {
+  "CABA": { lat: -34.6037, lng: -58.3816 },
+  "La Plata": { lat: -34.9205, lng: -57.9536 },
+  "Córdoba": { lat: -31.4201, lng: -64.1888 },
+};
 
 function isPhysicalStoreLocation(location: Product["storeLocations"][number]): location is PhysicalStoreLocation {
   return location.area !== "Online";
+}
+
+function projectArgentinaPoint(location: PhysicalStoreLocation) {
+  const coordinates = location.lat !== undefined && location.lng !== undefined
+    ? { lat: location.lat, lng: location.lng }
+    : storeAreaCoordinates[location.area];
+
+  return {
+    x: ((coordinates.lng - argentinaMapBounds.minLng) / (argentinaMapBounds.maxLng - argentinaMapBounds.minLng)) * 100,
+    y: ((argentinaMapBounds.maxLat - coordinates.lat) / (argentinaMapBounds.maxLat - argentinaMapBounds.minLat)) * 120,
+  };
 }
 
 const fdmBrands = ["Bambu Lab", "Creality", "Elegoo", "Flashforge", "Snapmaker", "Anycubic", "Artillery", "Hellbot"];
@@ -99,6 +121,11 @@ const themeChangeEvent = "filtrar-3d-theme-change";
 const savedProductsStorageKey = "filtrar-3d-saved-products";
 type MobileCategoryPanel = "filament" | "resin" | "parts" | "printer";
 type ContactModal = "recommendation" | "store" | null;
+type AppliedFilter = {
+  key: string;
+  label: string;
+  onRemove: () => void;
+};
 
 function subscribeToTheme(onStoreChange: () => void) {
   window.addEventListener(themeChangeEvent, onStoreChange);
@@ -199,6 +226,8 @@ export function ProductExplorer({
   const [selectedSpareFamily, setSelectedSpareFamily] = useState<"fdm" | "resin" | null>(null);
   const [mobileCategoryPanel, setMobileCategoryPanel] = useState<MobileCategoryPanel | null>(null);
   const [contactModal, setContactModal] = useState<ContactModal>(null);
+  const [storeMapZoom, setStoreMapZoom] = useState(1);
+  const [storeMapFocus, setStoreMapFocus] = useState({ x: 50, y: 55 });
   const [showBackToTop, setShowBackToTop] = useState(false);
   const availableResinPrinterBrands = useMemo(
     () => availableBrands(products, (product) => product.isResinPrinter, resinPrinterBrands),
@@ -274,10 +303,14 @@ export function ProductExplorer({
     setPriceMin,
     setPriceMax,
     setSort,
+    setShowImmediate,
+    setShowPreorder,
     setStockOnly,
     setNearbyOnly,
     setNearbyPostalCode,
     sort,
+    showImmediate,
+    showPreorder,
     stockOnly,
     toggleFilamentBrand,
     toggleFilamentColor,
@@ -318,23 +351,27 @@ export function ProductExplorer({
   const selectedColorContext = isFilamentSearch && selectedFilamentColors.length > 0 && selectedFilamentColors.length < filamentColors.length
     ? `Disponibles en ${selectedFilamentColors.map((color) => color.toLocaleLowerCase("es-AR")).join(", ")}`
     : null;
-  const appliedFilters = [
-    category !== "Todas" ? category : null,
-    store !== "Todas" ? store : null,
-    nearbyOnly && nearbyStoreArea ? `Cerca de tu CP: ${nearbyStoreArea}` : nearbyOnly && nearbyPostalCode ? "Sin tiendas cerca" : null,
-    sort === "asc" ? "Menor precio" : sort === "desc" ? "Mayor precio" : null,
-    stockOnly ? "Solo disponibles" : null,
-    selectedFilamentBrands.length !== filamentBrands.length ? `${selectedFilamentBrands.length} marcas` : null,
-    selectedFilamentMaterials.length !== defaultFilamentMaterialCount || selectedFilamentMaterials.includes("Lápiz 3D") ? `${selectedFilamentMaterials.length} materiales` : null,
-    selectedFilamentColors.length !== filamentColors.length ? `${selectedFilamentColors.length} colores` : null,
-    selectedFilamentWeights.length !== filamentWeightOptions.length ? `${selectedFilamentWeights.length} pesos` : null,
-    priceMin !== null || priceMax !== null ? priceRangeLabel(priceMin, priceMax) : null,
-    isFdmPrinterSearch && selectedPrinterBrands.length ? `${selectedPrinterBrands.length} marcas FDM` : null,
-    isFdmPrinterSearch && selectedPrinterFrames.length !== printerFrameOptions.length ? selectedPrinterFrames.join(", ") : null,
-    isResinPrinterSearch && selectedResinPrinterBrands.length !== availableResinPrinterBrands.length ? `${selectedResinPrinterBrands.length} marcas de resina` : null,
-    isResinMaterialSearch && selectedResinMaterialBrands.length !== availableResinMaterialBrands.length ? `${selectedResinMaterialBrands.length} marcas de resina` : null,
-    isResinMaterialSearch && selectedResinTypes.length !== resinTypeOptions.length ? `${selectedResinTypes.length} tipos` : null,
-  ].filter((filter): filter is string => Boolean(filter));
+  const appliedFilters: AppliedFilter[] = [
+    query.trim() ? { key: "query", label: `Búsqueda: ${query.trim()}`, onRemove: () => handleQueryChange("", false) } : null,
+    category !== "Todas" ? { key: "category", label: category, onRemove: () => { setCategory("Todas"); resetVisibleCount(); } } : null,
+    store !== "Todas" ? { key: "store", label: store, onRemove: () => { setStore("Todas"); resetVisibleCount(); } } : null,
+    nearbyOnly && nearbyStoreArea ? { key: "nearby", label: `Cerca de tu CP: ${nearbyStoreArea}`, onRemove: () => { setNearbyOnly(false); setNearbyPostalCode(""); resetVisibleCount(); } } : null,
+    nearbyOnly && !nearbyStoreArea && nearbyPostalCode ? { key: "nearby-empty", label: "Sin tiendas cerca", onRemove: () => { setNearbyOnly(false); setNearbyPostalCode(""); resetVisibleCount(); } } : null,
+    sort === "desc" ? { key: "sort", label: "Mayor precio", onRemove: () => { setSort("asc"); resetVisibleCount(); } } : null,
+    stockOnly ? { key: "stock", label: "Solo disponibles", onRemove: () => { setStockOnly(false); resetVisibleCount(); } } : null,
+    !showPreorder ? { key: "preorder", label: "Sin preventa", onRemove: () => { setShowPreorder(true); resetVisibleCount(); } } : null,
+    !showImmediate ? { key: "immediate", label: "Sin entrega inmediata", onRemove: () => { setShowImmediate(true); resetVisibleCount(); } } : null,
+    selectedFilamentBrands.length !== filamentBrands.length ? { key: "filament-brands", label: `${selectedFilamentBrands.length} marcas`, onRemove: selectAllFilamentBrands } : null,
+    selectedFilamentMaterials.length !== defaultFilamentMaterialCount || selectedFilamentMaterials.includes("Lápiz 3D") ? { key: "filament-materials", label: `${selectedFilamentMaterials.length} materiales`, onRemove: selectAllFilamentMaterials } : null,
+    selectedFilamentColors.length !== filamentColors.length ? { key: "filament-colors", label: `${selectedFilamentColors.length} colores`, onRemove: selectAllFilamentColors } : null,
+    selectedFilamentWeights.length !== filamentWeightOptions.length ? { key: "filament-weights", label: `${selectedFilamentWeights.length} pesos`, onRemove: selectAllFilamentWeights } : null,
+    priceMin !== null || priceMax !== null ? { key: "price", label: priceRangeLabel(priceMin, priceMax), onRemove: clearPriceBounds } : null,
+    isFdmPrinterSearch && selectedPrinterBrands.length ? { key: "printer-brands", label: `${selectedPrinterBrands.length} marcas FDM`, onRemove: clearPrinterBrands } : null,
+    isFdmPrinterSearch && selectedPrinterFrames.length !== printerFrameOptions.length ? { key: "printer-frames", label: selectedPrinterFrames.join(", "), onRemove: selectAllPrinterFrames } : null,
+    isResinPrinterSearch && selectedResinPrinterBrands.length !== availableResinPrinterBrands.length ? { key: "resin-printer-brands", label: `${selectedResinPrinterBrands.length} marcas de resina`, onRemove: selectAllResinPrinterBrands } : null,
+    isResinMaterialSearch && selectedResinMaterialBrands.length !== availableResinMaterialBrands.length ? { key: "resin-material-brands", label: `${selectedResinMaterialBrands.length} marcas de resina`, onRemove: selectAllResinMaterialBrands } : null,
+    isResinMaterialSearch && selectedResinTypes.length !== resinTypeOptions.length ? { key: "resin-types", label: `${selectedResinTypes.length} tipos`, onRemove: selectAllResinTypes } : null,
+  ].filter((filter): filter is AppliedFilter => Boolean(filter));
 
   const sparePartCategory = (part: string | null) => part && accessorySpareParts.has(part) ? "Accesorios" : "Repuestos";
 
@@ -436,6 +473,49 @@ export function ProductExplorer({
 
     return { onlineStores, physicalStores };
   }, [nearbyPostalCode, products, storeLinkByName, stores]);
+  const storeMapGuide = useMemo(() => {
+    const byStore = new Map<string, Product>();
+
+    for (const product of products) {
+      if (!byStore.has(product.store)) byStore.set(product.store, product);
+    }
+
+    const physicalStores = stores
+      .slice(1)
+      .flatMap((storeName) => {
+        const product = byStore.get(storeName);
+        if (!product || product.isOnlineOnly) return [];
+
+        return product.storeLocations
+          .filter(isPhysicalStoreLocation)
+          .map((location) => ({
+            address: location.address,
+            area: location.area,
+            name: product.store,
+            point: projectArgentinaPoint(location),
+            url: storeLinkByName.get(product.store) ?? product.url,
+          }));
+      });
+
+    const onlineStores = stores
+      .slice(1)
+      .flatMap((storeName) => {
+        const product = byStore.get(storeName);
+        return product?.isOnlineOnly ? [{ name: product.store, url: storeLinkByName.get(product.store) ?? product.url }] : [];
+      });
+
+    return { onlineStores, physicalStores };
+  }, [products, storeLinkByName, stores]);
+  const storeMapTransformOrigin = `${storeMapFocus.x}% ${(storeMapFocus.y / 120) * 100}%`;
+  const setStoreMapZoomLevel = (nextZoom: number) => setStoreMapZoom(Math.min(2.8, Math.max(1, nextZoom)));
+  const focusStoreMap = (point: { x: number; y: number }, zoom = 2.35) => {
+    setStoreMapFocus(point);
+    setStoreMapZoomLevel(zoom);
+  };
+  const resetStoreMap = () => {
+    setStoreMapFocus({ x: 50, y: 55 });
+    setStoreMapZoom(1);
+  };
   const resultsTitle = hasSearchQuery
     ? `Resultados para “${query.trim()}”`
     : `Resultados de ${category !== "Todas" ? category : nearbyOnly && nearbyStoreArea ? "tiendas cerca de tu CP" : nearbyOnly ? "otras tiendas" : store}`;
@@ -650,6 +730,7 @@ export function ProductExplorer({
             </div>
           </div>
           <a href="#como-funciona" onClick={() => setIsStoreMenuOpen(false)}>Cómo funciona</a>
+          <a href="#mapa-tiendas" onClick={() => setIsStoreMenuOpen(false)}>Mapa</a>
           <a className="printer-guide-trigger" href="/que-impresora-compro" onClick={() => setIsStoreMenuOpen(false)}>¿Qué impresora compro?</a>
           <a href="#transparencia" onClick={() => setIsStoreMenuOpen(false)}>Precios y stock</a>
           <button type="button" className="nav-link-button" onClick={() => openContactModal("store")}>Sumá tu tienda</button>
@@ -709,6 +790,8 @@ export function ProductExplorer({
                       <button type="button" className={sort === "asc" ? "active" : ""} aria-pressed={sort === "asc"} onClick={() => { setSort("asc"); resetVisibleCount(); }}>Menor precio</button>
                     </div>
                     <label className="toggle"><input type="checkbox" checked={stockOnly} onChange={(event) => { setStockOnly(event.target.checked); resetVisibleCount(); }} />Solo disponibles</label>
+                    <label className="toggle"><input type="checkbox" checked={showPreorder} onChange={(event) => { setShowPreorder(event.target.checked); resetVisibleCount(); }} />Preventa</label>
+                    <label className="toggle"><input type="checkbox" checked={showImmediate} onChange={(event) => { setShowImmediate(event.target.checked); resetVisibleCount(); }} />Entrega inmediata</label>
                     <label className="zone-filter">
                       <span>Código postal</span>
                       <input value={nearbyPostalCode} inputMode="text" autoComplete="postal-code" placeholder="Ej. X5000" onChange={(event) => setNearbyPostalCode(event.target.value)} />
@@ -716,7 +799,16 @@ export function ProductExplorer({
                     </label>
                     <button type="button" className="search-reset-button" onClick={resetAllFilters} disabled={!hasActiveFilters}>Limpiar filtros</button>
                   </div>
-                  {appliedFilters.length ? <div className="active-search-filters" aria-label="Filtros aplicados">{appliedFilters.map((filter) => <span key={filter}>{filter}</span>)}</div> : null}
+                  {appliedFilters.length ? (
+                    <div className="active-search-filters" aria-label="Filtros aplicados">
+                      {appliedFilters.map((filter) => (
+                        <button key={filter.key} type="button" onClick={filter.onRemove} aria-label={`Quitar filtro ${filter.label}`}>
+                          <span>{filter.label}</span>
+                          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18" /></svg>
+                        </button>
+                      ))}
+                    </div>
+                  ) : null}
                 </div>
                 <span className="flag-dot" aria-hidden="true" />
               </header>
@@ -1015,6 +1107,7 @@ export function ProductExplorer({
                           <aside className="filament-filter-sidebar" aria-label={isPrinterSearch ? "Filtrar impresoras" : isResinMaterialSearch ? "Filtrar resinas" : "Filtrar filamentos"}>
                             <div className="filament-filter-title"><h3>Filtrar</h3><button type="button" onClick={resetFilters}>Limpiar</button></div>
                             <details open><summary>Precio</summary><div className="filter-price-range"><div className="price-filter-heading"><strong>{priceRangeLabel(priceMin, priceMax)}</strong><button type="button" onClick={clearPriceBounds}>Limpiar</button></div><div className="dual-range"><input type="range" min={priceSlider.min} max={priceSlider.max} step={priceSlider.step} value={priceMinSliderValue} onChange={(event) => setPriceMin(Number(event.target.value))} aria-label="Precio mínimo" /><input type="range" min={priceSlider.min} max={priceSlider.max} step={priceSlider.step} value={priceMaxSliderValue} onChange={(event) => setPriceMax(Number(event.target.value))} aria-label="Precio máximo" /></div><div className="price-range-scale"><span>{priceSlider.start}</span><span>{priceSlider.middle}</span><span>{priceSlider.end}</span></div><div className="price-inputs"><label><span>Mínimo</span><input inputMode="numeric" value={priceMin ?? ""} placeholder={String(priceSlider.min)} onChange={(event) => setPriceMin(parsePriceInput(event.target.value))} /></label><label><span>Máximo</span><input inputMode="numeric" value={priceMax ?? ""} placeholder={String(priceSlider.max)} onChange={(event) => setPriceMax(parsePriceInput(event.target.value))} /></label></div></div></details>
+                            {isPrinterSearch ? <details open><summary>Disponibilidad</summary><div className="filter-actions"><button type="button" onClick={() => { setShowPreorder(true); setShowImmediate(true); resetVisibleCount(); }}>Todas</button></div><div className="filter-options"><label><input type="checkbox" checked={showImmediate} onChange={(event) => { setShowImmediate(event.target.checked); resetVisibleCount(); }} /><span>Entrega inmediata</span></label><label><input type="checkbox" checked={showPreorder} onChange={(event) => { setShowPreorder(event.target.checked); resetVisibleCount(); }} /><span>Preventa</span></label></div><p className="filament-color-note">Las preventas quedan identificadas para no compararlas como compra inmediata.</p></details> : null}
                             {isFdmPrinterSearch ? <details open><summary>Tipo</summary><div className="filter-actions"><button type="button" onClick={selectAllPrinterFrames}>Todas</button><button type="button" onClick={clearPrinterFrames}>Ninguna</button></div><div className="filter-options">{printerFrameOptions.map((frame) => <label key={frame}><input type="checkbox" checked={selectedPrinterFrames.includes(frame)} onChange={() => togglePrinterFrame(frame)} /><span>{frame}</span></label>)}</div><p className="filament-color-note">Al filtrar por tipo se muestran solo modelos detectados en esa característica.</p></details> : null}
                             {isFdmPrinterSearch ? <details><summary>Marca</summary><div className="filter-actions"><button type="button" onClick={clearPrinterBrands}>Todas</button><button type="button" onClick={() => selectAllPrinterBrands(["__none__"])}>Ninguna</button></div><div className="filter-options">{fdmBrands.map((brand) => <label key={brand}><input type="checkbox" checked={!selectedPrinterBrands.length || selectedPrinterBrands.includes(brand)} onChange={() => togglePrinterBrand(brand)} /><span>{brand}</span></label>)}</div></details> : null}
                             {isResinPrinterSearch ? <details><summary>Marca</summary><div className="filter-actions"><button type="button" onClick={selectAllResinPrinterBrands}>Todas</button><button type="button" onClick={clearResinPrinterBrands}>Ninguna</button></div><div className="filter-options">{availableResinPrinterBrands.map((brand) => <label key={brand}><input type="checkbox" checked={selectedResinPrinterBrands.includes(brand)} onChange={() => toggleResinPrinterBrand(brand)} /><span>{brand}</span></label>)}</div></details> : null}
@@ -1051,10 +1144,22 @@ export function ProductExplorer({
                               <div className="product-search-copy">
                                 <p className="product-store-line"><span>{product.store}</span><b className={`store-mode-label ${product.isOnlineOnly ? "is-online" : ""}`}>{product.storeLocationSummary}</b></p>
                                 <h3>{product.name}</h3>
+                                {product.purchaseModes.some((mode) => mode !== "Entrega inmediata") ? (
+                                  <span className="product-purchase-modes">
+                                    {product.purchaseModes.filter((mode) => mode !== "Entrega inmediata").map((mode) => (
+                                      <b
+                                        className={product.saleNoticeType === "deposit" ? "is-deposit-mode" : mode === "Preventa" ? "is-preorder-mode" : undefined}
+                                        key={mode}
+                                      >
+                                        {mode === "Preventa" ? product.saleNoticeLabel ?? product.preorderLabel ?? mode : mode}
+                                      </b>
+                                    ))}
+                                  </span>
+                                ) : null}
                                 {isFilamentSearch && product.isFilament ? <span className={`filament-color-status ${product.filamentColors.length ? "has-color" : "missing-color"}`}>{colorAvailabilityLabel(product)}</span> : null}
                                 <strong>{price.format(product.bestPrice)}</strong>
                                 <span>{product.transferPrice ? "Transferencia" : "Precio de lista"}</span>
-                                {product.stock === "Consultar" ? <b className="product-stock-warning">No disponible</b> : null}
+                                {product.saleNoticeLabel ? <b className={`product-stock-warning ${product.saleNoticeType === "deposit" ? "deposit-warning" : "preorder-warning"}`}>{product.saleNoticeLabel}</b> : product.stock === "Consultar" ? <b className="product-stock-warning">No disponible</b> : null}
                               </div>
                             </a>
                           </article>
@@ -1068,6 +1173,95 @@ export function ProductExplorer({
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section id="mapa-tiendas" className="store-map-section" aria-labelledby="store-map-title">
+        <div className="store-map-heading">
+          <div>
+            <h2 id="store-map-title">Mapa de tiendas</h2>
+            <p>Locales conectados por zona y tiendas online separadas para elegir dónde conviene comprar o retirar.</p>
+          </div>
+          <button type="button" onClick={() => { setStore("Todas"); resetVisibleCount(); document.getElementById("comparador")?.scrollIntoView({ behavior: "smooth" }); }}>
+            Ver todas las tiendas
+          </button>
+        </div>
+
+        <div className="store-map-layout">
+          <div className="store-map-panel" aria-label="Mapa de Argentina con tiendas con local">
+            <div className="store-map-controls" aria-label="Controles del mapa">
+              <button type="button" onClick={() => setStoreMapZoomLevel(storeMapZoom + 0.35)} aria-label="Acercar mapa">+</button>
+              <button type="button" onClick={() => setStoreMapZoomLevel(storeMapZoom - 0.35)} aria-label="Alejar mapa">−</button>
+              <button type="button" onClick={resetStoreMap}>Argentina</button>
+              <button type="button" onClick={() => focusStoreMap(projectArgentinaPoint({ area: "CABA", address: "AMBA" }), 2.45)}>AMBA</button>
+              <button type="button" onClick={() => focusStoreMap(projectArgentinaPoint({ area: "Córdoba", address: "Córdoba" }), 2.1)}>Córdoba</button>
+            </div>
+            <div className="store-map-viewport">
+              <div
+                className="store-map-canvas"
+                style={{
+                  transform: `scale(${storeMapZoom})`,
+                  transformOrigin: storeMapTransformOrigin,
+                }}
+              >
+                <svg className="argentina-map" viewBox="0 0 100 120" role="img" aria-label="Mapa de Argentina">
+                  <path className="argentina-mainland" d="M39 2 52 6 59 15 58 24 66 31 63 39 69 47 66 56 72 65 68 75 72 85 65 94 64 105 56 118 47 113 48 101 43 91 46 80 41 69 44 58 39 49 42 39 35 30 38 20 34 11Z" />
+                  <path className="argentina-south" d="M52 106 61 111 56 119 48 116Z" />
+                  <path className="argentina-lines" d="M39 25 58 25M36 38 63 38M42 53 66 53M44 68 70 68M46 84 68 84M47 101 63 101" />
+                  <path className="argentina-river" d="M68 52c-5 7-7 14-5 22" />
+                </svg>
+                {storeMapGuide.physicalStores.map((store) => (
+                  <button
+                    key={`${store.name}-${store.address}`}
+                    type="button"
+                    className="store-map-pin"
+                    style={{ left: `${store.point.x}%`, top: `${(store.point.y / 120) * 100}%` }}
+                    onClick={() => { focusStoreMap(store.point); selectStore(store.name); }}
+                    aria-label={`Filtrar por ${store.name}, local en ${store.area}`}
+                  >
+                    <span>{store.name}</span>
+                    <small>{store.area}</small>
+                  </button>
+                ))}
+              </div>
+            </div>
+            <div className="store-map-zoom" aria-label="Nivel de zoom">
+              <span>Zoom</span>
+              <input
+                type="range"
+                min="1"
+                max="2.8"
+                step="0.05"
+                value={storeMapZoom}
+                onChange={(event) => setStoreMapZoomLevel(Number(event.target.value))}
+              />
+            </div>
+          </div>
+
+          <aside className="store-map-list" aria-label="Tiendas online conectadas">
+            <div>
+              <h3>Locales físicos</h3>
+              <div className="store-map-store-list">
+                {storeMapGuide.physicalStores.map((store) => (
+                  <article key={`${store.name}-${store.address}`}>
+                    <button type="button" onClick={() => selectStore(store.name)}>
+                      <strong>{store.name}</strong>
+                      <span>{store.area}</span>
+                    </button>
+                    <small>{store.address}</small>
+                  </article>
+                ))}
+              </div>
+            </div>
+            <div>
+              <h3>Solo online</h3>
+              <div className="store-map-online-list">
+                {storeMapGuide.onlineStores.map((store) => (
+                  <button key={store.name} type="button" onClick={() => selectStore(store.name)}>{store.name}</button>
+                ))}
+              </div>
+            </div>
+          </aside>
         </div>
       </section>
 

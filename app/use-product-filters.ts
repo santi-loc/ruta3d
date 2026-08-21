@@ -93,6 +93,8 @@ export function useProductFilters(
   const [nearbyOnly, setNearbyOnly] = useState(false);
   const [sort, setSort] = useState<SortDirection | null>("asc");
   const [stockOnly, setStockOnly] = useState(false);
+  const [showPreorder, setShowPreorder] = useState(true);
+  const [showImmediate, setShowImmediate] = useState(true);
   const [selectedFilamentBrands, setSelectedFilamentBrands] = useState(filamentBrands);
   const [selectedFilamentMaterials, setSelectedFilamentMaterials] = useState(defaultFilamentMaterials(filamentMaterials));
   const [selectedFilamentColors, setSelectedFilamentColors] = useState<FilamentColor[]>([...filamentColorOptions]);
@@ -152,6 +154,8 @@ export function useProductFilters(
       setNearbyOnly(false);
       setSort("asc");
       setStockOnly(false);
+      setShowPreorder(true);
+      setShowImmediate(true);
       setSelectedFilamentBrands(filamentBrands);
       setSelectedFilamentMaterials(defaultFilamentMaterials(filamentMaterials));
       setSelectedFilamentColors([...filamentColorOptions]);
@@ -392,7 +396,10 @@ export function useProductFilters(
           productMatchesCategory(product, category) &&
           (store === "Todas" || product.store === store) &&
           (!nearbyOnly || nearbyStoreArea === null || product.storeLocations.some((location) => location.area === nearbyStoreArea)) &&
-          (!stockOnly || product.stock !== "Consultar")
+          (!stockOnly || product.stock !== "Consultar") &&
+          ((showPreorder && product.purchaseModes.includes("Preventa")) ||
+            (showImmediate && product.purchaseModes.includes("Entrega inmediata")) ||
+            (!product.purchaseModes.length && showImmediate))
         );
       })
       .sort((a, b) => {
@@ -429,6 +436,8 @@ export function useProductFilters(
     selectedResinTypes,
     sort,
     stockOnly,
+    showPreorder,
+    showImmediate,
     store,
     nearbyOnly,
     nearbyStoreArea,
@@ -446,6 +455,8 @@ export function useProductFilters(
     nearbyPostalCode !== "" ||
     sort !== "asc" ||
     stockOnly ||
+    !showPreorder ||
+    !showImmediate ||
     selectedFilamentBrands.length !== filamentBrands.length ||
     selectedFilamentMaterials.length !== defaultFilamentMaterials(filamentMaterials).length ||
     selectedFilamentColors.length !== filamentColorOptions.length ||
@@ -466,6 +477,8 @@ export function useProductFilters(
     setNearbyOnly(false);
     setSort("asc");
     setStockOnly(false);
+    setShowPreorder(true);
+    setShowImmediate(true);
     setSelectedFilamentBrands(filamentBrands);
     setSelectedFilamentMaterials(defaultFilamentMaterials(filamentMaterials));
     setSelectedFilamentColors([...filamentColorOptions]);
@@ -526,6 +539,8 @@ export function useProductFilters(
     setPriceMin,
     setPriceMax,
     setSort,
+    setShowImmediate,
+    setShowPreorder,
     setStockOnly,
     setStore,
     setNearbyOnly,
@@ -548,6 +563,8 @@ export function useProductFilters(
     selectResinPrinterBrand,
     selectResinType,
     sort,
+    showImmediate,
+    showPreorder,
     stockOnly,
     store,
     toggleFilamentBrand,
