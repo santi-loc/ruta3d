@@ -1,12 +1,12 @@
 {
-  "startedAt": "2026-08-19T08:08:06.899Z",
-  "refreshedAt": "2026-08-19T08:08:34.388Z",
+  "startedAt": "2026-08-22T16:22:54.930Z",
+  "refreshedAt": "2026-08-22T16:23:22.802Z",
   "status": "partial",
   "lastSuccessfulFullRefreshAt": null,
   "updatedStores": 0,
-  "staleStores": 5,
+  "staleStores": 6,
   "oldestScrapedAt": "2026-08-17T18:50:22.440Z",
-  "newestScrapedAt": "2026-08-17T18:55:55.423Z",
+  "newestScrapedAt": "2026-08-21T17:29:21.788Z",
   "stores": [
     {
       "store": "Erexit 3D",
@@ -21,6 +21,13 @@
       "reason": "exit 1",
       "count": 92,
       "scrapedAt": "2026-08-17T18:50:26.102Z"
+    },
+    {
+      "store": "Lefasoc",
+      "status": "stale",
+      "reason": "exit 1",
+      "count": 192,
+      "scrapedAt": "2026-08-21T17:29:21.788Z"
     },
     {
       "store": "TP3D",
