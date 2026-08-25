@@ -49,6 +49,11 @@ const scrapers = [
     script: "scripts/scrape-todo3dsf.mjs",
     output: "data/todo3dsf-products.json",
   },
+  {
+    name: "Trimetra 3D",
+    script: "scripts/scrape-trimetra3d.mjs",
+    output: "data/trimetra3d-products.json",
+  },
 ];
 
 const manifestPath = "data/catalog-refresh.json";

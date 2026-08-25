@@ -7,6 +7,7 @@ import laboratorioData from "@/data/laboratorio3d-products.json";
 import osirisData from "@/data/osiris3d-products.json";
 import proyectoColorData from "@/data/proyectocolor-products.json";
 import todo3dData from "@/data/todo3dsf-products.json";
+import trimetraData from "@/data/trimetra3d-products.json";
 import tp3dData from "@/data/tp3d-products.json";
 import { bestAvailablePrice, validTransferPrice } from "@/lib/pricing";
 import sourceConfig from "@/store-sources.json";
@@ -16,7 +17,7 @@ export type StockLabel = "En stock" | "Pocas unidades" | "Consultar";
 export type SortDirection = "desc" | "asc";
 export type FilamentWeightGroup = "0.25" | "0.5" | "1" | "over1";
 export type PrinterFrameType = "Abierta" | "Cerrada" | "Multicolor";
-export type StoreArea = "Córdoba" | "CABA" | "La Plata" | "Santa Fe" | "Online";
+export type StoreArea = "Córdoba" | "CABA" | "La Plata" | "Santa Fe" | "Buenos Aires" | "Online";
 export type PurchaseMode = "Preventa" | "Entrega inmediata";
 
 export type StoreLocation = {
@@ -99,6 +100,7 @@ const storeLocationsByName: Record<string, StoreLocation[]> = {
   ],
   "Osiris 3D": [{ area: "Online", address: "Tienda online" }],
   "Todo 3D": [{ area: "Santa Fe", address: "Angel Casanello 980, Santa Fe, Santa Fe", lat: -31.621, lng: -60.696 }],
+  "Trimetra 3D": [{ area: "Buenos Aires", address: "Rafaela 3724, Ciudadela, Buenos Aires", lat: -34.633, lng: -58.536 }],
 };
 
 function storeLocationsFor(store: string) {
@@ -612,6 +614,7 @@ function storeColor(store: string) {
   if (store === "Proyecto Color") return "#bf6b42";
   if (store === "Kimera 3D") return "#5874a8";
   if (store === "Lefasoc") return "#2d8c73";
+  if (store === "Trimetra 3D") return "#2d6f7f";
 
   return "#8f5aa6";
 }
@@ -851,6 +854,7 @@ const scrapedCatalogs = [
   kimeraData,
   osirisData,
   todo3dData,
+  trimetraData,
 ] as ScrapedCatalog[];
 
 const scrapedDates = scrapedCatalogs

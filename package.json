@@ -27,6 +27,8 @@
     "scrape:tp3d:sample": "TP3D_MAX_PAGES=1 node scripts/scrape-tp3d.mjs --output=data/tp3d-products.sample.json",
     "scrape:todo3dsf": "node scripts/scrape-todo3dsf.mjs",
     "scrape:todo3dsf:sample": "TODO3DSF_MAX_CATEGORY_PAGES=1 node scripts/scrape-todo3dsf.mjs --output=data/todo3dsf-products.sample.json",
+    "scrape:trimetra3d": "node scripts/scrape-trimetra3d.mjs",
+    "scrape:trimetra3d:sample": "TRIMETRA3D_MAX_PAGES=1 node scripts/scrape-trimetra3d.mjs --output=data/trimetra3d-products.sample.json",
     "scrape:proyectocolor": "node scripts/scrape-proyectocolor.mjs",
     "scrape:proyectocolor:sample": "PROYECTO_COLOR_MAX_PAGES=1 node scripts/scrape-proyectocolor.mjs --output=data/proyectocolor-products.sample.json",
     "scrape:all": "node scripts/scrape-all.mjs",

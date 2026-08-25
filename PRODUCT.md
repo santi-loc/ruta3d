@@ -27,7 +27,7 @@ The current differentiator is a single search and filtering interface powered by
 
 Users evaluate products by price in Argentine pesos, store, stock state, category, brand, material, product image, and link to the original store. Transfer price is important when available and should be prioritized as a first-class buying signal.
 
-The MVP currently connects scrapers for TP3D, Laboratorio 3D, Erexit 3D, Proyecto Color, and Kimera 3D. Scraped outputs live in `data/*-products.json`, with scraper scripts in `scripts/`.
+The MVP currently connects scrapers for TP3D, Laboratorio 3D, Erexit 3D, Proyecto Color, Kimera 3D, Osiris 3D, Todo 3D, and Trimetra 3D. Scraped outputs live in `data/*-products.json`, with scraper scripts in `scripts/`.
 
 ## Capabilities and Constraints
 

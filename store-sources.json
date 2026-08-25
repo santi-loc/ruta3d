@@ -61,5 +61,12 @@
     "baseUrl": "https://www.todo3dsf.com.ar",
     "integration": "scraper-html-products-feed",
     "priority": 9
+  },
+  {
+    "name": "Trimetra 3D",
+    "domain": "trimetra3d.com.ar",
+    "baseUrl": "https://trimetra3d.com.ar",
+    "integration": "scraper-tiendanube-html-variants",
+    "priority": 10
   }
 ]

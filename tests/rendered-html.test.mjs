@@ -11,6 +11,7 @@ const allowedProductHostsByStore = new Map([
   ["Osiris 3D", new Set(["www.osiris3d.com.ar", "d22fxaf9t8d39k.cloudfront.net"])],
   ["Proyecto Color", new Set(["proyectocolor.com.ar"])],
   ["Todo 3D", new Set(["www.todo3dsf.com.ar", "d22fxaf9t8d39k.cloudfront.net"])],
+  ["Trimetra 3D", new Set(["trimetra3d.com.ar", "www.trimetra3d.com.ar", "acdn-us.mitiendanube.com"])],
   ["TP3D", new Set(["tp3d.com.ar"])],
 ]);
 

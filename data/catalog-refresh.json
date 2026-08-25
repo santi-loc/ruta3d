@@ -1,12 +1,12 @@
 {
   "startedAt": "2026-08-22T16:22:54.930Z",
-  "refreshedAt": "2026-08-25T00:50:32.819Z",
+  "refreshedAt": "2026-08-25T01:04:25.346Z",
   "status": "partial",
   "lastSuccessfulFullRefreshAt": null,
-  "updatedStores": 3,
+  "updatedStores": 4,
   "staleStores": 6,
   "oldestScrapedAt": "2026-08-17T18:50:22.440Z",
-  "newestScrapedAt": "2026-08-25T00:50:32.819Z",
+  "newestScrapedAt": "2026-08-25T01:04:25.346Z",
   "stores": [
     {
       "store": "Erexit 3D",
@@ -67,6 +67,12 @@
       "status": "updated",
       "count": 62,
       "scrapedAt": "2026-08-25T00:50:32.819Z"
+    },
+    {
+      "store": "Trimetra 3D",
+      "status": "updated",
+      "count": 55,
+      "scrapedAt": "2026-08-25T01:04:25.346Z"
     }
   ]
 }

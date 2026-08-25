@@ -7,6 +7,7 @@ import type { FilamentWeightGroup, Product, StoreArea } from "@/lib/catalog";
 import { outboundProductUrl, outboundStoreUrl } from "@/lib/outbound-links";
 import { parseSafePositiveInteger } from "@/lib/security";
 import { Ruta3DMark } from "./ruta-3d-mark";
+import { StoreMap } from "./store-map";
 import {
   filamentWeightOptions,
   printerFrameOptions,
@@ -47,32 +48,19 @@ const storeAreaReferencePostalCodes: Record<PhysicalStoreArea, number> = {
   "CABA": 1416,
   "La Plata": 1900,
   "Córdoba": 5000,
-};
-const argentinaMapBounds = {
-  maxLat: -21,
-  maxLng: -53,
-  minLat: -55,
-  minLng: -74,
+  "Santa Fe": 3000,
+  "Buenos Aires": 1702,
 };
 const storeAreaCoordinates: Record<PhysicalStoreArea, { lat: number; lng: number }> = {
   "CABA": { lat: -34.6037, lng: -58.3816 },
   "La Plata": { lat: -34.9205, lng: -57.9536 },
   "Córdoba": { lat: -31.4201, lng: -64.1888 },
+  "Santa Fe": { lat: -31.6333, lng: -60.7000 },
+  "Buenos Aires": { lat: -34.633, lng: -58.536 },
 };
 
 function isPhysicalStoreLocation(location: Product["storeLocations"][number]): location is PhysicalStoreLocation {
   return location.area !== "Online";
-}
-
-function projectArgentinaPoint(location: PhysicalStoreLocation) {
-  const coordinates = location.lat !== undefined && location.lng !== undefined
-    ? { lat: location.lat, lng: location.lng }
-    : storeAreaCoordinates[location.area];
-
-  return {
-    x: ((coordinates.lng - argentinaMapBounds.minLng) / (argentinaMapBounds.maxLng - argentinaMapBounds.minLng)) * 100,
-    y: ((argentinaMapBounds.maxLat - coordinates.lat) / (argentinaMapBounds.maxLat - argentinaMapBounds.minLat)) * 120,
-  };
 }
 
 const fdmBrands = ["Bambu Lab", "Creality", "Elegoo", "Flashforge", "Snapmaker", "Anycubic", "Artillery", "Hellbot"];
@@ -103,6 +91,18 @@ const sparePartGroups = [
 ] as const;
 const accessorySpareParts = new Set(["camara", "luz", "cerramiento", "soporte", "multicolor", "escaner", "laser", "secador"]);
 const resinPrinterBrands = ["Anycubic", "Elegoo", "Creality", "Uniformation"];
+const printerTradeInStores = [
+  {
+    name: "TP3D",
+    area: "Córdoba",
+    note: "Tomá tu impresora usada como parte de pago para bajar el precio de una nueva.",
+  },
+  {
+    name: "Proyecto Color",
+    area: "CABA y Córdoba",
+    note: "Ofrece canje con evaluación previa para renovar equipo en sus locales.",
+  },
+] as const;
 const plaVariants = ["PLA", "PLA Flex", "PLA Silk", "PLA Art", "PLA Wood"];
 const technicalFilamentMaterials = ["ABS", "ASA", "NYLON", "PC", "PVC", "PVA", "PEBA", "PA6-GF", "PPA-CF"];
 const technicalFilamentMaterialSet = new Set(technicalFilamentMaterials);
@@ -226,8 +226,6 @@ export function ProductExplorer({
   const [selectedSpareFamily, setSelectedSpareFamily] = useState<"fdm" | "resin" | null>(null);
   const [mobileCategoryPanel, setMobileCategoryPanel] = useState<MobileCategoryPanel | null>(null);
   const [contactModal, setContactModal] = useState<ContactModal>(null);
-  const [storeMapZoom, setStoreMapZoom] = useState(1);
-  const [storeMapFocus, setStoreMapFocus] = useState({ x: 50, y: 55 });
   const [showBackToTop, setShowBackToTop] = useState(false);
   const availableResinPrinterBrands = useMemo(
     () => availableBrands(products, (product) => product.isResinPrinter, resinPrinterBrands),
@@ -359,8 +357,8 @@ export function ProductExplorer({
     nearbyOnly && !nearbyStoreArea && nearbyPostalCode ? { key: "nearby-empty", label: "Sin tiendas cerca", onRemove: () => { setNearbyOnly(false); setNearbyPostalCode(""); resetVisibleCount(); } } : null,
     sort === "desc" ? { key: "sort", label: "Mayor precio", onRemove: () => { setSort("asc"); resetVisibleCount(); } } : null,
     stockOnly ? { key: "stock", label: "Solo disponibles", onRemove: () => { setStockOnly(false); resetVisibleCount(); } } : null,
-    !showPreorder ? { key: "preorder", label: "Sin preventa", onRemove: () => { setShowPreorder(true); resetVisibleCount(); } } : null,
-    !showImmediate ? { key: "immediate", label: "Sin entrega inmediata", onRemove: () => { setShowImmediate(true); resetVisibleCount(); } } : null,
+    isPrinterSearch && !showPreorder ? { key: "preorder", label: "Sin preventa", onRemove: () => { setShowPreorder(true); resetVisibleCount(); } } : null,
+    isPrinterSearch && !showImmediate ? { key: "immediate", label: "Sin entrega inmediata", onRemove: () => { setShowImmediate(true); resetVisibleCount(); } } : null,
     selectedFilamentBrands.length !== filamentBrands.length ? { key: "filament-brands", label: `${selectedFilamentBrands.length} marcas`, onRemove: selectAllFilamentBrands } : null,
     selectedFilamentMaterials.length !== defaultFilamentMaterialCount || selectedFilamentMaterials.includes("Lápiz 3D") ? { key: "filament-materials", label: `${selectedFilamentMaterials.length} materiales`, onRemove: selectAllFilamentMaterials } : null,
     selectedFilamentColors.length !== filamentColors.length ? { key: "filament-colors", label: `${selectedFilamentColors.length} colores`, onRemove: selectAllFilamentColors } : null,
@@ -491,8 +489,9 @@ export function ProductExplorer({
           .map((location) => ({
             address: location.address,
             area: location.area,
+            lat: location.lat ?? storeAreaCoordinates[location.area].lat,
+            lng: location.lng ?? storeAreaCoordinates[location.area].lng,
             name: product.store,
-            point: projectArgentinaPoint(location),
             url: storeLinkByName.get(product.store) ?? product.url,
           }));
       });
@@ -506,16 +505,6 @@ export function ProductExplorer({
 
     return { onlineStores, physicalStores };
   }, [products, storeLinkByName, stores]);
-  const storeMapTransformOrigin = `${storeMapFocus.x}% ${(storeMapFocus.y / 120) * 100}%`;
-  const setStoreMapZoomLevel = (nextZoom: number) => setStoreMapZoom(Math.min(2.8, Math.max(1, nextZoom)));
-  const focusStoreMap = (point: { x: number; y: number }, zoom = 2.35) => {
-    setStoreMapFocus(point);
-    setStoreMapZoomLevel(zoom);
-  };
-  const resetStoreMap = () => {
-    setStoreMapFocus({ x: 50, y: 55 });
-    setStoreMapZoom(1);
-  };
   const resultsTitle = hasSearchQuery
     ? `Resultados para “${query.trim()}”`
     : `Resultados de ${category !== "Todas" ? category : nearbyOnly && nearbyStoreArea ? "tiendas cerca de tu CP" : nearbyOnly ? "otras tiendas" : store}`;
@@ -731,6 +720,7 @@ export function ProductExplorer({
           </div>
           <a href="#como-funciona" onClick={() => setIsStoreMenuOpen(false)}>Cómo funciona</a>
           <a href="#mapa-tiendas" onClick={() => setIsStoreMenuOpen(false)}>Mapa</a>
+          <a href="#canje-impresoras" onClick={() => setIsStoreMenuOpen(false)}>Canje</a>
           <a className="printer-guide-trigger" href="/que-impresora-compro" onClick={() => setIsStoreMenuOpen(false)}>¿Qué impresora compro?</a>
           <a href="#transparencia" onClick={() => setIsStoreMenuOpen(false)}>Precios y stock</a>
           <button type="button" className="nav-link-button" onClick={() => openContactModal("store")}>Sumá tu tienda</button>
@@ -784,14 +774,12 @@ export function ProductExplorer({
                     <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5" /><path d="m16 16 4.2 4.2" /></svg>
                     <input id="search" value={query} onChange={(event) => { setSelectedSparePart(null); setSelectedSpareBrand(null); setSelectedSpareFamily(null); handleQueryChange(event.target.value); }} aria-label="Buscar productos" />
                   </label>
-                  <div className="toolbar comparator-toolbar" aria-label="Orden y disponibilidad">
+                  <div className="toolbar comparator-toolbar" aria-label="Orden y ubicación">
                     <div className="segmented">
                       <button type="button" className={sort === "desc" ? "active" : ""} aria-pressed={sort === "desc"} onClick={() => { setSort("desc"); resetVisibleCount(); }}>Mayor precio</button>
                       <button type="button" className={sort === "asc" ? "active" : ""} aria-pressed={sort === "asc"} onClick={() => { setSort("asc"); resetVisibleCount(); }}>Menor precio</button>
                     </div>
                     <label className="toggle"><input type="checkbox" checked={stockOnly} onChange={(event) => { setStockOnly(event.target.checked); resetVisibleCount(); }} />Solo disponibles</label>
-                    <label className="toggle"><input type="checkbox" checked={showPreorder} onChange={(event) => { setShowPreorder(event.target.checked); resetVisibleCount(); }} />Preventa</label>
-                    <label className="toggle"><input type="checkbox" checked={showImmediate} onChange={(event) => { setShowImmediate(event.target.checked); resetVisibleCount(); }} />Entrega inmediata</label>
                     <label className="zone-filter">
                       <span>Código postal</span>
                       <input value={nearbyPostalCode} inputMode="text" autoComplete="postal-code" placeholder="Ej. X5000" onChange={(event) => setNearbyPostalCode(event.target.value)} />
@@ -1042,6 +1030,10 @@ export function ProductExplorer({
                             <div className="mobile-filter-options">
                               {printerFrameOptions.map((frame) => <button key={frame} type="button" className={selectedPrinterFrames.includes(frame) ? "selected" : ""} onClick={() => { setCategory("Impresoras FDM"); togglePrinterFrame(frame); }}>{frame}</button>)}
                             </div>
+                            <div className="mobile-filter-options">
+                              <button type="button" className={showImmediate ? "selected" : ""} onClick={() => { setCategory("Impresoras FDM"); setShowImmediate(!showImmediate); resetVisibleCount(); }}>Entrega inmediata</button>
+                              <button type="button" className={showPreorder ? "selected" : ""} onClick={() => { setCategory("Impresoras FDM"); setShowPreorder(!showPreorder); resetVisibleCount(); }}>Preventa</button>
+                            </div>
                           </details>
                           <details>
                             <summary onClick={() => { setCategory("Impresoras FDM"); clearPrinterBrands(); }}>Marcas</summary>
@@ -1107,8 +1099,7 @@ export function ProductExplorer({
                           <aside className="filament-filter-sidebar" aria-label={isPrinterSearch ? "Filtrar impresoras" : isResinMaterialSearch ? "Filtrar resinas" : "Filtrar filamentos"}>
                             <div className="filament-filter-title"><h3>Filtrar</h3><button type="button" onClick={resetFilters}>Limpiar</button></div>
                             <details open><summary>Precio</summary><div className="filter-price-range"><div className="price-filter-heading"><strong>{priceRangeLabel(priceMin, priceMax)}</strong><button type="button" onClick={clearPriceBounds}>Limpiar</button></div><div className="dual-range"><input type="range" min={priceSlider.min} max={priceSlider.max} step={priceSlider.step} value={priceMinSliderValue} onChange={(event) => setPriceMin(Number(event.target.value))} aria-label="Precio mínimo" /><input type="range" min={priceSlider.min} max={priceSlider.max} step={priceSlider.step} value={priceMaxSliderValue} onChange={(event) => setPriceMax(Number(event.target.value))} aria-label="Precio máximo" /></div><div className="price-range-scale"><span>{priceSlider.start}</span><span>{priceSlider.middle}</span><span>{priceSlider.end}</span></div><div className="price-inputs"><label><span>Mínimo</span><input inputMode="numeric" value={priceMin ?? ""} placeholder={String(priceSlider.min)} onChange={(event) => setPriceMin(parsePriceInput(event.target.value))} /></label><label><span>Máximo</span><input inputMode="numeric" value={priceMax ?? ""} placeholder={String(priceSlider.max)} onChange={(event) => setPriceMax(parsePriceInput(event.target.value))} /></label></div></div></details>
-                            {isPrinterSearch ? <details open><summary>Disponibilidad</summary><div className="filter-actions"><button type="button" onClick={() => { setShowPreorder(true); setShowImmediate(true); resetVisibleCount(); }}>Todas</button></div><div className="filter-options"><label><input type="checkbox" checked={showImmediate} onChange={(event) => { setShowImmediate(event.target.checked); resetVisibleCount(); }} /><span>Entrega inmediata</span></label><label><input type="checkbox" checked={showPreorder} onChange={(event) => { setShowPreorder(event.target.checked); resetVisibleCount(); }} /><span>Preventa</span></label></div><p className="filament-color-note">Las preventas quedan identificadas para no compararlas como compra inmediata.</p></details> : null}
-                            {isFdmPrinterSearch ? <details open><summary>Tipo</summary><div className="filter-actions"><button type="button" onClick={selectAllPrinterFrames}>Todas</button><button type="button" onClick={clearPrinterFrames}>Ninguna</button></div><div className="filter-options">{printerFrameOptions.map((frame) => <label key={frame}><input type="checkbox" checked={selectedPrinterFrames.includes(frame)} onChange={() => togglePrinterFrame(frame)} /><span>{frame}</span></label>)}</div><p className="filament-color-note">Al filtrar por tipo se muestran solo modelos detectados en esa característica.</p></details> : null}
+                            {isFdmPrinterSearch ? <details open><summary>Tipo</summary><div className="filter-actions"><button type="button" onClick={selectAllPrinterFrames}>Todas</button><button type="button" onClick={clearPrinterFrames}>Ninguna</button></div><div className="filter-options">{printerFrameOptions.map((frame) => <label key={frame}><input type="checkbox" checked={selectedPrinterFrames.includes(frame)} onChange={() => togglePrinterFrame(frame)} /><span>{frame}</span></label>)}</div><div className="filter-actions"><button type="button" onClick={() => { setShowPreorder(true); setShowImmediate(true); resetVisibleCount(); }}>Toda disponibilidad</button></div><div className="filter-options"><label><input type="checkbox" checked={showImmediate} onChange={(event) => { setShowImmediate(event.target.checked); resetVisibleCount(); }} /><span>Entrega inmediata</span></label><label><input type="checkbox" checked={showPreorder} onChange={(event) => { setShowPreorder(event.target.checked); resetVisibleCount(); }} /><span>Preventa</span></label></div><p className="filament-color-note">Al filtrar por tipo se muestran solo modelos detectados en esa característica. Las preventas quedan identificadas para no compararlas como compra inmediata.</p></details> : null}
                             {isFdmPrinterSearch ? <details><summary>Marca</summary><div className="filter-actions"><button type="button" onClick={clearPrinterBrands}>Todas</button><button type="button" onClick={() => selectAllPrinterBrands(["__none__"])}>Ninguna</button></div><div className="filter-options">{fdmBrands.map((brand) => <label key={brand}><input type="checkbox" checked={!selectedPrinterBrands.length || selectedPrinterBrands.includes(brand)} onChange={() => togglePrinterBrand(brand)} /><span>{brand}</span></label>)}</div></details> : null}
                             {isResinPrinterSearch ? <details><summary>Marca</summary><div className="filter-actions"><button type="button" onClick={selectAllResinPrinterBrands}>Todas</button><button type="button" onClick={clearResinPrinterBrands}>Ninguna</button></div><div className="filter-options">{availableResinPrinterBrands.map((brand) => <label key={brand}><input type="checkbox" checked={selectedResinPrinterBrands.includes(brand)} onChange={() => toggleResinPrinterBrand(brand)} /><span>{brand}</span></label>)}</div></details> : null}
                             {isResinMaterialSearch ? <details open><summary>Material</summary><div className="filter-actions"><button type="button" onClick={selectAllResinTypes}>Todos</button><button type="button" onClick={clearResinTypes}>Ninguno</button></div><div className="filter-options">{resinTypeOptions.map((type) => <label key={type}><input type="checkbox" checked={selectedResinTypes.includes(type)} onChange={() => toggleResinType(type)} /><span>{type}</span></label>)}</div></details> : null}
@@ -1180,7 +1171,7 @@ export function ProductExplorer({
         <div className="store-map-heading">
           <div>
             <h2 id="store-map-title">Mapa de tiendas</h2>
-            <p>Locales conectados por zona y tiendas online separadas para elegir dónde conviene comprar o retirar.</p>
+            <p>Locales conectados sobre el mapa de Argentina y tiendas online separadas para elegir dónde conviene comprar o retirar.</p>
           </div>
           <button type="button" onClick={() => { setStore("Todas"); resetVisibleCount(); document.getElementById("comparador")?.scrollIntoView({ behavior: "smooth" }); }}>
             Ver todas las tiendas
@@ -1188,55 +1179,7 @@ export function ProductExplorer({
         </div>
 
         <div className="store-map-layout">
-          <div className="store-map-panel" aria-label="Mapa de Argentina con tiendas con local">
-            <div className="store-map-controls" aria-label="Controles del mapa">
-              <button type="button" onClick={() => setStoreMapZoomLevel(storeMapZoom + 0.35)} aria-label="Acercar mapa">+</button>
-              <button type="button" onClick={() => setStoreMapZoomLevel(storeMapZoom - 0.35)} aria-label="Alejar mapa">−</button>
-              <button type="button" onClick={resetStoreMap}>Argentina</button>
-              <button type="button" onClick={() => focusStoreMap(projectArgentinaPoint({ area: "CABA", address: "AMBA" }), 2.45)}>AMBA</button>
-              <button type="button" onClick={() => focusStoreMap(projectArgentinaPoint({ area: "Córdoba", address: "Córdoba" }), 2.1)}>Córdoba</button>
-            </div>
-            <div className="store-map-viewport">
-              <div
-                className="store-map-canvas"
-                style={{
-                  transform: `scale(${storeMapZoom})`,
-                  transformOrigin: storeMapTransformOrigin,
-                }}
-              >
-                <svg className="argentina-map" viewBox="0 0 100 120" role="img" aria-label="Mapa de Argentina">
-                  <path className="argentina-mainland" d="M39 2 52 6 59 15 58 24 66 31 63 39 69 47 66 56 72 65 68 75 72 85 65 94 64 105 56 118 47 113 48 101 43 91 46 80 41 69 44 58 39 49 42 39 35 30 38 20 34 11Z" />
-                  <path className="argentina-south" d="M52 106 61 111 56 119 48 116Z" />
-                  <path className="argentina-lines" d="M39 25 58 25M36 38 63 38M42 53 66 53M44 68 70 68M46 84 68 84M47 101 63 101" />
-                  <path className="argentina-river" d="M68 52c-5 7-7 14-5 22" />
-                </svg>
-                {storeMapGuide.physicalStores.map((store) => (
-                  <button
-                    key={`${store.name}-${store.address}`}
-                    type="button"
-                    className="store-map-pin"
-                    style={{ left: `${store.point.x}%`, top: `${(store.point.y / 120) * 100}%` }}
-                    onClick={() => { focusStoreMap(store.point); selectStore(store.name); }}
-                    aria-label={`Filtrar por ${store.name}, local en ${store.area}`}
-                  >
-                    <span>{store.name}</span>
-                    <small>{store.area}</small>
-                  </button>
-                ))}
-              </div>
-            </div>
-            <div className="store-map-zoom" aria-label="Nivel de zoom">
-              <span>Zoom</span>
-              <input
-                type="range"
-                min="1"
-                max="2.8"
-                step="0.05"
-                value={storeMapZoom}
-                onChange={(event) => setStoreMapZoomLevel(Number(event.target.value))}
-              />
-            </div>
-          </div>
+          <StoreMap physicalStores={storeMapGuide.physicalStores} onSelectStore={selectStore} />
 
           <aside className="store-map-list" aria-label="Tiendas online conectadas">
             <div>
@@ -1262,6 +1205,33 @@ export function ProductExplorer({
               </div>
             </div>
           </aside>
+        </div>
+      </section>
+
+      <section id="canje-impresoras" className="trade-in-section" aria-labelledby="trade-in-title">
+        <div className="trade-in-copy">
+          <span>Renová equipo</span>
+          <h2 id="trade-in-title">Canje de impresoras 3D</h2>
+          <p>Algunas tiendas reciben tu impresora usada como parte de pago y descuentan ese valor de otra impresora. La tasación, el estado aceptado y las condiciones finales se confirman directamente con cada comercio.</p>
+        </div>
+        <div className="trade-in-stores" aria-label="Tiendas con canje de impresoras 3D">
+          {printerTradeInStores.map((tradeInStore) => (
+            <article className="trade-in-card" key={tradeInStore.name}>
+              <div>
+                <span>{tradeInStore.area}</span>
+                <h3>{tradeInStore.name}</h3>
+                <p>{tradeInStore.note}</p>
+              </div>
+              <div className="trade-in-actions">
+                <button type="button" onClick={() => { setStore(tradeInStore.name); setCategory("Impresoras FDM"); resetVisibleCount(); document.getElementById("comparador")?.scrollIntoView({ behavior: "smooth" }); }}>
+                  Ver impresoras
+                </button>
+                <a href={outboundStoreUrl({ store: tradeInStore.name, url: storeLinkByName.get(tradeInStore.name) ?? "", source: "trade-in" })} target="_blank" rel="noreferrer">
+                  Consultar canje
+                </a>
+              </div>
+            </article>
+          ))}
         </div>
       </section>
 

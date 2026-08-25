@@ -43,6 +43,10 @@ function postalCodeArea(value: string): NearbyStoreArea | null {
     return "La Plata";
   }
 
+  if ((normalized.startsWith("S") && numericCode !== null && numericCode >= 3000 && numericCode <= 3199) || (numericCode !== null && numericCode >= 3000 && numericCode <= 3199)) {
+    return "Santa Fe";
+  }
+
   return null;
 }
 
@@ -397,7 +401,8 @@ export function useProductFilters(
           (store === "Todas" || product.store === store) &&
           (!nearbyOnly || nearbyStoreArea === null || product.storeLocations.some((location) => location.area === nearbyStoreArea)) &&
           (!stockOnly || product.stock !== "Consultar") &&
-          ((showPreorder && product.purchaseModes.includes("Preventa")) ||
+          (!(product.isFdmPrinter || product.isResinPrinter) ||
+            (showPreorder && product.purchaseModes.includes("Preventa")) ||
             (showImmediate && product.purchaseModes.includes("Entrega inmediata")) ||
             (!product.purchaseModes.length && showImmediate))
         );
@@ -447,6 +452,10 @@ export function useProductFilters(
   const bestPrice = filtered.length
     ? filtered.reduce((min, product) => Math.min(min, product.bestPrice), filtered[0].bestPrice)
     : 0;
+  const hasPrinterAvailabilityContext =
+    category === "Impresoras FDM" ||
+    category === "Impresoras de Resina" ||
+    normalizeQuery(query).some((term) => term.startsWith("impresor") || term === "printer");
   const hasActiveFilters =
     query !== "" ||
     category !== "Todas" ||
@@ -455,8 +464,7 @@ export function useProductFilters(
     nearbyPostalCode !== "" ||
     sort !== "asc" ||
     stockOnly ||
-    !showPreorder ||
-    !showImmediate ||
+    (hasPrinterAvailabilityContext && (!showPreorder || !showImmediate)) ||
     selectedFilamentBrands.length !== filamentBrands.length ||
     selectedFilamentMaterials.length !== defaultFilamentMaterials(filamentMaterials).length ||
     selectedFilamentColors.length !== filamentColorOptions.length ||

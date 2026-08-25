@@ -31,8 +31,8 @@ const tradeInStores = [
   },
   {
     name: "Proyecto Color",
-    url: "https://proyectocolor.com.ar/recomendados/",
-    note: "Modelos marcados con Plan Canje en su tienda y secciones de recomendados.",
+    url: "https://proyectocolor.com.ar/beneficios/#:~:text=Plan%20Canje",
+    note: "Beneficio de Plan Canje para cotizar una impresora usada como parte de pago.",
   },
 ];
 
@@ -356,7 +356,7 @@ export function PrinterGuide({
       </section>
       <section className="guide-trade-in" aria-label="Tiendas con plan canje">
         <div>
-          <span>Plan canje</span>
+          <span>Plan Canje</span>
           <h2>Tiendas donde podés entregar tu impresora usada</h2>
         </div>
         <div className="guide-trade-in-list">

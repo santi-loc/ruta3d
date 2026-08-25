@@ -10,6 +10,7 @@ const scrapers = [
   ["Kimera 3D", "scripts/scrape-kimera3d.mjs"],
   ["Osiris 3D", "scripts/scrape-osiris3d.mjs"],
   ["Todo 3D", "scripts/scrape-todo3dsf.mjs"],
+  ["Trimetra 3D", "scripts/scrape-trimetra3d.mjs"],
 ];
 
 function runScraper([name, script]) {

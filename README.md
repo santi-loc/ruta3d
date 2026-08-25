@@ -4,7 +4,7 @@ Comparador argentino de precios para productos de impresion 3D.
 
 El MVP muestra filtros por categoria, tienda, marca, material, stock, orden por
 mejor precio disponible y links de oferta. Erexit 3D, Laboratorio 3D, TP3D,
-Proyecto Color y Kimera 3D ya tienen datos reales conectados.
+Proyecto Color, Kimera 3D, Osiris 3D, Todo 3D y Trimetra 3D ya tienen datos reales conectados.
 
 ## Comandos
 
@@ -17,6 +17,7 @@ pnpm run scrape:laboratorio3d
 pnpm run scrape:tp3d
 pnpm run scrape:proyectocolor
 pnpm run scrape:kimera3d
+pnpm run scrape:trimetra3d
 ```
 
 ## Scrapers conectados
@@ -28,6 +29,9 @@ Los scrapers estan en:
 - `scripts/scrape-tp3d.mjs`
 - `scripts/scrape-proyectocolor.mjs`
 - `scripts/scrape-kimera3d.mjs`
+- `scripts/scrape-osiris3d.mjs`
+- `scripts/scrape-todo3dsf.mjs`
+- `scripts/scrape-trimetra3d.mjs`
 
 Extraen desde sus catalogos y paginas sucesivas:
 
@@ -50,6 +54,9 @@ data/laboratorio3d-products.json
 data/tp3d-products.json
 data/proyectocolor-products.json
 data/kimera3d-products.json
+data/osiris3d-products.json
+data/todo3dsf-products.json
+data/trimetra3d-products.json
 ```
 
 Para probar solo la primera pagina:
@@ -59,6 +66,7 @@ pnpm run scrape:erexit3d:sample
 pnpm run scrape:laboratorio3d:sample
 pnpm run scrape:tp3d:sample
 pnpm run scrape:proyectocolor:sample
+pnpm run scrape:trimetra3d:sample
 ```
 
 ## Actualizacion regular

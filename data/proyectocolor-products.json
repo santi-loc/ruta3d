@@ -4,8 +4,8 @@
     "domain": "proyectocolor.com.ar",
     "baseUrl": "https://proyectocolor.com.ar"
   },
-  "scrapedAt": "2026-08-17T18:55:37.946Z",
-  "count": 1173,
+  "scrapedAt": "2026-08-22T16:29:27.732Z",
+  "count": 1169,
   "pages": [
     {
       "listing": "Impresion 3D",
@@ -207,8 +207,8 @@
       "listing": "Impresion 3D",
       "page": 29,
       "url": "https://proyectocolor.com.ar/categorias/impresion-3d/page/29/",
-      "found": 22,
-      "added": 22
+      "found": 21,
+      "added": 21
     },
     {
       "listing": "Impresion 3D",
@@ -235,8 +235,8 @@
       "listing": "Impresion 3D",
       "page": 33,
       "url": "https://proyectocolor.com.ar/categorias/impresion-3d/page/33/",
-      "found": 20,
-      "added": 20
+      "found": 21,
+      "added": 21
     },
     {
       "listing": "Impresion 3D",
@@ -354,14 +354,14 @@
       "listing": "Impresion 3D",
       "page": 50,
       "url": "https://proyectocolor.com.ar/categorias/impresion-3d/page/50/",
-      "found": 10,
-      "added": 10
+      "found": 6,
+      "added": 6
     },
     {
       "listing": "Grabadoras Laser",
       "page": 1,
       "url": "https://proyectocolor.com.ar/categorias/impresion-3d/grabadoras-laser/",
-      "found": 18,
+      "found": 15,
       "added": 0
     },
     {
@@ -455,10 +455,10 @@
       "domain": "proyectocolor.com.ar",
       "name": "GST3D Filamento Black Edition PLA+ SILK x1 Kg.",
       "category": "Filamentos",
-      "price": 14990,
+      "price": 12990,
       "currency": "ARS",
       "previousPrice": 20990,
-      "transferPrice": 14241,
+      "transferPrice": 12341,
       "stock": null,
       "stockLabel": "En stock",
       "available": true,
@@ -506,7 +506,7 @@
       "domain": "proyectocolor.com.ar",
       "name": "Bambu Lab Filamento PLA Lite x1 Kg.",
       "category": "Filamentos",
-      "price": 25029,
+      "price": 26500,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -531,7 +531,7 @@
       "domain": "proyectocolor.com.ar",
       "name": "Bambu Lab Filamento PLA Lite x1 Kg. (Recarga Sin Carretel)",
       "category": "Filamentos",
-      "price": 20809,
+      "price": 21600,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -626,6 +626,31 @@
       "variants": []
     },
     {
+      "id": "proyectocolor-139991",
+      "sourceProductId": "139991",
+      "store": "Proyecto Color",
+      "domain": "proyectocolor.com.ar",
+      "name": "Fremover Filamento PLA+ High Speed SILK x1 Kg.",
+      "category": "Filamentos",
+      "price": 14990,
+      "currency": "ARS",
+      "previousPrice": 19990,
+      "transferPrice": null,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Fremover",
+      "tags": [
+        "Fremover",
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/1-32-2-800x800.png",
+      "url": "https://proyectocolor.com.ar/productos/filamento-pla-high-speed-silk-x1kg-fremover/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/",
+      "variants": []
+    },
+    {
       "id": "proyectocolor-139595",
       "sourceProductId": "139595",
       "store": "Proyecto Color",
@@ -657,10 +682,10 @@
       "domain": "proyectocolor.com.ar",
       "name": "Bambu Lab A1 Combo",
       "category": "Impresoras",
-      "price": 1363990,
+      "price": 1464900,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 1295791,
+      "transferPrice": 1391655,
       "stock": null,
       "stockLabel": "En stock",
       "available": true,
@@ -700,81 +725,6 @@
       "variants": []
     },
     {
-      "id": "proyectocolor-202014",
-      "sourceProductId": "202014",
-      "store": "Proyecto Color",
-      "domain": "proyectocolor.com.ar",
-      "name": "GST3D Filamento PLA Silk Edición Especial Mssi x1 Kg.",
-      "category": "Filamentos",
-      "price": 20990,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 19941,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "GST3D",
-      "tags": [
-        "GST3D",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/05/ChatGPT-Image-20-may-2026-12_23_16-p.m-800x800.png",
-      "url": "https://proyectocolor.com.ar/productos/gst3d-filamento-silk-edicion-especial-gold-mssi-x1-kg/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/",
-      "variants": []
-    },
-    {
-      "id": "proyectocolor-204031",
-      "sourceProductId": "204031",
-      "store": "Proyecto Color",
-      "domain": "proyectocolor.com.ar",
-      "name": "Toolbox Filamento PETG High Speed x 1Kg.",
-      "category": "Filamentos",
-      "price": 17990,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Toolbox",
-      "tags": [
-        "Toolbox",
-        "PETG",
-        "1kg"
-      ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/05/yellow-2-800x800.png",
-      "url": "https://proyectocolor.com.ar/productos/toolbox-filamento-petg-high-speed-rollo-x-1kg/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/",
-      "variants": []
-    },
-    {
-      "id": "proyectocolor-150598",
-      "sourceProductId": "150598",
-      "store": "Proyecto Color",
-      "domain": "proyectocolor.com.ar",
-      "name": "Filanova Filamento PLA Dual Color High Speed x1 Kg.",
-      "category": "Filamentos",
-      "price": 16990,
-      "currency": "ARS",
-      "previousPrice": 20990,
-      "transferPrice": null,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Filanova",
-      "tags": [
-        "Filanova",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/07/1-22-800x800.png",
-      "url": "https://proyectocolor.com.ar/productos/filamento-pla-dual-color-high-speed-filanova-x-1kg/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/",
-      "variants": []
-    },
-    {
       "id": "proyectocolor-150564",
       "sourceProductId": "150564",
       "store": "Proyecto Color",
@@ -796,6 +746,31 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/11/1-5-800x800.png",
       "url": "https://proyectocolor.com.ar/productos/filamento-pla-silk-high-speed-filanova-x-1kg/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/",
+      "variants": []
+    },
+    {
+      "id": "proyectocolor-150598",
+      "sourceProductId": "150598",
+      "store": "Proyecto Color",
+      "domain": "proyectocolor.com.ar",
+      "name": "Filanova Filamento PLA Dual Color High Speed x1 Kg.",
+      "category": "Filamentos",
+      "price": 16990,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Filanova",
+      "tags": [
+        "Filanova",
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/07/1-22-800x800.png",
+      "url": "https://proyectocolor.com.ar/productos/filamento-pla-dual-color-high-speed-filanova-x-1kg/",
       "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/",
       "variants": []
     },
@@ -874,6 +849,31 @@
       "variants": []
     },
     {
+      "id": "proyectocolor-151298",
+      "sourceProductId": "151298",
+      "store": "Proyecto Color",
+      "domain": "proyectocolor.com.ar",
+      "name": "Fremover Filamento PLA+ Matte High Speed x1 Kg.",
+      "category": "Filamentos",
+      "price": 17990,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Fremover",
+      "tags": [
+        "Fremover",
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/PLA-High-Speed-Matte-Oats-2-800x800.png",
+      "url": "https://proyectocolor.com.ar/productos/filamento-pla-matte-high-speed-fremover-x1kg/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/",
+      "variants": []
+    },
+    {
       "id": "proyectocolor-196193",
       "sourceProductId": "196193",
       "store": "Proyecto Color",
@@ -922,55 +922,6 @@
       "variants": []
     },
     {
-      "id": "proyectocolor-116173",
-      "sourceProductId": "116173",
-      "store": "Proyecto Color",
-      "domain": "proyectocolor.com.ar",
-      "name": "Bambu Lab A1 Mini",
-      "category": "Impresoras",
-      "price": 558080,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 530176,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Bambu Lab",
-      "tags": [
-        "Bambu Lab"
-      ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/10/A1MINI_PRINCIPAL_ML-800x800.jpg",
-      "url": "https://proyectocolor.com.ar/productos/bambu-lab-a1-mini/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/",
-      "variants": []
-    },
-    {
-      "id": "proyectocolor-204955",
-      "sourceProductId": "204955",
-      "store": "Proyecto Color",
-      "domain": "proyectocolor.com.ar",
-      "name": "GST3D Cosmos Filamento PLA+ HS Matte x 1kg",
-      "category": "Filamentos",
-      "price": 19990,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "GST3D",
-      "tags": [
-        "GST3D",
-        "PLA",
-        "Toolbox",
-        "1kg"
-      ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/05/PLA-MATTE-ICE-BLUE-800x800.png",
-      "url": "https://proyectocolor.com.ar/productos/gst3d-cosmos-filamento-pla-matte-rollo-x-1kg/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/2/",
-      "variants": []
-    },
-    {
       "id": "proyectocolor-201605",
       "sourceProductId": "201605",
       "store": "Proyecto Color",
@@ -991,20 +942,20 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/06/ChatGPT-Image-22-jun-2026-04_22_39-p.m-800x800.png",
       "url": "https://proyectocolor.com.ar/productos/elemental-filamento-pla-rollo-x1-kg/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/2/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/",
       "variants": []
     },
     {
-      "id": "proyectocolor-116567",
-      "sourceProductId": "116567",
+      "id": "proyectocolor-116173",
+      "sourceProductId": "116173",
       "store": "Proyecto Color",
       "domain": "proyectocolor.com.ar",
-      "name": "Bambu Lab A1",
+      "name": "Bambu Lab A1 Mini",
       "category": "Impresoras",
-      "price": 919990,
+      "price": 578900,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 873991,
+      "transferPrice": 549955,
       "stock": null,
       "stockLabel": "En stock",
       "available": true,
@@ -1012,8 +963,8 @@
       "tags": [
         "Bambu Lab"
       ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/07/BAMBULAB_A1SOLA-800x800.jpg",
-      "url": "https://proyectocolor.com.ar/productos/bambu-lab-a1/",
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/10/A1MINI_PRINCIPAL_ML-800x800.jpg",
+      "url": "https://proyectocolor.com.ar/productos/bambu-lab-a1-mini/",
       "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/2/",
       "variants": []
     },
@@ -1043,13 +994,13 @@
       "variants": []
     },
     {
-      "id": "proyectocolor-203419",
-      "sourceProductId": "203419",
+      "id": "proyectocolor-204955",
+      "sourceProductId": "204955",
       "store": "Proyecto Color",
       "domain": "proyectocolor.com.ar",
-      "name": "GST3D LITE Filamento SILK Rollo x1 KG",
+      "name": "GST3D Cosmos Filamento PLA+ HS Matte x 1kg",
       "category": "Filamentos",
-      "price": 22190,
+      "price": 19990,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -1059,11 +1010,35 @@
       "brand": "GST3D",
       "tags": [
         "GST3D",
+        "PLA",
         "Toolbox",
         "1kg"
       ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/04/GSTLITE-SILK-GOLD-800x800.png",
-      "url": "https://proyectocolor.com.ar/productos/gst3d-lite-filamento-silk-high-speed-rollo-x1-kg/",
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/05/PLA-MATTE-ICE-BLUE-800x800.png",
+      "url": "https://proyectocolor.com.ar/productos/gst3d-cosmos-filamento-pla-matte-rollo-x-1kg/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/2/",
+      "variants": []
+    },
+    {
+      "id": "proyectocolor-116567",
+      "sourceProductId": "116567",
+      "store": "Proyecto Color",
+      "domain": "proyectocolor.com.ar",
+      "name": "Bambu Lab A1",
+      "category": "Impresoras",
+      "price": 968900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 920455,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab"
+      ],
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/07/BAMBULAB_A1SOLA-800x800.jpg",
+      "url": "https://proyectocolor.com.ar/productos/bambu-lab-a1/",
       "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/2/",
       "variants": []
     },
@@ -1094,27 +1069,27 @@
       "variants": []
     },
     {
-      "id": "proyectocolor-142006",
-      "sourceProductId": "142006",
+      "id": "proyectocolor-203419",
+      "sourceProductId": "203419",
       "store": "Proyecto Color",
       "domain": "proyectocolor.com.ar",
-      "name": "Bambu Lab Filamento PLA 1.75mm 1KG",
+      "name": "GST3D LITE Filamento SILK Rollo x1 KG",
       "category": "Filamentos",
-      "price": 33169,
+      "price": 22190,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
       "stock": null,
       "stockLabel": "En stock",
       "available": true,
-      "brand": "Bambu Lab",
+      "brand": "GST3D",
       "tags": [
-        "Bambu Lab",
-        "PLA",
+        "GST3D",
+        "Toolbox",
         "1kg"
       ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/bambu-abs-black-B00-K0-175-1000-SPL-1-800x800.png",
-      "url": "https://proyectocolor.com.ar/productos/filamento-bambulab-pla-1-75mm-1kg/",
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/04/GSTLITE-SILK-GOLD-800x800.png",
+      "url": "https://proyectocolor.com.ar/productos/gst3d-lite-filamento-silk-high-speed-rollo-x1-kg/",
       "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/2/",
       "variants": []
     },
@@ -1150,7 +1125,7 @@
       "domain": "proyectocolor.com.ar",
       "name": "GST3D Filamento PLA+ x5 metros x10 unidades (colores surtidos)",
       "category": "Filamentos",
-      "price": 4590,
+      "price": 4990,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -1201,7 +1176,7 @@
       "price": 20990,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 19941,
+      "transferPrice": 12341,
       "stock": null,
       "stockLabel": "En stock",
       "available": true,
@@ -1223,10 +1198,10 @@
       "domain": "proyectocolor.com.ar",
       "name": "Bambu Lab A1 Mini Combo",
       "category": "Impresoras",
-      "price": 986290,
+      "price": 1056900,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 936976,
+      "transferPrice": 1004055,
       "stock": null,
       "stockLabel": "En stock",
       "available": true,
@@ -1355,6 +1330,31 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/4004110076-1-800x800.jpeg",
       "url": "https://proyectocolor.com.ar/productos/ventilador-axial-fan-4010-24v-universal-creality/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/2/",
+      "variants": []
+    },
+    {
+      "id": "proyectocolor-139804",
+      "sourceProductId": "139804",
+      "store": "Proyecto Color",
+      "domain": "proyectocolor.com.ar",
+      "name": "Fremover Filamento PLA+ High Speed Glow x1 Kg.",
+      "category": "Filamentos",
+      "price": 29990,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Fremover",
+      "tags": [
+        "Fremover",
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/1-17-14-800x800.png",
+      "url": "https://proyectocolor.com.ar/productos/filamento-pla-high-speed-glow-x1kg/",
       "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/2/",
       "variants": []
     },
@@ -1495,30 +1495,6 @@
       "variants": []
     },
     {
-      "id": "proyectocolor-110897",
-      "sourceProductId": "110897",
-      "store": "Proyecto Color",
-      "domain": "proyectocolor.com.ar",
-      "name": "Bambu Lab P1S Combo",
-      "category": "Impresoras",
-      "price": 1999990,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 1899991,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Bambu Lab",
-      "tags": [
-        "Bambu Lab",
-        "combo"
-      ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/10/P1SCOMBO-800x800.jpg",
-      "url": "https://proyectocolor.com.ar/productos/bambu-lab-p1s-combo/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/2/",
-      "variants": []
-    },
-    {
       "id": "proyectocolor-179597",
       "sourceProductId": "179597",
       "store": "Proyecto Color",
@@ -1538,6 +1514,30 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/11/SNAPMAKER_U1-800x800.jpg",
       "url": "https://proyectocolor.com.ar/productos/snapmaker-u1/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/2/",
+      "variants": []
+    },
+    {
+      "id": "proyectocolor-110897",
+      "sourceProductId": "110897",
+      "store": "Proyecto Color",
+      "domain": "proyectocolor.com.ar",
+      "name": "Bambu Lab P1S Combo",
+      "category": "Impresoras",
+      "price": 2019900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 1918905,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab",
+        "combo"
+      ],
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/10/P1SCOMBO-800x800.jpg",
+      "url": "https://proyectocolor.com.ar/productos/bambu-lab-p1s-combo/",
       "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/3/",
       "variants": []
     },
@@ -1614,6 +1614,31 @@
       "variants": []
     },
     {
+      "id": "proyectocolor-210573",
+      "sourceProductId": "210573",
+      "store": "Proyecto Color",
+      "domain": "proyectocolor.com.ar",
+      "name": "Hellbot Filamento PLA Ecofila Recarga x1 KG",
+      "category": "Filamentos",
+      "price": 17990,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA",
+        "Hellbot",
+        "1kg"
+      ],
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/06/rojo-800x800.png",
+      "url": "https://proyectocolor.com.ar/productos/hellbot-filamento-pla-ecofila-recarga-x1-kg/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/3/",
+      "variants": []
+    },
+    {
       "id": "proyectocolor-193352",
       "sourceProductId": "193352",
       "store": "Proyecto Color",
@@ -1635,31 +1660,6 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/01/1-800x800.png",
       "url": "https://proyectocolor.com.ar/productos/filamento-pla-high-speed-flourecent-fremover-x1kg/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/3/",
-      "variants": []
-    },
-    {
-      "id": "proyectocolor-153953",
-      "sourceProductId": "153953",
-      "store": "Proyecto Color",
-      "domain": "proyectocolor.com.ar",
-      "name": "GST3D Filamento PLA Fluo x1 Kg.",
-      "category": "Filamentos",
-      "price": 14999,
-      "currency": "ARS",
-      "previousPrice": 17990,
-      "transferPrice": null,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "GST3D",
-      "tags": [
-        "GST3D",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/PLA_FLUOORANGE2-800x800.jpg",
-      "url": "https://proyectocolor.com.ar/productos/filamento-pla-fluo-gst3d-x-1-kg/",
       "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/3/",
       "variants": []
     },
@@ -1707,30 +1707,7 @@
         "1kg"
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/05/latte-4-800x800.png",
-      "url": "https://proyectocolor.com.ar/productos/toolbox-filamento-peba-high-speed-rollo-x-1kg-copia/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/3/",
-      "variants": []
-    },
-    {
-      "id": "proyectocolor-116475",
-      "sourceProductId": "116475",
-      "store": "Proyecto Color",
-      "domain": "proyectocolor.com.ar",
-      "name": "Flsun Pico Nozzle 0.4mm ( V400)",
-      "category": "Repuestos",
-      "price": 2610,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 2480,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Flsun",
-      "tags": [
-        "Flsun"
-      ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/221089-3-800x800.webp",
-      "url": "https://proyectocolor.com.ar/productos/pico-nozzle-flsun-v400/",
+      "url": "https://proyectocolor.com.ar/productos/toolbox-filamento-3d-asa-high-speed-x-1kg/",
       "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/3/",
       "variants": []
     },
@@ -1754,6 +1731,29 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/4007010106-1-800x800.jpg",
       "url": "https://proyectocolor.com.ar/productos/kit-de-accesorios-para-hotend-bloque-aislante-barrel-y-disipador-ender-series/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/3/",
+      "variants": []
+    },
+    {
+      "id": "proyectocolor-116475",
+      "sourceProductId": "116475",
+      "store": "Proyecto Color",
+      "domain": "proyectocolor.com.ar",
+      "name": "Flsun Pico Nozzle 0.4mm ( V400)",
+      "category": "Repuestos",
+      "price": 2610,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 2480,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Flsun",
+      "tags": [
+        "Flsun"
+      ],
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/221089-3-800x800.webp",
+      "url": "https://proyectocolor.com.ar/productos/pico-nozzle-flsun-v400/",
       "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/3/",
       "variants": []
     },
@@ -1806,6 +1806,29 @@
       "variants": []
     },
     {
+      "id": "proyectocolor-113596",
+      "sourceProductId": "113596",
+      "store": "Proyecto Color",
+      "domain": "proyectocolor.com.ar",
+      "name": "Creality Ender-3 V3 KE",
+      "category": "Impresoras",
+      "price": 511999,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Creality",
+      "tags": [
+        "Creality"
+      ],
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/04/ENDER3V3KE_PRINCIPAL_ML-800x800.jpg",
+      "url": "https://proyectocolor.com.ar/productos/creality-ender-3-v3-ke/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/3/",
+      "variants": []
+    },
+    {
       "id": "proyectocolor-79443",
       "sourceProductId": "79443",
       "store": "Proyecto Color",
@@ -1829,38 +1852,13 @@
       "variants": []
     },
     {
-      "id": "proyectocolor-210573",
-      "sourceProductId": "210573",
-      "store": "Proyecto Color",
-      "domain": "proyectocolor.com.ar",
-      "name": "Hellbot Filamento PLA Ecofila Recarga x1 KG",
-      "category": "Filamentos",
-      "price": 17990,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "PLA",
-        "Hellbot",
-        "1kg"
-      ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/06/rojo-800x800.png",
-      "url": "https://proyectocolor.com.ar/productos/hellbot-filamento-pla-ecofila-recarga-x1-kg/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/3/",
-      "variants": []
-    },
-    {
       "id": "proyectocolor-64881",
       "sourceProductId": "64881",
       "store": "Proyecto Color",
       "domain": "proyectocolor.com.ar",
       "name": "GST3D Filamento PLA+ x10 metros x10 unidades (colores surtidos)",
       "category": "Filamentos",
-      "price": 7300,
+      "price": 7990,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -1993,26 +1991,27 @@
       "variants": []
     },
     {
-      "id": "proyectocolor-111998",
-      "sourceProductId": "111998",
+      "id": "proyectocolor-139528",
+      "sourceProductId": "139528",
       "store": "Proyecto Color",
       "domain": "proyectocolor.com.ar",
-      "name": "GST3D Filamento PLA+ x5 metros x20 unidades (colores surtidos)",
+      "name": "Fremover Filamento PETG+ Fibra de Carbono High Speed x 1kg",
       "category": "Filamentos",
-      "price": 7300,
+      "price": 32990,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
       "stock": null,
       "stockLabel": "En stock",
       "available": true,
-      "brand": "GST3D",
+      "brand": "Fremover",
       "tags": [
-        "GST3D",
-        "PLA"
+        "Fremover",
+        "PETG",
+        "1kg"
       ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/ROLLITOS-5.jpg",
-      "url": "https://proyectocolor.com.ar/productos/filamento-gst3d-pla-x5-metros-x20-unidades-colores-surtidos/",
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/1-33-2-800x800.png",
+      "url": "https://proyectocolor.com.ar/productos/filamento-petg-hs-fremover-x1kg/",
       "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/3/",
       "variants": []
     },
@@ -2141,7 +2140,7 @@
       "domain": "proyectocolor.com.ar",
       "name": "Bambu Lab Filamento ABS x1 Kg.",
       "category": "Filamentos",
-      "price": 33169,
+      "price": 33600,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -2156,31 +2155,6 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/02/bambu-abs-red-B00-R0-175-1000-SPL-800x800.png",
       "url": "https://proyectocolor.com.ar/productos/filamento-bambulab-abs-1-75mm-1kg/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/4/",
-      "variants": []
-    },
-    {
-      "id": "proyectocolor-204077",
-      "sourceProductId": "204077",
-      "store": "Proyecto Color",
-      "domain": "proyectocolor.com.ar",
-      "name": "Toolbox Filamento PETG Fibra Carbono Black High Speed x1 Kg.",
-      "category": "Filamentos",
-      "price": 32590,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Toolbox",
-      "tags": [
-        "Toolbox",
-        "PETG",
-        "1kg"
-      ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/05/Carbon-fiber-black-800x800.png",
-      "url": "https://proyectocolor.com.ar/productos/toolbox-filamento-petg-fibra-de-carbono-rollo-x-1kg/",
       "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/4/",
       "variants": []
     },
@@ -2240,10 +2214,10 @@
       "domain": "proyectocolor.com.ar",
       "name": "Bambu Lab AMS Lite",
       "category": "Impresoras",
-      "price": 679990,
+      "price": 710900,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 645991,
+      "transferPrice": 675355,
       "stock": null,
       "stockLabel": "En stock",
       "available": true,
@@ -2303,6 +2277,31 @@
       "variants": []
     },
     {
+      "id": "proyectocolor-204077",
+      "sourceProductId": "204077",
+      "store": "Proyecto Color",
+      "domain": "proyectocolor.com.ar",
+      "name": "Toolbox Filamento PETG Fibra Carbono Black High Speed x1 Kg.",
+      "category": "Filamentos",
+      "price": 32590,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Toolbox",
+      "tags": [
+        "Toolbox",
+        "PETG",
+        "1kg"
+      ],
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/05/Carbon-fiber-black-800x800.png",
+      "url": "https://proyectocolor.com.ar/productos/toolbox-filamento-petg-fibra-de-carbono-rollo-x-1kg/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/4/",
+      "variants": []
+    },
+    {
       "id": "proyectocolor-113072",
       "sourceProductId": "113072",
       "store": "Proyecto Color",
@@ -2326,6 +2325,31 @@
       "variants": []
     },
     {
+      "id": "proyectocolor-145779",
+      "sourceProductId": "145779",
+      "store": "Proyecto Color",
+      "domain": "proyectocolor.com.ar",
+      "name": "Fremover Filamento PLA DARK WOOD High Speed x1kg",
+      "category": "Filamentos",
+      "price": 24990,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Fremover",
+      "tags": [
+        "Fremover",
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/WOOD-High-SpeedDark-Wood-scaled-2-800x800.png",
+      "url": "https://proyectocolor.com.ar/productos/filamento-pla-dark-wood-high-speed-fremover-x1kg-copia/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/4/",
+      "variants": []
+    },
+    {
       "id": "proyectocolor-116467",
       "sourceProductId": "116467",
       "store": "Proyecto Color",
@@ -2345,29 +2369,6 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/221034-3-800x800.webp",
       "url": "https://proyectocolor.com.ar/productos/cartucho-calefactor-resistencia-flsun-v400/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/4/",
-      "variants": []
-    },
-    {
-      "id": "proyectocolor-6843",
-      "sourceProductId": "6843",
-      "store": "Proyecto Color",
-      "domain": "proyectocolor.com.ar",
-      "name": "Creality Acople Clamp Clip para Cables / Bowden 5mm",
-      "category": "Repuestos",
-      "price": 1665,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 1582,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Creality",
-      "tags": [
-        "Creality"
-      ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/cableclamp-2.jpg",
-      "url": "https://proyectocolor.com.ar/productos/acople-clamp-clip-para-cables-bowden-5mm/",
       "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/4/",
       "variants": []
     },
@@ -2652,30 +2653,6 @@
       "variants": []
     },
     {
-      "id": "proyectocolor-131326",
-      "sourceProductId": "131326",
-      "store": "Proyecto Color",
-      "domain": "proyectocolor.com.ar",
-      "name": "Printalot Filamento PLA Silk x1 Kg.",
-      "category": "Filamentos",
-      "price": 16990,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/FSIL17510543-PLASilk-175-1k-Esmeralda-4-800x800.png",
-      "url": "https://proyectocolor.com.ar/productos/filamento-pla-silk-printalot-175mm-rollo-x-1-kg/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/5/",
-      "variants": []
-    },
-    {
       "id": "proyectocolor-113075",
       "sourceProductId": "113075",
       "store": "Proyecto Color",
@@ -2928,6 +2905,52 @@
       "variants": []
     },
     {
+      "id": "proyectocolor-142878",
+      "sourceProductId": "142878",
+      "store": "Proyecto Color",
+      "domain": "proyectocolor.com.ar",
+      "name": "Flashforge Adventurer AD5X",
+      "category": "Impresoras",
+      "price": 906900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 861555,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Flashforge",
+      "tags": [
+        "Flashforge"
+      ],
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/05/AD5X-800x800.jpg",
+      "url": "https://proyectocolor.com.ar/productos/flashforge-adventurer-ad5x/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/5/",
+      "variants": []
+    },
+    {
+      "id": "proyectocolor-114469",
+      "sourceProductId": "114469",
+      "store": "Proyecto Color",
+      "domain": "proyectocolor.com.ar",
+      "name": "Biqu Ventilador Axial Fan 3010 24V Largo 80mm Ficha XH 2.542p ()",
+      "category": "Repuestos",
+      "price": 2900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 2755,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Biqu",
+      "tags": [
+        "Biqu"
+      ],
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/3020060149-2-3-800x800.png",
+      "url": "https://proyectocolor.com.ar/productos/ventilador-axial-fan-3010-24v-largo-80mm-ficha-xh-2-542p-biqu/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/5/",
+      "variants": []
+    },
+    {
       "id": "proyectocolor-7042",
       "sourceProductId": "7042",
       "store": "Proyecto Color",
@@ -2974,6 +2997,32 @@
       "variants": []
     },
     {
+      "id": "proyectocolor-205078",
+      "sourceProductId": "205078",
+      "store": "Proyecto Color",
+      "domain": "proyectocolor.com.ar",
+      "name": "GST3D Cosmos Filamento PETG-CF HS (Fibra de Carbono) x 1Kg",
+      "category": "Filamentos",
+      "price": 32590,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "GST3D",
+      "tags": [
+        "GST3D",
+        "PETG",
+        "Toolbox",
+        "1kg"
+      ],
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/05/CARBON-FIBER-PETG-BLACK-800x800.png",
+      "url": "https://proyectocolor.com.ar/productos/gst3d-cosmos-filamento-fibra-de-carbono-rollo-x-1kg/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/5/",
+      "variants": []
+    },
+    {
       "id": "proyectocolor-7180",
       "sourceProductId": "7180",
       "store": "Proyecto Color",
@@ -3016,32 +3065,6 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/CR-6-SILICONE-COVER-1.jpeg",
       "url": "https://proyectocolor.com.ar/productos/aislante-de-silicona-para-bloque-calefactor-cr-6-se/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/5/",
-      "variants": []
-    },
-    {
-      "id": "proyectocolor-205078",
-      "sourceProductId": "205078",
-      "store": "Proyecto Color",
-      "domain": "proyectocolor.com.ar",
-      "name": "GST3D Cosmos Filamento PETG-CF HS (Fibra de Carbono) x 1Kg",
-      "category": "Filamentos",
-      "price": 32590,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "GST3D",
-      "tags": [
-        "GST3D",
-        "PETG",
-        "Toolbox",
-        "1kg"
-      ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/05/CARBON-FIBER-PETG-BLACK-800x800.png",
-      "url": "https://proyectocolor.com.ar/productos/gst3d-cosmos-filamento-fibra-de-carbono-rollo-x-1kg/",
       "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/5/",
       "variants": []
     },
@@ -3203,29 +3226,6 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/4004030006-2-800x565.webp",
       "url": "https://proyectocolor.com.ar/productos/bloque-calefactor-ender-3-max-neo-cr-10-smart-cr-6-se-cr-6-max/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/5/",
-      "variants": []
-    },
-    {
-      "id": "proyectocolor-114469",
-      "sourceProductId": "114469",
-      "store": "Proyecto Color",
-      "domain": "proyectocolor.com.ar",
-      "name": "Biqu Ventilador Axial Fan 3010 24V Largo 80mm Ficha XH 2.542p ()",
-      "category": "Repuestos",
-      "price": 2900,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 2755,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Biqu",
-      "tags": [
-        "Biqu"
-      ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/3020060149-2-3-800x800.png",
-      "url": "https://proyectocolor.com.ar/productos/ventilador-axial-fan-3010-24v-largo-80mm-ficha-xh-2-542p-biqu/",
       "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/6/",
       "variants": []
     },
@@ -3322,6 +3322,29 @@
       "variants": []
     },
     {
+      "id": "proyectocolor-6734",
+      "sourceProductId": "6734",
+      "store": "Proyecto Color",
+      "domain": "proyectocolor.com.ar",
+      "name": "Creality Barrel Chimera Heatbreak Pasante M6 para Hotend (Ender Series)",
+      "category": "Repuestos",
+      "price": 1700,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 1615,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Creality",
+      "tags": [
+        "Creality"
+      ],
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/THROAT-30020700004-2-800x800.jpg",
+      "url": "https://proyectocolor.com.ar/productos/barrel-chimera-heatbreak-pasante-m6-para-hotend-ender-series/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/6/",
+      "variants": []
+    },
+    {
       "id": "proyectocolor-144328",
       "sourceProductId": "144328",
       "store": "Proyecto Color",
@@ -3387,29 +3410,6 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/NOZZLE-27-800x800.jpg",
       "url": "https://proyectocolor.com.ar/productos/nozzle-m6-0-8mm-pico-bronce-biqu-series/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/6/",
-      "variants": []
-    },
-    {
-      "id": "proyectocolor-6734",
-      "sourceProductId": "6734",
-      "store": "Proyecto Color",
-      "domain": "proyectocolor.com.ar",
-      "name": "Creality Barrel Chimera Heatbreak Pasante M6 para Hotend (Ender Series)",
-      "category": "Repuestos",
-      "price": 1700,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 1615,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Creality",
-      "tags": [
-        "Creality"
-      ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/THROAT-30020700004-2-800x800.jpg",
-      "url": "https://proyectocolor.com.ar/productos/barrel-chimera-heatbreak-pasante-m6-para-hotend-ender-series/",
       "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/6/",
       "variants": []
     },
@@ -3581,10 +3581,10 @@
       "domain": "proyectocolor.com.ar",
       "name": "Artillery Barrel Chimera Heatbreak Pasante M6 V6 Tipo Titán ( Genius / Sidewinder)",
       "category": "Repuestos",
-      "price": 3000,
+      "price": 1900,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 2850,
+      "transferPrice": 1805,
       "stock": null,
       "stockLabel": "En stock",
       "available": true,
@@ -3617,6 +3617,30 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/OPEN-BELT-1-2-800x800.jpg",
       "url": "https://proyectocolor.com.ar/productos/correa-gt2-para-eje-x-biqu-b1/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/6/",
+      "variants": []
+    },
+    {
+      "id": "proyectocolor-204479",
+      "sourceProductId": "204479",
+      "store": "Proyecto Color",
+      "domain": "proyectocolor.com.ar",
+      "name": "Bambu Lab A1 Combo Refurbished",
+      "category": "Impresoras",
+      "price": 1180900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 1121855,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab",
+        "combo"
+      ],
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/04/BAMBULAB-A1COMBO-800x800.jpg",
+      "url": "https://proyectocolor.com.ar/productos/bambu-lab-a1-combo-refurbished/",
       "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/6/",
       "variants": []
     },
@@ -3667,16 +3691,16 @@
       "variants": []
     },
     {
-      "id": "proyectocolor-204479",
-      "sourceProductId": "204479",
+      "id": "proyectocolor-207841",
+      "sourceProductId": "207841",
       "store": "Proyecto Color",
       "domain": "proyectocolor.com.ar",
-      "name": "Bambu Lab A1 Combo Refurbished",
+      "name": "Bambu Lab A2L Combo",
       "category": "Impresoras",
-      "price": 1132110,
+      "price": 1649600,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 1075505,
+      "transferPrice": 1567120,
       "stock": null,
       "stockLabel": "En stock",
       "available": true,
@@ -3685,8 +3709,8 @@
         "Bambu Lab",
         "combo"
       ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/04/BAMBULAB-A1COMBO-800x800.jpg",
-      "url": "https://proyectocolor.com.ar/productos/bambu-lab-a1-combo-refurbished/",
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/08/Copia-de-Copia-de-Diseno-sin-titulo-800x800.jpg",
+      "url": "https://proyectocolor.com.ar/productos/bambu-lab-a2l-combo/",
       "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/6/",
       "variants": []
     },
@@ -3756,30 +3780,6 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/F-014-1-1-800x800.jpg",
       "url": "https://proyectocolor.com.ar/productos/manguera-tubo-teflon-ptfe-para-bowden-2mm-x-4-0mm-largo-7-5-mm-negra-artillery-series/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/6/",
-      "variants": []
-    },
-    {
-      "id": "proyectocolor-207841",
-      "sourceProductId": "207841",
-      "store": "Proyecto Color",
-      "domain": "proyectocolor.com.ar",
-      "name": "Bambu Lab A2L Combo",
-      "category": "Impresoras",
-      "price": 1619990,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 1538991,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Bambu Lab",
-      "tags": [
-        "Bambu Lab",
-        "combo"
-      ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/06/BAMBULAB-A2LCOMBO_1-800x800.jpg",
-      "url": "https://proyectocolor.com.ar/productos/bambu-lab-a2l-combo/",
       "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/7/",
       "variants": []
     },
@@ -4013,6 +4013,29 @@
       "variants": []
     },
     {
+      "id": "proyectocolor-123005",
+      "sourceProductId": "123005",
+      "store": "Proyecto Color",
+      "domain": "proyectocolor.com.ar",
+      "name": "Bambu Lab Palanca de corte de filamento A1 Mini, A1",
+      "category": "Filamentos",
+      "price": 6282,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 5968,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab"
+      ],
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2024/09/image-3.png",
+      "url": "https://proyectocolor.com.ar/productos/palanca-de-corte-de-filamento-bambu-lab-a1-mini-a1/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/7/",
+      "variants": []
+    },
+    {
       "id": "proyectocolor-122799",
       "sourceProductId": "122799",
       "store": "Proyecto Color",
@@ -4214,6 +4237,29 @@
       "variants": []
     },
     {
+      "id": "proyectocolor-211256",
+      "sourceProductId": "211256",
+      "store": "Proyecto Color",
+      "domain": "proyectocolor.com.ar",
+      "name": "Snapmaker Top Cover Popcap Tapa Superior U1",
+      "category": "Repuestos",
+      "price": 219000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 208050,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Snapmaker",
+      "tags": [
+        "Snapmaker"
+      ],
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/07/1-1-800x800.png",
+      "url": "https://proyectocolor.com.ar/productos/top-cover-tapa-superior-para-impresora-3d-snapmaker-u1/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/7/",
+      "variants": []
+    },
+    {
       "id": "proyectocolor-146103",
       "sourceProductId": "146103",
       "store": "Proyecto Color",
@@ -4279,53 +4325,6 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/m-033-1.jpg",
       "url": "https://proyectocolor.com.ar/productos/tornillo-allen-m3-25mm-negro-clase-10-9-artillery-series/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/7/",
-      "variants": []
-    },
-    {
-      "id": "proyectocolor-211256",
-      "sourceProductId": "211256",
-      "store": "Proyecto Color",
-      "domain": "proyectocolor.com.ar",
-      "name": "Snapmaker Top Cover Popcap Tapa Superior U1",
-      "category": "Repuestos",
-      "price": 219000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 208050,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Snapmaker",
-      "tags": [
-        "Snapmaker"
-      ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/07/1-1-800x800.png",
-      "url": "https://proyectocolor.com.ar/productos/top-cover-tapa-superior-para-impresora-3d-snapmaker-u1/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/7/",
-      "variants": []
-    },
-    {
-      "id": "proyectocolor-154982",
-      "sourceProductId": "154982",
-      "store": "Proyecto Color",
-      "domain": "proyectocolor.com.ar",
-      "name": "Bambu Lab H2S Combo",
-      "category": "Impresoras",
-      "price": 4649990,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 4417491,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Bambu Lab",
-      "tags": [
-        "Bambu Lab",
-        "combo"
-      ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/07/BAMBULAB-H2S-AMSCOMBO_1-800x800.jpg",
-      "url": "https://proyectocolor.com.ar/productos/bambu-lab-h2s-combo/",
       "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/8/",
       "variants": []
     },
@@ -4487,6 +4486,30 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/10/400400000081-13-800x800.png",
       "url": "https://proyectocolor.com.ar/productos/x3-nozzle-ender-3-v3-se-5-s1-7-spider/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/8/",
+      "variants": []
+    },
+    {
+      "id": "proyectocolor-154982",
+      "sourceProductId": "154982",
+      "store": "Proyecto Color",
+      "domain": "proyectocolor.com.ar",
+      "name": "Bambu Lab H2S Combo",
+      "category": "Impresoras",
+      "price": 4701900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 4466805,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab",
+        "combo"
+      ],
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/07/BAMBULAB-H2S-AMSCOMBO_1-800x800.jpg",
+      "url": "https://proyectocolor.com.ar/productos/bambu-lab-h2s-combo/",
       "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/8/",
       "variants": []
     },
@@ -4659,10 +4682,10 @@
       "domain": "proyectocolor.com.ar",
       "name": "TWO TREES Grabadora Láser TS1 Mini",
       "category": "Herramientas",
-      "price": 390000,
+      "price": 312000,
       "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 370500,
+      "previousPrice": 390000,
+      "transferPrice": 296400,
       "stock": null,
       "stockLabel": "En stock",
       "available": true,
@@ -4672,6 +4695,29 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/12/621600003_1-800x800.png",
       "url": "https://proyectocolor.com.ar/productos/two-trees-grabadora-laser-ts1-mini/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/8/",
+      "variants": []
+    },
+    {
+      "id": "proyectocolor-123690",
+      "sourceProductId": "123690",
+      "store": "Proyecto Color",
+      "domain": "proyectocolor.com.ar",
+      "name": "Creality Kit Clamp Acople Racor Plastico",
+      "category": "Repuestos",
+      "price": 1980,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 1881,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Creality",
+      "tags": [
+        "Creality"
+      ],
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/Creality-3D-Sermoon-Magnetic-Switch-Cable-4007010099-27398_1-3-800x800.jpg",
+      "url": "https://proyectocolor.com.ar/productos/kit-clamp-acople-creality-racor-plastico-impresora-3d/",
       "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/8/",
       "variants": []
     },
@@ -4745,6 +4791,29 @@
       "variants": []
     },
     {
+      "id": "proyectocolor-144336",
+      "sourceProductId": "144336",
+      "store": "Proyecto Color",
+      "domain": "proyectocolor.com.ar",
+      "name": "Anycubic Hotend 0.8MM - KOBRA 3",
+      "category": "Repuestos",
+      "price": 19870,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 18877,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Anycubic",
+      "tags": [
+        "Anycubic"
+      ],
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/S010258-3.jpg",
+      "url": "https://proyectocolor.com.ar/productos/quick-release-hotend-with-0-8-nozzle-kobra-3-combo/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/8/",
+      "variants": []
+    },
+    {
       "id": "proyectocolor-143367",
       "sourceProductId": "143367",
       "store": "Proyecto Color",
@@ -4810,7 +4879,31 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/F-011-2-800x800.jpg",
       "url": "https://proyectocolor.com.ar/productos/teflon-interno-ptfe-para-bowden-2mm-x-4-0mm-x27-5mm-azul-biqu-series/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/8/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/9/",
+      "variants": []
+    },
+    {
+      "id": "proyectocolor-174334",
+      "sourceProductId": "174334",
+      "store": "Proyecto Color",
+      "domain": "proyectocolor.com.ar",
+      "name": "Bambu Lab P2S Combo",
+      "category": "Impresoras",
+      "price": 3001900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 2851805,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab",
+        "combo"
+      ],
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/08/BAMBULAB-P2SCOMBO_1-800x800.jpg",
+      "url": "https://proyectocolor.com.ar/productos/bambu-lab-p2s-combo/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/9/",
       "variants": []
     },
     {
@@ -4833,7 +4926,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/FAH022-2-800x800.png",
       "url": "https://proyectocolor.com.ar/productos/funda-de-silicona-para-hotend-h2d/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/8/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/9/",
       "variants": []
     },
     {
@@ -4856,7 +4949,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/FAT007-1-800x800.webp",
       "url": "https://proyectocolor.com.ar/productos/tubo-de-teflon-ptfe-bambu-lab-a1/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/8/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/9/",
       "variants": []
     },
     {
@@ -5067,25 +5160,26 @@
       "variants": []
     },
     {
-      "id": "proyectocolor-122910",
-      "sourceProductId": "122910",
+      "id": "proyectocolor-181263",
+      "sourceProductId": "181263",
       "store": "Proyecto Color",
       "domain": "proyectocolor.com.ar",
-      "name": "Bambu Lab Ventilador de refrigeración de hotend Bambú A1 mini, A1",
-      "category": "Repuestos",
-      "price": 29610,
+      "name": "Creality K2 Combo",
+      "category": "Impresoras",
+      "price": 1275849,
       "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 28130,
+      "previousPrice": 1500999,
+      "transferPrice": null,
       "stock": null,
       "stockLabel": "En stock",
       "available": true,
-      "brand": "Bambu Lab",
+      "brand": "Creality",
       "tags": [
-        "Bambu Lab"
+        "Creality",
+        "combo"
       ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/FAF007-3-800x800.jpg",
-      "url": "https://proyectocolor.com.ar/productos/ventilador-de-refrigeracion-de-hotend-bambu-a1-mini-a1/",
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/12/K2COMBO_PRINCIPAL-800x800.jpg",
+      "url": "https://proyectocolor.com.ar/productos/creality-k2-combo/",
       "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/9/",
       "variants": []
     },
@@ -5178,6 +5272,30 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2021/09/Diseno-sin-titulo-2026-02-13T160302.232-800x800.png",
       "url": "https://proyectocolor.com.ar/productos/fin-de-carrera-endstop-switch-eje-y-con-cable-biqu-series/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/9/",
+      "variants": []
+    },
+    {
+      "id": "proyectocolor-204450",
+      "sourceProductId": "204450",
+      "store": "Proyecto Color",
+      "domain": "proyectocolor.com.ar",
+      "name": "Bambu Lab P1S Combo Refurbished",
+      "category": "Impresoras",
+      "price": 1643900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 1561705,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab",
+        "combo"
+      ],
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/10/P1SCOMBO-800x800.jpg",
+      "url": "https://proyectocolor.com.ar/productos/bambu-lab-p1s-combo-refurbished/",
       "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/9/",
       "variants": []
     },
@@ -5314,7 +5432,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/S-051-1-1-800x800.jpg",
       "url": "https://proyectocolor.com.ar/productos/cinta-adhesiva-de-acetato-1-tira-4x29cm-negro/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/9/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/10/",
       "variants": []
     },
     {
@@ -5337,7 +5455,30 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/cooling-block-cr10s-pro-1.jpg",
       "url": "https://proyectocolor.com.ar/productos/disipador-aluminio-barrel-cooling-block-cr-10s-pro-v2/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/9/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/10/",
+      "variants": []
+    },
+    {
+      "id": "proyectocolor-206899",
+      "sourceProductId": "206899",
+      "store": "Proyecto Color",
+      "domain": "proyectocolor.com.ar",
+      "name": "Bambu Lab A1 Mini Refurbished",
+      "category": "Impresoras",
+      "price": 494900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 470155,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab"
+      ],
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/10/A1MINI_PRINCIPAL_ML-800x800.jpg",
+      "url": "https://proyectocolor.com.ar/productos/bambu-lab-a1-mini-refurbished/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/10/",
       "variants": []
     },
     {
@@ -5358,30 +5499,7 @@
       "tags": [],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/Espanol-9-3-800x800.png",
       "url": "https://proyectocolor.com.ar/productos/cama-base-panda-buildplate-dual-textured-pei-184x184-mm-para-bambu-lab-a1-mini/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/9/",
-      "variants": []
-    },
-    {
-      "id": "proyectocolor-144336",
-      "sourceProductId": "144336",
-      "store": "Proyecto Color",
-      "domain": "proyectocolor.com.ar",
-      "name": "Anycubic Hotend 0.8MM - KOBRA 3",
-      "category": "Repuestos",
-      "price": 19870,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 18877,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Anycubic",
-      "tags": [
-        "Anycubic"
-      ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/S010258-3.jpg",
-      "url": "https://proyectocolor.com.ar/productos/quick-release-hotend-with-0-8-nozzle-kobra-3-combo/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/9/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/10/",
       "variants": []
     },
     {
@@ -5404,7 +5522,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/WASH3PLUS_PRINCIPAL-4-800x800.jpg",
       "url": "https://proyectocolor.com.ar/productos/anycubic-wash-cure-3-plus/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/9/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/10/",
       "variants": []
     },
     {
@@ -5429,16 +5547,39 @@
       "variants": []
     },
     {
-      "id": "proyectocolor-123690",
-      "sourceProductId": "123690",
+      "id": "proyectocolor-123015",
+      "sourceProductId": "123015",
       "store": "Proyecto Color",
       "domain": "proyectocolor.com.ar",
-      "name": "Creality Kit Clamp Acople Racor Plastico",
+      "name": "Bambu Lab Correa X (Bambu A1)",
       "category": "Repuestos",
-      "price": 1980,
+      "price": 15753,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 1881,
+      "transferPrice": 14965,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab"
+      ],
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/FAB006-3.webp",
+      "url": "https://proyectocolor.com.ar/productos/correa-x-bambu-a1/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/10/",
+      "variants": []
+    },
+    {
+      "id": "proyectocolor-113304",
+      "sourceProductId": "113304",
+      "store": "Proyecto Color",
+      "domain": "proyectocolor.com.ar",
+      "name": "Creality Kit Extrusor Full Metal Black Simple Tracción (Ender-Series / Neo-Series / CR-10)",
+      "category": "Repuestos",
+      "price": 11850,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 11258,
       "stock": null,
       "stockLabel": "En stock",
       "available": true,
@@ -5446,8 +5587,8 @@
       "tags": [
         "Creality"
       ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/Creality-3D-Sermoon-Magnetic-Switch-Cable-4007010099-27398_1-3-800x800.jpg",
-      "url": "https://proyectocolor.com.ar/productos/kit-clamp-acople-creality-racor-plastico-impresora-3d/",
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/4001020060-3-800x800.webp",
+      "url": "https://proyectocolor.com.ar/productos/kit-extrusor-creality-full-metal-black-simple-traccion-ender-series-neo-series-cr-10/",
       "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/10/",
       "variants": []
     },
@@ -5521,16 +5662,16 @@
       "variants": []
     },
     {
-      "id": "proyectocolor-123015",
-      "sourceProductId": "123015",
+      "id": "proyectocolor-123014",
+      "sourceProductId": "123014",
       "store": "Proyecto Color",
       "domain": "proyectocolor.com.ar",
-      "name": "Bambu Lab Correa X (Bambu A1)",
+      "name": "Bambu Lab Correa Y (Bambu A1)",
       "category": "Repuestos",
-      "price": 15753,
+      "price": 14310,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 14965,
+      "transferPrice": 13595,
       "stock": null,
       "stockLabel": "En stock",
       "available": true,
@@ -5538,8 +5679,8 @@
       "tags": [
         "Bambu Lab"
       ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/FAB006-3.webp",
-      "url": "https://proyectocolor.com.ar/productos/correa-x-bambu-a1/",
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/FAB007-3.webp",
+      "url": "https://proyectocolor.com.ar/productos/correa-y-bambu-a1/",
       "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/10/",
       "variants": []
     },
@@ -5563,29 +5704,6 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/201816-3-800x800.png",
       "url": "https://proyectocolor.com.ar/productos/base-metalica-de-cama-pei-flsun-v400/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/10/",
-      "variants": []
-    },
-    {
-      "id": "proyectocolor-113304",
-      "sourceProductId": "113304",
-      "store": "Proyecto Color",
-      "domain": "proyectocolor.com.ar",
-      "name": "Creality Kit Extrusor Full Metal Black Simple Tracción (Ender-Series / Neo-Series / CR-10)",
-      "category": "Repuestos",
-      "price": 11850,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 11258,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Creality",
-      "tags": [
-        "Creality"
-      ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/4001020060-3-800x800.webp",
-      "url": "https://proyectocolor.com.ar/productos/kit-extrusor-creality-full-metal-black-simple-traccion-ender-series-neo-series-cr-10/",
       "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/10/",
       "variants": []
     },
@@ -5680,25 +5798,25 @@
       "variants": []
     },
     {
-      "id": "proyectocolor-203042",
-      "sourceProductId": "203042",
+      "id": "proyectocolor-208442",
+      "sourceProductId": "208442",
       "store": "Proyecto Color",
       "domain": "proyectocolor.com.ar",
-      "name": "Flashforge Creator 5 Pro",
+      "name": "Anycubic KOBRA X",
       "category": "Impresoras",
-      "price": 2264900,
+      "price": 849000,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 2151900,
+      "transferPrice": 806550,
       "stock": null,
       "stockLabel": "En stock",
       "available": true,
-      "brand": "Flashforge",
+      "brand": "Anycubic",
       "tags": [
-        "Flashforge"
+        "Anycubic"
       ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/04/Creator-5-pro-800x800.png",
-      "url": "https://proyectocolor.com.ar/productos/flashforge-creator-5-pro/",
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/08/ANYCUBIC-KOBRAX_1-800x800.png",
+      "url": "https://proyectocolor.com.ar/productos/impresora-3d-anycubic-kobra-x/",
       "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/10/",
       "variants": []
     },
@@ -5743,29 +5861,6 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/2102012843-2.webp",
       "url": "https://proyectocolor.com.ar/productos/correa-creality-eje-x-ender-3-v3-se/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/10/",
-      "variants": []
-    },
-    {
-      "id": "proyectocolor-123014",
-      "sourceProductId": "123014",
-      "store": "Proyecto Color",
-      "domain": "proyectocolor.com.ar",
-      "name": "Bambu Lab Correa Y (Bambu A1)",
-      "category": "Repuestos",
-      "price": 14310,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 13595,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Bambu Lab",
-      "tags": [
-        "Bambu Lab"
-      ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/FAB007-3.webp",
-      "url": "https://proyectocolor.com.ar/productos/correa-y-bambu-a1/",
       "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/10/",
       "variants": []
     },
@@ -5862,26 +5957,26 @@
       "variants": []
     },
     {
-      "id": "proyectocolor-208442",
-      "sourceProductId": "208442",
+      "id": "proyectocolor-145146",
+      "sourceProductId": "145146",
       "store": "Proyecto Color",
       "domain": "proyectocolor.com.ar",
-      "name": "Anycubic KOBRA X",
-      "category": "Impresoras",
-      "price": 849000,
+      "name": "Placa TH – Bambu Lab A1",
+      "category": "Repuestos",
+      "price": 35811,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 806550,
+      "transferPrice": 34020,
       "stock": null,
       "stockLabel": "En stock",
       "available": true,
-      "brand": "Anycubic",
+      "brand": null,
       "tags": [
-        "Anycubic"
+        "Bambu Lab"
       ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/08/ANYCUBIC-KOBRAX_1-800x800.png",
-      "url": "https://proyectocolor.com.ar/productos/impresora-3d-anycubic-kobra-x/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/10/",
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/06/Diseno-sin-titulo-2026-03-09T122608.885-800x800.jpg",
+      "url": "https://proyectocolor.com.ar/productos/placa-th-bambu-lab-a1/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/11/",
       "variants": []
     },
     {
@@ -5904,7 +5999,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/main-image-1-8-800x800.jpeg",
       "url": "https://proyectocolor.com.ar/productos/ventilador-4010-axial-fan-ender-3-max-neo/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/10/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/11/",
       "variants": []
     },
     {
@@ -5927,7 +6022,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/3103020114-3-800x800.jpg",
       "url": "https://proyectocolor.com.ar/productos/termistor-de-hotend-creality-ender-3-s1-pro-cr-10-smart-pro/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/10/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/11/",
       "variants": []
     },
     {
@@ -5950,7 +6045,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/4004110083-3.jpg",
       "url": "https://proyectocolor.com.ar/productos/ventilador-fan-4020-24v-cr-series-sermoon-d1/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/10/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/11/",
       "variants": []
     },
     {
@@ -5977,25 +6072,25 @@
       "variants": []
     },
     {
-      "id": "proyectocolor-74521",
-      "sourceProductId": "74521",
+      "id": "proyectocolor-110856",
+      "sourceProductId": "110856",
       "store": "Proyecto Color",
       "domain": "proyectocolor.com.ar",
-      "name": "Artillery Conector de Aviación Bowden GX16-8 con Acoples Hornet",
+      "name": "Bambu Lab Embudo de Alimentación AMS",
       "category": "Repuestos",
-      "price": 40365,
+      "price": 26982,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 38347,
+      "transferPrice": 25633,
       "stock": null,
       "stockLabel": "En stock",
       "available": true,
-      "brand": "Artillery",
+      "brand": "Bambu Lab",
       "tags": [
-        "Artillery"
+        "Bambu Lab"
       ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/Y-060_1-1-800x800.jpg",
-      "url": "https://proyectocolor.com.ar/productos/conector-de-aviacion-bowden-gx16-8-con-acoples-artillery-hornet/",
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/SA001-F2H-3-800x800.png",
+      "url": "https://proyectocolor.com.ar/productos/embudo-de-alimentacion-bambu-lab-ams/",
       "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/11/",
       "variants": []
     },
@@ -6159,6 +6254,29 @@
       "variants": []
     },
     {
+      "id": "proyectocolor-7043",
+      "sourceProductId": "7043",
+      "store": "Proyecto Color",
+      "domain": "proyectocolor.com.ar",
+      "name": "Creality Motherboard Ender v4.3.1 32bit (Silenciosa TMC2208) (Ender-6)",
+      "category": "Repuestos",
+      "price": 56450,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 53628,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Creality",
+      "tags": [
+        "Creality"
+      ],
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/Creality-3D-Ender-6-Mainboard-2001040030-25742-1-800x800.jpg",
+      "url": "https://proyectocolor.com.ar/productos/motherboard-ender-v4-3-1-32bit-silenciosa-tmc2208-ender-6/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/11/",
+      "variants": []
+    },
+    {
       "id": "proyectocolor-6345",
       "sourceProductId": "6345",
       "store": "Proyecto Color",
@@ -6178,6 +6296,29 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/display-1.jpg",
       "url": "https://proyectocolor.com.ar/productos/display-pantalla-lcd-solo-pantalla-ender-3/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/11/",
+      "variants": []
+    },
+    {
+      "id": "proyectocolor-207838",
+      "sourceProductId": "207838",
+      "store": "Proyecto Color",
+      "domain": "proyectocolor.com.ar",
+      "name": "Bambu Lab A2L",
+      "category": "Impresoras",
+      "price": 1236500,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 1174675,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab"
+      ],
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/06/BAMBULAB-A2L-ESTANDAR_1-800x800.jpg",
+      "url": "https://proyectocolor.com.ar/productos/bambu-lab-a2l/",
       "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/11/",
       "variants": []
     },
@@ -6225,29 +6366,6 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/04/Diseno-sin-titulo-2026-04-14T150222.978-1-800x800.png",
       "url": "https://proyectocolor.com.ar/productos/conector-de-tubo-ptfe-bambu-lab/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/11/",
-      "variants": []
-    },
-    {
-      "id": "proyectocolor-145146",
-      "sourceProductId": "145146",
-      "store": "Proyecto Color",
-      "domain": "proyectocolor.com.ar",
-      "name": "Placa TH – Bambu Lab A1",
-      "category": "Repuestos",
-      "price": 35811,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 34020,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "Bambu Lab"
-      ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/06/Diseno-sin-titulo-2026-03-09T122608.885-800x800.jpg",
-      "url": "https://proyectocolor.com.ar/productos/placa-th-bambu-lab-a1/",
       "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/11/",
       "variants": []
     },
@@ -6410,7 +6528,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/4004090040-1-800x800.jpg",
       "url": "https://proyectocolor.com.ar/productos/base-cama-de-cristal-vidrio-carborundum-370x377mm-ender-5-plus/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/11/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/12/",
       "variants": []
     },
     {
@@ -6433,7 +6551,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/NOZZLE-CR-X-4-800x800.jpg",
       "url": "https://proyectocolor.com.ar/productos/nozzle-1-0mm-pico-bronce-cr-x-pro/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/11/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/12/",
       "variants": []
     },
     {
@@ -6456,7 +6574,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/S-003-5-1-800x800.jpg",
       "url": "https://proyectocolor.com.ar/productos/correa-gt2-abierta-x75-cm-artillery-series/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/11/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/12/",
       "variants": []
     },
     {
@@ -6479,30 +6597,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/WSR000064-1-800x800.jpg",
       "url": "https://proyectocolor.com.ar/productos/disipador-aluminio-plateado-v1-0-biqu-series/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/11/",
-      "variants": []
-    },
-    {
-      "id": "proyectocolor-7043",
-      "sourceProductId": "7043",
-      "store": "Proyecto Color",
-      "domain": "proyectocolor.com.ar",
-      "name": "Creality Motherboard Ender v4.3.1 32bit (Silenciosa TMC2208) (Ender-6)",
-      "category": "Repuestos",
-      "price": 56450,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 53628,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Creality",
-      "tags": [
-        "Creality"
-      ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/Creality-3D-Ender-6-Mainboard-2001040030-25742-1-800x800.jpg",
-      "url": "https://proyectocolor.com.ar/productos/motherboard-ender-v4-3-1-32bit-silenciosa-tmc2208-ender-6/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/11/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/12/",
       "variants": []
     },
     {
@@ -6571,6 +6666,29 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/05/FAH061-800x800.png",
       "url": "https://proyectocolor.com.ar/productos/hotend-con-boquilla-de-acero-endurecido-0-6-mm-h2d-h2s-p2s-h2c-x2d/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/12/",
+      "variants": []
+    },
+    {
+      "id": "proyectocolor-204385",
+      "sourceProductId": "204385",
+      "store": "Proyecto Color",
+      "domain": "proyectocolor.com.ar",
+      "name": "Bambu Lab A1 Refurbished",
+      "category": "Impresoras",
+      "price": 768900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 730455,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab"
+      ],
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/07/BAMBULAB_A1SOLA-800x800.jpg",
+      "url": "https://proyectocolor.com.ar/productos/bambu-lab-a1-refurbished/",
       "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/12/",
       "variants": []
     },
@@ -6778,29 +6896,6 @@
       "variants": []
     },
     {
-      "id": "proyectocolor-110856",
-      "sourceProductId": "110856",
-      "store": "Proyecto Color",
-      "domain": "proyectocolor.com.ar",
-      "name": "Bambu Lab Embudo de Alimentación AMS",
-      "category": "Repuestos",
-      "price": 26982,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 25633,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Bambu Lab",
-      "tags": [
-        "Bambu Lab"
-      ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/SA001-F2H-3-800x800.png",
-      "url": "https://proyectocolor.com.ar/productos/embudo-de-alimentacion-bambu-lab-ams/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/12/",
-      "variants": []
-    },
-    {
       "id": "proyectocolor-7230",
       "sourceProductId": "7230",
       "store": "Proyecto Color",
@@ -6957,7 +7052,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/FAB008-3.webp",
       "url": "https://proyectocolor.com.ar/productos/correa-z-bambu-a1/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/12/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/13/",
       "variants": []
     },
     {
@@ -6967,10 +7062,10 @@
       "domain": "proyectocolor.com.ar",
       "name": "Bambu Lab Tapa frontal de Hotend (Bambú A1 mini, A1)",
       "category": "Repuestos",
-      "price": 9450,
+      "price": 10590,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 8978,
+      "transferPrice": 10061,
       "stock": null,
       "stockLabel": "En stock",
       "available": true,
@@ -6980,7 +7075,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/FAE012-3-800x800.jpeg",
       "url": "https://proyectocolor.com.ar/productos/tapa-frontal-de-hotend-bambu-a1-mini-a1/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/12/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/13/",
       "variants": []
     },
     {
@@ -7003,7 +7098,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/SAA022-3-800x800.png",
       "url": "https://proyectocolor.com.ar/productos/embudo-de-filamento-ams-lite-izquierdo/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/12/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/13/",
       "variants": []
     },
     {
@@ -7026,7 +7121,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/221072-3-800x800.webp",
       "url": "https://proyectocolor.com.ar/productos/fuente-de-alimentacion-flsun-v400/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/12/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/13/",
       "variants": []
     },
     {
@@ -7145,6 +7240,29 @@
       "variants": []
     },
     {
+      "id": "proyectocolor-6769",
+      "sourceProductId": "6769",
+      "store": "Proyecto Color",
+      "domain": "proyectocolor.com.ar",
+      "name": "Biqu Cable de Electronica Principal (-B1)",
+      "category": "Repuestos",
+      "price": 5382,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 5113,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Biqu",
+      "tags": [
+        "Biqu"
+      ],
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/biqu-b1-wires-scaled-1-1-800x800.jpg",
+      "url": "https://proyectocolor.com.ar/productos/cable-de-electronica-principal-biqu-b1/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/13/",
+      "variants": []
+    },
+    {
       "id": "proyectocolor-211654",
       "sourceProductId": "211654",
       "store": "Proyecto Color",
@@ -7164,29 +7282,6 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/07/1-2-800x800.png",
       "url": "https://proyectocolor.com.ar/productos/mini-bomba-de-vacio-recargable-multiuso-pack-de-bolsas/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/13/",
-      "variants": []
-    },
-    {
-      "id": "proyectocolor-207838",
-      "sourceProductId": "207838",
-      "store": "Proyecto Color",
-      "domain": "proyectocolor.com.ar",
-      "name": "Bambu Lab A2L",
-      "category": "Impresoras",
-      "price": 1205990,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 1145691,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Bambu Lab",
-      "tags": [
-        "Bambu Lab"
-      ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/06/BAMBULAB-A2L-ESTANDAR_1-800x800.jpg",
-      "url": "https://proyectocolor.com.ar/productos/bambu-lab-a2l/",
       "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/13/",
       "variants": []
     },
@@ -7280,29 +7375,6 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/05/S010234-9-800x800.png",
       "url": "https://proyectocolor.com.ar/productos/lamina-pei-flexible-de-acero-para-anycubic-kobra-3-combo/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/13/",
-      "variants": []
-    },
-    {
-      "id": "proyectocolor-123005",
-      "sourceProductId": "123005",
-      "store": "Proyecto Color",
-      "domain": "proyectocolor.com.ar",
-      "name": "Bambu Lab Palanca de corte de filamento A1 Mini, A1",
-      "category": "Filamentos",
-      "price": 6282,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 5968,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Bambu Lab",
-      "tags": [
-        "Bambu Lab"
-      ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2024/09/image-3.png",
-      "url": "https://proyectocolor.com.ar/productos/palanca-de-corte-de-filamento-bambu-lab-a1-mini-a1/",
       "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/13/",
       "variants": []
     },
@@ -7468,6 +7540,29 @@
       "variants": []
     },
     {
+      "id": "proyectocolor-74052",
+      "sourceProductId": "74052",
+      "store": "Proyecto Color",
+      "domain": "proyectocolor.com.ar",
+      "name": "Biqu Kit Extrusor Full Metal Negro ( B1 SE)",
+      "category": "Repuestos",
+      "price": 21582,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 20503,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Biqu",
+      "tags": [
+        "Biqu"
+      ],
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/UUU001861-1.jpg",
+      "url": "https://proyectocolor.com.ar/productos/kit-extrusor-full-metal-negro-biqu/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/13/",
+      "variants": []
+    },
+    {
       "id": "proyectocolor-74026",
       "sourceProductId": "74026",
       "store": "Proyecto Color",
@@ -7487,7 +7582,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2022/04/Puerto-800x800.png",
       "url": "https://proyectocolor.com.ar/productos/cable-usb-a-usb-c-largo-100cm-negro-biqu/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/13/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/14/",
       "variants": []
     },
     {
@@ -7510,7 +7605,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/XFS000175-1-800x800.jpg",
       "url": "https://proyectocolor.com.ar/productos/fan-turbina-turbo-ph2-0-3510-24v-silencioso-ruleman-largo-110mm-biqu-bx/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/13/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/14/",
       "variants": []
     },
     {
@@ -7533,7 +7628,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/WTJ000100-1-800x800.jpg",
       "url": "https://proyectocolor.com.ar/productos/motor-negro-17hs4401s-0-9-grados-biqu-bx/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/13/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/14/",
       "variants": []
     },
     {
@@ -7556,7 +7651,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/6002050018-1-800x800.jpg",
       "url": "https://proyectocolor.com.ar/productos/kit-display-touch-ender-3/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/13/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/14/",
       "variants": []
     },
     {
@@ -7721,29 +7816,6 @@
       "variants": []
     },
     {
-      "id": "proyectocolor-6769",
-      "sourceProductId": "6769",
-      "store": "Proyecto Color",
-      "domain": "proyectocolor.com.ar",
-      "name": "Biqu Cable de Electronica Principal (-B1)",
-      "category": "Repuestos",
-      "price": 5382,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 5113,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Biqu",
-      "tags": [
-        "Biqu"
-      ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/biqu-b1-wires-scaled-1-1-800x800.jpg",
-      "url": "https://proyectocolor.com.ar/productos/cable-de-electronica-principal-biqu-b1/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/14/",
-      "variants": []
-    },
-    {
       "id": "proyectocolor-203482",
       "sourceProductId": "203482",
       "store": "Proyecto Color",
@@ -7815,25 +7887,26 @@
       "variants": []
     },
     {
-      "id": "proyectocolor-175753",
-      "sourceProductId": "175753",
+      "id": "proyectocolor-181275",
+      "sourceProductId": "181275",
       "store": "Proyecto Color",
       "domain": "proyectocolor.com.ar",
-      "name": "Flsun KIT HOTEND T1 PRO",
-      "category": "Repuestos",
-      "price": 38790,
+      "name": "Creality K2 PRO Combo",
+      "category": "Impresoras",
+      "price": 1889399,
       "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 36851,
+      "previousPrice": 2009999,
+      "transferPrice": 1799629,
       "stock": null,
       "stockLabel": "En stock",
       "available": true,
-      "brand": "Flsun",
+      "brand": "Creality",
       "tags": [
-        "Flsun"
+        "Creality",
+        "combo"
       ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/10/ESPIRAL14-11-800x800.png",
-      "url": "https://proyectocolor.com.ar/productos/kit-hotend-flsun-t1-pro/",
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/12/K2PROCOMBO_PRINCIPAL-800x800.jpg",
+      "url": "https://proyectocolor.com.ar/productos/creality-k2-pro-combo/",
       "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/14/",
       "variants": []
     },
@@ -8064,7 +8137,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/3103010078-1-3.jpg",
       "url": "https://proyectocolor.com.ar/productos/resistencia-cartucho-calefactor-creality-ender-3-s1/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/14/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/15/",
       "variants": []
     },
     {
@@ -8087,7 +8160,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/3205040089_2-2-800x800.jpg",
       "url": "https://proyectocolor.com.ar/productos/disipador-aluminio-creality-ender-3-v2-neo/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/14/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/15/",
       "variants": []
     },
     {
@@ -8110,7 +8183,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/201606_1-3-800x800.jpg",
       "url": "https://proyectocolor.com.ar/productos/fuente-de-alimentacion-flsun-q5/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/14/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/15/",
       "variants": []
     },
     {
@@ -8133,29 +8206,6 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/Z-057_jpg-1-800x800.jpg",
       "url": "https://proyectocolor.com.ar/productos/cable-plano-awm-ffc-30p-20624-artillery-sidewinder-x2/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/15/",
-      "variants": []
-    },
-    {
-      "id": "proyectocolor-74052",
-      "sourceProductId": "74052",
-      "store": "Proyecto Color",
-      "domain": "proyectocolor.com.ar",
-      "name": "Biqu Kit Extrusor Full Metal Negro ( B1 SE)",
-      "category": "Repuestos",
-      "price": 21582,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 20503,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Biqu",
-      "tags": [
-        "Biqu"
-      ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/UUU001861-1.jpg",
-      "url": "https://proyectocolor.com.ar/productos/kit-extrusor-full-metal-negro-biqu/",
       "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/15/",
       "variants": []
     },
@@ -8342,29 +8392,6 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/6004130003-1-800x800.jpg",
       "url": "https://proyectocolor.com.ar/productos/z-axis-screw-rod-kit-ender-6/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/15/",
-      "variants": []
-    },
-    {
-      "id": "proyectocolor-7088",
-      "sourceProductId": "7088",
-      "store": "Proyecto Color",
-      "domain": "proyectocolor.com.ar",
-      "name": "Biqu Placa adaptadora BTT B1 Box V1.0",
-      "category": "Repuestos",
-      "price": 21582,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 20503,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Biqu",
-      "tags": [
-        "Biqu"
-      ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/ZZB000388-1-800x800.jpg",
-      "url": "https://proyectocolor.com.ar/productos/placa-adaptadora-btt-b1-box-v1-0/",
       "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/15/",
       "variants": []
     },
@@ -8593,6 +8620,29 @@
       "variants": []
     },
     {
+      "id": "proyectocolor-145365",
+      "sourceProductId": "145365",
+      "store": "Proyecto Color",
+      "domain": "proyectocolor.com.ar",
+      "name": "Bambu Lab Fuente de Alimentación – A1 Mini",
+      "category": "Repuestos",
+      "price": 75330,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 71564,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab"
+      ],
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/FAC031-3-800x800.webp",
+      "url": "https://proyectocolor.com.ar/productos/fuente-de-alimentacion-bambu-lab-a1-mini/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/15/",
+      "variants": []
+    },
+    {
       "id": "proyectocolor-145306",
       "sourceProductId": "145306",
       "store": "Proyecto Color",
@@ -8635,7 +8685,30 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/SAA017-3.png",
       "url": "https://proyectocolor.com.ar/productos/motor-de-alimentador-ams-feeder-motor-components/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/15/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/16/",
+      "variants": []
+    },
+    {
+      "id": "proyectocolor-144733",
+      "sourceProductId": "144733",
+      "store": "Proyecto Color",
+      "domain": "proyectocolor.com.ar",
+      "name": "Placa principal AMS - Mainboard Bambu Lab",
+      "category": "Repuestos",
+      "price": 66582,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 63253,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Bambu Lab"
+      ],
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/06/Diseno-sin-titulo-2026-03-09T132355.150-800x800.jpg",
+      "url": "https://proyectocolor.com.ar/productos/ams-mainboard-sistema-ams-bambu-lab/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/16/",
       "variants": []
     },
     {
@@ -8656,7 +8729,7 @@
       "tags": [],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/J-224_1-3-800x800.jpg",
       "url": "https://proyectocolor.com.ar/productos/bloque-calentador-de-laton-artillery-series/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/15/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/16/",
       "variants": []
     },
     {
@@ -8840,29 +8913,6 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/CAB004-3-800x800.png",
       "url": "https://proyectocolor.com.ar/productos/bambu-hub-cable-bus-6pin-x1-series-p1p/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/16/",
-      "variants": []
-    },
-    {
-      "id": "proyectocolor-110854",
-      "sourceProductId": "110854",
-      "store": "Proyecto Color",
-      "domain": "proyectocolor.com.ar",
-      "name": "Bambu Lab Buffer de Filamentos - (X1 Carbon / P1P)",
-      "category": "Filamentos",
-      "price": 58410,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 55490,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Bambu Lab",
-      "tags": [
-        "Bambu Lab"
-      ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/SA003-3.webp",
-      "url": "https://proyectocolor.com.ar/productos/buffer-de-filamentos-x1-carbon-p1p/",
       "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/16/",
       "variants": []
     },
@@ -9144,6 +9194,30 @@
       "variants": []
     },
     {
+      "id": "proyectocolor-196032",
+      "sourceProductId": "196032",
+      "store": "Proyecto Color",
+      "domain": "proyectocolor.com.ar",
+      "name": "Creality SparkX i7 Color Combo",
+      "category": "Impresoras",
+      "price": 1081099,
+      "currency": "ARS",
+      "previousPrice": 1137999,
+      "transferPrice": null,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Creality",
+      "tags": [
+        "Creality",
+        "combo"
+      ],
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/02/CREALITYSPARKXI7COMBO.png",
+      "url": "https://proyectocolor.com.ar/productos/creality-sparkx-i7-color-combo/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/17/",
+      "variants": []
+    },
+    {
       "id": "proyectocolor-175758",
       "sourceProductId": "175758",
       "store": "Proyecto Color",
@@ -9163,7 +9237,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/10/ESPIRAL14-12-800x800.png",
       "url": "https://proyectocolor.com.ar/productos/sensor-de-filamento-flsun-t1/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/16/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/17/",
       "variants": []
     },
     {
@@ -9186,7 +9260,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/10/ESPIRAL14-10-800x800.png",
       "url": "https://proyectocolor.com.ar/productos/silicona-hotend-flsun-s1-pro/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/16/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/17/",
       "variants": []
     },
     {
@@ -9279,52 +9353,6 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/06/Diseno-sin-titulo-81-800x800.png",
       "url": "https://proyectocolor.com.ar/productos/placa-th-v9-con-laser-dual-rojo-bambu-lab-x1c/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/17/",
-      "variants": []
-    },
-    {
-      "id": "proyectocolor-145365",
-      "sourceProductId": "145365",
-      "store": "Proyecto Color",
-      "domain": "proyectocolor.com.ar",
-      "name": "Bambu Lab Fuente de Alimentación – A1 Mini",
-      "category": "Repuestos",
-      "price": 75330,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 71564,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Bambu Lab",
-      "tags": [
-        "Bambu Lab"
-      ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/FAC031-3-800x800.webp",
-      "url": "https://proyectocolor.com.ar/productos/fuente-de-alimentacion-bambu-lab-a1-mini/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/17/",
-      "variants": []
-    },
-    {
-      "id": "proyectocolor-144733",
-      "sourceProductId": "144733",
-      "store": "Proyecto Color",
-      "domain": "proyectocolor.com.ar",
-      "name": "Placa principal AMS - Mainboard Bambu Lab",
-      "category": "Repuestos",
-      "price": 58383,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 55464,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "Bambu Lab"
-      ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/06/Diseno-sin-titulo-2026-03-09T132355.150-800x800.jpg",
-      "url": "https://proyectocolor.com.ar/productos/ams-mainboard-sistema-ams-bambu-lab/",
       "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/17/",
       "variants": []
     },
@@ -9441,29 +9469,6 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/MLA1941838810-3.jpg",
       "url": "https://proyectocolor.com.ar/productos/resitencia-cartucho-calefactor-impresora-3d-24v-creality/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/17/",
-      "variants": []
-    },
-    {
-      "id": "proyectocolor-123035",
-      "sourceProductId": "123035",
-      "store": "Proyecto Color",
-      "domain": "proyectocolor.com.ar",
-      "name": "Bambu Lab Cable AMS Lite de 4 pines",
-      "category": "Repuestos",
-      "price": 21501,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 20426,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Bambu Lab",
-      "tags": [
-        "Bambu Lab"
-      ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/CAB018-3-800x800.png",
-      "url": "https://proyectocolor.com.ar/productos/cable-ams-lite-de-4-pines/",
       "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/17/",
       "variants": []
     },
@@ -10248,6 +10253,29 @@
       "variants": []
     },
     {
+      "id": "proyectocolor-206039",
+      "sourceProductId": "206039",
+      "store": "Proyecto Color",
+      "domain": "proyectocolor.com.ar",
+      "name": "Bambu Lab Tarjeta MicroSD de 32GB Universal",
+      "category": "Repuestos",
+      "price": 21276,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 20212,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab"
+      ],
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/05/FAZ015-800x800.png",
+      "url": "https://proyectocolor.com.ar/productos/tarjeta-microsd-de-32gb-universal/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/18/",
+      "variants": []
+    },
+    {
       "id": "proyectocolor-199528",
       "sourceProductId": "199528",
       "store": "Proyecto Color",
@@ -10286,7 +10314,54 @@
       "tags": [],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/02/5209023995781-800x800.png",
       "url": "https://proyectocolor.com.ar/productos/barrel-b1-se-plus-d727-m6-biqu/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/18/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/19/",
+      "variants": []
+    },
+    {
+      "id": "proyectocolor-195009",
+      "sourceProductId": "195009",
+      "store": "Proyecto Color",
+      "domain": "proyectocolor.com.ar",
+      "name": "Xtool F2 – Grabadora Láser Dual Portátil",
+      "category": "Herramientas",
+      "price": 4655000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 4422250,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Laser"
+      ],
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/01/1-3-800x800.png",
+      "url": "https://proyectocolor.com.ar/productos/xtool-f2-grabadora-laser-dual-portatil/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/19/",
+      "variants": []
+    },
+    {
+      "id": "proyectocolor-182212",
+      "sourceProductId": "182212",
+      "store": "Proyecto Color",
+      "domain": "proyectocolor.com.ar",
+      "name": "Creality Falcon2 Pro S- 40W",
+      "category": "Herramientas",
+      "price": 2795399,
+      "currency": "ARS",
+      "previousPrice": 3105999,
+      "transferPrice": null,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Creality",
+      "tags": [
+        "Creality",
+        "Laser"
+      ],
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/falcon-pro-22-w-1-15-800x800.png",
+      "url": "https://proyectocolor.com.ar/productos/creality-falcon2-pro-s-40w/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/19/",
       "variants": []
     },
     {
@@ -10518,6 +10593,29 @@
       "variants": []
     },
     {
+      "id": "proyectocolor-145154",
+      "sourceProductId": "145154",
+      "store": "Proyecto Color",
+      "domain": "proyectocolor.com.ar",
+      "name": "Bambu Lab Cubierta Frontal de Unidad de Extrusión – A1 / A1 Mini",
+      "category": "Repuestos",
+      "price": 14382,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 13663,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab"
+      ],
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/FAE019-2.png",
+      "url": "https://proyectocolor.com.ar/productos/cubierta-frontal-de-unidad-de-extrusion-bambu-lab-a1-a1-mini/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/19/",
+      "variants": []
+    },
+    {
       "id": "proyectocolor-145122",
       "sourceProductId": "145122",
       "store": "Proyecto Color",
@@ -10733,10 +10831,10 @@
       "domain": "proyectocolor.com.ar",
       "name": "Creality VENTILADOR AXIAL COOLER FAN 3510 CONECTOR 2 PINES",
       "category": "Repuestos",
-      "price": 5850,
+      "price": 4900,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 5558,
+      "transferPrice": 4655,
       "stock": null,
       "stockLabel": "En stock",
       "available": true,
@@ -10769,7 +10867,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/3205010294-2.jpg",
       "url": "https://proyectocolor.com.ar/productos/cooler-blower-fan-sermoon-d3/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/19/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/20/",
       "variants": []
     },
     {
@@ -10792,7 +10890,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/3103020139-1-800x800.jpg",
       "url": "https://proyectocolor.com.ar/productos/termistor-creality-ender-3-max-neo/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/19/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/20/",
       "variants": []
     },
     {
@@ -10815,7 +10913,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/4004090097-3-800x726.webp",
       "url": "https://proyectocolor.com.ar/productos/cama-magnetica-pei-creality-sermoon-d3/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/19/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/20/",
       "variants": []
     },
     {
@@ -10838,7 +10936,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/4004110045-3-800x800.webp",
       "url": "https://proyectocolor.com.ar/productos/ventilador-creality-4020-blower-fan-cr-5-pro-h-y-halot-mage/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/19/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/20/",
       "variants": []
     },
     {
@@ -11214,10 +11312,10 @@
       "domain": "proyectocolor.com.ar",
       "name": "Biqu Placa Adaptadora HDMI BTT-BX ( BX)",
       "category": "Repuestos",
-      "price": 8568,
+      "price": 7110,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 8140,
+      "transferPrice": 6755,
       "stock": null,
       "stockLabel": "En stock",
       "available": true,
@@ -11296,7 +11394,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/WEB-ZZB000481-2-800x800.jpg",
       "url": "https://proyectocolor.com.ar/productos/display-btt-tft70-bx-v2-0-biqu-bx/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/20/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/21/",
       "variants": []
     },
     {
@@ -11319,7 +11417,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/6001010012-1-800x800.jpg",
       "url": "https://proyectocolor.com.ar/productos/motherboard-sla-32bit-ld-002h/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/20/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/21/",
       "variants": []
     },
     {
@@ -11342,7 +11440,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/60041300051-1-800x800.jpg",
       "url": "https://proyectocolor.com.ar/productos/varilla-tornillo-thsl-t8-de-ejes-con-rosca-365mm-ender-3-pro/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/20/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/21/",
       "variants": []
     },
     {
@@ -11365,7 +11463,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/6004010196-1-800x800.jpg",
       "url": "https://proyectocolor.com.ar/productos/soporte-para-fin-de-carrera-eje-x-ender-3-3-pro/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/20/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/21/",
       "variants": []
     },
     {
@@ -11554,29 +11652,6 @@
       "variants": []
     },
     {
-      "id": "proyectocolor-206036",
-      "sourceProductId": "206036",
-      "store": "Proyecto Color",
-      "domain": "proyectocolor.com.ar",
-      "name": "Bambu Lab Adaptador II PTFE 4 en 1 AMS / AMS 2 Pro / H2 Series",
-      "category": "Repuestos",
-      "price": 34182,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 32473,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Bambu Lab",
-      "tags": [
-        "Bambu Lab"
-      ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/05/SA014-800x800.png",
-      "url": "https://proyectocolor.com.ar/productos/adaptador-ii-ptfe-4-en-1-ams-ams-2-pro-h2-series/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/21/",
-      "variants": []
-    },
-    {
       "id": "proyectocolor-205066",
       "sourceProductId": "205066",
       "store": "Proyecto Color",
@@ -11602,16 +11677,40 @@
       "variants": []
     },
     {
+      "id": "proyectocolor-204425",
+      "sourceProductId": "204425",
+      "store": "Proyecto Color",
+      "domain": "proyectocolor.com.ar",
+      "name": "Bambu Lab A1 Mini Combo Refurbished",
+      "category": "Impresoras",
+      "price": 952900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 905255,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab",
+        "combo"
+      ],
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/10/A1MINI_PRINCIPALML-800x800.jpg",
+      "url": "https://proyectocolor.com.ar/productos/bambu-lab-a1-mini-combo-refurbished/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/21/",
+      "variants": []
+    },
+    {
       "id": "proyectocolor-202338",
       "sourceProductId": "202338",
       "store": "Proyecto Color",
       "domain": "proyectocolor.com.ar",
       "name": "Bambu Lab Impresora 3D X2D Doble Hotend Multicolor AMS",
       "category": "Impresoras",
-      "price": 3552990,
+      "price": 3717900,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 3375341,
+      "transferPrice": 3532005,
       "stock": null,
       "stockLabel": "En stock",
       "available": true,
@@ -11669,49 +11768,25 @@
       "variants": []
     },
     {
-      "id": "proyectocolor-196032",
-      "sourceProductId": "196032",
+      "id": "proyectocolor-196516",
+      "sourceProductId": "196516",
       "store": "Proyecto Color",
       "domain": "proyectocolor.com.ar",
-      "name": "Creality SparkX i7 Color Combo",
+      "name": "Bambu Lab AMS HT - Sistema Automático de Materiales",
       "category": "Impresoras",
-      "price": 1081099,
-      "currency": "ARS",
-      "previousPrice": 1137999,
-      "transferPrice": null,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Creality",
-      "tags": [
-        "Creality",
-        "combo"
-      ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/02/CREALITYSPARKXI7COMBO.png",
-      "url": "https://proyectocolor.com.ar/productos/creality-sparkx-i7-color-combo/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/21/",
-      "variants": []
-    },
-    {
-      "id": "proyectocolor-195009",
-      "sourceProductId": "195009",
-      "store": "Proyecto Color",
-      "domain": "proyectocolor.com.ar",
-      "name": "Xtool F2 – Grabadora Láser Dual Portátil",
-      "category": "Herramientas",
-      "price": 4410000,
+      "price": 546900,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 4189500,
+      "transferPrice": 519555,
       "stock": null,
       "stockLabel": "En stock",
       "available": true,
-      "brand": null,
+      "brand": "Bambu Lab",
       "tags": [
-        "Laser"
+        "Bambu Lab"
       ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/01/1-3-800x800.png",
-      "url": "https://proyectocolor.com.ar/productos/xtool-f2-grabadora-laser-dual-portatil/",
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/02/2-2-1-800x800.png",
+      "url": "https://proyectocolor.com.ar/productos/bambu-lab-ams-ht-sistema-automatico-de-materiales/",
       "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/21/",
       "variants": []
     },
@@ -11722,10 +11797,10 @@
       "domain": "proyectocolor.com.ar",
       "name": "Bambu Lab H2C Combo AMS",
       "category": "Impresoras",
-      "price": 7999990,
+      "price": 7959900,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 7599991,
+      "transferPrice": 7561905,
       "stock": null,
       "stockLabel": "En stock",
       "available": true,
@@ -11736,30 +11811,6 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/05/H2C-sin-el-HT-800x800.jpg",
       "url": "https://proyectocolor.com.ar/productos/bambu-lab-h2c-combo/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/21/",
-      "variants": []
-    },
-    {
-      "id": "proyectocolor-178830",
-      "sourceProductId": "178830",
-      "store": "Proyecto Color",
-      "domain": "proyectocolor.com.ar",
-      "name": "Creality Falcon A1 PRO",
-      "category": "Herramientas",
-      "price": 2095999,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Creality",
-      "tags": [
-        "Creality",
-        "Laser"
-      ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/11/FALCONA1PRO_PRINCIPAL-800x800.jpg",
-      "url": "https://proyectocolor.com.ar/productos/creality-falcon-a1-pro/",
       "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/21/",
       "variants": []
     },
@@ -11896,7 +11947,7 @@
       "tags": [],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/10/400400000081-9-800x800.png",
       "url": "https://proyectocolor.com.ar/productos/kit-x5-nozzle-m6-pico-bronce-todas-las-medidas-serie-ender/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/21/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/22/",
       "variants": []
     },
     {
@@ -11919,7 +11970,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/08/Diseno-sin-titulo-41-800x800.png",
       "url": "https://proyectocolor.com.ar/productos/heat-bed-nozzle-wiper-limpiador-de-boquilla-compatible-con-anycubic-kobra-3-serie-kobra-3/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/21/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/22/",
       "variants": []
     },
     {
@@ -12103,29 +12154,6 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/FAE013-3-800x800.webp",
       "url": "https://proyectocolor.com.ar/productos/bloque-de-cabezal-de-herramienta-bambu-lab-serie-a1/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/22/",
-      "variants": []
-    },
-    {
-      "id": "proyectocolor-145154",
-      "sourceProductId": "145154",
-      "store": "Proyecto Color",
-      "domain": "proyectocolor.com.ar",
-      "name": "Bambu Lab Cubierta Frontal de Unidad de Extrusión – A1 / A1 Mini",
-      "category": "Repuestos",
-      "price": 14382,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 13663,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Bambu Lab",
-      "tags": [
-        "Bambu Lab"
-      ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/FAE019-2.png",
-      "url": "https://proyectocolor.com.ar/productos/cubierta-frontal-de-unidad-de-extrusion-bambu-lab-a1-a1-mini/",
       "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/22/",
       "variants": []
     },
@@ -12469,7 +12497,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/SAA007-6-800x800.webp",
       "url": "https://proyectocolor.com.ar/productos/unidad-de-alimentacion-bambu-lab-ams-lite-1-y-2-izquierda/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/22/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/23/",
       "variants": []
     },
     {
@@ -12792,29 +12820,6 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/S-042-1-800x800.jpg",
       "url": "https://proyectocolor.com.ar/productos/cubierta-de-plastico-para-hotend-e3d-azul-genius-pro/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/23/",
-      "variants": []
-    },
-    {
-      "id": "proyectocolor-81009",
-      "sourceProductId": "81009",
-      "store": "Proyecto Color",
-      "domain": "proyectocolor.com.ar",
-      "name": "Artillery Rodamiento con Brida F685ZZ ()",
-      "category": "Repuestos",
-      "price": 3450,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 3278,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Artillery",
-      "tags": [
-        "Artillery"
-      ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/C-013-1-800x800.jpg",
-      "url": "https://proyectocolor.com.ar/productos/rodamiento-con-brida-f685zz-artillery/",
       "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/23/",
       "variants": []
     },
@@ -13371,6 +13376,29 @@
       "variants": []
     },
     {
+      "id": "proyectocolor-212952",
+      "sourceProductId": "212952",
+      "store": "Proyecto Color",
+      "domain": "proyectocolor.com.ar",
+      "name": "Creality Motor Redondo del Extrusor K2 Plus",
+      "category": "Repuestos",
+      "price": 44784,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 42545,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Creality",
+      "tags": [
+        "Creality"
+      ],
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/07/4004100081-800x800.jpg",
+      "url": "https://proyectocolor.com.ar/productos/motor-redondo-del-extrusor-creality-k2-plus/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/24/",
+      "variants": []
+    },
+    {
       "id": "proyectocolor-212940",
       "sourceProductId": "212940",
       "store": "Proyecto Color",
@@ -13421,10 +13449,10 @@
       "domain": "proyectocolor.com.ar",
       "name": "Bambu Lab H2S Combo Showroom",
       "category": "Impresoras",
-      "price": 3487493,
+      "price": 4231710,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 3313118,
+      "transferPrice": 4020125,
       "stock": null,
       "stockLabel": "En stock",
       "available": true,
@@ -13571,7 +13599,7 @@
       "tags": [],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/03/1-14-800x800.jpg",
       "url": "https://proyectocolor.com.ar/productos/kit-sensor-de-fin-de-filamento-snapmaker-u1/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/24/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/25/",
       "variants": []
     },
     {
@@ -13636,6 +13664,29 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/03/Diseno-sin-titulo-2026-03-10T113131.564-800x800.jpg",
       "url": "https://proyectocolor.com.ar/productos/correa-eje-x-ender-3-max-neo-gt2-creality/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/25/",
+      "variants": []
+    },
+    {
+      "id": "proyectocolor-199405",
+      "sourceProductId": "199405",
+      "store": "Proyecto Color",
+      "domain": "proyectocolor.com.ar",
+      "name": "Creality NOZZLE LATON/ACERO ENDURECIDO KIT X 10 - K1/K1 MAX/V3-KE",
+      "category": "Repuestos",
+      "price": 29500,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 28025,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Creality",
+      "tags": [
+        "Creality"
+      ],
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/4004020070-2.webp",
+      "url": "https://proyectocolor.com.ar/productos/nozzle-laton-acero-endurecido-kit-x-10-k1-k1-max-v3-ke/",
       "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/25/",
       "variants": []
     },
@@ -13753,26 +13804,25 @@
       "variants": []
     },
     {
-      "id": "proyectocolor-182212",
-      "sourceProductId": "182212",
+      "id": "proyectocolor-182216",
+      "sourceProductId": "182216",
       "store": "Proyecto Color",
       "domain": "proyectocolor.com.ar",
-      "name": "Creality Falcon2 Pro S- 40W",
-      "category": "Herramientas",
-      "price": 2795399,
+      "name": "Creality K2",
+      "category": "Impresoras",
+      "price": 1190000,
       "currency": "ARS",
-      "previousPrice": 3105999,
+      "previousPrice": null,
       "transferPrice": null,
       "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Creality",
       "tags": [
-        "Creality",
-        "Laser"
+        "Creality"
       ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/falcon-pro-22-w-1-15-800x800.png",
-      "url": "https://proyectocolor.com.ar/productos/creality-falcon2-pro-s-40w/",
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/12/K2-800x800.jpg",
+      "url": "https://proyectocolor.com.ar/productos/creality-k2/",
       "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/25/",
       "variants": []
     },
@@ -14095,7 +14145,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/4004010244-3-800x800.png",
       "url": "https://proyectocolor.com.ar/productos/kit-de-puerta-frontal-creality-k1-max/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/25/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/26/",
       "variants": []
     },
     {
@@ -14118,7 +14168,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/06/9900001036-2-1-800x800.png",
       "url": "https://proyectocolor.com.ar/productos/camara-de-monitoreo-bambu-lab-serie-p1/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/25/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/26/",
       "variants": []
     },
     {
@@ -14648,7 +14698,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/3103010107-2-800x733.webp",
       "url": "https://proyectocolor.com.ar/productos/cartucho-tubo-calefactor-creality-ender-5-s1/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/26/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/27/",
       "variants": []
     },
     {
@@ -14671,7 +14721,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/3205010319-2-800x800.webp",
       "url": "https://proyectocolor.com.ar/productos/ventilador-4020-blower-fan-r-m4-creality/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/26/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/27/",
       "variants": []
     },
     {
@@ -15198,7 +15248,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/4004090065-3-800x707.jpg",
       "url": "https://proyectocolor.com.ar/productos/cama-de-vidrio-cristal-carborundum-creality-310x315x4mm-cr-10-smart/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/27/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/28/",
       "variants": []
     },
     {
@@ -15221,7 +15271,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/4004050018-3-800x800.jpg",
       "url": "https://proyectocolor.com.ar/productos/barrel-chimera-de-aleacion-de-titanio-ender-3-s1-s1-plus-s1-pro-cr-10-smart-pro-sermoon-v1-pro/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/27/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/28/",
       "variants": []
     },
     {
@@ -15728,7 +15778,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/7-1-2-800x800.jpg",
       "url": "https://proyectocolor.com.ar/productos/kit-nozzle-hotend-con-boquilla-bloque-termistor-y-difusor-cr-3040-5060/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/28/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/29/",
       "variants": []
     },
     {
@@ -15751,7 +15801,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/2002040046-1-800x800.jpg",
       "url": "https://proyectocolor.com.ar/productos/motherboard-cr-v2-2-32bit-silenciosa-cr-x-pro/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/28/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/29/",
       "variants": []
     },
     {
@@ -16106,10 +16156,10 @@
       "domain": "proyectocolor.com.ar",
       "name": "Bambu Lab H2S Full Combo Laser",
       "category": "Herramientas",
-      "price": 6799990,
+      "price": 6873900,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 6459991,
+      "transferPrice": 6530205,
       "stock": null,
       "stockLabel": "En stock",
       "available": true,
@@ -16121,30 +16171,6 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/07/BAMBULAB-H2S-FULLCOMBO_1-800x800.jpg",
       "url": "https://proyectocolor.com.ar/productos/bambu-lab-h2s-full-combo-laser/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/29/",
-      "variants": []
-    },
-    {
-      "id": "proyectocolor-213687",
-      "sourceProductId": "213687",
-      "store": "Proyecto Color",
-      "domain": "proyectocolor.com.ar",
-      "name": "Creality K2 SE COMBO SHOWROOM",
-      "category": "Impresoras",
-      "price": 1044899,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Creality",
-      "tags": [
-        "Creality",
-        "combo"
-      ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/02/CREALITYK2SECOMBO_1-800x800.png",
-      "url": "https://proyectocolor.com.ar/productos/creality-k2-se-combo-showroom/",
       "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/29/",
       "variants": []
     },
@@ -16238,7 +16264,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/07/Mingda-BC-KK.AA_.080-01-Hotend-Assembly-1-800x800.png",
       "url": "https://proyectocolor.com.ar/productos/hotend-de-aleacion-de-cobre-mingda-ad-f4/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/29/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/30/",
       "variants": []
     },
     {
@@ -16261,7 +16287,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/07/BC-DZ.PC_.095-01-1-800x800.png",
       "url": "https://proyectocolor.com.ar/productos/placa-led-de-advertencia-mingda-ad-f4/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/29/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/30/",
       "variants": []
     },
     {
@@ -16702,39 +16728,16 @@
       "variants": []
     },
     {
-      "id": "proyectocolor-212952",
-      "sourceProductId": "212952",
-      "store": "Proyecto Color",
-      "domain": "proyectocolor.com.ar",
-      "name": "Creality Motor Redondo del Extrusor K2 Plus",
-      "category": "Repuestos",
-      "price": 44784,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 42545,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Creality",
-      "tags": [
-        "Creality"
-      ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/07/4004100081-800x800.jpg",
-      "url": "https://proyectocolor.com.ar/productos/motor-redondo-del-extrusor-creality-k2-plus/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/30/",
-      "variants": []
-    },
-    {
       "id": "proyectocolor-212950",
       "sourceProductId": "212950",
       "store": "Proyecto Color",
       "domain": "proyectocolor.com.ar",
       "name": "Biqu Placa BTT 2 en 1 V1.0",
       "category": "Repuestos",
-      "price": 9830,
+      "price": 8390,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 9339,
+      "transferPrice": 7971,
       "stock": null,
       "stockLabel": "En stock",
       "available": true,
@@ -16813,7 +16816,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/woocommerce-placeholder.png",
       "url": "https://proyectocolor.com.ar/productos/motor-eje-z-anycubic-kobra-2-neo/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/30/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/31/",
       "variants": []
     },
     {
@@ -17283,10 +17286,10 @@
       "domain": "proyectocolor.com.ar",
       "name": "Bambu Lab H2S Full Combo Showroom",
       "category": "Impresoras",
-      "price": 6119991,
+      "price": 6186510,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 4521993,
+      "transferPrice": 5877185,
       "stock": null,
       "stockLabel": "En stock",
       "available": true,
@@ -17364,7 +17367,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/07/Extruder-motherboard-800x800.png",
       "url": "https://proyectocolor.com.ar/productos/placa-madre-del-extrusor-dowell-ds10-16/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/31/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/32/",
       "variants": []
     },
     {
@@ -17916,7 +17919,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/07/Left-Blower-Fan-Assembly-Creality-Hi-2102013603-800x800.png",
       "url": "https://proyectocolor.com.ar/productos/ventilador-fan-de-capa-izquierdo-creality-hi/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/32/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/33/",
       "variants": []
     },
     {
@@ -17966,25 +17969,26 @@
       "variants": []
     },
     {
-      "id": "proyectocolor-210773",
-      "sourceProductId": "210773",
+      "id": "proyectocolor-210784",
+      "sourceProductId": "210784",
       "store": "Proyecto Color",
       "domain": "proyectocolor.com.ar",
-      "name": "TWO TREES CNC Máquina Fresadora TTC 450 Pro Showroom",
-      "category": "Herramientas",
-      "price": 1150000,
+      "name": "Bambu Lab P1S Combo Showroom",
+      "category": "Impresoras",
+      "price": 1999990,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 983250,
+      "transferPrice": 1899991,
       "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
       "tags": [
-        "Laser"
+        "Bambu Lab",
+        "combo"
       ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/06/620202025_1-1-800x800.png",
-      "url": "https://proyectocolor.com.ar/productos/two-trees-cnc-maquina-fresadora-ttc-450-pro-showroom/",
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/06/P1SCOMBO-2-800x800.jpg",
+      "url": "https://proyectocolor.com.ar/productos/bambu-lab-p1s-combo-showroom/",
       "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/33/",
       "variants": []
     },
@@ -19617,29 +19621,6 @@
       "variants": []
     },
     {
-      "id": "proyectocolor-206039",
-      "sourceProductId": "206039",
-      "store": "Proyecto Color",
-      "domain": "proyectocolor.com.ar",
-      "name": "Bambu Lab Tarjeta MicroSD de 32GB Universal",
-      "category": "Repuestos",
-      "price": 21276,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 20212,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Bambu Lab",
-      "tags": [
-        "Bambu Lab"
-      ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/05/FAZ015-800x800.png",
-      "url": "https://proyectocolor.com.ar/productos/tarjeta-microsd-de-32gb-universal/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/36/",
-      "variants": []
-    },
-    {
       "id": "proyectocolor-206038",
       "sourceProductId": "206038",
       "store": "Proyecto Color",
@@ -19682,52 +19663,6 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/05/Bambu-Lab-800x800.jpg",
       "url": "https://proyectocolor.com.ar/productos/cable-usb-c-bambu-lab-a1-mini/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/36/",
-      "variants": []
-    },
-    {
-      "id": "proyectocolor-203039",
-      "sourceProductId": "203039",
-      "store": "Proyecto Color",
-      "domain": "proyectocolor.com.ar",
-      "name": "Flashforge Creator 5",
-      "category": "Impresoras",
-      "price": 2032900,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 1931900,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Flashforge",
-      "tags": [
-        "Flashforge"
-      ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/04/Creator-5-800x800.png",
-      "url": "https://proyectocolor.com.ar/productos/flashforge-creator-5/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/36/",
-      "variants": []
-    },
-    {
-      "id": "proyectocolor-203033",
-      "sourceProductId": "203033",
-      "store": "Proyecto Color",
-      "domain": "proyectocolor.com.ar",
-      "name": "Dowell DS10-20",
-      "category": "Impresoras",
-      "price": 12990000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 12340500,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Dowell",
-      "tags": [
-        "Dowell"
-      ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/04/SAA061-8-800x800.jpg",
-      "url": "https://proyectocolor.com.ar/productos/dowell-ds10-20/",
       "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/36/",
       "variants": []
     },
@@ -19948,29 +19883,6 @@
       "variants": []
     },
     {
-      "id": "proyectocolor-199405",
-      "sourceProductId": "199405",
-      "store": "Proyecto Color",
-      "domain": "proyectocolor.com.ar",
-      "name": "Creality NOZZLE LATON/ACERO ENDURECIDO KIT X 10 - K1/K1 MAX/V3-KE",
-      "category": "Repuestos",
-      "price": 29500,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 28025,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Creality",
-      "tags": [
-        "Creality"
-      ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/4004020070-2.webp",
-      "url": "https://proyectocolor.com.ar/productos/nozzle-laton-acero-endurecido-kit-x-10-k1-k1-max-v3-ke/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/36/",
-      "variants": []
-    },
-    {
       "id": "proyectocolor-199400",
       "sourceProductId": "199400",
       "store": "Proyecto Color",
@@ -19988,29 +19900,6 @@
       "tags": [],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/03/Diseno-sin-titulo-2026-03-10T091308.850-800x800.png",
       "url": "https://proyectocolor.com.ar/productos/motor-nema-17-42-48-k1-max/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/36/",
-      "variants": []
-    },
-    {
-      "id": "proyectocolor-198348",
-      "sourceProductId": "198348",
-      "store": "Proyecto Color",
-      "domain": "proyectocolor.com.ar",
-      "name": "Xtool F2 Ultra UV Deluxe Bundle – Grabadora Láser UV",
-      "category": "Herramientas",
-      "price": 14550000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 13822500,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "Laser"
-      ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/02/1-10-800x800.png",
-      "url": "https://proyectocolor.com.ar/productos/xtool-f2-ultra-uv-deluxe-bundle-grabadora-laser-uv/",
       "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/36/",
       "variants": []
     },
@@ -20035,7 +19924,30 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/02/CREALITYK2SECOMBO_1-800x800.png",
       "url": "https://proyectocolor.com.ar/productos/creality-k2-se-combo/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/37/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/36/",
+      "variants": []
+    },
+    {
+      "id": "proyectocolor-196876",
+      "sourceProductId": "196876",
+      "store": "Proyecto Color",
+      "domain": "proyectocolor.com.ar",
+      "name": "Bambu Lab AMS 2 PRO Sistema Automático de Materiales",
+      "category": "Impresoras",
+      "price": 1297900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 1233005,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab"
+      ],
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/02/1-2026-02-12T112308.286-800x800.png",
+      "url": "https://proyectocolor.com.ar/productos/bambu-lab-ams-2-pro-sistema-automatico-de-materiales/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/36/",
       "variants": []
     },
     {
@@ -20058,7 +19970,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/01/1-5-800x800.png",
       "url": "https://proyectocolor.com.ar/productos/f2-ultra-standalone-grabadora-laser-dual/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/37/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/36/",
       "variants": []
     },
     {
@@ -20081,7 +19993,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/01/BC-KK.AA_.090-01-Buffer-components-800x800.png",
       "url": "https://proyectocolor.com.ar/productos/buffer-components-mingda/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/37/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/36/",
       "variants": []
     },
     {
@@ -20102,6 +20014,29 @@
       "tags": [],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/KC01_PRINCIPAL-8.png",
       "url": "https://proyectocolor.com.ar/productos/creatwit-curadora-letras-led-kc-01-showroom/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/36/",
+      "variants": []
+    },
+    {
+      "id": "proyectocolor-193938",
+      "sourceProductId": "193938",
+      "store": "Proyecto Color",
+      "domain": "proyectocolor.com.ar",
+      "name": "3DMakerPro Scanner Escáner 3D Mole Showroom",
+      "category": "Impresoras",
+      "price": 970920,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 922374,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "3DMakerPro",
+      "tags": [
+        "3DMakerPro"
+      ],
+      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/3dmakerpro-mole-premium-3d-scanner_1_1024x1024@2x-3.webp",
+      "url": "https://proyectocolor.com.ar/productos/3dmakerpro-scanner-escaner-3d-mole-showroom/",
       "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/37/",
       "variants": []
     },
@@ -20309,29 +20244,6 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/12/620108023_1-800x800.jpg",
       "url": "https://proyectocolor.com.ar/productos/two-trees-grabadora-laser-ts2-40w/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/37/",
-      "variants": []
-    },
-    {
-      "id": "proyectocolor-182216",
-      "sourceProductId": "182216",
-      "store": "Proyecto Color",
-      "domain": "proyectocolor.com.ar",
-      "name": "Creality K2",
-      "category": "Impresoras",
-      "price": 1190000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Creality",
-      "tags": [
-        "Creality"
-      ],
-      "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/12/K2-800x800.jpg",
-      "url": "https://proyectocolor.com.ar/productos/creality-k2/",
       "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/37/",
       "variants": []
     },
@@ -20581,7 +20493,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/10/FLSUN-S1-Limit-Switch-31284_1-800x800.jpg",
       "url": "https://proyectocolor.com.ar/productos/interruptor-de-limite-flsun-s1-pro/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/38/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/37/",
       "variants": []
     },
     {
@@ -20604,7 +20516,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/10/ESPIRAL14-16-800x800.png",
       "url": "https://proyectocolor.com.ar/productos/motor-extrusor-flsun-s1-pro/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/38/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/37/",
       "variants": []
     },
     {
@@ -20627,7 +20539,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/10/Lower-function-adapter-board-1-800x800.png",
       "url": "https://proyectocolor.com.ar/productos/placa-mos-flsun-t1-copia/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/38/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/37/",
       "variants": []
     },
     {
@@ -20650,7 +20562,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/10/FLSUN-T1-Power-Supply-31328_2-800x800.jpg",
       "url": "https://proyectocolor.com.ar/productos/fuente-de-alimentacion-t1-flsun/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/38/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/37/",
       "variants": []
     },
     {
@@ -21130,7 +21042,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/08/Diseno-sin-titulo-56-800x800.png",
       "url": "https://proyectocolor.com.ar/productos/y-axis-belt-correa-del-eje-y-compatible-con-anycubic-kobra-3-serie-kobra-3/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/39/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/38/",
       "variants": []
     },
     {
@@ -21153,7 +21065,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/08/S010234-13-800x800.png",
       "url": "https://proyectocolor.com.ar/productos/pom-v-polea-compatible-con-anycubic-kobra-2-neo-serie-kobra-2/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/39/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/38/",
       "variants": []
     },
     {
@@ -21176,7 +21088,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/08/3DWZRPTBTJ-800x800.png",
       "url": "https://proyectocolor.com.ar/productos/kit-de-placa-de-boquilla-con-can-independiente-sovol-zero/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/39/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/38/",
       "variants": []
     },
     {
@@ -21199,7 +21111,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/08/Diseno-sin-titulo-71-800x800.png",
       "url": "https://proyectocolor.com.ar/productos/hotend-silicone-sock-kobra-2-neo-compatible-con-la-serie-kobra-2/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/39/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/38/",
       "variants": []
     },
     {
@@ -21682,7 +21594,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/FAC094-2-800x800.png",
       "url": "https://proyectocolor.com.ar/productos/palanca-de-corte-de-filamento-derecha-h2d/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/40/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/39/",
       "variants": []
     },
     {
@@ -21705,7 +21617,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/FAC093-2-800x800.png",
       "url": "https://proyectocolor.com.ar/productos/palanca-de-corte-de-filamento-izquierda-h2d/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/40/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/39/",
       "variants": []
     },
     {
@@ -21728,7 +21640,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/FAB009-2-800x800.png",
       "url": "https://proyectocolor.com.ar/productos/tensor-de-correas-xy-h2d/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/40/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/39/",
       "variants": []
     },
     {
@@ -21751,7 +21663,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/DLB040-1-800x800.png",
       "url": "https://proyectocolor.com.ar/productos/sensor-de-estado-de-tapa-ams-ht-hall-sensor-h2d/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/40/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/39/",
       "variants": []
     },
     {
@@ -22234,7 +22146,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2026/05/FAC043-N-800x800.png",
       "url": "https://proyectocolor.com.ar/productos/cubierta-del-motor-del-eje-x-bambu-lab-a1/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/41/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/40/",
       "variants": []
     },
     {
@@ -22257,7 +22169,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/FAC044-800x800.webp",
       "url": "https://proyectocolor.com.ar/productos/tensor-del-eje-y-bambu-lab-a1/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/41/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/40/",
       "variants": []
     },
     {
@@ -22280,7 +22192,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/FAC045-1-800x800.webp",
       "url": "https://proyectocolor.com.ar/productos/tensor-del-eje-z-bambu-lab-a1/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/41/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/40/",
       "variants": []
     },
     {
@@ -22303,7 +22215,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/FAC048-3-800x800.webp",
       "url": "https://proyectocolor.com.ar/productos/antena-wifi-bambu-lab-serie-a1/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/41/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/40/",
       "variants": []
     },
     {
@@ -22786,7 +22698,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/FAZ008-3-800x800.webp",
       "url": "https://proyectocolor.com.ar/productos/luz-led-para-impresoras-bambu-lab-x1-x1-carbon-x1e/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/42/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/41/",
       "variants": []
     },
     {
@@ -22809,7 +22721,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/06/Diseno-sin-titulo-89-800x800.png",
       "url": "https://proyectocolor.com.ar/productos/almohadilla-soporte-inferior-bambu-lab-a1/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/42/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/41/",
       "variants": []
     },
     {
@@ -22832,7 +22744,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/LID001-2.jpg",
       "url": "https://proyectocolor.com.ar/productos/cubierta-protectora-para-bambu-micro-lidar-compatible-con-x1-x1-carbon/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/42/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/41/",
       "variants": []
     },
     {
@@ -22856,7 +22768,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/bambu-micro-lidar-dual-red-laser-x1-series-1-1.jpg",
       "url": "https://proyectocolor.com.ar/productos/bambu-micro-lidar-doble-laser-rojo/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/42/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/41/",
       "variants": []
     },
     {
@@ -23317,7 +23229,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/06/S010234-5-800x800.png",
       "url": "https://proyectocolor.com.ar/productos/touch-screen-anycubic-photon-mono-m7-pro/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/43/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/42/",
       "variants": []
     },
     {
@@ -23340,7 +23252,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/S020228-3-800x800.jpeg",
       "url": "https://proyectocolor.com.ar/productos/placa-motherboardpara-anycubic-photon-mono-m7-pro/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/43/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/42/",
       "variants": []
     },
     {
@@ -23363,7 +23275,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/S020186-1-800x800.jpeg",
       "url": "https://proyectocolor.com.ar/productos/recipiente-para-alcohol-anycubic-photon-wash-cure-3-plus/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/43/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/42/",
       "variants": []
     },
     {
@@ -23386,7 +23298,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/06/S020184-800x800.png",
       "url": "https://proyectocolor.com.ar/productos/cesta-de-lavado-para-anycubic-wash-y-cure-3-plus/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/43/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/42/",
       "variants": []
     },
     {
@@ -23864,7 +23776,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/D_NQ_NP_642071-MLA80101960252_10-3.jpg",
       "url": "https://proyectocolor.com.ar/productos/cable-splitter-dwarf-prusa-xl/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/44/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/43/",
       "variants": []
     },
     {
@@ -23887,7 +23799,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/S-036-2.webp",
       "url": "https://proyectocolor.com.ar/productos/bloque-guia-de-tuerca-artillery-series-impresora-3d/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/44/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/43/",
       "variants": []
     },
     {
@@ -23910,7 +23822,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/S-037-2.webp",
       "url": "https://proyectocolor.com.ar/productos/bloque-guia-de-tuerca-artillery-impresora-3d/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/44/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/43/",
       "variants": []
     },
     {
@@ -23933,7 +23845,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/04/Diseno-sin-titulo-2025-10-13T122244.193-800x800.png",
       "url": "https://proyectocolor.com.ar/productos/sensor-eje-z-artillery-impresora-3d-genius-sidewinder/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/44/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/43/",
       "variants": []
     },
     {
@@ -24416,7 +24328,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/CAM003-3.png",
       "url": "https://proyectocolor.com.ar/productos/camara-live-view-bambu-lab-a1-mini/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/45/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/44/",
       "variants": []
     },
     {
@@ -24439,7 +24351,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/CAM004-3.png",
       "url": "https://proyectocolor.com.ar/productos/camara-live-view-bambu-lab-a1/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/45/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/44/",
       "variants": []
     },
     {
@@ -24462,7 +24374,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/DIS003-2-800x800.png",
       "url": "https://proyectocolor.com.ar/productos/pantalla-tactil-a1-mini/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/45/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/44/",
       "variants": []
     },
     {
@@ -24485,7 +24397,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/FAC017-3-800x800.jpeg",
       "url": "https://proyectocolor.com.ar/productos/unidad-de-cama-caliente-a1-mini/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/45/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/44/",
       "variants": []
     },
     {
@@ -24968,7 +24880,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/CAB016-3.webp",
       "url": "https://proyectocolor.com.ar/productos/cable-de-senal-cama-caliente-bambu-lab-x1-p1/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/46/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/45/",
       "variants": []
     },
     {
@@ -24991,7 +24903,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/FAC006-2.webp",
       "url": "https://proyectocolor.com.ar/productos/placa-mc-bambu-lab-serie-x1/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/46/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/45/",
       "variants": []
     },
     {
@@ -25014,7 +24926,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/FAC007-3-800x800.jpeg",
       "url": "https://proyectocolor.com.ar/productos/mc-board-placa-mc-para-bambu-lab-p1/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/46/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/45/",
       "variants": []
     },
     {
@@ -25037,7 +24949,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/FAE003-3-800x800.webp",
       "url": "https://proyectocolor.com.ar/productos/placa-th-bambu-lab-p1/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/46/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/45/",
       "variants": []
     },
     {
@@ -25506,7 +25418,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/3010070171-ok-3-800x800.png",
       "url": "https://proyectocolor.com.ar/productos/rueda-dentada-engranaje-con-orificio-para-extrusor-biqu-h2/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/47/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/46/",
       "variants": []
     },
     {
@@ -25529,7 +25441,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/3010170456-3-800x800.png",
       "url": "https://proyectocolor.com.ar/productos/resorte-int-5mm-ext-7-1mm-largo-22-3mm-biqu-b1/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/47/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/46/",
       "variants": []
     },
     {
@@ -25552,7 +25464,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/3030180165-3-800x800.png",
       "url": "https://proyectocolor.com.ar/productos/brazo-palanca-de-extrusor-biqu-h2/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/47/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/46/",
       "variants": []
     },
     {
@@ -25575,7 +25487,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/3030180194-3-800x800.png",
       "url": "https://proyectocolor.com.ar/productos/brazo-palanca-de-extrusor-biqu-bx/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/47/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/46/",
       "variants": []
     },
     {
@@ -26058,7 +25970,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/SPP041-3-800x800.webp",
       "url": "https://proyectocolor.com.ar/productos/cable-fpc-de-placa-th-serie-v9-x1-carbon/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/48/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/47/",
       "variants": []
     },
     {
@@ -26081,7 +25993,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/SPP022-3-800x800.webp",
       "url": "https://proyectocolor.com.ar/productos/luz-led-x1-carbon/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/48/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/47/",
       "variants": []
     },
     {
@@ -26104,7 +26016,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/201604-3.jpg",
       "url": "https://proyectocolor.com.ar/productos/fuente-de-alimentacion-flsun-super-racer/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/48/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/47/",
       "variants": []
     },
     {
@@ -26127,7 +26039,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/220056-2.webp",
       "url": "https://proyectocolor.com.ar/productos/plataforma-colgante-flsun-super-racer/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/48/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/47/",
       "variants": []
     },
     {
@@ -26229,10 +26141,10 @@
       "domain": "proyectocolor.com.ar",
       "name": "Artillery Kit Relay SSR AC-DC (Genius PRO / SW X2)",
       "category": "Repuestos",
-      "price": 11880,
+      "price": 11470,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 11286,
+      "transferPrice": 10897,
       "stock": null,
       "stockLabel": "En stock",
       "available": true,
@@ -26611,7 +26523,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/SWK000244-1-800x800.jpg",
       "url": "https://proyectocolor.com.ar/productos/cubierta-de-ventilador-material-abs-biqu-b1-se/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/49/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/48/",
       "variants": []
     },
     {
@@ -26634,7 +26546,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/RFR000038_2-1-800x800.jpg",
       "url": "https://proyectocolor.com.ar/productos/cama-caliente-de-aluminio-250250mm-biqu-bx/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/49/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/48/",
       "variants": []
     },
     {
@@ -26657,7 +26569,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/J-065-1-2.jpg",
       "url": "https://proyectocolor.com.ar/productos/rejilla-para-ventilador-de-acero-inoxidable-medida-8080mm-biqu/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/49/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/48/",
       "variants": []
     },
     {
@@ -26680,7 +26592,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/4004100013-1-800x800.jpg",
       "url": "https://proyectocolor.com.ar/productos/kit-eje-z-con-varilla-tuerca-thsl-y-motor-42-48-cr-5-pro-cr-5-pro-h/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/49/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/48/",
       "variants": []
     },
     {
@@ -27161,7 +27073,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/Z-013-5-1-800x800.jpg",
       "url": "https://proyectocolor.com.ar/productos/tuerca-perilla-de-calibracion-rueda-niveladora-de-cama-sidewinder-x1-genius/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/50/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/49/",
       "variants": []
     },
     {
@@ -27184,7 +27096,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/Y-006-6-1-800x800.jpg",
       "url": "https://proyectocolor.com.ar/productos/cable-switch-rocker-50mm-artillery-series/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/50/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/49/",
       "variants": []
     },
     {
@@ -27207,7 +27119,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/Y-049-6-1-800x800.jpg",
       "url": "https://proyectocolor.com.ar/productos/cable-lcd-48cm-artillery-series/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/50/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/49/",
       "variants": []
     },
     {
@@ -27230,7 +27142,7 @@
       ],
       "image": "https://proyectocolor.com.ar/wp-content/uploads/2025/09/Y-001-5-1.jpg",
       "url": "https://proyectocolor.com.ar/productos/cable-lcd-4pin-37cm-sidewinder-x1/",
-      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/50/",
+      "scrapedFrom": "https://proyectocolor.com.ar/categorias/impresion-3d/page/49/",
       "variants": []
     },
     {

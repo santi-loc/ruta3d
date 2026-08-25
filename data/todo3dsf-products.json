@@ -1,0 +1,1709 @@
+{
+  "store": {
+    "name": "Todo 3D",
+    "domain": "todo3dsf.com.ar",
+    "baseUrl": "https://www.todo3dsf.com.ar"
+  },
+  "scrapedAt": "2026-08-25T00:50:32.819Z",
+  "count": 62,
+  "pages": [
+    {
+      "page": 1,
+      "path": "/productos",
+      "url": "https://www.todo3dsf.com.ar/productos",
+      "found": 12,
+      "added": 12
+    },
+    {
+      "page": 1,
+      "path": "/insumos-3d/filamentos",
+      "url": "https://www.todo3dsf.com.ar/insumos-3d/filamentos",
+      "found": 12,
+      "added": 8
+    },
+    {
+      "page": 1,
+      "path": "/insumos-3d/filamentos/filamento-pla",
+      "url": "https://www.todo3dsf.com.ar/insumos-3d/filamentos/filamento-pla",
+      "found": 12,
+      "added": 2
+    },
+    {
+      "page": 1,
+      "path": "/insumos-3d/filamentos/filamento-abs",
+      "url": "https://www.todo3dsf.com.ar/insumos-3d/filamentos/filamento-abs",
+      "found": 1,
+      "added": 1
+    },
+    {
+      "page": 1,
+      "path": "/insumos-3d/filamentos/filamento-petg",
+      "url": "https://www.todo3dsf.com.ar/insumos-3d/filamentos/filamento-petg",
+      "found": 2,
+      "added": 0
+    },
+    {
+      "page": 1,
+      "path": "/insumos-3d/filamentos/otros-filamentos",
+      "url": "https://www.todo3dsf.com.ar/insumos-3d/filamentos/otros-filamentos",
+      "found": 1,
+      "added": 1
+    },
+    {
+      "page": 1,
+      "path": "/insumos-3d/repuestos",
+      "url": "https://www.todo3dsf.com.ar/insumos-3d/repuestos",
+      "found": 12,
+      "added": 12
+    },
+    {
+      "page": 1,
+      "path": "/insumos-3d/resinas",
+      "url": "https://www.todo3dsf.com.ar/insumos-3d/resinas",
+      "found": 4,
+      "added": 4
+    },
+    {
+      "page": 1,
+      "path": "/impresoras-3d",
+      "url": "https://www.todo3dsf.com.ar/impresoras-3d",
+      "found": 12,
+      "added": 10
+    },
+    {
+      "page": 1,
+      "path": "/impresoras-3d/fdm-filamento",
+      "url": "https://www.todo3dsf.com.ar/impresoras-3d/fdm-filamento",
+      "found": 2,
+      "added": 0
+    },
+    {
+      "page": 1,
+      "path": "/impresoras-3d/sla-resina",
+      "url": "https://www.todo3dsf.com.ar/impresoras-3d/sla-resina",
+      "found": 0,
+      "added": 0
+    },
+    {
+      "page": 1,
+      "path": "/accesorios",
+      "url": "https://www.todo3dsf.com.ar/accesorios",
+      "found": 8,
+      "added": 7
+    },
+    {
+      "page": 1,
+      "path": "/grabadoras-laser",
+      "url": "https://www.todo3dsf.com.ar/grabadoras-laser",
+      "found": 7,
+      "added": 5
+    }
+  ],
+  "products": [
+    {
+      "id": "todo3dsf-pla-grilon3",
+      "sourceProductId": "pla-grilon3",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "PLA Grilón3",
+      "category": "Filamentos",
+      "price": 23000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Grilon3",
+      "tags": [
+        "Grilon3",
+        "PLA"
+      ],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/insumos-3d/filamentos/filamento-pla/pla-grilon3",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/productos",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-pla-boutique-grilon3",
+      "sourceProductId": "pla-boutique-grilon3",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "PLA Boutique Grilón3",
+      "category": "Filamentos",
+      "price": 25000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Grilon3",
+      "tags": [
+        "Grilon3",
+        "PLA"
+      ],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/insumos-3d/filamentos/filamento-pla/pla-boutique-grilon3",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/productos",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-pla-3n3",
+      "sourceProductId": "pla-3n3",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "PLA 3N3",
+      "category": "Filamentos",
+      "price": 19000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "3N3",
+      "tags": [
+        "3N3",
+        "PLA"
+      ],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/insumos-3d/filamentos/filamento-pla/pla-3n3",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/productos",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-petg-grilon3",
+      "sourceProductId": "petg-grilon3",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "PETG Grilón3",
+      "category": "Filamentos",
+      "price": 22000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Grilon3",
+      "tags": [
+        "Grilon3",
+        "PETG"
+      ],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/insumos-3d/filamentos/filamento-petg/petg-grilon3",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/productos",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-soporte-articulado-para-celular-todo-flex-3d",
+      "sourceProductId": "soporte-articulado-para-celular-todo-flex-3d",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "SOPORTE ARTICULADO PARA CELULAR - TODO FLEX 3D",
+      "category": "Accesorios",
+      "price": 20000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "FLEX"
+      ],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/soportes/para-celular/soporte-articulado-para-celular-todo-flex-3d",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/productos",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-soporte-de-auriculares-para-escritorio",
+      "sourceProductId": "soporte-de-auriculares-para-escritorio",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Soporte de auriculares para escritorio",
+      "category": "Accesorios",
+      "price": 12000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/soportes/para-auriculares/soporte-de-auriculares-para-escritorio",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/productos",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-soporte-fijo-para-celular",
+      "sourceProductId": "soporte-fijo-para-celular",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Soporte fijo para celular",
+      "category": "Accesorios",
+      "price": 5000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/soportes/para-celular/soporte-fijo-para-celular",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/productos",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-termistor-ender-3-v3-se",
+      "sourceProductId": "termistor-ender-3-v3-se",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Termistor Ender 3 V3 Se",
+      "category": "Impresoras",
+      "price": 9000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Creality"
+      ],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/accesorios/termistor-ender-3-v3-se",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/productos",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-creality-ender-5-max",
+      "sourceProductId": "creality-ender-5-max",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Creality Ender 5 MAX",
+      "category": "Impresoras",
+      "price": 1550000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Creality",
+      "tags": [
+        "Creality"
+      ],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/impresoras-3d/fdm-filamento/creality-ender-5-max",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/productos",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-secador-de-filamentos-creality-space-pi-se",
+      "sourceProductId": "secador-de-filamentos-creality-space-pi-se",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Secador de filamentos CREALITY SPACE PI SE",
+      "category": "Impresoras",
+      "price": 85000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Creality",
+      "tags": [
+        "Creality"
+      ],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/impresoras-3d/secador-de-filamentos-creality-space-pi-se",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/productos",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-kit-pro-rodillo-giratorio-para-falcon-a1",
+      "sourceProductId": "kit-pro-rodillo-giratorio-para-falcon-a1",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Kit Pro Rodillo Giratorio para Falcon A1",
+      "category": "Herramientas",
+      "price": 350000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/grabadoras-laser/kit-pro-rodillo-giratorio-para-falcon-a1",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/productos",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-grabadora-laser-creality-falcon-pro-60w",
+      "sourceProductId": "grabadora-laser-creality-falcon-pro-60w",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Grabadora Láser Creality Falcon Pro 60W",
+      "category": "Impresoras",
+      "price": 5000000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Creality",
+      "tags": [
+        "Creality"
+      ],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/grabadoras-laser/grabadora-laser-creality-falcon-pro-60w",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/productos",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-pla-outlet",
+      "sourceProductId": "pla-outlet",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "PLA OUTLET",
+      "category": "Filamentos",
+      "price": 16000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA"
+      ],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/insumos-3d/filamentos/filamento-pla/pla-outlet",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/insumos-3d/filamentos",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-pla-3nmax-se-x-750gr",
+      "sourceProductId": "pla-3nmax-se-x-750gr",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "PLA 3NMAX SE x 750gr",
+      "category": "Filamentos",
+      "price": 12700,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA"
+      ],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/insumos-3d/filamentos/filamento-pla/pla-3nmax-se-x-750gr",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/insumos-3d/filamentos",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-filamento-pla-para-lapiz-3d-x150gramos-surtido-de-colores-al-azar",
+      "sourceProductId": "filamento-pla-para-lapiz-3d-x150gramos-surtido-de-colores-al-azar",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Filamento PLA para lápiz 3D x150gramos surtido de colores al azar",
+      "category": "Filamentos",
+      "price": 7000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA"
+      ],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/insumos-3d/filamentos/filamento-pla/filamento-pla-para-lapiz-3d-x150gramos-surtido-de-colores-al-azar",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/insumos-3d/filamentos",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-kit-lapiz-3d-grilon3-pla-20-colores-10m-por-color-200m",
+      "sourceProductId": "kit-lapiz-3d-grilon3-pla-20-colores-10m-por-color-200m",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "KIT LAPIZ 3D GRILON3 PLA 20 COLORES 10M POR COLOR (200M)",
+      "category": "Filamentos",
+      "price": 21000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Grilon3",
+      "tags": [
+        "Grilon3",
+        "PLA"
+      ],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/insumos-3d/filamentos/filamento-pla/kit-lapiz-3d-grilon3-pla-20-colores-10m-por-color-200m",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/insumos-3d/filamentos",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-pla-anycubic-x1kg",
+      "sourceProductId": "pla-anycubic-x1kg",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "PLA ANYCUBIC x1kg",
+      "category": "Impresoras",
+      "price": 20000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Anycubic",
+      "tags": [
+        "Anycubic",
+        "PLA",
+        "1kg"
+      ],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/insumos-3d/filamentos/filamento-pla/pla-anycubic-x1kg",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/insumos-3d/filamentos",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-pla-hellbot-ecofila-recarga",
+      "sourceProductId": "pla-hellbot-ecofila-recarga",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "PLA HELLBOT ECOFILA RECARGA",
+      "category": "Filamentos",
+      "price": 17000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot",
+        "PLA"
+      ],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/insumos-3d/filamentos/filamento-pla/pla-hellbot-ecofila-recarga",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/insumos-3d/filamentos",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-pla-3nflex",
+      "sourceProductId": "pla-3nflex",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "PLA 3NFLEX",
+      "category": "Filamentos",
+      "price": 27000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA",
+        "FLEX"
+      ],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/insumos-3d/filamentos/filamento-pla/pla-3nflex",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/insumos-3d/filamentos",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-petg-3n3",
+      "sourceProductId": "petg-3n3",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "PETG 3N3",
+      "category": "Filamentos",
+      "price": 20000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "3N3",
+      "tags": [
+        "3N3",
+        "PETG"
+      ],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/insumos-3d/filamentos/filamento-petg/petg-3n3",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/insumos-3d/filamentos",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-pla-hellbot-ecofila-lock",
+      "sourceProductId": "pla-hellbot-ecofila-lock",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "PLA HELLBOT ECOFILA LOCK",
+      "category": "Filamentos",
+      "price": 19000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot",
+        "PLA"
+      ],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/insumos-3d/filamentos/filamento-pla/pla-hellbot-ecofila-lock",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/insumos-3d/filamentos/filamento-pla",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-pla-3nmax",
+      "sourceProductId": "pla-3nmax",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "PLA 3NMAX",
+      "category": "Filamentos",
+      "price": 17000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA"
+      ],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/insumos-3d/filamentos/filamento-pla/pla-3nmax",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/insumos-3d/filamentos/filamento-pla",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-abs-grilon3",
+      "sourceProductId": "abs-grilon3",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "ABS Grilón3",
+      "category": "Filamentos",
+      "price": 24000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Grilon3",
+      "tags": [
+        "Grilon3",
+        "ABS"
+      ],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/insumos-3d/filamentos/filamento-abs/abs-grilon3",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/insumos-3d/filamentos/filamento-abs",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-simpliflex",
+      "sourceProductId": "simpliflex",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Simpliflex",
+      "category": "Filamentos",
+      "price": 47000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "FLEX"
+      ],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/insumos-3d/filamentos/otros-filamentos/simpliflex",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/insumos-3d/filamentos/otros-filamentos",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-kit-termistor-y-resistencia-para-bambu-lab-a1-mini",
+      "sourceProductId": "kit-termistor-y-resistencia-para-bambu-lab-a1-mini",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Kit Termistor Y Resistencia Para Bambu Lab A1 / Mini",
+      "category": "Impresoras",
+      "price": 18000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab"
+      ],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/insumos-3d/repuestos/kit-termistor-y-resistencia-para-bambu-lab-a1-mini",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/insumos-3d/repuestos",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-placa-original-impresora-3d-creality-hi-hi-combo",
+      "sourceProductId": "placa-original-impresora-3d-creality-hi-hi-combo",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Placa Original Impresora 3d Creality Hi / Hi Combo",
+      "category": "Impresoras",
+      "price": 150000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Creality",
+      "tags": [
+        "Creality",
+        "PLA"
+      ],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/insumos-3d/repuestos/placa-original-impresora-3d-creality-hi-hi-combo",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/insumos-3d/repuestos",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-hotend-creality-hi-04mm-con-calentador-y-termistor",
+      "sourceProductId": "hotend-creality-hi-04mm-con-calentador-y-termistor",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Hotend Creality Hi 0.4mm Con Calentador Y Termistor",
+      "category": "Impresoras",
+      "price": 41000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Creality",
+      "tags": [
+        "Creality"
+      ],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/insumos-3d/repuestos/hotend-creality-hi-04mm-con-calentador-y-termistor",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/insumos-3d/repuestos",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-aislante-silicona-para-bambu-lab-a1-a1-mini",
+      "sourceProductId": "aislante-silicona-para-bambu-lab-a1-a1-mini",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Aislante Silicona Para Bambu-lab A1 / A1 Mini",
+      "category": "Impresoras",
+      "price": 6500,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Bambu Lab"
+      ],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/insumos-3d/repuestos/aislante-silicona-para-bambu-lab-a1-a1-mini",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/insumos-3d/repuestos",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-protector-de-silicona-creality-k1-k1-max-ender-v3-ke",
+      "sourceProductId": "protector-de-silicona-creality-k1-k1-max-ender-v3-ke",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Protector De Silicona Creality K1 / K1 Max / Ender V3 Ke",
+      "category": "Impresoras",
+      "price": 5000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Creality",
+      "tags": [
+        "Creality"
+      ],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/insumos-3d/repuestos/protector-de-silicona-creality-k1-k1-max-ender-v3-ke",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/insumos-3d/repuestos",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-nozzle-unicorn-alta-velocidad-k2-y-hi-combo-04mm",
+      "sourceProductId": "nozzle-unicorn-alta-velocidad-k2-y-hi-combo-04mm",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Nozzle Unicorn Alta Velocidad K2 Y Hi Combo 0.4mm",
+      "category": "Repuestos",
+      "price": 26000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/insumos-3d/repuestos/nozzle-unicorn-alta-velocidad-k2-y-hi-combo-04mm",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/insumos-3d/repuestos",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-hotend-hardened-steel-bambu-lab-a1-y-a1-mini",
+      "sourceProductId": "hotend-hardened-steel-bambu-lab-a1-y-a1-mini",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Hotend hardened steel Bambú Lab A1 y A1 mini",
+      "category": "Impresoras",
+      "price": 31000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab"
+      ],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/insumos-3d/repuestos/hotend-hardened-steel-bambu-lab-a1-y-a1-mini",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/insumos-3d/repuestos",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-placa-de-construccion-pei-magnetica-para-impresoras-3d",
+      "sourceProductId": "placa-de-construccion-pei-magnetica-para-impresoras-3d",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Placa De Construcción Pei Magnética Para Impresoras 3d",
+      "category": "Impresoras",
+      "price": 45000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA"
+      ],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/insumos-3d/repuestos/placa-de-construccion-pei-magnetica-para-impresoras-3d",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/insumos-3d/repuestos",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-placa-cama-magnetica-pei-creality-ender-s1-s1-pro",
+      "sourceProductId": "placa-cama-magnetica-pei-creality-ender-s1-s1-pro",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Placa Cama Magnetica Pei Creality Ender S1 - S1 Pro",
+      "category": "Impresoras",
+      "price": 50000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Creality",
+      "tags": [
+        "Creality",
+        "PLA"
+      ],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/insumos-3d/repuestos/placa-cama-magnetica-pei-creality-ender-s1-s1-pro",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/insumos-3d/repuestos",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-correa-gt2-6mm-abierta-reforzada-con-5-hilos",
+      "sourceProductId": "correa-gt2-6mm-abierta-reforzada-con-5-hilos",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Correa GT2 6mm abierta. Reforzada con 5 hilos",
+      "category": "Repuestos",
+      "price": 7000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/insumos-3d/repuestos/correa-gt2-6mm-abierta-reforzada-con-5-hilos",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/insumos-3d/repuestos",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-espatula-creality-38mm",
+      "sourceProductId": "espatula-creality-38mm",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Espátula Creality 38mm",
+      "category": "Impresoras",
+      "price": 8500,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Creality",
+      "tags": [
+        "Creality"
+      ],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/insumos-3d/repuestos/espatula-creality-38mm",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/insumos-3d/repuestos",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-nozzle-ender-3-v3-ke-y-k1",
+      "sourceProductId": "nozzle-ender-3-v3-ke-y-k1",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Nozzle Ender 3 V3 KE y K1",
+      "category": "Impresoras",
+      "price": 4500,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Creality"
+      ],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/insumos-3d/repuestos/nozzle-ender-3-v3-ke-y-k1",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/insumos-3d/repuestos",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-resina-alta-resistencia-hellbot-x-250ml",
+      "sourceProductId": "resina-alta-resistencia-hellbot-x-250ml",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Resina Alta Resistencia Hellbot x 250ml",
+      "category": "Resina",
+      "price": 33000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot"
+      ],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/insumos-3d/resinas/resina-alta-resistencia-hellbot-x-250ml",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/insumos-3d/resinas",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-resina-dental-hellbot-x-250ml",
+      "sourceProductId": "resina-dental-hellbot-x-250ml",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Resina Dental Hellbot x 250ml",
+      "category": "Resina",
+      "price": 20000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot"
+      ],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/insumos-3d/resinas/resina-dental-hellbot-x-250ml",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/insumos-3d/resinas",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-resina-anycubic-dura-1kg",
+      "sourceProductId": "resina-anycubic-dura-1kg",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Resina Anycubic Dura 1kg",
+      "category": "Resina",
+      "price": 54000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Anycubic",
+      "tags": [
+        "Anycubic",
+        "1kg"
+      ],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/insumos-3d/resinas/resina-anycubic-dura-1kg",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/insumos-3d/resinas",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-resina-hellbot-estandar-dura-x250ml",
+      "sourceProductId": "resina-hellbot-estandar-dura-x250ml",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Resina Hellbot Estándar Dura x250ml",
+      "category": "Resina",
+      "price": 16000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot"
+      ],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/insumos-3d/resinas/resina-hellbot-estandar-dura-x250ml",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/insumos-3d/resinas",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-impresora-creality-sparkx-i7-color-combo",
+      "sourceProductId": "impresora-creality-sparkx-i7-color-combo",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Impresora Creality SPARKX i7 Color Combo",
+      "category": "Impresoras",
+      "price": 1150000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Creality",
+      "tags": [
+        "Creality"
+      ],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/impresoras-3d/fdm-filamento/impresora-creality-sparkx-i7-color-combo",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/impresoras-3d",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-secador-de-filamento-creality-space-pi-x4",
+      "sourceProductId": "secador-de-filamento-creality-space-pi-x4",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Secador de Filamento Creality Space Pi X4",
+      "category": "Impresoras",
+      "price": 380000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Creality",
+      "tags": [
+        "Creality"
+      ],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/impresoras-3d/secador-de-filamento-creality-space-pi-x4",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/impresoras-3d",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-maquina-de-secado-de-filamentos-20-creality",
+      "sourceProductId": "maquina-de-secado-de-filamentos-20-creality",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Máquina de Secado de Filamentos 2.0 Creality",
+      "category": "Impresoras",
+      "price": 85000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Creality",
+      "tags": [
+        "Creality"
+      ],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/impresoras-3d/maquina-de-secado-de-filamentos-20-creality",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/impresoras-3d",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-lapiz-3d-generico",
+      "sourceProductId": "lapiz-3d-generico",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Lápiz 3D Genérico",
+      "category": "Impresoras",
+      "price": 22000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/impresoras-3d/lapiz-3d-generico",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/impresoras-3d",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-lapiz-3d-hellbot",
+      "sourceProductId": "lapiz-3d-hellbot",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Lápiz 3D Hellbot",
+      "category": "Impresoras",
+      "price": 34000.0035,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot"
+      ],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/impresoras-3d/lapiz-3d-hellbot",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/impresoras-3d",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-bambu-lab-p1s-combo-multicolor-ams",
+      "sourceProductId": "bambu-lab-p1s-combo-multicolor-ams",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Bambu Lab P1S Combo multicolor AMS",
+      "category": "Impresoras",
+      "price": 1900000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab"
+      ],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/impresoras-3d/bambu-lab-p1s-combo-multicolor-ams",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/impresoras-3d",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-bambu-lab-a1-combo-multicolor-ams",
+      "sourceProductId": "bambu-lab-a1-combo-multicolor-ams",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Bambu Lab A1 Combo multicolor AMS",
+      "category": "Impresoras",
+      "price": 1360000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab"
+      ],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/impresoras-3d/bambu-lab-a1-combo-multicolor-ams",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/impresoras-3d",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-bambu-lab-a1-mini-combo-multicolor",
+      "sourceProductId": "bambu-lab-a1-mini-combo-multicolor",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Bambu Lab A1 Mini Combo multicolor",
+      "category": "Impresoras",
+      "price": 986000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab"
+      ],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/impresoras-3d/bambu-lab-a1-mini-combo-multicolor",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/impresoras-3d",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-creality-hi-combo",
+      "sourceProductId": "creality-hi-combo",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "CREALITY HI COMBO",
+      "category": "Impresoras",
+      "price": 1118000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Creality",
+      "tags": [
+        "Creality"
+      ],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/impresoras-3d/creality-hi-combo",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/impresoras-3d",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-maquina-de-secado-de-filamentos-space-pi-plus",
+      "sourceProductId": "maquina-de-secado-de-filamentos-space-pi-plus",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Máquina de Secado de Filamentos Space PI Plus",
+      "category": "Impresoras",
+      "price": 180000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/impresoras-3d/maquina-de-secado-de-filamentos-space-pi-plus",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/impresoras-3d",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-nozzle-unicorn-de-cambio-rapido-04-mm-para-k1-y-ender-3-v3",
+      "sourceProductId": "nozzle-unicorn-de-cambio-rapido-04-mm-para-k1-y-ender-3-v3",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Nozzle Unicorn de Cambio Rápido 0.4 mm para K1 y Ender 3 V3",
+      "category": "Impresoras",
+      "price": 25000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Creality"
+      ],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/accesorios/nozzle-unicorn-de-cambio-rapido-04-mm-para-k1-y-ender-3-v3",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/accesorios",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-conjunto-termistor-y-cartucho-ceramico-bambu-lab-serie-a1",
+      "sourceProductId": "conjunto-termistor-y-cartucho-ceramico-bambu-lab-serie-a1",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Conjunto Termistor Y Cartucho Ceramico - Bambu Lab Serie A1",
+      "category": "Impresoras",
+      "price": 70000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab"
+      ],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/accesorios/conjunto-termistor-y-cartucho-ceramico-bambu-lab-serie-a1",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/accesorios",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-camara-oficial-creality-hi-con-lampara-de-iluminacion",
+      "sourceProductId": "camara-oficial-creality-hi-con-lampara-de-iluminacion",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Cámara Oficial Creality Hi Con Lámpara De Iluminación,",
+      "category": "Impresoras",
+      "price": 25000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Creality",
+      "tags": [
+        "Creality"
+      ],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/accesorios/camara-oficial-creality-hi-con-lampara-de-iluminacion",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/accesorios",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-hub-ams-lite-a1-series",
+      "sourceProductId": "hub-ams-lite-a1-series",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "HUB AMS LITE - A1 SERIES",
+      "category": "Accesorios",
+      "price": 35000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/accesorios/hub-ams-lite-a1-series",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/accesorios",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-sensor-de-filamento-bmabu-lab-a1",
+      "sourceProductId": "sensor-de-filamento-bmabu-lab-a1",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Sensor de filamento Bmabú Lab A1",
+      "category": "Filamentos",
+      "price": 16000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/accesorios/sensor-de-filamento-bmabu-lab-a1",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/accesorios",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-volante-para-joystick",
+      "sourceProductId": "volante-para-joystick",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Volante para joystick",
+      "category": "Accesorios",
+      "price": 7000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/accesorios/volante-para-joystick",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/accesorios",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-tee-rugby-simil-rb-vortex-low-cut-kicking-tee",
+      "sourceProductId": "tee-rugby-simil-rb-vortex-low-cut-kicking-tee",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Tee Rugby Simil RB Vortex Low Cut Kicking Tee",
+      "category": "Accesorios",
+      "price": 10000.0012,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/accesorios/tee-rugby-simil-rb-vortex-low-cut-kicking-tee",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/accesorios",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-grabadora-laser-creality-falcon2-pro-s-40w",
+      "sourceProductId": "grabadora-laser-creality-falcon2-pro-s-40w",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Grabadora Laser Creality Falcon2 Pro S 40W",
+      "category": "Impresoras",
+      "price": 3100000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Creality",
+      "tags": [
+        "Creality"
+      ],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/grabadoras-laser/grabadora-laser-creality-falcon2-pro-s-40w",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/grabadoras-laser",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-grabadora-laser-creality-falcon2-pro-s-22w",
+      "sourceProductId": "grabadora-laser-creality-falcon2-pro-s-22w",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Grabadora Láser Creality Falcon2 Pro S 22W",
+      "category": "Impresoras",
+      "price": 2090000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Creality",
+      "tags": [
+        "Creality"
+      ],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/grabadoras-laser/grabadora-laser-creality-falcon2-pro-s-22w",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/grabadoras-laser",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-grabadora-laser-creality-falcon-a1-pro-20w",
+      "sourceProductId": "grabadora-laser-creality-falcon-a1-pro-20w",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Grabadora Laser Creality Falcon A1 PRO 20W",
+      "category": "Impresoras",
+      "price": 2095000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Creality",
+      "tags": [
+        "Creality"
+      ],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/grabadoras-laser/grabadora-laser-creality-falcon-a1-pro-20w",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/grabadoras-laser",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-grabadora-laser-creality-falcon-a1-10w",
+      "sourceProductId": "grabadora-laser-creality-falcon-a1-10w",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Grabadora Laser Creality Falcon A1 10W",
+      "category": "Impresoras",
+      "price": 1086000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Creality",
+      "tags": [
+        "Creality"
+      ],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/grabadoras-laser/grabadora-laser-creality-falcon-a1-10w",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/grabadoras-laser",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-kit-pro-rodillo-giratorio-creality-para-grabadora-laser-falcon-2",
+      "sourceProductId": "kit-pro-rodillo-giratorio-creality-para-grabadora-laser-falcon-2",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Kit Pro Rodillo Giratorio Creality para grabadora laser Falcon 2",
+      "category": "Impresoras",
+      "price": 300000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Creality",
+      "tags": [
+        "Creality"
+      ],
+      "image": null,
+      "url": "https://www.todo3dsf.com.ar/grabadoras-laser/kit-pro-rodillo-giratorio-creality-para-grabadora-laser-falcon-2",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/grabadoras-laser",
+      "variants": []
+    }
+  ]
+}
