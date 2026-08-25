@@ -1,9 +1,12 @@
 import erexitData from "@/data/erexit3d-products.json";
 import refreshData from "@/data/catalog-refresh.json";
+import i3dTiendaData from "@/data/i3dtienda-products.json";
 import kimeraData from "@/data/kimera3d-products.json";
 import lefasocData from "@/data/lefasoc-products.json";
 import laboratorioData from "@/data/laboratorio3d-products.json";
+import osirisData from "@/data/osiris3d-products.json";
 import proyectoColorData from "@/data/proyectocolor-products.json";
+import todo3dData from "@/data/todo3dsf-products.json";
 import tp3dData from "@/data/tp3d-products.json";
 import { bestAvailablePrice, validTransferPrice } from "@/lib/pricing";
 import sourceConfig from "@/store-sources.json";
@@ -13,7 +16,7 @@ export type StockLabel = "En stock" | "Pocas unidades" | "Consultar";
 export type SortDirection = "desc" | "asc";
 export type FilamentWeightGroup = "0.25" | "0.5" | "1" | "over1";
 export type PrinterFrameType = "Abierta" | "Cerrada" | "Multicolor";
-export type StoreArea = "Córdoba" | "CABA" | "La Plata" | "Online";
+export type StoreArea = "Córdoba" | "CABA" | "La Plata" | "Santa Fe" | "Online";
 export type PurchaseMode = "Preventa" | "Entrega inmediata";
 
 export type StoreLocation = {
@@ -83,6 +86,7 @@ type StoreSourceConfig = {
 const storeLocationsByName: Record<string, StoreLocation[]> = {
   "TP3D": [{ area: "Córdoba", address: "Rufino Cuervo 1085, X5000 Córdoba", lat: -31.438, lng: -64.165 }],
   "Erexit 3D": [{ area: "Online", address: "Tienda online" }],
+  "i3D Tienda": [{ area: "Online", address: "Tienda online" }],
   "Proyecto Color": [
     { area: "CABA", address: "Av. Gaona 1575, C1416DRD Cdad. Autónoma de Buenos Aires", lat: -34.614, lng: -58.459 },
     { area: "Córdoba", address: "Tristán Malbrán 3784, X5009ACO Córdoba", lat: -31.356, lng: -64.232 },
@@ -93,6 +97,8 @@ const storeLocationsByName: Record<string, StoreLocation[]> = {
     { area: "CABA", address: "Virrey Cevallos 149, CABA", lat: -34.609, lng: -58.384 },
     { area: "CABA", address: "Godoy Cruz 2443, CABA", lat: -34.581, lng: -58.426 },
   ],
+  "Osiris 3D": [{ area: "Online", address: "Tienda online" }],
+  "Todo 3D": [{ area: "Santa Fe", address: "Angel Casanello 980, Santa Fe, Santa Fe", lat: -31.621, lng: -60.696 }],
 };
 
 function storeLocationsFor(store: string) {
@@ -213,6 +219,7 @@ const filamentBrandNames = [
   "GST",
   "Hellbot",
   "Grilon3",
+  "Todo 3D",
   "Toolbox",
   "Filar",
   "Elemental",
@@ -836,11 +843,14 @@ export function normalizeQuery(query: string) {
 
 const scrapedCatalogs = [
   erexitData,
+  i3dTiendaData,
   laboratorioData,
   lefasocData,
   tp3dData,
   proyectoColorData,
   kimeraData,
+  osirisData,
+  todo3dData,
 ] as ScrapedCatalog[];
 
 const scrapedDates = scrapedCatalogs

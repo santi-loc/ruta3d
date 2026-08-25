@@ -4,10 +4,13 @@ import test from "node:test";
 
 const allowedProductHostsByStore = new Map([
   ["Erexit 3D", new Set(["erexit3d.com", "acdn-us.mitiendanube.com"])],
+  ["i3D Tienda", new Set(["www.i3dtienda.com.ar", "acdn-us.mitiendanube.com"])],
   ["Kimera 3D", new Set(["kimera3d.com.ar", "acdn-us.mitiendanube.com"])],
   ["Laboratorio 3D", new Set(["laboratorio3d.com.ar", "acdn-us.mitiendanube.com"])],
   ["Lefasoc", new Set(["lefasoc.com.ar", "acdn-us.mitiendanube.com"])],
+  ["Osiris 3D", new Set(["www.osiris3d.com.ar", "d22fxaf9t8d39k.cloudfront.net"])],
   ["Proyecto Color", new Set(["proyectocolor.com.ar"])],
+  ["Todo 3D", new Set(["www.todo3dsf.com.ar", "d22fxaf9t8d39k.cloudfront.net"])],
   ["TP3D", new Set(["tp3d.com.ar"])],
 ]);
 
@@ -243,7 +246,7 @@ test("keeps curing machines discoverable from resin searches", async () => {
   const response = await render("/?q=Elegoo%20curado");
   const html = await response.text();
 
-  assert.match(html, /MAQUINA DE LAVADO Y CURADO ELEGOO MERCUY 3,0 PLUS|Máquina de lavado y curado Elegoo/i);
+  assert.match(html, /MAQUINA DE LAVADO Y CURADO ELEGOO MERCUY 3,0 PLUS|Máquina de lavado y curado Elegoo|ELEGOO MERCURY 3\.0 PLUS LAVADORA-CURADORA/i);
 });
 
 test("matches standard resin products also named estandar", async () => {

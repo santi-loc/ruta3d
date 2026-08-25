@@ -21,8 +21,10 @@ const imageRateLimits = new Map<string, RateLimitEntry>();
 const allowedImageHosts = new Set([
   "acdn-us.mitiendanube.com",
   "erexit3d.com",
+  "www.i3dtienda.com.ar",
   "kimera3d.com.ar",
   "laboratorio3d.com.ar",
+  "d22fxaf9t8d39k.cloudfront.net",
   "proyectocolor.com.ar",
   "tp3d.com.ar",
 ]);

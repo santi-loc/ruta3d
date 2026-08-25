@@ -15,6 +15,11 @@ const scrapers = [
     output: "data/laboratorio3d-products.json",
   },
   {
+    name: "i3D Tienda",
+    script: "scripts/scrape-i3dtienda.mjs",
+    output: "data/i3dtienda-products.json",
+  },
+  {
     name: "Lefasoc",
     script: "scripts/scrape-lefasoc.mjs",
     output: "data/lefasoc-products.json",
@@ -33,6 +38,16 @@ const scrapers = [
     name: "Kimera 3D",
     script: "scripts/scrape-kimera3d.mjs",
     output: "data/kimera3d-products.json",
+  },
+  {
+    name: "Osiris 3D",
+    script: "scripts/scrape-osiris3d.mjs",
+    output: "data/osiris3d-products.json",
+  },
+  {
+    name: "Todo 3D",
+    script: "scripts/scrape-todo3dsf.mjs",
+    output: "data/todo3dsf-products.json",
   },
 ];
 

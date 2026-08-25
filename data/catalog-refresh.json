@@ -1,12 +1,12 @@
 {
   "startedAt": "2026-08-22T16:22:54.930Z",
-  "refreshedAt": "2026-08-22T16:23:22.802Z",
+  "refreshedAt": "2026-08-25T00:50:32.819Z",
   "status": "partial",
   "lastSuccessfulFullRefreshAt": null,
-  "updatedStores": 0,
+  "updatedStores": 3,
   "staleStores": 6,
   "oldestScrapedAt": "2026-08-17T18:50:22.440Z",
-  "newestScrapedAt": "2026-08-21T17:29:21.788Z",
+  "newestScrapedAt": "2026-08-25T00:50:32.819Z",
   "stores": [
     {
       "store": "Erexit 3D",
@@ -21,6 +21,12 @@
       "reason": "exit 1",
       "count": 92,
       "scrapedAt": "2026-08-17T18:50:26.102Z"
+    },
+    {
+      "store": "i3D Tienda",
+      "status": "updated",
+      "count": 357,
+      "scrapedAt": "2026-08-25T00:47:02.307Z"
     },
     {
       "store": "Lefasoc",
@@ -49,6 +55,18 @@
       "reason": "exit 1",
       "count": 335,
       "scrapedAt": "2026-08-17T18:55:55.423Z"
+    },
+    {
+      "store": "Osiris 3D",
+      "status": "updated",
+      "count": 45,
+      "scrapedAt": "2026-08-24T22:45:52.228Z"
+    },
+    {
+      "store": "Todo 3D",
+      "status": "updated",
+      "count": 62,
+      "scrapedAt": "2026-08-25T00:50:32.819Z"
     }
   ]
 }

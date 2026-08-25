@@ -3,10 +3,13 @@ import { spawn } from "node:child_process";
 const scrapers = [
   ["Erexit 3D", "scripts/scrape-erexit3d.mjs"],
   ["Laboratorio 3D", "scripts/scrape-laboratorio3d.mjs"],
+  ["i3D Tienda", "scripts/scrape-i3dtienda.mjs"],
   ["Lefasoc", "scripts/scrape-lefasoc.mjs"],
   ["TP3D", "scripts/scrape-tp3d.mjs"],
   ["Proyecto Color", "scripts/scrape-proyectocolor.mjs"],
   ["Kimera 3D", "scripts/scrape-kimera3d.mjs"],
+  ["Osiris 3D", "scripts/scrape-osiris3d.mjs"],
+  ["Todo 3D", "scripts/scrape-todo3dsf.mjs"],
 ];
 
 function runScraper([name, script]) {

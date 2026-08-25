@@ -14,31 +14,52 @@
     "priority": 2
   },
   {
+    "name": "i3D Tienda",
+    "domain": "i3dtienda.com.ar",
+    "baseUrl": "https://www.i3dtienda.com.ar",
+    "integration": "scraper-tiendanube-html-variants",
+    "priority": 3
+  },
+  {
     "name": "Lefasoc",
     "domain": "lefasoc.com.ar",
     "baseUrl": "https://lefasoc.com.ar",
     "integration": "scraper-tiendanube-html-variants",
-    "priority": 3
+    "priority": 4
   },
   {
     "name": "Erexit 3D",
     "domain": "erexit3d.com",
     "baseUrl": "https://erexit3d.com",
     "integration": "scraper-html-variants",
-    "priority": 4
+    "priority": 5
   },
   {
     "name": "Proyecto Color",
     "domain": "proyectocolor.com.ar",
     "baseUrl": "https://proyectocolor.com.ar",
     "integration": "scraper-woocommerce-category",
-    "priority": 5
+    "priority": 6
   },
   {
     "name": "Kimera 3D",
     "domain": "kimera3d.com.ar",
     "baseUrl": "https://kimera3d.com.ar",
     "integration": "scraper-woocommerce-store-api-full-catalog",
-    "priority": 6
+    "priority": 7
+  },
+  {
+    "name": "Osiris 3D",
+    "domain": "osiris3d.com.ar",
+    "baseUrl": "https://www.osiris3d.com.ar",
+    "integration": "scraper-html-products-feed",
+    "priority": 8
+  },
+  {
+    "name": "Todo 3D",
+    "domain": "todo3dsf.com.ar",
+    "baseUrl": "https://www.todo3dsf.com.ar",
+    "integration": "scraper-html-products-feed",
+    "priority": 9
   }
 ]
