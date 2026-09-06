@@ -4,7 +4,7 @@
     "domain": "todo3dsf.com.ar",
     "baseUrl": "https://www.todo3dsf.com.ar"
   },
-  "scrapedAt": "2026-08-25T02:15:36.838Z",
+  "scrapedAt": "2026-09-06T14:53:46.775Z",
   "count": 62,
   "pages": [
     {
@@ -54,7 +54,7 @@
       "path": "/insumos-3d/repuestos",
       "url": "https://www.todo3dsf.com.ar/insumos-3d/repuestos",
       "found": 12,
-      "added": 12
+      "added": 10
     },
     {
       "page": 1,
@@ -96,7 +96,7 @@
       "path": "/grabadoras-laser",
       "url": "https://www.todo3dsf.com.ar/grabadoras-laser",
       "found": 7,
-      "added": 5
+      "added": 7
     }
   ],
   "products": [
@@ -281,6 +281,58 @@
       "variants": []
     },
     {
+      "id": "todo3dsf-28870134",
+      "sourceProductId": "28870134",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Aislante Silicona Funda Protector Bloque Ender V3 Ke K1",
+      "category": "Impresoras",
+      "price": 4500,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Creality"
+      ],
+      "image": "https://d22fxaf9t8d39k.cloudfront.net/99f3f53e67fce4acabd0ad4b81cf9b343da146f4e4c6fcf16c4815407bdf382132164.webp",
+      "url": "https://www.todo3dsf.com.ar/insumos-3d/repuestos/aislante-silicona-funda-protector-bloque-ender-v3-ke-k1",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/productos",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-28810879",
+      "sourceProductId": "28810879",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Cr Touch Sensor Autonivelación Creality 3d Original",
+      "category": "Impresoras",
+      "price": 85000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Creality",
+      "tags": [
+        "Creality"
+      ],
+      "image": "https://d22fxaf9t8d39k.cloudfront.net/d0b789a9649e9eec826690e2dcf80e8d4546f1f8067ae8763aa417051ee0a72632164.webp",
+      "url": "https://www.todo3dsf.com.ar/insumos-3d/repuestos/cr-touch-sensor-autonivelacion-creality-3d-original",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/productos",
+      "variants": []
+    },
+    {
       "id": "todo3dsf-28622390",
       "sourceProductId": "28622390",
       "store": "Todo 3D",
@@ -357,84 +409,8 @@
       "variants": []
     },
     {
-      "id": "todo3dsf-27959212",
-      "sourceProductId": "27959212",
-      "store": "Todo 3D",
-      "domain": "todo3dsf.com.ar",
-      "name": "Kit Pro Rodillo Giratorio para Falcon A1",
-      "category": "Herramientas",
-      "price": 350000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [],
-      "image": "https://d22fxaf9t8d39k.cloudfront.net/f1e9e63c42c5c5f3e0d287dd694c678671c6d0ba1e9c2d4e1829589954a6616832164.jpg",
-      "url": "https://www.todo3dsf.com.ar/grabadoras-laser/kit-pro-rodillo-giratorio-para-falcon-a1",
-      "scrapedFrom": "https://www.todo3dsf.com.ar/productos",
-      "variants": []
-    },
-    {
-      "id": "todo3dsf-27959194",
-      "sourceProductId": "27959194",
-      "store": "Todo 3D",
-      "domain": "todo3dsf.com.ar",
-      "name": "Grabadora Láser Creality Falcon Pro 60W",
-      "category": "Impresoras",
-      "price": 5000000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Creality",
-      "tags": [
-        "Creality"
-      ],
-      "image": "https://d22fxaf9t8d39k.cloudfront.net/5f44db4b99c1f75bed4ab05a71f44e27cdc0bd3a1cf707f20d2536dc32a8920f32164.jpg",
-      "url": "https://www.todo3dsf.com.ar/grabadoras-laser/grabadora-laser-creality-falcon-pro-60w",
-      "scrapedFrom": "https://www.todo3dsf.com.ar/productos",
-      "variants": []
-    },
-    {
-      "id": "todo3dsf-27844315",
-      "sourceProductId": "27844315",
-      "store": "Todo 3D",
-      "domain": "todo3dsf.com.ar",
-      "name": "PLA OUTLET",
-      "category": "Filamentos",
-      "price": 16000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "PLA"
-      ],
-      "image": "https://d22fxaf9t8d39k.cloudfront.net/e5ae3d8536c1d38650abf66e5892d4902be15f39adfa426147a6d46141ff0fa632164.jpg",
-      "url": "https://www.todo3dsf.com.ar/insumos-3d/filamentos/filamento-pla/pla-outlet",
-      "scrapedFrom": "https://www.todo3dsf.com.ar/insumos-3d/filamentos",
-      "variants": []
-    },
-    {
-      "id": "todo3dsf-26960882",
-      "sourceProductId": "26960882",
+      "id": "todo3dsf-pla-3nmax-se-x-750gr",
+      "sourceProductId": "pla-3nmax-se-x-750gr",
       "store": "Todo 3D",
       "domain": "todo3dsf.com.ar",
       "name": "PLA 3NMAX SE x 750gr",
@@ -443,12 +419,10 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": null,
       "tags": [
         "PLA"
@@ -634,7 +608,7 @@
       ],
       "image": "https://d22fxaf9t8d39k.cloudfront.net/b16b10b06c619f20c11fc1bca4926dc4c89e8e356703a0e0182e1c4a5a38478732164.jpg",
       "url": "https://www.todo3dsf.com.ar/insumos-3d/filamentos/filamento-pla/pla-hellbot-ecofila-lock",
-      "scrapedFrom": "https://www.todo3dsf.com.ar/insumos-3d/filamentos/filamento-pla",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/insumos-3d/filamentos",
       "variants": []
     },
     {
@@ -660,6 +634,33 @@
       ],
       "image": "https://d22fxaf9t8d39k.cloudfront.net/7e856d56cfe99ef48ab59d7b260aa3506bb1dbda35027a782d0fe43bb80bbbeb32164.png",
       "url": "https://www.todo3dsf.com.ar/insumos-3d/filamentos/filamento-pla/pla-3nmax",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/insumos-3d/filamentos/filamento-pla",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-9312955",
+      "sourceProductId": "9312955",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "PLA Astra Grilon3",
+      "category": "Filamentos",
+      "price": 28000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Grilon3",
+      "tags": [
+        "Grilon3",
+        "PLA"
+      ],
+      "image": "https://d22fxaf9t8d39k.cloudfront.net/62f16f8073d2b27f432408ef3760433e30bcfd571adbb5b9bc110a696540e12b32164.jpeg",
+      "url": "https://www.todo3dsf.com.ar/insumos-3d/filamentos/filamento-pla/pla-astra-grilon3",
       "scrapedFrom": "https://www.todo3dsf.com.ar/insumos-3d/filamentos/filamento-pla",
       "variants": []
     },
@@ -868,8 +869,8 @@
       "variants": []
     },
     {
-      "id": "todo3dsf-25040082",
-      "sourceProductId": "25040082",
+      "id": "todo3dsf-hotend-hardened-steel-bambu-lab-a1-y-a1-mini",
+      "sourceProductId": "hotend-hardened-steel-bambu-lab-a1-y-a1-mini",
       "store": "Todo 3D",
       "domain": "todo3dsf.com.ar",
       "name": "Hotend hardened steel Bambú Lab A1 y A1 mini",
@@ -878,12 +879,10 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": "Bambu Lab",
       "tags": [
         "Bambu Lab"
@@ -965,58 +964,6 @@
       "tags": [],
       "image": "https://d22fxaf9t8d39k.cloudfront.net/3048e8a915e16640fa0f336d6a811118c711d797dc209605d16b050ce591146d32164.webp",
       "url": "https://www.todo3dsf.com.ar/insumos-3d/repuestos/correa-gt2-6mm-abierta-reforzada-con-5-hilos",
-      "scrapedFrom": "https://www.todo3dsf.com.ar/insumos-3d/repuestos",
-      "variants": []
-    },
-    {
-      "id": "todo3dsf-23707683",
-      "sourceProductId": "23707683",
-      "store": "Todo 3D",
-      "domain": "todo3dsf.com.ar",
-      "name": "Espátula Creality 38mm",
-      "category": "Impresoras",
-      "price": 8500,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Creality",
-      "tags": [
-        "Creality"
-      ],
-      "image": "https://d22fxaf9t8d39k.cloudfront.net/dce893c3b3491c45c30f303725401b29437376e1641d5bc02cf3f5e8ffa2235132164.jpg",
-      "url": "https://www.todo3dsf.com.ar/insumos-3d/repuestos/espatula-creality-38mm",
-      "scrapedFrom": "https://www.todo3dsf.com.ar/insumos-3d/repuestos",
-      "variants": []
-    },
-    {
-      "id": "todo3dsf-23395332",
-      "sourceProductId": "23395332",
-      "store": "Todo 3D",
-      "domain": "todo3dsf.com.ar",
-      "name": "Nozzle Ender 3 V3 KE y K1",
-      "category": "Impresoras",
-      "price": 4500,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "Creality"
-      ],
-      "image": "https://d22fxaf9t8d39k.cloudfront.net/a28118264b283123a3872582f4e8525cdeb45d0ae87060c95108a6bd10213c0032164.jpg",
-      "url": "https://www.todo3dsf.com.ar/insumos-3d/repuestos/nozzle-ender-3-v3-ke-y-k1",
       "scrapedFrom": "https://www.todo3dsf.com.ar/insumos-3d/repuestos",
       "variants": []
     },
@@ -1537,6 +1484,56 @@
       "image": "https://d22fxaf9t8d39k.cloudfront.net/2304354aba2eb823f1c723acf5498266757cb211e29359611d62b47861f05a1b32164.jpg",
       "url": "https://www.todo3dsf.com.ar/accesorios/tee-rugby-simil-rb-vortex-low-cut-kicking-tee",
       "scrapedFrom": "https://www.todo3dsf.com.ar/accesorios",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-27959212",
+      "sourceProductId": "27959212",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Kit Pro Rodillo Giratorio para Falcon A1",
+      "category": "Herramientas",
+      "price": 350000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [],
+      "image": "https://d22fxaf9t8d39k.cloudfront.net/f1e9e63c42c5c5f3e0d287dd694c678671c6d0ba1e9c2d4e1829589954a6616832164.jpg",
+      "url": "https://www.todo3dsf.com.ar/grabadoras-laser/kit-pro-rodillo-giratorio-para-falcon-a1",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/grabadoras-laser",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-27959194",
+      "sourceProductId": "27959194",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Grabadora Láser Creality Falcon Pro 60W",
+      "category": "Impresoras",
+      "price": 5000000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Creality",
+      "tags": [
+        "Creality"
+      ],
+      "image": "https://d22fxaf9t8d39k.cloudfront.net/5f44db4b99c1f75bed4ab05a71f44e27cdc0bd3a1cf707f20d2536dc32a8920f32164.jpg",
+      "url": "https://www.todo3dsf.com.ar/grabadoras-laser/grabadora-laser-creality-falcon-pro-60w",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/grabadoras-laser",
       "variants": []
     },
     {

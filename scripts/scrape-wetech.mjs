@@ -235,12 +235,22 @@ async function discoverApi() {
   if (!scriptPath) throw new Error("Could not find WeTech storefront bundle");
 
   const script = await fetchText(`${STORE.baseUrl}${scriptPath}`);
-  const match = script.match(/const\s+sd="([^"]+)",pN="([^"]+)"/);
-  if (!match) throw new Error("Could not find WeTech catalog API credentials in storefront bundle");
+  const apiBaseMatch = script.match(/const\s+([A-Za-z_$][\w$]*)="(https:\/\/back\.wetech\.ar)"/);
+  if (!apiBaseMatch) throw new Error("Could not find WeTech API base URL in storefront bundle");
+
+  const apiBaseVariable = apiBaseMatch[1];
+  const tokenMatch =
+    script.match(/const\s+[A-Za-z_$][\w$]*="https:\/\/back\.wetech\.ar",\s*[A-Za-z_$][\w$]*="([^"]+)"/) ??
+    script.match(/const\s+sd="https:\/\/back\.wetech\.ar",\s*pN="([^"]+)"/);
+  if (!tokenMatch) throw new Error("Could not find WeTech catalog API token in storefront bundle");
+
+  if (!script.includes(apiBaseVariable) || !script.includes("/stk-item/catalogo")) {
+    throw new Error("Could not confirm WeTech catalog API usage in storefront bundle");
+  }
 
   return {
-    apiBaseUrl: match[1],
-    token: match[2],
+    apiBaseUrl: apiBaseMatch[2],
+    token: tokenMatch[1],
   };
 }
 

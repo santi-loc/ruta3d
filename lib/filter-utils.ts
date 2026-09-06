@@ -1,4 +1,5 @@
-import { penFilamentMaterial, type Product } from "./catalog";
+import { penFilamentMaterial } from "./catalog-constants";
+import type { Product } from "./catalog";
 import type { FilamentColor } from "./filament-colors";
 
 export const unknownBrand = "Sin marca";

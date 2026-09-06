@@ -23,6 +23,7 @@ import wetechData from "@/data/wetech-products.json";
 import { bestAvailablePrice, validTransferPrice } from "@/lib/pricing";
 import sourceConfig from "@/store-sources.json";
 import { detectFilamentColors, type FilamentColor } from "@/lib/filament-colors";
+import { penFilamentMaterial } from "@/lib/catalog-constants";
 
 export type StockLabel = "En stock" | "Pocas unidades" | "Consultar";
 export type SortDirection = "desc" | "asc";
@@ -263,7 +264,6 @@ const laserBrandNames = [
 
 export const unknownBrand = "Sin marca";
 export const unknownMaterial = "Sin material";
-export const penFilamentMaterial = "Lápiz 3D";
 export const materialLabels = [
   "PLA",
   "PLA Silk",

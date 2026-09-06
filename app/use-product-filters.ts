@@ -1,7 +1,8 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { penFilamentMaterial, type FilamentWeightGroup, type PrinterFrameType, type Product, type SortDirection, type StoreArea } from "@/lib/catalog";
+import { penFilamentMaterial } from "@/lib/catalog-constants";
+import type { FilamentWeightGroup, PrinterFrameType, Product, SortDirection, StoreArea } from "@/lib/catalog";
 import {
   normalizeQuery,
   productMatchesCategory,

@@ -5,14 +5,14 @@
     "baseUrl": "https://creaxis.com.ar",
     "apiPath": "/wp-json/wc/store/v1/products"
   },
-  "scrapedAt": "2026-08-26T17:31:50.569Z",
+  "scrapedAt": "2026-09-06T14:46:17.290Z",
   "source": "https://creaxis.com.ar/wp-json/wc/store/v1/products",
   "pages": [
     {
       "page": 1,
       "url": "https://creaxis.com.ar/wp-json/wc/store/v1/products?per_page=100&page=1",
-      "found": 95,
-      "added": 95
+      "found": 96,
+      "added": 96
     }
   ],
   "products": [
@@ -104,7 +104,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 9,
+      "stock": 8,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -127,10 +127,12 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 508900,
-      "purchaseModes": [],
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
+      "available": true,
       "brand": "Bambu Lab",
       "tags": [
         "Bambu Lab"
@@ -154,9 +156,9 @@
       "purchaseModes": [
         "Preventa"
       ],
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
+      "available": true,
       "brand": "Bambu Lab",
       "tags": [
         "Bambu Lab",
@@ -205,7 +207,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 2,
+      "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Bambu Lab",
@@ -486,6 +488,33 @@
       "variants": []
     },
     {
+      "id": "creaxis-2151",
+      "sourceProductId": "2151",
+      "store": "Creaxis 3D",
+      "domain": "creaxis.com.ar",
+      "name": "Creality Falcon A1 Pro 20W + Kit Rodillo Giratorio",
+      "category": "Corte laser",
+      "price": 2799399,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 2304999,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "Pocas unidades",
+      "available": true,
+      "brand": "Creality",
+      "tags": [
+        "Creality",
+        "Laser"
+      ],
+      "image": "https://creaxis.com.ar/wp-content/uploads/2026/09/falcon-a1-20w-kit.webp",
+      "url": "https://creaxis.com.ar/producto/creality-falcon-a1-pro-20w-kit-rodillo-giratorio/",
+      "scrapedFrom": "https://creaxis.com.ar/wp-json/wc/store/v1/products",
+      "variants": []
+    },
+    {
       "id": "creaxis-1629",
       "sourceProductId": "1629",
       "store": "Creaxis 3D",
@@ -656,7 +685,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 5,
+      "stock": 4,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Creality",
@@ -796,7 +825,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 8,
+      "stock": 6,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Filar",
@@ -1252,7 +1281,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 2,
+      "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Filar",
@@ -1338,7 +1367,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 30,
+      "stock": 28,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Filar",
@@ -1600,7 +1629,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 12,
+      "stock": 11,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Filar",
@@ -1656,7 +1685,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 8,
+      "stock": 7,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Filar",
@@ -1793,12 +1822,10 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 19990,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
-      "available": true,
+      "purchaseModes": [],
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": "Hellbot",
       "tags": [
         "Hellbot",
@@ -1880,7 +1907,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 10,
+      "stock": 8,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -1936,7 +1963,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 7,
+      "stock": 6,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2045,12 +2072,10 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 19990,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 2,
-      "stockLabel": "Pocas unidades",
-      "available": true,
+      "purchaseModes": [],
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": "Hellbot",
       "tags": [
         "Hellbot",
@@ -2102,8 +2127,8 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 4,
-      "stockLabel": "En stock",
+      "stock": 3,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Hellbot",
       "tags": [
@@ -2236,7 +2261,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 10,
+      "stock": 9,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2264,7 +2289,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 3,
+      "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Hellbot",
@@ -2289,12 +2314,10 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 19990,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
-      "available": true,
+      "purchaseModes": [],
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": "Hellbot",
       "tags": [
         "Hellbot",
@@ -2317,12 +2340,10 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 19990,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
-      "available": true,
+      "purchaseModes": [],
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": "Hellbot",
       "tags": [
         "Hellbot",
@@ -2348,7 +2369,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 5,
+      "stock": 4,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2376,7 +2397,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 3,
+      "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Hellbot",
@@ -2462,7 +2483,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 2,
+      "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Hellbot",
