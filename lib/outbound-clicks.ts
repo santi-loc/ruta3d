@@ -4,6 +4,7 @@ import type { NeonQueryFunction } from "@neondatabase/serverless";
 export type StoreClickSummary = {
   store: string;
   clicks: number;
+  recentClicks: number;
   lastClickAt: string | null;
 };
 
@@ -13,6 +14,21 @@ export type ProductClickSummary = {
   productName: string;
   targetUrl: string;
   clicks: number;
+  lastClickAt: string | null;
+};
+
+export type SourceClickSummary = {
+  source: string;
+  clicks: number;
+  recentClicks: number;
+  lastClickAt: string | null;
+};
+
+export type ClickMetricsOverview = {
+  totalClicks: number;
+  recentClicks: number;
+  storeCount: number;
+  productCount: number;
   lastClickAt: string | null;
 };
 
@@ -105,10 +121,14 @@ export async function getStoreClickSummaries(): Promise<StoreClickSummary[]> {
   if (sql) {
     await ensureOutboundClicksSchema();
     const rows = await sql`
-      SELECT store, COUNT(*)::int AS clicks, MAX(clicked_at)::text AS "lastClickAt"
+      SELECT
+        store,
+        COUNT(*)::int AS clicks,
+        COUNT(*) FILTER (WHERE clicked_at >= NOW() - INTERVAL '7 days')::int AS "recentClicks",
+        MAX(clicked_at)::text AS "lastClickAt"
       FROM outbound_clicks
       GROUP BY store
-      ORDER BY clicks DESC, store ASC
+      ORDER BY "recentClicks" DESC, clicks DESC, store ASC
     `;
 
     return rows as StoreClickSummary[];
@@ -119,14 +139,96 @@ export async function getStoreClickSummaries(): Promise<StoreClickSummary[]> {
   await ensureOutboundClicksSchema();
   const rows = await d1
     .prepare(
-      `SELECT store, COUNT(*) AS clicks, MAX(clicked_at) AS lastClickAt
+      `SELECT
+         store,
+         COUNT(*) AS clicks,
+         SUM(CASE WHEN clicked_at >= datetime('now', '-7 days') THEN 1 ELSE 0 END) AS recentClicks,
+         MAX(clicked_at) AS lastClickAt
        FROM outbound_clicks
        GROUP BY store
-       ORDER BY clicks DESC, store ASC`,
+       ORDER BY recentClicks DESC, clicks DESC, store ASC`,
     )
     .all<StoreClickSummary>();
 
   return rows.results;
+}
+
+export async function getSourceClickSummaries(): Promise<SourceClickSummary[]> {
+  const sql = await getNeonSql();
+  if (sql) {
+    await ensureOutboundClicksSchema();
+    const rows = await sql`
+      SELECT
+        source,
+        COUNT(*)::int AS clicks,
+        COUNT(*) FILTER (WHERE clicked_at >= NOW() - INTERVAL '7 days')::int AS "recentClicks",
+        MAX(clicked_at)::text AS "lastClickAt"
+      FROM outbound_clicks
+      GROUP BY source
+      ORDER BY "recentClicks" DESC, clicks DESC, source ASC
+    `;
+
+    return rows as SourceClickSummary[];
+  }
+
+  const d1 = await getD1();
+
+  await ensureOutboundClicksSchema();
+  const rows = await d1
+    .prepare(
+      `SELECT
+         source,
+         COUNT(*) AS clicks,
+         SUM(CASE WHEN clicked_at >= datetime('now', '-7 days') THEN 1 ELSE 0 END) AS recentClicks,
+         MAX(clicked_at) AS lastClickAt
+       FROM outbound_clicks
+       GROUP BY source
+       ORDER BY recentClicks DESC, clicks DESC, source ASC`,
+    )
+    .all<SourceClickSummary>();
+
+  return rows.results;
+}
+
+export async function getClickMetricsOverview(): Promise<ClickMetricsOverview> {
+  const sql = await getNeonSql();
+  if (sql) {
+    await ensureOutboundClicksSchema();
+    const rows = await sql`
+      SELECT
+        COUNT(*)::int AS "totalClicks",
+        COUNT(*) FILTER (WHERE clicked_at >= NOW() - INTERVAL '7 days')::int AS "recentClicks",
+        COUNT(DISTINCT store)::int AS "storeCount",
+        COUNT(DISTINCT product_id)::int AS "productCount",
+        MAX(clicked_at)::text AS "lastClickAt"
+      FROM outbound_clicks
+    `;
+
+    return rows[0] as ClickMetricsOverview;
+  }
+
+  const d1 = await getD1();
+
+  await ensureOutboundClicksSchema();
+  const rows = await d1
+    .prepare(
+      `SELECT
+         COUNT(*) AS totalClicks,
+         SUM(CASE WHEN clicked_at >= datetime('now', '-7 days') THEN 1 ELSE 0 END) AS recentClicks,
+         COUNT(DISTINCT store) AS storeCount,
+         COUNT(DISTINCT product_id) AS productCount,
+         MAX(clicked_at) AS lastClickAt
+       FROM outbound_clicks`,
+    )
+    .all<ClickMetricsOverview>();
+
+  return rows.results[0] ?? {
+    totalClicks: 0,
+    recentClicks: 0,
+    storeCount: 0,
+    productCount: 0,
+    lastClickAt: null,
+  };
 }
 
 export async function getProductClickSummaries(): Promise<ProductClickSummary[]> {

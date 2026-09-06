@@ -1,9 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import {
+  getClickMetricsOverview,
   getProductClickSummaries,
+  getSourceClickSummaries,
   getStoreClickSummaries,
+  type ClickMetricsOverview,
   type ProductClickSummary,
+  type SourceClickSummary,
   type StoreClickSummary,
 } from "@/lib/outbound-clicks";
 import { siteName } from "@/lib/site";
@@ -35,20 +39,28 @@ function dateLabel(value: string | null) {
 }
 
 export default async function StoreMetricsPage() {
+  let overview: ClickMetricsOverview = {
+    totalClicks: 0,
+    recentClicks: 0,
+    storeCount: 0,
+    productCount: 0,
+    lastClickAt: null,
+  };
   let storeSummaries: StoreClickSummary[] = [];
   let productSummaries: ProductClickSummary[] = [];
+  let sourceSummaries: SourceClickSummary[] = [];
   let errorMessage = "";
 
   try {
-    [storeSummaries, productSummaries] = await Promise.all([
+    [overview, storeSummaries, productSummaries, sourceSummaries] = await Promise.all([
+      getClickMetricsOverview(),
       getStoreClickSummaries(),
       getProductClickSummaries(),
+      getSourceClickSummaries(),
     ]);
   } catch {
     errorMessage = "Las métricas ya están preparadas, pero esta pantalla necesita una base conectada para leer y guardar clics reales. En Vercel se usa DATABASE_URL; en Cloudflare se usa D1.";
   }
-
-  const totalClicks = storeSummaries.reduce((total, store) => total + store.clicks, 0);
 
   return (
     <main className="metrics-page">
@@ -59,7 +71,7 @@ export default async function StoreMetricsPage() {
           <h1>Métricas de tiendas</h1>
           <p>Cantidad de veces que una persona salió desde la página hacia una tienda u oferta.</p>
         </div>
-        <strong>{numberFormatter.format(totalClicks)} clics totales</strong>
+        <strong>{numberFormatter.format(overview.totalClicks)} clics totales</strong>
       </header>
 
       {errorMessage ? (
@@ -68,6 +80,25 @@ export default async function StoreMetricsPage() {
           <p>{errorMessage}</p>
         </div>
       ) : null}
+
+      <section className="metrics-overview" aria-label="Resumen de métricas">
+        <article>
+          <span>Total</span>
+          <strong>{numberFormatter.format(overview.totalClicks)}</strong>
+        </article>
+        <article>
+          <span>Últimos 7 días</span>
+          <strong>{numberFormatter.format(overview.recentClicks ?? 0)}</strong>
+        </article>
+        <article>
+          <span>Tiendas con clicks</span>
+          <strong>{numberFormatter.format(overview.storeCount)}</strong>
+        </article>
+        <article>
+          <span>Último click</span>
+          <strong>{dateLabel(overview.lastClickAt)}</strong>
+        </article>
+      </section>
 
       <section className="metrics-section" aria-labelledby="store-clicks-title">
         <div className="metrics-section-heading">
@@ -80,6 +111,7 @@ export default async function StoreMetricsPage() {
               <thead>
                 <tr>
                   <th>Tienda</th>
+                  <th>Últimos 7 días</th>
                   <th>Clics</th>
                   <th>Último clic</th>
                 </tr>
@@ -88,6 +120,7 @@ export default async function StoreMetricsPage() {
                 {storeSummaries.map((store) => (
                   <tr key={store.store}>
                     <td>{store.store}</td>
+                    <td>{numberFormatter.format(store.recentClicks ?? 0)}</td>
                     <td>{numberFormatter.format(store.clicks)}</td>
                     <td>{dateLabel(store.lastClickAt)}</td>
                   </tr>
@@ -97,6 +130,39 @@ export default async function StoreMetricsPage() {
           </div>
         ) : (
           <p className="metrics-empty">Todavía no se registraron clics hacia tiendas.</p>
+        )}
+      </section>
+
+      <section className="metrics-section" aria-labelledby="source-clicks-title">
+        <div className="metrics-section-heading">
+          <h2 id="source-clicks-title">Clics por origen</h2>
+          <span>{numberFormatter.format(sourceSummaries.length)} orígenes</span>
+        </div>
+        {sourceSummaries.length ? (
+          <div className="metrics-table-wrap">
+            <table className="metrics-table">
+              <thead>
+                <tr>
+                  <th>Origen</th>
+                  <th>Últimos 7 días</th>
+                  <th>Clics</th>
+                  <th>Último clic</th>
+                </tr>
+              </thead>
+              <tbody>
+                {sourceSummaries.map((source) => (
+                  <tr key={source.source}>
+                    <td>{source.source}</td>
+                    <td>{numberFormatter.format(source.recentClicks ?? 0)}</td>
+                    <td>{numberFormatter.format(source.clicks)}</td>
+                    <td>{dateLabel(source.lastClickAt)}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        ) : (
+          <p className="metrics-empty">Todavía no hay suficientes clics para separar por origen.</p>
         )}
       </section>
 

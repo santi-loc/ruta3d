@@ -348,3 +348,15 @@ test("publishes catalog refresh status for stale scrape fallbacks", async () => 
   const html = await response.text();
   assert.match(html, /Datos actualizados entre|Última actualización parcial/);
 });
+
+test("renders useful store metrics dashboard labels", async () => {
+  const response = await render("/metricas-tiendas");
+  assert.equal(response.status, 200);
+
+  const html = await response.text();
+  assert.match(html, /Métricas de tiendas/);
+  assert.match(html, /Últimos 7 días/);
+  assert.match(html, /Tiendas con clicks/);
+  assert.match(html, /Clics por origen/);
+  assert.match(html, /Ofertas más visitadas/);
+});
