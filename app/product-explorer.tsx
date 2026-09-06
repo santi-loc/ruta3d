@@ -347,6 +347,25 @@ export function ProductExplorer({
     visibleCount,
     visibleProducts,
   } = useProductFilters(products, filamentBrands, filamentMaterials, availableResinPrinterBrands, availableResinMaterialBrands, initialQuery);
+
+  useEffect(() => {
+    const trackedQuery = query.trim();
+    if (trackedQuery.length < 2) return;
+
+    const timeoutId = window.setTimeout(() => {
+      const params = new URLSearchParams({
+        query: trackedQuery,
+        category,
+        store,
+        resultCount: String(filtered.length),
+      });
+
+      void fetch(`/api/search-metrics?${params.toString()}`, { cache: "no-store", keepalive: true }).catch(() => {});
+    }, 900);
+
+    return () => window.clearTimeout(timeoutId);
+  }, [category, filtered.length, query, store]);
+
   const hasSearchQuery = query.trim().length > 0;
   const showsResults = hasSearchQuery || category !== "Todas" || store !== "Todas" || nearbyOnly;
   const materialMenuOptions = filamentMaterials

@@ -113,6 +113,16 @@ test("applies security headers to rejected methods", async () => {
   assert.match(response.headers.get("content-security-policy") ?? "", /frame-ancestors 'none'/);
 });
 
+test("accepts sanitized search metrics without blocking users", async () => {
+  const response = await fetchWorker(
+    new Request(
+      "http://localhost/api/search-metrics?query=PLA%20negro%20%3Cscript%3E&category=Filamento&store=Todas&resultCount=12",
+    ),
+  );
+
+  assert.equal(response.status, 204);
+});
+
 test("sanitizes user-controlled search params before rendering", async () => {
   const response = await render("/?q=%3Cscript%3Ealert(1)%3C%2Fscript%3Ejavascript%3Aalert(1)");
   assert.equal(response.status, 200);
@@ -357,6 +367,9 @@ test("renders useful store metrics dashboard labels", async () => {
   assert.match(html, /Métricas de tiendas/);
   assert.match(html, /Últimos 7 días/);
   assert.match(html, /Tiendas con clicks/);
+  assert.match(html, /Búsquedas internas/);
+  assert.match(html, /Consultas únicas/);
+  assert.match(html, /Sin resultados/);
   assert.match(html, /Clics por origen/);
   assert.match(html, /Ofertas más visitadas/);
 });

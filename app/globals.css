@@ -4200,7 +4200,7 @@ a {
 .metrics-table {
   width: 100%;
   border-collapse: collapse;
-  min-width: 720px;
+  min-width: 760px;
 }
 
 .metrics-table th,
@@ -4223,7 +4223,9 @@ a {
 
 .metrics-table td:nth-child(2),
 .metrics-table td:nth-child(3),
-.metrics-table td:nth-child(4) {
+.metrics-table td:nth-child(4),
+.metrics-table td:nth-child(5),
+.metrics-table td:nth-child(6) {
   white-space: nowrap;
 }
 

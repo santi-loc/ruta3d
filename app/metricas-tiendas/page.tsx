@@ -3,10 +3,14 @@ import Link from "next/link";
 import {
   getClickMetricsOverview,
   getProductClickSummaries,
+  getSearchMetricsOverview,
+  getSearchQuerySummaries,
   getSourceClickSummaries,
   getStoreClickSummaries,
   type ClickMetricsOverview,
   type ProductClickSummary,
+  type SearchMetricsOverview,
+  type SearchQuerySummary,
   type SourceClickSummary,
   type StoreClickSummary,
 } from "@/lib/outbound-clicks";
@@ -25,8 +29,8 @@ export const dynamic = "force-dynamic";
 
 const numberFormatter = new Intl.NumberFormat("es-AR");
 
-function dateLabel(value: string | null) {
-  if (!value) return "Sin clics";
+function dateLabel(value: string | null, emptyLabel = "Sin clics") {
+  if (!value) return emptyLabel;
 
   const date = new Date(value);
   if (Number.isNaN(date.getTime())) return "Fecha no disponible";
@@ -49,17 +53,27 @@ export default async function StoreMetricsPage() {
   let storeSummaries: StoreClickSummary[] = [];
   let productSummaries: ProductClickSummary[] = [];
   let sourceSummaries: SourceClickSummary[] = [];
+  let searchOverview: SearchMetricsOverview = {
+    totalSearches: 0,
+    recentSearches: 0,
+    queryCount: 0,
+    zeroResultSearches: 0,
+    lastSearchedAt: null,
+  };
+  let searchSummaries: SearchQuerySummary[] = [];
   let errorMessage = "";
 
   try {
-    [overview, storeSummaries, productSummaries, sourceSummaries] = await Promise.all([
+    [overview, storeSummaries, productSummaries, sourceSummaries, searchOverview, searchSummaries] = await Promise.all([
       getClickMetricsOverview(),
       getStoreClickSummaries(),
       getProductClickSummaries(),
       getSourceClickSummaries(),
+      getSearchMetricsOverview(),
+      getSearchQuerySummaries(),
     ]);
   } catch {
-    errorMessage = "Las métricas ya están preparadas, pero esta pantalla necesita una base conectada para leer y guardar clics reales. En Vercel se usa DATABASE_URL; en Cloudflare se usa D1.";
+    errorMessage = "Las métricas ya están preparadas, pero esta pantalla necesita una base conectada para leer y guardar eventos reales. En Vercel se usa DATABASE_URL; en Cloudflare se usa D1.";
   }
 
   return (
@@ -98,6 +112,62 @@ export default async function StoreMetricsPage() {
           <span>Último click</span>
           <strong>{dateLabel(overview.lastClickAt)}</strong>
         </article>
+      </section>
+
+      <section className="metrics-overview" aria-label="Resumen de búsquedas">
+        <article>
+          <span>Búsquedas totales</span>
+          <strong>{numberFormatter.format(searchOverview.totalSearches)}</strong>
+        </article>
+        <article>
+          <span>Últimos 7 días</span>
+          <strong>{numberFormatter.format(searchOverview.recentSearches ?? 0)}</strong>
+        </article>
+        <article>
+          <span>Consultas únicas</span>
+          <strong>{numberFormatter.format(searchOverview.queryCount)}</strong>
+        </article>
+        <article>
+          <span>Sin resultados</span>
+          <strong>{numberFormatter.format(searchOverview.zeroResultSearches ?? 0)}</strong>
+        </article>
+      </section>
+
+      <section className="metrics-section" aria-labelledby="searches-title">
+        <div className="metrics-section-heading">
+          <h2 id="searches-title">Búsquedas internas</h2>
+          <span>{numberFormatter.format(searchSummaries.length)} consultas</span>
+        </div>
+        {searchSummaries.length ? (
+          <div className="metrics-table-wrap">
+            <table className="metrics-table">
+              <thead>
+                <tr>
+                  <th>Búsqueda</th>
+                  <th>Últimos 7 días</th>
+                  <th>Total</th>
+                  <th>Sin resultados</th>
+                  <th>Resultado prom.</th>
+                  <th>Última búsqueda</th>
+                </tr>
+              </thead>
+              <tbody>
+                {searchSummaries.map((search) => (
+                  <tr key={search.query}>
+                    <td>{search.query}</td>
+                    <td>{numberFormatter.format(search.recentSearches ?? 0)}</td>
+                    <td>{numberFormatter.format(search.searches)}</td>
+                    <td>{numberFormatter.format(search.zeroResultSearches ?? 0)}</td>
+                    <td>{numberFormatter.format(search.averageResultCount ?? 0)}</td>
+                    <td>{dateLabel(search.lastSearchedAt, "Sin búsquedas")}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        ) : (
+          <p className="metrics-empty">Cuando alguien use el buscador, sus consultas van a aparecer acá.</p>
+        )}
       </section>
 
       <section className="metrics-section" aria-labelledby="store-clicks-title">
