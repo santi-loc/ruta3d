@@ -1,5 +1,12 @@
 [
   {
+    "name": "3DTisk",
+    "domain": "3dtisk.com.ar",
+    "baseUrl": "https://3dtisk.com.ar",
+    "integration": "scraper-tiendanube-html-variants",
+    "priority": 21
+  },
+  {
     "name": "TP3D",
     "domain": "tp3d.com.ar",
     "baseUrl": "https://tp3d.com.ar",
@@ -21,52 +28,122 @@
     "priority": 3
   },
   {
+    "name": "Gprint 3D",
+    "domain": "gprint3d.com.ar",
+    "baseUrl": "https://gprint3d.com.ar",
+    "integration": "scraper-prestashop-categories",
+    "priority": 4
+  },
+  {
     "name": "Lefasoc",
     "domain": "lefasoc.com.ar",
     "baseUrl": "https://lefasoc.com.ar",
     "integration": "scraper-tiendanube-html-variants",
-    "priority": 4
+    "priority": 5
   },
   {
     "name": "Erexit 3D",
     "domain": "erexit3d.com",
     "baseUrl": "https://erexit3d.com",
     "integration": "scraper-html-variants",
-    "priority": 5
+    "priority": 6
+  },
+  {
+    "name": "Filacolor",
+    "domain": "filacolor.com.ar",
+    "baseUrl": "https://filacolor.com.ar",
+    "integration": "scraper-woocommerce-store-api-full-catalog",
+    "priority": 7
   },
   {
     "name": "Proyecto Color",
     "domain": "proyectocolor.com.ar",
     "baseUrl": "https://proyectocolor.com.ar",
     "integration": "scraper-woocommerce-category",
-    "priority": 6
+    "priority": 8
   },
   {
     "name": "Kimera 3D",
     "domain": "kimera3d.com.ar",
     "baseUrl": "https://kimera3d.com.ar",
     "integration": "scraper-woocommerce-store-api-full-catalog",
-    "priority": 7
+    "priority": 9
   },
   {
     "name": "Osiris 3D",
     "domain": "osiris3d.com.ar",
     "baseUrl": "https://www.osiris3d.com.ar",
     "integration": "scraper-html-products-feed",
-    "priority": 8
+    "priority": 10
   },
   {
     "name": "Todo 3D",
     "domain": "todo3dsf.com.ar",
     "baseUrl": "https://www.todo3dsf.com.ar",
     "integration": "scraper-html-products-feed",
-    "priority": 9
+    "priority": 11
   },
   {
     "name": "Trimetra 3D",
     "domain": "trimetra3d.com.ar",
     "baseUrl": "https://trimetra3d.com.ar",
     "integration": "scraper-tiendanube-html-variants",
-    "priority": 10
+    "priority": 12
+  },
+  {
+    "name": "Dino 3D",
+    "domain": "dino3d.com.ar",
+    "baseUrl": "https://www.dino3d.com.ar",
+    "integration": "scraper-html-products-feed",
+    "priority": 13
+  },
+  {
+    "name": "WeTech",
+    "domain": "shop.wetech.ar",
+    "baseUrl": "https://shop.wetech.ar",
+    "integration": "scraper-wetech-catalog-api",
+    "priority": 14
+  },
+  {
+    "name": "Llaveprint",
+    "domain": "llaveprint.com.ar",
+    "baseUrl": "https://www.llaveprint.com.ar",
+    "integration": "scraper-tiendanube-html-variants",
+    "priority": 15
+  },
+  {
+    "name": "Star Impression 3D",
+    "domain": "starimpression3d.com",
+    "baseUrl": "https://starimpression3d.com",
+    "integration": "scraper-woocommerce-store-api-full-catalog",
+    "priority": 16
+  },
+  {
+    "name": "Tecknicam 3D",
+    "domain": "tecknicam3d.com.ar",
+    "baseUrl": "https://www.tecknicam3d.com.ar",
+    "integration": "scraper-bootstrap-storefront",
+    "priority": 17
+  },
+  {
+    "name": "3Dimension",
+    "domain": "3dimension.empretienda.com.ar",
+    "baseUrl": "https://3dimension.empretienda.com.ar",
+    "integration": "scraper-empretienda-laser-feed",
+    "priority": 18
+  },
+  {
+    "name": "Global Value",
+    "domain": "globalvalue.ar",
+    "baseUrl": "https://globalvalue.ar",
+    "integration": "scraper-odoo-shop-feed",
+    "priority": 19
+  },
+  {
+    "name": "Creaxis 3D",
+    "domain": "creaxis.com.ar",
+    "baseUrl": "https://creaxis.com.ar",
+    "integration": "scraper-woocommerce-store-api-full-catalog",
+    "priority": 20
   }
 ]

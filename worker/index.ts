@@ -20,12 +20,18 @@ const imageRateLimitMax = 60;
 const imageRateLimits = new Map<string, RateLimitEntry>();
 const allowedImageHosts = new Set([
   "acdn-us.mitiendanube.com",
+  "www.dino3d.com.ar",
   "erexit3d.com",
+  "gprint3d.com.ar",
+  "i.imgur.com",
+  "ik.imagekit.io",
   "www.i3dtienda.com.ar",
+  "www.dino3d.com.ar",
   "kimera3d.com.ar",
   "laboratorio3d.com.ar",
   "d22fxaf9t8d39k.cloudfront.net",
   "proyectocolor.com.ar",
+  "starimpression3d.com",
   "tp3d.com.ar",
 ]);
 const dangerousQueryPattern =

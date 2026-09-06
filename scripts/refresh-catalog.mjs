@@ -5,9 +5,34 @@ import path from "node:path";
 
 const scrapers = [
   {
+    name: "3DTisk",
+    script: "scripts/scrape-3dtisk.mjs",
+    output: "data/3dtisk-products.json",
+  },
+  {
+    name: "3Dimension",
+    script: "scripts/scrape-3dimension.mjs",
+    output: "data/3dimension-products.json",
+  },
+  {
+    name: "Creaxis 3D",
+    script: "scripts/scrape-creaxis.mjs",
+    output: "data/creaxis-products.json",
+  },
+  {
+    name: "Dino 3D",
+    script: "scripts/scrape-dino3d.mjs",
+    output: "data/dino3d-products.json",
+  },
+  {
     name: "Erexit 3D",
     script: "scripts/scrape-erexit3d.mjs",
     output: "data/erexit3d-products.json",
+  },
+  {
+    name: "Filacolor",
+    script: "scripts/scrape-filacolor.mjs",
+    output: "data/filacolor-products.json",
   },
   {
     name: "Laboratorio 3D",
@@ -18,6 +43,16 @@ const scrapers = [
     name: "i3D Tienda",
     script: "scripts/scrape-i3dtienda.mjs",
     output: "data/i3dtienda-products.json",
+  },
+  {
+    name: "Gprint 3D",
+    script: "scripts/scrape-gprint3d.mjs",
+    output: "data/gprint3d-products.json",
+  },
+  {
+    name: "Global Value",
+    script: "scripts/scrape-globalvalue.mjs",
+    output: "data/globalvalue-products.json",
   },
   {
     name: "Lefasoc",
@@ -53,6 +88,26 @@ const scrapers = [
     name: "Trimetra 3D",
     script: "scripts/scrape-trimetra3d.mjs",
     output: "data/trimetra3d-products.json",
+  },
+  {
+    name: "WeTech",
+    script: "scripts/scrape-wetech.mjs",
+    output: "data/wetech-products.json",
+  },
+  {
+    name: "Llaveprint",
+    script: "scripts/scrape-llaveprint.mjs",
+    output: "data/llaveprint-products.json",
+  },
+  {
+    name: "Star Impression 3D",
+    script: "scripts/scrape-starimpression3d.mjs",
+    output: "data/starimpression3d-products.json",
+  },
+  {
+    name: "Tecknicam 3D",
+    script: "scripts/scrape-tecknicam3d.mjs",
+    output: "data/tecknicam3d-products.json",
   },
 ];
 

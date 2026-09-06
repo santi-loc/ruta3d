@@ -85,6 +85,7 @@ export function productMatchesCategory(product: Product, category: string) {
   if (category === "Curadoras") return product.isResinCuring;
   if (category === "Filamento") return product.isFilament && !product.isFdmPrinter && !product.isResinPrinter;
   if (category === "Resina") return product.isResinMaterial;
+  if (category === "Corte láser") return product.isLaserProduct;
 
   return product.category === category;
 }

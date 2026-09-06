@@ -32,6 +32,11 @@ const santaFeCenter: PostalCodeCenter = { label: "Santa Fe", lat: -31.6333, lng:
 const mapMinZoom = 4;
 const mapMaxZoom = 18;
 const mapZoomStep = 0.25;
+const storeAreaReferencePostalCodes: Record<string, number> = {
+  "CABA": 1416,
+  "La Plata": 1900,
+  "Córdoba": 5000,
+};
 
 const postalCodeCenters: Array<{ test: (code: number) => boolean } & PostalCodeCenter> = [
   { test: (code) => code >= 1000 && code <= 1499, label: "CABA", lat: -34.6037, lng: -58.3816, zoom: 13 },
@@ -53,10 +58,21 @@ const postalCodeCenters: Array<{ test: (code: number) => boolean } & PostalCodeC
 ];
 
 function postalCenterFor(value: string): PostalCodeCenter | null {
-  const code = Number(value.replace(/\D/g, "").slice(0, 4));
-  if (!Number.isFinite(code) || code < 1000) return null;
+  const code = postalCodeNumber(value);
+  if (code === null) return null;
 
   return postalCodeCenters.find((center) => center.test(code)) ?? null;
+}
+
+function postalCodeNumber(value: string): number | null {
+  const code = Number(value.replace(/\D/g, "").slice(0, 4));
+  return Number.isFinite(code) && code >= 1000 ? code : null;
+}
+
+function directStoreAreasFor(center: PostalCodeCenter) {
+  if (center.label === "AMBA") return ["CABA"];
+  if (center.label in storeAreaReferencePostalCodes) return [center.label];
+  return [];
 }
 
 function escapeHtml(value: string) {
@@ -73,6 +89,7 @@ export function StoreMap({ physicalStores, onSelectStore }: StoreMapProps) {
   const markersRef = useRef<LeafletMarker[]>([]);
   const [postalCode, setPostalCode] = useState("");
   const [postalMessage, setPostalMessage] = useState("Ingresá tu código postal para acercarte a tu zona.");
+  const [nearestStores, setNearestStores] = useState<StoreMapLocation[]>([]);
   const [mapReady, setMapReady] = useState(false);
   const [currentZoom, setCurrentZoom] = useState(argentinaCenter.zoom);
 
@@ -149,7 +166,7 @@ export function StoreMap({ physicalStores, onSelectStore }: StoreMapProps) {
         const marker = L.marker([store.lat, store.lng], {
           icon: L.divIcon({
             className: "osm-store-marker",
-            html: `<span>${escapeHtml(store.name)}</span><small>${escapeHtml(store.area)}</small>`,
+            html: `<span>${escapeHtml(store.name)}</span>`,
             iconAnchor: [18, 42],
             iconSize: [36, 42],
           }),
@@ -182,6 +199,42 @@ export function StoreMap({ physicalStores, onSelectStore }: StoreMapProps) {
     mapRef.current?.setView([center.lat, center.lng], center.zoom, { animate: true });
   }
 
+  function closestStoresFor(code: number) {
+    const uniqueStores = new Map<string, StoreMapLocation>();
+
+    const rankedStores = physicalStores
+      .map((store) => ({
+        distance: Math.abs((storeAreaReferencePostalCodes[store.area] ?? Number.POSITIVE_INFINITY) - code),
+        store,
+      }))
+      .sort((a, b) => a.distance - b.distance || a.store.name.localeCompare(b.store.name, "es"));
+
+    for (const { store } of rankedStores) {
+      if (!uniqueStores.has(store.name)) uniqueStores.set(store.name, store);
+    }
+
+    return [...uniqueStores.values()].slice(0, 3);
+  }
+
+  function showNearestStores(code: number, message: string) {
+    const closestStores = closestStoresFor(code);
+    setNearestStores(closestStores);
+    setPostalMessage(message);
+
+    if (closestStores.length > 0) {
+      mapRef.current?.fitBounds(closestStores.map((store) => [store.lat, store.lng] as [number, number]), {
+        animate: true,
+        maxZoom: 11,
+        padding: [56, 56],
+      });
+    }
+  }
+
+  function selectNearestStore(store: StoreMapLocation) {
+    mapRef.current?.setView([store.lat, store.lng], 15, { animate: true });
+    onSelectStore(store.name);
+  }
+
   function setZoom(nextZoom: number) {
     const boundedZoom = Math.min(mapMaxZoom, Math.max(mapMinZoom, nextZoom));
     setCurrentZoom(boundedZoom);
@@ -190,14 +243,30 @@ export function StoreMap({ physicalStores, onSelectStore }: StoreMapProps) {
 
   function handlePostalSearch(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
+    const code = postalCodeNumber(postalCode);
     const center = postalCenterFor(postalCode);
 
-    if (!center) {
-      setPostalMessage("No pude ubicar ese CP todavía. Probá con 1414, 1900, 5000 o una zona cercana.");
+    if (!code) {
+      setNearestStores([]);
+      setPostalMessage("No pude ubicar ese CP todavía. Probá con 1414, 1900, 3000 o 5000.");
       moveTo(argentinaCenter);
       return;
     }
 
+    if (!center) {
+      showNearestStores(code, "No tenemos esa zona cargada todavía. Te muestro los locales conectados más cercanos.");
+      return;
+    }
+
+    const directAreas = directStoreAreasFor(center);
+    const hasNearbyStore = directAreas.length > 0 && physicalStores.some((store) => directAreas.includes(store.area));
+
+    if (!hasNearbyStore) {
+      showNearestStores(code, `No hay locales conectados cerca de ${center.label}. Te muestro los más cercanos.`);
+      return;
+    }
+
+    setNearestStores([]);
     setPostalMessage(`Mapa centrado en ${center.label}.`);
     moveTo(center);
   }
@@ -213,7 +282,7 @@ export function StoreMap({ physicalStores, onSelectStore }: StoreMapProps) {
 
       <form className="store-map-search" onSubmit={handlePostalSearch}>
         <label htmlFor="store-map-postal-code">Tu código postal</label>
-        <div>
+        <div className="store-map-search-fields">
           <input
             id="store-map-postal-code"
             inputMode="numeric"
@@ -225,6 +294,19 @@ export function StoreMap({ physicalStores, onSelectStore }: StoreMapProps) {
           <button type="submit">Buscar</button>
         </div>
         <p>{postalMessage}</p>
+        {nearestStores.length ? (
+          <div className="store-map-nearest" aria-label="Locales más cercanos al código postal">
+            <strong>Locales más cercanos</strong>
+            <div>
+              {nearestStores.map((store) => (
+                <button key={`${store.name}-${store.address}`} type="button" onClick={() => selectNearestStore(store)}>
+                  <span>{store.name}</span>
+                  <small>{store.area}</small>
+                </button>
+              ))}
+            </div>
+          </div>
+        ) : null}
       </form>
 
       <div className="store-map-viewport">

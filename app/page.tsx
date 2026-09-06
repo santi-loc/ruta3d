@@ -6,7 +6,6 @@ import { siteDescription } from "@/lib/site";
 import { HomeJsonLd } from "./seo-json-ld";
 
 export const metadata: Metadata = {
-  title: "Comparador argentino de impresión 3D",
   description: siteDescription,
   alternates: {
     canonical: "/",

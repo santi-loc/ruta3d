@@ -1,9 +1,16 @@
 import { spawn } from "node:child_process";
 
 const scrapers = [
+  ["3DTisk", "scripts/scrape-3dtisk.mjs"],
+  ["3Dimension", "scripts/scrape-3dimension.mjs"],
+  ["Creaxis 3D", "scripts/scrape-creaxis.mjs"],
+  ["Dino 3D", "scripts/scrape-dino3d.mjs"],
   ["Erexit 3D", "scripts/scrape-erexit3d.mjs"],
+  ["Filacolor", "scripts/scrape-filacolor.mjs"],
   ["Laboratorio 3D", "scripts/scrape-laboratorio3d.mjs"],
   ["i3D Tienda", "scripts/scrape-i3dtienda.mjs"],
+  ["Gprint 3D", "scripts/scrape-gprint3d.mjs"],
+  ["Global Value", "scripts/scrape-globalvalue.mjs"],
   ["Lefasoc", "scripts/scrape-lefasoc.mjs"],
   ["TP3D", "scripts/scrape-tp3d.mjs"],
   ["Proyecto Color", "scripts/scrape-proyectocolor.mjs"],
@@ -11,6 +18,10 @@ const scrapers = [
   ["Osiris 3D", "scripts/scrape-osiris3d.mjs"],
   ["Todo 3D", "scripts/scrape-todo3dsf.mjs"],
   ["Trimetra 3D", "scripts/scrape-trimetra3d.mjs"],
+  ["WeTech", "scripts/scrape-wetech.mjs"],
+  ["Llaveprint", "scripts/scrape-llaveprint.mjs"],
+  ["Star Impression 3D", "scripts/scrape-starimpression3d.mjs"],
+  ["Tecknicam 3D", "scripts/scrape-tecknicam3d.mjs"],
 ];
 
 function runScraper([name, script]) {

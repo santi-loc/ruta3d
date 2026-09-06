@@ -27,6 +27,7 @@ export function HomeJsonLd({ products, productCount, storeCount }: { products: P
       "@type": "Organization",
       "@id": absoluteSiteUrl("/#organization"),
       name: siteName,
+      alternateName: ["Ruta3D", "Ruta 3D Argentina"],
       url: absoluteSiteUrl("/"),
       logo: absoluteSiteUrl("/ruta-3d-logo.png"),
       contactPoint: {
@@ -41,6 +42,7 @@ export function HomeJsonLd({ products, productCount, storeCount }: { products: P
       "@type": "WebSite",
       "@id": absoluteSiteUrl("/#website"),
       name: siteName,
+      alternateName: ["Ruta3D", "Ruta 3D Argentina"],
       url: absoluteSiteUrl("/"),
       inLanguage: "es-AR",
       description: siteDescription,

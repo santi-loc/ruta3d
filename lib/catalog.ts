@@ -1,14 +1,25 @@
+import threeDimensionData from "@/data/3dimension-products.json";
+import threeDtiskData from "@/data/3dtisk-products.json";
+import creaxisData from "@/data/creaxis-products.json";
 import erexitData from "@/data/erexit3d-products.json";
+import dinoData from "@/data/dino3d-products.json";
+import filacolorData from "@/data/filacolor-products.json";
 import refreshData from "@/data/catalog-refresh.json";
+import globalValueData from "@/data/globalvalue-products.json";
+import gprintData from "@/data/gprint3d-products.json";
 import i3dTiendaData from "@/data/i3dtienda-products.json";
 import kimeraData from "@/data/kimera3d-products.json";
 import lefasocData from "@/data/lefasoc-products.json";
 import laboratorioData from "@/data/laboratorio3d-products.json";
+import llaveprintData from "@/data/llaveprint-products.json";
 import osirisData from "@/data/osiris3d-products.json";
 import proyectoColorData from "@/data/proyectocolor-products.json";
+import starImpressionData from "@/data/starimpression3d-products.json";
+import tecknicamData from "@/data/tecknicam3d-products.json";
 import todo3dData from "@/data/todo3dsf-products.json";
 import trimetraData from "@/data/trimetra3d-products.json";
 import tp3dData from "@/data/tp3d-products.json";
+import wetechData from "@/data/wetech-products.json";
 import { bestAvailablePrice, validTransferPrice } from "@/lib/pricing";
 import sourceConfig from "@/store-sources.json";
 import { detectFilamentColors, type FilamentColor } from "@/lib/filament-colors";
@@ -59,6 +70,7 @@ export type Product = {
   isResinPrinter: boolean;
   isResinCuring: boolean;
   isResinMaterial: boolean;
+  isLaserProduct: boolean;
   printerFrameType?: PrinterFrameType;
   printerFeatures: PrinterFrameType[];
   purchaseModes: PurchaseMode[];
@@ -85,8 +97,15 @@ type StoreSourceConfig = {
 };
 
 const storeLocationsByName: Record<string, StoreLocation[]> = {
+  "3Dimension": [{ area: "CABA", address: "Palermo, Ciudad Autónoma de Buenos Aires", lat: -34.588, lng: -58.43 }],
+  "3DTisk": [{ area: "Córdoba", address: "Italia 1963, Córdoba" }],
+  "Creaxis 3D": [{ area: "Online", address: "Tienda online" }],
   "TP3D": [{ area: "Córdoba", address: "Rufino Cuervo 1085, X5000 Córdoba", lat: -31.438, lng: -64.165 }],
+  "Dino 3D": [{ area: "Córdoba", address: "San Jerónimo, esquina Cartechini, Córdoba", lat: -31.415, lng: -64.17 }],
   "Erexit 3D": [{ area: "Online", address: "Tienda online" }],
+  "Filacolor": [{ area: "CABA", address: "Av. de los Incas 4370, CABA", lat: -34.580, lng: -58.469 }],
+  "Gprint 3D": [{ area: "CABA", address: "Ituzaingo 914, Barracas, CABA", lat: -34.636, lng: -58.377 }],
+  "Global Value": [{ area: "Córdoba", address: "Córdoba, Argentina", lat: -31.416, lng: -64.184 }],
   "i3D Tienda": [{ area: "Online", address: "Tienda online" }],
   "Proyecto Color": [
     { area: "CABA", address: "Av. Gaona 1575, C1416DRD Cdad. Autónoma de Buenos Aires", lat: -34.614, lng: -58.459 },
@@ -98,9 +117,13 @@ const storeLocationsByName: Record<string, StoreLocation[]> = {
     { area: "CABA", address: "Virrey Cevallos 149, CABA", lat: -34.609, lng: -58.384 },
     { area: "CABA", address: "Godoy Cruz 2443, CABA", lat: -34.581, lng: -58.426 },
   ],
+  "Llaveprint": [{ area: "Online", address: "Tienda online" }],
   "Osiris 3D": [{ area: "Online", address: "Tienda online" }],
+  "Star Impression 3D": [{ area: "La Plata", address: "Calle 8 N° 579, La Plata, Buenos Aires", lat: -34.9113707, lng: -57.9569612 }],
+  "Tecknicam 3D": [{ area: "Buenos Aires", address: "Cañada de Juan Ruiz 1010, Moron, Buenos Aires, Argentina, 1708", lat: -34.642, lng: -58.621 }],
   "Todo 3D": [{ area: "Santa Fe", address: "Angel Casanello 980, Santa Fe, Santa Fe", lat: -31.621, lng: -60.696 }],
   "Trimetra 3D": [{ area: "Buenos Aires", address: "Rafaela 3724, Ciudadela, Buenos Aires", lat: -34.633, lng: -58.536 }],
+  "WeTech": [{ area: "Online", address: "Tienda online" }],
 };
 
 function storeLocationsFor(store: string) {
@@ -183,12 +206,13 @@ type CatalogFreshness = {
 export const categoryOptions = [
   "Todas",
   "Impresoras FDM",
-  "Impresoras de Resina",
-  "Curadoras",
   "Filamento",
-  "Resina",
   "Accesorios",
   "Repuestos",
+  "Impresoras de Resina",
+  "Curadoras",
+  "Resina",
+  "Corte láser",
   "Herramientas",
 ];
 
@@ -225,6 +249,16 @@ const filamentBrandNames = [
   "Toolbox",
   "Filar",
   "Elemental",
+];
+const laserBrandNames = [
+  "Creality",
+  "xTool",
+  "AlgoLaser",
+  "Sculpfun",
+  "Hellbot",
+  "Bambu Lab",
+  "Neje",
+  "Two Trees",
 ];
 
 export const unknownBrand = "Sin marca";
@@ -347,6 +381,14 @@ export function searchableTokens(text: string): string[] {
 
 function inferBrand(name: string, tags: string[], brand?: string | null) {
   const text = searchableText([name, brand, ...tags]);
+  if (/\bxtool\b/i.test(text)) return "xTool";
+  if (/\balgo[\s-]?laser\b/i.test(text)) return "AlgoLaser";
+  if (/\bsculpfun\b/i.test(text)) return "Sculpfun";
+  if (/\btwo[\s-]?trees\b/i.test(text)) return "Two Trees";
+  if (/\bcreal(?:ity|ty)\b/i.test(text)) return "Creality";
+  if (/\bneje\b/i.test(text)) return "Neje";
+  const matchedLaserBrand = laserBrandNames.find((item) => text.includes(item.toLowerCase()));
+  if (matchedLaserBrand) return matchedLaserBrand;
   if (text.includes("filamento mix pla small")) return "GST3D";
   if (text.includes("elemental")) return "Elemental";
   if (/\bams\b/i.test(text) || text.includes("bambulab")) return "Bambu Lab";
@@ -451,8 +493,15 @@ function detectAccessory(product: ProductClassificationInput) {
   return !isPrinterListing && /\b(camara|cámara|camaras|cámaras|ams|cfs|ace pro|multicolor|puffer|embudo|portabobinas|asa superior|modulo laser|módulo laser|laser upgrade|secador|secadora|space pi|scanner|escaner|escáner|cr scan|ferret|otter|raptor|enclosure|cerramiento)\b/i.test(text);
 }
 
+function detectLaserProduct(product: Pick<Product | ScrapedProduct, "name" | "category" | "brand" | "tags">) {
+  const text = searchableText([product.name, product.category, product.brand, ...product.tags]);
+
+  return /\b(laser|láser|laserpecker|algolaser|algo laser|xtool|x-tool|sculpfun|neje|two trees|falcon|drakon|honeycomb|panal|air assist|aire asistido|grabador|grabadora|cortadora|corte laser|corte láser|modulo laser|módulo laser|módulo láser|laser upgrade|rotary|rotatorio)\b/i.test(text);
+}
+
 function normalizedCategory(product: Pick<ScrapedProduct, "name" | "category" | "brand" | "tags">) {
   const text = searchableText([product.name, product.category, product.brand, ...product.tags]);
+  if (detectLaserProduct(product)) return "Corte láser";
   if (detectSparePart(product)) return "Repuestos";
   if (/\b(resina|lavable al agua|mercury|mercuy|lavado|curado|wash|cure)\b/i.test(text)) return "Resina";
   if (detectAccessory(product)) return "Accesorios";
@@ -609,12 +658,18 @@ function detectResinMaterial(
 }
 
 function storeColor(store: string) {
+  if (store === "3Dimension") return "#1c1c1c";
   if (store === "Laboratorio 3D") return "#315f95";
   if (store === "TP3D") return "#4f8f82";
   if (store === "Proyecto Color") return "#bf6b42";
   if (store === "Kimera 3D") return "#5874a8";
   if (store === "Lefasoc") return "#2d8c73";
   if (store === "Trimetra 3D") return "#2d6f7f";
+  if (store === "Dino 3D") return "#2f6e4e";
+  if (store === "Filacolor") return "#c73d7d";
+  if (store === "WeTech") return "#d6a318";
+  if (store === "Star Impression 3D") return "#d14e42";
+  if (store === "Tecknicam 3D") return "#6f8f12";
 
   return "#8f5aa6";
 }
@@ -785,6 +840,7 @@ function toProduct(product: ScrapedProduct, scrapedAt?: string): Product {
   const isFdmPrinter = detectFdmPrinter(baseProduct, isResinPrinter);
   const isResinCuring = detectResinCuring(baseProduct, isResinPrinter);
   const isResinMaterial = detectResinMaterial(baseProduct, isResinPrinter, isResinCuring);
+  const isLaserProduct = detectLaserProduct(baseProduct);
   const printerFeatures = isFdmPrinter ? detectPrinterFeatures(baseProduct) : [];
   const printerFrameType = printerFeatures.find(
     (feature): feature is Exclude<PrinterFrameType, "Multicolor"> => feature === "Abierta" || feature === "Cerrada",
@@ -802,6 +858,7 @@ function toProduct(product: ScrapedProduct, scrapedAt?: string): Product {
     isResinPrinter,
     isResinCuring,
     isResinMaterial,
+    isLaserProduct,
     printerFrameType,
     printerFeatures,
   };
@@ -814,6 +871,7 @@ export function productMatchesCategory(product: Product, category: string) {
   if (category === "Curadoras") return product.isResinCuring;
   if (category === "Filamento") return product.isFilament && !product.isFdmPrinter && !product.isResinPrinter;
   if (category === "Resina") return product.isResinMaterial;
+  if (category === "Corte láser") return product.isLaserProduct;
 
   return product.category === category;
 }
@@ -845,16 +903,27 @@ export function normalizeQuery(query: string) {
 }
 
 const scrapedCatalogs = [
+  threeDimensionData,
+  threeDtiskData,
+  creaxisData,
+  dinoData,
   erexitData,
+  filacolorData,
+  globalValueData,
+  gprintData,
   i3dTiendaData,
   laboratorioData,
   lefasocData,
+  llaveprintData,
   tp3dData,
   proyectoColorData,
+  starImpressionData,
+  tecknicamData,
   kimeraData,
   osirisData,
   todo3dData,
   trimetraData,
+  wetechData,
 ] as ScrapedCatalog[];
 
 const scrapedDates = scrapedCatalogs

@@ -64,6 +64,25 @@ function isPhysicalStoreLocation(location: Product["storeLocations"][number]): l
 }
 
 const fdmBrands = ["Bambu Lab", "Creality", "Elegoo", "Flashforge", "Snapmaker", "Anycubic", "Artillery", "Hellbot"];
+const laserBrandOrder = ["Creality", "xTool", "AlgoLaser", "Sculpfun", "Hellbot", "Bambu Lab", "Neje", "Two Trees"];
+const laserGroups = [
+  {
+    label: "Equipos",
+    items: [["Grabadoras y cortadoras", "grabadora laser"], ["Diodo", "diodo"], ["CO2", "co2"], ["Fibra / UV", "fibra uv"]],
+  },
+  {
+    label: "Módulos",
+    items: [["Módulos láser", "modulo laser"], ["Infrarrojo", "infrarrojo"], ["Upgrade kits", "laser upgrade"]],
+  },
+  {
+    label: "Accesorios",
+    items: [["Rotativos", "rotativo"], ["Honeycomb", "honeycomb"], ["Air assist", "air assist"], ["Risers y elevadores", "elevadores"]],
+  },
+  {
+    label: "Seguridad",
+    items: [["Purificadores", "purificador"], ["Cubiertas", "cubierta"], ["Lentes", "lente"], ["Materiales", "kit materiales"]],
+  },
+] as const;
 const printerAccessoryBrands = ["Bambu Lab", "Creality", "Elegoo", "Flashforge", "Anycubic", "Prusa", "Artillery", "Snapmaker"];
 const sparePartGroups = [
   {
@@ -119,7 +138,7 @@ const filamentWeightLabels: Record<FilamentWeightGroup, string> = {
 };
 const themeChangeEvent = "filtrar-3d-theme-change";
 const savedProductsStorageKey = "filtrar-3d-saved-products";
-type MobileCategoryPanel = "filament" | "resin" | "parts" | "printer";
+type MobileCategoryPanel = "filament" | "resin" | "parts" | "printer" | "laser";
 type ContactModal = "recommendation" | "store" | null;
 type AppliedFilter = {
   key: string;
@@ -190,12 +209,13 @@ function productMatchesTerms(product: Product, terms: string[]) {
   return terms.every((term) => product.searchText.includes(term));
 }
 
-function CategoryIcon({ type }: { type: "filament" | "resin" | "parts" | "printer" }) {
+function CategoryIcon({ type }: { type: "filament" | "resin" | "parts" | "printer" | "laser" }) {
   const common = { fill: "none", stroke: "currentColor", strokeLinecap: "round" as const, strokeLinejoin: "round" as const, strokeWidth: 1.8 };
 
   if (type === "filament") return <svg className="category-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="7.5" {...common} /><circle cx="12" cy="12" r="2.6" {...common} /><path d="M18.4 8.2 21 6.8v10.4l-2.6-1.4" {...common} /></svg>;
   if (type === "resin") return <svg className="category-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.2s-6.2 6.4-6.2 11a6.2 6.2 0 1 0 12.4 0c0-4.6-6.2-11-6.2-11Z" {...common} /><path d="M9.1 16.1c.4 1.1 1.4 1.8 2.7 1.8" {...common} /></svg>;
   if (type === "parts") return <svg className="category-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m14.4 6.1 3.5-3.5 1.5 1.5-3.5 3.5" {...common} /><path d="m12.5 8-8.9 8.9a2.1 2.1 0 0 0 3 3l8.9-8.9" {...common} /><path d="m13.2 3.4 1.7 1.7-3.1 3.1-2.2-.5-.5-2.2 3.1-3.1Z" {...common} /></svg>;
+  if (type === "laser") return <svg className="category-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 5.5h15v5h-15zM7.5 10.5 5.8 19M16.5 10.5l1.7 8.5M9 19h6M12 10.5v3.3M10.5 15.3 12 13.8l1.5 1.5M7.4 8h2.2M14.4 8h2.2" {...common} /></svg>;
   return <svg className="category-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5.2 8.2h13.6v9.1H5.2zM8.1 17.3v2.3M15.9 17.3v2.3M9 11.1h6M12 8.2V4.5h4.1" {...common} /><circle cx="12" cy="14.3" r="1" fill="currentColor" /></svg>;
 }
 
@@ -237,6 +257,10 @@ export function ProductExplorer({
   );
   const availableResinMaterialBrands = useMemo(
     () => availableBrands(products, (product) => product.isResinMaterial, resinPrinterBrands),
+    [products],
+  );
+  const availableLaserBrands = useMemo(
+    () => availableBrands(products, (product) => product.isLaserProduct, laserBrandOrder),
     [products],
   );
 
@@ -334,13 +358,16 @@ export function ProductExplorer({
   const isResinPrinterSearch = category === "Impresoras de Resina";
   const isCuringSearch = category === "Curadoras";
   const isResinMaterialSearch = category === "Resina";
+  const isLaserSearch = category === "Corte láser";
   const isPrinterSearch = isFdmPrinterSearch || isResinPrinterSearch;
   const isResinSearch = isResinPrinterSearch || isCuringSearch || isResinMaterialSearch;
-  const showsFilterSidebar = isFilamentSearch || isPrinterSearch || isCuringSearch || isResinMaterialSearch;
+  const showsFilterSidebar = isFilamentSearch || isPrinterSearch || isCuringSearch || isResinMaterialSearch || isLaserSearch;
   const priceSlider = isFilamentSearch
     ? { min: 0, max: 30_000, step: 1000, start: "$0", middle: "$15k / $20k", end: "$30k" }
     : isResinMaterialSearch
       ? { min: 0, max: 150_000, step: 5000, start: "$0", middle: "$75k", end: "$150k" }
+      : isLaserSearch
+        ? { min: 0, max: 5_000_000, step: 50_000, start: "$0", middle: "$2.5M", end: "$5M" }
       : isResinPrinterSearch || isCuringSearch
         ? { min: 230_000, max: 2_000_000, step: 25_000, start: "$230k", middle: "$1M", end: "$2M" }
         : { min: 300_000, max: 3_000_000, step: 50_000, start: "$300k", middle: "$1.5M", end: "$3M" };
@@ -505,6 +532,43 @@ export function ProductExplorer({
 
     return { onlineStores, physicalStores };
   }, [products, storeLinkByName, stores]);
+  const storeMenuGroups = useMemo(() => {
+    const byStore = new Map<string, Product>();
+    const groupOrder = ["CABA", "Buenos Aires", "Córdoba", "Santa Fe", "Varias provincias", "Online"] as const;
+    const groups = new Map(groupOrder.map((label) => [label, [] as { name: string; summary: string; url: string }[]]));
+
+    for (const product of products) {
+      if (!byStore.has(product.store)) byStore.set(product.store, product);
+    }
+
+    for (const storeName of stores.slice(1)) {
+      const product = byStore.get(storeName);
+      const physicalAreas = new Set(
+        (product?.storeLocations ?? [])
+          .filter((location) => location.area !== "Online")
+          .map((location) => location.area === "La Plata" ? "Buenos Aires" : location.area),
+      );
+      const group =
+        physicalAreas.size === 0
+          ? "Online"
+          : physicalAreas.size > 1
+            ? "Varias provincias"
+            : [...physicalAreas][0];
+
+      groups.get(group)?.push({
+        name: storeName,
+        summary: product?.storeLocationSummary ?? "Ubicación no informada",
+        url: storeLinkByName.get(storeName) ?? product?.url ?? "",
+      });
+    }
+
+    return groupOrder
+      .map((label) => ({
+        label,
+        stores: (groups.get(label) ?? []).sort((a, b) => a.name.localeCompare(b.name, "es")),
+      }))
+      .filter((group) => group.stores.length > 0);
+  }, [products, storeLinkByName, stores]);
   const resultsTitle = hasSearchQuery
     ? `Resultados para “${query.trim()}”`
     : `Resultados de ${category !== "Todas" ? category : nearbyOnly && nearbyStoreArea ? "tiendas cerca de tu CP" : nearbyOnly ? "otras tiendas" : store}`;
@@ -530,7 +594,9 @@ export function ProductExplorer({
       ? "Resina"
       : mobileCategoryPanel === "parts"
         ? "Partes y repuestos"
-        : "Impresoras FDM";
+        : mobileCategoryPanel === "laser"
+          ? "Corte láser"
+          : "Impresoras FDM";
 
   const openMobileCategoryPanel = (panel: MobileCategoryPanel) => {
     if (typeof window !== "undefined" && window.matchMedia("(max-width: 700px)").matches) {
@@ -563,6 +629,8 @@ export function ProductExplorer({
   const filterResinCuringByBrand = (brand: string | null = null) => { setCategory("Curadoras"); handleQueryChange(brand ? `${brand} curado` : "", false); selectAllResinPrinterBrands(); selectAllResinMaterialBrands(); selectAllResinTypes(); };
   const filterResinMaterialsByType = (type: string) => { setCategory("Resina"); handleQueryChange("", false); selectAllResinPrinterBrands(); chooseResinType(type); };
   const filterResinMaterialsByBrand = (brand: string) => { setCategory("Resina"); handleQueryChange("", false); selectAllResinPrinterBrands(); chooseResinMaterialBrand(brand); };
+  const showAllLaserProducts = () => { setCategory("Corte láser"); handleQueryChange("", false); };
+  const filterLaserByTerm = (term: string) => { setCategory("Corte láser"); handleQueryChange(term, false); };
   const openContactModal = (modal: Exclude<ContactModal, null>) => {
     setContactModal(modal);
     setIsStoreMenuOpen(false);
@@ -705,16 +773,23 @@ export function ProductExplorer({
           <div className={`site-nav-dropdown ${isStoreMenuOpen ? "open" : ""}`}>
             <button type="button" aria-expanded={isStoreMenuOpen} aria-controls="store-menu" onClick={() => setIsStoreMenuOpen((open) => !open)} onKeyDown={(event) => { if (event.key === "Escape") setIsStoreMenuOpen(false); }}>Tiendas <span aria-hidden="true">⌄</span></button>
             <div id="store-menu" className="site-nav-dropdown-menu" aria-label="Lista de tiendas">
-              {stores.slice(1).map((store) => (
-                <div className="store-menu-row" key={store}>
-                  <button type="button" onClick={() => selectStore(store)}>
-                    <span>{store}</span>
-                    <small>{products.find((product) => product.store === store)?.storeLocationSummary ?? "Ubicación no informada"}</small>
-                  </button>
-                  <a className="store-menu-visit" href={outboundStoreUrl({ store, url: storeLinkByName.get(store) ?? "", source: "store-menu" })} target="_blank" rel="noreferrer" aria-label={`Visitar tienda original de ${store}`}>
-                    Visitar
-                  </a>
-                </div>
+              {storeMenuGroups.map((group) => (
+                <section className={`store-menu-group ${group.label === "Online" ? "is-online" : ""}`} key={group.label} aria-label={`Tiendas: ${group.label}`}>
+                  <h3>{group.label}</h3>
+                  <div className="store-menu-items">
+                    {group.stores.map((store) => (
+                      <div className="store-menu-row" key={store.name}>
+                        <button type="button" onClick={() => selectStore(store.name)}>
+                          <span>{store.name}</span>
+                          <small>{store.summary}</small>
+                        </button>
+                        <a className="store-menu-visit" href={outboundStoreUrl({ store: store.name, url: store.url, source: "store-menu" })} target="_blank" rel="noreferrer" aria-label={`Visitar tienda original de ${store.name}`}>
+                          Visitar
+                        </a>
+                      </div>
+                    ))}
+                  </div>
+                </section>
               ))}
             </div>
           </div>
@@ -761,7 +836,7 @@ export function ProductExplorer({
             <div className="hero-logo-lockup" aria-label="Ruta 3D">
               <Ruta3DMark className="hero-route-mark" />
             </div>
-            <h1>Comparador argentino de impresión 3D</h1>
+            <h1>Ruta 3D: Comparador argentino de impresión 3D</h1>
           </div>
           <div className="hero-showcase" aria-label="Comparador de productos">
             <div className="comparator-window">
@@ -802,6 +877,19 @@ export function ProductExplorer({
               </header>
 
               <div className="category-tabs" aria-label="Categorías">
+                <div className="category-menu">
+                  <button type="button" className={category === "Impresoras FDM" ? "active" : ""} onClick={() => { setCategory("Impresoras FDM"); resetVisibleCount(); openMobileCategoryPanel("printer"); }}>
+                    <CategoryIcon type="printer" />Impresoras FDM
+                  </button>
+                  <div className="mega-menu" aria-label="Marcas de impresoras FDM">
+                    <p>Marcas</p>
+                    {fdmBrands.map((brand) => (
+                      <button key={brand} type="button" className={selectedPrinterBrands.includes(brand) ? "selected" : ""} onClick={() => { setCategory("Impresoras FDM"); handleQueryChange("", false); togglePrinterBrand(brand); }}>
+                        {brand}
+                      </button>
+                    ))}
+                  </div>
+                </div>
                 <div className="category-menu filament-menu">
                   <button type="button" className={category === "Filamento" ? "active" : ""} onClick={() => { setCategory("Filamento"); resetVisibleCount(); openMobileCategoryPanel("filament"); }}>
                     <CategoryIcon type="filament" />Filamento
@@ -830,29 +918,6 @@ export function ProductExplorer({
                     <section>
                       <p>Kilos</p>
                       {filamentWeightOptions.map((weight) => <button key={weight} type="button" className={!allFilamentWeightsSelected && selectedFilamentWeights.includes(weight) ? "selected" : ""} onClick={() => { setCategory("Filamento"); chooseFilamentWeight(weight); }}>{filamentWeightLabels[weight]}</button>)}
-                    </section>
-                  </div>
-                </div>
-                <div className="category-menu resin-menu">
-                  <button type="button" className={isResinSearch ? "active" : ""} onClick={() => { showAllResinMaterials(); openMobileCategoryPanel("resin"); }}>
-                    <CategoryIcon type="resin" />Resina
-                  </button>
-                  <div className="mega-menu resin-mega-menu" aria-label="Filtros de resina">
-                    <section>
-                      <button className="menu-section-trigger" type="button" onClick={showAllResinPrinters}>Impresoras de resina</button>
-                      {availableResinPrinterBrands.map((brand) => <button key={brand} type="button" className={!allResinPrinterBrandsSelected && selectedResinPrinterBrands.includes(brand) ? "selected" : ""} onClick={() => filterResinPrintersByBrand(brand)}>{brand}</button>)}
-                    </section>
-                    <section>
-                      <button className="menu-section-trigger" type="button" onClick={showAllCuringMachines}>Curadoras</button>
-                      {availableCuringBrands.map((brand) => <button key={brand} type="button" onClick={() => filterResinCuringByBrand(brand)}>{brand}</button>)}
-                    </section>
-                    <section>
-                      <button className="menu-section-trigger" type="button" onClick={showAllResinMaterials}>Materiales de resina</button>
-                      {resinTypeOptions.map((type) => <button key={type} type="button" className={!allResinTypesSelected && selectedResinTypes.includes(type) ? "selected" : ""} onClick={() => filterResinMaterialsByType(type)}>{type}</button>)}
-                    </section>
-                    <section>
-                      <button className="menu-section-trigger" type="button" onClick={showAllResinMaterials}>Marcas de resina</button>
-                      {availableResinMaterialBrands.map((brand) => <button key={brand} type="button" className={!allResinMaterialBrandsSelected && selectedResinMaterialBrands.includes(brand) ? "selected" : ""} onClick={() => filterResinMaterialsByBrand(brand)}>{brand}</button>)}
                     </section>
                   </div>
                 </div>
@@ -889,17 +954,44 @@ export function ProductExplorer({
                     </section>
                   </div>
                 </div>
-                <div className="category-menu">
-                  <button type="button" className={category === "Impresoras FDM" ? "active" : ""} onClick={() => { setCategory("Impresoras FDM"); resetVisibleCount(); openMobileCategoryPanel("printer"); }}>
-                    <CategoryIcon type="printer" />Impresoras FDM
+                <div className="category-menu resin-menu">
+                  <button type="button" className={isResinSearch ? "active" : ""} onClick={() => { showAllResinMaterials(); openMobileCategoryPanel("resin"); }}>
+                    <CategoryIcon type="resin" />Resina
                   </button>
-                  <div className="mega-menu" aria-label="Marcas de impresoras FDM">
-                    <p>Marcas</p>
-                    {fdmBrands.map((brand) => (
-                      <button key={brand} type="button" className={selectedPrinterBrands.includes(brand) ? "selected" : ""} onClick={() => { setCategory("Impresoras FDM"); handleQueryChange("", false); togglePrinterBrand(brand); }}>
-                        {brand}
-                      </button>
+                  <div className="mega-menu resin-mega-menu" aria-label="Filtros de resina">
+                    <section>
+                      <button className="menu-section-trigger" type="button" onClick={showAllResinPrinters}>Impresoras de resina</button>
+                      {availableResinPrinterBrands.map((brand) => <button key={brand} type="button" className={!allResinPrinterBrandsSelected && selectedResinPrinterBrands.includes(brand) ? "selected" : ""} onClick={() => filterResinPrintersByBrand(brand)}>{brand}</button>)}
+                    </section>
+                    <section>
+                      <button className="menu-section-trigger" type="button" onClick={showAllCuringMachines}>Curadoras</button>
+                      {availableCuringBrands.map((brand) => <button key={brand} type="button" onClick={() => filterResinCuringByBrand(brand)}>{brand}</button>)}
+                    </section>
+                    <section>
+                      <button className="menu-section-trigger" type="button" onClick={showAllResinMaterials}>Materiales de resina</button>
+                      {resinTypeOptions.map((type) => <button key={type} type="button" className={!allResinTypesSelected && selectedResinTypes.includes(type) ? "selected" : ""} onClick={() => filterResinMaterialsByType(type)}>{type}</button>)}
+                    </section>
+                    <section>
+                      <button className="menu-section-trigger" type="button" onClick={showAllResinMaterials}>Marcas de resina</button>
+                      {availableResinMaterialBrands.map((brand) => <button key={brand} type="button" className={!allResinMaterialBrandsSelected && selectedResinMaterialBrands.includes(brand) ? "selected" : ""} onClick={() => filterResinMaterialsByBrand(brand)}>{brand}</button>)}
+                    </section>
+                  </div>
+                </div>
+                <div className="category-menu laser-menu">
+                  <button type="button" className={isLaserSearch ? "active" : ""} onClick={() => { showAllLaserProducts(); openMobileCategoryPanel("laser"); }}>
+                    <CategoryIcon type="laser" />Corte láser
+                  </button>
+                  <div className="mega-menu laser-mega-menu" aria-label="Filtros de corte láser">
+                    {laserGroups.map((group) => (
+                      <section key={group.label}>
+                        <button className="menu-section-trigger" type="button" onClick={showAllLaserProducts}>{group.label}</button>
+                        {group.items.map(([label, term]) => <button key={term} type="button" className={query.toLowerCase() === term ? "selected" : ""} onClick={() => filterLaserByTerm(term)}>{label}</button>)}
+                      </section>
                     ))}
+                    <section className="parts-brand-section laser-brand-section">
+                      <p>Marcas de corte láser</p>
+                      {availableLaserBrands.map((brand) => <button key={brand} type="button" className={query.toLowerCase() === brand.toLowerCase() ? "selected" : ""} onClick={() => filterLaserByTerm(brand)}>{brand}</button>)}
+                    </section>
                   </div>
                 </div>
               </div>
@@ -1018,6 +1110,25 @@ export function ProductExplorer({
 
                                 return <button key={brand} type="button" className={selectedSpareBrand === brand && selectedSpareFamily === "resin" ? "selected" : ""} disabled={isDisabled} aria-disabled={isDisabled} title={isDisabled ? "No hay productos para este filtro" : undefined} onClick={() => selectSpareBrand(brand, "resin")}>{brand}</button>;
                               })}
+                            </div>
+                          </details>
+                        </>
+                      ) : null}
+
+                      {mobileCategoryPanel === "laser" ? (
+                        <>
+                          {laserGroups.map((group, index) => (
+                            <details key={group.label} open={index === 0}>
+                              <summary onClick={showAllLaserProducts}>{group.label}</summary>
+                              <div className="mobile-filter-options">
+                                {group.items.map(([label, term]) => <button key={term} type="button" className={query.toLowerCase() === term ? "selected" : ""} onClick={() => filterLaserByTerm(term)}>{label}</button>)}
+                              </div>
+                            </details>
+                          ))}
+                          <details>
+                            <summary onClick={showAllLaserProducts}>Marcas de corte láser</summary>
+                            <div className="mobile-filter-options">
+                              {availableLaserBrands.map((brand) => <button key={brand} type="button" className={query.toLowerCase() === brand.toLowerCase() ? "selected" : ""} onClick={() => filterLaserByTerm(brand)}>{brand}</button>)}
                             </div>
                           </details>
                         </>

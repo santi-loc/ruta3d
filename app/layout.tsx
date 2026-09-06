@@ -20,13 +20,20 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   keywords: [
+    "Ruta 3D",
+    "Ruta3D",
+    "ruta 3d argentina",
     "impresoras 3D Argentina",
     "filamentos 3D Argentina",
     "comparador impresión 3D",
+    "comparador impresión 3D Argentina",
     "precio filamento PLA",
     "resina 3D Argentina",
     "repuestos impresora 3D",
   ],
+  verification: {
+    google: "google661992003dd36cbd.html",
+  },
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",

@@ -3,16 +3,27 @@ import { readdir, readFile } from "node:fs/promises";
 import test from "node:test";
 
 const allowedProductHostsByStore = new Map([
+  ["3Dimension", new Set(["3dimension.empretienda.com.ar", "d22fxaf9t8d39k.cloudfront.net"])],
+  ["3DTisk", new Set(["3dtisk.com.ar", "dcdn-us.mitiendanube.com"])],
+  ["Creaxis 3D", new Set(["creaxis.com.ar"])],
+  ["Dino 3D", new Set(["www.dino3d.com.ar"])],
   ["Erexit 3D", new Set(["erexit3d.com", "acdn-us.mitiendanube.com"])],
+  ["Filacolor", new Set(["filacolor.com.ar"])],
+  ["Gprint 3D", new Set(["gprint3d.com.ar"])],
+  ["Global Value", new Set(["globalvalue.ar"])],
   ["i3D Tienda", new Set(["www.i3dtienda.com.ar", "acdn-us.mitiendanube.com"])],
   ["Kimera 3D", new Set(["kimera3d.com.ar", "acdn-us.mitiendanube.com"])],
   ["Laboratorio 3D", new Set(["laboratorio3d.com.ar", "acdn-us.mitiendanube.com"])],
   ["Lefasoc", new Set(["lefasoc.com.ar", "acdn-us.mitiendanube.com"])],
+  ["Llaveprint", new Set(["www.llaveprint.com.ar", "dcdn-us.mitiendanube.com"])],
   ["Osiris 3D", new Set(["www.osiris3d.com.ar", "d22fxaf9t8d39k.cloudfront.net"])],
   ["Proyecto Color", new Set(["proyectocolor.com.ar"])],
+  ["Star Impression 3D", new Set(["starimpression3d.com"])],
+  ["Tecknicam 3D", new Set(["www.tecknicam3d.com.ar"])],
   ["Todo 3D", new Set(["www.todo3dsf.com.ar", "d22fxaf9t8d39k.cloudfront.net"])],
   ["Trimetra 3D", new Set(["trimetra3d.com.ar", "www.trimetra3d.com.ar", "acdn-us.mitiendanube.com"])],
   ["TP3D", new Set(["tp3d.com.ar"])],
+  ["WeTech", new Set(["shop.wetech.ar", "i.imgur.com", "ik.imagekit.io"])],
 ]);
 
 async function render(path = "/") {
@@ -205,6 +216,11 @@ test("keeps product taxonomy and progressive rendering wired", async () => {
   assert.match(explorer, /Materiales de resina/);
   assert.match(explorer, /Marcas de resina/);
   assert.match(explorer, /Marcas resina/);
+  assert.match(explorer, /Corte láser/);
+  assert.match(explorer, /Marcas de corte láser/);
+  assert.match(explorer, /laserGroups/);
+  assert.match(catalog, /"Corte láser"/);
+  assert.match(catalog, /isLaserProduct/);
   assert.doesNotMatch(explorer, /"Ender"/);
   assert.doesNotMatch(explorer, /sistema multicolor/);
   assert.match(explorer, /disabled=\{isDisabled\}/);

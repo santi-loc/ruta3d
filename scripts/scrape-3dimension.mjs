@@ -2,41 +2,30 @@ import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 const STORE = {
-  name: "Todo 3D",
-  domain: "todo3dsf.com.ar",
-  baseUrl: "https://www.todo3dsf.com.ar",
+  name: "3Dimension",
+  domain: "3dimension.empretienda.com.ar",
+  baseUrl: "https://3dimension.empretienda.com.ar",
 };
 
-const DEFAULT_OUTPUT = "data/todo3dsf-products.json";
+const DEFAULT_OUTPUT = "data/3dimension-products.json";
 const CATEGORY_PATHS = [
-  "/productos",
-  "/insumos-3d/filamentos",
-  "/insumos-3d/filamentos/filamento-pla",
-  "/insumos-3d/filamentos/filamento-abs",
-  "/insumos-3d/filamentos/filamento-petg",
-  "/insumos-3d/filamentos/otros-filamentos",
-  "/insumos-3d/repuestos",
-  "/insumos-3d/resinas",
-  "/impresoras-3d",
-  "/impresoras-3d/fdm-filamento",
-  "/impresoras-3d/sla-resina",
-  "/accesorios",
-  "/grabadoras-laser",
+  "/cortadoras-laser",
+  "/cortadoras-laser/accesorios",
+  "/cortadoras-laser/creality",
+  "/cortadoras-laser/algolaser",
+  "/cortadoras-laser/combos",
+  "/grabadora-laser-fibra",
 ];
-const MAX_CATEGORY_PAGES = Number.parseInt(process.env.TODO3DSF_MAX_CATEGORY_PAGES ?? "1", 10);
+const MAX_CATEGORY_PAGES = Number.parseInt(process.env.THREEDIMENSION_MAX_CATEGORY_PAGES ?? "2", 10);
 
 const brandLabels = [
-  "3N3",
-  "Anycubic",
-  "Artillery",
-  "Bambu Lab",
-  "Bambulab",
+  "AlgoLaser",
+  "Algolaser",
   "Creality",
-  "Elegoo",
-  "Grilón3",
-  "Grilon3",
-  "Hellbot",
-  "Printalot",
+  "xTool",
+  "Sculpfun",
+  "Neje",
+  "Two Trees",
 ];
 
 function decodeHtml(value = "") {
@@ -77,71 +66,28 @@ function slugFromUrl(url) {
   return url?.split("/").filter(Boolean).at(-1) ?? null;
 }
 
-function inferCategory(name, url) {
-  const text = `${name} ${url}`.toLowerCase();
-
-  if (text.includes("resina")) return "Resina";
-  if (
-    text.includes("impresora") ||
-    text.includes("bambu") ||
-    text.includes("creality") ||
-    text.includes("anycubic") ||
-    text.includes("ender")
-  ) {
-    return "Impresoras";
-  }
-  if (
-    text.includes("filamento") ||
-    text.includes("pla") ||
-    text.includes("petg") ||
-    text.includes("abs") ||
-    text.includes("asa") ||
-    text.includes("tpu") ||
-    text.includes("grilon")
-  ) {
-    return "Filamentos";
-  }
-  if (
-    text.includes("repuesto") ||
-    text.includes("boquilla") ||
-    text.includes("nozzle") ||
-    text.includes("hotend") ||
-    text.includes("placa") ||
-    text.includes("sensor")
-  ) {
-    return "Repuestos";
-  }
-  if (text.includes("laser") || text.includes("herramienta")) return "Herramientas";
-
-  return "Accesorios";
-}
-
 function inferBrand(name) {
   const text = name.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
   const brand = brandLabels.find((label) =>
     text.includes(label.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")),
   );
 
-  if (brand === "Bambulab") return "Bambu Lab";
-  if (brand === "Grilón3") return "Grilon3";
-
-  return brand ?? null;
+  return brand === "Algolaser" ? "AlgoLaser" : brand ?? null;
 }
 
 function makeTags(name, url, brand) {
   const text = `${name} ${url} ${brand ?? ""}`.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-  const tags = new Set();
+  const tags = new Set(["Corte láser"]);
 
   if (brand) tags.add(brand);
-  for (const material of ["PLA", "PETG", "ABS", "ASA", "TPU", "FLEX", "NYLON", "PC", "PVA"]) {
-    if (text.includes(material.toLowerCase())) tags.add(material);
-  }
-  if (text.includes("1kg") || text.includes("1 kg")) tags.add("1kg");
-  if (text.includes("bambu")) tags.add("Bambu Lab");
-  if (text.includes("creality") || text.includes("ender")) tags.add("Creality");
-  if (text.includes("grilon")) tags.add("Grilon3");
+  if (text.includes("fibra")) tags.add("Fibra");
+  if (text.includes("diodo") || text.includes("diode")) tags.add("Diodo");
+  if (text.includes("rotatorio") || text.includes("rotary")) tags.add("Rotatorio");
+  if (text.includes("panal") || text.includes("honeycomb")) tags.add("Panal");
+  if (text.includes("aire")) tags.add("Air Assist");
+  if (text.includes("combo")) tags.add("Combo");
 
-  return [...tags].slice(0, 5);
+  return [...tags].slice(0, 6);
 }
 
 function stockLabel(available) {
@@ -156,7 +102,7 @@ function extractProducts(html, sourceUrl) {
   for (const match of html.matchAll(productRegex)) {
     const block = match[0];
     const url = normalizeUrl(
-      block.match(/<a[^>]+href="(https:\/\/www\.todo3dsf\.com\.ar\/[^"]+)"/)?.[1] ??
+      block.match(/<a[^>]+href="(https:\/\/3dimension\.empretienda\.com\.ar\/[^"]+)"/)?.[1] ??
         block.match(/<a[^>]+href="(\/[^"]+)"/)?.[1],
     );
     const name = decodeHtml(
@@ -175,12 +121,12 @@ function extractProducts(html, sourceUrl) {
     if (!productId || !name || !url || !price) continue;
 
     products.push({
-      id: `todo3dsf-${productId}`,
+      id: `3dimension-${productId}`,
       sourceProductId: productId,
       store: STORE.name,
       domain: STORE.domain,
       name,
-      category: inferCategory(name, url),
+      category: "Corte láser",
       price,
       currency: "ARS",
       previousPrice: null,
@@ -211,7 +157,7 @@ async function fetchPage(pathname, page) {
   });
 
   if (!response.ok) {
-    throw new Error(`Todo 3D responded ${response.status} for ${url}`);
+    throw new Error(`3Dimension responded ${response.status} for ${url}`);
   }
 
   return { url, html: await response.text() };
@@ -255,7 +201,7 @@ const result = await scrape();
 await mkdir(path.dirname(outputPath), { recursive: true });
 await writeFile(outputPath, `${JSON.stringify(result, null, 2)}\n`);
 
-console.log(`Scraped ${result.count} Todo 3D products into ${path.relative(process.cwd(), outputPath)}`);
+console.log(`Scraped ${result.count} 3Dimension products into ${path.relative(process.cwd(), outputPath)}`);
 for (const page of result.pages) {
   console.log(`- ${page.path} page ${page.page}: ${page.added}/${page.found} new products`);
 }

@@ -17,6 +17,8 @@ export const metadata: Metadata = {
   },
 };
 
+export const dynamic = "force-dynamic";
+
 const numberFormatter = new Intl.NumberFormat("es-AR");
 
 function dateLabel(value: string | null) {
@@ -43,7 +45,7 @@ export default async function StoreMetricsPage() {
       getProductClickSummaries(),
     ]);
   } catch {
-    errorMessage = "Las métricas ya están preparadas, pero esta pantalla necesita correr en la publicación con D1 vinculada para leer y guardar clics reales. En local o sin base conectada se muestra este estado informativo.";
+    errorMessage = "Las métricas ya están preparadas, pero esta pantalla necesita una base conectada para leer y guardar clics reales. En Vercel se usa DATABASE_URL; en Cloudflare se usa D1.";
   }
 
   const totalClicks = storeSummaries.reduce((total, store) => total + store.clicks, 0);

@@ -1,12 +1,12 @@
 {
   "startedAt": "2026-08-22T16:22:54.930Z",
-  "refreshedAt": "2026-08-25T01:04:25.346Z",
+  "refreshedAt": "2026-08-25T21:37:47.151Z",
   "status": "partial",
   "lastSuccessfulFullRefreshAt": null,
-  "updatedStores": 4,
+  "updatedStores": 5,
   "staleStores": 6,
   "oldestScrapedAt": "2026-08-17T18:50:22.440Z",
-  "newestScrapedAt": "2026-08-25T01:04:25.346Z",
+  "newestScrapedAt": "2026-08-25T21:37:47.151Z",
   "stores": [
     {
       "store": "Erexit 3D",
@@ -73,6 +73,12 @@
       "status": "updated",
       "count": 55,
       "scrapedAt": "2026-08-25T01:04:25.346Z"
+    },
+    {
+      "store": "Tecknicam 3D",
+      "status": "updated",
+      "count": 209,
+      "scrapedAt": "2026-08-25T21:37:47.151Z"
     }
   ]
 }
