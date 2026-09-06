@@ -112,21 +112,36 @@ const scrapers = [
 ];
 
 const manifestPath = "data/catalog-refresh.json";
+const DEFAULT_CONCURRENCY = 4;
+const DEFAULT_SCRAPER_TIMEOUT_MS = 8 * 60 * 1000;
+
+function positiveIntegerEnv(name, fallback) {
+  const value = Number.parseInt(process.env[name] ?? "", 10);
+  return Number.isFinite(value) && value > 0 ? value : fallback;
+}
+
+const concurrency = positiveIntegerEnv("CATALOG_REFRESH_CONCURRENCY", DEFAULT_CONCURRENCY);
+const scraperTimeoutMs = positiveIntegerEnv("CATALOG_REFRESH_TIMEOUT_MS", DEFAULT_SCRAPER_TIMEOUT_MS);
 
 function runScraper(scraper, outputPath) {
   return new Promise((resolve) => {
     const child = spawn(process.execPath, [scraper.script, `--output=${outputPath}`], {
       stdio: "inherit",
     });
+    const timeout = setTimeout(() => {
+      child.kill("SIGTERM");
+    }, scraperTimeoutMs);
 
     child.on("close", (code, signal) => {
+      clearTimeout(timeout);
       resolve({
         ok: code === 0,
-        reason: signal ? `signal ${signal}` : `exit ${code}`,
+        reason: signal === "SIGTERM" ? `timeout after ${Math.round(scraperTimeoutMs / 1000)}s` : signal ? `signal ${signal}` : `exit ${code}`,
       });
     });
 
     child.on("error", (error) => {
+      clearTimeout(timeout);
       resolve({
         ok: false,
         reason: error.message,
@@ -185,47 +200,66 @@ async function readPreviousFullRefresh() {
   }
 }
 
+async function refreshStore(scraper, temporaryDirectory) {
+  const temporaryOutput = path.join(temporaryDirectory, path.basename(scraper.output));
+  const previous = await previousStoreState(scraper);
+  const run = await runScraper(scraper, temporaryOutput);
+
+  if (!run.ok) {
+    return {
+      store: scraper.name,
+      status: "stale",
+      reason: run.reason,
+      count: previous.count,
+      scrapedAt: previous.scrapedAt,
+    };
+  }
+
+  try {
+    const next = await validateCatalog(temporaryOutput, scraper.name);
+    await copyFile(temporaryOutput, scraper.output);
+    return {
+      store: scraper.name,
+      status: "updated",
+      count: next.count,
+      scrapedAt: next.scrapedAt,
+    };
+  } catch (error) {
+    return {
+      store: scraper.name,
+      status: "stale",
+      reason: error instanceof Error ? error.message : "invalid scraper output",
+      count: previous.count,
+      scrapedAt: previous.scrapedAt,
+    };
+  }
+}
+
+async function runLimited(items, limit, task) {
+  const results = new Array(items.length);
+  let nextIndex = 0;
+
+  async function worker() {
+    while (nextIndex < items.length) {
+      const index = nextIndex;
+      nextIndex += 1;
+      results[index] = await task(items[index]);
+    }
+  }
+
+  await Promise.all(Array.from({ length: Math.min(limit, items.length) }, () => worker()));
+
+  return results;
+}
+
 const temporaryDirectory = await mkdir(path.join(os.tmpdir(), `ruta3d-refresh-${process.pid}`), { recursive: true })
   .then(() => path.join(os.tmpdir(), `ruta3d-refresh-${process.pid}`));
 const startedAt = new Date().toISOString();
-const results = [];
+let results = [];
 
 try {
-  for (const scraper of scrapers) {
-    const temporaryOutput = path.join(temporaryDirectory, path.basename(scraper.output));
-    const previous = await previousStoreState(scraper);
-    const run = await runScraper(scraper, temporaryOutput);
-
-    if (!run.ok) {
-      results.push({
-        store: scraper.name,
-        status: "stale",
-        reason: run.reason,
-        count: previous.count,
-        scrapedAt: previous.scrapedAt,
-      });
-      continue;
-    }
-
-    try {
-      const next = await validateCatalog(temporaryOutput, scraper.name);
-      await copyFile(temporaryOutput, scraper.output);
-      results.push({
-        store: scraper.name,
-        status: "updated",
-        count: next.count,
-        scrapedAt: next.scrapedAt,
-      });
-    } catch (error) {
-      results.push({
-        store: scraper.name,
-        status: "stale",
-        reason: error instanceof Error ? error.message : "invalid scraper output",
-        count: previous.count,
-        scrapedAt: previous.scrapedAt,
-      });
-    }
-  }
+  console.log(`Actualizando ${scrapers.length} catálogos con concurrencia ${concurrency} y timeout ${Math.round(scraperTimeoutMs / 1000)}s por tienda...`);
+  results = await runLimited(scrapers, concurrency, (scraper) => refreshStore(scraper, temporaryDirectory));
 } finally {
   await rm(temporaryDirectory, { recursive: true, force: true });
 }

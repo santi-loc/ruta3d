@@ -16,15 +16,25 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
+
     steps:
       - uses: actions/checkout@v4
+
+      - run: corepack enable
+
       - uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: 24
           cache: pnpm
-      - run: corepack enable
+
       - run: pnpm install --frozen-lockfile
+
       - run: pnpm run refresh:catalog
+        env:
+          CATALOG_REFRESH_CONCURRENCY: 4
+          CATALOG_REFRESH_TIMEOUT_MS: 480000
+
       - name: Guardar catálogos actualizados
         run: |
           git config user.name "filtrar-3d-bot"
