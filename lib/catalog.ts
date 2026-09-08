@@ -210,6 +210,7 @@ export const categoryOptions = [
   "Filamento",
   "Accesorios",
   "Repuestos",
+  "Insumos",
   "Impresoras de Resina",
   "Curadoras",
   "Resina",
@@ -369,6 +370,28 @@ const nonFilamentProductWords = [
   "scanner",
   "escaner",
   "escáner",
+  "dtf",
+  "polimero",
+  "polímero",
+  "llavero",
+  "llaveros",
+  "pintura",
+  "barniz",
+  "vaso",
+  "vasos",
+  "milkshake",
+  "espatula",
+  "espátula",
+  "cepillo",
+  "cepillos",
+  "grasa",
+  "soplete",
+  "switch teclado",
+  "teclado mecanico",
+  "teclado mecánico",
+  "interior de mate",
+  "nost3r",
+  "nost3rd",
 ];
 
 export function searchableText(values: Array<string | undefined | null>) {
@@ -486,6 +509,18 @@ function detectSparePart(product: ProductClassificationInput) {
   return !isPrinterOrBundle && hasSparePartSignal;
 }
 
+function detectSupply(product: ProductClassificationInput) {
+  const text = searchableText([product.name, product.category, product.brand, ...product.tags]);
+
+  return /\b(polimero|polímero|polimeros|polímeros|interior de mate|nost3r|nost3rd|llavero|llaveros|argolla|pintura acrilica|pintura acrílica|vaso|vasos|milkshake|luz led para lamparas|luz led para lámparas|kit lapiz 3d|kit lápiz 3d)\b/i.test(text);
+}
+
+function detectTooling(product: ProductClassificationInput) {
+  const text = searchableText([product.name, product.category, product.brand, ...product.tags]);
+
+  return /\b(espatula|espátula|cepillo|cepillos|grasa|barniz acrilico|barniz acrílico|encendedor soplete|soplete|switch teclado|teclado mecanico|teclado mecánico)\b/i.test(text);
+}
+
 function detectAccessory(product: ProductClassificationInput) {
   const text = searchableText([product.name, product.category, product.brand, ...product.tags]);
   const isPrinterListing = /\b(impresora|printer)\b/i.test(text);
@@ -499,10 +534,37 @@ function detectLaserProduct(product: Pick<Product | ScrapedProduct, "name" | "ca
   return /\b(laser|láser|laserpecker|algolaser|algo laser|xtool|x-tool|sculpfun|neje|two trees|falcon|drakon|honeycomb|panal|air assist|aire asistido|grabador|grabadora|cortadora|corte laser|corte láser|modulo laser|módulo laser|módulo láser|laser upgrade|rotary|rotatorio)\b/i.test(text);
 }
 
+function productMatchesCompleteLaserMachine(product: Pick<Product, "name" | "brand" | "tags" | "isLaserProduct">) {
+  if (!product.isLaserProduct) return false;
+
+  const text = searchableText([product.name, product.brand, ...product.tags]);
+  const startsAsMachine = /^(combo\s+)?(grabador|grabadora|cortadora|maquina de grabado|máquina de grabado|laser\s+(fibra|uv|co2))\b/i.test(text);
+  const accessoryOnlySignal = /\b(set|pack|kit|billetera|billeteras|cuero|lente|extension|extensión|extensor|expansion|expansión|material|materiales|papel|paper|rotador|rodillo|rotativo|rotatorio|accesorio|cubierta|elevador|elevadores|riser|risers|soporte|purificador|filtro|honeycomb|panal|air assist|aire asistido|modulo|módulo|upgrade kit|kit de actualizacion|kit de actualización|placa)\b/i.test(text);
+  const accessoryForMachineSignal = accessoryOnlySignal && /\b(para|for)\b.{0,120}\b(grabador|grabadora|maquina|máquina|laser|láser)\b/i.test(text);
+  const startsAsAccessory = /^(set|pack|kit|billetera|billeteras|cuero|lente|extension|extensión|extensor|expansion|expansión|material|materiales|papel|paper|rotador|rodillo|rotativo|rotatorio|accesorio|cubierta|elevador|elevadores|riser|risers|soporte|purificador|filtro|honeycomb|panal|air assist|aire asistido|modulo|módulo|upgrade kit|kit de actualizacion|kit de actualización|placa)\b/i.test(text);
+  const isLaserModule = /\b(modulo|módulo)\s+laser\b/i.test(text);
+  const isLaserExtensionKit = /\bkit\s+extensor\b/i.test(text);
+
+  if (startsAsMachine) return true;
+  if (isLaserModule || isLaserExtensionKit || accessoryForMachineSignal || startsAsAccessory) return false;
+
+  return /\b(grabador|grabadora|cortadora|laser cutter|laser cutting machine|maquina de grabado|máquina de grabado|pantografo|pantógrafo|marcadora)\b/i.test(text) ||
+    /\b(co2|fibra|fiber|uv)\b.{0,32}\b\d{1,3}\s*w\b/i.test(text) ||
+    /\b(alphalaser|alpha mk2|ts1|ts2|xtool\s+(f1|f2|s1|p2s)|falcon|laserpecker|pixi)\b/i.test(text);
+}
+
+function shouldExcludeScrapedProduct(product: Pick<ScrapedProduct, "name" | "category" | "brand" | "tags">) {
+  const text = searchableText([product.name, product.category, product.brand, ...product.tags]);
+
+  return /\b(kyocera|ecosys|ricoh|impresora multifuncion|impresora multifunción|multifuncional|impresora dtf|uv dtf|tinta dtf|procolored)\b/i.test(text);
+}
+
 function normalizedCategory(product: Pick<ScrapedProduct, "name" | "category" | "brand" | "tags">) {
   const text = searchableText([product.name, product.category, product.brand, ...product.tags]);
   if (detectLaserProduct(product)) return "Corte láser";
+  if (detectSupply(product)) return "Insumos";
   if (detectSparePart(product)) return "Repuestos";
+  if (detectTooling(product)) return "Herramientas";
   if (/\b(resina|lavable al agua|mercury|mercuy|lavado|curado|wash|cure)\b/i.test(text)) return "Resina";
   if (detectAccessory(product)) return "Accesorios";
 
@@ -877,6 +939,7 @@ export function productMatchesCategory(product: Product, category: string) {
 }
 
 export function queryTermMatches(term: string, product: Product) {
+  if (["grabador", "grabadora", "cortadora", "cortadoras"].includes(term)) return productMatchesCompleteLaserMachine(product);
   if (filamentQueryTerms.has(term)) return product.isFilament;
   if (term === "lapiz" || term === "lápiz") return product.isFilament && product.material === penFilamentMaterial;
   if (filamentMaterialTerms.has(term)) {
@@ -935,7 +998,9 @@ const staleStoreNames = (refreshManifest.stores ?? [])
   .map((store) => store.store);
 
 const products = scrapedCatalogs.flatMap((catalog) =>
-  catalog.products.map((product) => toProduct(product, catalog.scrapedAt)),
+  catalog.products
+    .filter((product) => !shouldExcludeScrapedProduct(product))
+    .map((product) => toProduct(product, catalog.scrapedAt)),
 );
 
 export const catalogProducts = products;

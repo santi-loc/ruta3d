@@ -108,28 +108,35 @@ export function StoreMap({ physicalStores, onSelectStore }: StoreMapProps) {
       if (cancelled || !mapElementRef.current) return;
 
       const map = L.map(mapElementRef.current, {
+        bounceAtZoomLimits: false,
         center: [argentinaCenter.lat, argentinaCenter.lng],
+        inertia: true,
+        inertiaDeceleration: 2600,
+        inertiaMaxSpeed: 1600,
         maxBounds: [[-56.5, -76.5], [-20, -50]],
         maxBoundsViscosity: 0.7,
         markerZoomAnimation: true,
         minZoom: mapMinZoom,
-        wheelDebounceTime: 24,
+        preferCanvas: true,
+        wheelDebounceTime: 16,
         scrollWheelZoom: true,
-        wheelPxPerZoomLevel: 96,
+        wheelPxPerZoomLevel: 28,
         zoom: argentinaCenter.zoom,
         zoomAnimation: true,
         zoomControl: true,
-        zoomDelta: 0.5,
+        zoomDelta: 2.5,
         zoomSnap: mapZoomStep,
       });
 
-      map.on("zoom zoomend", () => {
+      map.on("zoomend", () => {
         setCurrentZoom(Number(map.getZoom().toFixed(2)));
       });
 
       L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
         maxZoom: 19,
+        updateWhenIdle: true,
+        updateWhenZooming: false,
       }).addTo(map);
 
       mapRef.current = map;
@@ -238,7 +245,7 @@ export function StoreMap({ physicalStores, onSelectStore }: StoreMapProps) {
   function setZoom(nextZoom: number) {
     const boundedZoom = Math.min(mapMaxZoom, Math.max(mapMinZoom, nextZoom));
     setCurrentZoom(boundedZoom);
-    mapRef.current?.setZoom(boundedZoom, { animate: true });
+    mapRef.current?.setZoom(boundedZoom, { animate: false });
   }
 
   function handlePostalSearch(event: FormEvent<HTMLFormElement>) {
@@ -318,7 +325,6 @@ export function StoreMap({ physicalStores, onSelectStore }: StoreMapProps) {
             max={mapMaxZoom}
             min={mapMinZoom}
             onChange={(event) => setZoom(Number(event.target.value))}
-            onInput={(event) => setZoom(Number(event.currentTarget.value))}
             step={mapZoomStep}
             type="range"
             value={currentZoom}

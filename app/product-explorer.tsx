@@ -107,8 +107,14 @@ const sparePartGroups = [
     category: "Accesorios",
     parts: [["Sistemas multicolor", "multicolor"], ["Escáneres", "escaner"], ["Láser", "laser"], ["Secadoras", "secador"]],
   },
+  {
+    label: "Insumos",
+    category: "Insumos",
+    parts: [["Polímeros", "polimero"], ["Llaveros", "llavero"], ["Pinturas", "pintura acrilica"], ["Vasos", "vaso milkshake"], ["Luces LED", "luz led"]],
+  },
 ] as const;
 const accessorySpareParts = new Set(["camara", "luz", "cerramiento", "soporte", "multicolor", "escaner", "laser", "secador"]);
+const supplySpareParts = new Set(["polimero", "llavero", "pintura acrilica", "vaso milkshake", "luz led"]);
 const resinPrinterBrands = ["Anycubic", "Elegoo", "Creality", "Uniformation"];
 const printerTradeInStores = [
   {
@@ -214,9 +220,23 @@ function CategoryIcon({ type }: { type: "filament" | "resin" | "parts" | "printe
 
   if (type === "filament") return <svg className="category-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="7.5" {...common} /><circle cx="12" cy="12" r="2.6" {...common} /><path d="M18.4 8.2 21 6.8v10.4l-2.6-1.4" {...common} /></svg>;
   if (type === "resin") return <svg className="category-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.2s-6.2 6.4-6.2 11a6.2 6.2 0 1 0 12.4 0c0-4.6-6.2-11-6.2-11Z" {...common} /><path d="M9.1 16.1c.4 1.1 1.4 1.8 2.7 1.8" {...common} /></svg>;
-  if (type === "parts") return <svg className="category-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m14.4 6.1 3.5-3.5 1.5 1.5-3.5 3.5" {...common} /><path d="m12.5 8-8.9 8.9a2.1 2.1 0 0 0 3 3l8.9-8.9" {...common} /><path d="m13.2 3.4 1.7 1.7-3.1 3.1-2.2-.5-.5-2.2 3.1-3.1Z" {...common} /></svg>;
+  if (type === "parts") return <svg className="category-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M14.1 6.2 17 3.3l3.7 3.7-2.9 2.9" {...common} /><path d="m13.1 8.9-8.2 8.2a2.1 2.1 0 0 0 3 3l8.2-8.2" {...common} /><path d="m11.5 4.2 2.3 2.3-3.1 3.1-2.7-.6-.6-2.7 3.1-3.1Z" {...common} /></svg>;
   if (type === "laser") return <svg className="category-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 5.5h15v5h-15zM7.5 10.5 5.8 19M16.5 10.5l1.7 8.5M9 19h6M12 10.5v3.3M10.5 15.3 12 13.8l1.5 1.5M7.4 8h2.2M14.4 8h2.2" {...common} /></svg>;
   return <svg className="category-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5.2 8.2h13.6v9.1H5.2zM8.1 17.3v2.3M15.9 17.3v2.3M9 11.1h6M12 8.2V4.5h4.1" {...common} /><circle cx="12" cy="14.3" r="1" fill="currentColor" /></svg>;
+}
+
+function productFallbackIconType(product: Product): "filament" | "resin" | "parts" | "printer" | "laser" {
+  if (product.isLaserProduct) return "laser";
+  if (product.isFdmPrinter || product.isResinPrinter) return "printer";
+  if (product.isResinMaterial || product.isResinCuring) return "resin";
+  if (product.isFilament) return "filament";
+  return "parts";
+}
+
+function productFallbackLabel(product: Product) {
+  if (product.category === "Insumos") return "Insumo";
+  if (product.category === "Herramientas") return "Herramienta";
+  return product.category;
 }
 
 function BookmarkIcon({ filled = false }: { filled?: boolean }) {
@@ -417,7 +437,11 @@ export function ProductExplorer({
     isResinMaterialSearch && selectedResinTypes.length !== resinTypeOptions.length ? { key: "resin-types", label: `${selectedResinTypes.length} tipos`, onRemove: selectAllResinTypes } : null,
   ].filter((filter): filter is AppliedFilter => Boolean(filter));
 
-  const sparePartCategory = (part: string | null) => part && accessorySpareParts.has(part) ? "Accesorios" : "Repuestos";
+  const sparePartCategory = (part: string | null) => {
+    if (part && supplySpareParts.has(part)) return "Insumos";
+    if (part && accessorySpareParts.has(part)) return "Accesorios";
+    return "Repuestos";
+  };
 
   const updateSparePartSearch = (part: string | null, brand: string | null, family: "fdm" | "resin" | null, nextCategory = "Repuestos") => {
     setCategory(nextCategory);
@@ -553,7 +577,7 @@ export function ProductExplorer({
   }, [products, storeLinkByName, stores]);
   const storeMenuGroups = useMemo(() => {
     const byStore = new Map<string, Product>();
-    const groupOrder = ["CABA", "Buenos Aires", "Córdoba", "Santa Fe", "Varias provincias", "Online"] as const;
+    const groupOrder = ["CABA", "Buenos Aires", "Córdoba", "Santa Fe", "Online"] as const;
     const groups = new Map(groupOrder.map((label) => [label, [] as { name: string; summary: string; url: string }[]]));
 
     for (const product of products) {
@@ -567,18 +591,18 @@ export function ProductExplorer({
           .filter((location) => location.area !== "Online")
           .map((location) => location.area === "La Plata" ? "Buenos Aires" : location.area),
       );
-      const group =
-        physicalAreas.size === 0
-          ? "Online"
-          : physicalAreas.size > 1
-            ? "Varias provincias"
-            : [...physicalAreas][0];
 
-      groups.get(group)?.push({
+      const menuStore = {
         name: storeName,
         summary: product?.storeLocationSummary ?? "Ubicación no informada",
         url: storeLinkByName.get(storeName) ?? product?.url ?? "",
-      });
+      };
+
+      if (physicalAreas.size === 0) {
+        groups.get("Online")?.push(menuStore);
+      } else {
+        for (const area of physicalAreas) groups.get(area)?.push(menuStore);
+      }
     }
 
     return groupOrder
@@ -941,8 +965,8 @@ export function ProductExplorer({
                   </div>
                 </div>
                 <div className="category-menu parts-menu">
-                  <button type="button" className={category === "Repuestos" || category === "Accesorios" ? "active" : ""} onClick={() => { setCategory("Repuestos"); resetVisibleCount(); openMobileCategoryPanel("parts"); }}>
-                    <CategoryIcon type="parts" />Partes y Repuestos
+                  <button type="button" className={category === "Repuestos" || category === "Accesorios" || category === "Insumos" ? "active" : ""} onClick={() => { setCategory("Repuestos"); resetVisibleCount(); openMobileCategoryPanel("parts"); }}>
+                    <CategoryIcon type="parts" /><span>Partes y Repuestos</span>
                   </button>
                   <div className="mega-menu parts-mega-menu" aria-label="Filtros de partes y repuestos">
                     <div className="parts-menu-intro">
@@ -978,6 +1002,9 @@ export function ProductExplorer({
                     <CategoryIcon type="resin" />Resina
                   </button>
                   <div className="mega-menu resin-mega-menu" aria-label="Filtros de resina">
+                    <div className="resin-menu-intro">
+                      <strong>Elegí marca y material de resina</strong>
+                    </div>
                     <section>
                       <button className="menu-section-trigger" type="button" onClick={showAllResinPrinters}>Impresoras de resina</button>
                       {availableResinPrinterBrands.map((brand) => <button key={brand} type="button" className={!allResinPrinterBrandsSelected && selectedResinPrinterBrands.includes(brand) ? "selected" : ""} onClick={() => filterResinPrintersByBrand(brand)}>{brand}</button>)}
@@ -1071,6 +1098,9 @@ export function ProductExplorer({
 
                       {mobileCategoryPanel === "resin" ? (
                         <>
+                          <div className="mobile-parts-summary">
+                            <strong>Elegí marca y material de resina</strong>
+                          </div>
                           <details open>
                             <summary onClick={showAllResinPrinters}>Impresoras de resina</summary>
                             <div className="mobile-filter-options">
@@ -1259,8 +1289,16 @@ export function ProductExplorer({
                               <BookmarkIcon filled={savedProductIdSet.has(String(product.id))} />
                             </button>
                             <a className="product-search-link" href={outboundProductUrl(product, "catalog-card")} target="_blank" rel="noreferrer" aria-label={`Ver ${product.name} en ${product.store}`}>
-                              <div className="product-search-image" style={{ backgroundColor: product.color }}>
-                                {product.image ? <Image src={product.image} alt={product.name} fill sizes="(max-width: 700px) 44vw, (max-width: 1100px) 28vw, 20vw" /> : <span>{product.category.slice(0, 3).toUpperCase()}</span>}
+                              <div className="product-search-image" style={{ backgroundColor: product.image ? product.color : undefined }}>
+                                {product.image ? (
+                                  <Image src={product.image} alt={product.name} fill sizes="(max-width: 700px) 44vw, (max-width: 1100px) 28vw, 20vw" />
+                                ) : (
+                                  <span className="product-image-fallback">
+                                    <CategoryIcon type={productFallbackIconType(product)} />
+                                    <b>Sin foto</b>
+                                    <small>{productFallbackLabel(product)}</small>
+                                  </span>
+                                )}
                               </div>
                               <div className="product-search-copy">
                                 <p className="product-store-line"><span>{product.store}</span><b className={`store-mode-label ${product.isOnlineOnly ? "is-online" : ""}`}>{product.storeLocationSummary}</b></p>
