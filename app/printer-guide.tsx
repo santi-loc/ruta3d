@@ -318,7 +318,6 @@ export function PrinterGuide({
           </div>
           <Link href="/#como-funciona" onClick={() => setIsStoreMenuOpen(false)}>Cómo funciona</Link>
           <Link className="printer-guide-trigger" href="/que-impresora-compro" onClick={() => setIsStoreMenuOpen(false)}>¿Qué impresora compro?</Link>
-          <Link href="/#transparencia" onClick={() => setIsStoreMenuOpen(false)}>Precios y stock</Link>
           <Link href="/#contacto" className="nav-link-button" onClick={() => setIsStoreMenuOpen(false)}>Sumá tu tienda</Link>
         </nav>
         {isSavedPanelOpen ? (

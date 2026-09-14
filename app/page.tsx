@@ -24,10 +24,16 @@ export default async function Home({ searchParams }: { searchParams: Promise<{ q
         storeCount={catalogFreshness.storeCount}
       />
       <ProductExplorer
-        products={catalogProducts}
+        products={initialQuery ? catalogProducts : []}
         filamentBrands={filamentBrands}
         filamentMaterials={filamentMaterials}
-        storeLinks={storeSources.map((source) => ({ name: source.name, url: source.url }))}
+        storeLinks={storeSources.map((source) => ({
+          name: source.name,
+          url: source.url,
+          locations: source.locations,
+          storeLocationSummary: source.storeLocationSummary,
+          isOnlineOnly: source.isOnlineOnly,
+        }))}
         stores={stores}
         catalogFreshness={catalogFreshness}
         initialQuery={initialQuery}

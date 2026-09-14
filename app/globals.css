@@ -1647,10 +1647,22 @@ a {
 .category-menu:hover .mega-menu, .category-menu:focus-within .mega-menu { visibility: visible; opacity: 1; pointer-events: auto; transform: translateY(0); transition-delay: 0s; }
 .mega-menu p, .brand-flyout p { margin: 5px 10px 8px; color: #60707a; font-size: .78rem; font-weight: 760; text-transform: uppercase; letter-spacing: .05em; }
 .mega-menu button { display: flex; width: 100%; min-height: 42px; align-items: center; border: 0; border-radius: 8px; background: transparent; color: var(--ink); cursor: pointer; padding: 0 10px; text-align: left; font-size: .94rem; font-weight: 670; }
-.mega-menu button:hover, .mega-menu button:focus-visible { background: #effbf2; color: #08751f; outline: 0; }
-.mega-menu button.selected { background: #e5f7e9; color: #08751f; }
+.mega-menu button:hover, .mega-menu button:focus-visible, .mega-menu .category-filter-option:hover, .mega-menu .category-filter-option:focus-visible { background: #effbf2; color: #08751f; outline: 0; }
+.mega-menu button.selected, .mega-menu .category-filter-option.selected { background: #e5f7e9; color: #08751f; }
 .mega-menu button:disabled { cursor: not-allowed; opacity: .42; }
 .mega-menu button:disabled:hover { background: transparent; color: var(--ink); }
+.category-filter-option { display: flex; width: 100%; min-height: 42px; align-items: center; gap: 8px; border: 0; border-radius: 8px; background: transparent; color: var(--ink); cursor: pointer; padding: 0 10px; text-align: left; font-size: .94rem; font-weight: 670; }
+.category-filter-option[aria-disabled="true"] { cursor: not-allowed; opacity: .42; }
+.category-filter-option[aria-disabled="true"]:hover { background: transparent; color: var(--ink); }
+.category-option-check { display: inline-flex; width: 18px; height: 18px; min-height: 18px; flex: 0 0 18px; align-items: center; justify-content: center; border: 1.5px solid #9ca8ad; border-radius: 5px; background: #fff; color: #08751f; cursor: pointer; padding: 0; }
+.category-option-check span { width: 9px; height: 5px; border-bottom: 2px solid currentColor; border-left: 2px solid currentColor; opacity: 0; transform: translateY(-1px) rotate(-45deg); }
+.category-filter-option.selected .category-option-check { border-color: currentColor; background: #fff; }
+.category-filter-option.selected .category-option-check span { opacity: 1; }
+.category-option-check:hover, .category-option-check:focus-visible { border-color: currentColor; outline: 0; box-shadow: 0 0 0 3px rgba(85, 215, 123, .18); }
+.category-option-check:disabled { cursor: not-allowed; }
+.category-option-label { display: inline-flex; min-width: 0; align-items: center; gap: 8px; }
+.mega-menu .category-option-check,
+.mobile-filter-options .category-option-check { width: 18px; min-width: 18px; min-height: 18px; height: 18px; flex: 0 0 18px; justify-content: center; border: 1.5px solid #9ca8ad; border-radius: 5px; padding: 0; }
 .mega-menu .menu-section-trigger { min-height: 36px; margin: 0 0 6px; background: #f4f7f5; color: #31413d; font-size: .78rem; font-weight: 820; letter-spacing: .04em; text-transform: uppercase; }
 .mega-menu .menu-section-trigger:hover, .mega-menu .menu-section-trigger:focus-visible { background: #e5f7e9; color: #08751f; }
 .filament-mega-menu { right: auto; left: 0; display: grid; grid-template-columns: repeat(5, minmax(120px, 1fr)); width: min(810px, calc(100vw - 90px)); max-height: clamp(280px, calc(100vh - 420px), 420px); gap: 10px; overflow: auto; padding: 14px; }
@@ -2241,7 +2253,8 @@ a {
     padding: 10px;
   }
 
-  .mobile-filter-options button {
+  .mobile-filter-options button,
+  .mobile-filter-options .category-filter-option {
     display: flex;
     min-width: 0;
     min-height: 44px;
@@ -2258,13 +2271,19 @@ a {
     font-weight: 720;
   }
 
-  .mobile-filter-options button.selected {
+  .mobile-filter-options .category-filter-option {
+    gap: 8px;
+  }
+
+  .mobile-filter-options button.selected,
+  .mobile-filter-options .category-filter-option.selected {
     border-color: color-mix(in srgb, var(--accent) 45%, transparent);
     background: var(--accent-soft);
     color: var(--accent-dark);
   }
 
-  .mobile-filter-options button:disabled {
+  .mobile-filter-options button:disabled,
+  .mobile-filter-options .category-filter-option[aria-disabled="true"] {
     cursor: not-allowed;
     opacity: .42;
   }
@@ -2365,16 +2384,23 @@ a {
   box-shadow: 0 20px 42px rgba(0, 0, 0, .48);
 }
 .mega-menu p, .brand-flyout p, .comparison-product small, .comparison-empty { color: var(--muted); }
-.mega-menu button:hover, .mega-menu button:focus-visible { background: #20452f; color: var(--accent-dark); }
-.mega-menu button.selected { background: #1a3a28; color: var(--accent-dark); }
+.mega-menu button:hover, .mega-menu button:focus-visible, .mega-menu .category-filter-option:hover, .mega-menu .category-filter-option:focus-visible { background: #20452f; color: var(--accent-dark); }
+.mega-menu button.selected, .mega-menu .category-filter-option.selected { background: #1a3a28; color: var(--accent-dark); }
 .mega-menu button:disabled:hover { background: transparent; color: var(--ink); }
+.category-option-check { border-color: #60706d; background: #0f171a; color: var(--accent-dark); }
+.mega-menu .category-option-check,
+.mobile-filter-options .category-option-check { border-color: #60706d; background: #0f171a; color: var(--accent-dark); }
+.category-filter-option.selected .category-option-check { background: #0f171a; }
 .mega-menu .menu-section-trigger { background: #1d2a28; color: var(--muted-strong); }
 .mega-menu .menu-section-trigger:hover, .mega-menu .menu-section-trigger:focus-visible { background: #20452f; color: var(--accent-dark); }
 .technical-material-section { background: #132b31; }
 .technical-material-section p { color: #85d9ef; }
 .technical-material-section button.selected,
 .technical-material-section button:hover,
-.technical-material-section button:focus-visible { background: #183d47; color: #9ce8f5; }
+.technical-material-section button:focus-visible,
+.technical-material-section .category-filter-option.selected,
+.technical-material-section .category-filter-option:hover,
+.technical-material-section .category-filter-option:focus-visible { background: #183d47; color: #9ce8f5; }
 .filament-mega-menu section + section, .resin-mega-menu section + section, .parts-mega-menu section + section, .laser-mega-menu section + section, .parts-menu-intro, .parts-brand-section { border-color: #34423f; }
 .parts-menu-intro span { color: var(--muted); }
 .color-dot, .sidebar-color-dot { border-color: rgba(237, 244, 242, .26); }
@@ -3572,15 +3598,22 @@ a {
 .theme-light .category-tabs > button.active, .theme-light .category-menu > button.active { background: #effbf2; color: #08751f; box-shadow: inset 0 0 0 1px #a9dfb5; }
 .theme-light .mega-menu { border-color: #d9dddf; background: #fff; box-shadow: 0 20px 36px rgba(8, 25, 42, .18); }
 .theme-light .mega-menu p, .theme-light .brand-flyout p, .theme-light .comparison-product small, .theme-light .comparison-empty { color: #60707a; }
-.theme-light .mega-menu button:hover, .theme-light .mega-menu button:focus-visible { background: #effbf2; color: #08751f; }
-.theme-light .mega-menu button.selected { background: #e5f7e9; color: #08751f; }
+.theme-light .mega-menu button:hover, .theme-light .mega-menu button:focus-visible, .theme-light .mega-menu .category-filter-option:hover, .theme-light .mega-menu .category-filter-option:focus-visible { background: #effbf2; color: #08751f; }
+.theme-light .mega-menu button.selected, .theme-light .mega-menu .category-filter-option.selected { background: #e5f7e9; color: #08751f; }
+.theme-light .category-option-check { border-color: #9ca8ad; background: #fff; color: #08751f; }
+.theme-light .mega-menu .category-option-check,
+.theme-light .mobile-filter-options .category-option-check { border-color: #9ca8ad; background: #fff; color: #08751f; }
+.theme-light .category-filter-option.selected .category-option-check { background: #fff; }
 .theme-light .mega-menu .menu-section-trigger { background: #f4f7f5; color: #31413d; }
 .theme-light .mega-menu .menu-section-trigger:hover, .theme-light .mega-menu .menu-section-trigger:focus-visible { background: #e5f7e9; color: #08751f; }
 .theme-light .technical-material-section { background: #eef7fb; }
 .theme-light .technical-material-section p { color: #276273; }
 .theme-light .technical-material-section button.selected,
 .theme-light .technical-material-section button:hover,
-.theme-light .technical-material-section button:focus-visible { background: #dff3fa; color: #12627a; }
+.theme-light .technical-material-section button:focus-visible,
+.theme-light .technical-material-section .category-filter-option.selected,
+.theme-light .technical-material-section .category-filter-option:hover,
+.theme-light .technical-material-section .category-filter-option:focus-visible { background: #dff3fa; color: #12627a; }
 .theme-light .filament-mega-menu section + section, .theme-light .resin-mega-menu section + section, .theme-light .parts-mega-menu section + section, .theme-light .laser-mega-menu section + section, .theme-light .parts-menu-intro, .theme-light .parts-brand-section { border-color: #e1e5e6; }
 .theme-light .parts-menu-intro span { color: #60707a; }
 .theme-light .color-dot, .theme-light .sidebar-color-dot { border-color: rgba(7, 20, 44, .2); }

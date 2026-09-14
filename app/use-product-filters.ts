@@ -265,6 +265,11 @@ export function useProductFilters(
     );
   }
 
+  function selectPrinterBrand(brand: string) {
+    resetVisibleCount();
+    setSelectedPrinterBrands([brand]);
+  }
+
   function selectAllPrinterBrands(brands: string[]) { resetVisibleCount(); setSelectedPrinterBrands(brands); }
   function clearPrinterBrands() { resetVisibleCount(); setSelectedPrinterBrands([]); }
 
@@ -273,6 +278,11 @@ export function useProductFilters(
     setSelectedPrinterFrames((current) =>
       current.includes(frame) ? current.filter((item) => item !== frame) : [...current, frame],
     );
+  }
+
+  function selectPrinterFrame(frame: PrinterFrameType) {
+    resetVisibleCount();
+    setSelectedPrinterFrames([frame]);
   }
 
   function selectAllPrinterFrames() { resetVisibleCount(); setSelectedPrinterFrames([...printerFrameOptions]); }
@@ -568,6 +578,8 @@ export function useProductFilters(
     selectFilamentColor,
     selectFilamentWeight,
     selectFilamentMaterial,
+    selectPrinterBrand,
+    selectPrinterFrame,
     selectResinMaterialBrand,
     selectResinPrinterBrand,
     selectResinType,
