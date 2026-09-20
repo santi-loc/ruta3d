@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-09-19T08:04:08.976Z",
-  "refreshedAt": "2026-09-19T08:21:26.104Z",
+  "startedAt": "2026-09-20T08:12:31.648Z",
+  "refreshedAt": "2026-09-20T08:30:11.181Z",
   "status": "partial",
   "lastSuccessfulFullRefreshAt": "2026-09-06T15:11:29.703Z",
   "updatedStores": 0,
@@ -102,7 +102,7 @@
     {
       "store": "Kimera 3D",
       "status": "stale",
-      "reason": "exit 1",
+      "reason": "timeout after 480s",
       "count": 339,
       "scrapedAt": "2026-09-06T15:07:27.118Z"
     },
@@ -144,7 +144,7 @@
     {
       "store": "Star Impression 3D",
       "status": "stale",
-      "reason": "exit 1",
+      "reason": "timeout after 480s",
       "count": 381,
       "scrapedAt": "2026-09-06T15:07:48.372Z"
     },
