@@ -2,9 +2,11 @@ import type { MetadataRoute } from "next";
 import { catalogFreshness } from "@/lib/catalog";
 import { absoluteSiteUrl } from "@/lib/site";
 
-const lastModified = catalogFreshness.newestScrapedAt
+const catalogLastModified = catalogFreshness.newestScrapedAt
   ? new Date(catalogFreshness.newestScrapedAt)
   : new Date();
+const siteLastModified = new Date("2026-09-20T00:00:00.000Z");
+const lastModified = catalogLastModified > siteLastModified ? catalogLastModified : siteLastModified;
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
