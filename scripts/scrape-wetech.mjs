@@ -60,6 +60,7 @@ function variantColor(variant) {
 
 function imageUrl(value, fallback = null) {
   const text = cleanText(value);
+  if (/static\.vecteezy\.com\/.*no-image-available/i.test(text)) return fallback;
   return text || fallback;
 }
 

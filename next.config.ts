@@ -8,6 +8,7 @@ const nextConfig: NextConfig = {
       { protocol: "https", hostname: "creaxis.com.ar" },
       { protocol: "https", hostname: "www.dino3d.com.ar" },
       { protocol: "https", hostname: "erexit3d.com" },
+      { protocol: "https", hostname: "filacolor.com.ar" },
       { protocol: "https", hostname: "gprint3d.com.ar" },
       { protocol: "https", hostname: "i.imgur.com" },
       { protocol: "https", hostname: "ik.imagekit.io" },

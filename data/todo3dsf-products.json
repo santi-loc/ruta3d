@@ -4,7 +4,7 @@
     "domain": "todo3dsf.com.ar",
     "baseUrl": "https://www.todo3dsf.com.ar"
   },
-  "scrapedAt": "2026-09-06T15:07:38.748Z",
+  "scrapedAt": "2026-09-30T00:23:36.758Z",
   "count": 62,
   "pages": [
     {
@@ -19,7 +19,7 @@
       "path": "/insumos-3d/filamentos",
       "url": "https://www.todo3dsf.com.ar/insumos-3d/filamentos",
       "found": 12,
-      "added": 8
+      "added": 7
     },
     {
       "page": 1,
@@ -68,7 +68,7 @@
       "path": "/impresoras-3d",
       "url": "https://www.todo3dsf.com.ar/impresoras-3d",
       "found": 12,
-      "added": 10
+      "added": 11
     },
     {
       "page": 1,
@@ -281,6 +281,33 @@
       "variants": []
     },
     {
+      "id": "todo3dsf-29090186",
+      "sourceProductId": "29090186",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "PLA 3N3 SILK",
+      "category": "Filamentos",
+      "price": 25000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "3N3",
+      "tags": [
+        "3N3",
+        "PLA"
+      ],
+      "image": "https://d22fxaf9t8d39k.cloudfront.net/2874cb60840a2b40b53eed895f80864f2c02bb04cb58f7cc47acc55f2a2b624c32164.webp",
+      "url": "https://www.todo3dsf.com.ar/insumos-3d/filamentos/filamento-pla/pla-3n3-silk",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/productos",
+      "variants": []
+    },
+    {
       "id": "todo3dsf-28870134",
       "sourceProductId": "28870134",
       "store": "Todo 3D",
@@ -381,30 +408,6 @@
       ],
       "image": "https://d22fxaf9t8d39k.cloudfront.net/bd7f43af5c4fe47198b908b24bf72fb64904135c53353bff96d9e34a6f1ad79e32164.jpg",
       "url": "https://www.todo3dsf.com.ar/impresoras-3d/fdm-filamento/creality-ender-5-max",
-      "scrapedFrom": "https://www.todo3dsf.com.ar/productos",
-      "variants": []
-    },
-    {
-      "id": "todo3dsf-secador-de-filamentos-creality-space-pi-se",
-      "sourceProductId": "secador-de-filamentos-creality-space-pi-se",
-      "store": "Todo 3D",
-      "domain": "todo3dsf.com.ar",
-      "name": "Secador de filamentos CREALITY SPACE PI SE",
-      "category": "Impresoras",
-      "price": 85000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Creality",
-      "tags": [
-        "Creality"
-      ],
-      "image": "https://d22fxaf9t8d39k.cloudfront.net/15199e2113d7a48ddb29e277cab1251bc4533a2fb4a7abc21c1c82830ba72e6f32164.jpg",
-      "url": "https://www.todo3dsf.com.ar/impresoras-3d/secador-de-filamentos-creality-space-pi-se",
       "scrapedFrom": "https://www.todo3dsf.com.ar/productos",
       "variants": []
     },
@@ -608,7 +611,7 @@
       ],
       "image": "https://d22fxaf9t8d39k.cloudfront.net/b16b10b06c619f20c11fc1bca4926dc4c89e8e356703a0e0182e1c4a5a38478732164.jpg",
       "url": "https://www.todo3dsf.com.ar/insumos-3d/filamentos/filamento-pla/pla-hellbot-ecofila-lock",
-      "scrapedFrom": "https://www.todo3dsf.com.ar/insumos-3d/filamentos",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/insumos-3d/filamentos/filamento-pla",
       "variants": []
     },
     {
@@ -634,33 +637,6 @@
       ],
       "image": "https://d22fxaf9t8d39k.cloudfront.net/7e856d56cfe99ef48ab59d7b260aa3506bb1dbda35027a782d0fe43bb80bbbeb32164.png",
       "url": "https://www.todo3dsf.com.ar/insumos-3d/filamentos/filamento-pla/pla-3nmax",
-      "scrapedFrom": "https://www.todo3dsf.com.ar/insumos-3d/filamentos/filamento-pla",
-      "variants": []
-    },
-    {
-      "id": "todo3dsf-9312955",
-      "sourceProductId": "9312955",
-      "store": "Todo 3D",
-      "domain": "todo3dsf.com.ar",
-      "name": "PLA Astra Grilon3",
-      "category": "Filamentos",
-      "price": 28000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Grilon3",
-      "tags": [
-        "Grilon3",
-        "PLA"
-      ],
-      "image": "https://d22fxaf9t8d39k.cloudfront.net/62f16f8073d2b27f432408ef3760433e30bcfd571adbb5b9bc110a696540e12b32164.jpeg",
-      "url": "https://www.todo3dsf.com.ar/insumos-3d/filamentos/filamento-pla/pla-astra-grilon3",
       "scrapedFrom": "https://www.todo3dsf.com.ar/insumos-3d/filamentos/filamento-pla",
       "variants": []
     },
@@ -845,8 +821,8 @@
       "variants": []
     },
     {
-      "id": "todo3dsf-26232876",
-      "sourceProductId": "26232876",
+      "id": "todo3dsf-nozzle-unicorn-alta-velocidad-k2-y-hi-combo-04mm",
+      "sourceProductId": "nozzle-unicorn-alta-velocidad-k2-y-hi-combo-04mm",
       "store": "Todo 3D",
       "domain": "todo3dsf.com.ar",
       "name": "Nozzle Unicorn Alta Velocidad K2 Y Hi Combo 0.4mm",
@@ -855,12 +831,10 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": null,
       "tags": [],
       "image": "https://d22fxaf9t8d39k.cloudfront.net/d9675c90a9639b7ba968487fbe3d8f94eac33bcb6d24c754b7fbf9a66932174232164.webp",
@@ -1016,8 +990,8 @@
       "variants": []
     },
     {
-      "id": "todo3dsf-23438800",
-      "sourceProductId": "23438800",
+      "id": "todo3dsf-resina-anycubic-dura-1kg",
+      "sourceProductId": "resina-anycubic-dura-1kg",
       "store": "Todo 3D",
       "domain": "todo3dsf.com.ar",
       "name": "Resina Anycubic Dura 1kg",
@@ -1026,12 +1000,10 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": "Anycubic",
       "tags": [
         "Anycubic",
@@ -1064,6 +1036,30 @@
       "image": "https://d22fxaf9t8d39k.cloudfront.net/31c73f9d01969f99e14a04507cc030b355568004aa367db8b2d6416f41da7d9d32164.jpg",
       "url": "https://www.todo3dsf.com.ar/insumos-3d/resinas/resina-hellbot-estandar-dura-x250ml",
       "scrapedFrom": "https://www.todo3dsf.com.ar/insumos-3d/resinas",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-secador-de-filamentos-creality-space-pi-se",
+      "sourceProductId": "secador-de-filamentos-creality-space-pi-se",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Secador de filamentos CREALITY SPACE PI SE",
+      "category": "Impresoras",
+      "price": 85000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Creality",
+      "tags": [
+        "Creality"
+      ],
+      "image": "https://d22fxaf9t8d39k.cloudfront.net/15199e2113d7a48ddb29e277cab1251bc4533a2fb4a7abc21c1c82830ba72e6f32164.jpg",
+      "url": "https://www.todo3dsf.com.ar/impresoras-3d/secador-de-filamentos-creality-space-pi-se",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/impresoras-3d",
       "variants": []
     },
     {
@@ -1191,39 +1187,13 @@
       "variants": []
     },
     {
-      "id": "todo3dsf-22483118",
-      "sourceProductId": "22483118",
-      "store": "Todo 3D",
-      "domain": "todo3dsf.com.ar",
-      "name": "Bambu Lab P1S Combo multicolor AMS",
-      "category": "Impresoras",
-      "price": 1900000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Bambu Lab",
-      "tags": [
-        "Bambu Lab"
-      ],
-      "image": "https://d22fxaf9t8d39k.cloudfront.net/f5f71c7a483e413083b41ab4e1f16dc8408c544fdca52f075285d054a466d9c632164.jpg",
-      "url": "https://www.todo3dsf.com.ar/impresoras-3d/bambu-lab-p1s-combo-multicolor-ams",
-      "scrapedFrom": "https://www.todo3dsf.com.ar/impresoras-3d",
-      "variants": []
-    },
-    {
       "id": "todo3dsf-22482717",
       "sourceProductId": "22482717",
       "store": "Todo 3D",
       "domain": "todo3dsf.com.ar",
       "name": "Bambu Lab A1 Combo multicolor AMS",
       "category": "Impresoras",
-      "price": 1360000,
+      "price": 1460000,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -1249,7 +1219,7 @@
       "domain": "todo3dsf.com.ar",
       "name": "Bambu Lab A1 Mini Combo multicolor",
       "category": "Impresoras",
-      "price": 986000,
+      "price": 1050000,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -1313,6 +1283,30 @@
       "tags": [],
       "image": "https://d22fxaf9t8d39k.cloudfront.net/a814532dd861ef9290f8d4a4da34ea63eef2565458f7e4581c0abf18a9834e3832164.jpg",
       "url": "https://www.todo3dsf.com.ar/impresoras-3d/maquina-de-secado-de-filamentos-space-pi-plus",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/impresoras-3d",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-maquina-de-secado-de-filamento-space-pi-creality",
+      "sourceProductId": "maquina-de-secado-de-filamento-space-pi-creality",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Máquina de secado de filamento Space PI Creality",
+      "category": "Impresoras",
+      "price": 115000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Creality",
+      "tags": [
+        "Creality"
+      ],
+      "image": "https://d22fxaf9t8d39k.cloudfront.net/8eba8a641c0e0f2bf4091e35e4950d89d8a3859651d27358b6cb8ac53a289b0e32164.jpg",
+      "url": "https://www.todo3dsf.com.ar/impresoras-3d/maquina-de-secado-de-filamento-space-pi-creality",
       "scrapedFrom": "https://www.todo3dsf.com.ar/impresoras-3d",
       "variants": []
     },

@@ -225,7 +225,7 @@ function extractProducts(html, sourceUrl) {
     const price = priceCandidates.length > 0 ? Math.min(...priceCandidates) : Number.parseFloat(jsonLd?.offers?.price ?? "");
     const previousPriceCandidates = priceVariants
       .map((variant) => Number(variant.compare_at_price_number))
-      .filter((value) => Number.isFinite(value) && value > 0);
+      .filter((value) => Number.isFinite(value) && value >= price);
     const transferPriceCandidates = priceVariants
       .map((variant) => parseMoney(variant.price_with_payment_discount_short))
       .filter((value) => Number.isFinite(value) && value > 0);

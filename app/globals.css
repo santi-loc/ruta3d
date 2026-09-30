@@ -3984,7 +3984,8 @@ a {
   }
 
   .comparison-hero {
-    min-height: min(860px, calc(100svh - 96px));
+    min-height: min(690px, calc(100svh - 190px));
+    padding-block: clamp(46px, 3vw, 62px) 46px;
     padding-inline: clamp(96px, 6vw, 140px);
   }
 
@@ -3994,23 +3995,28 @@ a {
   }
 
   .comparison-hero .hero-grid {
-    grid-template-columns: minmax(360px, .52fr) minmax(920px, 1.48fr);
+    grid-template-columns: minmax(500px, .62fr) minmax(860px, 1.38fr);
     gap: 56px;
+    min-height: auto;
   }
 
   .comparison-hero .hero-copy {
-    padding-top: 32px;
+    padding: 16px 0 42px;
+  }
+
+  .comparison-hero .hero-logo-lockup {
+    margin-bottom: 26px;
   }
 
   .comparison-hero .hero-copy h1 {
-    max-width: 600px;
-    font-size: clamp(4.5rem, 3.8vw, 6rem);
+    max-width: 720px;
+    font-size: clamp(4.25rem, 3.35vw, 5.15rem);
     letter-spacing: -.04em;
   }
 
   .comparison-hero .hero-route-mark {
     --logo-symbol-size: clamp(104px, 5.8vw, 132px);
-    --logo-word-size: clamp(4.2rem, 3.8vw, 5.8rem);
+    --logo-word-size: clamp(4rem, 3.25vw, 5.1rem);
   }
 
   .product-search-grid {
@@ -4024,24 +4030,69 @@ a {
   }
 }
 
-@media (min-width: 1261px) and (max-width: 1500px) {
+@media (min-width: 1501px) and (max-width: 1799px) {
   .comparison-hero {
-    padding-inline: clamp(28px, 4.2vw, 64px);
+    min-height: min(700px, calc(100svh - 190px));
+    padding-block: clamp(46px, 3.8vw, 64px) 46px;
   }
 
   .comparison-hero .hero-grid {
-    grid-template-columns: minmax(260px, .46fr) minmax(680px, 1.54fr);
-    gap: clamp(20px, 2.4vw, 34px);
+    grid-template-columns: minmax(420px, .64fr) minmax(760px, 1.36fr);
+    min-height: auto;
+    gap: clamp(34px, 3.2vw, 52px);
+  }
+
+  .comparison-hero .hero-copy {
+    max-width: 620px;
+    padding: 10px 0 38px;
+  }
+
+  .comparison-hero .hero-logo-lockup {
+    margin-bottom: 26px;
   }
 
   .comparison-hero .hero-copy h1 {
-    font-size: clamp(3.2rem, 4.2vw, 4.85rem);
+    max-width: 640px;
+    font-size: clamp(4rem, 4.2vw, 4.85rem);
     letter-spacing: -.04em;
   }
 
   .comparison-hero .hero-route-mark {
-    --logo-symbol-size: clamp(82px, 6.6vw, 104px);
-    --logo-word-size: clamp(3.1rem, 4.2vw, 4.8rem);
+    --logo-symbol-size: clamp(92px, 6.2vw, 112px);
+    --logo-word-size: clamp(3.65rem, 4vw, 4.7rem);
+  }
+}
+
+@media (min-width: 1261px) and (max-width: 1500px) {
+  .comparison-hero {
+    min-height: min(760px, calc(100svh - 150px));
+    padding-block: clamp(42px, 3.8vw, 58px) 48px;
+    padding-inline: clamp(28px, 4.2vw, 64px);
+  }
+
+  .comparison-hero .hero-grid {
+    grid-template-columns: minmax(340px, .58fr) minmax(700px, 1.42fr);
+    min-height: auto;
+    gap: clamp(20px, 2.4vw, 34px);
+  }
+
+  .comparison-hero .hero-copy {
+    padding: 8px 0 36px;
+  }
+
+  .comparison-hero .hero-logo-lockup {
+    margin-bottom: 24px;
+  }
+
+  .comparison-hero .hero-copy h1 {
+    max-width: 520px;
+    font-size: clamp(3.15rem, 3.9vw, 4.35rem);
+    letter-spacing: -.04em;
+  }
+
+  .comparison-hero .hero-route-mark {
+    --logo-symbol-size: clamp(76px, 5.8vw, 94px);
+    --logo-word-size: clamp(2.9rem, 3.8vw, 4.3rem);
   }
 
   .comparator-header {

@@ -103,6 +103,23 @@ test("publishes SEO discovery routes", async () => {
   assert.match(sitemapText, /<loc>https:\/\/ruta3d\.vercel\.app\/que-impresora-compro<\/loc>/);
 });
 
+test("describes featured results as a comparator, not direct product offers", async () => {
+  const response = await render("/");
+  assert.equal(response.status, 200);
+
+  const html = await response.text();
+  const jsonLdMatch = html.match(/<script type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/);
+  assert.ok(jsonLdMatch, "home page should render JSON-LD");
+
+  const structuredData = JSON.parse(jsonLdMatch[1]);
+  const featuredList = structuredData["@graph"].find((entry) => entry["@id"] === "https://ruta3d.vercel.app/#featured-offers");
+
+  assert.equal(featuredList["@type"], "ItemList");
+  assert.doesNotMatch(JSON.stringify(featuredList), /"@type":"Product"/);
+  assert.doesNotMatch(JSON.stringify(featuredList), /"@type":"Offer"/);
+  assert.match(featuredList.description, /Ruta 3D no vende/);
+});
+
 test("applies security headers to rejected methods", async () => {
   const response = await fetchWorker(new Request("http://localhost/", { method: "POST" }));
 

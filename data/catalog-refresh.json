@@ -1,159 +1,138 @@
 {
-  "startedAt": "2026-09-28T08:03:41.346Z",
-  "refreshedAt": "2026-09-28T08:09:53.279Z",
-  "status": "partial",
-  "lastSuccessfulFullRefreshAt": "2026-09-06T15:11:29.703Z",
-  "updatedStores": 0,
-  "staleStores": 21,
-  "oldestScrapedAt": "2026-09-06T15:06:52.092Z",
-  "newestScrapedAt": "2026-09-06T15:11:29.602Z",
+  "startedAt": "2026-09-30T00:22:48.062Z",
+  "refreshedAt": "2026-09-30T00:28:29.078Z",
+  "status": "ok",
+  "lastSuccessfulFullRefreshAt": "2026-09-30T00:28:29.078Z",
+  "updatedStores": 21,
+  "staleStores": 0,
+  "oldestScrapedAt": "2026-09-30T00:22:48.685Z",
+  "newestScrapedAt": "2026-09-30T00:28:29.023Z",
   "stores": [
     {
       "store": "3DTisk",
-      "status": "stale",
-      "reason": "exit 1",
-      "count": 178,
-      "scrapedAt": "2026-09-06T15:06:57.930Z"
+      "status": "updated",
+      "count": 179,
+      "scrapedAt": "2026-09-30T00:22:53.419Z"
     },
     {
       "store": "3Dimension",
-      "status": "stale",
-      "reason": "exit 1",
-      "count": 15,
-      "scrapedAt": "2026-09-06T15:06:56.100Z"
+      "status": "updated",
+      "count": 14,
+      "scrapedAt": "2026-09-30T00:22:52.258Z"
     },
     {
       "store": "Creaxis 3D",
-      "status": "stale",
-      "reason": "exit 1",
-      "count": 96,
-      "scrapedAt": "2026-09-06T15:06:53.321Z"
+      "status": "updated",
+      "count": 103,
+      "scrapedAt": "2026-09-30T00:22:50.367Z"
     },
     {
       "store": "Dino 3D",
-      "status": "stale",
-      "reason": "exit 1",
-      "count": 476,
-      "scrapedAt": "2026-09-06T15:06:52.092Z"
+      "status": "updated",
+      "count": 492,
+      "scrapedAt": "2026-09-30T00:22:48.685Z"
     },
     {
       "store": "Erexit 3D",
-      "status": "stale",
-      "reason": "exit 1",
-      "count": 56,
-      "scrapedAt": "2026-09-06T15:06:55.801Z"
+      "status": "updated",
+      "count": 64,
+      "scrapedAt": "2026-09-30T00:22:50.279Z"
     },
     {
       "store": "Filacolor",
-      "status": "stale",
-      "reason": "exit 1",
+      "status": "updated",
       "count": 39,
-      "scrapedAt": "2026-09-06T15:06:54.542Z"
+      "scrapedAt": "2026-09-30T00:22:51.494Z"
     },
     {
       "store": "Laboratorio 3D",
-      "status": "stale",
-      "reason": "exit 1",
-      "count": 87,
-      "scrapedAt": "2026-09-06T15:06:56.101Z"
+      "status": "updated",
+      "count": 80,
+      "scrapedAt": "2026-09-30T00:22:53.183Z"
     },
     {
       "store": "i3D Tienda",
-      "status": "stale",
-      "reason": "exit 1",
-      "count": 357,
-      "scrapedAt": "2026-09-06T15:07:18.473Z"
+      "status": "updated",
+      "count": 362,
+      "scrapedAt": "2026-09-30T00:23:13.301Z"
     },
     {
       "store": "Gprint 3D",
-      "status": "stale",
-      "reason": "exit 1",
+      "status": "updated",
       "count": 202,
-      "scrapedAt": "2026-09-06T15:07:01.548Z"
+      "scrapedAt": "2026-09-30T00:22:57.859Z"
     },
     {
       "store": "Global Value",
-      "status": "stale",
-      "reason": "exit 1",
-      "count": 207,
-      "scrapedAt": "2026-09-06T15:07:08.531Z"
+      "status": "updated",
+      "count": 209,
+      "scrapedAt": "2026-09-30T00:23:06.883Z"
     },
     {
       "store": "Lefasoc",
-      "status": "stale",
-      "reason": "exit 1",
-      "count": 185,
-      "scrapedAt": "2026-09-06T15:07:01.661Z"
+      "status": "updated",
+      "count": 176,
+      "scrapedAt": "2026-09-30T00:22:57.887Z"
     },
     {
       "store": "TP3D",
-      "status": "stale",
-      "reason": "exit 1",
-      "count": 459,
-      "scrapedAt": "2026-09-06T15:07:35.856Z"
+      "status": "updated",
+      "count": 482,
+      "scrapedAt": "2026-09-30T00:23:24.481Z"
     },
     {
       "store": "Proyecto Color",
-      "status": "stale",
-      "reason": "exit 1",
-      "count": 1136,
-      "scrapedAt": "2026-09-06T15:11:29.602Z"
+      "status": "updated",
+      "count": 1140,
+      "scrapedAt": "2026-09-30T00:28:29.023Z"
     },
     {
       "store": "Kimera 3D",
-      "status": "stale",
-      "reason": "exit 1",
-      "count": 339,
-      "scrapedAt": "2026-09-06T15:07:27.118Z"
+      "status": "updated",
+      "count": 307,
+      "scrapedAt": "2026-09-30T00:23:30.221Z"
     },
     {
       "store": "Osiris 3D",
-      "status": "stale",
-      "reason": "exit 1",
+      "status": "updated",
       "count": 45,
-      "scrapedAt": "2026-09-06T15:07:59.941Z"
+      "scrapedAt": "2026-09-30T00:24:01.458Z"
     },
     {
       "store": "Todo 3D",
-      "status": "stale",
-      "reason": "exit 1",
+      "status": "updated",
       "count": 62,
-      "scrapedAt": "2026-09-06T15:07:38.748Z"
+      "scrapedAt": "2026-09-30T00:23:36.758Z"
     },
     {
       "store": "Trimetra 3D",
-      "status": "stale",
-      "reason": "exit 1",
-      "count": 62,
-      "scrapedAt": "2026-09-06T15:07:39.336Z"
+      "status": "updated",
+      "count": 51,
+      "scrapedAt": "2026-09-30T00:23:32.829Z"
     },
     {
       "store": "WeTech",
-      "status": "stale",
-      "reason": "exit 1",
-      "count": 285,
-      "scrapedAt": "2026-09-06T15:07:40.117Z"
+      "status": "updated",
+      "count": 296,
+      "scrapedAt": "2026-09-30T00:23:33.703Z"
     },
     {
       "store": "Llaveprint",
-      "status": "stale",
-      "reason": "exit 1",
-      "count": 6,
-      "scrapedAt": "2026-09-06T15:07:40.660Z"
+      "status": "updated",
+      "count": 24,
+      "scrapedAt": "2026-09-30T00:23:33.921Z"
     },
     {
       "store": "Star Impression 3D",
-      "status": "stale",
-      "reason": "exit 1",
-      "count": 381,
-      "scrapedAt": "2026-09-06T15:07:48.372Z"
+      "status": "updated",
+      "count": 389,
+      "scrapedAt": "2026-09-30T00:23:39.887Z"
     },
     {
       "store": "Tecknicam 3D",
-      "status": "stale",
-      "reason": "exit 1",
-      "count": 214,
-      "scrapedAt": "2026-09-06T15:07:46.863Z"
+      "status": "updated",
+      "count": 217,
+      "scrapedAt": "2026-09-30T00:23:44.899Z"
     }
   ]
 }

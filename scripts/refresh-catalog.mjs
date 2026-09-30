@@ -293,7 +293,7 @@ if (staleStores.length) {
   }
 }
 
-if (!updatedStores.length && staleStores.some((result) => !result.scrapedAt)) {
-  console.error("No hay catálogos nuevos ni previos suficientes para publicar.");
+if (!updatedStores.length) {
+  console.error("No se actualizó ninguna tienda. Se conservan datos previos, pero el refresh diario debe revisarse.");
   process.exitCode = 1;
 }

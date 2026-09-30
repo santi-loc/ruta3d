@@ -4,8 +4,8 @@
     "domain": "3dimension.empretienda.com.ar",
     "baseUrl": "https://3dimension.empretienda.com.ar"
   },
-  "scrapedAt": "2026-09-06T15:06:56.100Z",
-  "count": 15,
+  "scrapedAt": "2026-09-30T00:22:52.258Z",
+  "count": 14,
   "pages": [
     {
       "page": 1,
@@ -26,7 +26,7 @@
       "path": "/cortadoras-laser/accesorios",
       "url": "https://3dimension.empretienda.com.ar/cortadoras-laser/accesorios",
       "found": 6,
-      "added": 2
+      "added": 1
     },
     {
       "page": 2,
@@ -46,7 +46,7 @@
       "page": 1,
       "path": "/cortadoras-laser/algolaser",
       "url": "https://3dimension.empretienda.com.ar/cortadoras-laser/algolaser",
-      "found": 4,
+      "found": 3,
       "added": 0
     },
     {
@@ -127,33 +127,6 @@
       "variants": []
     },
     {
-      "id": "3dimension-algolaser-pixi-10w",
-      "sourceProductId": "algolaser-pixi-10w",
-      "store": "3Dimension",
-      "domain": "3dimension.empretienda.com.ar",
-      "name": "Algolaser Pixi 10W",
-      "category": "Corte láser",
-      "price": 705000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "AlgoLaser",
-      "tags": [
-        "Corte láser",
-        "AlgoLaser"
-      ],
-      "image": "https://d22fxaf9t8d39k.cloudfront.net/641e1e4ea1bf4805aa2034f76629467f5920aed0e444d2c91f70c93282cb2c6e182538.png",
-      "url": "https://3dimension.empretienda.com.ar/cortadoras-laser/algolaser/algolaser-pixi-10w",
-      "scrapedFrom": "https://3dimension.empretienda.com.ar/cortadoras-laser",
-      "variants": []
-    },
-    {
       "id": "3dimension-combo-diy-mk2-10w-asistente-de-aire",
       "sourceProductId": "combo-diy-mk2-10w-asistente-de-aire",
       "store": "3Dimension",
@@ -190,12 +163,10 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": null,
       "tags": [
         "Corte láser",
@@ -272,12 +243,10 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": "AlgoLaser",
       "tags": [
         "Corte láser",
@@ -301,12 +270,10 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": "AlgoLaser",
       "tags": [
         "Corte láser",
@@ -353,12 +320,10 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": "AlgoLaser",
       "tags": [
         "Corte láser",
@@ -420,7 +385,7 @@
       ],
       "image": "https://d22fxaf9t8d39k.cloudfront.net/ce242273c213a8cb3d67123f25f6e700c4c6e9c202364009d4e656a120094f1f182538.webp",
       "url": "https://3dimension.empretienda.com.ar/cortadoras-laser/accesorios/panal-de-abejas-algolaser",
-      "scrapedFrom": "https://3dimension.empretienda.com.ar/cortadoras-laser/accesorios",
+      "scrapedFrom": "https://3dimension.empretienda.com.ar/cortadoras-laser",
       "variants": []
     },
     {

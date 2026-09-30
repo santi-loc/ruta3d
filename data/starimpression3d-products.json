@@ -5,8 +5,8 @@
     "baseUrl": "https://starimpression3d.com",
     "apiPath": "/wp-json/wc/store/v1/products"
   },
-  "scrapedAt": "2026-09-06T15:07:48.372Z",
-  "count": 381,
+  "scrapedAt": "2026-09-30T00:23:39.887Z",
+  "count": 389,
   "pages": [
     {
       "page": 1,
@@ -18,13 +18,13 @@
       "page": 2,
       "url": "https://starimpression3d.com/wp-json/wc/store/v1/products?per_page=100&page=2",
       "found": 100,
-      "added": 80
+      "added": 83
     },
     {
       "page": 3,
       "url": "https://starimpression3d.com/wp-json/wc/store/v1/products?per_page=100&page=3",
       "found": 100,
-      "added": 85
+      "added": 82
     },
     {
       "page": 4,
@@ -35,11 +35,222 @@
     {
       "page": 5,
       "url": "https://starimpression3d.com/wp-json/wc/store/v1/products?per_page=100&page=5",
-      "found": 17,
-      "added": 17
+      "found": 25,
+      "added": 25
     }
   ],
   "products": [
+    {
+      "id": "starimpression3d-66576",
+      "sourceProductId": "66576",
+      "store": "Star Impression 3D",
+      "domain": "starimpression3d.com",
+      "name": "ALIMENTADOR AUTOMATICO DE FILAMENTOS CREALITY AF-01",
+      "category": "Filamentos",
+      "price": 174900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Creality",
+      "tags": [
+        "Creality",
+        "ABS",
+        "ASA",
+        "TPU",
+        "combo"
+      ],
+      "image": "https://starimpression3d.com/wp-content/uploads/2026/09/a2533f4c-c8c9-4b9d-a28a-e1b4e383d468.jpg",
+      "url": "https://starimpression3d.com/producto/alimentador-automatico-de-filamentos-creality-af-01/",
+      "scrapedFrom": "https://starimpression3d.com/wp-json/wc/store/v1/products",
+      "variants": []
+    },
+    {
+      "id": "starimpression3d-66568",
+      "sourceProductId": "66568",
+      "store": "Star Impression 3D",
+      "domain": "starimpression3d.com",
+      "name": "CABLE USB-C BAMBU LAB A1",
+      "category": "Repuestos",
+      "price": 21900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Bambu lab",
+      "tags": [
+        "Bambu lab"
+      ],
+      "image": "https://starimpression3d.com/wp-content/uploads/2026/09/4035c7cc-8125-4518-b282-651d54803638.jpg",
+      "url": "https://starimpression3d.com/producto/cable-usb-c-bambu-lab-a1/",
+      "scrapedFrom": "https://starimpression3d.com/wp-json/wc/store/v1/products",
+      "variants": []
+    },
+    {
+      "id": "starimpression3d-66563",
+      "sourceProductId": "66563",
+      "store": "Star Impression 3D",
+      "domain": "starimpression3d.com",
+      "name": "CYBERBRICK TIME LAPSE HARDWARE KIT ZK005",
+      "category": "Accesorios",
+      "price": 54990,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Bambu lab",
+      "tags": [
+        "Bambu lab"
+      ],
+      "image": "https://starimpression3d.com/wp-content/uploads/2026/09/59b879e3-f475-40b0-a1a6-b2e4d7676dcd.jpg",
+      "url": "https://starimpression3d.com/producto/cyberbrick-time-lapse-hardware-kit-zk005/",
+      "scrapedFrom": "https://starimpression3d.com/wp-json/wc/store/v1/products",
+      "variants": []
+    },
+    {
+      "id": "starimpression3d-66478",
+      "sourceProductId": "66478",
+      "store": "Star Impression 3D",
+      "domain": "starimpression3d.com",
+      "name": "PREVENTA OCTUBRE TOP COVER POPCAP PARA SNAPMAKER U1",
+      "category": "Accesorios",
+      "price": 219000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Snapmaker",
+      "tags": [
+        "Snapmaker",
+        "ABS",
+        "ASA"
+      ],
+      "image": "https://starimpression3d.com/wp-content/uploads/2026/09/d7ceef4b-18fd-4c40-bd99-ccc69665de17.jpg",
+      "url": "https://starimpression3d.com/producto/preventa-octubre-top-cover-popcap-para-snapmaker-u1/",
+      "scrapedFrom": "https://starimpression3d.com/wp-json/wc/store/v1/products",
+      "variants": []
+    },
+    {
+      "id": "starimpression3d-66449",
+      "sourceProductId": "66449",
+      "store": "Star Impression 3D",
+      "domain": "starimpression3d.com",
+      "name": "MOTHERBOARD CREALITY V3 KE",
+      "category": "Repuestos",
+      "price": 64870,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Creality",
+      "tags": [
+        "Creality"
+      ],
+      "image": "https://starimpression3d.com/wp-content/uploads/2026/09/15d86928-a94f-4bee-885d-86b906fdab79.jpg",
+      "url": "https://starimpression3d.com/producto/motherboard-creality-v3-ke/",
+      "scrapedFrom": "https://starimpression3d.com/wp-json/wc/store/v1/products",
+      "variants": []
+    },
+    {
+      "id": "starimpression3d-66426",
+      "sourceProductId": "66426",
+      "store": "Star Impression 3D",
+      "domain": "starimpression3d.com",
+      "name": "MATE DE ALUMINIO 180ML",
+      "category": "Accesorios",
+      "price": 2100,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "stock": 180,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [],
+      "image": "https://starimpression3d.com/wp-content/uploads/2026/09/ce90fdd6-4b4b-4aec-8303-b7b560a36f40.jpg",
+      "url": "https://starimpression3d.com/producto/mate-de-aluminio-180ml/",
+      "scrapedFrom": "https://starimpression3d.com/wp-json/wc/store/v1/products",
+      "variants": []
+    },
+    {
+      "id": "starimpression3d-66392",
+      "sourceProductId": "66392",
+      "store": "Star Impression 3D",
+      "domain": "starimpression3d.com",
+      "name": "COOLER AXIAL 6015 24V",
+      "category": "Repuestos",
+      "price": 7700,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "stock": 3,
+      "stockLabel": "Pocas unidades",
+      "available": true,
+      "brand": null,
+      "tags": [],
+      "image": "https://starimpression3d.com/wp-content/uploads/2026/09/11e8b96f-30fc-4d5b-80d2-71e707da920c.jpg",
+      "url": "https://starimpression3d.com/producto/cooler-axial-6015-24v/",
+      "scrapedFrom": "https://starimpression3d.com/wp-json/wc/store/v1/products",
+      "variants": []
+    },
+    {
+      "id": "starimpression3d-66384",
+      "sourceProductId": "66384",
+      "store": "Star Impression 3D",
+      "domain": "starimpression3d.com",
+      "name": "PLACA TH BAMBU LAB A1 Y A1 MINI ORIGINAL",
+      "category": "Filamentos",
+      "price": 62800,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
+      "available": true,
+      "brand": "Creality",
+      "tags": [
+        "Creality",
+        "PLA"
+      ],
+      "image": "https://starimpression3d.com/wp-content/uploads/2026/09/f66789e4-f940-40e9-94bc-245cc6b2f33e.jpg",
+      "url": "https://starimpression3d.com/producto/placa-th-bambu-lab-a1-y-a1-mini-original/",
+      "scrapedFrom": "https://starimpression3d.com/wp-json/wc/store/v1/products",
+      "variants": []
+    },
+    {
+      "id": "starimpression3d-66191",
+      "sourceProductId": "66191",
+      "store": "Star Impression 3D",
+      "domain": "starimpression3d.com",
+      "name": "PREVENTA OCTUBRE BAMBU LAB A2L COMBO + MODULO DE CORTE",
+      "category": "Impresoras",
+      "price": 1893500,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Bambu lab",
+      "tags": [
+        "Bambu lab",
+        "combo"
+      ],
+      "image": "https://starimpression3d.com/wp-content/uploads/2026/09/ab7f51a3-2c65-42e2-90d7-3845b6b6552e.jpg",
+      "url": "https://starimpression3d.com/producto/preventa-octubre-bambu-lab-a2l-combo-modulo-de-corte/",
+      "scrapedFrom": "https://starimpression3d.com/wp-json/wc/store/v1/products",
+      "variants": []
+    },
     {
       "id": "starimpression3d-66056",
       "sourceProductId": "66056",
@@ -51,7 +262,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 93,
+      "stock": 29,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -70,11 +281,11 @@
       "domain": "starimpression3d.com",
       "name": "SNAPMAKER U1",
       "category": "Impresoras",
-      "price": 1990000,
+      "price": 2290000,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 29,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Snapmaker",
@@ -127,12 +338,12 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
+      "stock": 191,
+      "stockLabel": "En stock",
+      "available": true,
       "brand": null,
       "tags": [],
-      "image": "https://starimpression3d.com/wp-content/uploads/2026/08/a177d0bf-f47a-40cf-b308-6ac0a9f6eb5e.jpg",
+      "image": "https://starimpression3d.com/wp-content/uploads/2026/09/5f91f5e0-48d4-4dfe-8655-5c64e89428a8.jpg",
       "url": "https://starimpression3d.com/producto/switch-mecanico-azul/",
       "scrapedFrom": "https://starimpression3d.com/wp-json/wc/store/v1/products",
       "variants": []
@@ -173,8 +384,8 @@
       "previousPrice": null,
       "transferPrice": null,
       "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
+      "stockLabel": "En stock",
+      "available": true,
       "brand": "Creality",
       "tags": [
         "Creality"
@@ -186,7 +397,7 @@
         {
           "id": "starimpression3d-65689",
           "sku": "65689",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar Medida: 0-2"
           ]
@@ -194,7 +405,7 @@
         {
           "id": "starimpression3d-65690",
           "sku": "65690",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar Medida: 0-4"
           ]
@@ -202,7 +413,7 @@
         {
           "id": "starimpression3d-65691",
           "sku": "65691",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar Medida: 0-6"
           ]
@@ -210,7 +421,7 @@
         {
           "id": "starimpression3d-65692",
           "sku": "65692",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar Medida: 0-8"
           ]
@@ -229,8 +440,8 @@
       "previousPrice": null,
       "transferPrice": null,
       "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
+      "stockLabel": "En stock",
+      "available": true,
       "brand": "Snapmaker",
       "tags": [
         "Snapmaker"
@@ -242,7 +453,7 @@
         {
           "id": "starimpression3d-65683",
           "sku": "65683",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar Medida: 0-2"
           ]
@@ -250,7 +461,7 @@
         {
           "id": "starimpression3d-65684",
           "sku": "65684",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar Medida: 0-4"
           ]
@@ -258,7 +469,7 @@
         {
           "id": "starimpression3d-65685",
           "sku": "65685",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar Medida: 0-6"
           ]
@@ -266,7 +477,7 @@
         {
           "id": "starimpression3d-65686",
           "sku": "65686",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar Medida: 0-8"
           ]
@@ -304,11 +515,11 @@
       "domain": "starimpression3d.com",
       "name": "CREALITY ENDER3 V3 SE",
       "category": "Impresoras",
-      "price": 366982,
+      "price": 370999,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 1,
+      "stock": null,
       "stockLabel": "Consultar",
       "available": false,
       "brand": "Creality",
@@ -335,9 +546,9 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
+      "stock": 3,
+      "stockLabel": "Pocas unidades",
+      "available": true,
       "brand": "Creality",
       "tags": [
         "Creality",
@@ -437,7 +648,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 1,
+      "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Creality",
@@ -461,8 +672,8 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 2,
-      "stockLabel": "Pocas unidades",
+      "stock": null,
+      "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu lab",
       "tags": [
@@ -541,11 +752,11 @@
       "domain": "starimpression3d.com",
       "name": "ANYCUBIC KOBRA X",
       "category": "Impresoras",
-      "price": 849000,
+      "price": 1089000,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 33,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Anycubic",
@@ -590,8 +801,8 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 2,
-      "stockLabel": "Pocas unidades",
+      "stock": null,
+      "stockLabel": "En stock",
       "available": true,
       "brand": "Creality",
       "tags": [
@@ -624,7 +835,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 8,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Anycubic",
@@ -657,7 +868,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 3896,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -711,7 +922,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 970,
+      "stock": 958,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -732,7 +943,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 86,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -869,7 +1080,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 10,
+      "stock": 6,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu lab",
@@ -893,7 +1104,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 8398,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -977,7 +1188,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 63,
+      "stock": 61,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu lab",
@@ -1000,7 +1211,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 82,
+      "stock": 76,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu lab",
@@ -1101,7 +1312,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 9,
+      "stock": 8,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Creality",
@@ -1164,11 +1375,11 @@
       "domain": "starimpression3d.com",
       "name": "FLASHFORGE CREATOR 5 ENTREGA INMEDIATA",
       "category": "Impresoras",
-      "price": 2032900,
+      "price": 2032899,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 2,
+      "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Flashforge",
@@ -1188,9 +1399,9 @@
       "sourceProductId": "63456",
       "store": "Star Impression 3D",
       "domain": "starimpression3d.com",
-      "name": "PREVENTA SEPTIEMBRE FLASHFORGE CREATOR 5 PRO",
+      "name": "FLASHFORGE CREATOR 5 PRO ENTREGA INMEDIATA",
       "category": "Impresoras",
-      "price": 2264901,
+      "price": 2264900,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -1288,7 +1499,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 3268,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Interiores",
@@ -1432,9 +1643,9 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 1,
-      "stockLabel": "Consultar",
-      "available": false,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
       "brand": null,
       "tags": [],
       "image": "https://starimpression3d.com/wp-content/uploads/2026/03/dd7995f0-e7e9-4655-af74-ed587be4c752.jpg",
@@ -1444,7 +1655,7 @@
         {
           "id": "starimpression3d-63399",
           "sku": "63399",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar formato: bolsa-x-1000g-aprox-4200-uni"
           ]
@@ -1452,7 +1663,7 @@
         {
           "id": "starimpression3d-63400",
           "sku": "63400",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar formato: triangulos-x-100-uni"
           ]
@@ -1470,7 +1681,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 16,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -1543,7 +1754,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 318,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -1677,8 +1888,8 @@
       "previousPrice": null,
       "transferPrice": null,
       "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
+      "stockLabel": "En stock",
+      "available": true,
       "brand": "Flashforge",
       "tags": [
         "Flashforge",
@@ -1693,7 +1904,7 @@
         {
           "id": "starimpression3d-63040",
           "sku": "63040",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar Medida: 0-4"
           ]
@@ -1701,7 +1912,7 @@
         {
           "id": "starimpression3d-63042",
           "sku": "63042",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar Medida: 0-2"
           ]
@@ -1709,7 +1920,7 @@
         {
           "id": "starimpression3d-63044",
           "sku": "63044",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar Medida: 0-8"
           ]
@@ -1717,7 +1928,7 @@
         {
           "id": "starimpression3d-63046",
           "sku": "63046",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar Medida: 0-6"
           ]
@@ -1735,7 +1946,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 18,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Creality",
@@ -1791,9 +2002,9 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
+      "stock": 20,
+      "stockLabel": "En stock",
+      "available": true,
       "brand": "Bambu lab",
       "tags": [
         "Bambu lab",
@@ -1838,7 +2049,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 16,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Creality",
@@ -1921,11 +2132,11 @@
       "domain": "starimpression3d.com",
       "name": "CREALITY SPARKX i7 COMBO",
       "category": "Impresoras",
-      "price": 1212999,
+      "price": 1137999,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 11,
+      "stock": 15,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Creality",
@@ -1953,9 +2164,9 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
+      "stock": 14,
+      "stockLabel": "En stock",
+      "available": true,
       "brand": null,
       "tags": [
         "PLA"
@@ -1976,7 +2187,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 40,
+      "stock": 134,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -1997,7 +2208,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 1,
+      "stock": null,
       "stockLabel": "Consultar",
       "available": false,
       "brand": "Fremover",
@@ -2036,11 +2247,11 @@
       "domain": "starimpression3d.com",
       "name": "PRINTALOT PLA FLEX 1KG ESSENTIA",
       "category": "Filamentos",
-      "price": 29400,
+      "price": 30000,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 17,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Printalot",
@@ -2091,7 +2302,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 12,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Creality",
@@ -2117,35 +2328,10 @@
           "sku": "62456",
           "available": true,
           "options": [
-            "Opciones de Compra: preventa-julio"
+            "Opciones de Compra: preventa-octubre"
           ]
         }
       ]
-    },
-    {
-      "id": "starimpression3d-62334",
-      "sourceProductId": "62334",
-      "store": "Star Impression 3D",
-      "domain": "starimpression3d.com",
-      "name": "PRINTALOT FLEX 1KG NEGRO",
-      "category": "Filamentos",
-      "price": 41200,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
-      "available": true,
-      "brand": "Printalot",
-      "tags": [
-        "Printalot",
-        "FLEX",
-        "1kg"
-      ],
-      "image": "https://starimpression3d.com/wp-content/uploads/2026/04/11ba6a38-1275-4674-bdb6-f63341e63578.jpg",
-      "url": "https://starimpression3d.com/producto/printalot-flex-1kg-negro/",
-      "scrapedFrom": "https://starimpression3d.com/wp-json/wc/store/v1/products",
-      "variants": []
     },
     {
       "id": "starimpression3d-62333",
@@ -2158,9 +2344,9 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 3,
-      "stockLabel": "Pocas unidades",
-      "available": true,
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": "Bambu lab",
       "tags": [
         "Bambu lab"
@@ -2181,7 +2367,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 1,
+      "stock": null,
       "stockLabel": "Consultar",
       "available": false,
       "brand": "Anycubic",
@@ -2208,7 +2394,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 3,
+      "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Creality",
@@ -2232,7 +2418,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 15,
+      "stock": 14,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Anycubic",
@@ -2256,7 +2442,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 22,
+      "stock": 21,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Anycubic",
@@ -2699,7 +2885,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 25,
+      "stock": 29,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Flashforge",
@@ -3406,7 +3592,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 22,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Algolaser",
@@ -3447,7 +3633,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 22,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Algolaser",
@@ -3488,7 +3674,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 16,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Algolaser",
@@ -3529,7 +3715,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 13,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Algolaser",
@@ -3571,7 +3757,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 8,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -3637,7 +3823,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 24,
+      "stock": 53,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -3706,7 +3892,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 9,
+      "stock": 5,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Artillery",
@@ -3729,7 +3915,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 38,
+      "stock": 35,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Creality",
@@ -3748,11 +3934,11 @@
       "domain": "starimpression3d.com",
       "name": "AISLANTE SILICONA BLOQUE CALEFACTOR CREALITY ENDER 3 NEO",
       "category": "Repuestos",
-      "price": 3990,
+      "price": 3771,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 21,
+      "stock": 20,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Creality",
@@ -3821,7 +4007,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 10,
+      "stock": 12,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Creality",
@@ -3865,9 +4051,9 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 22,
-      "stockLabel": "En stock",
-      "available": true,
+      "stock": 1,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": null,
       "tags": [
         "PLA"
@@ -4041,7 +4227,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 1,
+      "stock": null,
       "stockLabel": "Consultar",
       "available": false,
       "brand": "Anycubic",
@@ -4068,9 +4254,9 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 7,
-      "stockLabel": "En stock",
-      "available": true,
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": "Anycubic",
       "tags": [
         "Anycubic",
@@ -4146,7 +4332,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 13,
+      "stock": 9,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -4345,7 +4531,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 3,
+      "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Artillery",
@@ -4369,8 +4555,8 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
+      "stock": 16,
+      "stockLabel": "En stock",
       "available": true,
       "brand": null,
       "tags": [
@@ -4460,7 +4646,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 3,
+      "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": null,
@@ -4527,8 +4713,8 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 4,
-      "stockLabel": "En stock",
+      "stock": 1,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Artillery",
       "tags": [
@@ -4550,7 +4736,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 4,
+      "stock": 17,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Creality",
@@ -4667,7 +4853,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 2,
+      "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": null,
@@ -4694,7 +4880,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 6,
+      "stock": 4,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -4746,7 +4932,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 12,
+      "stock": 8,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -4826,7 +5012,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 3,
+      "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Bambu Lab",
@@ -4929,8 +5115,8 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 4,
-      "stockLabel": "En stock",
+      "stock": 3,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": null,
       "tags": [
@@ -4956,7 +5142,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 5,
+      "stock": 7,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -5004,8 +5190,8 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
+      "stock": 8,
+      "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu lab",
       "tags": [
@@ -5068,11 +5254,11 @@
       "domain": "starimpression3d.com",
       "name": "COOLER FAN DE CAPA 4010 24V 40X40X10",
       "category": "Repuestos",
-      "price": 7106,
+      "price": 7100,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 5,
+      "stock": 32,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -5181,7 +5367,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 6,
+      "stock": 26,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -5288,7 +5474,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 5,
+      "stock": 4,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -5307,11 +5493,11 @@
       "domain": "starimpression3d.com",
       "name": "CORREA GT2 6MM x 1M",
       "category": "Repuestos",
-      "price": 4870,
+      "price": 5000,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 11,
+      "stock": 34,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -5332,9 +5518,9 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 10,
-      "stockLabel": "En stock",
-      "available": true,
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": "Creality",
       "tags": [
         "Creality",
@@ -5639,7 +5825,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 10,
+      "stock": 9,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Creality",
@@ -5660,15 +5846,15 @@
       "sourceProductId": "59357",
       "store": "Star Impression 3D",
       "domain": "starimpression3d.com",
-      "name": "CREALITY ENDER5 MAX",
+      "name": "PREVENTA NOVIEMBRE CREALITY ENDER 5 MAX",
       "category": "Impresoras",
-      "price": 1570999,
+      "price": 1510500,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
+      "stock": 5,
+      "stockLabel": "En stock",
+      "available": true,
       "brand": "Creality",
       "tags": [
         "Creality",
@@ -6146,7 +6332,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 14,
+      "stock": 13,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Neje",
@@ -6389,7 +6575,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 5,
+      "stock": 4,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Creality",
@@ -6413,7 +6599,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 13,
+      "stock": 14,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -6599,7 +6785,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 1,
+      "stock": null,
       "stockLabel": "Consultar",
       "available": false,
       "brand": "Hellbot",
@@ -6623,9 +6809,9 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
+      "stock": 5,
+      "stockLabel": "En stock",
+      "available": true,
       "brand": "Anycubic",
       "tags": [
         "Anycubic",
@@ -6671,8 +6857,8 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 3,
-      "stockLabel": "Pocas unidades",
+      "stock": 6,
+      "stockLabel": "En stock",
       "available": true,
       "brand": "Creality",
       "tags": [
@@ -6742,7 +6928,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 2,
+      "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Creality",
@@ -6832,9 +7018,9 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
+      "stock": 5,
+      "stockLabel": "En stock",
+      "available": true,
       "brand": "Creality",
       "tags": [
         "Creality"
@@ -6874,13 +7060,13 @@
       "domain": "starimpression3d.com",
       "name": "HUB AMS LITE - A1 Y A1 MINI SERIE",
       "category": "Repuestos",
-      "price": 26900,
+      "price": 23900,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 1,
-      "stockLabel": "Consultar",
-      "available": false,
+      "stock": 8,
+      "stockLabel": "En stock",
+      "available": true,
       "brand": "Bambu lab",
       "tags": [
         "Bambu lab",
@@ -6982,7 +7168,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 5,
+      "stock": 6,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Creality",
@@ -7030,7 +7216,7 @@
       "domain": "starimpression3d.com",
       "name": "KIT CREALITY CFS SISTEMA MULTICOLOR",
       "category": "Accesorios",
-      "price": 638479,
+      "price": 700999,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -7129,8 +7315,8 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 4,
-      "stockLabel": "En stock",
+      "stock": 3,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Creality",
       "tags": [
@@ -7152,7 +7338,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 9,
+      "stock": 8,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Creality",
@@ -7290,9 +7476,9 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 2,
-      "stockLabel": "Pocas unidades",
-      "available": true,
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": null,
       "tags": [
         "PLA"
@@ -7313,9 +7499,9 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
+      "stock": 4,
+      "stockLabel": "En stock",
+      "available": true,
       "brand": "Bambu lab",
       "tags": [
         "Bambu lab",
@@ -7337,7 +7523,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 6,
+      "stock": 9,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Creality",
@@ -7360,7 +7546,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 23,
+      "stock": 18,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -7383,7 +7569,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 13,
+      "stock": 14,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Creality",
@@ -7433,7 +7619,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 46,
+      "stock": 89,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -7475,7 +7661,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 22,
+      "stock": 36,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -7592,7 +7778,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 4,
+      "stock": 12,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -7703,7 +7889,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 8,
+      "stock": 10,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -7724,7 +7910,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 8,
+      "stock": 19,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -7765,11 +7951,11 @@
       "domain": "starimpression3d.com",
       "name": "RODILLO GIRATORIO PRO PARA GRABADORA LASER FALCON 22W CREALITY",
       "category": "Herramientas",
-      "price": 299593,
+      "price": 301500,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 1,
+      "stock": 3,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Creality",
@@ -7789,7 +7975,7 @@
       "domain": "starimpression3d.com",
       "name": "RODILLO GIRATORIO PRO PARA GRABADORA LASER FALCON 5W/10W CREALITY",
       "category": "Herramientas",
-      "price": 299593,
+      "price": 301500,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -7813,11 +7999,11 @@
       "domain": "starimpression3d.com",
       "name": "RODILLO GIRATORIO PRO PARA GRABADORA LASER FALCON A1 CREALITY",
       "category": "Herramientas",
-      "price": 349986,
+      "price": 349990,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 20,
+      "stock": 19,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Creality",
@@ -7892,7 +8078,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 6,
+      "stock": 8,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Creality",
@@ -7917,7 +8103,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 6,
+      "stock": 10,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Creality",
@@ -7938,13 +8124,13 @@
       "domain": "starimpression3d.com",
       "name": "SECADOR DE FILAMENTO CREALITY SPACE Pi X4 L",
       "category": "Filamentos",
-      "price": 386090,
+      "price": 379999,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
+      "available": true,
       "brand": "Creality",
       "tags": [
         "Creality"
@@ -7993,7 +8179,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 13,
+      "stock": 12,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu lab",
@@ -8041,9 +8227,9 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 3,
-      "stockLabel": "Pocas unidades",
-      "available": true,
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": null,
       "tags": [],
       "image": "https://starimpression3d.com/wp-content/uploads/2026/03/2a1146d7-0316-4992-aa0a-3743d08dc49d.jpeg",
@@ -8085,7 +8271,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 16,
+      "stock": 15,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Creality",
@@ -8155,7 +8341,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 9,
+      "stock": 8,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -8176,9 +8362,9 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
-      "available": true,
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": "Creality",
       "tags": [
         "Creality"
@@ -8222,7 +8408,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 10,
+      "stock": 9,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu lab",
@@ -8245,7 +8431,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 5,
+      "stock": 41,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -8291,9 +8477,9 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
-      "available": true,
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": "3N3",
       "tags": [
         "3N3",
@@ -8307,7 +8493,7 @@
         {
           "id": "starimpression3d-59218",
           "sku": "59218",
-          "available": true,
+          "available": false,
           "options": [
             "Seleccionar color: rojo-carmin"
           ]
@@ -8315,7 +8501,7 @@
         {
           "id": "starimpression3d-59219",
           "sku": "59219",
-          "available": true,
+          "available": false,
           "options": [
             "Seleccionar color: azul-traful"
           ]
@@ -8323,7 +8509,7 @@
         {
           "id": "starimpression3d-59220",
           "sku": "59220",
-          "available": true,
+          "available": false,
           "options": [
             "Seleccionar color: gris-espacial"
           ]
@@ -8331,7 +8517,7 @@
         {
           "id": "starimpression3d-59221",
           "sku": "59221",
-          "available": true,
+          "available": false,
           "options": [
             "Seleccionar color: verde-lima"
           ]
@@ -8339,7 +8525,7 @@
         {
           "id": "starimpression3d-59222",
           "sku": "59222",
-          "available": true,
+          "available": false,
           "options": [
             "Seleccionar color: blanco"
           ]
@@ -8347,7 +8533,7 @@
         {
           "id": "starimpression3d-59223",
           "sku": "59223",
-          "available": true,
+          "available": false,
           "options": [
             "Seleccionar color: negro"
           ]
@@ -8365,9 +8551,9 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 3,
-      "stockLabel": "Pocas unidades",
-      "available": true,
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": "3N3",
       "tags": [
         "3N3",
@@ -8383,7 +8569,7 @@
         {
           "id": "starimpression3d-59211",
           "sku": "59211",
-          "available": true,
+          "available": false,
           "options": [
             "Seleccionar color: blanco"
           ]
@@ -8391,7 +8577,7 @@
         {
           "id": "starimpression3d-59212",
           "sku": "59212",
-          "available": true,
+          "available": false,
           "options": [
             "Seleccionar color: negro"
           ]
@@ -8399,7 +8585,7 @@
         {
           "id": "starimpression3d-59213",
           "sku": "59213",
-          "available": true,
+          "available": false,
           "options": [
             "Seleccionar color: rojo"
           ]
@@ -8407,7 +8593,7 @@
         {
           "id": "starimpression3d-59214",
           "sku": "59214",
-          "available": true,
+          "available": false,
           "options": [
             "Seleccionar color: azul"
           ]
@@ -8415,7 +8601,7 @@
         {
           "id": "starimpression3d-59215",
           "sku": "59215",
-          "available": true,
+          "available": false,
           "options": [
             "Seleccionar color: gris-plomo"
           ]
@@ -8423,7 +8609,7 @@
         {
           "id": "starimpression3d-59216",
           "sku": "59216",
-          "available": true,
+          "available": false,
           "options": [
             "Seleccionar color: verde"
           ]
@@ -8516,7 +8702,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 169,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3N3",
@@ -8840,7 +9026,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 215,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Printalot",
@@ -8934,7 +9120,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 17,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu lab",
@@ -8967,11 +9153,11 @@
       "domain": "starimpression3d.com",
       "name": "BAMBU LAB A1 COMBO",
       "category": "Impresoras",
-      "price": 1464899,
+      "price": 1464900,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 13,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu lab",
@@ -9008,7 +9194,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 32,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu lab",
@@ -9026,7 +9212,7 @@
           "sku": "59146",
           "available": true,
           "options": [
-            "Opciones de Compra: preventa-septiembre"
+            "Opciones de Compra: entrega-inmediata"
           ]
         }
       ]
@@ -9042,7 +9228,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 19,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu lab",
@@ -9060,7 +9246,7 @@
           "sku": "59143",
           "available": true,
           "options": [
-            "Opciones de Compra: preventa-septiembre"
+            "Opciones de Compra: entrega-inmediata"
           ]
         }
       ]
@@ -9076,7 +9262,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 21,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu lab",
@@ -9117,11 +9303,11 @@
       "domain": "starimpression3d.com",
       "name": "BAMBU LAB H2D COMBO",
       "category": "Impresoras",
-      "price": 6330900,
+      "price": 6330901,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 7,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu lab",
@@ -9165,7 +9351,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 6,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu lab",
@@ -9210,7 +9396,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 6,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu lab",
@@ -9285,13 +9471,13 @@
       "domain": "starimpression3d.com",
       "name": "BAMBU LAB P1S COMBO",
       "category": "Impresoras",
-      "price": 2019900,
+      "price": 2019899,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
       "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
+      "stockLabel": "En stock",
+      "available": true,
       "brand": "Bambu lab",
       "tags": [
         "Bambu lab",
@@ -9307,7 +9493,7 @@
         {
           "id": "starimpression3d-65046",
           "sku": "65046",
-          "available": false,
+          "available": true,
           "options": [
             "Opciones de Compra: preventa-octubre"
           ]
@@ -9315,7 +9501,7 @@
         {
           "id": "starimpression3d-59127",
           "sku": "59127",
-          "available": false,
+          "available": true,
           "options": [
             "Opciones de Compra: entrega-inmediata"
           ]
@@ -9333,7 +9519,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 6,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu lab",
@@ -9374,11 +9560,11 @@
       "domain": "starimpression3d.com",
       "name": "BAMBU LAB P2S COMBO",
       "category": "Impresoras",
-      "price": 3001901,
+      "price": 3001900,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 19,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu lab",
@@ -9423,7 +9609,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 8,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu lab",
@@ -9458,7 +9644,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 44,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu lab",
@@ -9494,8 +9680,8 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 2,
-      "stockLabel": "Pocas unidades",
+      "stock": null,
+      "stockLabel": "En stock",
       "available": true,
       "brand": "Linea EQ",
       "tags": [
@@ -9543,7 +9729,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 13,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Linea EQ",
@@ -9680,7 +9866,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 29,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Creality",
@@ -9753,11 +9939,11 @@
       "domain": "starimpression3d.com",
       "name": "ECOFILA HELLBOT PLA 1KG",
       "category": "Filamentos",
-      "price": 19989,
+      "price": 21990,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 1961,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -10120,7 +10306,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 10,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -10172,7 +10358,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 30,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -10247,7 +10433,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 52,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -10355,7 +10541,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 1,
+      "stock": null,
       "stockLabel": "Consultar",
       "available": false,
       "brand": "Hellbot",
@@ -10419,11 +10605,11 @@
       "domain": "starimpression3d.com",
       "name": "ECOFILA RECARGA HELLBOT PLA 1KG (SIN CARRETE)",
       "category": "Filamentos",
-      "price": 17990,
+      "price": 19990,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 864,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -10690,7 +10876,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 1,
+      "stock": null,
       "stockLabel": "Consultar",
       "available": false,
       "brand": "Grilon3",
@@ -10797,8 +10983,8 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
+      "stock": null,
+      "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
       "tags": [
@@ -10864,7 +11050,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 26,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -10938,7 +11124,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 74,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -11084,7 +11270,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 5,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -11240,8 +11426,8 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
+      "stock": null,
+      "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
       "tags": [
@@ -11307,7 +11493,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 1,
+      "stock": null,
       "stockLabel": "Consultar",
       "available": false,
       "brand": "Grilon3",
@@ -11383,7 +11569,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 15,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -11556,7 +11742,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 477,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -11790,9 +11976,9 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 1,
-      "stockLabel": "Consultar",
-      "available": false,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
       "brand": "Grilon3",
       "tags": [
         "Grilon3",
@@ -11806,7 +11992,7 @@
         {
           "id": "starimpression3d-58871",
           "sku": "58871",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: azul"
           ]
@@ -11814,7 +12000,7 @@
         {
           "id": "starimpression3d-58872",
           "sku": "58872",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: bronce"
           ]
@@ -11822,7 +12008,7 @@
         {
           "id": "starimpression3d-58873",
           "sku": "58873",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: blanco"
           ]
@@ -11830,7 +12016,7 @@
         {
           "id": "starimpression3d-58874",
           "sku": "58874",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: bordo"
           ]
@@ -11838,7 +12024,7 @@
         {
           "id": "starimpression3d-58875",
           "sku": "58875",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: gris-plata"
           ]
@@ -11846,7 +12032,7 @@
         {
           "id": "starimpression3d-58876",
           "sku": "58876",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: rojo"
           ]
@@ -11854,7 +12040,7 @@
         {
           "id": "starimpression3d-58877",
           "sku": "58877",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: naranja-uv-glow"
           ]
@@ -11862,7 +12048,7 @@
         {
           "id": "starimpression3d-58878",
           "sku": "58878",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: turquesa"
           ]
@@ -11870,7 +12056,7 @@
         {
           "id": "starimpression3d-58879",
           "sku": "58879",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: verde-uv-glow"
           ]
@@ -11878,7 +12064,7 @@
         {
           "id": "starimpression3d-58880",
           "sku": "58880",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: negro"
           ]
@@ -11896,8 +12082,8 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 2,
-      "stockLabel": "Pocas unidades",
+      "stock": null,
+      "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
       "tags": [
@@ -11970,7 +12156,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 14,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -12056,7 +12242,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 94,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -12140,8 +12326,8 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 3,
-      "stockLabel": "Pocas unidades",
+      "stock": null,
+      "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
       "tags": [
@@ -12224,7 +12410,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 14,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -12282,8 +12468,8 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
+      "stock": null,
+      "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
       "tags": [
@@ -12324,21 +12510,21 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 1,
-      "stockLabel": "Consultar",
-      "available": false,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
       "brand": "Bambu lab",
       "tags": [
         "Bambu lab"
       ],
-      "image": "https://starimpression3d.com/wp-content/uploads/2026/03/c7b66ea3-f15a-4897-b4ad-c73bd441fa3e.jpg",
+      "image": "https://starimpression3d.com/wp-content/uploads/2026/09/6e0ee229-1867-4b09-890e-a164dd3981cc.jpg",
       "url": "https://starimpression3d.com/producto/hotend-para-bambu-lab-a1-mini-y-a1/",
       "scrapedFrom": "https://starimpression3d.com/wp-json/wc/store/v1/products",
       "variants": [
         {
           "id": "starimpression3d-58831",
           "sku": "58831",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar Medida: 0-2"
           ]
@@ -12346,7 +12532,7 @@
         {
           "id": "starimpression3d-58832",
           "sku": "58832",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar Medida: 0-4"
           ]
@@ -12354,7 +12540,7 @@
         {
           "id": "starimpression3d-58833",
           "sku": "58833",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar Medida: 0-6"
           ]
@@ -12362,7 +12548,7 @@
         {
           "id": "starimpression3d-58834",
           "sku": "58834",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar Medida: 0-8"
           ]
@@ -12376,12 +12562,12 @@
       "domain": "starimpression3d.com",
       "name": "HOTEND PARA BAMBU LAB P1S ACERO",
       "category": "Repuestos",
-      "price": 39599,
+      "price": 49000,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
+      "stock": null,
+      "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu lab",
       "tags": [
@@ -12420,7 +12606,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 1169,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -12462,6 +12648,22 @@
           "options": [
             "Seleccionar Medida: 3-x-3mm"
           ]
+        },
+        {
+          "id": "starimpression3d-66496",
+          "sku": "66496",
+          "available": true,
+          "options": [
+            "Seleccionar Medida: 10-x-3mm"
+          ]
+        },
+        {
+          "id": "starimpression3d-66497",
+          "sku": "66497",
+          "available": true,
+          "options": [
+            "Seleccionar Medida: 5-x-3mm"
+          ]
         }
       ]
     },
@@ -12476,7 +12678,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 16,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -12527,7 +12729,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 25,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Elegoo",
@@ -12591,7 +12793,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 55,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Creality",
@@ -12647,7 +12849,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 31,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -12717,7 +12919,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 45,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -12795,7 +12997,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 217,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -12881,7 +13083,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 36,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu lab",
@@ -12934,11 +13136,11 @@
       "domain": "starimpression3d.com",
       "name": "NOZZLE UNICORN PARA CREALITY K1, K1C, K1 MAX, V3, V3 PLUS",
       "category": "Repuestos",
-      "price": 17377,
+      "price": 18600,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 16,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Creality",
@@ -12998,9 +13200,9 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 2,
-      "stockLabel": "Pocas unidades",
-      "available": true,
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": null,
       "tags": [],
       "image": "https://starimpression3d.com/wp-content/uploads/2026/03/dc2fedcf-10d9-45b2-9daa-19a95d3bb284.png",
@@ -13010,7 +13212,7 @@
         {
           "id": "starimpression3d-58767",
           "sku": "58767",
-          "available": true,
+          "available": false,
           "options": [
             "Seleccionar Medida: 0-8"
           ]
@@ -13018,7 +13220,7 @@
         {
           "id": "starimpression3d-58768",
           "sku": "58768",
-          "available": true,
+          "available": false,
           "options": [
             "Seleccionar Medida: 0-4"
           ]
@@ -13026,7 +13228,7 @@
         {
           "id": "starimpression3d-58769",
           "sku": "58769",
-          "available": true,
+          "available": false,
           "options": [
             "Seleccionar Medida: 0-2"
           ]
@@ -13034,7 +13236,7 @@
         {
           "id": "starimpression3d-58770",
           "sku": "58770",
-          "available": true,
+          "available": false,
           "options": [
             "Seleccionar Medida: 0-5"
           ]
@@ -13042,7 +13244,7 @@
         {
           "id": "starimpression3d-58771",
           "sku": "58771",
-          "available": true,
+          "available": false,
           "options": [
             "Seleccionar Medida: 0-3"
           ]
@@ -13050,7 +13252,7 @@
         {
           "id": "starimpression3d-58772",
           "sku": "58772",
-          "available": true,
+          "available": false,
           "options": [
             "Seleccionar Medida: 0-6"
           ]
@@ -13058,7 +13260,7 @@
         {
           "id": "starimpression3d-58773",
           "sku": "58773",
-          "available": true,
+          "available": false,
           "options": [
             "Seleccionar Medida: 1-0"
           ]
@@ -13076,7 +13278,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 92,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -13154,7 +13356,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 66,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Linea EQ",
@@ -13330,7 +13532,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 467,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Linea EQ",
@@ -13797,22 +13999,6 @@
           "options": [
             "Seleccionar color: blanco-perlado-050"
           ]
-        },
-        {
-          "id": "starimpression3d-66119",
-          "sku": "66119",
-          "available": true,
-          "options": [
-            "Seleccionar color: ocre-amarillo-ferroso-812"
-          ]
-        },
-        {
-          "id": "starimpression3d-66120",
-          "sku": "66120",
-          "available": true,
-          "options": [
-            "Seleccionar color: cobre-iridisicente-030"
-          ]
         }
       ]
     },
@@ -13943,7 +14129,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 107,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Plastar",
@@ -14082,7 +14268,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 3892,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Interiores",
@@ -14242,7 +14428,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 192,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Interiores",
@@ -14327,11 +14513,11 @@
       "domain": "starimpression3d.com",
       "name": "PRINTALOS PLA ART HELIOS 1KG",
       "category": "Filamentos",
-      "price": 35000,
+      "price": 36500,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 19,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Printalot",
@@ -14362,11 +14548,11 @@
       "domain": "starimpression3d.com",
       "name": "PRINTALOT ABS 1KG",
       "category": "Filamentos",
-      "price": 19600,
+      "price": 20000,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 97,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Printalot",
@@ -14513,7 +14699,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 7,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Printalot",
@@ -14699,13 +14885,13 @@
       "domain": "starimpression3d.com",
       "name": "PRINTALOT PETG 1KG",
       "category": "Filamentos",
-      "price": 20600,
+      "price": 21100,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 1,
-      "stockLabel": "Consultar",
-      "available": false,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
       "brand": "Printalot",
       "tags": [
         "Printalot",
@@ -14721,7 +14907,7 @@
         {
           "id": "starimpression3d-58575",
           "sku": "58575",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: celeste"
           ]
@@ -14729,7 +14915,7 @@
         {
           "id": "starimpression3d-58576",
           "sku": "58576",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: amarillo"
           ]
@@ -14737,7 +14923,7 @@
         {
           "id": "starimpression3d-58577",
           "sku": "58577",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: azul-translucido"
           ]
@@ -14745,7 +14931,7 @@
         {
           "id": "starimpression3d-58578",
           "sku": "58578",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: amarillo-translucido"
           ]
@@ -14753,7 +14939,7 @@
         {
           "id": "starimpression3d-58579",
           "sku": "58579",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: azul"
           ]
@@ -14761,7 +14947,7 @@
         {
           "id": "starimpression3d-58580",
           "sku": "58580",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: blanco"
           ]
@@ -14769,7 +14955,7 @@
         {
           "id": "starimpression3d-58581",
           "sku": "58581",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: rojo-translucido"
           ]
@@ -14777,7 +14963,7 @@
         {
           "id": "starimpression3d-58582",
           "sku": "58582",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: natural-transparente"
           ]
@@ -14785,7 +14971,7 @@
         {
           "id": "starimpression3d-58583",
           "sku": "58583",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: violeta-translucido"
           ]
@@ -14793,7 +14979,7 @@
         {
           "id": "starimpression3d-58584",
           "sku": "58584",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: plata"
           ]
@@ -14801,7 +14987,7 @@
         {
           "id": "starimpression3d-58585",
           "sku": "58585",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: cobalto"
           ]
@@ -14809,7 +14995,7 @@
         {
           "id": "starimpression3d-58586",
           "sku": "58586",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: rojo"
           ]
@@ -14817,7 +15003,7 @@
         {
           "id": "starimpression3d-58587",
           "sku": "58587",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: negro"
           ]
@@ -14825,7 +15011,7 @@
         {
           "id": "starimpression3d-58588",
           "sku": "58588",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: verde-translucido"
           ]
@@ -14833,7 +15019,7 @@
         {
           "id": "starimpression3d-58589",
           "sku": "58589",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: gris"
           ]
@@ -14841,7 +15027,7 @@
         {
           "id": "starimpression3d-58590",
           "sku": "58590",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: verde"
           ]
@@ -14849,7 +15035,7 @@
         {
           "id": "starimpression3d-58591",
           "sku": "58591",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: naranja-fluo"
           ]
@@ -14857,7 +15043,7 @@
         {
           "id": "starimpression3d-58592",
           "sku": "58592",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: rosa"
           ]
@@ -15003,7 +15189,7 @@
       "domain": "starimpression3d.com",
       "name": "PRINTALOT PETG 5KG",
       "category": "Filamentos",
-      "price": 82100,
+      "price": 90800,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -15046,11 +15232,11 @@
       "domain": "starimpression3d.com",
       "name": "PRINTALOT PLA 1KG",
       "category": "Filamentos",
-      "price": 23500,
+      "price": 24500,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 764,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Printalot",
@@ -15807,7 +15993,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 1,
+      "stock": null,
       "stockLabel": "Consultar",
       "available": false,
       "brand": "Printalot",
@@ -15862,11 +16048,11 @@
       "domain": "starimpression3d.com",
       "name": "PRINTALOT PLA 5KG",
       "category": "Filamentos",
-      "price": 110100,
+      "price": 105500,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 10,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Printalot",
@@ -16024,9 +16210,9 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
-      "available": true,
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": "Printalot",
       "tags": [
         "Printalot",
@@ -16040,7 +16226,7 @@
         {
           "id": "starimpression3d-58443",
           "sku": "58443",
-          "available": true,
+          "available": false,
           "options": [
             "Seleccionar color: natural-transparente"
           ]
@@ -16048,7 +16234,7 @@
         {
           "id": "starimpression3d-58444",
           "sku": "58444",
-          "available": true,
+          "available": false,
           "options": [
             "Seleccionar color: amarillo-translucido"
           ]
@@ -16056,7 +16242,7 @@
         {
           "id": "starimpression3d-58445",
           "sku": "58445",
-          "available": true,
+          "available": false,
           "options": [
             "Seleccionar color: negro"
           ]
@@ -16064,7 +16250,7 @@
         {
           "id": "starimpression3d-58446",
           "sku": "58446",
-          "available": true,
+          "available": false,
           "options": [
             "Seleccionar color: verde-translucido"
           ]
@@ -16072,7 +16258,7 @@
         {
           "id": "starimpression3d-58447",
           "sku": "58447",
-          "available": true,
+          "available": false,
           "options": [
             "Seleccionar color: rojo"
           ]
@@ -16080,7 +16266,7 @@
         {
           "id": "starimpression3d-58448",
           "sku": "58448",
-          "available": true,
+          "available": false,
           "options": [
             "Seleccionar color: azul-translucido"
           ]
@@ -16094,11 +16280,11 @@
       "domain": "starimpression3d.com",
       "name": "PRINTALOT PLA ART GLOW 1KG",
       "category": "Filamentos",
-      "price": 37000,
+      "price": 38600,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 14,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Printalot",
@@ -16107,7 +16293,7 @@
         "PLA",
         "1kg"
       ],
-      "image": "https://starimpression3d.com/wp-content/uploads/2026/03/dc7689a5-3b8e-4c0b-94ba-54ecdba85b14.png",
+      "image": "https://starimpression3d.com/wp-content/uploads/2026/09/231e077f-bb34-4372-b728-ca3cf2102558.jpeg",
       "url": "https://starimpression3d.com/producto/printalot-pla-art-glow-250g/",
       "scrapedFrom": "https://starimpression3d.com/wp-json/wc/store/v1/products",
       "variants": [
@@ -16126,9 +16312,9 @@
       "sourceProductId": "58438",
       "store": "Star Impression 3D",
       "domain": "starimpression3d.com",
-      "name": "PRINTALOT PLA ART VULCANO 250g",
+      "name": "PRINTALOT PLA ART VULCANO 1KG",
       "category": "Filamentos",
-      "price": 11900,
+      "price": 36500,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -16140,7 +16326,7 @@
         "Printalot",
         "PLA",
         "ASA",
-        "250g"
+        "1kg"
       ],
       "image": "https://starimpression3d.com/wp-content/uploads/2026/03/4b9b8fe2-d727-425d-99ee-5c428962fa3b.jpg",
       "url": "https://starimpression3d.com/producto/printalot-pla-art-vulcano-250g/",
@@ -16163,11 +16349,11 @@
       "domain": "starimpression3d.com",
       "name": "PRINTALOT PLA FLEX 1KG",
       "category": "Filamentos",
-      "price": 26800,
+      "price": 27400,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 33,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Printalot",
@@ -16276,7 +16462,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 4,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Printalot",
@@ -16441,8 +16627,8 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 3,
-      "stockLabel": "Pocas unidades",
+      "stock": null,
+      "stockLabel": "En stock",
       "available": true,
       "brand": "Printalot",
       "tags": [
@@ -16509,9 +16695,9 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
-      "available": true,
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": "Printalot",
       "tags": [
         "Printalot",
@@ -16525,7 +16711,7 @@
         {
           "id": "starimpression3d-58402",
           "sku": "58402",
-          "available": true,
+          "available": false,
           "options": [
             "Seleccionar color: arrayan"
           ]
@@ -16533,7 +16719,7 @@
         {
           "id": "starimpression3d-58403",
           "sku": "58403",
-          "available": true,
+          "available": false,
           "options": [
             "Seleccionar color: fresno"
           ]
@@ -16645,8 +16831,8 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
+      "stock": null,
+      "stockLabel": "En stock",
       "available": true,
       "brand": "Creality",
       "tags": [
@@ -16680,7 +16866,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 14,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Creality",
@@ -16803,7 +16989,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 6,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Creality",
@@ -16855,7 +17041,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 16,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Creality",
@@ -16973,7 +17159,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 8,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -17103,7 +17289,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 1343,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Interiores",
@@ -17167,7 +17353,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 942,
+      "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Interiores",

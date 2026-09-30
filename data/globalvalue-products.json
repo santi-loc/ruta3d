@@ -4,8 +4,8 @@
     "domain": "globalvalue.ar",
     "baseUrl": "https://globalvalue.ar"
   },
-  "scrapedAt": "2026-09-06T15:07:08.531Z",
-  "count": 207,
+  "scrapedAt": "2026-09-30T00:23:06.883Z",
+  "count": 209,
   "pages": [
     {
       "page": 1,
@@ -40,8 +40,8 @@
     {
       "page": 6,
       "url": "https://globalvalue.ar/shop/page/6",
-      "found": 15,
-      "added": 15
+      "found": 16,
+      "added": 16
     },
     {
       "page": 7,
@@ -70,8 +70,8 @@
     {
       "page": 11,
       "url": "https://globalvalue.ar/shop/page/11",
-      "found": 11,
-      "added": 11
+      "found": 12,
+      "added": 12
     },
     {
       "page": 12,
@@ -460,9 +460,9 @@
       "domain": "globalvalue.ar",
       "name": "Cabezal Laser Lunyee 10w",
       "category": "Corte láser",
-      "price": 494910,
+      "price": 541937.65,
       "currency": "ARS",
-      "previousPrice": 549900,
+      "previousPrice": 602152.94,
       "transferPrice": null,
       "purchaseModes": [
         "Entrega inmediata"
@@ -723,9 +723,9 @@
       "domain": "globalvalue.ar",
       "name": "Laser De Fibra 30w Raycus Qs",
       "category": "Corte láser",
-      "price": 5849910,
+      "price": 6464150.55,
       "currency": "ARS",
-      "previousPrice": 6499900,
+      "previousPrice": 7182389.5,
       "transferPrice": null,
       "purchaseModes": [
         "Entrega inmediata"
@@ -2533,11 +2533,38 @@
       "variants": []
     },
     {
+      "id": "globalvalue-2761",
+      "sourceProductId": "2761",
+      "store": "Global Value",
+      "domain": "globalvalue.ar",
+      "name": "Maquina Grabado Y Corte Laser Two Trees Tts Pro 20w",
+      "category": "Corte láser",
+      "price": 1790000.55,
+      "currency": "ARS",
+      "previousPrice": 1988889.5,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Two Trees",
+      "tags": [
+        "Two Trees",
+        "Laser"
+      ],
+      "image": "https://globalvalue.ar/web/image/product.template/2761/image_512",
+      "url": "https://globalvalue.ar/shop/000235-maquina-grabado-y-corte-laser-two-trees-tts-pro-20w-2761?page=6",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/6",
+      "variants": []
+    },
+    {
       "id": "globalvalue-2759",
       "sourceProductId": "2759",
       "store": "Global Value",
       "domain": "globalvalue.ar",
-      "name": "Rotativo Creality P/ Grabadora Falcon Serie",
+      "name": "Rotativo Creality P/ Grabadora Falcon Serie + Pies",
       "category": "Corte láser",
       "price": 311310,
       "currency": "ARS",
@@ -2555,7 +2582,7 @@
         "Rotatorio"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2759/image_512",
-      "url": "https://globalvalue.ar/shop/000232-rotativo-creality-p-grabadora-falcon-serie-2759?page=6",
+      "url": "https://globalvalue.ar/shop/000232-rotativo-creality-p-grabadora-falcon-serie-pies-2759?page=6",
       "scrapedFrom": "https://globalvalue.ar/shop/page/6",
       "variants": []
     },
@@ -4390,6 +4417,32 @@
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2643/image_512",
       "url": "https://globalvalue.ar/shop/000172-honeycomb-algo-laser-40x40cm-base-de-apoyo-2643?page=11",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/11",
+      "variants": []
+    },
+    {
+      "id": "globalvalue-2642",
+      "sourceProductId": "2642",
+      "store": "Global Value",
+      "domain": "globalvalue.ar",
+      "name": "Repuesto Placa Controladora Sculpfun 32 Bits S6,s9,s10,s30",
+      "category": "Repuestos",
+      "price": 260910,
+      "currency": "ARS",
+      "previousPrice": 289900,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Sculpfun",
+      "tags": [
+        "Sculpfun"
+      ],
+      "image": "https://globalvalue.ar/web/image/product.template/2642/image_512",
+      "url": "https://globalvalue.ar/shop/000437-repuesto-placa-controladora-sculpfun-32-bits-s6-s9-s10-s30-2642?page=11",
       "scrapedFrom": "https://globalvalue.ar/shop/page/11",
       "variants": []
     },

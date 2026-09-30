@@ -5,13 +5,13 @@
     "baseUrl": "https://filacolor.com.ar",
     "apiPath": "/wp-json/wc/store/v1/products"
   },
-  "scrapedAt": "2026-09-06T15:06:54.542Z",
+  "scrapedAt": "2026-09-30T00:22:51.494Z",
   "source": "https://filacolor.com.ar/wp-json/wc/store/v1/products",
   "pages": [
     {
       "page": 1,
       "url": "https://filacolor.com.ar/wp-json/wc/store/v1/products?per_page=100&page=1",
-      "found": 49,
+      "found": 50,
       "added": 39
     }
   ],
@@ -39,14 +39,6 @@
       "url": "https://filacolor.com.ar/producto/3n3-pla/",
       "scrapedFrom": "https://filacolor.com.ar/wp-json/wc/store/v1/products",
       "variants": [
-        {
-          "id": "filacolor-5449",
-          "sku": "5449",
-          "available": true,
-          "options": [
-            "Colores: amarillo-fluo"
-          ]
-        },
         {
           "id": "filacolor-5450",
           "sku": "5450",
@@ -88,14 +80,6 @@
           ]
         },
         {
-          "id": "filacolor-5455",
-          "sku": "5455",
-          "available": true,
-          "options": [
-            "Colores: fucsia"
-          ]
-        },
-        {
           "id": "filacolor-5456",
           "sku": "5456",
           "available": true,
@@ -112,6 +96,14 @@
           ]
         },
         {
+          "id": "filacolor-5459",
+          "sku": "5459",
+          "available": true,
+          "options": [
+            "Colores: hueso"
+          ]
+        },
+        {
           "id": "filacolor-5460",
           "sku": "5460",
           "available": true,
@@ -120,11 +112,11 @@
           ]
         },
         {
-          "id": "filacolor-5461",
-          "sku": "5461",
+          "id": "filacolor-5462",
+          "sku": "5462",
           "available": true,
           "options": [
-            "Colores: natural"
+            "Colores: negro"
           ]
         },
         {
@@ -142,13 +134,107 @@
           "options": [
             "Colores: verde"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "filacolor-5780",
+      "sourceProductId": "5780",
+      "store": "Filacolor",
+      "domain": "filacolor.com.ar",
+      "name": "3N3 PETG",
+      "category": "Filamentos",
+      "price": 17000,
+      "currency": "ARS",
+      "previousPrice": 17500,
+      "transferPrice": null,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "3N3",
+      "tags": [
+        "3N3",
+        "PETG",
+        "1kg"
+      ],
+      "image": "https://filacolor.com.ar/wp-content/uploads/2025/03/Proyecto-nuevo-11.webp",
+      "url": "https://filacolor.com.ar/producto/3n3-petg/",
+      "scrapedFrom": "https://filacolor.com.ar/wp-json/wc/store/v1/products",
+      "variants": [
         {
-          "id": "filacolor-5468",
-          "sku": "5468",
+          "id": "filacolor-5786",
+          "sku": "5786",
           "available": true,
           "options": [
-            "Colores: verde-fluo"
+            "Colores: negro"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "filacolor-11222",
+      "sourceProductId": "11222",
+      "store": "Filacolor",
+      "domain": "filacolor.com.ar",
+      "name": "3N3 SILK",
+      "category": "Filamentos",
+      "price": 25000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "3N3",
+      "tags": [
+        "3N3",
+        "PLA Silk",
+        "PLA",
+        "1kg",
+        "Silk"
+      ],
+      "image": "https://filacolor.com.ar/wp-content/uploads/2026/09/3n3_silk_aluminio2-ec81e64b683029b78017884556889802-1024-1024.webp",
+      "url": "https://filacolor.com.ar/producto/3n3-silk/",
+      "scrapedFrom": "https://filacolor.com.ar/wp-json/wc/store/v1/products",
+      "variants": [
+        {
+          "id": "filacolor-11228",
+          "sku": "11228",
+          "available": true,
+          "options": [
+            "Colores: aluminio"
+          ]
+        },
+        {
+          "id": "filacolor-11229",
+          "sku": "11229",
+          "available": true,
+          "options": [
+            "Colores: cobre"
+          ]
+        },
+        {
+          "id": "filacolor-11230",
+          "sku": "11230",
+          "available": true,
+          "options": [
+            "Colores: papaya"
+          ]
+        },
+        {
+          "id": "filacolor-11231",
+          "sku": "11231",
+          "available": true,
+          "options": [
+            "Colores: rojo"
+          ]
+        },
+        {
+          "id": "filacolor-11232",
+          "sku": "11232",
+          "available": true,
+          "options": [
+            "Colores: verde-malaquita"
           ]
         }
       ]
@@ -162,7 +248,7 @@
       "category": "Filamentos",
       "price": 15000,
       "currency": "ARS",
-      "previousPrice": 15500,
+      "previousPrice": null,
       "transferPrice": null,
       "stock": null,
       "stockLabel": "En stock",
@@ -179,6 +265,54 @@
       "scrapedFrom": "https://filacolor.com.ar/wp-json/wc/store/v1/products",
       "variants": [
         {
+          "id": "filacolor-11284",
+          "sku": "11284",
+          "available": true,
+          "options": [
+            "Colores: chocolate"
+          ]
+        },
+        {
+          "id": "filacolor-11285",
+          "sku": "11285",
+          "available": true,
+          "options": [
+            "Colores: verde"
+          ]
+        },
+        {
+          "id": "filacolor-11181",
+          "sku": "11181",
+          "available": true,
+          "options": [
+            "Colores: amarillo"
+          ]
+        },
+        {
+          "id": "filacolor-11182",
+          "sku": "11182",
+          "available": true,
+          "options": [
+            "Colores: bronce"
+          ]
+        },
+        {
+          "id": "filacolor-11183",
+          "sku": "11183",
+          "available": true,
+          "options": [
+            "Colores: celeste"
+          ]
+        },
+        {
+          "id": "filacolor-11184",
+          "sku": "11184",
+          "available": true,
+          "options": [
+            "Colores: lila"
+          ]
+        },
+        {
           "id": "filacolor-11057",
           "sku": "11057",
           "available": true,
@@ -187,19 +321,19 @@
           ]
         },
         {
-          "id": "filacolor-11058",
-          "sku": "11058",
-          "available": true,
-          "options": [
-            "Colores: rojo"
-          ]
-        },
-        {
           "id": "filacolor-10289",
           "sku": "10289",
           "available": true,
           "options": [
             "Colores: blanco"
+          ]
+        },
+        {
+          "id": "filacolor-10290",
+          "sku": "10290",
+          "available": true,
+          "options": [
+            "Colores: gris-plomo"
           ]
         },
         {
@@ -213,13 +347,36 @@
       ]
     },
     {
+      "id": "filacolor-10284",
+      "sourceProductId": "10284",
+      "store": "Filacolor",
+      "domain": "filacolor.com.ar",
+      "name": "Adhesivo Para Impresion 3D solo para PLA 80cc",
+      "category": "Herramientas",
+      "price": 18000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "stock": 7,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA"
+      ],
+      "image": "https://filacolor.com.ar/wp-content/uploads/2026/06/WhatsApp-Image-2026-05-31-at-7.45.16-PM.jpeg",
+      "url": "https://filacolor.com.ar/producto/pegamento-para-impresion-3d-solo-pla-80cc/",
+      "scrapedFrom": "https://filacolor.com.ar/wp-json/wc/store/v1/products",
+      "variants": []
+    },
+    {
       "id": "filacolor-8191",
       "sourceProductId": "8191",
       "store": "Filacolor",
       "domain": "filacolor.com.ar",
       "name": "Bambu Lab Pla Lite (con carrete)",
       "category": "Filamentos",
-      "price": 25000,
+      "price": 25500,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -242,6 +399,14 @@
           "available": true,
           "options": [
             "Colores: blanco"
+          ]
+        },
+        {
+          "id": "filacolor-8195",
+          "sku": "8195",
+          "available": true,
+          "options": [
+            "Colores: gris"
           ]
         },
         {
@@ -342,7 +507,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 2,
+      "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Creality",
@@ -530,12 +695,12 @@
       "domain": "filacolor.com.ar",
       "name": "ELEGOO PLA – FIBRA CARBONO",
       "category": "Filamentos",
-      "price": 40800,
+      "price": 39200,
       "currency": "ARS",
-      "previousPrice": null,
+      "previousPrice": 40800,
       "transferPrice": null,
-      "stock": 4,
-      "stockLabel": "En stock",
+      "stock": 3,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Elegoo",
       "tags": [
@@ -555,9 +720,9 @@
       "domain": "filacolor.com.ar",
       "name": "ELEGOO PLA MATTE",
       "category": "Filamentos",
-      "price": 29600,
+      "price": 28400,
       "currency": "ARS",
-      "previousPrice": null,
+      "previousPrice": 29600,
       "transferPrice": null,
       "stock": null,
       "stockLabel": "En stock",
@@ -670,9 +835,9 @@
       "domain": "filacolor.com.ar",
       "name": "ELEGOO RAPID PETG",
       "category": "Filamentos",
-      "price": 22800,
+      "price": 21900,
       "currency": "ARS",
-      "previousPrice": null,
+      "previousPrice": 22800,
       "transferPrice": null,
       "stock": null,
       "stockLabel": "En stock",
@@ -688,22 +853,6 @@
       "url": "https://filacolor.com.ar/producto/elegoo-rapid-petg/",
       "scrapedFrom": "https://filacolor.com.ar/wp-json/wc/store/v1/products",
       "variants": [
-        {
-          "id": "filacolor-10007",
-          "sku": "10007",
-          "available": true,
-          "options": [
-            "Colores: amarillo"
-          ]
-        },
-        {
-          "id": "filacolor-10008",
-          "sku": "10008",
-          "available": true,
-          "options": [
-            "Colores: azul"
-          ]
-        },
         {
           "id": "filacolor-10009",
           "sku": "10009",
@@ -750,14 +899,6 @@
           "available": true,
           "options": [
             "Colores: rojo"
-          ]
-        },
-        {
-          "id": "filacolor-8719",
-          "sku": "8719",
-          "available": true,
-          "options": [
-            "Colores: blanco"
           ]
         }
       ]
@@ -938,14 +1079,6 @@
           ]
         },
         {
-          "id": "filacolor-8580",
-          "sku": "8580",
-          "available": true,
-          "options": [
-            "Colores: azul-morado-negro"
-          ]
-        },
-        {
           "id": "filacolor-8581",
           "sku": "8581",
           "available": true,
@@ -1035,14 +1168,6 @@
       "url": "https://filacolor.com.ar/producto/ender-pla-series-2/",
       "scrapedFrom": "https://filacolor.com.ar/wp-json/wc/store/v1/products",
       "variants": [
-        {
-          "id": "filacolor-7882",
-          "sku": "7882",
-          "available": true,
-          "options": [
-            "Colores: amarillo"
-          ]
-        },
         {
           "id": "filacolor-7883",
           "sku": "7883",
@@ -1189,14 +1314,6 @@
           ]
         },
         {
-          "id": "filacolor-5245",
-          "sku": "5245",
-          "available": true,
-          "options": [
-            "Colores: clear-verde"
-          ]
-        },
-        {
           "id": "filacolor-5247",
           "sku": "5247",
           "available": true,
@@ -1205,27 +1322,11 @@
           ]
         },
         {
-          "id": "filacolor-5248",
-          "sku": "5248",
-          "available": true,
-          "options": [
-            "Colores: gris-plata"
-          ]
-        },
-        {
           "id": "filacolor-5250",
           "sku": "5250",
           "available": true,
           "options": [
             "Colores: naranja-praga"
-          ]
-        },
-        {
-          "id": "filacolor-5253",
-          "sku": "5253",
-          "available": true,
-          "options": [
-            "Colores: natural"
           ]
         }
       ]
@@ -1271,6 +1372,14 @@
           ]
         },
         {
+          "id": "filacolor-5346",
+          "sku": "5346",
+          "available": true,
+          "options": [
+            "Colores: amarillo"
+          ]
+        },
+        {
           "id": "filacolor-5348",
           "sku": "5348",
           "available": true,
@@ -1287,6 +1396,14 @@
           ]
         },
         {
+          "id": "filacolor-5350",
+          "sku": "5350",
+          "available": true,
+          "options": [
+            "Colores: azul"
+          ]
+        },
+        {
           "id": "filacolor-5354",
           "sku": "5354",
           "available": true,
@@ -1300,6 +1417,14 @@
           "available": true,
           "options": [
             "Colores: bordo"
+          ]
+        },
+        {
+          "id": "filacolor-5358",
+          "sku": "5358",
+          "available": true,
+          "options": [
+            "Colores: bronce"
           ]
         },
         {
@@ -1405,72 +1530,6 @@
           "options": [
             "Colores: verde-fluo"
           ]
-        },
-        {
-          "id": "filacolor-5392",
-          "sku": "5392",
-          "available": true,
-          "options": [
-            "Colores: verde-manzana"
-          ]
-        },
-        {
-          "id": "filacolor-5394",
-          "sku": "5394",
-          "available": true,
-          "options": [
-            "Colores: violeta"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "filacolor-10118",
-      "sourceProductId": "10118",
-      "store": "Filacolor",
-      "domain": "filacolor.com.ar",
-      "name": "Filamento Pla High Speed Gst3d Lite",
-      "category": "Filamentos",
-      "price": 16900,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "GST3D",
-      "tags": [
-        "GST3D",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://filacolor.com.ar/wp-content/uploads/2026/06/gstlite-pla-army-green-59ac97e4ef50269af717773812097846-1024-1024.webp",
-      "url": "https://filacolor.com.ar/producto/filamento-pla-high-speed-gst3d-lite/",
-      "scrapedFrom": "https://filacolor.com.ar/wp-json/wc/store/v1/products",
-      "variants": [
-        {
-          "id": "filacolor-10150",
-          "sku": "10150",
-          "available": true,
-          "options": [
-            "Colores: orange"
-          ]
-        },
-        {
-          "id": "filacolor-10151",
-          "sku": "10151",
-          "available": true,
-          "options": [
-            "Colores: peach"
-          ]
-        },
-        {
-          "id": "filacolor-10154",
-          "sku": "10154",
-          "available": true,
-          "options": [
-            "Colores: scallion-green"
-          ]
         }
       ]
     },
@@ -1481,7 +1540,7 @@
       "domain": "filacolor.com.ar",
       "name": "Flashforge Ecopla",
       "category": "Filamentos",
-      "price": 13900,
+      "price": 15000,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -1499,35 +1558,11 @@
       "scrapedFrom": "https://filacolor.com.ar/wp-json/wc/store/v1/products",
       "variants": [
         {
-          "id": "filacolor-10977",
-          "sku": "10977",
-          "available": true,
-          "options": [
-            "Colores: azul"
-          ]
-        },
-        {
-          "id": "filacolor-10978",
-          "sku": "10978",
-          "available": true,
-          "options": [
-            "Colores: gris"
-          ]
-        },
-        {
           "id": "filacolor-10979",
           "sku": "10979",
           "available": true,
           "options": [
             "Colores: negro"
-          ]
-        },
-        {
-          "id": "filacolor-10980",
-          "sku": "10980",
-          "available": true,
-          "options": [
-            "Colores: rojo"
           ]
         }
       ]
@@ -1562,14 +1597,6 @@
           "available": true,
           "options": [
             "Colores: marmol"
-          ]
-        },
-        {
-          "id": "filacolor-11000",
-          "sku": "11000",
-          "available": true,
-          "options": [
-            "Colores: titanio-quemado-multicolor"
           ]
         },
         {
@@ -1610,14 +1637,6 @@
           "available": true,
           "options": [
             "Colores: negro"
-          ]
-        },
-        {
-          "id": "filacolor-10781",
-          "sku": "10781",
-          "available": true,
-          "options": [
-            "Colores: rosa"
           ]
         },
         {
@@ -1787,49 +1806,6 @@
           "available": true,
           "options": [
             "Colores: rosa"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "filacolor-6877",
-      "sourceProductId": "6877",
-      "store": "Filacolor",
-      "domain": "filacolor.com.ar",
-      "name": "Fremover PLA+ High Speed PLA 300 mm/s",
-      "category": "Filamentos",
-      "price": 18600,
-      "currency": "ARS",
-      "previousPrice": 22500,
-      "transferPrice": null,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Fremover",
-      "tags": [
-        "Fremover",
-        "PLA+",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://filacolor.com.ar/wp-content/uploads/2025/07/freesmeralda.webp",
-      "url": "https://filacolor.com.ar/producto/fremover-pla-high-speed-pla/",
-      "scrapedFrom": "https://filacolor.com.ar/wp-json/wc/store/v1/products",
-      "variants": [
-        {
-          "id": "filacolor-7920",
-          "sku": "7920",
-          "available": true,
-          "options": [
-            "Colores: verde-ciruela"
-          ]
-        },
-        {
-          "id": "filacolor-6899",
-          "sku": "6899",
-          "available": true,
-          "options": [
-            "Colores: lavanda"
           ]
         }
       ]
@@ -2006,6 +1982,14 @@
           ]
         },
         {
+          "id": "filacolor-5571",
+          "sku": "5571",
+          "available": true,
+          "options": [
+            "Colores: carbon"
+          ]
+        },
+        {
           "id": "filacolor-5572",
           "sku": "5572",
           "available": true,
@@ -2019,14 +2003,6 @@
           "available": true,
           "options": [
             "Colores: chocolate"
-          ]
-        },
-        {
-          "id": "filacolor-5574",
-          "sku": "5574",
-          "available": true,
-          "options": [
-            "Colores: crema-del-cielo"
           ]
         },
         {
@@ -2083,14 +2059,6 @@
           "available": true,
           "options": [
             "Colores: salmon"
-          ]
-        },
-        {
-          "id": "filacolor-5582",
-          "sku": "5582",
-          "available": true,
-          "options": [
-            "Colores: verde-aviador"
           ]
         },
         {
@@ -2291,49 +2259,6 @@
           "available": true,
           "options": [
             "Colores: lavanda"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "filacolor-10993",
-      "sourceProductId": "10993",
-      "store": "Filacolor",
-      "domain": "filacolor.com.ar",
-      "name": "LUMINOUS GLOW",
-      "category": "Filamentos",
-      "price": 26400,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Flashforge",
-      "tags": [
-        "Flashforge",
-        "PLA",
-        "1kg",
-        "Glow"
-      ],
-      "image": "https://filacolor.com.ar/wp-content/uploads/2026/08/71lSsSITMFL._AC_SX679_.jpg",
-      "url": "https://filacolor.com.ar/producto/luminous-glow/",
-      "scrapedFrom": "https://filacolor.com.ar/wp-json/wc/store/v1/products",
-      "variants": [
-        {
-          "id": "filacolor-10994",
-          "sku": "10994",
-          "available": true,
-          "options": [
-            "Colores: azul"
-          ]
-        },
-        {
-          "id": "filacolor-10995",
-          "sku": "10995",
-          "available": true,
-          "options": [
-            "Colores: verde"
           ]
         }
       ]

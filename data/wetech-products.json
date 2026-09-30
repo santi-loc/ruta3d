@@ -5,15 +5,15 @@
     "baseUrl": "https://shop.wetech.ar",
     "listingPath": "/products"
   },
-  "scrapedAt": "2026-09-06T15:07:40.117Z",
-  "count": 285,
+  "scrapedAt": "2026-09-30T00:29:39.857Z",
+  "count": 296,
   "pages": [
     {
       "page": 1,
       "path": "/stk-item/catalogo",
       "url": "https://back.wetech.ar/stk-item/catalogo",
-      "found": 599,
-      "added": 285
+      "found": 616,
+      "added": 296
     }
   ],
   "products": [
@@ -28,7 +28,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 18699.15,
-      "stock": 41,
+      "stock": 29,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3n3",
@@ -129,7 +129,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 16999.15,
-      "stock": 42,
+      "stock": 7,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3n3",
@@ -183,7 +183,7 @@
         },
         {
           "id": "3N-PETG-1KG-GRES",
-          "available": true,
+          "available": false,
           "price": 19999,
           "options": [
             "Gris Espacial",
@@ -230,7 +230,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 12499.25,
-      "stock": 521,
+      "stock": 411,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3n3",
@@ -249,7 +249,7 @@
       "variants": [
         {
           "id": "3N-PLA-1KG-AMAR",
-          "available": true,
+          "available": false,
           "price": 23528,
           "options": [
             "Amarillo",
@@ -273,10 +273,10 @@
         },
         {
           "id": "3N-PLA-1KG-HUES",
-          "available": true,
+          "available": false,
           "price": 23528,
           "options": [
-            "Amarillo Hueso",
+            "Hueso",
             "1kg",
             "PLA",
             "Estándar",
@@ -348,7 +348,7 @@
           "available": false,
           "price": 23528,
           "options": [
-            "Dorado Oro",
+            "Oro",
             "1kg",
             "PLA",
             "Estándar",
@@ -357,7 +357,7 @@
         },
         {
           "id": "3N-PLA-1KG-FUCS",
-          "available": true,
+          "available": false,
           "price": 23528,
           "options": [
             "Fucsia",
@@ -381,7 +381,7 @@
         },
         {
           "id": "3N-PLA-1KG-GRPL",
-          "available": true,
+          "available": false,
           "price": 23528,
           "options": [
             "Gris Plomo",
@@ -396,7 +396,7 @@
           "available": false,
           "price": 23528,
           "options": [
-            "Marron Habano",
+            "Habano",
             "1kg",
             "PLA",
             "Estándar",
@@ -405,7 +405,7 @@
         },
         {
           "id": "3N-PLA-1KG-NARA",
-          "available": true,
+          "available": false,
           "price": 23528,
           "options": [
             "Naranja",
@@ -417,7 +417,7 @@
         },
         {
           "id": "3N-PLA-1KG-NEGR",
-          "available": true,
+          "available": false,
           "price": 23528,
           "options": [
             "Negro",
@@ -453,10 +453,10 @@
         },
         {
           "id": "3N-PLA-1KG-RUST",
-          "available": false,
+          "available": true,
           "price": 23528,
           "options": [
-            "Marron Rustico",
+            "Rustico",
             "1kg",
             "PLA",
             "Estándar",
@@ -525,7 +525,7 @@
         },
         {
           "id": "3N-PLA-500-AZUL",
-          "available": true,
+          "available": false,
           "price": 14705,
           "options": [
             "Azul",
@@ -656,7 +656,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 24998.5,
-      "stock": 55,
+      "stock": 38,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3n3",
@@ -674,7 +674,7 @@
       "variants": [
         {
           "id": "3N-SILK-1KG-ALUM",
-          "available": true,
+          "available": false,
           "price": 29410,
           "options": [
             "Aluminio",
@@ -745,7 +745,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 20999.25,
-      "stock": 84,
+      "stock": 77,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3n3",
@@ -800,7 +800,7 @@
         },
         {
           "id": "3N-TPU-1KG-NEGR",
-          "available": true,
+          "available": false,
           "price": 35293,
           "options": [
             "Negro",
@@ -919,7 +919,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 24999.35,
-      "stock": 31,
+      "stock": 28,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3nFlex",
@@ -1104,7 +1104,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 16499.35,
-      "stock": 278,
+      "stock": 106,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3nMax",
@@ -1123,7 +1123,7 @@
       "variants": [
         {
           "id": "3X-PLA-1KG-AMAR",
-          "available": true,
+          "available": false,
           "price": 23528,
           "options": [
             "Amarillo",
@@ -1147,7 +1147,7 @@
         },
         {
           "id": "3X-PLA-1KG-BLAN",
-          "available": true,
+          "available": false,
           "price": 23528,
           "options": [
             "Blanco",
@@ -1159,7 +1159,7 @@
         },
         {
           "id": "3X-PLA-1KG-BRON",
-          "available": true,
+          "available": false,
           "price": 23528,
           "options": [
             "Bronce",
@@ -1183,10 +1183,10 @@
         },
         {
           "id": "3X-PLA-1KG-CHOC",
-          "available": true,
+          "available": false,
           "price": 23528,
           "options": [
-            "Marron Chocolate",
+            "Chocolate",
             "1kg",
             "PLA+ Matte",
             "Estándar",
@@ -1207,10 +1207,10 @@
         },
         {
           "id": "3X-PLA-1KG-LILA",
-          "available": false,
+          "available": true,
           "price": 23528,
           "options": [
-            "Violeta Lila",
+            "Lila",
             "1kg",
             "PLA+ Matte",
             "Estándar",
@@ -1231,7 +1231,7 @@
         },
         {
           "id": "3X-PLA-1KG-NEGR",
-          "available": true,
+          "available": false,
           "price": 23528,
           "options": [
             "Negro",
@@ -1243,7 +1243,7 @@
         },
         {
           "id": "3X-PLA-1KG-ROJO",
-          "available": true,
+          "available": false,
           "price": 23528,
           "options": [
             "Rojo",
@@ -1270,7 +1270,7 @@
           "available": true,
           "price": 23528,
           "options": [
-            "Violeta Uva",
+            "Uva",
             "1kg",
             "PLA+ Matte",
             "Estándar",
@@ -1303,7 +1303,7 @@
         },
         {
           "id": "3X-PLA-750-AZUL",
-          "available": true,
+          "available": false,
           "price": 19411,
           "options": [
             "Azul",
@@ -1315,7 +1315,7 @@
         },
         {
           "id": "3X-PLA-750-BLAN",
-          "available": true,
+          "available": false,
           "price": 19411,
           "options": [
             "Blanco",
@@ -1354,7 +1354,7 @@
           "available": true,
           "price": 19411,
           "options": [
-            "Marron Chocolate",
+            "Chocolate",
             "0.75kg",
             "PLA+ Matte",
             "Estándar",
@@ -1378,7 +1378,7 @@
           "available": true,
           "price": 19411,
           "options": [
-            "Violeta Lila",
+            "Lila",
             "0.75kg",
             "PLA+ Matte",
             "Estándar",
@@ -1399,7 +1399,7 @@
         },
         {
           "id": "3X-PLA-750-NEGR",
-          "available": true,
+          "available": false,
           "price": 19411,
           "options": [
             "Negro",
@@ -1411,7 +1411,7 @@
         },
         {
           "id": "3X-PLA-750-ROJO",
-          "available": true,
+          "available": false,
           "price": 19411,
           "options": [
             "Rojo",
@@ -1443,204 +1443,6 @@
             "PLA+ Matte",
             "Estándar",
             "Nacional"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "wetech-bq-bl-acero-0-2mm-a1",
-      "sourceProductId": "BQ BL ACERO 0.2MM A1",
-      "store": "WeTech",
-      "domain": "shop.wetech.ar",
-      "name": "Acero Endurecido",
-      "category": "Repuestos",
-      "price": 11370.5,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 9664.93,
-      "stock": 16,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "Acero Endurecido",
-        "Boquillas / Picos (Nozzles)"
-      ],
-      "image": null,
-      "url": "https://shop.wetech.ar/product/BQ%20BL%20ACERO%200.2MM%20A1",
-      "scrapedFrom": "https://shop.wetech.ar/products",
-      "variants": [
-        {
-          "id": "BQ BL ACERO 0.2MM A1",
-          "available": true,
-          "price": 11370.5,
-          "options": [
-            "Acero Endurecido"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "wetech-bq-bl-acero-0-4mm-a1",
-      "sourceProductId": "BQ BL ACERO 0.4MM A1",
-      "store": "WeTech",
-      "domain": "shop.wetech.ar",
-      "name": "Acero Endurecido",
-      "category": "Repuestos",
-      "price": 11370.5,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 9664.93,
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": null,
-      "tags": [
-        "Acero Endurecido",
-        "Boquillas / Picos (Nozzles)"
-      ],
-      "image": null,
-      "url": "https://shop.wetech.ar/product/BQ%20BL%20ACERO%200.4MM%20A1",
-      "scrapedFrom": "https://shop.wetech.ar/products",
-      "variants": [
-        {
-          "id": "BQ BL ACERO 0.4MM A1",
-          "available": false,
-          "price": 11370.5,
-          "options": [
-            "Acero Endurecido"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "wetech-bq-bl-acero-0-6mm-a1",
-      "sourceProductId": "BQ BL ACERO 0.6MM A1",
-      "store": "WeTech",
-      "domain": "shop.wetech.ar",
-      "name": "Acero Endurecido",
-      "category": "Repuestos",
-      "price": 11370.5,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 9664.93,
-      "stock": 7,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "Acero Endurecido",
-        "Boquillas / Picos (Nozzles)"
-      ],
-      "image": null,
-      "url": "https://shop.wetech.ar/product/BQ%20BL%20ACERO%200.6MM%20A1",
-      "scrapedFrom": "https://shop.wetech.ar/products",
-      "variants": [
-        {
-          "id": "BQ BL ACERO 0.6MM A1",
-          "available": true,
-          "price": 11370.5,
-          "options": [
-            "Acero Endurecido"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "wetech-bq-bl-acero-0-8mm-a1",
-      "sourceProductId": "BQ BL ACERO 0.8MM A1",
-      "store": "WeTech",
-      "domain": "shop.wetech.ar",
-      "name": "Acero Endurecido",
-      "category": "Repuestos",
-      "price": 11370.5,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 9664.93,
-      "stock": 6,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "Acero Endurecido",
-        "Boquillas / Picos (Nozzles)"
-      ],
-      "image": null,
-      "url": "https://shop.wetech.ar/product/BQ%20BL%20ACERO%200.8MM%20A1",
-      "scrapedFrom": "https://shop.wetech.ar/products",
-      "variants": [
-        {
-          "id": "BQ BL ACERO 0.8MM A1",
-          "available": true,
-          "price": 11370.5,
-          "options": [
-            "Acero Endurecido"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "wetech-bq-mk8-ae-cht-0-4",
-      "sourceProductId": "BQ MK8 AE CHT 0.4",
-      "store": "WeTech",
-      "domain": "shop.wetech.ar",
-      "name": "Acero Endurecido CHT",
-      "category": "Repuestos",
-      "price": 20674.58,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 17573.4,
-      "stock": 3,
-      "stockLabel": "Pocas unidades",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "Acero Endurecido CHT",
-        "Boquillas / Picos (Nozzles)"
-      ],
-      "image": null,
-      "url": "https://shop.wetech.ar/product/BQ%20MK8%20AE%20CHT%200.4",
-      "scrapedFrom": "https://shop.wetech.ar/products",
-      "variants": [
-        {
-          "id": "BQ MK8 AE CHT 0.4",
-          "available": true,
-          "price": 20674.58,
-          "options": [
-            "Acero Endurecido CHT"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "wetech-bq-mk8-ai-0-4",
-      "sourceProductId": "BQ MK8 AI 0.4",
-      "store": "WeTech",
-      "domain": "shop.wetech.ar",
-      "name": "Acero Inoxidable",
-      "category": "Repuestos",
-      "price": 9819.85,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 8346.87,
-      "stock": 6,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "Acero Inoxidable",
-        "Boquillas / Picos (Nozzles)"
-      ],
-      "image": null,
-      "url": "https://shop.wetech.ar/product/BQ%20MK8%20AI%200.4",
-      "scrapedFrom": "https://shop.wetech.ar/products",
-      "variants": [
-        {
-          "id": "BQ MK8 AI 0.4",
-          "available": true,
-          "price": 9819.85,
-          "options": [
-            "Acero Inoxidable"
           ]
         }
       ]
@@ -1712,11 +1514,11 @@
       "domain": "shop.wetech.ar",
       "name": "Aguja para destapar | 0.4mm",
       "category": "Repuestos",
-      "price": 3617.07,
+      "price": 3498.96,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 3074.51,
-      "stock": 118,
+      "transferPrice": 2974.11,
+      "stock": 112,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -1730,7 +1532,7 @@
         {
           "id": "AGUJA 0.4MM",
           "available": true,
-          "price": 3617.07,
+          "price": 3498.96,
           "options": []
         }
       ]
@@ -1742,12 +1544,12 @@
       "domain": "shop.wetech.ar",
       "name": "Aislante silicona | Bambu Lab | Negro | A1",
       "category": "Repuestos",
-      "price": 8786.02,
+      "price": 8996.4,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 7468.12,
-      "stock": 2,
-      "stockLabel": "Pocas unidades",
+      "transferPrice": 7646.94,
+      "stock": 8,
+      "stockLabel": "En stock",
       "available": true,
       "brand": null,
       "tags": [
@@ -1760,7 +1562,7 @@
         {
           "id": "SILICONA BAMBUA1",
           "available": true,
-          "price": 8786.02,
+          "price": 8996.4,
           "options": []
         }
       ]
@@ -1772,11 +1574,11 @@
       "domain": "shop.wetech.ar",
       "name": "Aislante silicona | Creality | Color Negro | Ender 3 v3 SE",
       "category": "Repuestos",
-      "price": 11370.5,
+      "price": 11498.87,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 9664.93,
-      "stock": 19,
+      "transferPrice": 9774.04,
+      "stock": 16,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -1790,7 +1592,7 @@
         {
           "id": "SILICONA ENDER3V3SE",
           "available": true,
-          "price": 11370.5,
+          "price": 11498.87,
           "options": []
         }
       ]
@@ -1892,13 +1694,13 @@
       "domain": "shop.wetech.ar",
       "name": "Aislante silicona | Creality | K1-KE / Ender 3 v3 Plus",
       "category": "Repuestos",
-      "price": 9303.01,
+      "price": 5997.6,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 7907.56,
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
+      "transferPrice": 5097.96,
+      "stock": 20,
+      "stockLabel": "En stock",
+      "available": true,
       "brand": null,
       "tags": [
         "Bloques y Extrusión"
@@ -1909,8 +1711,8 @@
       "variants": [
         {
           "id": "SILICONA K1 KE V3PLU",
-          "available": false,
-          "price": 9303.01,
+          "available": true,
+          "price": 5997.6,
           "options": []
         }
       ]
@@ -1956,7 +1758,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 4392.7,
-      "stock": 23,
+      "stock": 22,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -2016,7 +1818,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 14449.08,
-      "stock": 37,
+      "stock": 32,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -2276,39 +2078,6 @@
       ]
     },
     {
-      "id": "wetech-bq-k1-bime-0-4",
-      "sourceProductId": "BQ K1 BIME 0.4",
-      "store": "WeTech",
-      "domain": "shop.wetech.ar",
-      "name": "Bimetalica",
-      "category": "Repuestos",
-      "price": 14471.81,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 12301.04,
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "Bimetalica",
-        "Boquillas / Picos (Nozzles)"
-      ],
-      "image": null,
-      "url": "https://shop.wetech.ar/product/BQ%20K1%20BIME%200.4",
-      "scrapedFrom": "https://shop.wetech.ar/products",
-      "variants": [
-        {
-          "id": "BQ K1 BIME 0.4",
-          "available": true,
-          "price": 14471.81,
-          "options": [
-            "Bimetalica"
-          ]
-        }
-      ]
-    },
-    {
       "id": "wetech-bloque-artillery-hor",
       "sourceProductId": "BLOQUE ARTILLERY HOR",
       "store": "WeTech",
@@ -2469,8 +2238,8 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 9664.93,
-      "stock": 3,
-      "stockLabel": "Pocas unidades",
+      "stock": 23,
+      "stockLabel": "En stock",
       "available": true,
       "brand": null,
       "tags": [
@@ -2579,32 +2348,200 @@
       ]
     },
     {
-      "id": "wetech-bq-k1-kit-0-4",
-      "sourceProductId": "BQ K1 KIT 0.4",
+      "id": "wetech-bq-bl-acero-0-2mm-a1",
+      "sourceProductId": "BQ BL ACERO 0.2MM A1",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Boquillas | K1-KE | 0.4mm",
+      "name": "Boquilla Acero endurecido | Bambu Lab | 0.2mm | A1",
       "category": "Repuestos",
-      "price": 8741.65,
+      "price": 11370.5,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 7430.41,
+      "transferPrice": 9664.93,
+      "stock": 16,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Acero Endurecido",
+        "Boquillas / Picos (Nozzles)"
+      ],
+      "image": null,
+      "url": "https://shop.wetech.ar/product/BQ%20BL%20ACERO%200.2MM%20A1",
+      "scrapedFrom": "https://shop.wetech.ar/products",
+      "variants": [
+        {
+          "id": "BQ BL ACERO 0.2MM A1",
+          "available": true,
+          "price": 11370.5,
+          "options": [
+            "Acero Endurecido"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wetech-bq-bl-acero-0-4mm-a1",
+      "sourceProductId": "BQ BL ACERO 0.4MM A1",
+      "store": "WeTech",
+      "domain": "shop.wetech.ar",
+      "name": "Boquilla Acero endurecido | Bambu Lab | 0.4mm | A1",
+      "category": "Repuestos",
+      "price": 11370.5,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 9664.93,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
       "brand": null,
       "tags": [
+        "Acero Endurecido",
         "Boquillas / Picos (Nozzles)"
       ],
       "image": null,
-      "url": "https://shop.wetech.ar/product/BQ%20K1%20KIT%200.4",
+      "url": "https://shop.wetech.ar/product/BQ%20BL%20ACERO%200.4MM%20A1",
       "scrapedFrom": "https://shop.wetech.ar/products",
       "variants": [
         {
-          "id": "BQ K1 KIT 0.4",
+          "id": "BQ BL ACERO 0.4MM A1",
           "available": false,
-          "price": 8741.65,
-          "options": []
+          "price": 11370.5,
+          "options": [
+            "Acero Endurecido"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wetech-bq-bl-acero-0-6mm-a1",
+      "sourceProductId": "BQ BL ACERO 0.6MM A1",
+      "store": "WeTech",
+      "domain": "shop.wetech.ar",
+      "name": "Boquilla Acero endurecido | Bambu Lab | 0.6mm | A1",
+      "category": "Repuestos",
+      "price": 11370.5,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 9664.93,
+      "stock": 7,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Acero Endurecido",
+        "Boquillas / Picos (Nozzles)"
+      ],
+      "image": null,
+      "url": "https://shop.wetech.ar/product/BQ%20BL%20ACERO%200.6MM%20A1",
+      "scrapedFrom": "https://shop.wetech.ar/products",
+      "variants": [
+        {
+          "id": "BQ BL ACERO 0.6MM A1",
+          "available": true,
+          "price": 11370.5,
+          "options": [
+            "Acero Endurecido"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wetech-bq-bl-acero-0-8mm-a1",
+      "sourceProductId": "BQ BL ACERO 0.8MM A1",
+      "store": "WeTech",
+      "domain": "shop.wetech.ar",
+      "name": "Boquilla Acero endurecido | Bambu Lab | 0.8mm | A1",
+      "category": "Repuestos",
+      "price": 11370.5,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 9664.93,
+      "stock": 6,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Acero Endurecido",
+        "Boquillas / Picos (Nozzles)"
+      ],
+      "image": null,
+      "url": "https://shop.wetech.ar/product/BQ%20BL%20ACERO%200.8MM%20A1",
+      "scrapedFrom": "https://shop.wetech.ar/products",
+      "variants": [
+        {
+          "id": "BQ BL ACERO 0.8MM A1",
+          "available": true,
+          "price": 11370.5,
+          "options": [
+            "Acero Endurecido"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wetech-bq-mk8-ai-0-4",
+      "sourceProductId": "BQ MK8 AI 0.4",
+      "store": "WeTech",
+      "domain": "shop.wetech.ar",
+      "name": "Boquilla Acero Inoxidable | MK8 | 0.4mm | Series CR - Series Ender",
+      "category": "Repuestos",
+      "price": 9819.85,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 8346.87,
+      "stock": 6,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Acero Inoxidable",
+        "Boquillas / Picos (Nozzles)"
+      ],
+      "image": null,
+      "url": "https://shop.wetech.ar/product/BQ%20MK8%20AI%200.4",
+      "scrapedFrom": "https://shop.wetech.ar/products",
+      "variants": [
+        {
+          "id": "BQ MK8 AI 0.4",
+          "available": true,
+          "price": 9819.85,
+          "options": [
+            "Acero Inoxidable"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wetech-bq-k1-bime-0-4",
+      "sourceProductId": "BQ K1 BIME 0.4",
+      "store": "WeTech",
+      "domain": "shop.wetech.ar",
+      "name": "Boquilla Bimetalica | K1-KE | 0.4mm",
+      "category": "Repuestos",
+      "price": 14471.81,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 12301.04,
+      "stock": 1,
+      "stockLabel": "Pocas unidades",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Bimetalica",
+        "Boquillas / Picos (Nozzles)"
+      ],
+      "image": null,
+      "url": "https://shop.wetech.ar/product/BQ%20K1%20BIME%200.4",
+      "scrapedFrom": "https://shop.wetech.ar/products",
+      "variants": [
+        {
+          "id": "BQ K1 BIME 0.4",
+          "available": true,
+          "price": 14471.81,
+          "options": [
+            "Bimetalica"
+          ]
         }
       ]
     },
@@ -2613,7 +2550,7 @@
       "sourceProductId": "BQ E3DV6 0.4",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Bronce",
+      "name": "Boquilla Bronce | E3D V6 | 0.4mm",
       "category": "Repuestos",
       "price": 5463.17,
       "currency": "ARS",
@@ -2642,143 +2579,11 @@
       ]
     },
     {
-      "id": "wetech-bq-e7-tts-br-0-2",
-      "sourceProductId": "BQ E7 TTS BR 0.2",
-      "store": "WeTech",
-      "domain": "shop.wetech.ar",
-      "name": "Bronce",
-      "category": "Repuestos",
-      "price": 8786.02,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 7468.12,
-      "stock": 16,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "Bronce",
-        "Boquillas / Picos (Nozzles)"
-      ],
-      "image": null,
-      "url": "https://shop.wetech.ar/product/BQ%20E7%20TTS%20BR%200.2",
-      "scrapedFrom": "https://shop.wetech.ar/products",
-      "variants": [
-        {
-          "id": "BQ E7 TTS BR 0.2",
-          "available": true,
-          "price": 8786.02,
-          "options": [
-            "Bronce"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "wetech-bq-e7-tts-br-0-4",
-      "sourceProductId": "BQ E7 TTS BR 0.4",
-      "store": "WeTech",
-      "domain": "shop.wetech.ar",
-      "name": "Bronce",
-      "category": "Repuestos",
-      "price": 6201.55,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 5271.32,
-      "stock": 30,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "Bronce",
-        "Boquillas / Picos (Nozzles)"
-      ],
-      "image": null,
-      "url": "https://shop.wetech.ar/product/BQ%20E7%20TTS%20BR%200.4",
-      "scrapedFrom": "https://shop.wetech.ar/products",
-      "variants": [
-        {
-          "id": "BQ E7 TTS BR 0.4",
-          "available": true,
-          "price": 6201.55,
-          "options": [
-            "Bronce"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "wetech-bq-e7-tts-br-0-6",
-      "sourceProductId": "BQ E7 TTS BR 0.6",
-      "store": "WeTech",
-      "domain": "shop.wetech.ar",
-      "name": "Bronce",
-      "category": "Repuestos",
-      "price": 8786.02,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 7468.12,
-      "stock": 9,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "Bronce",
-        "Boquillas / Picos (Nozzles)"
-      ],
-      "image": null,
-      "url": "https://shop.wetech.ar/product/BQ%20E7%20TTS%20BR%200.6",
-      "scrapedFrom": "https://shop.wetech.ar/products",
-      "variants": [
-        {
-          "id": "BQ E7 TTS BR 0.6",
-          "available": true,
-          "price": 8786.02,
-          "options": [
-            "Bronce"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "wetech-bq-e7-tts-br-0-8",
-      "sourceProductId": "BQ E7 TTS BR 0.8",
-      "store": "WeTech",
-      "domain": "shop.wetech.ar",
-      "name": "Bronce",
-      "category": "Repuestos",
-      "price": 8786.02,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 7468.12,
-      "stock": 3,
-      "stockLabel": "Pocas unidades",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "Bronce",
-        "Boquillas / Picos (Nozzles)"
-      ],
-      "image": null,
-      "url": "https://shop.wetech.ar/product/BQ%20E7%20TTS%20BR%200.8",
-      "scrapedFrom": "https://shop.wetech.ar/products",
-      "variants": [
-        {
-          "id": "BQ E7 TTS BR 0.8",
-          "available": true,
-          "price": 8786.02,
-          "options": [
-            "Bronce"
-          ]
-        }
-      ]
-    },
-    {
       "id": "wetech-bq-k1-br-0-2",
       "sourceProductId": "BQ K1 BR 0.2",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Bronce",
+      "name": "Boquilla Bronce | K1-KE | 0.2mm",
       "category": "Repuestos",
       "price": 11887.33,
       "currency": "ARS",
@@ -2811,13 +2616,13 @@
       "sourceProductId": "BQ K1 BR 0.4",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Bronce",
+      "name": "Boquilla Bronce | K1-KE | 0.4mm",
       "category": "Repuestos",
-      "price": 10336.68,
+      "price": 10498.86,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 8786.18,
-      "stock": 18,
+      "transferPrice": 8924.03,
+      "stock": 12,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -2832,7 +2637,7 @@
         {
           "id": "BQ K1 BR 0.4",
           "available": true,
-          "price": 10336.68,
+          "price": 10498.86,
           "options": [
             "Bronce"
           ]
@@ -2844,13 +2649,13 @@
       "sourceProductId": "BQ K1 BR 0.6",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Bronce",
+      "name": "Boquilla Bronce | K1-KE | 0.6mm",
       "category": "Repuestos",
       "price": 11887.33,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 10104.23,
-      "stock": 17,
+      "stock": 16,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -2877,7 +2682,7 @@
       "sourceProductId": "BQ K1 BR 0.8",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Bronce",
+      "name": "Boquilla Bronce | K1-KE | 0.8mm",
       "category": "Repuestos",
       "price": 11887.33,
       "currency": "ARS",
@@ -2910,7 +2715,7 @@
       "sourceProductId": "BQ MAGNADUAL BR 0.4",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Bronce",
+      "name": "Boquilla Bronce | Magna Dual | 0.4mm",
       "category": "Repuestos",
       "price": 9303.01,
       "currency": "ARS",
@@ -2943,7 +2748,7 @@
       "sourceProductId": "BQ MAGNADUAL BR 0.6",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Bronce",
+      "name": "Boquilla Bronce | Magna Dual | 0.6mm",
       "category": "Repuestos",
       "price": 9303.01,
       "currency": "ARS",
@@ -2976,7 +2781,7 @@
       "sourceProductId": "BQ MK10 M6 BR 0.2",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Bronce",
+      "name": "Boquilla Bronce | MK10 | M6 | 0.2mm | Series CR-10 / CR-10S PRO V2 / CR-10 MAX",
       "category": "Repuestos",
       "price": 8786.02,
       "currency": "ARS",
@@ -3009,7 +2814,7 @@
       "sourceProductId": "BQ MK10 M6 BR 0.4",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Bronce",
+      "name": "Boquilla Bronce | MK10 | M6 | 0.4mm | Series CR-10 / CR-10S PRO V2 / CR-10 MAX",
       "category": "Repuestos",
       "price": 7752.2,
       "currency": "ARS",
@@ -3042,7 +2847,7 @@
       "sourceProductId": "BQ MK10 M6 BR 0.8",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Bronce",
+      "name": "Boquilla Bronce | MK10 | M6 | 0.8mm | Series CR-10 / CR-10S PRO V2 / CR-10 MAX",
       "category": "Repuestos",
       "price": 8786.02,
       "currency": "ARS",
@@ -3075,7 +2880,7 @@
       "sourceProductId": "BQ MK10 M7 BR 0.2",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Bronce",
+      "name": "Boquilla Bronce | MK10 | M7 | 0.2mm | Serie Wanhao i3 / Wanhao Duplicador serie 4 / Wanhao Duplicador 4S / Wanhao Duplicador 4X",
       "category": "Repuestos",
       "price": 10336.68,
       "currency": "ARS",
@@ -3108,7 +2913,7 @@
       "sourceProductId": "BQ MK10 M7 BR 0.4",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Bronce",
+      "name": "Boquilla Bronce | MK10 | M7 | 0.4mm | Serie Wanhao i3 / Wanhao Duplicador serie 4 / Wanhao Duplicador 4S / Wanhao Duplicador 4X",
       "category": "Repuestos",
       "price": 9303.01,
       "currency": "ARS",
@@ -3141,7 +2946,7 @@
       "sourceProductId": "BQ MK10 M7 BR 0.6",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Bronce",
+      "name": "Boquilla Bronce | MK10 | M7 | 0.6mm | Serie Wanhao i3 / Wanhao Duplicador serie 4 / Wanhao Duplicador 4S / Wanhao Duplicador 4X",
       "category": "Repuestos",
       "price": 10336.68,
       "currency": "ARS",
@@ -3174,7 +2979,7 @@
       "sourceProductId": "BQ MK10 M7 BR 0.8",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Bronce",
+      "name": "Boquilla Bronce | MK10 | M7 | 0.8mm | Serie Wanhao i3 / Wanhao Duplicador serie 4 / Wanhao Duplicador 4S / Wanhao Duplicador 4X",
       "category": "Repuestos",
       "price": 10336.68,
       "currency": "ARS",
@@ -3207,7 +3012,7 @@
       "sourceProductId": "BQ MK8 BR 0.2",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Bronce",
+      "name": "Boquilla Bronce | MK8 | M6 | 0.2mm | Series Ender",
       "category": "Repuestos",
       "price": 4650.89,
       "currency": "ARS",
@@ -3240,7 +3045,7 @@
       "sourceProductId": "BQ MK8 BR 0.3",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Bronce",
+      "name": "Boquilla Bronce | MK8 | M6 | 0.3mm | Series Ender",
       "category": "Repuestos",
       "price": 5167.88,
       "currency": "ARS",
@@ -3273,13 +3078,13 @@
       "sourceProductId": "BQ MK8 BR 0.4",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Bronce",
+      "name": "Boquilla Bronce | MK8 | M6 | 0.4mm | Series Ender",
       "category": "Repuestos",
-      "price": 3617.07,
+      "price": 3498.96,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 3074.51,
-      "stock": 54,
+      "transferPrice": 2974.11,
+      "stock": 49,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -3294,7 +3099,7 @@
         {
           "id": "BQ MK8 BR 0.4",
           "available": true,
-          "price": 3617.07,
+          "price": 3498.96,
           "options": [
             "Bronce"
           ]
@@ -3306,7 +3111,7 @@
       "sourceProductId": "BQ MK8 BR 0.5",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Bronce",
+      "name": "Boquilla Bronce | MK8 | M6 | 0.5mm | Series Ender",
       "category": "Repuestos",
       "price": 5167.88,
       "currency": "ARS",
@@ -3339,7 +3144,7 @@
       "sourceProductId": "BQ MK8 BR 0.6",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Bronce",
+      "name": "Boquilla Bronce | MK8 | M6 | 0.6mm | Series Ender",
       "category": "Repuestos",
       "price": 4650.89,
       "currency": "ARS",
@@ -3372,7 +3177,7 @@
       "sourceProductId": "BQ MK8 BR 0.8",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Bronce",
+      "name": "Boquilla Bronce | MK8 | M6 | 0.8mm | Series Ender",
       "category": "Repuestos",
       "price": 5167.88,
       "currency": "ARS",
@@ -3405,7 +3210,7 @@
       "sourceProductId": "BQ MK8 BR 1.0",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Bronce",
+      "name": "Boquilla Bronce | MK8 | M6 | 1.0mm | Series Ender",
       "category": "Repuestos",
       "price": 5167.88,
       "currency": "ARS",
@@ -3438,7 +3243,7 @@
       "sourceProductId": "BQ TTS BR 0.2",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Bronce",
+      "name": "Boquilla Bronce | TTS | 0.2mm | Series CR / S1 / NEO",
       "category": "Repuestos",
       "price": 6718.54,
       "currency": "ARS",
@@ -3471,7 +3276,7 @@
       "sourceProductId": "BQ TTS BR 0.3",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Bronce",
+      "name": "Boquilla Bronce | TTS | 0.3mm | Series CR / S1 / NEO",
       "category": "Repuestos",
       "price": 7648.78,
       "currency": "ARS",
@@ -3504,13 +3309,13 @@
       "sourceProductId": "BQ TTS BR 0.4",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Bronce",
+      "name": "Boquilla Bronce | TTS | 0.4mm | Series CR / S1 / NEO",
       "category": "Repuestos",
-      "price": 6718.54,
+      "price": 6498.98,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 5710.76,
-      "stock": 219,
+      "transferPrice": 5524.13,
+      "stock": 216,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -3525,7 +3330,7 @@
         {
           "id": "BQ TTS BR 0.4",
           "available": true,
-          "price": 6718.54,
+          "price": 6498.98,
           "options": [
             "Bronce"
           ]
@@ -3537,7 +3342,7 @@
       "sourceProductId": "BQ TTS BR 0.5",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Bronce",
+      "name": "Boquilla Bronce | TTS | 0.5mm | Series CR / S1 / NEO",
       "category": "Repuestos",
       "price": 7648.78,
       "currency": "ARS",
@@ -3570,7 +3375,7 @@
       "sourceProductId": "BQ TTS BR 0.6",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Bronce",
+      "name": "Boquilla Bronce | TTS | 0.6mm | Series CR / S1 / NEO",
       "category": "Repuestos",
       "price": 7648.78,
       "currency": "ARS",
@@ -3603,7 +3408,7 @@
       "sourceProductId": "BQ TTS BR 0.8",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Bronce",
+      "name": "Boquilla Bronce | TTS | 0.8mm | Series CR / S1 / NEO",
       "category": "Repuestos",
       "price": 7648.78,
       "currency": "ARS",
@@ -3636,7 +3441,7 @@
       "sourceProductId": "BQ TTS BR 1.0",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Bronce",
+      "name": "Boquilla Bronce | TTS | 1.0mm | Series CR / S1 / NEO",
       "category": "Repuestos",
       "price": 7648.78,
       "currency": "ARS",
@@ -3665,18 +3470,18 @@
       ]
     },
     {
-      "id": "wetech-bq-unicorn-br-0-2",
-      "sourceProductId": "BQ UNICORN BR 0.2",
+      "id": "wetech-bq-e7-tts-br-0-2",
+      "sourceProductId": "BQ E7 TTS BR 0.2",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Bronce",
+      "name": "Boquilla Bronce | TTS | M6 | 0.2mm | Ender 7 - Ender 3 v3 SE",
       "category": "Repuestos",
-      "price": 21191.42,
+      "price": 8786.02,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 18012.71,
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
+      "transferPrice": 7468.12,
+      "stock": 16,
+      "stockLabel": "En stock",
       "available": true,
       "brand": null,
       "tags": [
@@ -3684,13 +3489,13 @@
         "Boquillas / Picos (Nozzles)"
       ],
       "image": null,
-      "url": "https://shop.wetech.ar/product/BQ%20UNICORN%20BR%200.2",
+      "url": "https://shop.wetech.ar/product/BQ%20E7%20TTS%20BR%200.2",
       "scrapedFrom": "https://shop.wetech.ar/products",
       "variants": [
         {
-          "id": "BQ UNICORN BR 0.2",
+          "id": "BQ E7 TTS BR 0.2",
           "available": true,
-          "price": 21191.42,
+          "price": 8786.02,
           "options": [
             "Bronce"
           ]
@@ -3698,16 +3503,49 @@
       ]
     },
     {
-      "id": "wetech-bq-unicorn-br-0-4",
-      "sourceProductId": "BQ UNICORN BR 0.4",
+      "id": "wetech-bq-e7-tts-br-0-4",
+      "sourceProductId": "BQ E7 TTS BR 0.4",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Bronce",
+      "name": "Boquilla Bronce | TTS | M6 | 0.4mm | Ender 7 - Ender 3 v3 SE",
       "category": "Repuestos",
-      "price": 20674.58,
+      "price": 6998.98,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 17573.4,
+      "transferPrice": 5949.14,
+      "stock": 24,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Bronce",
+        "Boquillas / Picos (Nozzles)"
+      ],
+      "image": null,
+      "url": "https://shop.wetech.ar/product/BQ%20E7%20TTS%20BR%200.4",
+      "scrapedFrom": "https://shop.wetech.ar/products",
+      "variants": [
+        {
+          "id": "BQ E7 TTS BR 0.4",
+          "available": true,
+          "price": 6998.98,
+          "options": [
+            "Bronce"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wetech-bq-e7-tts-br-0-6",
+      "sourceProductId": "BQ E7 TTS BR 0.6",
+      "store": "WeTech",
+      "domain": "shop.wetech.ar",
+      "name": "Boquilla Bronce | TTS | M6 | 0.6mm | Ender 7 - Ender 3 v3 SE",
+      "category": "Repuestos",
+      "price": 8786.02,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 7468.12,
       "stock": 9,
       "stockLabel": "En stock",
       "available": true,
@@ -3717,13 +3555,13 @@
         "Boquillas / Picos (Nozzles)"
       ],
       "image": null,
-      "url": "https://shop.wetech.ar/product/BQ%20UNICORN%20BR%200.4",
+      "url": "https://shop.wetech.ar/product/BQ%20E7%20TTS%20BR%200.6",
       "scrapedFrom": "https://shop.wetech.ar/products",
       "variants": [
         {
-          "id": "BQ UNICORN BR 0.4",
+          "id": "BQ E7 TTS BR 0.6",
           "available": true,
-          "price": 20674.58,
+          "price": 8786.02,
           "options": [
             "Bronce"
           ]
@@ -3731,18 +3569,18 @@
       ]
     },
     {
-      "id": "wetech-bq-unicorn-br-0-6",
-      "sourceProductId": "BQ UNICORN BR 0.6",
+      "id": "wetech-bq-e7-tts-br-0-8",
+      "sourceProductId": "BQ E7 TTS BR 0.8",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Bronce",
+      "name": "Boquilla Bronce | TTS | M6 | 0.8mm | Ender 7 - Ender 3 v3 SE",
       "category": "Repuestos",
-      "price": 21191.42,
+      "price": 8786.02,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 18012.71,
-      "stock": 5,
-      "stockLabel": "En stock",
+      "transferPrice": 7468.12,
+      "stock": 3,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": null,
       "tags": [
@@ -3750,79 +3588,13 @@
         "Boquillas / Picos (Nozzles)"
       ],
       "image": null,
-      "url": "https://shop.wetech.ar/product/BQ%20UNICORN%20BR%200.6",
+      "url": "https://shop.wetech.ar/product/BQ%20E7%20TTS%20BR%200.8",
       "scrapedFrom": "https://shop.wetech.ar/products",
       "variants": [
         {
-          "id": "BQ UNICORN BR 0.6",
+          "id": "BQ E7 TTS BR 0.8",
           "available": true,
-          "price": 21191.42,
-          "options": [
-            "Bronce"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "wetech-bq-unicorn-br-0-8",
-      "sourceProductId": "BQ UNICORN BR 0.8",
-      "store": "WeTech",
-      "domain": "shop.wetech.ar",
-      "name": "Bronce",
-      "category": "Repuestos",
-      "price": 21191.42,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 18012.71,
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": null,
-      "tags": [
-        "Bronce",
-        "Boquillas / Picos (Nozzles)"
-      ],
-      "image": null,
-      "url": "https://shop.wetech.ar/product/BQ%20UNICORN%20BR%200.8",
-      "scrapedFrom": "https://shop.wetech.ar/products",
-      "variants": [
-        {
-          "id": "BQ UNICORN BR 0.8",
-          "available": false,
-          "price": 21191.42,
-          "options": [
-            "Bronce"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "wetech-bq-unicorn-hi-k2-0-4",
-      "sourceProductId": "BQ UNICORN HI-K2 0.4",
-      "store": "WeTech",
-      "domain": "shop.wetech.ar",
-      "name": "Bronce",
-      "category": "Repuestos",
-      "price": 27911.02,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 23724.37,
-      "stock": 18,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "Bronce",
-        "Boquillas / Picos (Nozzles)"
-      ],
-      "image": null,
-      "url": "https://shop.wetech.ar/product/BQ%20UNICORN%20HI-K2%200.4",
-      "scrapedFrom": "https://shop.wetech.ar/products",
-      "variants": [
-        {
-          "id": "BQ UNICORN HI-K2 0.4",
-          "available": true,
-          "price": 27911.02,
+          "price": 8786.02,
           "options": [
             "Bronce"
           ]
@@ -3834,7 +3606,7 @@
       "sourceProductId": "BQ VOLCANO BR 0.2",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Bronce",
+      "name": "Boquilla Bronce | Volcano | 0.2mm | Artillery SW / Genius",
       "category": "Repuestos",
       "price": 9303.01,
       "currency": "ARS",
@@ -3867,15 +3639,15 @@
       "sourceProductId": "BQ VOLCANO BR 0.4",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Bronce",
+      "name": "Boquilla Bronce | Volcano | 0.4mm | Artillery SW / Genius",
       "category": "Repuestos",
       "price": 9303.01,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 7907.56,
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
+      "stock": 20,
+      "stockLabel": "En stock",
+      "available": true,
       "brand": null,
       "tags": [
         "Bronce",
@@ -3887,7 +3659,7 @@
       "variants": [
         {
           "id": "BQ VOLCANO BR 0.4",
-          "available": false,
+          "available": true,
           "price": 9303.01,
           "options": [
             "Bronce"
@@ -3900,7 +3672,7 @@
       "sourceProductId": "BQ VOLCANO BR 0.6",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Bronce",
+      "name": "Boquilla Bronce | Volcano | 0.6mm | Artillery SW / Genius",
       "category": "Repuestos",
       "price": 9303.01,
       "currency": "ARS",
@@ -3929,11 +3701,44 @@
       ]
     },
     {
+      "id": "wetech-bq-mk8-ae-cht-0-4",
+      "sourceProductId": "BQ MK8 AE CHT 0.4",
+      "store": "WeTech",
+      "domain": "shop.wetech.ar",
+      "name": "Boquilla CHT | Alto Flujo | Acero Endurecido | MK8 | 0.4mm | Series CR - Series Ender",
+      "category": "Repuestos",
+      "price": 20674.58,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 17573.4,
+      "stock": 3,
+      "stockLabel": "Pocas unidades",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Acero Endurecido CHT",
+        "Boquillas / Picos (Nozzles)"
+      ],
+      "image": null,
+      "url": "https://shop.wetech.ar/product/BQ%20MK8%20AE%20CHT%200.4",
+      "scrapedFrom": "https://shop.wetech.ar/products",
+      "variants": [
+        {
+          "id": "BQ MK8 AE CHT 0.4",
+          "available": true,
+          "price": 20674.58,
+          "options": [
+            "Acero Endurecido CHT"
+          ]
+        }
+      ]
+    },
+    {
       "id": "wetech-bq-mk8-cht-0-4",
       "sourceProductId": "BQ MK8 CHT 0.4",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Bronce CHT",
+      "name": "Boquilla CHT | Alto Flujo | Bronce | MK8 | 0.4mm | Series CR - Series Ender",
       "category": "Repuestos",
       "price": 15505.63,
       "currency": "ARS",
@@ -3958,6 +3763,201 @@
           "options": [
             "Bronce CHT"
           ]
+        }
+      ]
+    },
+    {
+      "id": "wetech-bq-unicorn-br-0-2",
+      "sourceProductId": "BQ UNICORN BR 0.2",
+      "store": "WeTech",
+      "domain": "shop.wetech.ar",
+      "name": "Boquilla Unicorn Bronce | Ender 3 v3 Plus | 0.2mm",
+      "category": "Repuestos",
+      "price": 21191.42,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 18012.71,
+      "stock": 1,
+      "stockLabel": "Pocas unidades",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Bronce",
+        "Boquillas / Picos (Nozzles)"
+      ],
+      "image": null,
+      "url": "https://shop.wetech.ar/product/BQ%20UNICORN%20BR%200.2",
+      "scrapedFrom": "https://shop.wetech.ar/products",
+      "variants": [
+        {
+          "id": "BQ UNICORN BR 0.2",
+          "available": true,
+          "price": 21191.42,
+          "options": [
+            "Bronce"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wetech-bq-unicorn-br-0-4",
+      "sourceProductId": "BQ UNICORN BR 0.4",
+      "store": "WeTech",
+      "domain": "shop.wetech.ar",
+      "name": "Boquilla Unicorn Bronce | Ender 3 v3 Plus | 0.4mm",
+      "category": "Repuestos",
+      "price": 20674.58,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 17573.4,
+      "stock": 8,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Bronce",
+        "Boquillas / Picos (Nozzles)"
+      ],
+      "image": null,
+      "url": "https://shop.wetech.ar/product/BQ%20UNICORN%20BR%200.4",
+      "scrapedFrom": "https://shop.wetech.ar/products",
+      "variants": [
+        {
+          "id": "BQ UNICORN BR 0.4",
+          "available": true,
+          "price": 20674.58,
+          "options": [
+            "Bronce"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wetech-bq-unicorn-br-0-6",
+      "sourceProductId": "BQ UNICORN BR 0.6",
+      "store": "WeTech",
+      "domain": "shop.wetech.ar",
+      "name": "Boquilla Unicorn Bronce | Ender 3 v3 Plus | 0.6mm",
+      "category": "Repuestos",
+      "price": 20998.94,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 17849.1,
+      "stock": 4,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Bronce",
+        "Boquillas / Picos (Nozzles)"
+      ],
+      "image": null,
+      "url": "https://shop.wetech.ar/product/BQ%20UNICORN%20BR%200.6",
+      "scrapedFrom": "https://shop.wetech.ar/products",
+      "variants": [
+        {
+          "id": "BQ UNICORN BR 0.6",
+          "available": true,
+          "price": 20998.94,
+          "options": [
+            "Bronce"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wetech-bq-unicorn-br-0-8",
+      "sourceProductId": "BQ UNICORN BR 0.8",
+      "store": "WeTech",
+      "domain": "shop.wetech.ar",
+      "name": "Boquilla Unicorn Bronce | Ender 3 v3 Plus | 0.8mm",
+      "category": "Repuestos",
+      "price": 21191.42,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 18012.71,
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": null,
+      "tags": [
+        "Bronce",
+        "Boquillas / Picos (Nozzles)"
+      ],
+      "image": null,
+      "url": "https://shop.wetech.ar/product/BQ%20UNICORN%20BR%200.8",
+      "scrapedFrom": "https://shop.wetech.ar/products",
+      "variants": [
+        {
+          "id": "BQ UNICORN BR 0.8",
+          "available": false,
+          "price": 21191.42,
+          "options": [
+            "Bronce"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wetech-bq-unicorn-hi-k2-0-4",
+      "sourceProductId": "BQ UNICORN HI-K2 0.4",
+      "store": "WeTech",
+      "domain": "shop.wetech.ar",
+      "name": "Boquilla Unicorn Bronce | Hi Combo / K2 Plus | 0.4mm",
+      "category": "Repuestos",
+      "price": 27911.02,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 23724.37,
+      "stock": 18,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Bronce",
+        "Boquillas / Picos (Nozzles)"
+      ],
+      "image": null,
+      "url": "https://shop.wetech.ar/product/BQ%20UNICORN%20HI-K2%200.4",
+      "scrapedFrom": "https://shop.wetech.ar/products",
+      "variants": [
+        {
+          "id": "BQ UNICORN HI-K2 0.4",
+          "available": true,
+          "price": 27911.02,
+          "options": [
+            "Bronce"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wetech-bq-k1-kit-0-4",
+      "sourceProductId": "BQ K1 KIT 0.4",
+      "store": "WeTech",
+      "domain": "shop.wetech.ar",
+      "name": "Boquillas | K1-KE | 0.4mm",
+      "category": "Repuestos",
+      "price": 8741.65,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 7430.41,
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": null,
+      "tags": [
+        "Boquillas / Picos (Nozzles)"
+      ],
+      "image": null,
+      "url": "https://shop.wetech.ar/product/BQ%20K1%20KIT%200.4",
+      "scrapedFrom": "https://shop.wetech.ar/products",
+      "variants": [
+        {
+          "id": "BQ K1 KIT 0.4",
+          "available": false,
+          "price": 8741.65,
+          "options": []
         }
       ]
     },
@@ -4482,7 +4482,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 11422.42,
-      "stock": 12,
+      "stock": 16,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -4512,7 +4512,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 10543.67,
-      "stock": 14,
+      "stock": 18,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -4662,8 +4662,8 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 56099.15,
-      "stock": 2,
-      "stockLabel": "Pocas unidades",
+      "stock": 10,
+      "stockLabel": "En stock",
       "available": true,
       "brand": null,
       "tags": [
@@ -4842,9 +4842,9 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 92891.85,
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
+      "stock": 1,
+      "stockLabel": "Pocas unidades",
+      "available": true,
       "brand": null,
       "tags": [
         "Placas, Drivers y Cables"
@@ -4855,7 +4855,7 @@
       "variants": [
         {
           "id": "CR TOUCH CREALI",
-          "available": false,
+          "available": true,
           "price": 109284.53,
           "options": []
         }
@@ -5112,7 +5112,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 26498.75,
-      "stock": 9,
+      "stock": 4,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Elegoo",
@@ -5178,7 +5178,7 @@
         },
         {
           "id": "EG-PLAM-1KG-GRPI",
-          "available": true,
+          "available": false,
           "price": 31175,
           "options": [
             "Gris Pizarra",
@@ -5193,7 +5193,7 @@
           "available": false,
           "price": 31175,
           "options": [
-            "Marron Beige",
+            "Beige",
             "1kg",
             "PLA Matte",
             "Premium",
@@ -5241,7 +5241,7 @@
           "available": false,
           "price": 31175,
           "options": [
-            "Rojo Rubi",
+            "Rubi",
             "1kg",
             "PLA Matte",
             "Premium",
@@ -5277,7 +5277,7 @@
           "available": false,
           "price": 31175,
           "options": [
-            "Verde Menta",
+            "Menta",
             "1kg",
             "PLA Matte",
             "Premium",
@@ -5450,7 +5450,7 @@
           "available": false,
           "price": 28822,
           "options": [
-            "Marron Beige",
+            "Beige",
             "1kg",
             "PLA",
             "Premium",
@@ -5462,7 +5462,7 @@
           "available": false,
           "price": 28822,
           "options": [
-            "Marron Madera",
+            "Madera",
             "1kg",
             "PLA",
             "Premium",
@@ -5474,7 +5474,7 @@
           "available": false,
           "price": 44705,
           "options": [
-            "Marron Relleno Madera",
+            "Relleno Madera",
             "1kg",
             "PLA",
             "Premium",
@@ -5742,6 +5742,66 @@
       ]
     },
     {
+      "id": "wetech-extrusor-ender3v3",
+      "sourceProductId": "EXTRUSOR ENDER3V3+",
+      "store": "WeTech",
+      "domain": "shop.wetech.ar",
+      "name": "Extrusor | Creality | Ender 3 v3 Plus",
+      "category": "Repuestos",
+      "price": 82701.55,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 70296.32,
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": null,
+      "tags": [
+        "Bloques y Extrusión"
+      ],
+      "image": null,
+      "url": "https://shop.wetech.ar/product/EXTRUSOR%20ENDER3V3%2B",
+      "scrapedFrom": "https://shop.wetech.ar/products",
+      "variants": [
+        {
+          "id": "EXTRUSOR ENDER3V3+",
+          "available": false,
+          "price": 82701.55,
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "wetech-extrusor-cr-hi",
+      "sourceProductId": "EXTRUSOR CR HI",
+      "store": "WeTech",
+      "domain": "shop.wetech.ar",
+      "name": "Extrusor | Creality | Hi Combo / K2 Plus",
+      "category": "Repuestos",
+      "price": 82701.55,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 70296.32,
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": null,
+      "tags": [
+        "Bloques y Extrusión"
+      ],
+      "image": null,
+      "url": "https://shop.wetech.ar/product/EXTRUSOR%20CR%20HI",
+      "scrapedFrom": "https://shop.wetech.ar/products",
+      "variants": [
+        {
+          "id": "EXTRUSOR CR HI",
+          "available": false,
+          "price": 82701.55,
+          "options": []
+        }
+      ]
+    },
+    {
       "id": "wetech-fan-axial-6010",
       "sourceProductId": "FAN AXIAL 6010",
       "store": "WeTech",
@@ -5782,7 +5842,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 21967.01,
-      "stock": 24,
+      "stock": 23,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -5812,8 +5872,8 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 21967.01,
-      "stock": 4,
-      "stockLabel": "En stock",
+      "stock": 3,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": null,
       "tags": [
@@ -5872,7 +5932,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 21248.87,
-      "stock": 10,
+      "stock": 16,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -5932,8 +5992,8 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 10144.81,
-      "stock": 4,
-      "stockLabel": "En stock",
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": null,
       "tags": [
@@ -5992,7 +6052,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 10982.98,
-      "stock": 26,
+      "stock": 23,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -6082,7 +6142,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 12301.04,
-      "stock": 2,
+      "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": null,
@@ -6222,6 +6282,36 @@
       ]
     },
     {
+      "id": "wetech-fan-capa-4010-se-ke",
+      "sourceProductId": "FAN CAPA 4010 SE-KE",
+      "store": "WeTech",
+      "domain": "shop.wetech.ar",
+      "name": "Fan Capa | Creality | 4010 | 24V | Con conector pequeño",
+      "category": "Repuestos",
+      "price": 7634.7,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 6489.49,
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Ventiladores y Refrigeración"
+      ],
+      "image": null,
+      "url": "https://shop.wetech.ar/product/FAN%20CAPA%204010%20SE-KE",
+      "scrapedFrom": "https://shop.wetech.ar/products",
+      "variants": [
+        {
+          "id": "FAN CAPA 4010 SE-KE",
+          "available": true,
+          "price": 7634.7,
+          "options": []
+        }
+      ]
+    },
+    {
       "id": "wetech-fan-capa-4020-crea",
       "sourceProductId": "FAN CAPA 4020 CREA",
       "store": "WeTech",
@@ -6352,9 +6442,9 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 46115.99,
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
-      "available": true,
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": null,
       "tags": [
         "Herramientas y Mantenimiento"
@@ -6365,7 +6455,7 @@
       "variants": [
         {
           "id": "FEP FILM CREALITY",
-          "available": true,
+          "available": false,
           "price": 54254.11,
           "options": []
         }
@@ -6402,6 +6492,47 @@
       ]
     },
     {
+      "id": "wetech-flashforge-abs-fibra-de-vidrio-premium-importado",
+      "sourceProductId": "FLASHFORGE-ABS FIBRA DE VIDRIO-PREMIUM-IMPORTADO",
+      "store": "WeTech",
+      "domain": "shop.wetech.ar",
+      "name": "FlashForge ABS Fibra de Vidrio Premium",
+      "category": "Filamentos",
+      "price": 51175,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 43498.75,
+      "stock": 4,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "FlashForge",
+      "tags": [
+        "FlashForge",
+        "ABS Fibra de Vidrio",
+        "Premium",
+        "Importado",
+        "Filamentos Técnicos",
+        "1kg"
+      ],
+      "image": "https://ik.imagekit.io/8x5mvqkfl0/FLASHFORGE/ABS/ABS%20GF%201KG%20NEGRO_Mesa%20de%20trabajo%201.png?updatedAt=1780589643146",
+      "url": "https://shop.wetech.ar/product/FLASHFORGE-ABS%20FIBRA%20DE%20VIDRIO-PREMIUM-IMPORTADO",
+      "scrapedFrom": "https://shop.wetech.ar/products",
+      "variants": [
+        {
+          "id": "FF-ABSGF-1KG-NEGR",
+          "available": true,
+          "price": 51175,
+          "options": [
+            "Negro",
+            "1kg",
+            "ABS Fibra de Vidrio",
+            "Premium",
+            "Importado"
+          ]
+        }
+      ]
+    },
+    {
       "id": "wetech-flashforge-pla-lw-premium-importado",
       "sourceProductId": "FLASHFORGE-PLA LW-PREMIUM-IMPORTADO",
       "store": "WeTech",
@@ -6412,7 +6543,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 33499.35,
-      "stock": 10,
+      "stock": 9,
       "stockLabel": "En stock",
       "available": true,
       "brand": "FlashForge",
@@ -6592,7 +6723,7 @@
           "available": false,
           "price": 28234,
           "options": [
-            "Azul Cian Profundo",
+            "Cian Profundo",
             "1kg",
             "High Speed PLA Art",
             "Premium",
@@ -6628,7 +6759,7 @@
           "available": false,
           "price": 28234,
           "options": [
-            "Marron Caoba Mahogany",
+            "Caoba Mahogany",
             "1kg",
             "High Speed PLA Art",
             "Premium",
@@ -6640,7 +6771,7 @@
           "available": false,
           "price": 28234,
           "options": [
-            "Marron Chocolate",
+            "Chocolate",
             "1kg",
             "High Speed PLA Art",
             "Premium",
@@ -6664,7 +6795,7 @@
           "available": false,
           "price": 28234,
           "options": [
-            "Marron Madera Falsa",
+            "Madera Falsa",
             "1kg",
             "High Speed PLA Art",
             "Premium",
@@ -6676,7 +6807,7 @@
           "available": false,
           "price": 28234,
           "options": [
-            "Marron Ocre",
+            "Ocre",
             "1kg",
             "High Speed PLA Art",
             "Premium",
@@ -6869,9 +7000,9 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 23998.9,
-      "stock": 4,
-      "stockLabel": "En stock",
-      "available": true,
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": "Fremover",
       "tags": [
         "Fremover",
@@ -6899,7 +7030,7 @@
         },
         {
           "id": "FM-PLAM-1KG-GRMA",
-          "available": true,
+          "available": false,
           "price": 28234,
           "options": [
             "Gris Grafito",
@@ -6914,7 +7045,7 @@
           "available": false,
           "price": 28234,
           "options": [
-            "Marron Avena",
+            "Avena",
             "1kg",
             "High Speed PLA Matte",
             "Premium",
@@ -6938,7 +7069,7 @@
           "available": false,
           "price": 28234,
           "options": [
-            "Naranja Calabaza",
+            "Calabaza",
             "1kg",
             "High Speed PLA Matte",
             "Premium",
@@ -6986,7 +7117,7 @@
           "available": false,
           "price": 28234,
           "options": [
-            "Violeta Uva",
+            "Uva",
             "1kg",
             "High Speed PLA Matte",
             "Premium",
@@ -7092,7 +7223,7 @@
           "available": false,
           "price": 44705,
           "options": [
-            "Marron Madera",
+            "Madera",
             "1kg",
             "PLA WOOD",
             "Premium",
@@ -7104,7 +7235,7 @@
           "available": false,
           "price": 44705,
           "options": [
-            "Marron Madera Oscura",
+            "Madera Oscura",
             "1kg",
             "PLA WOOD",
             "Premium",
@@ -7345,9 +7476,9 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 26999.4,
-      "stock": 2,
-      "stockLabel": "Pocas unidades",
-      "available": true,
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": "Fremover",
       "tags": [
         "Fremover",
@@ -7363,7 +7494,7 @@
       "variants": [
         {
           "id": "FM-SILK-1KG-AMAR",
-          "available": true,
+          "available": false,
           "price": 31764,
           "options": [
             "Amarillo",
@@ -7426,7 +7557,7 @@
           "available": false,
           "price": 31764,
           "options": [
-            "Gris Plateado",
+            "Plateado",
             "1kg",
             "PLA+ Silk",
             "Premium",
@@ -7447,7 +7578,7 @@
         },
         {
           "id": "FM-SILK-1KG-NEGR",
-          "available": true,
+          "available": false,
           "price": 31764,
           "options": [
             "Negro",
@@ -7498,7 +7629,7 @@
           "available": false,
           "price": 31764,
           "options": [
-            "Violeta Purpura",
+            "Purpura",
             "1kg",
             "PLA+ Silk",
             "Premium",
@@ -7621,13 +7752,13 @@
       "domain": "shop.wetech.ar",
       "name": "Grasa Siliconada | 10gr",
       "category": "Filamentos",
-      "price": 10853.67,
+      "price": 9998.86,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 9225.62,
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
+      "transferPrice": 8499.03,
+      "stock": 89,
+      "stockLabel": "En stock",
+      "available": true,
       "brand": null,
       "tags": [
         "Herramientas y Mantenimiento"
@@ -7638,8 +7769,8 @@
       "variants": [
         {
           "id": "GRASA SILICONADA",
-          "available": false,
-          "price": 10853.67,
+          "available": true,
+          "price": 9998.86,
           "options": []
         }
       ]
@@ -7655,7 +7786,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 24999.35,
-      "stock": 134,
+      "stock": 116,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -7722,7 +7853,7 @@
         },
         {
           "id": "G3-ABS-1KG-GRPL",
-          "available": false,
+          "available": true,
           "price": 29411,
           "options": [
             "Gris Plata",
@@ -7918,7 +8049,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 24498.7,
-      "stock": 21,
+      "stock": 49,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -7930,10 +8061,22 @@
         "Filamentos Técnicos",
         "1kg"
       ],
-      "image": "https://ik.imagekit.io/8x5mvqkfl0/Grilon3/TECNICOS/HIPS/400X400/HIPS%201KG%20BLANCO_Mesa%20de%20trabajo%201%20copia.png?updatedAt=1772572881924",
+      "image": "https://ik.imagekit.io/8x5mvqkfl0/Grilon3/TECNICOS/HIPS/400X400/HIPS%201KG%20AZUL_Mesa%20de%20trabajo%201%20copia.png?updatedAt=1772572879826",
       "url": "https://shop.wetech.ar/product/GRILON3-HIPS-PREMIUM-NACIONAL",
       "scrapedFrom": "https://shop.wetech.ar/products",
       "variants": [
+        {
+          "id": "G3-HIPS-1KG-AZUL",
+          "available": true,
+          "price": 28822,
+          "options": [
+            "Azul",
+            "1kg",
+            "HIPS",
+            "Premium",
+            "Nacional"
+          ]
+        },
         {
           "id": "G3-HIPS-1KG-BLAN",
           "available": true,
@@ -7959,11 +8102,35 @@
           ]
         },
         {
+          "id": "G3-HIPS-1KG-ROJO",
+          "available": true,
+          "price": 28822,
+          "options": [
+            "Rojo",
+            "1kg",
+            "HIPS",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
           "id": "G3-HIPS-1KG-NATU",
           "available": true,
           "price": 28822,
           "options": [
             "Translucido Natural",
+            "1kg",
+            "HIPS",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-HIPS-1KG-VERD",
+          "available": true,
+          "price": 28822,
+          "options": [
+            "Verde",
             "1kg",
             "HIPS",
             "Premium",
@@ -8028,7 +8195,7 @@
           "available": true,
           "price": 159999,
           "options": [
-            "Gris Titanio",
+            "Titanio",
             "1kg",
             "NYLON 12",
             "Premium",
@@ -8173,7 +8340,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 19499,
-      "stock": 100,
+      "stock": 76,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -8193,7 +8360,7 @@
       "variants": [
         {
           "id": "G3-MAXP-2K5-BLAN",
-          "available": true,
+          "available": false,
           "price": 54116,
           "options": [
             "Blanco",
@@ -8268,7 +8435,7 @@
           "available": true,
           "price": 22940,
           "options": [
-            "Naranja Ambar Clear",
+            "Ambar Clear",
             "1kg",
             "PetG",
             "Premium",
@@ -8301,10 +8468,10 @@
         },
         {
           "id": "G3-PETG-1KG-CHOC",
-          "available": false,
+          "available": true,
           "price": 22940,
           "options": [
-            "Marron Chocolate",
+            "Chocolate",
             "1kg",
             "PetG",
             "Premium",
@@ -8313,7 +8480,7 @@
         },
         {
           "id": "G3-PETG-1KG-GRAC",
-          "available": true,
+          "available": false,
           "price": 22940,
           "options": [
             "Gris Acero",
@@ -8361,7 +8528,7 @@
         },
         {
           "id": "G3-PETG-1KG-NOVA",
-          "available": true,
+          "available": false,
           "price": 22940,
           "options": [
             "Violeta Nova",
@@ -8420,7 +8587,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 28498.8,
-      "stock": 79,
+      "stock": 77,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -8642,7 +8809,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 37999.25,
-      "stock": 34,
+      "stock": 32,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -8743,7 +8910,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 28998.6,
-      "stock": 134,
+      "stock": 130,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -8776,7 +8943,7 @@
           "available": true,
           "price": 34116,
           "options": [
-            "Verde Calipso",
+            "Calipso",
             "1kg",
             "PLA Astra",
             "Premium",
@@ -8788,7 +8955,7 @@
           "available": true,
           "price": 34116,
           "options": [
-            "Negro Dark",
+            "Dark",
             "1kg",
             "PLA Astra",
             "Premium",
@@ -8800,7 +8967,7 @@
           "available": true,
           "price": 34116,
           "options": [
-            "Verde Jade",
+            "Jade",
             "1kg",
             "PLA Astra",
             "Premium",
@@ -8812,7 +8979,7 @@
           "available": true,
           "price": 34116,
           "options": [
-            "Violeta Nebula",
+            "Nebula",
             "1kg",
             "PLA Astra",
             "Premium",
@@ -8824,7 +8991,7 @@
           "available": true,
           "price": 34116,
           "options": [
-            "Rojo Roby",
+            "Roby",
             "1kg",
             "PLA Astra",
             "Premium",
@@ -8844,7 +9011,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 25998.95,
-      "stock": 212,
+      "stock": 130,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -8866,7 +9033,7 @@
           "available": true,
           "price": 98822,
           "options": [
-            "Blanco Perla Calido",
+            "Perla Calido",
             "4kg",
             "PLA Boutique",
             "Premium",
@@ -8878,7 +9045,7 @@
           "available": true,
           "price": 98822,
           "options": [
-            "Blanco Perla Frio",
+            "Perla Frio",
             "4kg",
             "PLA Boutique",
             "Premium",
@@ -8890,7 +9057,7 @@
           "available": true,
           "price": 30587,
           "options": [
-            "Celeste Acqua",
+            "Acqua",
             "1kg",
             "PLA Boutique",
             "Premium",
@@ -8899,10 +9066,10 @@
         },
         {
           "id": "G3-BOUT-1KG-AREN",
-          "available": true,
+          "available": false,
           "price": 30587,
           "options": [
-            "Amarillo Arena",
+            "Arena",
             "1kg",
             "PLA Boutique",
             "Premium",
@@ -8914,7 +9081,7 @@
           "available": false,
           "price": 30587,
           "options": [
-            "Azul Zafiro",
+            "Zafiro",
             "1kg",
             "PLA Boutique",
             "Premium",
@@ -8926,7 +9093,7 @@
           "available": true,
           "price": 30587,
           "options": [
-            "Blanco Perla Calido",
+            "Perla Calido",
             "1kg",
             "PLA Boutique",
             "Premium",
@@ -8938,7 +9105,7 @@
           "available": true,
           "price": 30587,
           "options": [
-            "Blanco Perla Frio",
+            "Perla Frio",
             "1kg",
             "PLA Boutique",
             "Premium",
@@ -8950,7 +9117,7 @@
           "available": true,
           "price": 30587,
           "options": [
-            "Gris Carbon",
+            "Carbon",
             "1kg",
             "PLA Boutique",
             "Premium",
@@ -8962,7 +9129,7 @@
           "available": true,
           "price": 30587,
           "options": [
-            "Verde Caribe",
+            "Caribe",
             "1kg",
             "PLA Boutique",
             "Premium",
@@ -8971,10 +9138,10 @@
         },
         {
           "id": "G3-BOUT-1KG-CHOC",
-          "available": true,
+          "available": false,
           "price": 30587,
           "options": [
-            "Marron Chocolate",
+            "Chocolate",
             "1kg",
             "PLA Boutique",
             "Premium",
@@ -8986,7 +9153,7 @@
           "available": true,
           "price": 30587,
           "options": [
-            "Celeste Crema del Cielo",
+            "Crema del Cielo",
             "1kg",
             "PLA Boutique",
             "Premium",
@@ -8998,7 +9165,7 @@
           "available": true,
           "price": 30587,
           "options": [
-            "Marron Dulce de Leche",
+            "Dulce de Leche",
             "1kg",
             "PLA Boutique",
             "Premium",
@@ -9010,7 +9177,7 @@
           "available": true,
           "price": 30587,
           "options": [
-            "Verde Esmeralda",
+            "Esmeralda",
             "1kg",
             "PLA Boutique",
             "Premium",
@@ -9022,7 +9189,7 @@
           "available": true,
           "price": 30587,
           "options": [
-            "Rosa Frutilla",
+            "Frutilla",
             "1kg",
             "PLA Boutique",
             "Premium",
@@ -9046,7 +9213,7 @@
           "available": true,
           "price": 30587,
           "options": [
-            "Rojo Rubi",
+            "Rubi",
             "1kg",
             "PLA Boutique",
             "Premium",
@@ -9058,7 +9225,7 @@
           "available": true,
           "price": 30587,
           "options": [
-            "Rosa Salmon",
+            "Salmon",
             "1kg",
             "PLA Boutique",
             "Premium",
@@ -9090,7 +9257,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 23499.1,
-      "stock": 323,
+      "stock": 291,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -9133,7 +9300,7 @@
         },
         {
           "id": "G3-MEGA-4KG-BLAN",
-          "available": false,
+          "available": true,
           "price": 90587,
           "options": [
             "Blanco",
@@ -9157,7 +9324,7 @@
         },
         {
           "id": "G3-MEGA-4KG-NEGR",
-          "available": false,
+          "available": true,
           "price": 90587,
           "options": [
             "Negro",
@@ -9241,7 +9408,7 @@
         },
         {
           "id": "G3-PLA2-1KG-AZUL",
-          "available": true,
+          "available": false,
           "price": 29411,
           "options": [
             "Azul",
@@ -9253,7 +9420,7 @@
         },
         {
           "id": "G3-PLA2-1KG-AZPR",
-          "available": false,
+          "available": true,
           "price": 29411,
           "options": [
             "Azul Prusia",
@@ -9265,7 +9432,7 @@
         },
         {
           "id": "G3-PLA1-1KG-BLAN",
-          "available": true,
+          "available": false,
           "price": 27646,
           "options": [
             "Blanco",
@@ -9277,10 +9444,10 @@
         },
         {
           "id": "G3-PLA2-1KG-BORD",
-          "available": false,
+          "available": true,
           "price": 29411,
           "options": [
-            "Rojo Bordo",
+            "Bordo",
             "1kg",
             "PLA",
             "Premium",
@@ -9293,6 +9460,18 @@
           "price": 29411,
           "options": [
             "Bronce",
+            "1kg",
+            "PLA",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-PLA2-1KG-CARP",
+          "available": true,
+          "price": 29411,
+          "options": [
+            "Marron Carpincho Ed. Limitada",
             "1kg",
             "PLA",
             "Premium",
@@ -9337,7 +9516,7 @@
         },
         {
           "id": "G3-PLA2-1KG-FUCS",
-          "available": false,
+          "available": true,
           "price": 29411,
           "options": [
             "Fucsia",
@@ -9361,7 +9540,7 @@
         },
         {
           "id": "G3-PLA1-1KG-GRPL",
-          "available": true,
+          "available": false,
           "price": 27646,
           "options": [
             "Gris Plata",
@@ -9373,7 +9552,7 @@
         },
         {
           "id": "G3-PLA2-1KG-MAFL",
-          "available": false,
+          "available": true,
           "price": 29411,
           "options": [
             "Rosa Magenta Fluo",
@@ -9384,20 +9563,8 @@
           ]
         },
         {
-          "id": "G3-PLA2-1KG-CARP",
-          "available": true,
-          "price": 29411,
-          "options": [
-            "Marron Carpincho Ed. Limitada",
-            "1kg",
-            "PLA",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
           "id": "G3-PLA2-1KG-NAFL",
-          "available": false,
+          "available": true,
           "price": 29411,
           "options": [
             "Naranja Fluo",
@@ -9409,7 +9576,7 @@
         },
         {
           "id": "G3-PLA1-1KG-NEGR",
-          "available": true,
+          "available": false,
           "price": 27646,
           "options": [
             "Negro",
@@ -9445,7 +9612,7 @@
         },
         {
           "id": "G3-PLA1-1KG-ROJO",
-          "available": true,
+          "available": false,
           "price": 27646,
           "options": [
             "Rojo",
@@ -9493,7 +9660,7 @@
         },
         {
           "id": "G3-PLA2-1KG-VERD",
-          "available": false,
+          "available": true,
           "price": 29411,
           "options": [
             "Verde",
@@ -9552,9 +9719,9 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 24999.35,
-      "stock": 8,
-      "stockLabel": "En stock",
-      "available": true,
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": "Grilon3",
       "tags": [
         "Grilon3",
@@ -9691,7 +9858,7 @@
         },
         {
           "id": "G3-PLAPR-1KG-NEGR",
-          "available": true,
+          "available": false,
           "price": 29411,
           "options": [
             "Negro",
@@ -9750,7 +9917,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 28998.6,
-      "stock": 97,
+      "stock": 70,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -9804,7 +9971,7 @@
         },
         {
           "id": "G3-SILK-1KG-DORA",
-          "available": true,
+          "available": false,
           "price": 34116,
           "options": [
             "Dorado",
@@ -9819,7 +9986,7 @@
           "available": true,
           "price": 34116,
           "options": [
-            "Negro Azabache",
+            "Azabache",
             "1kg",
             "PLA Silk",
             "Premium",
@@ -9831,7 +9998,7 @@
           "available": true,
           "price": 34116,
           "options": [
-            "Gris Platino",
+            "Platino",
             "1kg",
             "PLA Silk",
             "Premium",
@@ -9843,7 +10010,7 @@
           "available": true,
           "price": 34116,
           "options": [
-            "Rosa Tutti Fruti",
+            "Tutti Fruti",
             "1kg",
             "PLA Silk",
             "Premium",
@@ -9896,7 +10063,7 @@
           "available": true,
           "price": 45293,
           "options": [
-            "Marron Caoba",
+            "Caoba",
             "1kg",
             "PLA WOOD",
             "Premium",
@@ -9908,7 +10075,7 @@
           "available": true,
           "price": 45293,
           "options": [
-            "Marron Cerezo",
+            "Cerezo",
             "1kg",
             "PLA WOOD",
             "Premium",
@@ -9920,7 +10087,7 @@
           "available": true,
           "price": 45293,
           "options": [
-            "Marron Nogal",
+            "Nogal",
             "1kg",
             "PLA WOOD",
             "Premium",
@@ -9932,7 +10099,7 @@
           "available": true,
           "price": 45293,
           "options": [
-            "Marron Pino",
+            "Pino",
             "1kg",
             "PLA WOOD",
             "Premium",
@@ -9973,7 +10140,7 @@
           "available": true,
           "price": 33528,
           "options": [
-            "Negro Azabache",
+            "Azabache",
             "1kg",
             "PLA ZETA",
             "Premium",
@@ -10005,7 +10172,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 23499.1,
-      "stock": 19,
+      "stock": 18,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -10135,7 +10302,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 39999.3,
-      "stock": 110,
+      "stock": 99,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -10189,7 +10356,7 @@
         },
         {
           "id": "G3-TPU-1KG-NEGR",
-          "available": true,
+          "available": false,
           "price": 47058,
           "options": [
             "Negro",
@@ -10757,7 +10924,7 @@
           "available": false,
           "price": 21175,
           "options": [
-            "Rojo Vino",
+            "Vino",
             "1kg",
             "PLA",
             "Básico",
@@ -10781,7 +10948,7 @@
           "available": false,
           "price": 21175,
           "options": [
-            "Marron Vainilla",
+            "Vainilla",
             "1kg",
             "PLA",
             "Básico",
@@ -10805,7 +10972,7 @@
           "available": false,
           "price": 21175,
           "options": [
-            "Verde Esmeralda",
+            "Esmeralda",
             "1kg",
             "PLA",
             "Básico",
@@ -10841,7 +11008,7 @@
           "available": false,
           "price": 21175,
           "options": [
-            "Violeta Purpura",
+            "Purpura",
             "1kg",
             "PLA",
             "Básico",
@@ -10861,8 +11028,8 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 19998.8,
-      "stock": 4,
-      "stockLabel": "En stock",
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "GST3D",
       "tags": [
@@ -10990,7 +11157,7 @@
           "available": false,
           "price": 23528,
           "options": [
-            "Marron Beige",
+            "Beige",
             "1kg",
             "PLA",
             "Estándar",
@@ -11002,7 +11169,7 @@
           "available": false,
           "price": 23528,
           "options": [
-            "Marron Madera",
+            "Madera",
             "1kg",
             "PLA",
             "Estándar",
@@ -11098,7 +11265,7 @@
           "available": false,
           "price": 23528,
           "options": [
-            "Violeta Purpura",
+            "Purpura",
             "1kg",
             "PLA",
             "Estándar",
@@ -11252,7 +11419,7 @@
           "available": false,
           "price": 23528,
           "options": [
-            "Marron Beige",
+            "Beige",
             "1kg",
             "PLA Matte",
             "Estándar",
@@ -11300,7 +11467,7 @@
           "available": false,
           "price": 23528,
           "options": [
-            "Rojo Rubi",
+            "Rubi",
             "1kg",
             "PLA Matte",
             "Estándar",
@@ -11324,7 +11491,7 @@
           "available": false,
           "price": 23528,
           "options": [
-            "Verde Menta",
+            "Menta",
             "1kg",
             "PLA Matte",
             "Estándar",
@@ -11405,11 +11572,11 @@
       "domain": "shop.wetech.ar",
       "name": "GST3D PLA+ Básico",
       "category": "Filamentos",
-      "price": 19999,
+      "price": 21175,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 16999.15,
-      "stock": 272,
+      "transferPrice": 17998.75,
+      "stock": 578,
       "stockLabel": "En stock",
       "available": true,
       "brand": "GST3D",
@@ -11427,8 +11594,8 @@
       "variants": [
         {
           "id": "GSB-PLA-1KG-AMAR",
-          "available": false,
-          "price": 19999,
+          "available": true,
+          "price": 21175,
           "options": [
             "Amarillo",
             "1kg",
@@ -11440,9 +11607,9 @@
         {
           "id": "GSB-PLA-1KG-PACR",
           "available": false,
-          "price": 19999,
+          "price": 21175,
           "options": [
-            "Amarillo Crema Pastel",
+            "Crema Pastel",
             "1kg",
             "PLA+",
             "Básico",
@@ -11452,7 +11619,7 @@
         {
           "id": "GSB-PLA-1KG-AMFL",
           "available": true,
-          "price": 19999,
+          "price": 21175,
           "options": [
             "Amarillo Fluo",
             "1kg",
@@ -11464,7 +11631,7 @@
         {
           "id": "GSB-PLA-1KG-AZUL",
           "available": false,
-          "price": 19999,
+          "price": 21175,
           "options": [
             "Azul",
             "1kg",
@@ -11475,8 +11642,8 @@
         },
         {
           "id": "GSB-PLA-1KG-GLAZ",
-          "available": true,
-          "price": 19999,
+          "available": false,
+          "price": 21175,
           "options": [
             "Azul Glitter",
             "1kg",
@@ -11488,7 +11655,7 @@
         {
           "id": "GSB-PLA-1KG-AZHI",
           "available": true,
-          "price": 19999,
+          "price": 21175,
           "options": [
             "Azul Hielo",
             "1kg",
@@ -11499,10 +11666,10 @@
         },
         {
           "id": "GSB-PLA-1KG-NASU",
-          "available": true,
-          "price": 19999,
+          "available": false,
+          "price": 21175,
           "options": [
-            "Azul Nafta Super",
+            "Nafta Super",
             "1kg",
             "PLA+",
             "Básico",
@@ -11511,8 +11678,8 @@
         },
         {
           "id": "GSB-PLA-1KG-AZOS",
-          "available": false,
-          "price": 19999,
+          "available": true,
+          "price": 21175,
           "options": [
             "Azul Oscuro",
             "1kg",
@@ -11523,8 +11690,8 @@
         },
         {
           "id": "GSB-PLA-1KG-PAAZ",
-          "available": false,
-          "price": 19999,
+          "available": true,
+          "price": 21175,
           "options": [
             "Azul Pastel",
             "1kg",
@@ -11535,10 +11702,10 @@
         },
         {
           "id": "GSB-PLA-1KG-BLAN",
-          "available": false,
-          "price": 19999,
+          "available": true,
+          "price": 21175,
           "options": [
-            "Blanco Ultra",
+            "Blanco Comun",
             "1kg",
             "PLA+",
             "Básico",
@@ -11548,7 +11715,7 @@
         {
           "id": "GSB-PLA-1KG-CELE",
           "available": true,
-          "price": 19999,
+          "price": 21175,
           "options": [
             "Celeste",
             "1kg",
@@ -11560,9 +11727,9 @@
         {
           "id": "GSB-PLA-1KG-CREM",
           "available": false,
-          "price": 19999,
+          "price": 21175,
           "options": [
-            "Amarillo Crema",
+            "Crema",
             "1kg",
             "PLA+",
             "Básico",
@@ -11572,7 +11739,7 @@
         {
           "id": "GSB-PLA-1KG-GOLD",
           "available": false,
-          "price": 19999,
+          "price": 21175,
           "options": [
             "Dorado",
             "1kg",
@@ -11584,7 +11751,7 @@
         {
           "id": "GSB-PLA-1KG-GLDO",
           "available": false,
-          "price": 19999,
+          "price": 21175,
           "options": [
             "Dorado Glitter",
             "1kg",
@@ -11596,7 +11763,7 @@
         {
           "id": "GSB-PLA-1KG-FUCS",
           "available": true,
-          "price": 19999,
+          "price": 21175,
           "options": [
             "Fucsia",
             "1kg",
@@ -11608,7 +11775,7 @@
         {
           "id": "GSB-PLA-1KG-NUFU",
           "available": false,
-          "price": 19999,
+          "price": 21175,
           "options": [
             "Fucsia Nuevo",
             "1kg",
@@ -11620,7 +11787,7 @@
         {
           "id": "GSB-PLA-1KG-MARR",
           "available": false,
-          "price": 19999,
+          "price": 21175,
           "options": [
             "Marron",
             "1kg",
@@ -11631,10 +11798,10 @@
         },
         {
           "id": "GSB-PLA-1KG-CAPI",
-          "available": false,
-          "price": 19999,
+          "available": true,
+          "price": 21175,
           "options": [
-            "Marron Capibara",
+            "Capibara",
             "1kg",
             "PLA+",
             "Básico",
@@ -11644,7 +11811,7 @@
         {
           "id": "GSB-PLA-1KG-MACL",
           "available": true,
-          "price": 19999,
+          "price": 21175,
           "options": [
             "Marron Claro",
             "1kg",
@@ -11656,9 +11823,9 @@
         {
           "id": "GSB-PLA-1KG-MOST",
           "available": true,
-          "price": 19999,
+          "price": 21175,
           "options": [
-            "Amarillo Mostaza",
+            "Mostaza",
             "1kg",
             "PLA+",
             "Básico",
@@ -11667,8 +11834,8 @@
         },
         {
           "id": "GSB-PLA-1KG-NARA",
-          "available": true,
-          "price": 19999,
+          "available": false,
+          "price": 21175,
           "options": [
             "Naranja",
             "1kg",
@@ -11680,7 +11847,7 @@
         {
           "id": "GSB-PLA-1KG-NAFL",
           "available": true,
-          "price": 19999,
+          "price": 21175,
           "options": [
             "Naranja Fluo",
             "1kg",
@@ -11691,8 +11858,8 @@
         },
         {
           "id": "GSB-PLA-1KG-NEGR",
-          "available": false,
-          "price": 19999,
+          "available": true,
+          "price": 21175,
           "options": [
             "Negro",
             "1kg",
@@ -11704,7 +11871,7 @@
         {
           "id": "GSB-PLA-1KG-GLNE",
           "available": false,
-          "price": 19999,
+          "price": 21175,
           "options": [
             "Negro Glitter",
             "1kg",
@@ -11715,8 +11882,8 @@
         },
         {
           "id": "GSB-PLA-1KG-PLAT",
-          "available": false,
-          "price": 19999,
+          "available": true,
+          "price": 21175,
           "options": [
             "Plata",
             "1kg",
@@ -11728,7 +11895,7 @@
         {
           "id": "GSB-PLA-1KG-GLPL",
           "available": true,
-          "price": 19999,
+          "price": 21175,
           "options": [
             "Plata Glitter",
             "1kg",
@@ -11739,8 +11906,8 @@
         },
         {
           "id": "GSB-PLA-1KG-ROJO",
-          "available": false,
-          "price": 19999,
+          "available": true,
+          "price": 21175,
           "options": [
             "Rojo",
             "1kg",
@@ -11752,7 +11919,7 @@
         {
           "id": "GSB-PLA-1KG-GLRO",
           "available": false,
-          "price": 19999,
+          "price": 21175,
           "options": [
             "Rojo Glitter",
             "1kg",
@@ -11764,7 +11931,7 @@
         {
           "id": "GSB-PLA-1KG-ROSA",
           "available": false,
-          "price": 19999,
+          "price": 21175,
           "options": [
             "Rosa",
             "1kg",
@@ -11776,7 +11943,7 @@
         {
           "id": "GSB-PLA-1KG-ROCL",
           "available": false,
-          "price": 19999,
+          "price": 21175,
           "options": [
             "Rosa Claro",
             "1kg",
@@ -11788,7 +11955,7 @@
         {
           "id": "GSB-PLA-1KG-NERO",
           "available": false,
-          "price": 19999,
+          "price": 21175,
           "options": [
             "Rosa Neo",
             "1kg",
@@ -11799,8 +11966,8 @@
         },
         {
           "id": "GSB-PLA-1KG-ROPA",
-          "available": false,
-          "price": 19999,
+          "available": true,
+          "price": 21175,
           "options": [
             "Rosa Pastel",
             "1kg",
@@ -11810,9 +11977,21 @@
           ]
         },
         {
+          "id": "GSB-PLA-1KG-CRIS",
+          "available": false,
+          "price": 21175,
+          "options": [
+            "Translucido",
+            "1kg",
+            "PLA+",
+            "Básico",
+            "Nacional"
+          ]
+        },
+        {
           "id": "GSB-PLA-1KG-VEFL",
           "available": true,
-          "price": 19999,
+          "price": 21175,
           "options": [
             "Verde Fluo",
             "1kg",
@@ -11824,7 +12003,7 @@
         {
           "id": "GSB-PLA-1KG-VEMA",
           "available": false,
-          "price": 19999,
+          "price": 21175,
           "options": [
             "Verde Manzana",
             "1kg",
@@ -11835,8 +12014,8 @@
         },
         {
           "id": "GSB-PLA-1KG-VEMI",
-          "available": true,
-          "price": 19999,
+          "available": false,
+          "price": 21175,
           "options": [
             "Verde Militar",
             "1kg",
@@ -11848,7 +12027,7 @@
         {
           "id": "GSB-PLA-1KG-GLVE",
           "available": true,
-          "price": 19999,
+          "price": 21175,
           "options": [
             "Verde Militar Glitter",
             "1kg",
@@ -11859,8 +12038,8 @@
         },
         {
           "id": "GSB-PLA-1KG-VEPA",
-          "available": false,
-          "price": 19999,
+          "available": true,
+          "price": 21175,
           "options": [
             "Verde Pastel",
             "1kg",
@@ -11870,9 +12049,21 @@
           ]
         },
         {
-          "id": "GSB-PLA-1KG-VIPA",
+          "id": "GSB-PLA-1KG-VIOL",
           "available": false,
-          "price": 19999,
+          "price": 21175,
+          "options": [
+            "Violeta",
+            "1kg",
+            "PLA+",
+            "Básico",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "GSB-PLA-1KG-VIPA",
+          "available": true,
+          "price": 21175,
           "options": [
             "Violeta Pastel",
             "1kg",
@@ -11894,7 +12085,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 19998.8,
-      "stock": 13,
+      "stock": 21,
       "stockLabel": "En stock",
       "available": true,
       "brand": "GST3D",
@@ -11927,7 +12118,7 @@
           "available": false,
           "price": 23528,
           "options": [
-            "Amarillo Arena",
+            "Arena",
             "1kg",
             "PLA+ Silk",
             "Básico",
@@ -11972,7 +12163,7 @@
         },
         {
           "id": "GSB-SILK-1KG-DORA",
-          "available": false,
+          "available": true,
           "price": 23528,
           "options": [
             "Dorado",
@@ -11984,7 +12175,7 @@
         },
         {
           "id": "GSB-SILK-1KG-FUCS",
-          "available": true,
+          "available": false,
           "price": 23528,
           "options": [
             "Fucsia",
@@ -12131,7 +12322,7 @@
           "available": false,
           "price": 23528,
           "options": [
-            "Violeta Purpura",
+            "Purpura",
             "1kg",
             "PLA+ Silk",
             "Básico",
@@ -12425,8 +12616,8 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 22999.3,
-      "stock": 5,
-      "stockLabel": "En stock",
+      "stock": 1,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "GST3D",
       "tags": [
@@ -12615,7 +12806,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 18999.2,
-      "stock": 342,
+      "stock": 618,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -12633,7 +12824,7 @@
       "variants": [
         {
           "id": "HB-PLA-1KG-AMAR",
-          "available": false,
+          "available": true,
           "price": 22352,
           "options": [
             "Amarillo",
@@ -12660,7 +12851,7 @@
           "available": true,
           "price": 22352,
           "options": [
-            "Amarillo Arena Pastel",
+            "Arena Pastel",
             "1kg",
             "PLA",
             "Básico",
@@ -12669,7 +12860,7 @@
         },
         {
           "id": "HB-PLA-1KG-AZUL",
-          "available": true,
+          "available": false,
           "price": 22352,
           "options": [
             "Azul",
@@ -12684,7 +12875,7 @@
           "available": true,
           "price": 22352,
           "options": [
-            "Azul Cobalto",
+            "Cobalto",
             "1kg",
             "PLA",
             "Básico",
@@ -12696,7 +12887,7 @@
           "available": true,
           "price": 22352,
           "options": [
-            "Azul Indigo Pastel",
+            "Indigo Pastel",
             "1kg",
             "PLA",
             "Básico",
@@ -12705,7 +12896,7 @@
         },
         {
           "id": "HB-PLA-1KG-BLAN",
-          "available": false,
+          "available": true,
           "price": 22352,
           "options": [
             "Blanco",
@@ -12792,7 +12983,7 @@
           "available": true,
           "price": 22352,
           "options": [
-            "Gris Plateado",
+            "Plateado",
             "1kg",
             "PLA",
             "Básico",
@@ -12804,7 +12995,7 @@
           "available": false,
           "price": 22352,
           "options": [
-            "Violeta Lavanda Pastel",
+            "Lavanda Pastel",
             "1kg",
             "PLA",
             "Básico",
@@ -12837,10 +13028,10 @@
         },
         {
           "id": "HB-PLA-1KG-CAPI",
-          "available": true,
+          "available": false,
           "price": 22352,
           "options": [
-            "Marron Capibara",
+            "Capibara",
             "1kg",
             "PLA",
             "Básico",
@@ -12873,7 +13064,7 @@
         },
         {
           "id": "HB-PLA-1KG-NEGR",
-          "available": false,
+          "available": true,
           "price": 22352,
           "options": [
             "Negro",
@@ -12885,7 +13076,7 @@
         },
         {
           "id": "HB-PLA-1KG-PIMA",
-          "available": true,
+          "available": false,
           "price": 22352,
           "options": [
             "Piel",
@@ -12921,7 +13112,7 @@
         },
         {
           "id": "HB-PLA-1KG-ROPA",
-          "available": false,
+          "available": true,
           "price": 22352,
           "options": [
             "Rosa Pastel",
@@ -12936,7 +13127,7 @@
           "available": true,
           "price": 22352,
           "options": [
-            "Translucido Azul Zafiro",
+            "Translucido Zafiro",
             "1kg",
             "PLA",
             "Básico",
@@ -12972,7 +13163,7 @@
           "available": true,
           "price": 22352,
           "options": [
-            "Translucido Rojo Rubi",
+            "Translucido Rubi",
             "1kg",
             "PLA",
             "Básico",
@@ -12984,7 +13175,7 @@
           "available": true,
           "price": 22352,
           "options": [
-            "Translucido Verde Esmeralda",
+            "Translucido Esmeralda",
             "1kg",
             "PLA",
             "Básico",
@@ -12993,10 +13184,10 @@
         },
         {
           "id": "HB-PLA-1KG-VAPA",
-          "available": false,
+          "available": true,
           "price": 22352,
           "options": [
-            "Amarillo Vainilla Pastel",
+            "Vainilla Pastel",
             "1kg",
             "PLA",
             "Básico",
@@ -13005,7 +13196,7 @@
         },
         {
           "id": "HB-PLA-1KG-VERD",
-          "available": false,
+          "available": true,
           "price": 22352,
           "options": [
             "Verde",
@@ -13020,7 +13211,7 @@
           "available": true,
           "price": 22352,
           "options": [
-            "Verde Aqua",
+            "Aqua",
             "1kg",
             "PLA",
             "Básico",
@@ -13032,7 +13223,7 @@
           "available": true,
           "price": 22352,
           "options": [
-            "Verde Aqua Pastel",
+            "Aqua Pastel",
             "1kg",
             "PLA",
             "Básico",
@@ -13068,7 +13259,7 @@
           "available": true,
           "price": 22352,
           "options": [
-            "Verde Kiwi Pastel",
+            "Kiwi Pastel",
             "1kg",
             "PLA",
             "Básico",
@@ -13080,7 +13271,7 @@
           "available": true,
           "price": 22352,
           "options": [
-            "Verde Menta Pastel",
+            "Menta Pastel",
             "1kg",
             "PLA",
             "Básico",
@@ -13089,7 +13280,7 @@
         },
         {
           "id": "HB-PLA-1KG-VIOL",
-          "available": false,
+          "available": true,
           "price": 22352,
           "options": [
             "Violeta",
@@ -13177,7 +13368,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 29999.05,
-      "stock": 22,
+      "stock": 18,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -13258,7 +13449,7 @@
           "available": false,
           "price": 35293,
           "options": [
-            "Dorado Oro Copa del Mundo",
+            "Oro Copa del Mundo",
             "1kg",
             "PLA Silk",
             "Premium",
@@ -13488,6 +13679,36 @@
       ]
     },
     {
+      "id": "wetech-oferta-extdoble",
+      "sourceProductId": "OFERTA-EXTDOBLE",
+      "store": "WeTech",
+      "domain": "shop.wetech.ar",
+      "name": "Kit Extrusor Doble | Creality | 2 boquillas MK8 de regalo",
+      "category": "Repuestos",
+      "price": 15505.63,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 13179.79,
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": null,
+      "tags": [
+        "Bloques y Extrusión"
+      ],
+      "image": null,
+      "url": "https://shop.wetech.ar/product/OFERTA-EXTDOBLE",
+      "scrapedFrom": "https://shop.wetech.ar/products",
+      "variants": [
+        {
+          "id": "OFERTA-EXTDOBLE",
+          "available": false,
+          "price": 15505.63,
+          "options": []
+        }
+      ]
+    },
+    {
       "id": "wetech-extr-met-sim-rojo-cr",
       "sourceProductId": "EXTR MET SIM ROJO CR",
       "store": "WeTech",
@@ -13528,7 +13749,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 43349.05,
-      "stock": 8,
+      "stock": 7,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -13558,7 +13779,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 33390.34,
-      "stock": 9,
+      "stock": 8,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -13584,12 +13805,12 @@
       "domain": "shop.wetech.ar",
       "name": "Kit Hotend | Creality | Bloque calefactor, Barrel, Termistor, Resistencia ceramica, Boquilla, Aislante de silicona, Microtornilleria x2 | Ender 3 v3 KE",
       "category": "Repuestos",
-      "price": 41350.24,
+      "price": 41998.96,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 35147.7,
-      "stock": 2,
-      "stockLabel": "Pocas unidades",
+      "transferPrice": 35699.12,
+      "stock": 6,
+      "stockLabel": "En stock",
       "available": true,
       "brand": null,
       "tags": [
@@ -13602,7 +13823,7 @@
         {
           "id": "KIT HOTEND E3V3KE",
           "available": true,
-          "price": 41350.24,
+          "price": 41998.96,
           "options": []
         }
       ]
@@ -13614,10 +13835,10 @@
       "domain": "shop.wetech.ar",
       "name": "Kit Hotend | Creality | Bloque calefactor, Barrel, Termistor, Resistencia, Boquilla, Aislante de silicona | Ender 3 v3 SE",
       "category": "Repuestos",
-      "price": 40316.42,
+      "price": 34991.1,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 34268.96,
+      "transferPrice": 29742.43,
       "stock": 11,
       "stockLabel": "En stock",
       "available": true,
@@ -13632,7 +13853,7 @@
         {
           "id": "KIT HOTEND E3V3SE",
           "available": true,
-          "price": 40316.42,
+          "price": 34991.1,
           "options": []
         }
       ]
@@ -13644,11 +13865,11 @@
       "domain": "shop.wetech.ar",
       "name": "Kit Hotend | Creality | Bloque calefactor, Barrel, Termistor, Resistencia, Boquilla, Aislante de silicona, Disipador, Teflon interno, Microtornilleria | Ender 3 V3 SE",
       "category": "Repuestos",
-      "price": 46519.19,
+      "price": 49495.5,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 39541.31,
-      "stock": 3,
+      "transferPrice": 42071.17,
+      "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": null,
@@ -13662,7 +13883,7 @@
         {
           "id": "KIT HOTEND E3V3SECOM",
           "available": true,
-          "price": 46519.19,
+          "price": 49495.5,
           "options": []
         }
       ]
@@ -13728,6 +13949,36 @@
       ]
     },
     {
+      "id": "wetech-kithotend-bamba1-0-4",
+      "sourceProductId": "KITHOTEND BAMBA1 0.4",
+      "store": "WeTech",
+      "domain": "shop.wetech.ar",
+      "name": "Kit Hotend 0.4mm | Bambu Lab Original | A1 / A1 Mini",
+      "category": "Repuestos",
+      "price": 55998,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 47598.3,
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Bloques y Extrusión"
+      ],
+      "image": null,
+      "url": "https://shop.wetech.ar/product/KITHOTEND%20BAMBA1%200.4",
+      "scrapedFrom": "https://shop.wetech.ar/products",
+      "variants": [
+        {
+          "id": "KITHOTEND BAMBA1 0.4",
+          "available": true,
+          "price": 55998,
+          "options": []
+        }
+      ]
+    },
+    {
       "id": "wetech-kit-hotend-bambu-p2h",
       "sourceProductId": "KIT HOTEND BAMBU P2H",
       "store": "WeTech",
@@ -13758,6 +14009,36 @@
       ]
     },
     {
+      "id": "wetech-kithotend-bla1-0-4",
+      "sourceProductId": "KITHOTEND BLA1 0.4",
+      "store": "WeTech",
+      "domain": "shop.wetech.ar",
+      "name": "Kit Hotend Boquilla | Acero Inoxidable 0.4mm | Bambu Lab Generico | A1 / A1 Mini",
+      "category": "Repuestos",
+      "price": 31012.34,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 26360.48,
+      "stock": 20,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Bloques y Extrusión"
+      ],
+      "image": null,
+      "url": "https://shop.wetech.ar/product/KITHOTEND%20BLA1%200.4",
+      "scrapedFrom": "https://shop.wetech.ar/products",
+      "variants": [
+        {
+          "id": "KITHOTEND BLA1 0.4",
+          "available": true,
+          "price": 31012.34,
+          "options": []
+        }
+      ]
+    },
+    {
       "id": "wetech-kithotend-snap-0-4",
       "sourceProductId": "KITHOTEND SNAP 0.4",
       "store": "WeTech",
@@ -13768,7 +14049,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 33995.07,
-      "stock": 8,
+      "stock": 6,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -13794,13 +14075,13 @@
       "domain": "shop.wetech.ar",
       "name": "Kit Hotend Boquilla Intercambiable 0.2mm | Bambu Lab | A1 / A1 Mini",
       "category": "Repuestos",
-      "price": 41350.24,
+      "price": 41498.96,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 35147.7,
-      "stock": 2,
-      "stockLabel": "Pocas unidades",
-      "available": true,
+      "transferPrice": 35274.11,
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": null,
       "tags": [
         "Bloques y Extrusión"
@@ -13811,8 +14092,8 @@
       "variants": [
         {
           "id": "KITHOTEND INBLA1 0.2",
-          "available": true,
-          "price": 41350.24,
+          "available": false,
+          "price": 41498.96,
           "options": []
         }
       ]
@@ -13828,7 +14109,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 35147.7,
-      "stock": 17,
+      "stock": 16,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -13854,13 +14135,13 @@
       "domain": "shop.wetech.ar",
       "name": "Kit Hotend Boquilla Intercambiable Acero Endurecido 0.4mm | Bambu Lab | A1 / A1 Mini",
       "category": "Repuestos",
-      "price": 41350.24,
+      "price": 41498.96,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 35147.7,
-      "stock": 3,
-      "stockLabel": "Pocas unidades",
-      "available": true,
+      "transferPrice": 35274.11,
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": null,
       "tags": [
         "Bloques y Extrusión"
@@ -13871,8 +14152,8 @@
       "variants": [
         {
           "id": "KITHOTEND INBLA1 0.4",
-          "available": true,
-          "price": 41350.24,
+          "available": false,
+          "price": 41498.96,
           "options": []
         }
       ]
@@ -14092,12 +14373,12 @@
       "sourceProductId": "HELLTAPITAS LOCK",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Par de tapas | Hellbot | Recarga Lock",
+      "name": "Par de tapas | Carrete para recarga | Hellbot | Recarga Lock",
       "category": "Repuestos",
-      "price": 3617.07,
+      "price": 3498.96,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 3074.51,
+      "transferPrice": 2974.11,
       "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -14112,7 +14393,7 @@
         {
           "id": "HELLTAPITAS LOCK",
           "available": true,
-          "price": 3617.07,
+          "price": 3498.96,
           "options": []
         }
       ]
@@ -14128,7 +14409,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 7028.81,
-      "stock": 3,
+      "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": null,
@@ -14143,6 +14424,36 @@
           "id": "PASTA TERMICA",
           "available": true,
           "price": 8269.19,
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "wetech-placa-ac-fuente-bla1",
+      "sourceProductId": "PLACA AC FUENTE BLA1",
+      "store": "WeTech",
+      "domain": "shop.wetech.ar",
+      "name": "Placa AC de la fuente | Bambu Lab | A1",
+      "category": "Filamentos",
+      "price": 69998.88,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 59499.05,
+      "stock": 1,
+      "stockLabel": "Pocas unidades",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Placas, Drivers y Cables"
+      ],
+      "image": null,
+      "url": "https://shop.wetech.ar/product/PLACA%20AC%20FUENTE%20BLA1",
+      "scrapedFrom": "https://shop.wetech.ar/products",
+      "variants": [
+        {
+          "id": "PLACA AC FUENTE BLA1",
+          "available": true,
+          "price": 69998.88,
           "options": []
         }
       ]
@@ -14353,6 +14664,96 @@
           "id": "MOTHER PLACA M 4.2.7",
           "available": true,
           "price": 108999,
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "wetech-placa-pcb-e3s1",
+      "sourceProductId": "PLACA PCB E3S1",
+      "store": "WeTech",
+      "domain": "shop.wetech.ar",
+      "name": "Placa PCB | Creality | Ender 3 S1",
+      "category": "Filamentos",
+      "price": 15999,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 13599.15,
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": null,
+      "tags": [
+        "Placas, Drivers y Cables"
+      ],
+      "image": null,
+      "url": "https://shop.wetech.ar/product/PLACA%20PCB%20E3S1",
+      "scrapedFrom": "https://shop.wetech.ar/products",
+      "variants": [
+        {
+          "id": "PLACA PCB E3S1",
+          "available": false,
+          "price": 15999,
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "wetech-placa-pcb-e3v3ke",
+      "sourceProductId": "PLACA PCB E3V3KE",
+      "store": "WeTech",
+      "domain": "shop.wetech.ar",
+      "name": "Placa PCB | Creality | Ender 3 v3 Ke",
+      "category": "Filamentos",
+      "price": 66161.02,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 56236.87,
+      "stock": 1,
+      "stockLabel": "Pocas unidades",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Placas, Drivers y Cables"
+      ],
+      "image": null,
+      "url": "https://shop.wetech.ar/product/PLACA%20PCB%20E3V3KE",
+      "scrapedFrom": "https://shop.wetech.ar/products",
+      "variants": [
+        {
+          "id": "PLACA PCB E3V3KE",
+          "available": true,
+          "price": 66161.02,
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "wetech-placa-th-cab-bla1",
+      "sourceProductId": "PLACA TH CAB BLA1",
+      "store": "WeTech",
+      "domain": "shop.wetech.ar",
+      "name": "Placa TH del cabezal | Bambu Lab | A1",
+      "category": "Filamentos",
+      "price": 82701.55,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 70296.32,
+      "stock": 1,
+      "stockLabel": "Pocas unidades",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Placas, Drivers y Cables"
+      ],
+      "image": null,
+      "url": "https://shop.wetech.ar/product/PLACA%20TH%20CAB%20BLA1",
+      "scrapedFrom": "https://shop.wetech.ar/products",
+      "variants": [
+        {
+          "id": "PLACA TH CAB BLA1",
+          "available": true,
+          "price": 82701.55,
           "options": []
         }
       ]
@@ -14938,7 +15339,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 14024.07,
-      "stock": 6,
+      "stock": 15,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -14968,7 +15369,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 18452.14,
-      "stock": 5,
+      "stock": 4,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -15118,7 +15519,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 26360.48,
-      "stock": 1,
+      "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": null,
@@ -15538,7 +15939,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 11422.42,
-      "stock": 14,
+      "stock": 24,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -15808,7 +16209,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 9774.04,
-      "stock": 9,
+      "stock": 7,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -15838,9 +16239,9 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 10543.67,
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
+      "stock": 5,
+      "stockLabel": "En stock",
+      "available": true,
       "brand": null,
       "tags": [
         "Bloques y Extrusión"
@@ -15851,7 +16252,7 @@
       "variants": [
         {
           "id": "TEFLON TIPO CAPRI",
-          "available": false,
+          "available": true,
           "price": 12404.32,
           "options": []
         }
