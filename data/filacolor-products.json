@@ -5,7 +5,7 @@
     "baseUrl": "https://filacolor.com.ar",
     "apiPath": "/wp-json/wc/store/v1/products"
   },
-  "scrapedAt": "2026-10-01T15:15:59.650Z",
+  "scrapedAt": "2026-10-02T14:35:45.448Z",
   "source": "https://filacolor.com.ar/wp-json/wc/store/v1/products",
   "pages": [
     {
@@ -39,22 +39,6 @@
       "url": "https://filacolor.com.ar/producto/3n3-pla/",
       "scrapedFrom": "https://filacolor.com.ar/wp-json/wc/store/v1/products",
       "variants": [
-        {
-          "id": "filacolor-5450",
-          "sku": "5450",
-          "available": true,
-          "options": [
-            "Colores: azul"
-          ]
-        },
-        {
-          "id": "filacolor-5451",
-          "sku": "5451",
-          "available": true,
-          "options": [
-            "Colores: blanco"
-          ]
-        },
         {
           "id": "filacolor-5452",
           "sku": "5452",
@@ -96,27 +80,11 @@
           ]
         },
         {
-          "id": "filacolor-5459",
-          "sku": "5459",
-          "available": true,
-          "options": [
-            "Colores: hueso"
-          ]
-        },
-        {
           "id": "filacolor-5460",
           "sku": "5460",
           "available": true,
           "options": [
             "Colores: naranja"
-          ]
-        },
-        {
-          "id": "filacolor-5462",
-          "sku": "5462",
-          "available": true,
-          "options": [
-            "Colores: negro"
           ]
         },
         {
@@ -325,7 +293,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 6,
+      "stock": 5,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -728,14 +696,6 @@
           "available": true,
           "options": [
             "Colores: azul-marino-matte"
-          ]
-        },
-        {
-          "id": "filacolor-8546",
-          "sku": "8546",
-          "available": true,
-          "options": [
-            "Colores: beige-matte"
           ]
         },
         {
@@ -1542,7 +1502,7 @@
       "domain": "filacolor.com.ar",
       "name": "FLASHFORGE FILAMENTO PLA",
       "category": "Filamentos",
-      "price": 23200,
+      "price": 24800,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -1692,14 +1652,6 @@
           "available": true,
           "options": [
             "Colores: arcoiris"
-          ]
-        },
-        {
-          "id": "filacolor-10961",
-          "sku": "10961",
-          "available": true,
-          "options": [
-            "Colores: dorado"
           ]
         },
         {

@@ -5,7 +5,7 @@
     "baseUrl": "https://creaxis.com.ar",
     "apiPath": "/wp-json/wc/store/v1/products"
   },
-  "scrapedAt": "2026-10-01T15:15:57.958Z",
+  "scrapedAt": "2026-10-02T14:35:44.291Z",
   "source": "https://creaxis.com.ar/wp-json/wc/store/v1/products",
   "pages": [
     {
@@ -138,8 +138,8 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 2,
-      "stockLabel": "Pocas unidades",
+      "stock": 10,
+      "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
       "tags": [
@@ -164,8 +164,8 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 2,
-      "stockLabel": "Pocas unidades",
+      "stock": 10,
+      "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
       "tags": [
@@ -1044,7 +1044,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 7,
+      "stock": 6,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Filar",
@@ -1494,7 +1494,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 8,
+      "stock": 7,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Filar",
@@ -1580,7 +1580,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 10,
+      "stock": 9,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Filar",
@@ -1696,8 +1696,8 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 4,
-      "stockLabel": "En stock",
+      "stock": 3,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Filar",
       "tags": [
@@ -2056,7 +2056,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 14,
+      "stock": 13,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2327,10 +2327,12 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 20990,
-      "purchaseModes": [],
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 9,
+      "stockLabel": "En stock",
+      "available": true,
       "brand": "Hellbot",
       "tags": [
         "Hellbot",
@@ -2356,7 +2358,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 6,
+      "stock": 5,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2367,6 +2369,34 @@
       ],
       "image": "https://creaxis.com.ar/wp-content/uploads/2026/07/Filamento-Hellbot-Ecofila-PLA-Marron.webp",
       "url": "https://creaxis.com.ar/producto/hellbot-pla-marron-claro-1kg/",
+      "scrapedFrom": "https://creaxis.com.ar/wp-json/wc/store/v1/products",
+      "variants": []
+    },
+    {
+      "id": "creaxis-937",
+      "sourceProductId": "937",
+      "store": "Creaxis 3D",
+      "domain": "creaxis.com.ar",
+      "name": "Hellbot Ecofila PLA Marrón Claro (Capibara) 1kg",
+      "category": "Filamentos",
+      "price": 25188,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 20990,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
+      "available": true,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot",
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://creaxis.com.ar/wp-content/uploads/2026/03/hellbot-ecofila-marron-capibara.webp",
+      "url": "https://creaxis.com.ar/producto/filamento-hellbot-ecofila-pla-1kg-marron-capibara/",
       "scrapedFrom": "https://creaxis.com.ar/wp-json/wc/store/v1/products",
       "variants": []
     },
@@ -2719,34 +2749,6 @@
       ],
       "image": "https://creaxis.com.ar/wp-content/uploads/2026/07/Filamento-Hellbot-Ecofila-PLA-Violeta.webp",
       "url": "https://creaxis.com.ar/producto/hellbot-ecofila-pla-violeta-1kg/",
-      "scrapedFrom": "https://creaxis.com.ar/wp-json/wc/store/v1/products",
-      "variants": []
-    },
-    {
-      "id": "creaxis-937",
-      "sourceProductId": "937",
-      "store": "Creaxis 3D",
-      "domain": "creaxis.com.ar",
-      "name": "Hellbot PLA Marrón Claro (Capibara) 1kg",
-      "category": "Filamentos",
-      "price": 23988,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 19990,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 2,
-      "stockLabel": "Pocas unidades",
-      "available": true,
-      "brand": "Hellbot",
-      "tags": [
-        "Hellbot",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://creaxis.com.ar/wp-content/uploads/2026/03/hellbot-ecofila-marron-capibara.webp",
-      "url": "https://creaxis.com.ar/producto/filamento-hellbot-ecofila-pla-1kg-marron-capibara/",
       "scrapedFrom": "https://creaxis.com.ar/wp-json/wc/store/v1/products",
       "variants": []
     },

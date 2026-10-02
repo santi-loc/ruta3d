@@ -5,15 +5,15 @@
     "baseUrl": "https://shop.wetech.ar",
     "listingPath": "/products"
   },
-  "scrapedAt": "2026-10-01T15:16:37.389Z",
-  "count": 296,
+  "scrapedAt": "2026-10-02T14:36:27.464Z",
+  "count": 293,
   "pages": [
     {
       "page": 1,
       "path": "/stk-item/catalogo",
       "url": "https://back.wetech.ar/stk-item/catalogo",
       "found": 616,
-      "added": 296
+      "added": 293
     }
   ],
   "products": [
@@ -129,7 +129,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 16999.15,
-      "stock": 95,
+      "stock": 92,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3n3",
@@ -230,7 +230,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 12499.25,
-      "stock": 491,
+      "stock": 464,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3n3",
@@ -369,7 +369,7 @@
         },
         {
           "id": "3N-PLA-1KG-GRAC",
-          "available": false,
+          "available": true,
           "price": 23528,
           "options": [
             "Gris Acero",
@@ -381,7 +381,7 @@
         },
         {
           "id": "3N-PLA-1KG-GRPL",
-          "available": false,
+          "available": true,
           "price": 23528,
           "options": [
             "Gris Plomo",
@@ -1104,7 +1104,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 16499.35,
-      "stock": 257,
+      "stock": 251,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3nMax",
@@ -3476,11 +3476,11 @@
       "domain": "shop.wetech.ar",
       "name": "Boquilla Bronce | TTS | M6 | 0.2mm | Ender 7 - Ender 3 v3 SE",
       "category": "Repuestos",
-      "price": 8786.02,
+      "price": 7998.99,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 7468.12,
-      "stock": 16,
+      "transferPrice": 6799.14,
+      "stock": 15,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -3495,7 +3495,7 @@
         {
           "id": "BQ E7 TTS BR 0.2",
           "available": true,
-          "price": 8786.02,
+          "price": 7998.99,
           "options": [
             "Bronce"
           ]
@@ -3513,7 +3513,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 5949.14,
-      "stock": 22,
+      "stock": 19,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -3645,7 +3645,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 7907.56,
-      "stock": 20,
+      "stock": 19,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -6052,7 +6052,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 10982.98,
-      "stock": 23,
+      "stock": 22,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -7756,7 +7756,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 8499.03,
-      "stock": 87,
+      "stock": 86,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -7786,7 +7786,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 24999.35,
-      "stock": 124,
+      "stock": 123,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -8340,7 +8340,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 19499,
-      "stock": 199,
+      "stock": 198,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -8384,7 +8384,7 @@
         },
         {
           "id": "G3-MEGP-4KG-BLAN",
-          "available": false,
+          "available": true,
           "price": 70587,
           "options": [
             "Blanco",
@@ -8552,7 +8552,7 @@
         },
         {
           "id": "G3-PETG-1KG-NATU",
-          "available": false,
+          "available": true,
           "price": 22940,
           "options": [
             "Translucido Natural",
@@ -8587,7 +8587,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 28498.8,
-      "stock": 77,
+      "stock": 76,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -9011,7 +9011,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 25998.95,
-      "stock": 156,
+      "stock": 155,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -9257,7 +9257,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 23499.1,
-      "stock": 427,
+      "stock": 418,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -10042,7 +10042,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 38499.05,
-      "stock": 54,
+      "stock": 53,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -10302,7 +10302,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 39999.3,
-      "stock": 97,
+      "stock": 96,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -10672,352 +10672,6 @@
       ]
     },
     {
-      "id": "wetech-gst3d-petg-basico-importado",
-      "sourceProductId": "GST3D-PETG-BÁSICO-IMPORTADO",
-      "store": "WeTech",
-      "domain": "shop.wetech.ar",
-      "name": "GST3D PetG Básico",
-      "category": "Filamentos",
-      "price": 21175,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 17998.75,
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "GST3D",
-      "tags": [
-        "GST3D",
-        "PetG",
-        "Básico",
-        "Importado",
-        "Filamentos Técnicos",
-        "1kg"
-      ],
-      "image": "https://ik.imagekit.io/8x5mvqkfl0/GST3D/GST3D%20LITE/PETG%20LITE/PETG%201KG%20AMARILLO_Mesa%20de%20trabajo%201.png?updatedAt=1780589321351",
-      "url": "https://shop.wetech.ar/product/GST3D-PETG-B%C3%81SICO-IMPORTADO",
-      "scrapedFrom": "https://shop.wetech.ar/products",
-      "variants": [
-        {
-          "id": "GSL-PETG-1KG-AMAR",
-          "available": false,
-          "price": 21175,
-          "options": [
-            "Amarillo",
-            "1kg",
-            "PetG",
-            "Básico",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSL-PETG-1KG-BLAN",
-          "available": false,
-          "price": 21175,
-          "options": [
-            "Blanco",
-            "1kg",
-            "PetG",
-            "Básico",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSL-PETG-1KG-GRIS",
-          "available": false,
-          "price": 21175,
-          "options": [
-            "Gris",
-            "1kg",
-            "PetG",
-            "Básico",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSL-PETG-1KG-NEGR",
-          "available": false,
-          "price": 21175,
-          "options": [
-            "Negro",
-            "1kg",
-            "PetG",
-            "Básico",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSL-PETG-1KG-ROJO",
-          "available": false,
-          "price": 21175,
-          "options": [
-            "Rojo",
-            "1kg",
-            "PetG",
-            "Básico",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSL-PETG-1KG-VERD",
-          "available": false,
-          "price": 21175,
-          "options": [
-            "Verde",
-            "1kg",
-            "PetG",
-            "Básico",
-            "Importado"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "wetech-gst3d-pla-basico-importado",
-      "sourceProductId": "GST3D-PLA-BÁSICO-IMPORTADO",
-      "store": "WeTech",
-      "domain": "shop.wetech.ar",
-      "name": "GST3D PLA Básico",
-      "category": "Filamentos",
-      "price": 21175,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 17998.75,
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "GST3D",
-      "tags": [
-        "GST3D",
-        "PLA",
-        "Básico",
-        "Importado",
-        "Filamentos PLA",
-        "1kg"
-      ],
-      "image": "https://ik.imagekit.io/8x5mvqkfl0/GST3D/GST3D%20LITE/PLA%20LITE/PLA%201KG%20AMARILLO_Mesa%20de%20trabajo%201.png?updatedAt=1780589321318",
-      "url": "https://shop.wetech.ar/product/GST3D-PLA-B%C3%81SICO-IMPORTADO",
-      "scrapedFrom": "https://shop.wetech.ar/products",
-      "variants": [
-        {
-          "id": "GSL-PLA-1KG-AMAR",
-          "available": false,
-          "price": 21175,
-          "options": [
-            "Amarillo",
-            "1kg",
-            "PLA",
-            "Básico",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSL-PLA-1KG-AZUL",
-          "available": false,
-          "price": 21175,
-          "options": [
-            "Azul",
-            "1kg",
-            "PLA",
-            "Básico",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSL-PLA-1KG-BLAN",
-          "available": false,
-          "price": 21175,
-          "options": [
-            "Blanco",
-            "1kg",
-            "PLA",
-            "Básico",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSL-PLA-1KG-CECI",
-          "available": false,
-          "price": 21175,
-          "options": [
-            "Celeste Cielo",
-            "1kg",
-            "PLA",
-            "Básico",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSL-PLA-1KG-DURA",
-          "available": false,
-          "price": 21175,
-          "options": [
-            "Fucsia Durazno",
-            "1kg",
-            "PLA",
-            "Básico",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSL-PLA-1KG-GRIS",
-          "available": false,
-          "price": 21175,
-          "options": [
-            "Gris",
-            "1kg",
-            "PLA",
-            "Básico",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSL-PLA-1KG-MARR",
-          "available": false,
-          "price": 21175,
-          "options": [
-            "Marron",
-            "1kg",
-            "PLA",
-            "Básico",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSL-PLA-1KG-NARA",
-          "available": false,
-          "price": 21175,
-          "options": [
-            "Naranja",
-            "1kg",
-            "PLA",
-            "Básico",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSL-PLA-1KG-NEGR",
-          "available": false,
-          "price": 21175,
-          "options": [
-            "Negro",
-            "1kg",
-            "PLA",
-            "Básico",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSL-PLA-1KG-ROJO",
-          "available": false,
-          "price": 21175,
-          "options": [
-            "Rojo",
-            "1kg",
-            "PLA",
-            "Básico",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSL-PLA-1KG-VINO",
-          "available": false,
-          "price": 21175,
-          "options": [
-            "Vino",
-            "1kg",
-            "PLA",
-            "Básico",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSL-PLA-1KG-LOPO",
-          "available": false,
-          "price": 21175,
-          "options": [
-            "Rosa Polvo de Loto",
-            "1kg",
-            "PLA",
-            "Básico",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSL-PLA-1KG-VAIN",
-          "available": false,
-          "price": 21175,
-          "options": [
-            "Vainilla",
-            "1kg",
-            "PLA",
-            "Básico",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSL-PLA-1KG-VECE",
-          "available": false,
-          "price": 21175,
-          "options": [
-            "Verde Cebolleta",
-            "1kg",
-            "PLA",
-            "Básico",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSL-PLA-1KG-ESME",
-          "available": false,
-          "price": 21175,
-          "options": [
-            "Esmeralda",
-            "1kg",
-            "PLA",
-            "Básico",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSL-PLA-1KG-VEMI",
-          "available": false,
-          "price": 21175,
-          "options": [
-            "Verde Militar",
-            "1kg",
-            "PLA",
-            "Básico",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSL-PLA-1KG-LAVA",
-          "available": false,
-          "price": 21175,
-          "options": [
-            "Violeta Lavanda",
-            "1kg",
-            "PLA",
-            "Básico",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSL-PLA-1KG-VIPU",
-          "available": false,
-          "price": 21175,
-          "options": [
-            "Purpura",
-            "1kg",
-            "PLA",
-            "Básico",
-            "Importado"
-          ]
-        }
-      ]
-    },
-    {
       "id": "wetech-gst3d-pla-estandar-importado",
       "sourceProductId": "GST3D-PLA-ESTÁNDAR-IMPORTADO",
       "store": "WeTech",
@@ -11040,232 +10694,16 @@
         "Filamentos PLA",
         "1kg"
       ],
-      "image": "https://ik.imagekit.io/8x5mvqkfl0/GST3D/GST3D%20COSMOS/PLA%20CLASSIC/PLA%201KG%20AMARILLO_Mesa%20de%20trabajo%201.png?updatedAt=1780589301013",
+      "image": "https://ik.imagekit.io/8x5mvqkfl0/GST3D/GST3D%20COSMOS/PLA%20CLASSIC/PLA%201KG%20VERDE%20NEON_Mesa%20de%20trabajo%201.png?updatedAt=1780589302031",
       "url": "https://shop.wetech.ar/product/GST3D-PLA-EST%C3%81NDAR-IMPORTADO",
       "scrapedFrom": "https://shop.wetech.ar/products",
       "variants": [
-        {
-          "id": "GSC-PLA-1KG-AMAR",
-          "available": false,
-          "price": 23528,
-          "options": [
-            "Amarillo",
-            "1kg",
-            "PLA",
-            "Estándar",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSC-PLA-1KG-AZOS",
-          "available": false,
-          "price": 23528,
-          "options": [
-            "Azul Oscuro",
-            "1kg",
-            "PLA",
-            "Estándar",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSC-PLA-1KG-BLAN",
-          "available": false,
-          "price": 23528,
-          "options": [
-            "Blanco",
-            "1kg",
-            "PLA",
-            "Estándar",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSC-PLA-1KG-CECI",
-          "available": false,
-          "price": 23528,
-          "options": [
-            "Celeste Cielo",
-            "1kg",
-            "PLA",
-            "Estándar",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSC-PLA-1KG-GRIS",
-          "available": false,
-          "price": 23528,
-          "options": [
-            "Gris",
-            "1kg",
-            "PLA",
-            "Estándar",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSC-PLA-1KG-GRES",
-          "available": false,
-          "price": 23528,
-          "options": [
-            "Gris Espacial",
-            "1kg",
-            "PLA",
-            "Estándar",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSC-PLA-1KG-MACE",
-          "available": false,
-          "price": 23528,
-          "options": [
-            "Marmol Gris Cemento",
-            "1kg",
-            "PLA",
-            "Estándar",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSC-PLA-1KG-MALA",
-          "available": false,
-          "price": 23528,
-          "options": [
-            "Marmol Naranja Ladrillo",
-            "1kg",
-            "PLA",
-            "Estándar",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSC-PLA-1KG-MARR",
-          "available": false,
-          "price": 23528,
-          "options": [
-            "Marron",
-            "1kg",
-            "PLA",
-            "Estándar",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSC-PLA-1KG-BEIGE",
-          "available": false,
-          "price": 23528,
-          "options": [
-            "Beige",
-            "1kg",
-            "PLA",
-            "Estándar",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSC-PLA-1KG-MADE",
-          "available": false,
-          "price": 23528,
-          "options": [
-            "Madera",
-            "1kg",
-            "PLA",
-            "Estándar",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSC-PLA-1KG-NARA",
-          "available": false,
-          "price": 23528,
-          "options": [
-            "Naranja",
-            "1kg",
-            "PLA",
-            "Estándar",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSC-PLA-1KG-NEGR",
-          "available": false,
-          "price": 23528,
-          "options": [
-            "Negro",
-            "1kg",
-            "PLA",
-            "Estándar",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSC-PLA-1KG-ROJO",
-          "available": false,
-          "price": 23528,
-          "options": [
-            "Rojo",
-            "1kg",
-            "PLA",
-            "Estándar",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSC-PLA-1KG-ROSA",
-          "available": false,
-          "price": 23528,
-          "options": [
-            "Rosa",
-            "1kg",
-            "PLA",
-            "Estándar",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSC-PLA-1KG-TRAN",
-          "available": false,
-          "price": 23528,
-          "options": [
-            "Translucido",
-            "1kg",
-            "PLA",
-            "Estándar",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSC-PLA-1KG-VEMA",
-          "available": false,
-          "price": 23528,
-          "options": [
-            "Verde Marino",
-            "1kg",
-            "PLA",
-            "Estándar",
-            "Importado"
-          ]
-        },
         {
           "id": "GSC-PLA-1KG-VENE",
           "available": true,
           "price": 23528,
           "options": [
             "Verde Neon",
-            "1kg",
-            "PLA",
-            "Estándar",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSC-PLA-1KG-VIPU",
-          "available": false,
-          "price": 23528,
-          "options": [
-            "Purpura",
             "1kg",
             "PLA",
             "Estándar",
@@ -11316,256 +10754,6 @@
       ]
     },
     {
-      "id": "wetech-gst3d-pla-matte-estandar-importado",
-      "sourceProductId": "GST3D-PLA MATTE-ESTÁNDAR-IMPORTADO",
-      "store": "WeTech",
-      "domain": "shop.wetech.ar",
-      "name": "GST3D PLA Matte Estándar",
-      "category": "Filamentos",
-      "price": 23528,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 19998.8,
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "GST3D",
-      "tags": [
-        "GST3D",
-        "PLA Matte",
-        "Estándar",
-        "Importado",
-        "Filamentos PLA",
-        "1kg"
-      ],
-      "image": "https://ik.imagekit.io/8x5mvqkfl0/GST3D/GST3D%20COSMOS/PLA%20MATTE/PLA%20MATTE%201KG%20AMARILLO%20SOLEADO_Mesa%20de%20trabajo%201.png?updatedAt=1780589302065",
-      "url": "https://shop.wetech.ar/product/GST3D-PLA%20MATTE-EST%C3%81NDAR-IMPORTADO",
-      "scrapedFrom": "https://shop.wetech.ar/products",
-      "variants": [
-        {
-          "id": "GSC-PLAM-1KG-AMSO",
-          "available": false,
-          "price": 23528,
-          "options": [
-            "Amarillo Soleado",
-            "1kg",
-            "PLA Matte",
-            "Estándar",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSC-PLAM-1KG-AZMA",
-          "available": false,
-          "price": 23528,
-          "options": [
-            "Azul Marino",
-            "1kg",
-            "PLA Matte",
-            "Estándar",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSC-PLAM-1KG-BLAN",
-          "available": false,
-          "price": 23528,
-          "options": [
-            "Blanco",
-            "1kg",
-            "PLA Matte",
-            "Estándar",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSC-PLAM-1KG-CEHI",
-          "available": false,
-          "price": 23528,
-          "options": [
-            "Celeste Hielo",
-            "1kg",
-            "PLA Matte",
-            "Estándar",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSC-PLAM-1KG-CEVE",
-          "available": false,
-          "price": 23528,
-          "options": [
-            "Celeste Verdoso Teal",
-            "1kg",
-            "PLA Matte",
-            "Estándar",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSC-PLAM-1KG-GRPI",
-          "available": false,
-          "price": 23528,
-          "options": [
-            "Gris Pizarra",
-            "1kg",
-            "PLA Matte",
-            "Estándar",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSC-PLAM-1KG-BEIG",
-          "available": false,
-          "price": 23528,
-          "options": [
-            "Beige",
-            "1kg",
-            "PLA Matte",
-            "Estándar",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSC-PLAM-1KG-MATI",
-          "available": false,
-          "price": 23528,
-          "options": [
-            "Marron Tierra",
-            "1kg",
-            "PLA Matte",
-            "Estándar",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSC-PLAM-1KG-NARA",
-          "available": false,
-          "price": 23528,
-          "options": [
-            "Naranja",
-            "1kg",
-            "PLA Matte",
-            "Estándar",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSC-PLAM-1KG-NEGR",
-          "available": false,
-          "price": 23528,
-          "options": [
-            "Negro",
-            "1kg",
-            "PLA Matte",
-            "Estándar",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSC-PLAM-1KG-RORU",
-          "available": false,
-          "price": 23528,
-          "options": [
-            "Rubi",
-            "1kg",
-            "PLA Matte",
-            "Estándar",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSC-PLAM-1KG-ROSA",
-          "available": false,
-          "price": 23528,
-          "options": [
-            "Rosa Sakura",
-            "1kg",
-            "PLA Matte",
-            "Estándar",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSC-PLAM-1KG-VEME",
-          "available": false,
-          "price": 23528,
-          "options": [
-            "Menta",
-            "1kg",
-            "PLA Matte",
-            "Estándar",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSC-PLAM-1KG-VILA",
-          "available": false,
-          "price": 23528,
-          "options": [
-            "Violeta Lavanda",
-            "1kg",
-            "PLA Matte",
-            "Estándar",
-            "Importado"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "wetech-gst3d-pla-silk-trio-basico-importado",
-      "sourceProductId": "GST3D-PLA SILK TRIO-BÁSICO-IMPORTADO",
-      "store": "WeTech",
-      "domain": "shop.wetech.ar",
-      "name": "GST3D PLA Silk TRIO Básico",
-      "category": "Filamentos",
-      "price": 27058,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 22999.3,
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "GST3D",
-      "tags": [
-        "GST3D",
-        "PLA Silk TRIO",
-        "Básico",
-        "Importado",
-        "Filamentos PLA",
-        "1kg"
-      ],
-      "image": "https://ik.imagekit.io/8x5mvqkfl0/GST3D/GST3D%20LITE/PLA%20LITE%20SILK%20TRICOLOR/PLA%20SILK%201KG%20DORADO-COBRE-AZUL_Mesa%20de%20trabajo%201.png?updatedAt=1780589321698",
-      "url": "https://shop.wetech.ar/product/GST3D-PLA%20SILK%20TRIO-B%C3%81SICO-IMPORTADO",
-      "scrapedFrom": "https://shop.wetech.ar/products",
-      "variants": [
-        {
-          "id": "GSL-TRI-1KG-ORCOAZ",
-          "available": false,
-          "price": 27058,
-          "options": [
-            "Oro + Cobre + Azul",
-            "1kg",
-            "PLA Silk TRIO",
-            "Básico",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSL-TRI-1KG-ORVEFU",
-          "available": false,
-          "price": 27058,
-          "options": [
-            "Oro + Verde + Fucsia",
-            "1kg",
-            "PLA Silk TRIO",
-            "Básico",
-            "Importado"
-          ]
-        }
-      ]
-    },
-    {
       "id": "wetech-gst3d-pla-basico-nacional",
       "sourceProductId": "GST3D-PLA+-BÁSICO-NACIONAL",
       "store": "WeTech",
@@ -11576,7 +10764,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 17998.75,
-      "stock": 510,
+      "stock": 495,
       "stockLabel": "En stock",
       "available": true,
       "brand": "GST3D",
@@ -11594,7 +10782,7 @@
       "variants": [
         {
           "id": "GSB-PLA-1KG-AMAR",
-          "available": false,
+          "available": true,
           "price": 21175,
           "options": [
             "Amarillo",
@@ -12085,7 +11273,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 19998.8,
-      "stock": 20,
+      "stock": 18,
       "stockLabel": "En stock",
       "available": true,
       "brand": "GST3D",
@@ -12628,64 +11816,16 @@
         "Filamentos PLA",
         "1kg"
       ],
-      "image": "https://ik.imagekit.io/8x5mvqkfl0/GST3D/GST3D%20LITE/PLA%20LITE%20SILK/PLA%20SILK%201KG%20AMARILLO_Mesa%20de%20trabajo%201.png?updatedAt=1780589321519",
+      "image": "https://ik.imagekit.io/8x5mvqkfl0/GST3D/GST3D%20LITE/PLA%20LITE%20SILK/PLA%20SILK%201KG%20AZUL_Mesa%20de%20trabajo%201.png?updatedAt=1780589321209",
       "url": "https://shop.wetech.ar/product/GST3D-SILK-B%C3%81SICO-IMPORTADO",
       "scrapedFrom": "https://shop.wetech.ar/products",
       "variants": [
-        {
-          "id": "GSL-SILK-1KG-AMAR",
-          "available": false,
-          "price": 27058,
-          "options": [
-            "Amarillo",
-            "1kg",
-            "Silk",
-            "Básico",
-            "Importado"
-          ]
-        },
         {
           "id": "GSL-SILK-1KG-AZUL",
           "available": false,
           "price": 27058,
           "options": [
             "Azul",
-            "1kg",
-            "Silk",
-            "Básico",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSL-SILK-1KG-BLANC",
-          "available": false,
-          "price": 27058,
-          "options": [
-            "Blanco",
-            "1kg",
-            "Silk",
-            "Básico",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSL-SILK-1KG-DORA",
-          "available": false,
-          "price": 29411,
-          "options": [
-            "Dorado",
-            "1kg",
-            "Silk",
-            "Básico",
-            "Importado"
-          ]
-        },
-        {
-          "id": "GSL-SILK-1KG-VERD",
-          "available": false,
-          "price": 27058,
-          "options": [
-            "Verde",
             "1kg",
             "Silk",
             "Básico",
@@ -12806,7 +11946,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 18999.2,
-      "stock": 559,
+      "stock": 554,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -12968,7 +12108,7 @@
         },
         {
           "id": "HB-PLA-1KG-GRGR",
-          "available": false,
+          "available": true,
           "price": 22352,
           "options": [
             "Gris Grafito",
@@ -13280,7 +12420,7 @@
         },
         {
           "id": "HB-PLA-1KG-VIOL",
-          "available": false,
+          "available": true,
           "price": 22352,
           "options": [
             "Violeta",
@@ -13645,6 +12785,36 @@
             "Premium",
             "Importado"
           ]
+        }
+      ]
+    },
+    {
+      "id": "wetech-hub-ams-lite-a1",
+      "sourceProductId": "HUB AMS LITE A1",
+      "store": "WeTech",
+      "domain": "shop.wetech.ar",
+      "name": "Hub Plastico | Bambu Lab | A1 / A1 Mini",
+      "category": "Filamentos",
+      "price": 41998.96,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 35699.12,
+      "stock": 1,
+      "stockLabel": "Pocas unidades",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Secadoras y Accesorios"
+      ],
+      "image": null,
+      "url": "https://shop.wetech.ar/product/HUB%20AMS%20LITE%20A1",
+      "scrapedFrom": "https://shop.wetech.ar/products",
+      "variants": [
+        {
+          "id": "HUB AMS LITE A1",
+          "available": true,
+          "price": 41998.96,
+          "options": []
         }
       ]
     },
