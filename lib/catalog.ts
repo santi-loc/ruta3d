@@ -1,25 +1,3 @@
-import threeDimensionData from "@/data/3dimension-products.json";
-import threeDtiskData from "@/data/3dtisk-products.json";
-import creaxisData from "@/data/creaxis-products.json";
-import erexitData from "@/data/erexit3d-products.json";
-import dinoData from "@/data/dino3d-products.json";
-import filacolorData from "@/data/filacolor-products.json";
-import refreshData from "@/data/catalog-refresh.json";
-import globalValueData from "@/data/globalvalue-products.json";
-import gprintData from "@/data/gprint3d-products.json";
-import i3dTiendaData from "@/data/i3dtienda-products.json";
-import kimeraData from "@/data/kimera3d-products.json";
-import lefasocData from "@/data/lefasoc-products.json";
-import laboratorioData from "@/data/laboratorio3d-products.json";
-import llaveprintData from "@/data/llaveprint-products.json";
-import osirisData from "@/data/osiris3d-products.json";
-import proyectoColorData from "@/data/proyectocolor-products.json";
-import starImpressionData from "@/data/starimpression3d-products.json";
-import tecknicamData from "@/data/tecknicam3d-products.json";
-import todo3dData from "@/data/todo3dsf-products.json";
-import trimetraData from "@/data/trimetra3d-products.json";
-import tp3dData from "@/data/tp3d-products.json";
-import wetechData from "@/data/wetech-products.json";
 import { bestAvailablePrice, validTransferPrice } from "@/lib/pricing";
 import sourceConfig from "@/store-sources.json";
 import { detectFilamentColors, type FilamentColor } from "@/lib/filament-colors";
@@ -202,6 +180,15 @@ type CatalogFreshness = {
   staleStoreNames: string[];
   oldestScrapedAt: string | null;
   newestScrapedAt: string | null;
+};
+
+type CatalogData = {
+  catalogProducts: Product[];
+  catalogFreshness: CatalogFreshness;
+  filamentBrands: string[];
+  filamentBrandCounts: Record<string, number>;
+  filamentMaterials: string[];
+  filamentMaterialCounts: Record<string, number>;
 };
 
 export const categoryOptions = [
@@ -965,102 +952,115 @@ export function normalizeQuery(query: string) {
   return query.trim().toLowerCase().split(/\s+/).filter(Boolean);
 }
 
-const scrapedCatalogs = [
-  threeDimensionData,
-  threeDtiskData,
-  creaxisData,
-  dinoData,
-  erexitData,
-  filacolorData,
-  globalValueData,
-  gprintData,
-  i3dTiendaData,
-  laboratorioData,
-  lefasocData,
-  llaveprintData,
-  tp3dData,
-  proyectoColorData,
-  starImpressionData,
-  tecknicamData,
-  kimeraData,
-  osirisData,
-  todo3dData,
-  trimetraData,
-  wetechData,
-] as ScrapedCatalog[];
+const catalogLoaders = [
+  () => import("@/data/3dimension-products.json"),
+  () => import("@/data/3dtisk-products.json"),
+  () => import("@/data/creaxis-products.json"),
+  () => import("@/data/dino3d-products.json"),
+  () => import("@/data/erexit3d-products.json"),
+  () => import("@/data/filacolor-products.json"),
+  () => import("@/data/globalvalue-products.json"),
+  () => import("@/data/gprint3d-products.json"),
+  () => import("@/data/i3dtienda-products.json"),
+  () => import("@/data/laboratorio3d-products.json"),
+  () => import("@/data/lefasoc-products.json"),
+  () => import("@/data/llaveprint-products.json"),
+  () => import("@/data/tp3d-products.json"),
+  () => import("@/data/proyectocolor-products.json"),
+  () => import("@/data/starimpression3d-products.json"),
+  () => import("@/data/tecknicam3d-products.json"),
+  () => import("@/data/kimera3d-products.json"),
+  () => import("@/data/osiris3d-products.json"),
+  () => import("@/data/todo3dsf-products.json"),
+  () => import("@/data/trimetra3d-products.json"),
+  () => import("@/data/wetech-products.json"),
+];
 
-const scrapedDates = scrapedCatalogs
-  .map((catalog) => catalog.scrapedAt ? new Date(catalog.scrapedAt) : null)
-  .filter((date): date is Date => date !== null && !Number.isNaN(date.getTime()));
-const refreshManifest = refreshData as CatalogRefreshManifest;
-const staleStoreNames = (refreshManifest.stores ?? [])
-  .filter((store) => store.status === "stale")
-  .map((store) => store.store);
+let catalogDataPromise: Promise<CatalogData> | null = null;
 
-const products = scrapedCatalogs.flatMap((catalog) =>
-  catalog.products
-    .filter((product) => !shouldExcludeScrapedProduct(product))
-    .map((product) => toProduct(product, catalog.scrapedAt)),
-);
+async function buildCatalogData(): Promise<CatalogData> {
+  const [refreshModule, ...catalogModules] = await Promise.all([
+    import("@/data/catalog-refresh.json"),
+    ...catalogLoaders.map((loadCatalog) => loadCatalog()),
+  ]);
+  const scrapedCatalogs = catalogModules.map((module) => module.default as ScrapedCatalog);
+  const scrapedDates = scrapedCatalogs
+    .map((catalog) => catalog.scrapedAt ? new Date(catalog.scrapedAt) : null)
+    .filter((date): date is Date => date !== null && !Number.isNaN(date.getTime()));
+  const refreshManifest = refreshModule.default as CatalogRefreshManifest;
+  const staleStoreNames = (refreshManifest.stores ?? [])
+    .filter((store) => store.status === "stale")
+    .map((store) => store.store);
+  const catalogProducts = scrapedCatalogs.flatMap((catalog) =>
+    catalog.products
+      .filter((product) => !shouldExcludeScrapedProduct(product))
+      .map((product) => toProduct(product, catalog.scrapedAt)),
+  );
+  const catalogFreshness: CatalogFreshness = {
+    productCount: catalogProducts.length,
+    storeCount: connectedStoreSources.length,
+    refreshStatus: refreshManifest.status === "partial" ? "partial" : "ok",
+    refreshedAt: refreshManifest.refreshedAt ?? null,
+    lastSuccessfulFullRefreshAt: refreshManifest.lastSuccessfulFullRefreshAt ?? null,
+    staleStores: refreshManifest.staleStores ?? staleStoreNames.length,
+    staleStoreNames,
+    oldestScrapedAt: scrapedDates.length
+      ? new Date(Math.min(...scrapedDates.map((date) => date.getTime()))).toISOString()
+      : null,
+    newestScrapedAt: scrapedDates.length
+      ? new Date(Math.max(...scrapedDates.map((date) => date.getTime()))).toISOString()
+      : null,
+  };
+  const catalogFacets = catalogProducts.reduce(
+    (facets, product) => {
+      if (product.isFilament) {
+        const brand = product.brand ?? unknownBrand;
+        if (!excludedFilamentBrands.has(brand.toLowerCase())) {
+          facets.brands.add(brand);
+          facets.brandCounts[brand] = (facets.brandCounts[brand] ?? 0) + 1;
+        }
 
-export const catalogProducts = products;
-
-export const catalogFreshness: CatalogFreshness = {
-  productCount: products.length,
-  storeCount: connectedStoreSources.length,
-  refreshStatus: refreshManifest.status === "partial" ? "partial" : "ok",
-  refreshedAt: refreshManifest.refreshedAt ?? null,
-  lastSuccessfulFullRefreshAt: refreshManifest.lastSuccessfulFullRefreshAt ?? null,
-  staleStores: refreshManifest.staleStores ?? staleStoreNames.length,
-  staleStoreNames,
-  oldestScrapedAt: scrapedDates.length
-    ? new Date(Math.min(...scrapedDates.map((date) => date.getTime()))).toISOString()
-    : null,
-  newestScrapedAt: scrapedDates.length
-    ? new Date(Math.max(...scrapedDates.map((date) => date.getTime()))).toISOString()
-    : null,
-};
-
-const catalogFacets = products.reduce(
-  (facets, product) => {
-    if (product.isFilament) {
-      const brand = product.brand ?? unknownBrand;
-      if (!excludedFilamentBrands.has(brand.toLowerCase())) {
-        facets.brands.add(brand);
-        facets.brandCounts[brand] = (facets.brandCounts[brand] ?? 0) + 1;
+        const material = product.material ?? unknownMaterial;
+        if (material !== unknownMaterial) {
+          facets.materials.add(material);
+          facets.materialCounts[material] = (facets.materialCounts[material] ?? 0) + 1;
+        }
       }
 
-      const material = product.material ?? unknownMaterial;
-      if (material !== unknownMaterial) {
-        facets.materials.add(material);
-        facets.materialCounts[material] = (facets.materialCounts[material] ?? 0) + 1;
-      }
-    }
+      return facets;
+    },
+    {
+      brandCounts: {} as Record<string, number>,
+      brands: new Set<string>(),
+      materialCounts: {} as Record<string, number>,
+      materials: new Set<string>(),
+    },
+  );
+  const filamentBrands = [...catalogFacets.brands].sort((a, b) => {
+    if (a === unknownBrand) return 1;
+    if (b === unknownBrand) return -1;
 
-    return facets;
-  },
-  {
-    brandCounts: {} as Record<string, number>,
-    brands: new Set<string>(),
-    materialCounts: {} as Record<string, number>,
-    materials: new Set<string>(),
-  },
-);
+    return a.localeCompare(b, "es");
+  });
+  const filamentMaterials = [...catalogFacets.materials].sort((a, b) => {
+    if (a === unknownMaterial) return 1;
+    if (b === unknownMaterial) return -1;
 
-export const filamentBrands = [...catalogFacets.brands].sort((a, b) => {
-  if (a === unknownBrand) return 1;
-  if (b === unknownBrand) return -1;
+    return materialLabels.indexOf(a) - materialLabels.indexOf(b);
+  });
 
-  return a.localeCompare(b, "es");
-});
+  return {
+    catalogProducts,
+    catalogFreshness,
+    filamentBrands,
+    filamentBrandCounts: catalogFacets.brandCounts,
+    filamentMaterials,
+    filamentMaterialCounts: catalogFacets.materialCounts,
+  };
+}
 
-export const filamentBrandCounts = catalogFacets.brandCounts;
+export function getCatalogData() {
+  catalogDataPromise ??= buildCatalogData();
 
-export const filamentMaterials = [...catalogFacets.materials].sort((a, b) => {
-  if (a === unknownMaterial) return 1;
-  if (b === unknownMaterial) return -1;
-
-  return materialLabels.indexOf(a) - materialLabels.indexOf(b);
-});
-
-export const filamentMaterialCounts = catalogFacets.materialCounts;
+  return catalogDataPromise;
+}

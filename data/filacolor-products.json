@@ -5,14 +5,14 @@
     "baseUrl": "https://filacolor.com.ar",
     "apiPath": "/wp-json/wc/store/v1/products"
   },
-  "scrapedAt": "2026-10-02T14:35:45.448Z",
+  "scrapedAt": "2026-10-04T15:43:54.746Z",
   "source": "https://filacolor.com.ar/wp-json/wc/store/v1/products",
   "pages": [
     {
       "page": 1,
       "url": "https://filacolor.com.ar/wp-json/wc/store/v1/products?per_page=100&page=1",
-      "found": 50,
-      "added": 39
+      "found": 49,
+      "added": 38
     }
   ],
   "products": [
@@ -85,6 +85,14 @@
           "available": true,
           "options": [
             "Colores: naranja"
+          ]
+        },
+        {
+          "id": "filacolor-5462",
+          "sku": "5462",
+          "available": true,
+          "options": [
+            "Colores: negro"
           ]
         },
         {
@@ -216,7 +224,7 @@
       "category": "Filamentos",
       "price": 15000,
       "currency": "ARS",
-      "previousPrice": null,
+      "previousPrice": 16000,
       "transferPrice": null,
       "stock": null,
       "stockLabel": "En stock",
@@ -232,22 +240,6 @@
       "url": "https://filacolor.com.ar/producto/3nmax-pla/",
       "scrapedFrom": "https://filacolor.com.ar/wp-json/wc/store/v1/products",
       "variants": [
-        {
-          "id": "filacolor-11284",
-          "sku": "11284",
-          "available": true,
-          "options": [
-            "Colores: chocolate"
-          ]
-        },
-        {
-          "id": "filacolor-11181",
-          "sku": "11181",
-          "available": true,
-          "options": [
-            "Colores: amarillo"
-          ]
-        },
         {
           "id": "filacolor-11182",
           "sku": "11182",
@@ -265,14 +257,6 @@
           ]
         },
         {
-          "id": "filacolor-11057",
-          "sku": "11057",
-          "available": true,
-          "options": [
-            "Colores: azul"
-          ]
-        },
-        {
           "id": "filacolor-10290",
           "sku": "10290",
           "available": true,
@@ -281,29 +265,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "filacolor-10284",
-      "sourceProductId": "10284",
-      "store": "Filacolor",
-      "domain": "filacolor.com.ar",
-      "name": "Adhesivo Para Impresion 3D solo para PLA 80cc",
-      "category": "Herramientas",
-      "price": 18000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "stock": 5,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "PLA"
-      ],
-      "image": "https://filacolor.com.ar/wp-content/uploads/2026/06/WhatsApp-Image-2026-05-31-at-7.45.16-PM.jpeg",
-      "url": "https://filacolor.com.ar/producto/pegamento-para-impresion-3d-solo-pla-80cc/",
-      "scrapedFrom": "https://filacolor.com.ar/wp-json/wc/store/v1/products",
-      "variants": []
     },
     {
       "id": "filacolor-8191",
@@ -329,14 +290,6 @@
       "url": "https://filacolor.com.ar/producto/filamento-bambu-lab-pla-lite-con-carrete/",
       "scrapedFrom": "https://filacolor.com.ar/wp-json/wc/store/v1/products",
       "variants": [
-        {
-          "id": "filacolor-8194",
-          "sku": "8194",
-          "available": true,
-          "options": [
-            "Colores: blanco"
-          ]
-        },
         {
           "id": "filacolor-8195",
           "sku": "8195",
@@ -736,14 +689,6 @@
           "available": true,
           "options": [
             "Colores: rosa-sakura"
-          ]
-        },
-        {
-          "id": "filacolor-8555",
-          "sku": "8555",
-          "available": true,
-          "options": [
-            "Colores: verde-menta-matte"
           ]
         },
         {
@@ -1372,14 +1317,6 @@
           ]
         },
         {
-          "id": "filacolor-5364",
-          "sku": "5364",
-          "available": true,
-          "options": [
-            "Colores: fucsia"
-          ]
-        },
-        {
           "id": "filacolor-5366",
           "sku": "5366",
           "available": true,
@@ -1428,14 +1365,6 @@
           ]
         },
         {
-          "id": "filacolor-5384",
-          "sku": "5384",
-          "available": true,
-          "options": [
-            "Colores: rosa"
-          ]
-        },
-        {
           "id": "filacolor-5386",
           "sku": "5386",
           "available": true,
@@ -1457,6 +1386,14 @@
           "available": true,
           "options": [
             "Colores: verde-fluo"
+          ]
+        },
+        {
+          "id": "filacolor-5392",
+          "sku": "5392",
+          "available": true,
+          "options": [
+            "Colores: verde-manzana"
           ]
         }
       ]

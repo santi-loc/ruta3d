@@ -1,9 +1,11 @@
 import { NextResponse } from "next/server";
-import { catalogProducts } from "@/lib/catalog";
+import { getCatalogData } from "@/lib/catalog";
 
 export const dynamic = "force-static";
 
 export async function GET() {
+  const { catalogProducts } = await getCatalogData();
+
   return NextResponse.json(
     { products: catalogProducts },
     {

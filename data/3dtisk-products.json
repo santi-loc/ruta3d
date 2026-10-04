@@ -5,8 +5,8 @@
     "baseUrl": "https://3dtisk.com.ar",
     "listingPath": "/productos/"
   },
-  "scrapedAt": "2026-10-02T14:35:46.120Z",
-  "count": 179,
+  "scrapedAt": "2026-10-04T15:43:57.543Z",
+  "count": 178,
   "pages": [
     {
       "page": 1,
@@ -23,20 +23,20 @@
     {
       "page": 3,
       "url": "https://3dtisk.com.ar/productos/?page=3",
-      "found": 34,
-      "added": 34
+      "found": 35,
+      "added": 35
     },
     {
       "page": 4,
       "url": "https://3dtisk.com.ar/productos/?page=4",
-      "found": 36,
-      "added": 36
+      "found": 35,
+      "added": 35
     },
     {
       "page": 5,
       "url": "https://3dtisk.com.ar/productos/?page=5",
-      "found": 13,
-      "added": 13
+      "found": 12,
+      "added": 12
     },
     {
       "page": 6,
@@ -46,6 +46,146 @@
     }
   ],
   "products": [
+    {
+      "id": "3dtisk-341423095",
+      "sourceProductId": "341423095",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "Hellbot R.Amarillo",
+      "category": "Accesorios",
+      "price": 17850,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 40,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084201212572-d7dfb04379f8787a5017775813265232-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/hellbot-r-amarillo-12h5h/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1516020485,
+          "sku": "51",
+          "price": 17850,
+          "isDeposit": false,
+          "stock": 20,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084201212572-d7dfb04379f8787a5017775813265232-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-341423084",
+      "sourceProductId": "341423084",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "Hellbot R.Rojo",
+      "category": "Accesorios",
+      "price": 17850,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 10,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084202391051-1da7f1851c9154605f17775813240064-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/hellbot-r-rojo-nq8vb/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1516020430,
+          "sku": "52",
+          "price": 17850,
+          "isDeposit": false,
+          "stock": 5,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084202391051-1da7f1851c9154605f17775813240064-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-341423223",
+      "sourceProductId": "341423223",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "Hellbot R.Negro",
+      "category": "Accesorios",
+      "price": 17850,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 124,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084184182211-7589eebfbfdc1a37d317775813516820-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/hellbot-r-negro-x2w29/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1516020983,
+          "sku": "40",
+          "price": 17850,
+          "isDeposit": false,
+          "stock": 62,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084184182211-7589eebfbfdc1a37d317775813516820-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-341423216",
+      "sourceProductId": "341423216",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "Hellbot R.Blanco",
+      "category": "Accesorios",
+      "price": 17850,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 48,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084185482046-25b573c2f3cc3de1d517775813491720-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/hellbot-r-blanco-f8f3y/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1516020930,
+          "sku": "41",
+          "price": 17850,
+          "isDeposit": false,
+          "stock": 24,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084185482046-25b573c2f3cc3de1d517775813491720-1024-1024.webp"
+        }
+      ]
+    },
     {
       "id": "3dtisk-341418392",
       "sourceProductId": "341418392",
@@ -119,6 +259,41 @@
       ]
     },
     {
+      "id": "3dtisk-341423144",
+      "sourceProductId": "341423144",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "Hellbot R.Azul",
+      "category": "Accesorios",
+      "price": 17850,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 24,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084193078747-da20ab176a217c391f17775813375586-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/hellbot-r-azul-x4liz/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1516020702,
+          "sku": "46",
+          "price": 17850,
+          "isDeposit": false,
+          "stock": 12,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084193078747-da20ab176a217c391f17775813375586-1024-1024.webp"
+        }
+      ]
+    },
+    {
       "id": "3dtisk-341423050",
       "sourceProductId": "341423050",
       "store": "3DTisk",
@@ -130,7 +305,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 26,
+      "stock": 24,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -146,7 +321,7 @@
           "sku": "55",
           "price": 17850,
           "isDeposit": false,
-          "stock": 13,
+          "stock": 12,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/17708420636734-d5b62b558f0e77d09217775813172815-1024-1024.webp"
@@ -165,7 +340,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 30,
+      "stock": 28,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -181,7 +356,7 @@
           "sku": "56",
           "price": 17850,
           "isDeposit": false,
-          "stock": 15,
+          "stock": 14,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084209452907-06ecfcf51c7e10d57217775813150221-1024-1024.webp"
@@ -270,7 +445,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 24,
+      "stock": 22,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -286,7 +461,7 @@
           "sku": "60",
           "price": 17850,
           "isDeposit": false,
-          "stock": 12,
+          "stock": 11,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084369414543-9883228b4a0022bf3817775813055061-1024-1024.webp"
@@ -305,7 +480,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 24,
+      "stock": 20,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -321,7 +496,7 @@
           "sku": "62",
           "price": 17850,
           "isDeposit": false,
-          "stock": 12,
+          "stock": 10,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084375767265-c82fa540091e8cf83017775813006159-1024-1024.webp"
@@ -340,7 +515,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 28,
+      "stock": 26,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -356,7 +531,7 @@
           "sku": "64",
           "price": 17850,
           "isDeposit": false,
-          "stock": 14,
+          "stock": 13,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084377974335-641ce2b2a466411adf17775812960666-1024-1024.webp"
@@ -375,7 +550,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 14,
+      "stock": 18,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -391,7 +566,7 @@
           "sku": "76",
           "price": 17850,
           "isDeposit": false,
-          "stock": 7,
+          "stock": 9,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084399728931-e069c894594d3aa69817775812687619-1024-1024.webp"
@@ -801,14 +976,14 @@
       "sourceProductId": "356742683",
       "store": "3DTisk",
       "domain": "3dtisk.com.ar",
-      "name": "Filamento Flashforge ECOPLA Negro",
+      "name": "Filamento Flashforge ECO PLA Negro",
       "category": "Impresoras",
       "price": 20000,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 52,
+      "stock": 56,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Flashforge",
@@ -817,7 +992,7 @@
         "PLA"
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/178464602485957-dbbc7d7f48ca6cd22f17846460705255-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/filamento-flashforge-ecopla-negro-1w6t7/",
+      "url": "https://3dtisk.com.ar/productos/filamento-flashforge-eco-pla-negro-1d0no/",
       "scrapedFrom": "https://3dtisk.com.ar/productos/",
       "variants": [
         {
@@ -825,7 +1000,7 @@
           "sku": "920",
           "price": 20000,
           "isDeposit": false,
-          "stock": 26,
+          "stock": 28,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/178464602485957-dbbc7d7f48ca6cd22f17846460705255-1024-1024.webp"
@@ -951,7 +1126,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 22,
+      "stock": 20,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Elegoo",
@@ -968,7 +1143,7 @@
           "sku": "905",
           "price": 27300,
           "isDeposit": false,
-          "stock": 11,
+          "stock": 10,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/178223877389868-c11e46c5a8235bc44217822388086586-1024-1024.webp"
@@ -1235,7 +1410,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 44,
+      "stock": 42,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Flashforge",
@@ -1252,7 +1427,7 @@
           "sku": "788",
           "price": 24100,
           "isDeposit": false,
-          "stock": 22,
+          "stock": 21,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177790474997012-4dc808ac88cd5f80ef17779048275309-1024-1024.webp"
@@ -1271,7 +1446,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 10,
+      "stock": 8,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Flashforge",
@@ -1288,7 +1463,7 @@
           "sku": "787",
           "price": 24100,
           "isDeposit": false,
-          "stock": 5,
+          "stock": 4,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177790460138520-b2ceb660988804747617779046579752-1024-1024.webp"
@@ -1307,7 +1482,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 20,
+      "stock": 18,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Flashforge",
@@ -1324,7 +1499,7 @@
           "sku": "786",
           "price": 24100,
           "isDeposit": false,
-          "stock": 10,
+          "stock": 9,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177790424041402-85b5ade6bbc83a037e17779042879188-1024-1024.webp"
@@ -1379,7 +1554,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 10,
+      "stock": 4,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Flashforge",
@@ -1396,7 +1571,7 @@
           "sku": "783",
           "price": 24100,
           "isDeposit": false,
-          "stock": 5,
+          "stock": 2,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177790270757050-0f935f69446e137e5317779032687083-1024-1024.webp"
@@ -1415,7 +1590,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 14,
+      "stock": 8,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Flashforge",
@@ -1432,7 +1607,7 @@
           "sku": "782",
           "price": 24100,
           "isDeposit": false,
-          "stock": 7,
+          "stock": 4,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/17779023595765-5b440b3d930805b9eb17779023680412-1024-1024.webp"
@@ -1451,7 +1626,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 46,
+      "stock": 40,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Flashforge",
@@ -1468,7 +1643,7 @@
           "sku": "781",
           "price": 24100,
           "isDeposit": false,
-          "stock": 23,
+          "stock": 20,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177790178549148-9fc4103ad2ac3ba5bd17779026081939-1024-1024.webp"
@@ -1487,7 +1662,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 50,
+      "stock": 46,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -1503,7 +1678,7 @@
           "sku": "2",
           "price": 19950,
           "isDeposit": false,
-          "stock": 25,
+          "stock": 23,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/17708409228340-43f7a85ad36bbf2dba17775814376893-1024-1024.webp"
@@ -1522,7 +1697,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 62,
+      "stock": 56,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -1538,7 +1713,7 @@
           "sku": "3",
           "price": 19950,
           "isDeposit": false,
-          "stock": 31,
+          "stock": 28,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084093618115-a1eabab963e2c4946c17775814352794-1024-1024.webp"
@@ -1557,7 +1732,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 68,
+      "stock": 48,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -1573,7 +1748,7 @@
           "sku": "4",
           "price": 19950,
           "isDeposit": false,
-          "stock": 34,
+          "stock": 24,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084095242718-c8d4f57ef1d96957af17775814328512-1024-1024.webp"
@@ -1601,7 +1776,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/1770840964857-d393746fa7428f3fc617775814305875-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-e-gris-grafito-ukvry/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
       "variants": [
         {
           "id": 1516022735,
@@ -1627,7 +1802,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 16,
+      "stock": 14,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -1636,14 +1811,14 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084098513864-9bd9c12fb96886efe317775814282622-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-e-marmol-1urny/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
       "variants": [
         {
           "id": 1516022697,
           "sku": "6",
           "price": 19950,
           "isDeposit": false,
-          "stock": 8,
+          "stock": 7,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084098513864-9bd9c12fb96886efe317775814282622-1024-1024.webp"
@@ -1671,7 +1846,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084105620153-3666ef2f09e65acb8d17775814260955-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-e-aqua-1j3h2/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
       "variants": [
         {
           "id": 1516022665,
@@ -1697,7 +1872,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 18,
+      "stock": 16,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -1706,14 +1881,14 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084108392150-c7e5f9af1045e2902d17775814210853-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-e-celeste-vduhi/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
       "variants": [
         {
           "id": 1516022588,
           "sku": "9",
           "price": 19950,
           "isDeposit": false,
-          "stock": 9,
+          "stock": 8,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084108392150-c7e5f9af1045e2902d17775814210853-1024-1024.webp"
@@ -1741,7 +1916,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084109425161-883d62754b25108fc317775814186258-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-e-cobalto-1nwkn/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
       "variants": [
         {
           "id": 1516022542,
@@ -1872,8 +2047,8 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 4,
-      "stockLabel": "En stock",
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Hellbot",
       "tags": [
@@ -1888,7 +2063,7 @@
           "sku": "14",
           "price": 19950,
           "isDeposit": false,
-          "stock": 2,
+          "stock": 1,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084114734048-e8bf0d518293e7f88317775814093694-1024-1024.webp"
@@ -2141,41 +2316,6 @@
       ]
     },
     {
-      "id": "3dtisk-341423332",
-      "sourceProductId": "341423332",
-      "store": "3DTisk",
-      "domain": "3dtisk.com.ar",
-      "name": "Hellbot E.Rosa Pastel",
-      "category": "Accesorios",
-      "price": 19950,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 2,
-      "stockLabel": "Pocas unidades",
-      "available": true,
-      "brand": "Hellbot",
-      "tags": [
-        "Hellbot"
-      ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084136855751-bedfb6da5d5fbd995317775813788700-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/hellbot-e-rosa-pastel-fss00/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
-      "variants": [
-        {
-          "id": 1516021528,
-          "sku": "28",
-          "price": 19950,
-          "isDeposit": false,
-          "stock": 1,
-          "available": true,
-          "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084136855751-bedfb6da5d5fbd995317775813788700-1024-1024.webp"
-        }
-      ]
-    },
-    {
       "id": "3dtisk-341423315",
       "sourceProductId": "341423315",
       "store": "3DTisk",
@@ -2222,7 +2362,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 10,
+      "stock": 8,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2238,7 +2378,7 @@
           "sku": "31",
           "price": 19950,
           "isDeposit": false,
-          "stock": 5,
+          "stock": 4,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084141121183-116b7152c8a19c23d317775813716451-1024-1024.webp"
@@ -2362,7 +2502,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 24,
+      "stock": 26,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2379,7 +2519,7 @@
           "sku": "35",
           "price": 19950,
           "isDeposit": false,
-          "stock": 12,
+          "stock": 13,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084148399587-7f60d0fc3b5b3a064f17775813625760-1024-1024.webp"
@@ -2398,7 +2538,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 38,
+      "stock": 34,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2414,7 +2554,7 @@
           "sku": "36",
           "price": 19950,
           "isDeposit": false,
-          "stock": 19,
+          "stock": 17,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084149410146-5daa114b126c2b02fd17775813603337-1024-1024.webp"
@@ -2527,76 +2667,6 @@
       ]
     },
     {
-      "id": "3dtisk-341423223",
-      "sourceProductId": "341423223",
-      "store": "3DTisk",
-      "domain": "3dtisk.com.ar",
-      "name": "Hellbot R.Negro",
-      "category": "Accesorios",
-      "price": 17850,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 158,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Hellbot",
-      "tags": [
-        "Hellbot"
-      ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084184182211-7589eebfbfdc1a37d317775813516820-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/hellbot-r-negro-x2w29/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
-      "variants": [
-        {
-          "id": 1516020983,
-          "sku": "40",
-          "price": 17850,
-          "isDeposit": false,
-          "stock": 79,
-          "available": true,
-          "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084184182211-7589eebfbfdc1a37d317775813516820-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "3dtisk-341423216",
-      "sourceProductId": "341423216",
-      "store": "3DTisk",
-      "domain": "3dtisk.com.ar",
-      "name": "Hellbot R.Blanco",
-      "category": "Accesorios",
-      "price": 17850,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 94,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Hellbot",
-      "tags": [
-        "Hellbot"
-      ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084185482046-25b573c2f3cc3de1d517775813491720-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/hellbot-r-blanco-f8f3y/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
-      "variants": [
-        {
-          "id": 1516020930,
-          "sku": "41",
-          "price": 17850,
-          "isDeposit": false,
-          "stock": 47,
-          "available": true,
-          "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084185482046-25b573c2f3cc3de1d517775813491720-1024-1024.webp"
-        }
-      ]
-    },
-    {
       "id": "3dtisk-341423199",
       "sourceProductId": "341423199",
       "store": "3DTisk",
@@ -2608,7 +2678,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 30,
+      "stock": 26,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2624,7 +2694,7 @@
           "sku": "42",
           "price": 17850,
           "isDeposit": false,
-          "stock": 15,
+          "stock": 13,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084186569018-233e6643f6a7bba82917775813469669-1024-1024.webp"
@@ -2643,7 +2713,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 16,
+      "stock": 30,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2659,7 +2729,7 @@
           "sku": "43",
           "price": 17850,
           "isDeposit": false,
-          "stock": 8,
+          "stock": 15,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084188878521-04a202b21ed4c8de6917775813447254-1024-1024.webp"
@@ -2678,7 +2748,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 24,
+      "stock": 22,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2694,7 +2764,7 @@
           "sku": "44",
           "price": 17850,
           "isDeposit": false,
-          "stock": 12,
+          "stock": 11,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084189918403-ee4cafe88da78423c817775813426230-1024-1024.webp"
@@ -2737,41 +2807,6 @@
       ]
     },
     {
-      "id": "3dtisk-341423144",
-      "sourceProductId": "341423144",
-      "store": "3DTisk",
-      "domain": "3dtisk.com.ar",
-      "name": "Hellbot R.Azul",
-      "category": "Accesorios",
-      "price": 17850,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 34,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Hellbot",
-      "tags": [
-        "Hellbot"
-      ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084193078747-da20ab176a217c391f17775813375586-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/hellbot-r-azul-x4liz/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
-      "variants": [
-        {
-          "id": 1516020702,
-          "sku": "46",
-          "price": 17850,
-          "isDeposit": false,
-          "stock": 17,
-          "available": true,
-          "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084193078747-da20ab176a217c391f17775813375586-1024-1024.webp"
-        }
-      ]
-    },
-    {
       "id": "3dtisk-341423137",
       "sourceProductId": "341423137",
       "store": "3DTisk",
@@ -2783,7 +2818,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 44,
+      "stock": 46,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2799,7 +2834,7 @@
           "sku": "47",
           "price": 17850,
           "isDeposit": false,
-          "stock": 22,
+          "stock": 23,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084194150423-180ef6d450745dcf2417775813353474-1024-1024.webp"
@@ -2853,7 +2888,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 46,
+      "stock": 48,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2869,7 +2904,7 @@
           "sku": "49",
           "price": 17850,
           "isDeposit": false,
-          "stock": 23,
+          "stock": 24,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084196592107-98de2072c39f02f12017775813307875-1024-1024.webp"
@@ -2888,7 +2923,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 46,
+      "stock": 42,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2904,80 +2939,10 @@
           "sku": "50",
           "price": 17850,
           "isDeposit": false,
-          "stock": 23,
+          "stock": 21,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084198293956-d32636f2980286732d17775813286263-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "3dtisk-341423095",
-      "sourceProductId": "341423095",
-      "store": "3DTisk",
-      "domain": "3dtisk.com.ar",
-      "name": "Hellbot R.Amarillo",
-      "category": "Accesorios",
-      "price": 17850,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 52,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Hellbot",
-      "tags": [
-        "Hellbot"
-      ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084201212572-d7dfb04379f8787a5017775813265232-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/hellbot-r-amarillo-12h5h/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
-      "variants": [
-        {
-          "id": 1516020485,
-          "sku": "51",
-          "price": 17850,
-          "isDeposit": false,
-          "stock": 26,
-          "available": true,
-          "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084201212572-d7dfb04379f8787a5017775813265232-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "3dtisk-341423084",
-      "sourceProductId": "341423084",
-      "store": "3DTisk",
-      "domain": "3dtisk.com.ar",
-      "name": "Hellbot R.Rojo",
-      "category": "Accesorios",
-      "price": 17850,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 24,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Hellbot",
-      "tags": [
-        "Hellbot"
-      ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084202391051-1da7f1851c9154605f17775813240064-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/hellbot-r-rojo-nq8vb/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
-      "variants": [
-        {
-          "id": 1516020430,
-          "sku": "52",
-          "price": 17850,
-          "isDeposit": false,
-          "stock": 12,
-          "available": true,
-          "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084202391051-1da7f1851c9154605f17775813240064-1024-1024.webp"
         }
       ]
     },
@@ -2993,7 +2958,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 24,
+      "stock": 12,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -3009,7 +2974,7 @@
           "sku": "53",
           "price": 17850,
           "isDeposit": false,
-          "stock": 12,
+          "stock": 6,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084203519113-cafc42e0238d1f658617775813215786-1024-1024.webp"
@@ -3028,7 +2993,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 38,
+      "stock": 36,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -3044,7 +3009,7 @@
           "sku": "54",
           "price": 17850,
           "isDeposit": false,
-          "stock": 19,
+          "stock": 18,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084204589920-15e7d603bfeafdbffe17775813194199-1024-1024.webp"
@@ -3063,7 +3028,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 20,
+      "stock": 18,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -3079,7 +3044,7 @@
           "sku": "57",
           "price": 17850,
           "isDeposit": false,
-          "stock": 10,
+          "stock": 9,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084210774760-5e8b39ab634caf78fa17775813127674-1024-1024.webp"
@@ -3168,7 +3133,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 24,
+      "stock": 22,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -3184,45 +3149,10 @@
           "sku": "65",
           "price": 17850,
           "isDeposit": false,
-          "stock": 12,
+          "stock": 11,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084380076356-aa7bab47e21895109417775812934524-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "3dtisk-341422941",
-      "sourceProductId": "341422941",
-      "store": "3DTisk",
-      "domain": "3dtisk.com.ar",
-      "name": "Hellbot R.Rosa Pastel",
-      "category": "Accesorios",
-      "price": 17850,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 2,
-      "stockLabel": "Pocas unidades",
-      "available": true,
-      "brand": "Hellbot",
-      "tags": [
-        "Hellbot"
-      ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084383135086-56adbed79f80a8b04117775812911751-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/hellbot-r-rosa-pastel-pw73r/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
-      "variants": [
-        {
-          "id": 1516019855,
-          "sku": "66",
-          "price": 17850,
-          "isDeposit": false,
-          "stock": 1,
-          "available": true,
-          "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084383135086-56adbed79f80a8b04117775812911751-1024-1024.webp"
         }
       ]
     },
@@ -3273,7 +3203,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 16,
+      "stock": 18,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -3289,7 +3219,7 @@
           "sku": "69",
           "price": 17850,
           "isDeposit": false,
-          "stock": 8,
+          "stock": 9,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084388986127-ce348e639820aaa9cf17775812843540-1024-1024.webp"
@@ -3413,7 +3343,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 32,
+      "stock": 30,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -3430,7 +3360,7 @@
           "sku": "73",
           "price": 17850,
           "isDeposit": false,
-          "stock": 16,
+          "stock": 15,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084396087423-457ea0a8456219c6cd17775812753920-1024-1024.webp"
@@ -3458,7 +3388,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084397668402-eefcfaad67ae47c00d17775812731910-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-r-bronce-lkavs/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
       "variants": [
         {
           "id": 1516019529,
@@ -3493,7 +3423,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/17708439853488-5cc2520ce89908186e17775812709300-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-r-amarillo-fluor-tf1v4/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
       "variants": [
         {
           "id": 1516019490,
@@ -3590,7 +3520,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 20,
+      "stock": 16,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -3606,7 +3536,7 @@
           "sku": "462",
           "price": 17850,
           "isDeposit": false,
-          "stock": 10,
+          "stock": 8,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084180134869-f1d4b9346e705f3b2a17775805367493-1024-1024.webp"
@@ -3662,7 +3592,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 50,
+      "stock": 46,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -3678,7 +3608,7 @@
           "sku": "535",
           "price": 19950,
           "isDeposit": false,
-          "stock": 25,
+          "stock": 23,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/17708362274246-fd575952d7a7fdc04317775804332636-1024-1024.webp"
@@ -4123,7 +4053,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 22,
+      "stock": 20,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Elegoo",
@@ -4140,7 +4070,7 @@
           "sku": "772",
           "price": 25100,
           "isDeposit": false,
-          "stock": 11,
+          "stock": 10,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177729763336174-35efd86f0739ff25a617775801801420-1024-1024.webp"
@@ -4544,42 +4474,6 @@
       ]
     },
     {
-      "id": "3dtisk-347151729",
-      "sourceProductId": "347151729",
-      "store": "3DTisk",
-      "domain": "3dtisk.com.ar",
-      "name": "Elegoo PETG PRO Rojo",
-      "category": "Impresoras",
-      "price": 27300,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Elegoo",
-      "tags": [
-        "Elegoo",
-        "PETG"
-      ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/plata-fbb70872d80533591117846443211464-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/elegoo-petg-pro-rojo-pkrpu/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
-      "variants": [
-        {
-          "id": 1533291905,
-          "sku": "872",
-          "price": 27300,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/plata-fbb70872d80533591117846443211464-1024-1024.webp"
-        }
-      ]
-    },
-    {
       "id": "3dtisk-344799012",
       "sourceProductId": "344799012",
       "store": "3DTisk",
@@ -4671,7 +4565,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/17828443088328-b887cf16e23e4d6d0617828443307907-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/impresora-3d-flashforge-creator-5-pro-td786/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1526593769,
@@ -4706,7 +4600,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/178274571062947-34561e3276f827eeac17827457495014-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/impresora-fdm-bambu-lab-p2s-1753c/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1523708943,
@@ -4742,7 +4636,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177860048317452-ecc7488abe10830f4617786005867024-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/impresora-creality-sparkx-i7-color-combo-h0jno/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1522963371,
@@ -4778,7 +4672,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/beige-af607e38b134c4416017846439613324-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/filamento-rapid-petg-elegoo-beige-b915c/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1522884541,
@@ -5614,6 +5508,41 @@
       ]
     },
     {
+      "id": "3dtisk-341423332",
+      "sourceProductId": "341423332",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "Hellbot E.Rosa Pastel",
+      "category": "Accesorios",
+      "price": 19950,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084136855751-bedfb6da5d5fbd995317775813788700-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/hellbot-e-rosa-pastel-fss00/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
+      "variants": [
+        {
+          "id": 1516021528,
+          "sku": "28",
+          "price": 19950,
+          "isDeposit": false,
+          "stock": 0,
+          "available": false,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084136855751-bedfb6da5d5fbd995317775813788700-1024-1024.webp"
+        }
+      ]
+    },
+    {
       "id": "3dtisk-341423325",
       "sourceProductId": "341423325",
       "store": "3DTisk",
@@ -5645,6 +5574,41 @@
           "available": false,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084137838884-d556ab0ff07b5e48cd17775813763659-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-341422941",
+      "sourceProductId": "341422941",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "Hellbot R.Rosa Pastel",
+      "category": "Accesorios",
+      "price": 17850,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084383135086-56adbed79f80a8b04117775812911751-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/hellbot-r-rosa-pastel-pw73r/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
+      "variants": [
+        {
+          "id": 1516019855,
+          "sku": "66",
+          "price": 17850,
+          "isDeposit": false,
+          "stock": 0,
+          "available": false,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084383135086-56adbed79f80a8b04117775812911751-1024-1024.webp"
         }
       ]
     },
@@ -5950,7 +5914,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177187849999178-a6fbebba663c2da54117775804360088-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-e-fucsia-7lyuk/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
       "variants": [
         {
           "id": 1516004593,

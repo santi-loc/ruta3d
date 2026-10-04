@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { catalogProducts, storeSources, stores } from "@/lib/catalog";
+import { getCatalogData, storeSources, stores } from "@/lib/catalog";
 import { PrinterGuide } from "../printer-guide";
 
 export const metadata: Metadata = {
@@ -15,7 +15,9 @@ export const metadata: Metadata = {
   },
 };
 
-export default function PrinterGuidePage() {
+export default async function PrinterGuidePage() {
+  const { catalogProducts } = await getCatalogData();
+
   return (
     <PrinterGuide
       products={catalogProducts}

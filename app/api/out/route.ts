@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { catalogProducts, storeSources } from "@/lib/catalog";
+import { getCatalogData, storeSources } from "@/lib/catalog";
 import { recordOutboundClick } from "@/lib/outbound-clicks";
 import { sanitizeSearchQuery } from "@/lib/security";
 
@@ -20,7 +20,6 @@ function canonicalUrl(value: string) {
   }
 }
 
-const allowedTargets = new Map<string, AllowedTarget>();
 const storesByName = new Map(storeSources.map((source) => [source.name, source]));
 
 function hostnameMatchesStore(url: string, domain: string) {
@@ -28,28 +27,35 @@ function hostnameMatchesStore(url: string, domain: string) {
   return hostname === domain || hostname.endsWith(`.${domain}`);
 }
 
-for (const source of storeSources) {
-  const targetUrl = canonicalUrl(source.url);
-  if (targetUrl) {
-    allowedTargets.set(targetUrl, {
-      store: source.name,
-      productId: null,
-      productName: null,
-      targetUrl,
-    });
-  }
-}
+async function allowedTargets() {
+  const targets = new Map<string, AllowedTarget>();
+  const { catalogProducts } = await getCatalogData();
 
-for (const product of catalogProducts) {
-  const targetUrl = canonicalUrl(product.url);
-  if (targetUrl) {
-    allowedTargets.set(targetUrl, {
-      store: product.store,
-      productId: String(product.id),
-      productName: product.name,
-      targetUrl,
-    });
+  for (const source of storeSources) {
+    const targetUrl = canonicalUrl(source.url);
+    if (targetUrl) {
+      targets.set(targetUrl, {
+        store: source.name,
+        productId: null,
+        productName: null,
+        targetUrl,
+      });
+    }
   }
+
+  for (const product of catalogProducts) {
+    const targetUrl = canonicalUrl(product.url);
+    if (targetUrl) {
+      targets.set(targetUrl, {
+        store: product.store,
+        productId: String(product.id),
+        productName: product.name,
+        targetUrl,
+      });
+    }
+  }
+
+  return targets;
 }
 
 export async function GET(request: Request) {
@@ -59,7 +65,8 @@ export async function GET(request: Request) {
 
   if (!targetUrl) return NextResponse.redirect(fallbackUrl);
 
-  const target = allowedTargets.get(targetUrl) ?? (() => {
+  const targets = await allowedTargets();
+  const target = targets.get(targetUrl) ?? (() => {
     const requestedStore = sanitizeSearchQuery(requestUrl.searchParams.get("store"), 80);
     const store = storesByName.get(requestedStore);
     if (!store || !hostnameMatchesStore(targetUrl, store.domain)) return null;

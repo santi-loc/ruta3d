@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { ProductExplorer } from "./product-explorer";
-import { catalogFreshness, catalogProducts, filamentBrands, filamentMaterials, storeSources, stores } from "@/lib/catalog";
+import { getCatalogData, storeSources, stores } from "@/lib/catalog";
 import { sanitizeSearchQuery } from "@/lib/security";
 import { siteDescription } from "@/lib/site";
 import { HomeJsonLd } from "./seo-json-ld";
@@ -15,6 +15,7 @@ export const metadata: Metadata = {
 export default async function Home({ searchParams }: { searchParams: Promise<{ q?: string }> }) {
   const { q } = await searchParams;
   const initialQuery = sanitizeSearchQuery(q);
+  const { catalogFreshness, catalogProducts, filamentBrands, filamentMaterials } = await getCatalogData();
 
   return (
     <>

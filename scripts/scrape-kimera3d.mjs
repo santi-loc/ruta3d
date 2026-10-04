@@ -15,6 +15,7 @@ const STORE = {
 const DEFAULT_OUTPUT = "data/kimera3d-products.json";
 const PER_PAGE = 100;
 const FETCH_TIMEOUT_MS = 20_000;
+const MAX_COMPARABLE_PRICE = 100_000_000;
 
 const brandLabels = [
   "Bambu Lab",
@@ -188,7 +189,7 @@ function toScrapedProduct(product) {
   const available = Boolean(product.is_in_stock);
   const brand = inferBrand(product);
 
-  if (!product.name || !product.permalink || !price) return null;
+  if (!product.name || !product.permalink || !price || price >= MAX_COMPARABLE_PRICE) return null;
 
   return {
     id: `kimera3d-${product.id}`,
