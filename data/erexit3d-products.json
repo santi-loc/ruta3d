@@ -5,7 +5,7 @@
     "baseUrl": "https://erexit3d.com",
     "listingPath": "/productos/"
   },
-  "scrapedAt": "2026-10-04T15:43:53.362Z",
+  "scrapedAt": "2026-10-05T16:58:30.703Z",
   "count": 64,
   "pages": [
     {
@@ -62,7 +62,7 @@
       "price": 1464900,
       "currency": "ARS",
       "transferPrice": 1391655,
-      "stock": 24,
+      "stock": 16,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -78,7 +78,7 @@
           "id": 1300553002,
           "sku": "BAMBU-A1COMBMULT",
           "price": 1464900,
-          "stock": 12,
+          "stock": 8,
           "available": true,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/bambu-a1-combo-fondo-blanco-3213485e9028a932e617905389451630-1024-1024.webp"
@@ -128,8 +128,8 @@
       "price": 2190000,
       "currency": "ARS",
       "transferPrice": 2080500,
-      "stock": 0,
-      "stockLabel": "Consultar",
+      "stock": 20,
+      "stockLabel": "En stock",
       "available": true,
       "brand": "Snapmaker",
       "tags": [
@@ -144,8 +144,8 @@
           "id": 1439735892,
           "sku": "SNAP-U1MULT4-ENTINM",
           "price": 2490000,
-          "stock": 0,
-          "available": false,
+          "stock": 20,
+          "available": true,
           "options": [
             "Entrega inmediata"
           ],
@@ -174,7 +174,7 @@
       "price": 578900,
       "currency": "ARS",
       "transferPrice": 549955,
-      "stock": 10,
+      "stock": 4,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -189,10 +189,178 @@
           "id": 1300561113,
           "sku": "BAMBU-A1MINI",
           "price": 578900,
-          "stock": 5,
+          "stock": 2,
           "available": true,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/a1-mini-1000x1000-dfe13f70e3b62bcc4617564984976191-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "erexit3d-369450613",
+      "sourceProductId": "369450613",
+      "store": "Erexit 3D",
+      "domain": "erexit3d.com",
+      "name": "Filamento Bambu Lab PLA Lite Con Carrete 1.75mm 1KG",
+      "category": "Filamentos",
+      "price": 28110,
+      "currency": "ARS",
+      "transferPrice": 26704.5,
+      "stock": 1232,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab",
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/azul_sinrfid-b6d9209c3a9dc483a617902992558786-1024-1024.webp",
+      "url": "https://erexit3d.com/productos/filamento-bambu-lab-pla-lite-con-carrete-1-75mm-1kg-edy49/",
+      "scrapedFrom": "https://erexit3d.com/productos/",
+      "variants": [
+        {
+          "id": 1604038181,
+          "sku": "BAMBU-PLALITECARR-AZU",
+          "price": 28110,
+          "stock": 87,
+          "available": true,
+          "options": [
+            "Azul"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/azul_sinrfid-b6d9209c3a9dc483a617902992558786-1024-1024.webp"
+        },
+        {
+          "id": 1604038186,
+          "sku": "BAMBU-PLALITECARR-VER",
+          "price": 28110,
+          "stock": 48,
+          "available": true,
+          "options": [
+            "Verde"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/verde_sinrfid-cd1991ce07ee9ea50a17902992590629-1024-1024.webp"
+        },
+        {
+          "id": 1604038195,
+          "sku": "BAMBU-PLALITECARR-NEG",
+          "price": 28110,
+          "stock": 113,
+          "available": true,
+          "options": [
+            "Negro"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/negro_sinrfid-d0bdde05bfc264f5fd17902992630059-1024-1024.webp"
+        },
+        {
+          "id": 1604038196,
+          "sku": "BAMBU-PLALITECARR-BLA",
+          "price": 28110,
+          "stock": 119,
+          "available": true,
+          "options": [
+            "Blanco"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/blanco_sinrfid-2e22466231ce0f369f17902992662437-1024-1024.webp"
+        },
+        {
+          "id": 1604038208,
+          "sku": "BAMBU-PLALITECARR-AMA",
+          "price": 28110,
+          "stock": 36,
+          "available": true,
+          "options": [
+            "Amarillo"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/amarillo_sinrfid-9ec00b598ff3cedaed17902992691138-1024-1024.webp"
+        },
+        {
+          "id": 1604038223,
+          "sku": "BAMBU-PLALITECARR-AMAGIR",
+          "price": 28110,
+          "stock": 22,
+          "available": true,
+          "options": [
+            "Amarillo Girasol"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/amarillo_girasol_sinrfid-97a78fb9e1ab413b5e17902992724525-1024-1024.webp"
+        },
+        {
+          "id": 1605467742,
+          "sku": "BAMBU-PLALITECARR-GRIOSC",
+          "price": 28110,
+          "stock": 17,
+          "available": true,
+          "options": [
+            "Gris oscuro"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/gris_oscuro_sinrfid-9f833f4179b6fc143c17902992757200-1024-1024.webp"
+        },
+        {
+          "id": 1605467759,
+          "sku": "BAMBU-PLALITECARR-ROJ",
+          "price": 28110,
+          "stock": 54,
+          "available": true,
+          "options": [
+            "Rojo"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/rojo_sinrfid-7888a1e6237bcb5eef17902992789261-1024-1024.webp"
+        },
+        {
+          "id": 1605467778,
+          "sku": "BAMBU-PLALITECARR-MATBEI",
+          "price": 28110,
+          "stock": 15,
+          "available": true,
+          "options": [
+            "Matte Beige"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/matte_beige_sinrfid-2abe4b55953395b6d917902992820303-1024-1024.webp"
+        },
+        {
+          "id": 1610835418,
+          "sku": "BAMBU-PLALITECARR-NAR",
+          "price": 28110,
+          "stock": 26,
+          "available": true,
+          "options": [
+            "Naranja"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/naranja_sinrfid-fed358650fce1a048b17902992853884-1024-1024-e39da2d918454a806717909664940318-1024-1024.webp"
+        },
+        {
+          "id": 1610835466,
+          "sku": "BAMBU-PLALITECARR-CIA",
+          "price": 28110,
+          "stock": 28,
+          "available": true,
+          "options": [
+            "Cian"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/cian_sinrfid-4e312892238742098a17902992892962-1024-1024-998da9c235d235ba9517909664957019-1024-1024.webp"
+        },
+        {
+          "id": 1610837527,
+          "sku": "BAMBU-PLALITECARR-GRI",
+          "price": 28110,
+          "stock": 25,
+          "available": true,
+          "options": [
+            "Gris"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/gris_sinrfid-48c1e251165511b2c617902992966521-1024-1024-98c040bc9271e436df17909664925423-1024-1024.webp"
+        },
+        {
+          "id": 1610837534,
+          "sku": "BAMBU-PLALITECARR-BEI",
+          "price": 28110,
+          "stock": 26,
+          "available": true,
+          "options": [
+            "Beige"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/d_nq_np_762110-mla116854262620_092026-f-0dc3bd4b4d6c43b2d217909664976482-1024-1024.webp"
         }
       ]
     },
@@ -206,8 +374,8 @@
       "price": 968900,
       "currency": "ARS",
       "transferPrice": 920455,
-      "stock": 12,
-      "stockLabel": "En stock",
+      "stock": 0,
+      "stockLabel": "Consultar",
       "available": true,
       "brand": "Bambu Lab",
       "tags": [
@@ -221,7 +389,7 @@
           "id": 1300529798,
           "sku": "BAMBU-A1",
           "price": 968900,
-          "stock": 6,
+          "stock": null,
           "available": true,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/bambu-lab-a1-2-1-895d2224d34539786317564974616120-1024-1024.webp"
@@ -262,174 +430,6 @@
       ]
     },
     {
-      "id": "erexit3d-369450613",
-      "sourceProductId": "369450613",
-      "store": "Erexit 3D",
-      "domain": "erexit3d.com",
-      "name": "Filamento Bambu Lab PLA Lite Con Carrete 1.75mm 1KG",
-      "category": "Filamentos",
-      "price": 28110,
-      "currency": "ARS",
-      "transferPrice": 26704.5,
-      "stock": 1346,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Bambu Lab",
-      "tags": [
-        "Bambu Lab",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/azul_sinrfid-b6d9209c3a9dc483a617902992558786-1024-1024.webp",
-      "url": "https://erexit3d.com/productos/filamento-bambu-lab-pla-lite-con-carrete-1-75mm-1kg-edy49/",
-      "scrapedFrom": "https://erexit3d.com/productos/",
-      "variants": [
-        {
-          "id": 1604038181,
-          "sku": "BAMBU-PLALITECARR-AZU",
-          "price": 28110,
-          "stock": 92,
-          "available": true,
-          "options": [
-            "Azul"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/azul_sinrfid-b6d9209c3a9dc483a617902992558786-1024-1024.webp"
-        },
-        {
-          "id": 1604038186,
-          "sku": "BAMBU-PLALITECARR-VER",
-          "price": 28110,
-          "stock": 51,
-          "available": true,
-          "options": [
-            "Verde"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/verde_sinrfid-cd1991ce07ee9ea50a17902992590629-1024-1024.webp"
-        },
-        {
-          "id": 1604038195,
-          "sku": "BAMBU-PLALITECARR-NEG",
-          "price": 28110,
-          "stock": 128,
-          "available": true,
-          "options": [
-            "Negro"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/negro_sinrfid-d0bdde05bfc264f5fd17902992630059-1024-1024.webp"
-        },
-        {
-          "id": 1604038196,
-          "sku": "BAMBU-PLALITECARR-BLA",
-          "price": 28110,
-          "stock": 128,
-          "available": true,
-          "options": [
-            "Blanco"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/blanco_sinrfid-2e22466231ce0f369f17902992662437-1024-1024.webp"
-        },
-        {
-          "id": 1604038208,
-          "sku": "BAMBU-PLALITECARR-AMA",
-          "price": 28110,
-          "stock": 37,
-          "available": true,
-          "options": [
-            "Amarillo"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/amarillo_sinrfid-9ec00b598ff3cedaed17902992691138-1024-1024.webp"
-        },
-        {
-          "id": 1604038223,
-          "sku": "BAMBU-PLALITECARR-AMAGIR",
-          "price": 28110,
-          "stock": 24,
-          "available": true,
-          "options": [
-            "Amarillo Girasol"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/amarillo_girasol_sinrfid-97a78fb9e1ab413b5e17902992724525-1024-1024.webp"
-        },
-        {
-          "id": 1605467742,
-          "sku": "BAMBU-PLALITECARR-GRIOSC",
-          "price": 28110,
-          "stock": 20,
-          "available": true,
-          "options": [
-            "Gris oscuro"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/gris_oscuro_sinrfid-9f833f4179b6fc143c17902992757200-1024-1024.webp"
-        },
-        {
-          "id": 1605467759,
-          "sku": "BAMBU-PLALITECARR-ROJ",
-          "price": 28110,
-          "stock": 59,
-          "available": true,
-          "options": [
-            "Rojo"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/rojo_sinrfid-7888a1e6237bcb5eef17902992789261-1024-1024.webp"
-        },
-        {
-          "id": 1605467778,
-          "sku": "BAMBU-PLALITECARR-MATBEI",
-          "price": 28110,
-          "stock": 18,
-          "available": true,
-          "options": [
-            "Matte Beige"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/matte_beige_sinrfid-2abe4b55953395b6d917902992820303-1024-1024.webp"
-        },
-        {
-          "id": 1610835418,
-          "sku": "BAMBU-PLALITECARR-NAR",
-          "price": 28110,
-          "stock": 28,
-          "available": true,
-          "options": [
-            "Naranja"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/naranja_sinrfid-fed358650fce1a048b17902992853884-1024-1024-e39da2d918454a806717909664940318-1024-1024.webp"
-        },
-        {
-          "id": 1610835466,
-          "sku": "BAMBU-PLALITECARR-CIA",
-          "price": 28110,
-          "stock": 29,
-          "available": true,
-          "options": [
-            "Cian"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/cian_sinrfid-4e312892238742098a17902992892962-1024-1024-998da9c235d235ba9517909664957019-1024-1024.webp"
-        },
-        {
-          "id": 1610837527,
-          "sku": "BAMBU-PLALITECARR-GRI",
-          "price": 28110,
-          "stock": 29,
-          "available": true,
-          "options": [
-            "Gris"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/gris_sinrfid-48c1e251165511b2c617902992966521-1024-1024-98c040bc9271e436df17909664925423-1024-1024.webp"
-        },
-        {
-          "id": 1610837534,
-          "sku": "BAMBU-PLALITECARR-BEI",
-          "price": 28110,
-          "stock": 30,
-          "available": true,
-          "options": [
-            "Beige"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/d_nq_np_762110-mla116854262620_092026-f-0dc3bd4b4d6c43b2d217909664976482-1024-1024.webp"
-        }
-      ]
-    },
-    {
       "id": "erexit3d-300334096",
       "sourceProductId": "300334096",
       "store": "Erexit 3D",
@@ -439,7 +439,7 @@
       "price": 3001900,
       "currency": "ARS",
       "transferPrice": 2851805,
-      "stock": 20,
+      "stock": 16,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -455,7 +455,7 @@
           "id": 1339208771,
           "sku": "BAMBU-P2SCOMBMULT",
           "price": 3001900,
-          "stock": 10,
+          "stock": 8,
           "available": true,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/8-d854b311a922a21dc517605499408855-1024-1024.webp"
@@ -472,7 +472,7 @@
       "price": 2019900,
       "currency": "ARS",
       "transferPrice": 1918905,
-      "stock": 18,
+      "stock": 14,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -488,7 +488,7 @@
           "id": 1300572660,
           "sku": "BAMBU-P1SCOMB",
           "price": 2019900,
-          "stock": 9,
+          "stock": 7,
           "available": true,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/impresora-3d-bambulab-p1s-combo-600x600-1-4de358e85a3ac6491e17564989758473-1024-1024.webp"
@@ -505,7 +505,7 @@
       "price": 1649600,
       "currency": "ARS",
       "transferPrice": 1567120,
-      "stock": 10,
+      "stock": 4,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -521,7 +521,7 @@
           "id": 1535372590,
           "sku": "BAMBU-A2LCOMBMULT-ENTINM",
           "price": 1832900,
-          "stock": 10,
+          "stock": 4,
           "available": true,
           "options": [
             "Entrega inmediata"
@@ -542,72 +542,6 @@
       ]
     },
     {
-      "id": "erexit3d-290867534",
-      "sourceProductId": "290867534",
-      "store": "Erexit 3D",
-      "domain": "erexit3d.com",
-      "name": "Bambu Lab A1 Mini Combo | Impresora 3D Multicolor + AMS",
-      "category": "Impresoras",
-      "price": 1056900,
-      "currency": "ARS",
-      "transferPrice": 1004055,
-      "stock": 14,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Bambu Lab",
-      "tags": [
-        "Bambu Lab",
-        "multicolor"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/impresora-bambulab-a1-mini-combo-3-5eb3088100669023ac17564988061884-1024-1024.webp",
-      "url": "https://erexit3d.com/productos/bambulab-a1-mini-combo/",
-      "scrapedFrom": "https://erexit3d.com/productos/",
-      "variants": [
-        {
-          "id": 1300566405,
-          "sku": "BAMBU-A1MINICOMB",
-          "price": 1056900,
-          "stock": 7,
-          "available": true,
-          "options": [],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/impresora-bambulab-a1-mini-combo-3-5eb3088100669023ac17564988061884-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "erexit3d-340597125",
-      "sourceProductId": "340597125",
-      "store": "Erexit 3D",
-      "domain": "erexit3d.com",
-      "name": "Elegoo Centauri Carbon 2 Combo | Impresora 3D Multicolor |",
-      "category": "Impresoras",
-      "price": 1552385,
-      "currency": "ARS",
-      "transferPrice": 1474765.75,
-      "stock": 4,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Elegoo",
-      "tags": [
-        "Elegoo",
-        "multicolor"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/5-03280e113783303e6e17771241510953-1024-1024-db0ee69a568643db8e17773102005803-1024-1024.webp",
-      "url": "https://erexit3d.com/productos/elegoo-centauri-carbon-2-combo-6wrg2/",
-      "scrapedFrom": "https://erexit3d.com/productos/",
-      "variants": [
-        {
-          "id": 1513438652,
-          "sku": "ELG-CENTCARB2",
-          "price": 1552385,
-          "stock": 2,
-          "available": true,
-          "options": [],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/5-03280e113783303e6e17771241510953-1024-1024-db0ee69a568643db8e17773102005803-1024-1024.webp"
-        }
-      ]
-    },
-    {
       "id": "erexit3d-370120274",
       "sourceProductId": "370120274",
       "store": "Erexit 3D",
@@ -617,7 +551,7 @@
       "price": 25435,
       "currency": "ARS",
       "transferPrice": 24163.25,
-      "stock": 472,
+      "stock": 436,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Elegoo",
@@ -628,14 +562,14 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/pla-filament-1kg-black_1220x1220_crop_center-71784b875a49d0bfb417583005725915-1024-1024-4bdc0561ac220d706817904028323890-1024-1024.webp",
       "url": "https://erexit3d.com/productos/filamento-elegoo-pla-1kg-1f6uc/",
-      "scrapedFrom": "https://erexit3d.com/productos/page/2/",
+      "scrapedFrom": "https://erexit3d.com/productos/",
       "variants": [
         {
           "id": 1606433158,
           "sku": "ELG-PLA1KG-NEG",
           "price": 25435,
-          "stock": 8,
-          "available": true,
+          "stock": 0,
+          "available": false,
           "options": [
             "Negro"
           ],
@@ -645,7 +579,7 @@
           "id": 1606433159,
           "sku": "ELG-PLA1KG-GRI",
           "price": 25435,
-          "stock": 42,
+          "stock": 39,
           "available": true,
           "options": [
             "Gris"
@@ -656,7 +590,7 @@
           "id": 1606433162,
           "sku": "ELG-PLA1KG-AZUCIE",
           "price": 25435,
-          "stock": 39,
+          "stock": 38,
           "available": true,
           "options": [
             "Azul Cielo"
@@ -667,7 +601,7 @@
           "id": 1606433169,
           "sku": "ELG-PLA1KG-TRA",
           "price": 25435,
-          "stock": 24,
+          "stock": 23,
           "available": true,
           "options": [
             "Translucido"
@@ -678,7 +612,7 @@
           "id": 1606433171,
           "sku": "ELG-PLA1KG-AMA",
           "price": 25435,
-          "stock": 41,
+          "stock": 40,
           "available": true,
           "options": [
             "Amarillo"
@@ -711,7 +645,7 @@
           "id": 1606433174,
           "sku": "ELG-PLA1KG-GRIESP",
           "price": 25435,
-          "stock": 13,
+          "stock": 12,
           "available": true,
           "options": [
             "Gris Espacial"
@@ -722,7 +656,7 @@
           "id": 1606433176,
           "sku": "ELG-PLA1KG-MADREL",
           "price": 25435,
-          "stock": 29,
+          "stock": 26,
           "available": true,
           "options": [
             "Madera Relleno"
@@ -743,6 +677,72 @@
       ]
     },
     {
+      "id": "erexit3d-290867534",
+      "sourceProductId": "290867534",
+      "store": "Erexit 3D",
+      "domain": "erexit3d.com",
+      "name": "Bambu Lab A1 Mini Combo | Impresora 3D Multicolor + AMS",
+      "category": "Impresoras",
+      "price": 1056900,
+      "currency": "ARS",
+      "transferPrice": 1004055,
+      "stock": 12,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab",
+        "multicolor"
+      ],
+      "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/impresora-bambulab-a1-mini-combo-3-5eb3088100669023ac17564988061884-1024-1024.webp",
+      "url": "https://erexit3d.com/productos/bambulab-a1-mini-combo/",
+      "scrapedFrom": "https://erexit3d.com/productos/",
+      "variants": [
+        {
+          "id": 1300566405,
+          "sku": "BAMBU-A1MINICOMB",
+          "price": 1056900,
+          "stock": 6,
+          "available": true,
+          "options": [],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/impresora-bambulab-a1-mini-combo-3-5eb3088100669023ac17564988061884-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "erexit3d-340597125",
+      "sourceProductId": "340597125",
+      "store": "Erexit 3D",
+      "domain": "erexit3d.com",
+      "name": "Elegoo Centauri Carbon 2 Combo | Impresora 3D Multicolor |",
+      "category": "Impresoras",
+      "price": 1552385,
+      "currency": "ARS",
+      "transferPrice": 1474765.75,
+      "stock": 4,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Elegoo",
+      "tags": [
+        "Elegoo",
+        "multicolor"
+      ],
+      "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/5-03280e113783303e6e17771241510953-1024-1024-db0ee69a568643db8e17773102005803-1024-1024.webp",
+      "url": "https://erexit3d.com/productos/elegoo-centauri-carbon-2-combo-6wrg2/",
+      "scrapedFrom": "https://erexit3d.com/productos/page/2/",
+      "variants": [
+        {
+          "id": 1513438652,
+          "sku": "ELG-CENTCARB2",
+          "price": 1552385,
+          "stock": 2,
+          "available": true,
+          "options": [],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/5-03280e113783303e6e17771241510953-1024-1024-db0ee69a568643db8e17773102005803-1024-1024.webp"
+        }
+      ]
+    },
+    {
       "id": "erexit3d-370120236",
       "sourceProductId": "370120236",
       "store": "Erexit 3D",
@@ -752,7 +752,7 @@
       "price": 25500,
       "currency": "ARS",
       "transferPrice": 24225,
-      "stock": 1160,
+      "stock": 1152,
       "stockLabel": "En stock",
       "available": true,
       "brand": "FlashForge",
@@ -813,7 +813,7 @@
           "id": 1606433063,
           "sku": "FF-PLA1KG-NEG",
           "price": 25500,
-          "stock": 93,
+          "stock": 92,
           "available": true,
           "options": [
             "Negro"
@@ -846,7 +846,7 @@
           "id": 1606433070,
           "sku": "FF-PLA1KG-NAR",
           "price": 25500,
-          "stock": 60,
+          "stock": 59,
           "available": true,
           "options": [
             "Naranja"
@@ -890,7 +890,7 @@
           "id": 1606433075,
           "sku": "FF-PLA1KG-NEGGAL",
           "price": 25500,
-          "stock": 12,
+          "stock": 11,
           "available": true,
           "options": [
             "Negro Galaxia Mate"
@@ -901,7 +901,7 @@
           "id": 1606433080,
           "sku": "FF-PLA1KG-VERGAL",
           "price": 25500,
-          "stock": 17,
+          "stock": 16,
           "available": true,
           "options": [
             "Verde Galaxia Luminoso"
@@ -955,6 +955,287 @@
       ]
     },
     {
+      "id": "erexit3d-369450626",
+      "sourceProductId": "369450626",
+      "store": "Erexit 3D",
+      "domain": "erexit3d.com",
+      "name": "Filamento Bambu Lab PLA Lite Sin Carrete 1.75mm 1KG",
+      "category": "Filamentos",
+      "price": 22840,
+      "currency": "ARS",
+      "transferPrice": 21698,
+      "stock": 1492,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab",
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/naranja_sinrfid-fed358650fce1a048b17902992853884-1024-1024.webp",
+      "url": "https://erexit3d.com/productos/filamento-bambu-lab-pla-lite-sin-carrete-1-75mm-1kg-1rclp/",
+      "scrapedFrom": "https://erexit3d.com/productos/page/2/",
+      "variants": [
+        {
+          "id": 1604038274,
+          "sku": "BAMBU-PLALITESINCARR-NAR",
+          "price": 22840,
+          "stock": 49,
+          "available": true,
+          "options": [
+            "Naranja"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/naranja_sinrfid-fed358650fce1a048b17902992853884-1024-1024.webp"
+        },
+        {
+          "id": 1604038280,
+          "sku": "BAMBU-PLALITESINCARR-CIA",
+          "price": 22840,
+          "stock": 57,
+          "available": true,
+          "options": [
+            "Cyan"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/cian_sinrfid-4e312892238742098a17902992892962-1024-1024.webp"
+        },
+        {
+          "id": 1604038282,
+          "sku": "BAMBU-PLALITESINCARR-AZU",
+          "price": 22840,
+          "stock": 111,
+          "available": true,
+          "options": [
+            "Azul"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/azul_sinrfid-593691d54400c2cbc917902992926184-1024-1024.webp"
+        },
+        {
+          "id": 1604038290,
+          "sku": "BAMBU-PLALITESINCARR-GRI",
+          "price": 22840,
+          "stock": 51,
+          "available": true,
+          "options": [
+            "Gris"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/gris_sinrfid-48c1e251165511b2c617902992966521-1024-1024.webp"
+        },
+        {
+          "id": 1604038309,
+          "sku": "BAMBU-PLALITESINCARR-VER",
+          "price": 22840,
+          "stock": 55,
+          "available": true,
+          "options": [
+            "Verde"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/verde_sinrfid-b4338949f9a97216cb17902993001067-1024-1024.webp"
+        },
+        {
+          "id": 1604038318,
+          "sku": "BAMBU-PLALITESINCARR-NEG",
+          "price": 22840,
+          "stock": 153,
+          "available": true,
+          "options": [
+            "Negro"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/negro_sinrfid-1f1cbcf08e525b0a3617902993032957-1024-1024.webp"
+        },
+        {
+          "id": 1604038323,
+          "sku": "BAMBU-PLALITESINCARR-ROJ",
+          "price": 22840,
+          "stock": 51,
+          "available": true,
+          "options": [
+            "Rojo"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/rojo_sinrfid-33ff746c81890c242c17902993065616-1024-1024.webp"
+        },
+        {
+          "id": 1604038326,
+          "sku": "BAMBU-PLALITESINCARR-BLA",
+          "price": 22840,
+          "stock": 78,
+          "available": true,
+          "options": [
+            "Blanco"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/blanco_sinrfid-9121bd2ed880f5ea2217902993095896-1024-1024.webp"
+        },
+        {
+          "id": 1604038331,
+          "sku": "BAMBU-PLALITESINCARR-AMA",
+          "price": 22840,
+          "stock": 57,
+          "available": true,
+          "options": [
+            "Amarillo"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/amarillo_sinrfid-4a4c062f9d0d788c1d17902993124897-1024-1024.webp"
+        },
+        {
+          "id": 1604038337,
+          "sku": "BAMBU-PLALITESINCARR-AMAGIR",
+          "price": 22840,
+          "stock": 57,
+          "available": true,
+          "options": [
+            "Amarillo Girasol"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/amarillo_girasol_sinrfid-5e87367559dbf6fbd417902993156340-1024-1024.webp"
+        },
+        {
+          "id": 1605467791,
+          "sku": "BAMBU-PLALITESINCARR-NEGMAT",
+          "price": 20400,
+          "stock": 0,
+          "available": false,
+          "options": [
+            "Negro Mate"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/negromate_sinrfid-46e146bfb6863f441f17902993428828-1024-1024.webp"
+        },
+        {
+          "id": 1610835481,
+          "sku": "BAMBU-PLALITESINCARR-BEI",
+          "price": 22840,
+          "stock": 27,
+          "available": true,
+          "options": [
+            "Beige"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/d_nq_np_762110-mla116854262620_092026-f-615a9c716175d92c2b17909664992689-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "erexit3d-370120710",
+      "sourceProductId": "370120710",
+      "store": "Erexit 3D",
+      "domain": "erexit3d.com",
+      "name": "GST3D Cosmos Filamento PLA+ HS x 1kg",
+      "category": "Filamentos",
+      "price": 21260,
+      "currency": "ARS",
+      "transferPrice": 20197,
+      "stock": 262,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "GST3D",
+      "tags": [
+        "GST3D",
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/pla-black-3-23b0ffe9a7b01f825d17902982535094-1024-1024-308ab2246f9057851e17904031674129-1024-1024.webp",
+      "url": "https://erexit3d.com/productos/gst3d-cosmos-filamento-pla-hs-x-1kg-we034/",
+      "scrapedFrom": "https://erexit3d.com/productos/page/2/",
+      "variants": [
+        {
+          "id": 1606434572,
+          "sku": "GSTCOSMOS-PLA-BLACK",
+          "price": 21260,
+          "stock": 31,
+          "available": true,
+          "options": [
+            "Negro"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/pla-black-3-23b0ffe9a7b01f825d17902982535094-1024-1024-308ab2246f9057851e17904031674129-1024-1024.webp"
+        },
+        {
+          "id": 1606434573,
+          "sku": "GSTCOSMOS-PLA-WHITE",
+          "price": 21260,
+          "stock": 28,
+          "available": true,
+          "options": [
+            "Blanco"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/pla-white-3-88277eb21fa3b5789317902982545499-1024-1024-daff31ac4ad15c9e5517904031698743-1024-1024.webp"
+        },
+        {
+          "id": 1606434574,
+          "sku": "GSTCOSMOS-PLA-GREY",
+          "price": 21260,
+          "stock": 15,
+          "available": true,
+          "options": [
+            "Gris"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/pla-grey-3-1d5b54ce02df60fa7b17902982556319-1024-1024-896a46894feda6167a17904031722995-1024-1024.webp"
+        },
+        {
+          "id": 1606434575,
+          "sku": "GSTCOSMOS-PLA-RED",
+          "price": 21260,
+          "stock": 5,
+          "available": true,
+          "options": [
+            "Rojo"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/pla-red-3-12d04198d337ba8cda17902982566415-1024-1024-8c6af1458b1f42543f17904031747320-1024-1024.webp"
+        },
+        {
+          "id": 1606434576,
+          "sku": "GSTCOSMOS-PLA-YELLOW",
+          "price": 21260,
+          "stock": 16,
+          "available": true,
+          "options": [
+            "Amarillo"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/pla-yellow-3-0173604ab4dc6fadf417902982576243-1024-1024-807a95ecea8ce7bf9117904031770335-1024-1024.webp"
+        },
+        {
+          "id": 1606434578,
+          "sku": "GSTCOSMOS-PLA-ORANGE",
+          "price": 21260,
+          "stock": 3,
+          "available": true,
+          "options": [
+            "Naranja"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/pla-orange-3-cd73e7bd46e18d05e417902982587832-1024-1024-96fd7f603159639f3e17904031794863-1024-1024.webp"
+        },
+        {
+          "id": 1606434579,
+          "sku": "GSTCOSMOS-PLA-PURPLE",
+          "price": 21260,
+          "stock": 14,
+          "available": true,
+          "options": [
+            "Violeta"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/pla-purple-3-5993030b3cbbdc638117902982599400-1024-1024-ec189de3d8217c20ee17904031819577-1024-1024.webp"
+        },
+        {
+          "id": 1606434580,
+          "sku": "GSTCOSMOS-PLA-SKY-BLUE",
+          "price": 21260,
+          "stock": 15,
+          "available": true,
+          "options": [
+            "Azul Cielo"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/pla-sky-blue-3-9c700c4213b2db52f417902982610217-1024-1024-7b88e2a175b7eb4fd417904031842505-1024-1024.webp"
+        },
+        {
+          "id": 1606434581,
+          "sku": "GSTCOSMOS-PLA-BROWN",
+          "price": 21260,
+          "stock": 4,
+          "available": true,
+          "options": [
+            "Marrón"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/pla-brown-3-9c4caea3750e44413317902982621032-1024-1024-337f5b328aa6dd515c17904031865418-1024-1024.webp"
+        }
+      ]
+    },
+    {
       "id": "erexit3d-370120778",
       "sourceProductId": "370120778",
       "store": "Erexit 3D",
@@ -964,7 +1245,7 @@
       "price": 22388,
       "currency": "ARS",
       "transferPrice": 21268.6,
-      "stock": 960,
+      "stock": 942,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -981,7 +1262,7 @@
           "id": 1606434673,
           "sku": "HB-ECOFPLA1-BLA",
           "price": 22388,
-          "stock": 113,
+          "stock": 110,
           "available": true,
           "options": [
             "Blanco"
@@ -1014,7 +1295,7 @@
           "id": 1606434678,
           "sku": "HB-ECOFPLA1-ROSPAS",
           "price": 22388,
-          "stock": 9,
+          "stock": 8,
           "available": true,
           "options": [
             "Rosa Pastel"
@@ -1036,7 +1317,7 @@
           "id": 1606434680,
           "sku": "HB-ECOFPLA1-CEL",
           "price": 22388,
-          "stock": 30,
+          "stock": 29,
           "available": true,
           "options": [
             "Celeste"
@@ -1047,7 +1328,7 @@
           "id": 1606434681,
           "sku": "HB-ECOFPLA1-MAR",
           "price": 22388,
-          "stock": 5,
+          "stock": 4,
           "available": true,
           "options": [
             "Marrón"
@@ -1058,7 +1339,7 @@
           "id": 1606434682,
           "sku": "HB-ECOFPLA1-AZU",
           "price": 22388,
-          "stock": 30,
+          "stock": 28,
           "available": true,
           "options": [
             "Azul"
@@ -1113,7 +1394,7 @@
           "id": 1606434687,
           "sku": "HB-ECOFPLA1-HUE",
           "price": 22388,
-          "stock": 51,
+          "stock": 50,
           "available": true,
           "options": [
             "Hueso"
@@ -1154,7 +1435,7 @@
       "price": 25500,
       "currency": "ARS",
       "transferPrice": 24225,
-      "stock": 582,
+      "stock": 558,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -1171,7 +1452,7 @@
           "id": 1605469060,
           "sku": "BAMBU-PETGBASCARR-NEG",
           "price": 25500,
-          "stock": 106,
+          "stock": 100,
           "available": true,
           "options": [
             "Negro"
@@ -1182,7 +1463,7 @@
           "id": 1605469063,
           "sku": "BAMBU-PETGBASCARR-BLA",
           "price": 25500,
-          "stock": 114,
+          "stock": 113,
           "available": true,
           "options": [
             "Blanco"
@@ -1193,7 +1474,7 @@
           "id": 1605469069,
           "sku": "BAMBU-PETGBASCARR-GRI",
           "price": 25500,
-          "stock": 20,
+          "stock": 18,
           "available": true,
           "options": [
             "Gris"
@@ -1204,7 +1485,7 @@
           "id": 1605469074,
           "sku": "BAMBU-PETGBASCARR-ROJ",
           "price": 25500,
-          "stock": 24,
+          "stock": 22,
           "available": true,
           "options": [
             "Rojo"
@@ -1215,169 +1496,12 @@
           "id": 1605469076,
           "sku": "BAMBU-PETGBASCARR-AMA",
           "price": 25500,
-          "stock": 27,
+          "stock": 26,
           "available": true,
           "options": [
             "Amarillo"
           ],
           "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/amarillo_sinrfid-4e75f912719d814cfe17902993844067-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "erexit3d-369450626",
-      "sourceProductId": "369450626",
-      "store": "Erexit 3D",
-      "domain": "erexit3d.com",
-      "name": "Filamento Bambu Lab PLA Lite Sin Carrete 1.75mm 1KG",
-      "category": "Filamentos",
-      "price": 22840,
-      "currency": "ARS",
-      "transferPrice": 21698,
-      "stock": 1548,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Bambu Lab",
-      "tags": [
-        "Bambu Lab",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/naranja_sinrfid-fed358650fce1a048b17902992853884-1024-1024.webp",
-      "url": "https://erexit3d.com/productos/filamento-bambu-lab-pla-lite-sin-carrete-1-75mm-1kg-1rclp/",
-      "scrapedFrom": "https://erexit3d.com/productos/page/2/",
-      "variants": [
-        {
-          "id": 1604038274,
-          "sku": "BAMBU-PLALITESINCARR-NAR",
-          "price": 22840,
-          "stock": 52,
-          "available": true,
-          "options": [
-            "Naranja"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/naranja_sinrfid-fed358650fce1a048b17902992853884-1024-1024.webp"
-        },
-        {
-          "id": 1604038280,
-          "sku": "BAMBU-PLALITESINCARR-CIA",
-          "price": 22840,
-          "stock": 57,
-          "available": true,
-          "options": [
-            "Cyan"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/cian_sinrfid-4e312892238742098a17902992892962-1024-1024.webp"
-        },
-        {
-          "id": 1604038282,
-          "sku": "BAMBU-PLALITESINCARR-AZU",
-          "price": 22840,
-          "stock": 112,
-          "available": true,
-          "options": [
-            "Azul"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/azul_sinrfid-593691d54400c2cbc917902992926184-1024-1024.webp"
-        },
-        {
-          "id": 1604038290,
-          "sku": "BAMBU-PLALITESINCARR-GRI",
-          "price": 22840,
-          "stock": 52,
-          "available": true,
-          "options": [
-            "Gris"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/gris_sinrfid-48c1e251165511b2c617902992966521-1024-1024.webp"
-        },
-        {
-          "id": 1604038309,
-          "sku": "BAMBU-PLALITESINCARR-VER",
-          "price": 22840,
-          "stock": 57,
-          "available": true,
-          "options": [
-            "Verde"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/verde_sinrfid-b4338949f9a97216cb17902993001067-1024-1024.webp"
-        },
-        {
-          "id": 1604038318,
-          "sku": "BAMBU-PLALITESINCARR-NEG",
-          "price": 22840,
-          "stock": 161,
-          "available": true,
-          "options": [
-            "Negro"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/negro_sinrfid-1f1cbcf08e525b0a3617902993032957-1024-1024.webp"
-        },
-        {
-          "id": 1604038323,
-          "sku": "BAMBU-PLALITESINCARR-ROJ",
-          "price": 22840,
-          "stock": 52,
-          "available": true,
-          "options": [
-            "Rojo"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/rojo_sinrfid-33ff746c81890c242c17902993065616-1024-1024.webp"
-        },
-        {
-          "id": 1604038326,
-          "sku": "BAMBU-PLALITESINCARR-BLA",
-          "price": 22840,
-          "stock": 87,
-          "available": true,
-          "options": [
-            "Blanco"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/blanco_sinrfid-9121bd2ed880f5ea2217902993095896-1024-1024.webp"
-        },
-        {
-          "id": 1604038331,
-          "sku": "BAMBU-PLALITESINCARR-AMA",
-          "price": 22840,
-          "stock": 57,
-          "available": true,
-          "options": [
-            "Amarillo"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/amarillo_sinrfid-4a4c062f9d0d788c1d17902993124897-1024-1024.webp"
-        },
-        {
-          "id": 1604038337,
-          "sku": "BAMBU-PLALITESINCARR-AMAGIR",
-          "price": 22840,
-          "stock": 57,
-          "available": true,
-          "options": [
-            "Amarillo Girasol"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/amarillo_girasol_sinrfid-5e87367559dbf6fbd417902993156340-1024-1024.webp"
-        },
-        {
-          "id": 1605467791,
-          "sku": "BAMBU-PLALITESINCARR-NEGMAT",
-          "price": 20400,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Negro Mate"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/negromate_sinrfid-46e146bfb6863f441f17902993428828-1024-1024.webp"
-        },
-        {
-          "id": 1610835481,
-          "sku": "BAMBU-PLALITESINCARR-BEI",
-          "price": 22840,
-          "stock": 30,
-          "available": true,
-          "options": [
-            "Beige"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/d_nq_np_762110-mla116854262620_092026-f-615a9c716175d92c2b17909664992689-1024-1024.webp"
         }
       ]
     },
@@ -1414,158 +1538,60 @@
       ]
     },
     {
-      "id": "erexit3d-370120710",
-      "sourceProductId": "370120710",
+      "id": "erexit3d-369824073",
+      "sourceProductId": "369824073",
       "store": "Erexit 3D",
       "domain": "erexit3d.com",
-      "name": "GST3D Cosmos Filamento PLA+ HS x 1kg",
+      "name": "Filamento Bambu Lab PETG Basic Sin Carrete 1.75mm 1KG",
       "category": "Filamentos",
-      "price": 21260,
+      "price": 21000,
       "currency": "ARS",
-      "transferPrice": 20197,
-      "stock": 302,
+      "transferPrice": 19950,
+      "stock": 370,
       "stockLabel": "En stock",
       "available": true,
-      "brand": "GST3D",
+      "brand": "Bambu Lab",
       "tags": [
-        "GST3D",
-        "PLA",
+        "Bambu Lab",
+        "PETG",
         "1kg"
       ],
-      "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/pla-black-3-23b0ffe9a7b01f825d17902982535094-1024-1024-308ab2246f9057851e17904031674129-1024-1024.webp",
-      "url": "https://erexit3d.com/productos/gst3d-cosmos-filamento-pla-hs-x-1kg-we034/",
+      "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/negro_sinrfid-a43416df5bd724720317902993876306-1024-1024.webp",
+      "url": "https://erexit3d.com/productos/filamento-bambu-lab-petg-basic-sin-carrete-1-75mm-1kg-itv4e/",
       "scrapedFrom": "https://erexit3d.com/productos/page/2/",
       "variants": [
         {
-          "id": 1606434572,
-          "sku": "GSTCOSMOS-PLA-BLACK",
-          "price": 21260,
-          "stock": 35,
+          "id": 1605469088,
+          "sku": "BAMBU-PETGBASSINCARR-NEG",
+          "price": 21000,
+          "stock": 74,
           "available": true,
           "options": [
             "Negro"
           ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/pla-black-3-23b0ffe9a7b01f825d17902982535094-1024-1024-308ab2246f9057851e17904031674129-1024-1024.webp"
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/negro_sinrfid-a43416df5bd724720317902993876306-1024-1024.webp"
         },
         {
-          "id": 1606434573,
-          "sku": "GSTCOSMOS-PLA-WHITE",
-          "price": 21260,
-          "stock": 29,
+          "id": 1605469094,
+          "sku": "BAMBU-PETGBASSINCARR-BLA",
+          "price": 21000,
+          "stock": 87,
           "available": true,
           "options": [
             "Blanco"
           ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/pla-white-3-88277eb21fa3b5789317902982545499-1024-1024-daff31ac4ad15c9e5517904031698743-1024-1024.webp"
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/blanco_sinrfid-c4a777b4cf393cc98817902993905909-1024-1024.webp"
         },
         {
-          "id": 1606434574,
-          "sku": "GSTCOSMOS-PLA-GREY",
-          "price": 21260,
-          "stock": 17,
-          "available": true,
-          "options": [
-            "Gris"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/pla-grey-3-1d5b54ce02df60fa7b17902982556319-1024-1024-896a46894feda6167a17904031722995-1024-1024.webp"
-        },
-        {
-          "id": 1606434575,
-          "sku": "GSTCOSMOS-PLA-RED",
-          "price": 21260,
-          "stock": 8,
-          "available": true,
-          "options": [
-            "Rojo"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/pla-red-3-12d04198d337ba8cda17902982566415-1024-1024-8c6af1458b1f42543f17904031747320-1024-1024.webp"
-        },
-        {
-          "id": 1606434576,
-          "sku": "GSTCOSMOS-PLA-YELLOW",
-          "price": 21260,
-          "stock": 17,
+          "id": 1605469098,
+          "sku": "BAMBU-PETGBASSINCARR-AMA",
+          "price": 21000,
+          "stock": 24,
           "available": true,
           "options": [
             "Amarillo"
           ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/pla-yellow-3-0173604ab4dc6fadf417902982576243-1024-1024-807a95ecea8ce7bf9117904031770335-1024-1024.webp"
-        },
-        {
-          "id": 1606434578,
-          "sku": "GSTCOSMOS-PLA-ORANGE",
-          "price": 21260,
-          "stock": 5,
-          "available": true,
-          "options": [
-            "Naranja"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/pla-orange-3-cd73e7bd46e18d05e417902982587832-1024-1024-96fd7f603159639f3e17904031794863-1024-1024.webp"
-        },
-        {
-          "id": 1606434579,
-          "sku": "GSTCOSMOS-PLA-PURPLE",
-          "price": 21260,
-          "stock": 16,
-          "available": true,
-          "options": [
-            "Violeta"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/pla-purple-3-5993030b3cbbdc638117902982599400-1024-1024-ec189de3d8217c20ee17904031819577-1024-1024.webp"
-        },
-        {
-          "id": 1606434580,
-          "sku": "GSTCOSMOS-PLA-SKY-BLUE",
-          "price": 21260,
-          "stock": 16,
-          "available": true,
-          "options": [
-            "Azul Cielo"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/pla-sky-blue-3-9c700c4213b2db52f417902982610217-1024-1024-7b88e2a175b7eb4fd417904031842505-1024-1024.webp"
-        },
-        {
-          "id": 1606434581,
-          "sku": "GSTCOSMOS-PLA-BROWN",
-          "price": 21260,
-          "stock": 8,
-          "available": true,
-          "options": [
-            "Marrón"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/pla-brown-3-9c4caea3750e44413317902982621032-1024-1024-337f5b328aa6dd515c17904031865418-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "erexit3d-339604931",
-      "sourceProductId": "339604931",
-      "store": "Erexit 3D",
-      "domain": "erexit3d.com",
-      "name": "Flashforge Creator 5 Pro | Impresora 3D 4 Cabezales",
-      "category": "Impresoras",
-      "price": 2536688,
-      "currency": "ARS",
-      "transferPrice": 2409853.6,
-      "stock": 2,
-      "stockLabel": "Pocas unidades",
-      "available": true,
-      "brand": "Flashforge",
-      "tags": [
-        "Flashforge"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/creator-5pro-f2d4a14a7a9936067a17768238497965-1024-1024.webp",
-      "url": "https://erexit3d.com/productos/preventa-flashforge-creator-5-pro/",
-      "scrapedFrom": "https://erexit3d.com/productos/page/2/",
-      "variants": [
-        {
-          "id": 1565448901,
-          "sku": "FF-CREA5PRO",
-          "price": 2536688,
-          "stock": 1,
-          "available": true,
-          "options": [],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/creator-5pro-f2d4a14a7a9936067a17768238497965-1024-1024.webp"
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/amarillo_sinrfid-a3263b33d6edea3e2217902993933812-1024-1024.webp"
         }
       ]
     },
@@ -1579,7 +1605,7 @@
       "price": 31646,
       "currency": "ARS",
       "transferPrice": 30063.7,
-      "stock": 312,
+      "stock": 306,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Elegoo",
@@ -1629,7 +1655,7 @@
           "id": 1606434420,
           "sku": "ELG-PLASILK1KG-VERACE",
           "price": 31646,
-          "stock": 22,
+          "stock": 21,
           "available": true,
           "options": [
             "Verde Acebo Silk"
@@ -1662,7 +1688,7 @@
           "id": 1606434427,
           "sku": "ELG-PLASILK1KG-NEGGAL",
           "price": 31646,
-          "stock": 13,
+          "stock": 11,
           "available": true,
           "options": [
             "Negro Galaxia"
@@ -1716,146 +1742,34 @@
       ]
     },
     {
-      "id": "erexit3d-370120219",
-      "sourceProductId": "370120219",
+      "id": "erexit3d-339604931",
+      "sourceProductId": "339604931",
       "store": "Erexit 3D",
       "domain": "erexit3d.com",
-      "name": "Filamento FLASHFORGE PETG BASIC 1.75mm",
-      "category": "Filamentos",
-      "price": 21185,
+      "name": "Flashforge Creator 5 Pro | Impresora 3D 4 Cabezales",
+      "category": "Impresoras",
+      "price": 2536688,
       "currency": "ARS",
-      "transferPrice": 20125.75,
-      "stock": 546,
-      "stockLabel": "En stock",
+      "transferPrice": 2409853.6,
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
       "available": true,
-      "brand": null,
+      "brand": "Flashforge",
       "tags": [
-        "PETG"
+        "Flashforge"
       ],
-      "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/repuestos-45-8bb020383ec74e8dc017861329320641-1024-1024-ee9439f699423056cb17904027148263-1024-1024.webp",
-      "url": "https://erexit3d.com/productos/filamento-flashforge-petg-basic-1-75mm-2hozo/",
+      "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/creator-5pro-f2d4a14a7a9936067a17768238497965-1024-1024.webp",
+      "url": "https://erexit3d.com/productos/preventa-flashforge-creator-5-pro/",
       "scrapedFrom": "https://erexit3d.com/productos/page/2/",
       "variants": [
         {
-          "id": 1606433018,
-          "sku": "FF-PETGBASINEGR-BLA",
-          "price": 23900,
-          "stock": 48,
+          "id": 1565448901,
+          "sku": "FF-CREA5PRO",
+          "price": 2536688,
+          "stock": 1,
           "available": true,
-          "options": [
-            "Blanco"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/repuestos-45-8bb020383ec74e8dc017861329320641-1024-1024-ee9439f699423056cb17904027148263-1024-1024.webp"
-        },
-        {
-          "id": 1606433019,
-          "sku": "FF-PETGBASINEGR-NEG",
-          "price": 23900,
-          "stock": 56,
-          "available": true,
-          "options": [
-            "Negro"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/repuestos-6-2-19f588bc80ad2659ee17861329319796-1024-1024-a90b1bf671f434c9ae17904027067263-1024-1024.webp"
-        },
-        {
-          "id": 1606433020,
-          "sku": "FF-PETGBASINEGR-GRI",
-          "price": 23900,
-          "stock": 40,
-          "available": true,
-          "options": [
-            "Gris"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/repuestos-41-d763c718c7132f959e17861329320280-1024-1024-30af8d40588275635c17904027128679-1024-1024.webp"
-        },
-        {
-          "id": 1606433021,
-          "sku": "FF-PETGBASINEGR-ROJ",
-          "price": 23900,
-          "stock": 16,
-          "available": true,
-          "options": [
-            "Rojo"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/repuestos-12-2-5ab98c7d0480a1fb4817891467279895-1024-1024-217ffac4f662477ea317904027168190-1024-1024.webp"
-        },
-        {
-          "id": 1606433022,
-          "sku": "FF-PETGBASINEGR-AMA",
-          "price": 23900,
-          "stock": 18,
-          "available": true,
-          "options": [
-            "Amarillo"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/repuestos-33-ca49f24ae070af2fd517891467305276-1024-1024-266b10265e85f9fd5117904027187614-1024-1024.webp"
-        },
-        {
-          "id": 1606433024,
-          "sku": "FF-PETGBASINEGR-AZU",
-          "price": 23900,
-          "stock": 21,
-          "available": true,
-          "options": [
-            "Azul"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/repuestos-35-2068e4c2230530e5cd17891467331926-1024-1024-fc9bad8f124419437f17904027206698-1024-1024.webp"
-        },
-        {
-          "id": 1606433025,
-          "sku": "FF-PETGBASINEGR-VER",
-          "price": 23900,
-          "stock": 18,
-          "available": true,
-          "options": [
-            "Verde"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/repuestos-10-2-4ef786f0965d95c9fb17891467359773-1024-1024-9f700d1ae8fec67fd917904027227447-1024-1024.webp"
-        },
-        {
-          "id": 1606433026,
-          "sku": "FF-PETGBASINEGR-VIO",
-          "price": 23900,
-          "stock": 17,
-          "available": true,
-          "options": [
-            "Violeta"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/repuestos-40-2d8059919089e110b717891467387838-1024-1024-8c59082d06685534d417904027247482-1024-1024.webp"
-        },
-        {
-          "id": 1606441972,
-          "sku": "FF-PETGBASINEGR-NAT",
-          "price": 23900,
-          "stock": 20,
-          "available": true,
-          "options": [
-            "Natural"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/repuestos-46-d88048b1ddf07c2b2c17904065808090-1024-1024.webp"
-        },
-        {
-          "id": 1606441974,
-          "sku": "FF-PETGBASINEGR-NAR",
-          "price": 23900,
-          "stock": 10,
-          "available": true,
-          "options": [
-            "Naranja"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/repuestos-37-c7b394cde836433dda17904065856227-1024-1024.webp"
-        },
-        {
-          "id": 1606441976,
-          "sku": "FF-PETGBASINEGR-ROS",
-          "price": 21185,
-          "stock": 9,
-          "available": true,
-          "options": [
-            "Rosa"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/flashforge-petg-basic-rosa-c6bdcfa802a43913e317904076679011-1024-1024.webp"
+          "options": [],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/creator-5pro-f2d4a14a7a9936067a17768238497965-1024-1024.webp"
         }
       ]
     },
@@ -1869,7 +1783,7 @@
       "price": 17990,
       "currency": "ARS",
       "transferPrice": 17090.5,
-      "stock": 546,
+      "stock": 534,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -1907,7 +1821,7 @@
           "id": 1606434991,
           "sku": "HB-ECOFRECAPLA-PIE",
           "price": 20150,
-          "stock": 22,
+          "stock": 21,
           "available": true,
           "options": [
             "Piel"
@@ -1951,7 +1865,7 @@
           "id": 1606434996,
           "sku": "HB-ECOFRECAPLA-VER",
           "price": 20150,
-          "stock": 27,
+          "stock": 26,
           "available": true,
           "options": [
             "Verde"
@@ -1973,7 +1887,7 @@
           "id": 1606434998,
           "sku": "HB-ECOFRECAPLA-CELPAS",
           "price": 17990,
-          "stock": 3,
+          "stock": 2,
           "available": true,
           "options": [
             "Celeste pastel"
@@ -2006,7 +1920,7 @@
           "id": 1606435001,
           "sku": "HB-ECOFRECAPLA-MARCLA",
           "price": 17990,
-          "stock": 13,
+          "stock": 12,
           "available": true,
           "options": [
             "Marron claro"
@@ -2017,7 +1931,7 @@
           "id": 1606435003,
           "sku": "HB-ECOFRECAPLA-CEL",
           "price": 17990,
-          "stock": 14,
+          "stock": 13,
           "available": true,
           "options": [
             "Celeste"
@@ -2028,7 +1942,7 @@
           "id": 1606435004,
           "sku": "HB-ECOFRECAPLA-FUC",
           "price": 17990,
-          "stock": 4,
+          "stock": 3,
           "available": true,
           "options": [
             "Fucsia"
@@ -2115,6 +2029,164 @@
       ]
     },
     {
+      "id": "erexit3d-370120702",
+      "sourceProductId": "370120702",
+      "store": "Erexit 3D",
+      "domain": "erexit3d.com",
+      "name": "FILAMENTO ELEGOO RAPIDO PLA+ -1.75mm-1KG-",
+      "category": "Filamentos",
+      "price": 25935,
+      "currency": "ARS",
+      "transferPrice": 24638.25,
+      "stock": 170,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/pla_plus-white-1kg-b21c2fdfeb5498400a17861318789392-1024-1024-cd9459d80e7c8f19bf17904031400178-1024-1024.webp",
+      "url": "https://erexit3d.com/productos/filamento-elegoo-rapido-pla-1-75mm-1kg-1mor8/",
+      "scrapedFrom": "https://erexit3d.com/productos/page/3/",
+      "variants": [
+        {
+          "id": 1606434552,
+          "sku": "ELG-RAPIPLA1-BLA",
+          "price": 25935,
+          "stock": 35,
+          "available": true,
+          "options": [
+            "Blanco"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/pla_plus-white-1kg-b21c2fdfeb5498400a17861318789392-1024-1024-cd9459d80e7c8f19bf17904031400178-1024-1024.webp"
+        },
+        {
+          "id": 1606434553,
+          "sku": "ELG-RAPIPLA1-MAR",
+          "price": 25935,
+          "stock": 19,
+          "available": true,
+          "options": [
+            "Marrón"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/elegoo-marron-b5840a1676e21d246a17861322372370-1024-1024-f013720891a0e5f88a17904031470047-1024-1024.webp"
+        },
+        {
+          "id": 1606434554,
+          "sku": "ELG-RAPIPLA1-NAT",
+          "price": 25935,
+          "stock": 2,
+          "available": true,
+          "options": [
+            "Natural"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/pla-natural-5-5610be3978db0b543f17861325162980-1024-1024-88ed48adc7d4a5302517904031484312-1024-1024.webp"
+        },
+        {
+          "id": 1606434555,
+          "sku": "ELG-RAPIPLA1-PUR",
+          "price": 25935,
+          "stock": 6,
+          "available": true,
+          "options": [
+            "Purpura"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/pla_purple_1220x1220_crop_center-e9f598eb95f1d04fc717861325613217-1024-1024-fd0dacdec24fb2daca17904031498608-1024-1024.webp"
+        },
+        {
+          "id": 1606434556,
+          "sku": "ELG-RAPIPLA1-VERMAR",
+          "price": 25935,
+          "stock": 8,
+          "available": true,
+          "options": [
+            "Verde marino"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/pla_seagreen_1220x1220_crop_center-da43035b554e35f1b717861326068865-1024-1024-bbc4ab001a8dacaa7817904031512775-1024-1024.webp"
+        },
+        {
+          "id": 1606442228,
+          "sku": "ELG-RAPIPLA1-NAR",
+          "price": 25935,
+          "stock": 15,
+          "available": true,
+          "options": [
+            "Naranja"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/rapid-pla-filament-1kg-orange_610x610_crop_center-469efe05d24dda1cd117904068897994-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "erexit3d-370120694",
+      "sourceProductId": "370120694",
+      "store": "Erexit 3D",
+      "domain": "erexit3d.com",
+      "name": "FILAMENTO ELEGOO PLA+ -1.75mm-1KG-",
+      "category": "Filamentos",
+      "price": 24976,
+      "currency": "ARS",
+      "transferPrice": 23727.2,
+      "stock": 174,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/pla-plus-azul-2423132a23c61807dc17881899400717-1024-1024-3e49cc3fb125a2ef2117904031326078-1024-1024.webp",
+      "url": "https://erexit3d.com/productos/filamento-elegoo-pla-1-75mm-1kg-ltw2h/",
+      "scrapedFrom": "https://erexit3d.com/productos/page/3/",
+      "variants": [
+        {
+          "id": 1606434539,
+          "sku": "ELG-PLA175MM-AZUOSC",
+          "price": 24976,
+          "stock": 2,
+          "available": true,
+          "options": [
+            "Azul oscuro"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/pla-plus-azul-2423132a23c61807dc17881899400717-1024-1024-3e49cc3fb125a2ef2117904031326078-1024-1024.webp"
+        },
+        {
+          "id": 1606434541,
+          "sku": "ELG-PLA175MM-ROS",
+          "price": 24976,
+          "stock": 28,
+          "available": true,
+          "options": [
+            "Rosa"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/pla-filament-1kg-pink_1220x1220_crop_center-cda24c98ee02488c1d17891466632492-1024-1024-1c8b936f377981d9d317904031349342-1024-1024.webp"
+        },
+        {
+          "id": 1606434543,
+          "sku": "ELG-PLA175MM-ROJ",
+          "price": 24976,
+          "stock": 30,
+          "available": true,
+          "options": [
+            "Rojo"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/pla-plus-azul-2423132a23c61807dc17881899400717-1024-1024-3e49cc3fb125a2ef2117904031326078-1024-1024.webp"
+        },
+        {
+          "id": 1606442223,
+          "sku": "ELG-PLA175MM-TRA",
+          "price": 24976,
+          "stock": 27,
+          "available": true,
+          "options": [
+            "Translúcido"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/repuestos-1-2-93a73bed06d1ad699317904068814167-1024-1024.webp"
+        }
+      ]
+    },
+    {
       "id": "erexit3d-370120266",
       "sourceProductId": "370120266",
       "store": "Erexit 3D",
@@ -2124,7 +2196,7 @@
       "price": 23300,
       "currency": "ARS",
       "transferPrice": 22135,
-      "stock": 274,
+      "stock": 270,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Elegoo",
@@ -2152,7 +2224,7 @@
           "id": 1606433127,
           "sku": "ELG-PETGRAPI1KG-NAR",
           "price": 23300,
-          "stock": 30,
+          "stock": 29,
           "available": true,
           "options": [
             "Naranja"
@@ -2229,7 +2301,7 @@
           "id": 1606433135,
           "sku": "ELG-PETGRAPI1KG-GRIOSC",
           "price": 23300,
-          "stock": 30,
+          "stock": 29,
           "available": true,
           "options": [
             "Space Grey"
@@ -2250,196 +2322,6 @@
       ]
     },
     {
-      "id": "erexit3d-370120702",
-      "sourceProductId": "370120702",
-      "store": "Erexit 3D",
-      "domain": "erexit3d.com",
-      "name": "FILAMENTO ELEGOO RAPIDO PLA+ -1.75mm-1KG-",
-      "category": "Filamentos",
-      "price": 25935,
-      "currency": "ARS",
-      "transferPrice": 24638.25,
-      "stock": 186,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/pla_plus-white-1kg-b21c2fdfeb5498400a17861318789392-1024-1024-cd9459d80e7c8f19bf17904031400178-1024-1024.webp",
-      "url": "https://erexit3d.com/productos/filamento-elegoo-rapido-pla-1-75mm-1kg-1mor8/",
-      "scrapedFrom": "https://erexit3d.com/productos/page/3/",
-      "variants": [
-        {
-          "id": 1606434552,
-          "sku": "ELG-RAPIPLA1-BLA",
-          "price": 25935,
-          "stock": 39,
-          "available": true,
-          "options": [
-            "Blanco"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/pla_plus-white-1kg-b21c2fdfeb5498400a17861318789392-1024-1024-cd9459d80e7c8f19bf17904031400178-1024-1024.webp"
-        },
-        {
-          "id": 1606434553,
-          "sku": "ELG-RAPIPLA1-MAR",
-          "price": 25935,
-          "stock": 20,
-          "available": true,
-          "options": [
-            "Marrón"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/elegoo-marron-b5840a1676e21d246a17861322372370-1024-1024-f013720891a0e5f88a17904031470047-1024-1024.webp"
-        },
-        {
-          "id": 1606434554,
-          "sku": "ELG-RAPIPLA1-NAT",
-          "price": 25935,
-          "stock": 3,
-          "available": true,
-          "options": [
-            "Natural"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/pla-natural-5-5610be3978db0b543f17861325162980-1024-1024-88ed48adc7d4a5302517904031484312-1024-1024.webp"
-        },
-        {
-          "id": 1606434555,
-          "sku": "ELG-RAPIPLA1-PUR",
-          "price": 25935,
-          "stock": 7,
-          "available": true,
-          "options": [
-            "Purpura"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/pla_purple_1220x1220_crop_center-e9f598eb95f1d04fc717861325613217-1024-1024-fd0dacdec24fb2daca17904031498608-1024-1024.webp"
-        },
-        {
-          "id": 1606434556,
-          "sku": "ELG-RAPIPLA1-VERMAR",
-          "price": 25935,
-          "stock": 9,
-          "available": true,
-          "options": [
-            "Verde marino"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/pla_seagreen_1220x1220_crop_center-da43035b554e35f1b717861326068865-1024-1024-bbc4ab001a8dacaa7817904031512775-1024-1024.webp"
-        },
-        {
-          "id": 1606442228,
-          "sku": "ELG-RAPIPLA1-NAR",
-          "price": 25935,
-          "stock": 15,
-          "available": true,
-          "options": [
-            "Naranja"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/rapid-pla-filament-1kg-orange_610x610_crop_center-469efe05d24dda1cd117904068897994-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "erexit3d-370120694",
-      "sourceProductId": "370120694",
-      "store": "Erexit 3D",
-      "domain": "erexit3d.com",
-      "name": "FILAMENTO ELEGOO PLA+ -1.75mm-1KG-",
-      "category": "Filamentos",
-      "price": 24976,
-      "currency": "ARS",
-      "transferPrice": 23727.2,
-      "stock": 182,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/pla-plus-azul-2423132a23c61807dc17881899400717-1024-1024-3e49cc3fb125a2ef2117904031326078-1024-1024.webp",
-      "url": "https://erexit3d.com/productos/filamento-elegoo-pla-1-75mm-1kg-ltw2h/",
-      "scrapedFrom": "https://erexit3d.com/productos/page/3/",
-      "variants": [
-        {
-          "id": 1606434539,
-          "sku": "ELG-PLA175MM-AZUOSC",
-          "price": 24976,
-          "stock": 3,
-          "available": true,
-          "options": [
-            "Azul oscuro"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/pla-plus-azul-2423132a23c61807dc17881899400717-1024-1024-3e49cc3fb125a2ef2117904031326078-1024-1024.webp"
-        },
-        {
-          "id": 1606434541,
-          "sku": "ELG-PLA175MM-ROS",
-          "price": 24976,
-          "stock": 31,
-          "available": true,
-          "options": [
-            "Rosa"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/pla-filament-1kg-pink_1220x1220_crop_center-cda24c98ee02488c1d17891466632492-1024-1024-1c8b936f377981d9d317904031349342-1024-1024.webp"
-        },
-        {
-          "id": 1606434543,
-          "sku": "ELG-PLA175MM-ROJ",
-          "price": 24976,
-          "stock": 30,
-          "available": true,
-          "options": [
-            "Rojo"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/pla-plus-azul-2423132a23c61807dc17881899400717-1024-1024-3e49cc3fb125a2ef2117904031326078-1024-1024.webp"
-        },
-        {
-          "id": 1606442223,
-          "sku": "ELG-PLA175MM-TRA",
-          "price": 24976,
-          "stock": 27,
-          "available": true,
-          "options": [
-            "Translúcido"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/repuestos-1-2-93a73bed06d1ad699317904068814167-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "erexit3d-305247336",
-      "sourceProductId": "305247336",
-      "store": "Erexit 3D",
-      "domain": "erexit3d.com",
-      "name": "Bambu Lab AMS Lite",
-      "category": "Impresoras",
-      "price": 710900,
-      "currency": "ARS",
-      "transferPrice": 675355,
-      "stock": 2,
-      "stockLabel": "Pocas unidades",
-      "available": true,
-      "brand": "Bambu Lab",
-      "tags": [
-        "Bambu Lab"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/amslite1-8-430a964ca5c1d76c2f17623569440042-1024-1024.webp",
-      "url": "https://erexit3d.com/productos/bambulab-ams-lite-kisgl/",
-      "scrapedFrom": "https://erexit3d.com/productos/page/3/",
-      "variants": [
-        {
-          "id": 1357699519,
-          "sku": "BAMBU-AMSLITE",
-          "price": 710900,
-          "stock": 1,
-          "available": true,
-          "options": [],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/amslite1-8-430a964ca5c1d76c2f17623569440042-1024-1024.webp"
-        }
-      ]
-    },
-    {
       "id": "erexit3d-347764270",
       "sourceProductId": "347764270",
       "store": "Erexit 3D",
@@ -2449,7 +2331,7 @@
       "price": 1236500,
       "currency": "ARS",
       "transferPrice": 1174675,
-      "stock": 31,
+      "stock": 30,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -2464,7 +2346,7 @@
           "id": 1535375032,
           "sku": "BAMBU-A2L-PRESEP",
           "price": 1373900,
-          "stock": 31,
+          "stock": 30,
           "available": true,
           "options": [
             "Entrega inmediata"
@@ -2718,35 +2600,34 @@
       ]
     },
     {
-      "id": "erexit3d-290871256",
-      "sourceProductId": "290871256",
+      "id": "erexit3d-290309346",
+      "sourceProductId": "290309346",
       "store": "Erexit 3D",
       "domain": "erexit3d.com",
-      "name": "Bambu Lab H2S Combo | Impresora 3D multicolor + AMS 2 PRO",
+      "name": "Bambu Lab H2D Combo | Impresora 3D Doble Hotend + AMS 2 PRO",
       "category": "Impresoras",
-      "price": 4701900,
+      "price": 6330900,
       "currency": "ARS",
-      "transferPrice": 4466805,
+      "transferPrice": 6014355,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": true,
       "brand": "Bambu Lab",
       "tags": [
-        "Bambu Lab",
-        "multicolor"
+        "Bambu Lab"
       ],
-      "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/h2s-1-b4a7306e3fb96dfc1817564997074161-1024-1024.webp",
-      "url": "https://erexit3d.com/productos/bambulab-h2s-combo-jd85z/",
-      "scrapedFrom": "https://erexit3d.com/productos/page/4/",
+      "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/h2d_combo_png_web-83c311db6de1074dc117563140807257-1024-1024.webp",
+      "url": "https://erexit3d.com/productos/bambulab-h2d-combo/",
+      "scrapedFrom": "https://erexit3d.com/productos/page/3/",
       "variants": [
         {
-          "id": 1300592445,
-          "sku": "BAMBU-H2SCOMBMULT",
-          "price": 4701900,
+          "id": 1298192933,
+          "sku": "BAMBU-H2DCOMBDOBL",
+          "price": 6330900,
           "stock": null,
           "available": true,
           "options": [],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/h2s-1-b4a7306e3fb96dfc1817564997074161-1024-1024.webp"
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/h2d_combo_png_web-83c311db6de1074dc117563140807257-1024-1024.webp"
         }
       ]
     },
@@ -2850,6 +2731,74 @@
       ]
     },
     {
+      "id": "erexit3d-370120834",
+      "sourceProductId": "370120834",
+      "store": "Erexit 3D",
+      "domain": "erexit3d.com",
+      "name": "Filamento Hellbot Ecofila PLA Silk 1,75mm 1kg",
+      "category": "Filamentos",
+      "price": 24990,
+      "currency": "ARS",
+      "transferPrice": 23740.5,
+      "stock": 56,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/filamento-hellbot-ecofila-pla-silk-5db607442f1a74ce9e17904601007727-1024-1024.webp",
+      "url": "https://erexit3d.com/productos/filamento-hellbot-ecofila-pla-silk-175mm-1kg-trdlf/",
+      "scrapedFrom": "https://erexit3d.com/productos/page/4/",
+      "variants": [
+        {
+          "id": 1606435044,
+          "sku": "HB-ECOFPLASILK",
+          "price": 24990,
+          "stock": 5,
+          "available": true,
+          "options": [
+            "Azul"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/filamento-hellbot-ecofila-pla-silk-5db607442f1a74ce9e17904601007727-1024-1024.webp"
+        },
+        {
+          "id": 1606442237,
+          "sku": "HB-ECOFPLASILK-VER",
+          "price": 24990,
+          "stock": 8,
+          "available": true,
+          "options": [
+            "Verde"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/filamento-hellbot-ecofila-pla-silk-f8164854d03761c38117904068977455-1024-1024.webp"
+        },
+        {
+          "id": 1606442241,
+          "sku": "HB-ECOFPLASILK-ROJ",
+          "price": 24990,
+          "stock": 6,
+          "available": true,
+          "options": [
+            "Rojo"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/filamento-hellbot-ecofila-pla-silk-edb049df7e3a6cc7f917904069011981-1024-1024.webp"
+        },
+        {
+          "id": 1606442242,
+          "sku": "HB-ECOFPLASILK-CEL",
+          "price": 24990,
+          "stock": 9,
+          "available": true,
+          "options": [
+            "Celeste"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/filamento-hellbot-ecofila-pla-175mm-1kg-lock-d0d26ece6567b1ae5217904069048841-1024-1024.webp"
+        }
+      ]
+    },
+    {
       "id": "erexit3d-370120260",
       "sourceProductId": "370120260",
       "store": "Erexit 3D",
@@ -2859,7 +2808,7 @@
       "price": 24206,
       "currency": "ARS",
       "transferPrice": 22995.7,
-      "stock": 20,
+      "stock": 18,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Elegoo",
@@ -2876,12 +2825,45 @@
           "id": 1606433118,
           "sku": "ELG-ABS1KG-BLA",
           "price": 24206,
-          "stock": 10,
+          "stock": 9,
           "available": true,
           "options": [
             "Blanco"
           ],
           "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/abs-blanco-86c14aad22e2b5378417629590687082-1024-1024-09bc772d25cb1626a917904027989117-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "erexit3d-290802628",
+      "sourceProductId": "290802628",
+      "store": "Erexit 3D",
+      "domain": "erexit3d.com",
+      "name": "Creality K2 Plus Combo | Impresora 3D Multicolor",
+      "category": "Impresoras",
+      "price": 3490000,
+      "currency": "ARS",
+      "transferPrice": 3315500,
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": true,
+      "brand": "Creality",
+      "tags": [
+        "Creality",
+        "multicolor"
+      ],
+      "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/k2pluscombo_var-e47f9c577bf9e6538317564865771348-1024-1024.webp",
+      "url": "https://erexit3d.com/productos/creality-k2-plus-combo/",
+      "scrapedFrom": "https://erexit3d.com/productos/page/4/",
+      "variants": [
+        {
+          "id": 1300266284,
+          "sku": "CREA-K2PLUSCOMB",
+          "price": 3490000,
+          "stock": null,
+          "available": true,
+          "options": [],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/k2pluscombo_var-e47f9c577bf9e6538317564865771348-1024-1024.webp"
         }
       ]
     },
@@ -2983,7 +2965,7 @@
       "price": 25935,
       "currency": "ARS",
       "transferPrice": 24638.25,
-      "stock": 140,
+      "stock": 132,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Elegoo",
@@ -3000,7 +2982,7 @@
           "id": 1606442243,
           "sku": "ELG-PETGPRO-ROJ",
           "price": 25935,
-          "stock": 14,
+          "stock": 13,
           "available": true,
           "options": [
             "Rojo"
@@ -3022,7 +3004,7 @@
           "id": 1606442246,
           "sku": "ELG-PETGPRO-ROS",
           "price": 25935,
-          "stock": 22,
+          "stock": 20,
           "available": true,
           "options": [
             "Rosa"
@@ -3033,7 +3015,7 @@
           "id": 1606442247,
           "sku": "ELG-PETGPRO-GRI",
           "price": 25935,
-          "stock": 19,
+          "stock": 18,
           "available": true,
           "options": [
             "Gris"
@@ -3079,134 +3061,32 @@
       ]
     },
     {
-      "id": "erexit3d-370120834",
-      "sourceProductId": "370120834",
+      "id": "erexit3d-330766321",
+      "sourceProductId": "330766321",
       "store": "Erexit 3D",
       "domain": "erexit3d.com",
-      "name": "Filamento Hellbot Ecofila PLA Silk 1,75mm 1kg",
-      "category": "Filamentos",
-      "price": 24990,
+      "name": "Scanner 3D CR-Scan Otter",
+      "category": "Accesorios",
+      "price": 1584499,
       "currency": "ARS",
-      "transferPrice": 23740.5,
-      "stock": 60,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/filamento-hellbot-ecofila-pla-silk-5db607442f1a74ce9e17904601007727-1024-1024.webp",
-      "url": "https://erexit3d.com/productos/filamento-hellbot-ecofila-pla-silk-175mm-1kg-trdlf/",
-      "scrapedFrom": "https://erexit3d.com/productos/page/4/",
-      "variants": [
-        {
-          "id": 1606435044,
-          "sku": "HB-ECOFPLASILK",
-          "price": 24990,
-          "stock": 6,
-          "available": true,
-          "options": [
-            "Azul"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/filamento-hellbot-ecofila-pla-silk-5db607442f1a74ce9e17904601007727-1024-1024.webp"
-        },
-        {
-          "id": 1606442237,
-          "sku": "HB-ECOFPLASILK-VER",
-          "price": 24990,
-          "stock": 9,
-          "available": true,
-          "options": [
-            "Verde"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/filamento-hellbot-ecofila-pla-silk-f8164854d03761c38117904068977455-1024-1024.webp"
-        },
-        {
-          "id": 1606442241,
-          "sku": "HB-ECOFPLASILK-ROJ",
-          "price": 24990,
-          "stock": 6,
-          "available": true,
-          "options": [
-            "Rojo"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/filamento-hellbot-ecofila-pla-silk-edb049df7e3a6cc7f917904069011981-1024-1024.webp"
-        },
-        {
-          "id": 1606442242,
-          "sku": "HB-ECOFPLASILK-CEL",
-          "price": 24990,
-          "stock": 9,
-          "available": true,
-          "options": [
-            "Celeste"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/filamento-hellbot-ecofila-pla-175mm-1kg-lock-d0d26ece6567b1ae5217904069048841-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "erexit3d-370120708",
-      "sourceProductId": "370120708",
-      "store": "Erexit 3D",
-      "domain": "erexit3d.com",
-      "name": "Filamento Elegoo TPU 95A 1.75mm",
-      "category": "Filamentos",
-      "price": 31112,
-      "currency": "ARS",
-      "transferPrice": 29556.4,
-      "stock": 12,
-      "stockLabel": "En stock",
+      "transferPrice": 1505274.05,
+      "stock": 0,
+      "stockLabel": "Consultar",
       "available": true,
       "brand": null,
       "tags": [],
-      "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/tpu_95a-grey-1kg-8eac243cff0a925cb717891464904604-1024-1024-2d75cf2ed26f12871d17904031586597-1024-1024.webp",
-      "url": "https://erexit3d.com/productos/filamento-elegoo-tpu-95a-1-75mm-1daih/",
+      "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/otter-1-15-2f2ce1c67932e238a917731834484531-1024-1024.webp",
+      "url": "https://erexit3d.com/productos/scanner-3d-cr-scan-otter-creality/",
       "scrapedFrom": "https://erexit3d.com/productos/page/4/",
       "variants": [
         {
-          "id": 1606434564,
-          "sku": "ELG-TPU95A1-GRI",
-          "price": 31112,
-          "stock": 6,
+          "id": 1471931488,
+          "sku": "SCAN-CRSCANOTTE",
+          "price": 1584499,
+          "stock": null,
           "available": true,
-          "options": [
-            "Gris"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/tpu_95a-grey-1kg-8eac243cff0a925cb717891464904604-1024-1024-2d75cf2ed26f12871d17904031586597-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "erexit3d-315080174",
-      "sourceProductId": "315080174",
-      "store": "Erexit 3D",
-      "domain": "erexit3d.com",
-      "name": "CAMARA AD5X CON CABLE FLASHFORGE",
-      "category": "Accesorios",
-      "price": 71100,
-      "currency": "ARS",
-      "transferPrice": 67545,
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Flashforge",
-      "tags": [
-        "Flashforge"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/cmncqzpyxxxvnseg2ukmtrmrapleb2hp2k7srhgufu5fduexzx5mct7zl6gyxxf7__72727-d45d24ad33016cc10e17667794421150-1024-1024.webp",
-      "url": "https://erexit3d.com/productos/camara-ad5x-con-cable-flashforge/",
-      "scrapedFrom": "https://erexit3d.com/productos/page/5/",
-      "variants": [
-        {
-          "id": 1395786756,
-          "sku": "FF-CAMAAD5XCABL",
-          "price": 71100,
-          "stock": 0,
-          "available": false,
           "options": [],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/cmncqzpyxxxvnseg2ukmtrmrapleb2hp2k7srhgufu5fduexzx5mct7zl6gyxxf7__72727-d45d24ad33016cc10e17667794421150-1024-1024.webp"
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/otter-1-15-2f2ce1c67932e238a917731834484531-1024-1024.webp"
         }
       ]
     },
@@ -3240,6 +3120,38 @@
           "available": false,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/combo_1600-1600_f21dce5b-c1a3-4040-a8d7-57912c2856d0-cabab60e81653f7b1d17564860013686-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "erexit3d-305247336",
+      "sourceProductId": "305247336",
+      "store": "Erexit 3D",
+      "domain": "erexit3d.com",
+      "name": "Bambu Lab AMS Lite",
+      "category": "Impresoras",
+      "price": 710900,
+      "currency": "ARS",
+      "transferPrice": 675355,
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab"
+      ],
+      "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/amslite1-8-430a964ca5c1d76c2f17623569440042-1024-1024.webp",
+      "url": "https://erexit3d.com/productos/bambulab-ams-lite-kisgl/",
+      "scrapedFrom": "https://erexit3d.com/productos/page/5/",
+      "variants": [
+        {
+          "id": 1357699519,
+          "sku": "BAMBU-AMSLITE",
+          "price": 710900,
+          "stock": 0,
+          "available": false,
+          "options": [],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/amslite1-8-430a964ca5c1d76c2f17623569440042-1024-1024.webp"
         }
       ]
     },
@@ -3436,35 +3348,34 @@
       ]
     },
     {
-      "id": "erexit3d-290802628",
-      "sourceProductId": "290802628",
+      "id": "erexit3d-370120708",
+      "sourceProductId": "370120708",
       "store": "Erexit 3D",
       "domain": "erexit3d.com",
-      "name": "Creality K2 Plus Combo | Impresora 3D Multicolor",
-      "category": "Impresoras",
-      "price": 3490000,
+      "name": "Filamento Elegoo TPU 95A 1.75mm",
+      "category": "Filamentos",
+      "price": 31112,
       "currency": "ARS",
-      "transferPrice": 3315500,
+      "transferPrice": 29556.4,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
-      "brand": "Creality",
-      "tags": [
-        "Creality",
-        "multicolor"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/k2pluscombo_var-e47f9c577bf9e6538317564865771348-1024-1024.webp",
-      "url": "https://erexit3d.com/productos/creality-k2-plus-combo/",
+      "brand": null,
+      "tags": [],
+      "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/tpu_95a-grey-1kg-8eac243cff0a925cb717891464904604-1024-1024-2d75cf2ed26f12871d17904031586597-1024-1024.webp",
+      "url": "https://erexit3d.com/productos/filamento-elegoo-tpu-95a-1-75mm-1daih/",
       "scrapedFrom": "https://erexit3d.com/productos/page/5/",
       "variants": [
         {
-          "id": 1300266284,
-          "sku": "CREA-K2PLUSCOMB",
-          "price": 3490000,
+          "id": 1606434564,
+          "sku": "ELG-TPU95A1-GRI",
+          "price": 31112,
           "stock": 0,
           "available": false,
-          "options": [],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/k2pluscombo_var-e47f9c577bf9e6538317564865771348-1024-1024.webp"
+          "options": [
+            "Gris"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/tpu_95a-grey-1kg-8eac243cff0a925cb717891464904604-1024-1024-2d75cf2ed26f12871d17904031586597-1024-1024.webp"
         }
       ]
     },

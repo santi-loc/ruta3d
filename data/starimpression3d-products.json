@@ -5,7 +5,7 @@
     "baseUrl": "https://starimpression3d.com",
     "apiPath": "/wp-json/wc/store/v1/products"
   },
-  "scrapedAt": "2026-10-04T15:44:35.201Z",
+  "scrapedAt": "2026-10-05T16:59:22.535Z",
   "count": 389,
   "pages": [
     {
@@ -172,7 +172,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 99,
+      "stock": 94,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -4853,9 +4853,9 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
-      "available": true,
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": null,
       "tags": [
         "PLA",
@@ -7499,8 +7499,8 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 4,
-      "stockLabel": "En stock",
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Bambu lab",
       "tags": [
