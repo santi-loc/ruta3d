@@ -4,8 +4,8 @@
     "domain": "globalvalue.ar",
     "baseUrl": "https://globalvalue.ar"
   },
-  "scrapedAt": "2026-10-05T16:58:51.524Z",
-  "count": 209,
+  "scrapedAt": "2026-10-06T14:55:27.504Z",
+  "count": 211,
   "pages": [
     {
       "page": 1,
@@ -16,38 +16,38 @@
     {
       "page": 2,
       "url": "https://globalvalue.ar/shop/page/2",
-      "found": 17,
-      "added": 17
-    },
-    {
-      "page": 3,
-      "url": "https://globalvalue.ar/shop/page/3",
       "found": 18,
       "added": 18
     },
     {
-      "page": 4,
-      "url": "https://globalvalue.ar/shop/page/4",
+      "page": 3,
+      "url": "https://globalvalue.ar/shop/page/3",
       "found": 17,
       "added": 17
+    },
+    {
+      "page": 4,
+      "url": "https://globalvalue.ar/shop/page/4",
+      "found": 18,
+      "added": 18
     },
     {
       "page": 5,
       "url": "https://globalvalue.ar/shop/page/5",
-      "found": 17,
-      "added": 17
+      "found": 16,
+      "added": 16
     },
     {
       "page": 6,
       "url": "https://globalvalue.ar/shop/page/6",
-      "found": 16,
-      "added": 16
+      "found": 18,
+      "added": 18
     },
     {
       "page": 7,
       "url": "https://globalvalue.ar/shop/page/7",
-      "found": 16,
-      "added": 16
+      "found": 14,
+      "added": 14
     },
     {
       "page": 8,
@@ -58,8 +58,8 @@
     {
       "page": 9,
       "url": "https://globalvalue.ar/shop/page/9",
-      "found": 15,
-      "added": 15
+      "found": 16,
+      "added": 16
     },
     {
       "page": 10,
@@ -70,20 +70,20 @@
     {
       "page": 11,
       "url": "https://globalvalue.ar/shop/page/11",
-      "found": 12,
-      "added": 12
+      "found": 11,
+      "added": 11
     },
     {
       "page": 12,
       "url": "https://globalvalue.ar/shop/page/12",
-      "found": 13,
-      "added": 13
+      "found": 15,
+      "added": 15
     },
     {
       "page": 13,
       "url": "https://globalvalue.ar/shop/page/13",
-      "found": 10,
-      "added": 10
+      "found": 9,
+      "added": 9
     },
     {
       "page": 14,
@@ -94,8 +94,8 @@
     {
       "page": 15,
       "url": "https://globalvalue.ar/shop/page/15",
-      "found": 8,
-      "added": 8
+      "found": 9,
+      "added": 9
     },
     {
       "page": 16,
@@ -105,6 +105,86 @@
     }
   ],
   "products": [
+    {
+      "id": "globalvalue-4085",
+      "sourceProductId": "4096",
+      "store": "Global Value",
+      "domain": "globalvalue.ar",
+      "name": "Grabadora y Cortadora Laser Atomstack Glacier 120w",
+      "category": "Corte láser",
+      "price": 11249910,
+      "currency": "ARS",
+      "previousPrice": 12499900,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Laser"
+      ],
+      "image": "https://globalvalue.ar/web/image/product.template/4085/image_512",
+      "url": "https://globalvalue.ar/shop/000549-grabadora-y-cortadora-laser-atomstack-glacier-120w-4085",
+      "scrapedFrom": "https://globalvalue.ar/shop",
+      "variants": []
+    },
+    {
+      "id": "globalvalue-4084",
+      "sourceProductId": "4095",
+      "store": "Global Value",
+      "domain": "globalvalue.ar",
+      "name": "CNC Grabadora y Cortadora Laser 100 x 100 40w ópticos + Asistente de aire",
+      "category": "Corte láser",
+      "price": 3509910,
+      "currency": "ARS",
+      "previousPrice": 3899900,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Laser",
+        "CNC"
+      ],
+      "image": "https://globalvalue.ar/web/image/product.template/4084/image_512",
+      "url": "https://globalvalue.ar/shop/000548-cnc-grabadora-y-cortadora-laser-100-x-100-40w-opticos-asistente-de-aire-4084",
+      "scrapedFrom": "https://globalvalue.ar/shop",
+      "variants": []
+    },
+    {
+      "id": "globalvalue-3867",
+      "sourceProductId": "3877",
+      "store": "Global Value",
+      "domain": "globalvalue.ar",
+      "name": "Creality Cabezal Laser Infrarrojo 2W",
+      "category": "Corte láser",
+      "price": 1349910,
+      "currency": "ARS",
+      "previousPrice": 1499900,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Creality",
+      "tags": [
+        "Creality",
+        "Laser"
+      ],
+      "image": "https://globalvalue.ar/web/image/product.template/3867/image_512",
+      "url": "https://globalvalue.ar/shop/000464-creality-cabezal-laser-infrarrojo-2w-3867",
+      "scrapedFrom": "https://globalvalue.ar/shop",
+      "variants": []
+    },
     {
       "id": "globalvalue-3835",
       "sourceProductId": "3908",
@@ -581,8 +661,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3756/image_512",
-      "url": "https://globalvalue.ar/shop/000345-cabezal-laser-5-5w-algolaser-3756",
-      "scrapedFrom": "https://globalvalue.ar/shop",
+      "url": "https://globalvalue.ar/shop/000345-cabezal-laser-5-5w-algolaser-3756?page=2",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/2",
       "variants": []
     },
     {
@@ -607,8 +687,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3751/image_512",
-      "url": "https://globalvalue.ar/shop/000341-kit-de-limpieza-lentes-cabezales-laser-3751",
-      "scrapedFrom": "https://globalvalue.ar/shop",
+      "url": "https://globalvalue.ar/shop/000341-kit-de-limpieza-lentes-cabezales-laser-3751?page=2",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/2",
       "variants": []
     },
     {
@@ -633,8 +713,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3750/image_512",
-      "url": "https://globalvalue.ar/shop/000340-tinta-laserable-50-gr-3750",
-      "scrapedFrom": "https://globalvalue.ar/shop",
+      "url": "https://globalvalue.ar/shop/000340-tinta-laserable-50-gr-3750?page=2",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/2",
       "variants": []
     },
     {
@@ -1062,8 +1142,8 @@
         "Fibra"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3644/image_512",
-      "url": "https://globalvalue.ar/shop/000137-laser-de-fibra-rayzen-20w-3644?page=2",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/2",
+      "url": "https://globalvalue.ar/shop/000137-laser-de-fibra-rayzen-20w-3644?page=3",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/3",
       "variants": []
     },
     {
@@ -1089,8 +1169,8 @@
         "Fibra"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3636/image_512",
-      "url": "https://globalvalue.ar/shop/000135-laser-de-fibra-rayzen-noir-20w-3636?page=2",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/2",
+      "url": "https://globalvalue.ar/shop/000135-laser-de-fibra-rayzen-noir-20w-3636?page=3",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/3",
       "variants": []
     },
     {
@@ -1514,8 +1594,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3439/image_512",
-      "url": "https://globalvalue.ar/shop/000113-cabezal-algolaser-10w-3439?page=3",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/3",
+      "url": "https://globalvalue.ar/shop/000113-cabezal-algolaser-10w-3439?page=4",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/4",
       "variants": []
     },
     {
@@ -1541,8 +1621,8 @@
         "Rotatorio"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3438/image_512",
-      "url": "https://globalvalue.ar/shop/000115-rotativo-algo-laser-arr-2-0-mini-para-pixi-3438?page=3",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/3",
+      "url": "https://globalvalue.ar/shop/000115-rotativo-algo-laser-arr-2-0-mini-para-pixi-3438?page=4",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/4",
       "variants": []
     },
     {
@@ -1568,8 +1648,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3437/image_512",
-      "url": "https://globalvalue.ar/shop/000116-asistente-de-aire-algolaser-1-0-220v-3437?page=3",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/3",
+      "url": "https://globalvalue.ar/shop/000116-asistente-de-aire-algolaser-1-0-220v-3437?page=4",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/4",
       "variants": []
     },
     {
@@ -1990,36 +2070,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3161/image_512",
-      "url": "https://globalvalue.ar/shop/000046-mdf-kit-10-unidades-40x40cm-3mm-para-corte-y-grabado-laser-3161?page=4",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/4",
-      "variants": []
-    },
-    {
-      "id": "globalvalue-3156",
-      "sourceProductId": "3158",
-      "store": "Global Value",
-      "domain": "globalvalue.ar",
-      "name": "Cnc Corte Laser Lasertree K1 Max 60W 800*600MM + Panal de Abejas + Bomba de Aire",
-      "category": "Corte láser",
-      "price": 4949910,
-      "currency": "ARS",
-      "previousPrice": 5499900,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "Laser",
-        "CNC",
-        "Panal"
-      ],
-      "image": "https://globalvalue.ar/web/image/product.template/3156/image_512",
-      "url": "https://globalvalue.ar/shop/000044-cnc-corte-laser-lasertree-k1-max-60w-800-600mm-panal-de-abejas-bomba-de-aire-3156?page=4",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/4",
+      "url": "https://globalvalue.ar/shop/000046-mdf-kit-10-unidades-40x40cm-3mm-para-corte-y-grabado-laser-3161?page=5",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/5",
       "variants": []
     },
     {
@@ -2448,8 +2500,8 @@
         "Rotatorio"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3123/image_512",
-      "url": "https://globalvalue.ar/shop/000015-accesorio-rotativo-4-eje-para-ttc-450-450-pro-6050-h40-3123?page=5",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/5",
+      "url": "https://globalvalue.ar/shop/000015-accesorio-rotativo-4-eje-para-ttc-450-450-pro-6050-h40-3123?page=6",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/6",
       "variants": []
     },
     {
@@ -2475,8 +2527,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3122/image_512",
-      "url": "https://globalvalue.ar/shop/000014-grabadora-laser-two-trees-ts5-3122?page=5",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/5",
+      "url": "https://globalvalue.ar/shop/000014-grabadora-laser-two-trees-ts5-3122?page=6",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/6",
       "variants": []
     },
     {
@@ -3289,8 +3341,8 @@
         "Diodo"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2720/image_512",
-      "url": "https://globalvalue.ar/shop/000355-laser-portatil-dual-fibra-20w-y-diodo-5w-wainlux-z6-2720?page=7",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/7",
+      "url": "https://globalvalue.ar/shop/000355-laser-portatil-dual-fibra-20w-y-diodo-5w-wainlux-z6-2720?page=8",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/8",
       "variants": []
     },
     {
@@ -3315,8 +3367,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2719/image_512",
-      "url": "https://globalvalue.ar/shop/000352-mini-laser-portatil-wainlux-z4-puede-grabar-en-360-grados-2719?page=7",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/7",
+      "url": "https://globalvalue.ar/shop/000352-mini-laser-portatil-wainlux-z4-puede-grabar-en-360-grados-2719?page=8",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/8",
       "variants": []
     },
     {
@@ -3718,8 +3770,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2697/image_512",
-      "url": "https://globalvalue.ar/shop/000208-laser-grabado-y-corte-sculpfun-icube-pro-max-10w-2697?page=8",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/8",
+      "url": "https://globalvalue.ar/shop/000208-laser-grabado-y-corte-sculpfun-icube-pro-max-10w-2697?page=9",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/9",
       "variants": []
     },
     {
@@ -3746,8 +3798,8 @@
         "CO2"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2696/image_512",
-      "url": "https://globalvalue.ar/shop/000158-cnc-laser-co2-50w-40x40-cm-placa-ruida-2696?page=8",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/8",
+      "url": "https://globalvalue.ar/shop/000158-cnc-laser-co2-50w-40x40-cm-placa-ruida-2696?page=9",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/9",
       "variants": []
     },
     {
@@ -4147,8 +4199,8 @@
       "brand": null,
       "tags": [],
       "image": "https://globalvalue.ar/web/image/product.template/2671/image_512",
-      "url": "https://globalvalue.ar/shop/000157-mr-carve-daja-a6-pro-dual-10w-1w-infrarojo-con-cobertor-2671?page=9",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/9",
+      "url": "https://globalvalue.ar/shop/000157-mr-carve-daja-a6-pro-dual-10w-1w-infrarojo-con-cobertor-2671?page=10",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/10",
       "variants": []
     },
     {
@@ -4364,8 +4416,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2645/image_512",
-      "url": "https://globalvalue.ar/shop/000196-kit-de-extension-ortur-laser-master-3-olm3-80x41-cm-2645?page=10",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/10",
+      "url": "https://globalvalue.ar/shop/000196-kit-de-extension-ortur-laser-master-3-olm3-80x41-cm-2645?page=11",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/11",
       "variants": []
     },
     {
@@ -4651,8 +4703,8 @@
         "CNC"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2626/image_512",
-      "url": "https://globalvalue.ar/shop/000313-set-10-fresas-para-cnc-3018-pcb-metales-madera-plastico-2626?page=11",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/11",
+      "url": "https://globalvalue.ar/shop/000313-set-10-fresas-para-cnc-3018-pcb-metales-madera-plastico-2626?page=12",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/12",
       "variants": []
     },
     {
@@ -4675,8 +4727,8 @@
       "brand": null,
       "tags": [],
       "image": "https://globalvalue.ar/web/image/product.template/2625/image_512",
-      "url": "https://globalvalue.ar/shop/000314-10-fresas-nano-para-pcb-metales-madera-plastico-2625?page=11",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/11",
+      "url": "https://globalvalue.ar/shop/000314-10-fresas-nano-para-pcb-metales-madera-plastico-2625?page=12",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/12",
       "variants": []
     },
     {
@@ -5275,8 +5327,8 @@
       "brand": null,
       "tags": [],
       "image": "https://globalvalue.ar/web/image/product.template/2574/image_512",
-      "url": "https://globalvalue.ar/shop/000151-atomstack-i-kier-k1-pro-24w-opticos-2574?page=13",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/13",
+      "url": "https://globalvalue.ar/shop/000151-atomstack-i-kier-k1-pro-24w-opticos-2574?page=14",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/14",
       "variants": []
     },
     {
@@ -5425,8 +5477,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2547/image_512",
-      "url": "https://globalvalue.ar/shop/000276-cabezal-laser-80w-10w-opticos-lt80-2547?page=14",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/14",
+      "url": "https://globalvalue.ar/shop/000276-cabezal-laser-80w-10w-opticos-lt80-2547?page=15",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/15",
       "variants": []
     },
     {

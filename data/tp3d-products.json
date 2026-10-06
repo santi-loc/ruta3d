@@ -4,8 +4,8 @@
     "domain": "tp3d.com.ar",
     "baseUrl": "https://tp3d.com.ar"
   },
-  "scrapedAt": "2026-10-05T16:58:59.106Z",
-  "count": 497,
+  "scrapedAt": "2026-10-06T14:55:33.618Z",
+  "count": 500,
   "pages": [
     {
       "listing": "Insumos",
@@ -32,8 +32,8 @@
       "listing": "Insumos",
       "page": 4,
       "url": "https://tp3d.com.ar/127-insumos?page=4",
-      "found": 11,
-      "added": 11
+      "found": 14,
+      "added": 14
     },
     {
       "listing": "Impresoras FDM",
@@ -1469,6 +1469,56 @@
       "variants": []
     },
     {
+      "id": "tp3d-2804",
+      "sourceProductId": "2804",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Filamento Bambu Lab PLA Matte Recarga 1kg 1,75mm",
+      "category": "Filamentos",
+      "price": 27200,
+      "currency": "ARS",
+      "transferPrice": 25840,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA",
+        "Bambu Lab",
+        "1kg",
+        "Insumos"
+      ],
+      "image": "https://tp3d.com.ar/11317-large_default/filamento-bambu-lab-pla-matte-recarga-1kg-175mm.jpg",
+      "url": "https://tp3d.com.ar/filamentos-3d/2804-2078-filamento-bambu-lab-pla-matte-recarga-1kg-175mm.html#/21-color-beige",
+      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=3",
+      "variants": []
+    },
+    {
+      "id": "tp3d-2805",
+      "sourceProductId": "2805",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Filamento Bambu Lab PLA Silk+ 1kg 1,75mm",
+      "category": "Filamentos",
+      "price": 29490,
+      "currency": "ARS",
+      "transferPrice": 28016,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA",
+        "Bambu Lab",
+        "1kg",
+        "Insumos"
+      ],
+      "image": "https://tp3d.com.ar/11345-large_default/filamento-bambu-lab-pla-matte-recarga-1kg-175mm.jpg",
+      "url": "https://tp3d.com.ar/filamentos-3d/2805-2086-filamento-bambu-lab-pla-matte-recarga-1kg-175mm.html#/69-color-dorado",
+      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=3",
+      "variants": []
+    },
+    {
       "id": "tp3d-2658",
       "sourceProductId": "2658",
       "store": "TP3D",
@@ -1906,7 +1956,7 @@
       ],
       "image": "https://tp3d.com.ar/1924-large_default/resina-creality-alta-velocidad-azul-1kg-botella-plastica.jpg",
       "url": "https://tp3d.com.ar/resinas-3d/1174-resina-creality-alta-velocidad-azul-1kg-botella-plastica.html",
-      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=3",
+      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=4",
       "variants": []
     },
     {
@@ -1929,7 +1979,7 @@
       ],
       "image": "https://tp3d.com.ar/1908-large_default/resina-lavable-al-agua-hellbot-x-250ml.jpg",
       "url": "https://tp3d.com.ar/resinas-3d/1124-98-resina-lavable-al-agua-hellbot-x-250ml.html#/4-color-negro",
-      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=3",
+      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=4",
       "variants": []
     },
     {
@@ -2198,6 +2248,31 @@
       "variants": []
     },
     {
+      "id": "tp3d-2780",
+      "sourceProductId": "2780",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Filamento Bambu Lab PLA Fluorescente 1kg 1,75mm",
+      "category": "Filamentos",
+      "price": 37900,
+      "currency": "ARS",
+      "transferPrice": 36005,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA",
+        "Bambu Lab",
+        "1kg",
+        "Insumos"
+      ],
+      "image": "https://tp3d.com.ar/11079-large_default/filamento-bambu-lab-pla-fluorescente-1kg-175mm.jpg",
+      "url": "https://tp3d.com.ar/filamentos-3d/2780-2042-filamento-bambu-lab-pla-fluorescente-1kg-175mm.html#/243-color-verde_brillante",
+      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=4",
+      "variants": []
+    },
+    {
       "id": "tp3d-1886",
       "sourceProductId": "1886",
       "store": "TP3D",
@@ -2265,30 +2340,6 @@
       ],
       "image": "https://tp3d.com.ar/5127-large_default/impresora-bambulab-a1-mini-combo.jpg",
       "url": "https://tp3d.com.ar/impresoras-fdm/1654-impresora-bambulab-a1-mini-combo.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm",
-      "variants": []
-    },
-    {
-      "id": "tp3d-2392",
-      "sourceProductId": "2392",
-      "store": "TP3D",
-      "domain": "tp3d.com.ar",
-      "name": "Impresora 3D Creality K2 PRO Combo FDM",
-      "category": "Impresoras",
-      "price": 1889399,
-      "currency": "ARS",
-      "transferPrice": 1794929,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "Creality",
-        "combo",
-        "Impresoras FDM"
-      ],
-      "image": "https://tp3d.com.ar/7235-large_default/impresora-3d-creality-k2-pro-combo-fdm.jpg",
-      "url": "https://tp3d.com.ar/impresoras-fdm/2392-impresora-3d-creality-k2-pro-combo-fdm.html",
       "scrapedFrom": "https://tp3d.com.ar/203-all-fdm",
       "variants": []
     },
@@ -2789,7 +2840,7 @@
       ],
       "image": "https://tp3d.com.ar/7038-large_default/impresora-3d-creality-k2-plus-combo-fdm.jpg",
       "url": "https://tp3d.com.ar/impresoras-fdm/1850-impresora-3d-creality-k2-plus-combo-fdm.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=2",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm",
       "variants": []
     },
     {
@@ -3275,6 +3326,30 @@
       ],
       "image": "https://tp3d.com.ar/7207-large_default/impresora-3d-creality-k2-combo-fdm.jpg",
       "url": "https://tp3d.com.ar/impresoras-fdm/2390-impresora-3d-creality-k2-combo-fdm.html",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=2",
+      "variants": []
+    },
+    {
+      "id": "tp3d-2392",
+      "sourceProductId": "2392",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Impresora 3D Creality K2 PRO Combo FDM",
+      "category": "Impresoras",
+      "price": 1889399,
+      "currency": "ARS",
+      "transferPrice": 1794929,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Creality",
+        "combo",
+        "Impresoras FDM"
+      ],
+      "image": "https://tp3d.com.ar/7235-large_default/impresora-3d-creality-k2-pro-combo-fdm.jpg",
+      "url": "https://tp3d.com.ar/impresoras-fdm/2392-impresora-3d-creality-k2-pro-combo-fdm.html",
       "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=2",
       "variants": []
     },
@@ -4450,29 +4525,6 @@
       "variants": []
     },
     {
-      "id": "tp3d-2518",
-      "sourceProductId": "2518",
-      "store": "TP3D",
-      "domain": "tp3d.com.ar",
-      "name": "Refurbished Impresora 3D Creality Halot R6 DLP Resina",
-      "category": "Resina",
-      "price": 265000,
-      "currency": "ARS",
-      "transferPrice": 251750,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "Creality",
-        "Impresoras Resina"
-      ],
-      "image": "https://tp3d.com.ar/8429-large_default/refurbished-impresora-3d-creality-halot-r6-dlp-resina.jpg",
-      "url": "https://tp3d.com.ar/outlet/2518-refurbished-impresora-3d-creality-halot-r6-dlp-resina.html",
-      "scrapedFrom": "https://tp3d.com.ar/7-impresoras-resina",
-      "variants": []
-    },
-    {
       "id": "tp3d-2687",
       "sourceProductId": "2687",
       "store": "TP3D",
@@ -4700,6 +4752,29 @@
       ],
       "image": "https://tp3d.com.ar/6400-large_default/refurbished-impresora-3d-hellbot-apolo-pro-plus-dlp.jpg",
       "url": "https://tp3d.com.ar/outlet/2252-refurbished-impresora-3d-hellbot-apolo-pro-plus-dlp.html",
+      "scrapedFrom": "https://tp3d.com.ar/7-impresoras-resina",
+      "variants": []
+    },
+    {
+      "id": "tp3d-2518",
+      "sourceProductId": "2518",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Refurbished Impresora 3D Creality Halot R6 DLP Resina",
+      "category": "Resina",
+      "price": 265000,
+      "currency": "ARS",
+      "transferPrice": 251750,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Creality",
+        "Impresoras Resina"
+      ],
+      "image": "https://tp3d.com.ar/8429-large_default/refurbished-impresora-3d-creality-halot-r6-dlp-resina.jpg",
+      "url": "https://tp3d.com.ar/outlet/2518-refurbished-impresora-3d-creality-halot-r6-dlp-resina.html",
       "scrapedFrom": "https://tp3d.com.ar/7-impresoras-resina",
       "variants": []
     },
@@ -7327,29 +7402,6 @@
       "variants": []
     },
     {
-      "id": "tp3d-463",
-      "sourceProductId": "463",
-      "store": "TP3D",
-      "domain": "tp3d.com.ar",
-      "name": "Motor nema de eje X e Y Hellbot Magna 2",
-      "category": "Repuestos",
-      "price": 24600,
-      "currency": "ARS",
-      "transferPrice": 23370,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "Hellbot",
-        "Repuestos"
-      ],
-      "image": "https://tp3d.com.ar/843-large_default/motor-nema-de-eje-x-e-y-hellbot-magna-2.jpg",
-      "url": "https://tp3d.com.ar/partes-y-repuestos/463-motor-nema-de-eje-x-e-y-hellbot-magna-2.html",
-      "scrapedFrom": "https://tp3d.com.ar/10-partes-y-repuestos?page=5",
-      "variants": []
-    },
-    {
       "id": "tp3d-554",
       "sourceProductId": "554",
       "store": "TP3D",
@@ -7551,7 +7603,7 @@
       ],
       "image": "https://tp3d.com.ar/1020-large_default/cable-endstop-wanhao-d9-eje-y.jpg",
       "url": "https://tp3d.com.ar/partes-y-repuestos/228-cable-endstop-wanhao-d9-eje-y.html",
-      "scrapedFrom": "https://tp3d.com.ar/10-partes-y-repuestos?page=6",
+      "scrapedFrom": "https://tp3d.com.ar/10-partes-y-repuestos?page=5",
       "variants": []
     },
     {
@@ -8102,7 +8154,7 @@
       ],
       "image": "https://tp3d.com.ar/495-large_default/placa-madre-hellbot-apolo-mono.jpg",
       "url": "https://tp3d.com.ar/partes-y-repuestos/761-placa-madre-hellbot-apolo-mono.html",
-      "scrapedFrom": "https://tp3d.com.ar/10-partes-y-repuestos?page=7",
+      "scrapedFrom": "https://tp3d.com.ar/10-partes-y-repuestos?page=6",
       "variants": []
     },
     {
@@ -8656,7 +8708,7 @@
       ],
       "image": "https://tp3d.com.ar/1497-large_default/cable-de-touchscreen-hellbot-magna-se-300.jpg",
       "url": "https://tp3d.com.ar/partes-y-repuestos/1046-cable-de-touchscreen-hellbot-magna-se-300.html",
-      "scrapedFrom": "https://tp3d.com.ar/10-partes-y-repuestos?page=8",
+      "scrapedFrom": "https://tp3d.com.ar/10-partes-y-repuestos?page=7",
       "variants": []
     },
     {
@@ -9183,6 +9235,28 @@
       ],
       "image": "https://tp3d.com.ar/1039-large_default/cable-de-extrusor-2-tramo-1-hellbot-magna-2-300-400.jpg",
       "url": "https://tp3d.com.ar/partes-y-repuestos/191-cable-de-extrusor-2-tramo-1-hellbot-magna-2-300-400.html",
+      "scrapedFrom": "https://tp3d.com.ar/10-partes-y-repuestos?page=8",
+      "variants": []
+    },
+    {
+      "id": "tp3d-192",
+      "sourceProductId": "192",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Cable de extrusor",
+      "category": "Repuestos",
+      "price": 10550,
+      "currency": "ARS",
+      "transferPrice": null,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Repuestos"
+      ],
+      "image": "https://tp3d.com.ar/1325-large_default/cable-de-extrusor-wanhao.jpg",
+      "url": "https://tp3d.com.ar/partes-y-repuestos/192-cable-de-extrusor-wanhao.html",
       "scrapedFrom": "https://tp3d.com.ar/10-partes-y-repuestos?page=8",
       "variants": []
     },

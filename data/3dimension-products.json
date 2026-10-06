@@ -4,7 +4,7 @@
     "domain": "3dimension.empretienda.com.ar",
     "baseUrl": "https://3dimension.empretienda.com.ar"
   },
-  "scrapedAt": "2026-10-05T16:58:27.966Z",
+  "scrapedAt": "2026-10-06T14:55:08.126Z",
   "count": 14,
   "pages": [
     {
@@ -423,14 +423,16 @@
       "domain": "3dimension.empretienda.com.ar",
       "name": "Laser de Fibra 30W - FD-30",
       "category": "Corte láser",
-      "price": 6265000,
+      "price": 6654000,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
       "brand": null,
       "tags": [
         "Corte láser",

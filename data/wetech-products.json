@@ -5,7 +5,7 @@
     "baseUrl": "https://shop.wetech.ar",
     "listingPath": "/products"
   },
-  "scrapedAt": "2026-10-05T16:59:13.699Z",
+  "scrapedAt": "2026-10-06T14:55:43.819Z",
   "count": 293,
   "pages": [
     {
@@ -129,7 +129,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 16999.15,
-      "stock": 61,
+      "stock": 55,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3n3",
@@ -230,7 +230,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 12499.25,
-      "stock": 421,
+      "stock": 391,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3n3",
@@ -369,7 +369,7 @@
         },
         {
           "id": "3N-PLA-1KG-GRAC",
-          "available": true,
+          "available": false,
           "price": 23528,
           "options": [
             "Gris Acero",
@@ -417,7 +417,7 @@
         },
         {
           "id": "3N-PLA-1KG-NEGR",
-          "available": true,
+          "available": false,
           "price": 23528,
           "options": [
             "Negro",
@@ -453,7 +453,7 @@
         },
         {
           "id": "3N-PLA-1KG-RUST",
-          "available": true,
+          "available": false,
           "price": 23528,
           "options": [
             "Rustico",
@@ -489,7 +489,7 @@
         },
         {
           "id": "3N-PLA-1KG-VERD",
-          "available": true,
+          "available": false,
           "price": 23528,
           "options": [
             "Verde Jade Perlado",
@@ -1104,7 +1104,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 16499.35,
-      "stock": 227,
+      "stock": 219,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3nMax",
@@ -1207,7 +1207,7 @@
         },
         {
           "id": "3X-PLA-1KG-LILA",
-          "available": true,
+          "available": false,
           "price": 23528,
           "options": [
             "Lila",
@@ -1698,7 +1698,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 5097.96,
-      "stock": 20,
+      "stock": 19,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -2622,7 +2622,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 8924.03,
-      "stock": 11,
+      "stock": 10,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -4662,7 +4662,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 56099.15,
-      "stock": 9,
+      "stock": 7,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -7756,7 +7756,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 8499.03,
-      "stock": 86,
+      "stock": 84,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -8340,7 +8340,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 19499,
-      "stock": 170,
+      "stock": 161,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -8809,7 +8809,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 37999.25,
-      "stock": 30,
+      "stock": 28,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -9011,7 +9011,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 25998.95,
-      "stock": 139,
+      "stock": 136,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -9257,7 +9257,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 23499.1,
-      "stock": 364,
+      "stock": 354,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -10764,7 +10764,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 18999.2,
-      "stock": 432,
+      "stock": 487,
       "stockLabel": "En stock",
       "available": true,
       "brand": "GST3D",
@@ -10854,7 +10854,7 @@
         },
         {
           "id": "GSB-PLA-1KG-NASU",
-          "available": false,
+          "available": true,
           "price": 22352,
           "options": [
             "Nafta Super",
@@ -10950,7 +10950,7 @@
         },
         {
           "id": "GSB-PLA-1KG-FUCS",
-          "available": false,
+          "available": true,
           "price": 22352,
           "options": [
             "Fucsia",
@@ -11946,7 +11946,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 18999.2,
-      "stock": 487,
+      "stock": 443,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -13549,9 +13549,9 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 2974.11,
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
+      "available": true,
       "brand": null,
       "tags": [
         "Accesorios / Mejoras (upgrades)"
@@ -13562,7 +13562,7 @@
       "variants": [
         {
           "id": "HELLTAPITAS LOCK",
-          "available": false,
+          "available": true,
           "price": 3498.96,
           "options": []
         }

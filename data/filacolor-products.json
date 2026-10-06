@@ -5,14 +5,14 @@
     "baseUrl": "https://filacolor.com.ar",
     "apiPath": "/wp-json/wc/store/v1/products"
   },
-  "scrapedAt": "2026-10-05T16:58:32.559Z",
+  "scrapedAt": "2026-10-06T14:55:10.020Z",
   "source": "https://filacolor.com.ar/wp-json/wc/store/v1/products",
   "pages": [
     {
       "page": 1,
       "url": "https://filacolor.com.ar/wp-json/wc/store/v1/products?per_page=100&page=1",
-      "found": 49,
-      "added": 38
+      "found": 48,
+      "added": 37
     }
   ],
   "products": [
@@ -39,6 +39,14 @@
       "url": "https://filacolor.com.ar/producto/3n3-pla/",
       "scrapedFrom": "https://filacolor.com.ar/wp-json/wc/store/v1/products",
       "variants": [
+        {
+          "id": "filacolor-5451",
+          "sku": "5451",
+          "available": true,
+          "options": [
+            "Colores: blanco"
+          ]
+        },
         {
           "id": "filacolor-5452",
           "sku": "5452",
@@ -241,6 +249,14 @@
       "scrapedFrom": "https://filacolor.com.ar/wp-json/wc/store/v1/products",
       "variants": [
         {
+          "id": "filacolor-11181",
+          "sku": "11181",
+          "available": true,
+          "options": [
+            "Colores: amarillo"
+          ]
+        },
+        {
           "id": "filacolor-11182",
           "sku": "11182",
           "available": true,
@@ -257,11 +273,35 @@
           ]
         },
         {
-          "id": "filacolor-10290",
-          "sku": "10290",
+          "id": "filacolor-11184",
+          "sku": "11184",
           "available": true,
           "options": [
-            "Colores: gris-plomo"
+            "Colores: lila"
+          ]
+        },
+        {
+          "id": "filacolor-11058",
+          "sku": "11058",
+          "available": true,
+          "options": [
+            "Colores: rojo"
+          ]
+        },
+        {
+          "id": "filacolor-10289",
+          "sku": "10289",
+          "available": true,
+          "options": [
+            "Colores: blanco"
+          ]
+        },
+        {
+          "id": "filacolor-6481",
+          "sku": "6481",
+          "available": true,
+          "options": [
+            "Colores: negro"
           ]
         }
       ]
@@ -1018,40 +1058,6 @@
       ]
     },
     {
-      "id": "filacolor-7874",
-      "sourceProductId": "7874",
-      "store": "Filacolor",
-      "domain": "filacolor.com.ar",
-      "name": "Ender Pla Series",
-      "category": "Filamentos",
-      "price": 21000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Creality",
-      "tags": [
-        "Creality",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://filacolor.com.ar/wp-content/uploads/2025/09/AMARILLO-ENDER-PLA-CREALITY-Filamento-3D-1.75-1KG-1-1.webp",
-      "url": "https://filacolor.com.ar/producto/ender-pla-series-2/",
-      "scrapedFrom": "https://filacolor.com.ar/wp-json/wc/store/v1/products",
-      "variants": [
-        {
-          "id": "filacolor-7883",
-          "sku": "7883",
-          "available": true,
-          "options": [
-            "Colores: azul"
-          ]
-        }
-      ]
-    },
-    {
       "id": "filacolor-7861",
       "sourceProductId": "7861",
       "store": "Filacolor",
@@ -1269,14 +1275,6 @@
           ]
         },
         {
-          "id": "filacolor-5354",
-          "sku": "5354",
-          "available": true,
-          "options": [
-            "Colores: blanco"
-          ]
-        },
-        {
           "id": "filacolor-5356",
           "sku": "5356",
           "available": true,
@@ -1338,14 +1336,6 @@
           "available": true,
           "options": [
             "Colores: natural"
-          ]
-        },
-        {
-          "id": "filacolor-5374",
-          "sku": "5374",
-          "available": true,
-          "options": [
-            "Colores: negro"
           ]
         },
         {

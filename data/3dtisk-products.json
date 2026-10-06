@@ -5,8 +5,8 @@
     "baseUrl": "https://3dtisk.com.ar",
     "listingPath": "/productos/"
   },
-  "scrapedAt": "2026-10-05T16:58:31.307Z",
-  "count": 176,
+  "scrapedAt": "2026-10-06T14:55:10.330Z",
+  "count": 178,
   "pages": [
     {
       "page": 1,
@@ -24,7 +24,7 @@
       "page": 3,
       "url": "https://3dtisk.com.ar/productos/?page=3",
       "found": 35,
-      "added": 33
+      "added": 35
     },
     {
       "page": 4,
@@ -93,8 +93,8 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 6,
-      "stockLabel": "En stock",
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Hellbot",
       "tags": [
@@ -109,7 +109,7 @@
           "sku": "52",
           "price": 17850,
           "isDeposit": false,
-          "stock": 3,
+          "stock": 1,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084202391051-1da7f1851c9154605f17775813240064-1024-1024.webp"
@@ -128,7 +128,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 130,
+      "stock": 120,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -144,7 +144,7 @@
           "sku": "40",
           "price": 17850,
           "isDeposit": false,
-          "stock": 65,
+          "stock": 60,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084184182211-7589eebfbfdc1a37d317775813516820-1024-1024.webp"
@@ -163,7 +163,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 46,
+      "stock": 56,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -179,7 +179,7 @@
           "sku": "41",
           "price": 17850,
           "isDeposit": false,
-          "stock": 23,
+          "stock": 28,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084185482046-25b573c2f3cc3de1d517775813491720-1024-1024.webp"
@@ -218,41 +218,6 @@
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084369414543-9883228b4a0022bf3817775813055061-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "3dtisk-341422964",
-      "sourceProductId": "341422964",
-      "store": "3DTisk",
-      "domain": "3dtisk.com.ar",
-      "name": "Hellbot R.Kiwi Pastel",
-      "category": "Accesorios",
-      "price": 17850,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 26,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Hellbot",
-      "tags": [
-        "Hellbot"
-      ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084377974335-641ce2b2a466411adf17775812960666-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/hellbot-r-kiwi-pastel-1vife/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/",
-      "variants": [
-        {
-          "id": 1516019969,
-          "sku": "64",
-          "price": 17850,
-          "isDeposit": false,
-          "stock": 13,
-          "available": true,
-          "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084377974335-641ce2b2a466411adf17775812960666-1024-1024.webp"
         }
       ]
     },
@@ -304,7 +269,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 34,
+      "stock": 32,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Elegoo",
@@ -321,7 +286,7 @@
           "sku": "777",
           "price": 25100,
           "isDeposit": false,
-          "stock": 17,
+          "stock": 16,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177729871157629-d3dca07e740cb7b5ce17775801684770-1024-1024.webp"
@@ -375,7 +340,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 24,
+      "stock": 26,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -391,7 +356,7 @@
           "sku": "55",
           "price": 17850,
           "isDeposit": false,
-          "stock": 12,
+          "stock": 13,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/17708420636734-d5b62b558f0e77d09217775813172815-1024-1024.webp"
@@ -574,6 +539,41 @@
       ]
     },
     {
+      "id": "3dtisk-341422964",
+      "sourceProductId": "341422964",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "Hellbot R.Kiwi Pastel",
+      "category": "Accesorios",
+      "price": 17850,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 26,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084377974335-641ce2b2a466411adf17775812960666-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/hellbot-r-kiwi-pastel-1vife/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1516019969,
+          "sku": "64",
+          "price": 17850,
+          "isDeposit": false,
+          "stock": 13,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084377974335-641ce2b2a466411adf17775812960666-1024-1024.webp"
+        }
+      ]
+    },
+    {
       "id": "3dtisk-341422829",
       "sourceProductId": "341422829",
       "store": "3DTisk",
@@ -655,7 +655,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 34,
+      "stock": 38,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Elegoo",
@@ -672,7 +672,7 @@
           "sku": "735",
           "price": 25100,
           "isDeposit": false,
-          "stock": 17,
+          "stock": 19,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177706469054191-1f23aef2963a60860217775802002906-1024-1024.webp"
@@ -752,42 +752,6 @@
       ]
     },
     {
-      "id": "3dtisk-341418261",
-      "sourceProductId": "341418261",
-      "store": "3DTisk",
-      "domain": "3dtisk.com.ar",
-      "name": "Filamento PLA Elegoo Rojo",
-      "category": "Impresoras",
-      "price": 25100,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 2,
-      "stockLabel": "Pocas unidades",
-      "available": true,
-      "brand": "Elegoo",
-      "tags": [
-        "Elegoo",
-        "PLA"
-      ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/1777298608510-c1534ec7ced15f20f517775801708220-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/filamento-pla-elegoo-rojo-1ne4d/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/",
-      "variants": [
-        {
-          "id": 1515999086,
-          "sku": "776",
-          "price": 25100,
-          "isDeposit": false,
-          "stock": 1,
-          "available": true,
-          "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/1777298608510-c1534ec7ced15f20f517775801708220-1024-1024.webp"
-        }
-      ]
-    },
-    {
       "id": "3dtisk-341417785",
       "sourceProductId": "341417785",
       "store": "3DTisk",
@@ -799,7 +763,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 10,
+      "stock": 12,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Elegoo",
@@ -816,46 +780,10 @@
           "sku": "778",
           "price": 25100,
           "isDeposit": false,
-          "stock": 5,
+          "stock": 6,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177729891696848-2eef9f3818cb37a10a17775800761672-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "3dtisk-341417760",
-      "sourceProductId": "341417760",
-      "store": "3DTisk",
-      "domain": "3dtisk.com.ar",
-      "name": "Filamento PLA Elegoo Azul Cielo",
-      "category": "Impresoras",
-      "price": 25100,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 28,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Elegoo",
-      "tags": [
-        "Elegoo",
-        "PLA"
-      ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177729916519070-814e5e6a76a27ef47517775800709688-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/filamento-pla-elegoo-azul-cielo-1diji/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/",
-      "variants": [
-        {
-          "id": 1515996559,
-          "sku": "780",
-          "price": 25100,
-          "isDeposit": false,
-          "stock": 14,
-          "available": true,
-          "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177729916519070-814e5e6a76a27ef47517775800709688-1024-1024.webp"
         }
       ]
     },
@@ -1162,7 +1090,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 8,
+      "stock": 6,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Flashforge",
@@ -1179,7 +1107,7 @@
           "sku": "918",
           "price": 24400,
           "isDeposit": false,
-          "stock": 4,
+          "stock": 3,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/178464546283896-711dbd53e2e0fbe70817846454686495-1024-1024.webp"
@@ -1758,6 +1686,77 @@
       ]
     },
     {
+      "id": "3dtisk-341936872",
+      "sourceProductId": "341936872",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "Filamento PLA Flashforge Negro",
+      "category": "Impresoras",
+      "price": 24100,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 40,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Flashforge",
+      "tags": [
+        "Flashforge",
+        "PLA"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177790178549148-9fc4103ad2ac3ba5bd17779026081939-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/filamento-pla-flashforge-negro-ivcul/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1517760525,
+          "sku": "781",
+          "price": 24100,
+          "isDeposit": false,
+          "stock": 20,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177790178549148-9fc4103ad2ac3ba5bd17779026081939-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-341423595",
+      "sourceProductId": "341423595",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "Hellbot E.Negro",
+      "category": "Accesorios",
+      "price": 19950,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 36,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/17708409228340-43f7a85ad36bbf2dba17775814376893-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/hellbot-e-negro-1l3sp/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1516022882,
+          "sku": "2",
+          "price": 19950,
+          "isDeposit": false,
+          "stock": 18,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/17708409228340-43f7a85ad36bbf2dba17775814376893-1024-1024.webp"
+        }
+      ]
+    },
+    {
       "id": "3dtisk-341423583",
       "sourceProductId": "341423583",
       "store": "3DTisk",
@@ -1769,7 +1768,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 56,
+      "stock": 58,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -1785,7 +1784,7 @@
           "sku": "3",
           "price": 19950,
           "isDeposit": false,
-          "stock": 28,
+          "stock": 29,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084093618115-a1eabab963e2c4946c17775814352794-1024-1024.webp"
@@ -1804,7 +1803,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 48,
+      "stock": 46,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -1820,7 +1819,7 @@
           "sku": "4",
           "price": 19950,
           "isDeposit": false,
-          "stock": 24,
+          "stock": 23,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084095242718-c8d4f57ef1d96957af17775814328512-1024-1024.webp"
@@ -2574,7 +2573,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 24,
+      "stock": 28,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2591,7 +2590,7 @@
           "sku": "35",
           "price": 19950,
           "isDeposit": false,
-          "stock": 12,
+          "stock": 14,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084148399587-7f60d0fc3b5b3a064f17775813625760-1024-1024.webp"
@@ -2750,7 +2749,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 26,
+      "stock": 24,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2766,7 +2765,7 @@
           "sku": "42",
           "price": 17850,
           "isDeposit": false,
-          "stock": 13,
+          "stock": 12,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084186569018-233e6643f6a7bba82917775813469669-1024-1024.webp"
@@ -4183,6 +4182,78 @@
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177729850383123-fca341fd81659f855217775801734286-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-341418261",
+      "sourceProductId": "341418261",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "Filamento PLA Elegoo Rojo",
+      "category": "Impresoras",
+      "price": 25100,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
+      "available": true,
+      "brand": "Elegoo",
+      "tags": [
+        "Elegoo",
+        "PLA"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/1777298608510-c1534ec7ced15f20f517775801708220-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/filamento-pla-elegoo-rojo-1ne4d/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
+      "variants": [
+        {
+          "id": 1515999086,
+          "sku": "776",
+          "price": 25100,
+          "isDeposit": false,
+          "stock": 1,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/1777298608510-c1534ec7ced15f20f517775801708220-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-341417760",
+      "sourceProductId": "341417760",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "Filamento PLA Elegoo Azul Cielo",
+      "category": "Impresoras",
+      "price": 25100,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 28,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Elegoo",
+      "tags": [
+        "Elegoo",
+        "PLA"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177729916519070-814e5e6a76a27ef47517775800709688-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/filamento-pla-elegoo-azul-cielo-1diji/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
+      "variants": [
+        {
+          "id": 1515996559,
+          "sku": "780",
+          "price": 25100,
+          "isDeposit": false,
+          "stock": 14,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177729916519070-814e5e6a76a27ef47517775800709688-1024-1024.webp"
         }
       ]
     },
