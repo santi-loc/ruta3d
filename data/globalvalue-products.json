@@ -4,8 +4,8 @@
     "domain": "globalvalue.ar",
     "baseUrl": "https://globalvalue.ar"
   },
-  "scrapedAt": "2026-10-06T14:55:27.504Z",
-  "count": 211,
+  "scrapedAt": "2026-10-07T15:21:51.190Z",
+  "count": 213,
   "pages": [
     {
       "page": 1,
@@ -64,44 +64,44 @@
     {
       "page": 10,
       "url": "https://globalvalue.ar/shop/page/10",
-      "found": 8,
-      "added": 8
+      "found": 10,
+      "added": 10
     },
     {
       "page": 11,
       "url": "https://globalvalue.ar/shop/page/11",
-      "found": 11,
-      "added": 11
+      "found": 10,
+      "added": 10
     },
     {
       "page": 12,
       "url": "https://globalvalue.ar/shop/page/12",
-      "found": 15,
-      "added": 15
+      "found": 16,
+      "added": 16
     },
     {
       "page": 13,
       "url": "https://globalvalue.ar/shop/page/13",
-      "found": 9,
-      "added": 9
+      "found": 8,
+      "added": 8
     },
     {
       "page": 14,
       "url": "https://globalvalue.ar/shop/page/14",
-      "found": 6,
-      "added": 6
+      "found": 7,
+      "added": 7
     },
     {
       "page": 15,
       "url": "https://globalvalue.ar/shop/page/15",
-      "found": 9,
-      "added": 9
+      "found": 8,
+      "added": 8
     },
     {
       "page": 16,
       "url": "https://globalvalue.ar/shop/page/16",
-      "found": 0,
-      "added": 0
+      "found": 1,
+      "added": 1
     }
   ],
   "products": [
@@ -722,11 +722,11 @@
       "sourceProductId": "3749",
       "store": "Global Value",
       "domain": "globalvalue.ar",
-      "name": "Tinta Laserables 100gr",
+      "name": "Tinta Para Grabar Metales Con Laser Diodo, Co2 Fibra 100 Gr",
       "category": "Corte láser",
-      "price": 87011.1,
+      "price": 71910,
       "currency": "ARS",
-      "previousPrice": 96679,
+      "previousPrice": 79900,
       "transferPrice": null,
       "purchaseModes": [
         "Entrega inmediata"
@@ -736,10 +736,13 @@
       "available": true,
       "brand": null,
       "tags": [
-        "Laser"
+        "Laser",
+        "Fibra",
+        "Diodo",
+        "CO2"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3748/image_512",
-      "url": "https://globalvalue.ar/shop/000336-tinta-laserables-100gr-3748?page=2",
+      "url": "https://globalvalue.ar/shop/000336-tinta-para-grabar-metales-con-laser-diodo-co2-fibra-100-gr-3748?page=2",
       "scrapedFrom": "https://globalvalue.ar/shop/page/2",
       "variants": []
     },
@@ -2075,6 +2078,34 @@
       "variants": []
     },
     {
+      "id": "globalvalue-3156",
+      "sourceProductId": "3158",
+      "store": "Global Value",
+      "domain": "globalvalue.ar",
+      "name": "Cnc Corte Laser Lasertree K1 Max 60W 800*600MM + Panal de Abejas + Bomba de Aire",
+      "category": "Corte láser",
+      "price": 4949910,
+      "currency": "ARS",
+      "previousPrice": 5499900,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Laser",
+        "CNC",
+        "Panal"
+      ],
+      "image": "https://globalvalue.ar/web/image/product.template/3156/image_512",
+      "url": "https://globalvalue.ar/shop/000044-cnc-corte-laser-lasertree-k1-max-60w-800-600mm-panal-de-abejas-bomba-de-aire-3156?page=5",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/5",
+      "variants": []
+    },
+    {
       "id": "globalvalue-3154",
       "sourceProductId": "3156",
       "store": "Global Value",
@@ -2474,8 +2505,8 @@
         "CNC"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3125/image_512",
-      "url": "https://globalvalue.ar/shop/000017-bomba-aire-two-trees-para-laser-cnc-3125?page=5",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/5",
+      "url": "https://globalvalue.ar/shop/000017-bomba-aire-two-trees-para-laser-cnc-3125?page=6",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/6",
       "variants": []
     },
     {
@@ -2945,8 +2976,8 @@
       "brand": null,
       "tags": [],
       "image": "https://globalvalue.ar/web/image/product.template/2743/image_512",
-      "url": "https://globalvalue.ar/shop/000290-pies-elevadores-altura-atomstack-h1-para-a6-a12-a24-pro-2743?page=6",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/6",
+      "url": "https://globalvalue.ar/shop/000290-pies-elevadores-altura-atomstack-h1-para-a6-a12-a24-pro-2743?page=7",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/7",
       "variants": []
     },
     {
@@ -3313,8 +3344,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2721/image_512",
-      "url": "https://globalvalue.ar/shop/000343-laser-grabado-y-corte-portatil-plegable-wainlux-z3-2721?page=7",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/7",
+      "url": "https://globalvalue.ar/shop/000343-laser-grabado-y-corte-portatil-plegable-wainlux-z3-2721?page=8",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/8",
       "variants": []
     },
     {
@@ -3743,8 +3774,8 @@
         "CNC"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2698/image_512",
-      "url": "https://globalvalue.ar/shop/000270-fresadora-router-cnc-3018-ultra-500w-2698?page=8",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/8",
+      "url": "https://globalvalue.ar/shop/000270-fresadora-router-cnc-3018-ultra-500w-2698?page=9",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/9",
       "variants": []
     },
     {
@@ -4175,8 +4206,8 @@
         "Panal"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2674/image_512",
-      "url": "https://globalvalue.ar/shop/000188-cnc-laser-acmer-p3-48w-cubierta-panal-aire-camara-rotativo-2674?page=9",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/9",
+      "url": "https://globalvalue.ar/shop/000188-cnc-laser-acmer-p3-48w-cubierta-panal-aire-camara-rotativo-2674?page=10",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/10",
       "variants": []
     },
     {
@@ -4391,6 +4422,33 @@
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2657/image_512",
       "url": "https://globalvalue.ar/shop/000160-accesorio-rotativo-algolaser-rr2-2657?page=10",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/10",
+      "variants": []
+    },
+    {
+      "id": "globalvalue-2655",
+      "sourceProductId": "2655",
+      "store": "Global Value",
+      "domain": "globalvalue.ar",
+      "name": "Nueva Ortur 3 Cnc Laser Corta 3mm Mdf En 1 Pasada Con Wifi",
+      "category": "Corte láser",
+      "price": 1439910,
+      "currency": "ARS",
+      "previousPrice": 1599900,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Laser",
+        "CNC"
+      ],
+      "image": "https://globalvalue.ar/web/image/product.template/2655/image_512",
+      "url": "https://globalvalue.ar/shop/000045-nueva-ortur-3-cnc-laser-corta-3mm-mdf-en-1-pasada-con-wifi-2655?page=10",
       "scrapedFrom": "https://globalvalue.ar/shop/page/10",
       "variants": []
     },
@@ -4677,8 +4735,8 @@
         "CNC"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2627/image_512",
-      "url": "https://globalvalue.ar/shop/000378-router-cnc-dual-46x46-cm-husillo-500w-2627?page=11",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/11",
+      "url": "https://globalvalue.ar/shop/000378-router-cnc-dual-46x46-cm-husillo-500w-2627?page=12",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/12",
       "variants": []
     },
     {
@@ -5303,8 +5361,8 @@
       "brand": null,
       "tags": [],
       "image": "https://globalvalue.ar/web/image/product.template/2576/image_512",
-      "url": "https://globalvalue.ar/shop/000218-kit-expansion-sculpun-para-s30-expande-area-de-trabajo-94x41-2576?page=13",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/13",
+      "url": "https://globalvalue.ar/shop/000218-kit-expansion-sculpun-para-s30-expande-area-de-trabajo-94x41-2576?page=14",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/14",
       "variants": []
     },
     {
@@ -5698,8 +5756,8 @@
         "Panal"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2508/image_512",
-      "url": "https://globalvalue.ar/shop/000215-panal-abejas-30x20-sculpun-para-cnc-laser-acc-indispensable-2508?page=15",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/15",
+      "url": "https://globalvalue.ar/shop/000215-panal-abejas-30x20-sculpun-para-cnc-laser-acc-indispensable-2508?page=16",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/16",
       "variants": []
     }
   ]
