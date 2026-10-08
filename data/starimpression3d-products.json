@@ -5,26 +5,26 @@
     "baseUrl": "https://starimpression3d.com",
     "apiPath": "/wp-json/wc/store/v1/products"
   },
-  "scrapedAt": "2026-10-05T16:59:22.535Z",
-  "count": 389,
+  "scrapedAt": "2026-10-08T15:25:16.045Z",
+  "count": 398,
   "pages": [
     {
       "page": 1,
       "url": "https://starimpression3d.com/wp-json/wc/store/v1/products?per_page=100&page=1",
       "found": 100,
-      "added": 97
+      "added": 98
     },
     {
       "page": 2,
       "url": "https://starimpression3d.com/wp-json/wc/store/v1/products?per_page=100&page=2",
       "found": 100,
-      "added": 83
+      "added": 84
     },
     {
       "page": 3,
       "url": "https://starimpression3d.com/wp-json/wc/store/v1/products?per_page=100&page=3",
       "found": 100,
-      "added": 82
+      "added": 81
     },
     {
       "page": 4,
@@ -35,11 +35,455 @@
     {
       "page": 5,
       "url": "https://starimpression3d.com/wp-json/wc/store/v1/products?per_page=100&page=5",
-      "found": 27,
-      "added": 27
+      "found": 35,
+      "added": 35
     }
   ],
   "products": [
+    {
+      "id": "starimpression3d-66952",
+      "sourceProductId": "66952",
+      "store": "Star Impression 3D",
+      "domain": "starimpression3d.com",
+      "name": "W3D PLA MATTE 1KG MACARON RAINBOW",
+      "category": "Filamentos",
+      "price": 29900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "stock": 19,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "W3D",
+      "tags": [
+        "W3D",
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://starimpression3d.com/wp-content/uploads/2026/10/82824b27-54aa-45e2-9fa1-6c39d70d4470.jpg",
+      "url": "https://starimpression3d.com/producto/w3d-pla-matte-1kg-macaron-rainbow/",
+      "scrapedFrom": "https://starimpression3d.com/wp-json/wc/store/v1/products",
+      "variants": []
+    },
+    {
+      "id": "starimpression3d-66951",
+      "sourceProductId": "66951",
+      "store": "Star Impression 3D",
+      "domain": "starimpression3d.com",
+      "name": "W3D PLA SILK 1KG RAINBOW",
+      "category": "Filamentos",
+      "price": 43900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "stock": 10,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "W3D",
+      "tags": [
+        "W3D",
+        "PLA Silk",
+        "PLA",
+        "1kg",
+        "Silk"
+      ],
+      "image": "https://starimpression3d.com/wp-content/uploads/2026/10/ab1b065e-1727-4e5c-9096-c98daed69686.jpg",
+      "url": "https://starimpression3d.com/producto/w3d-pla-silk-1kg-rainbow/",
+      "scrapedFrom": "https://starimpression3d.com/wp-json/wc/store/v1/products",
+      "variants": []
+    },
+    {
+      "id": "starimpression3d-66923",
+      "sourceProductId": "66923",
+      "store": "Star Impression 3D",
+      "domain": "starimpression3d.com",
+      "name": "W3D PETG 1KG",
+      "category": "Filamentos",
+      "price": 24900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "W3D",
+      "tags": [
+        "W3D",
+        "PETG",
+        "1kg"
+      ],
+      "image": "https://starimpression3d.com/wp-content/uploads/2026/10/ec7c4855-20f6-44dc-9e01-296b1f99b311.jpg",
+      "url": "https://starimpression3d.com/producto/w3d-petg-1kg/",
+      "scrapedFrom": "https://starimpression3d.com/wp-json/wc/store/v1/products",
+      "variants": [
+        {
+          "id": "starimpression3d-66932",
+          "sku": "66932",
+          "available": true,
+          "options": [
+            "Seleccionar color: negro"
+          ]
+        },
+        {
+          "id": "starimpression3d-66933",
+          "sku": "66933",
+          "available": true,
+          "options": [
+            "Seleccionar color: blanco"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "starimpression3d-66916",
+      "sourceProductId": "66916",
+      "store": "Star Impression 3D",
+      "domain": "starimpression3d.com",
+      "name": "W3D PETG-CF 1KG",
+      "category": "Filamentos",
+      "price": 38000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "W3D",
+      "tags": [
+        "W3D",
+        "PETG",
+        "1kg"
+      ],
+      "image": "https://starimpression3d.com/wp-content/uploads/2026/10/48252487-ef3e-4344-bf6e-ad6dce6ae92a.jpg",
+      "url": "https://starimpression3d.com/producto/w3d-petg-cf-1kg/",
+      "scrapedFrom": "https://starimpression3d.com/wp-json/wc/store/v1/products",
+      "variants": [
+        {
+          "id": "starimpression3d-66920",
+          "sku": "66920",
+          "available": true,
+          "options": [
+            "Seleccionar color: negro"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "starimpression3d-66887",
+      "sourceProductId": "66887",
+      "store": "Star Impression 3D",
+      "domain": "starimpression3d.com",
+      "name": "W3D PLA GLOW IN THE DARK 1KG",
+      "category": "Filamentos",
+      "price": 29900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "W3D",
+      "tags": [
+        "W3D",
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://starimpression3d.com/wp-content/uploads/2026/10/39fe03e4-3f76-4152-8665-6966c62c4fb3.jpg",
+      "url": "https://starimpression3d.com/producto/w3d-pla-glow-in-the-dark-1kg/",
+      "scrapedFrom": "https://starimpression3d.com/wp-json/wc/store/v1/products",
+      "variants": [
+        {
+          "id": "starimpression3d-66889",
+          "sku": "66889",
+          "available": true,
+          "options": [
+            "Seleccionar color: azul"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "starimpression3d-66810",
+      "sourceProductId": "66810",
+      "store": "Star Impression 3D",
+      "domain": "starimpression3d.com",
+      "name": "W3D PLA MATTE 1KG TRICOLOR",
+      "category": "Filamentos",
+      "price": 29900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "W3D",
+      "tags": [
+        "W3D",
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://starimpression3d.com/wp-content/uploads/2026/10/e442dde0-3ea1-4088-9b6f-1fd9d984a75d.jpg",
+      "url": "https://starimpression3d.com/producto/w3d-pla-matte-1kg-tricolor/",
+      "scrapedFrom": "https://starimpression3d.com/wp-json/wc/store/v1/products",
+      "variants": [
+        {
+          "id": "starimpression3d-66819",
+          "sku": "66819",
+          "available": true,
+          "options": [
+            "Seleccionar color: rojo-azul-amarillo"
+          ]
+        },
+        {
+          "id": "starimpression3d-66820",
+          "sku": "66820",
+          "available": true,
+          "options": [
+            "Seleccionar color: rojo-azul-verde"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "starimpression3d-66800",
+      "sourceProductId": "66800",
+      "store": "Star Impression 3D",
+      "domain": "starimpression3d.com",
+      "name": "W3D PLA SILK 1KG",
+      "category": "Filamentos",
+      "price": 35500,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "W3D",
+      "tags": [
+        "W3D",
+        "PLA Silk",
+        "PLA",
+        "1kg",
+        "Silk"
+      ],
+      "image": "https://starimpression3d.com/wp-content/uploads/2026/10/bcdfac87-0ac6-4d90-bd6e-558b45018ac0.jpg",
+      "url": "https://starimpression3d.com/producto/w3d-pla-silk-1kg/",
+      "scrapedFrom": "https://starimpression3d.com/wp-json/wc/store/v1/products",
+      "variants": [
+        {
+          "id": "starimpression3d-66806",
+          "sku": "66806",
+          "available": true,
+          "options": [
+            "Seleccionar color: plata"
+          ]
+        },
+        {
+          "id": "starimpression3d-66807",
+          "sku": "66807",
+          "available": true,
+          "options": [
+            "Seleccionar color: oro"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "starimpression3d-66702",
+      "sourceProductId": "66702",
+      "store": "Star Impression 3D",
+      "domain": "starimpression3d.com",
+      "name": "W3D PLA 1KG",
+      "category": "Filamentos",
+      "price": 26500,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "W3D",
+      "tags": [
+        "W3D",
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://starimpression3d.com/wp-content/uploads/2026/10/f0bf0a1f-4539-4446-95d2-60dfd1cc6b7f.jpg",
+      "url": "https://starimpression3d.com/producto/w3d-pla-1kg/",
+      "scrapedFrom": "https://starimpression3d.com/wp-json/wc/store/v1/products",
+      "variants": [
+        {
+          "id": "starimpression3d-66909",
+          "sku": "66909",
+          "available": true,
+          "options": [
+            "Seleccionar color: rojo"
+          ]
+        },
+        {
+          "id": "starimpression3d-66910",
+          "sku": "66910",
+          "available": true,
+          "options": [
+            "Seleccionar color: azul"
+          ]
+        },
+        {
+          "id": "starimpression3d-66911",
+          "sku": "66911",
+          "available": true,
+          "options": [
+            "Seleccionar color: verde-bosque"
+          ]
+        },
+        {
+          "id": "starimpression3d-66912",
+          "sku": "66912",
+          "available": true,
+          "options": [
+            "Seleccionar color: violeta"
+          ]
+        },
+        {
+          "id": "starimpression3d-66913",
+          "sku": "66913",
+          "available": true,
+          "options": [
+            "Seleccionar color: marron"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "starimpression3d-66699",
+      "sourceProductId": "66699",
+      "store": "Star Impression 3D",
+      "domain": "starimpression3d.com",
+      "name": "W3D PLA MATTE 1KG",
+      "category": "Filamentos",
+      "price": 26500,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "W3D",
+      "tags": [
+        "W3D",
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://starimpression3d.com/wp-content/uploads/2026/10/10f59716-cab6-45d7-85cd-b0e6f8626499.jpg",
+      "url": "https://starimpression3d.com/producto/w3d-pla-matte-1kg/",
+      "scrapedFrom": "https://starimpression3d.com/wp-json/wc/store/v1/products",
+      "variants": [
+        {
+          "id": "starimpression3d-66873",
+          "sku": "66873",
+          "available": true,
+          "options": [
+            "Seleccionar color: azul-oscuro"
+          ]
+        },
+        {
+          "id": "starimpression3d-66874",
+          "sku": "66874",
+          "available": true,
+          "options": [
+            "Seleccionar color: blanco"
+          ]
+        },
+        {
+          "id": "starimpression3d-66875",
+          "sku": "66875",
+          "available": true,
+          "options": [
+            "Seleccionar color: negro"
+          ]
+        },
+        {
+          "id": "starimpression3d-66876",
+          "sku": "66876",
+          "available": true,
+          "options": [
+            "Seleccionar color: amarillo"
+          ]
+        },
+        {
+          "id": "starimpression3d-66877",
+          "sku": "66877",
+          "available": true,
+          "options": [
+            "Seleccionar color: ladrillo"
+          ]
+        },
+        {
+          "id": "starimpression3d-66878",
+          "sku": "66878",
+          "available": true,
+          "options": [
+            "Seleccionar color: cian"
+          ]
+        },
+        {
+          "id": "starimpression3d-66879",
+          "sku": "66879",
+          "available": true,
+          "options": [
+            "Seleccionar color: magenta"
+          ]
+        },
+        {
+          "id": "starimpression3d-66880",
+          "sku": "66880",
+          "available": true,
+          "options": [
+            "Seleccionar color: celeste"
+          ]
+        },
+        {
+          "id": "starimpression3d-66881",
+          "sku": "66881",
+          "available": true,
+          "options": [
+            "Seleccionar color: verde-pasto"
+          ]
+        },
+        {
+          "id": "starimpression3d-66882",
+          "sku": "66882",
+          "available": true,
+          "options": [
+            "Seleccionar color: purpura"
+          ]
+        },
+        {
+          "id": "starimpression3d-66883",
+          "sku": "66883",
+          "available": true,
+          "options": [
+            "Seleccionar color: marmol"
+          ]
+        },
+        {
+          "id": "starimpression3d-66884",
+          "sku": "66884",
+          "available": true,
+          "options": [
+            "Seleccionar color: piel"
+          ]
+        },
+        {
+          "id": "starimpression3d-66885",
+          "sku": "66885",
+          "available": true,
+          "options": [
+            "Seleccionar color: amarillo-verdoso"
+          ]
+        }
+      ]
+    },
     {
       "id": "starimpression3d-66576",
       "sourceProductId": "66576",
@@ -172,7 +616,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 94,
+      "stock": 71,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -262,8 +706,8 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 12,
-      "stockLabel": "En stock",
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": null,
       "tags": [
@@ -509,33 +953,6 @@
       "variants": []
     },
     {
-      "id": "starimpression3d-65426",
-      "sourceProductId": "65426",
-      "store": "Star Impression 3D",
-      "domain": "starimpression3d.com",
-      "name": "CREALITY ENDER3 V3 SE",
-      "category": "Impresoras",
-      "price": 370999,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "stock": 4,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Creality",
-      "tags": [
-        "Creality",
-        "PLA",
-        "PETG",
-        "TPU",
-        "FLEX"
-      ],
-      "image": "https://starimpression3d.com/wp-content/uploads/2026/07/5127cda7-1633-44cb-9c28-06e2582b9c00.jpg",
-      "url": "https://starimpression3d.com/producto/creality-ender3-v3-se-2/",
-      "scrapedFrom": "https://starimpression3d.com/wp-json/wc/store/v1/products",
-      "variants": []
-    },
-    {
       "id": "starimpression3d-65418",
       "sourceProductId": "65418",
       "store": "Star Impression 3D",
@@ -648,7 +1065,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 2,
+      "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Creality",
@@ -744,6 +1161,43 @@
       "url": "https://starimpression3d.com/producto/bambu-lab-x2d-combo/",
       "scrapedFrom": "https://starimpression3d.com/wp-json/wc/store/v1/products",
       "variants": []
+    },
+    {
+      "id": "starimpression3d-65114",
+      "sourceProductId": "65114",
+      "store": "Star Impression 3D",
+      "domain": "starimpression3d.com",
+      "name": "ANYCUBIC KOBRA S1 MAX COMBO",
+      "category": "Impresoras",
+      "price": 2299990,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Anycubic",
+      "tags": [
+        "Anycubic",
+        "PLA",
+        "PETG",
+        "ABS",
+        "ASA",
+        "TPU"
+      ],
+      "image": "https://starimpression3d.com/wp-content/uploads/2026/07/71337e6f-908e-4d44-afc3-be2446effa5a.jpg",
+      "url": "https://starimpression3d.com/producto/anycubic-kobra-s1-max-combo/",
+      "scrapedFrom": "https://starimpression3d.com/wp-json/wc/store/v1/products",
+      "variants": [
+        {
+          "id": "starimpression3d-66941",
+          "sku": "66941",
+          "available": true,
+          "options": [
+            "Opciones de Compra: entrega-inmediata"
+          ]
+        }
+      ]
     },
     {
       "id": "starimpression3d-65108",
@@ -939,7 +1393,7 @@
       "domain": "starimpression3d.com",
       "name": "GRILON3 PLA PRO HYPER 1KG",
       "category": "Filamentos",
-      "price": 30200,
+      "price": 29900,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -1211,7 +1665,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 76,
+      "stock": 74,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu lab",
@@ -1405,7 +1859,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 36,
+      "stock": 37,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Flashforge",
@@ -2164,7 +2618,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 14,
+      "stock": 13,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -2187,7 +2641,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 119,
+      "stock": 117,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -2460,7 +2914,7 @@
       "sourceProductId": "62105",
       "store": "Star Impression 3D",
       "domain": "starimpression3d.com",
-      "name": "BAMBU LAB PLA GLOW 1KG",
+      "name": "BAMBU LAB PLA GLOW 1KG VERDE",
       "category": "Filamentos",
       "price": 39800,
       "currency": "ARS",
@@ -2512,9 +2966,9 @@
       "sourceProductId": "62055",
       "store": "Star Impression 3D",
       "domain": "starimpression3d.com",
-      "name": "BAMBU LAB PETG HT 1KG",
+      "name": "BAMBU LAB PETG HF 1KG",
       "category": "Filamentos",
-      "price": 33690,
+      "price": 33600,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -2959,7 +3413,7 @@
       "domain": "starimpression3d.com",
       "name": "BAMBU LAB PLA BASIC 1KG",
       "category": "Filamentos",
-      "price": 33690,
+      "price": 33600,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -3225,7 +3679,7 @@
       "domain": "starimpression3d.com",
       "name": "BAMBU LAB RECARGA PLA BASIC 1KG",
       "category": "Filamentos",
-      "price": 27990,
+      "price": 28700,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -3588,7 +4042,7 @@
       "domain": "starimpression3d.com",
       "name": "ALGOLASER DIY KIT MK2 5W",
       "category": "Herramientas",
-      "price": 533801,
+      "price": 622000,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -3609,7 +4063,7 @@
           "sku": "61540",
           "available": true,
           "options": [
-            "Opciones de Compra: preventa-julio"
+            "Opciones de Compra: preventa-noviembre"
           ]
         },
         {
@@ -3629,7 +4083,7 @@
       "domain": "starimpression3d.com",
       "name": "ALGOLASER ALPHA MK2 10W",
       "category": "Herramientas",
-      "price": 819991,
+      "price": 950600,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -3650,7 +4104,7 @@
           "sku": "61524",
           "available": true,
           "options": [
-            "Opciones de Compra: preventa-julio"
+            "Opciones de Compra: preventa-noviembre"
           ]
         },
         {
@@ -3668,9 +4122,9 @@
       "sourceProductId": "61507",
       "store": "Star Impression 3D",
       "domain": "starimpression3d.com",
-      "name": "ALGOLASER ALPHA MK2 20W",
+      "name": "ALGOLASER ALPHA MK2 22W",
       "category": "Herramientas",
-      "price": 1585768,
+      "price": 1881500,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -3691,7 +4145,7 @@
           "sku": "61509",
           "available": true,
           "options": [
-            "Opciones de Compra: preventa-julio"
+            "Opciones de Compra: preventa-noviembre"
           ]
         },
         {
@@ -3711,7 +4165,7 @@
       "domain": "starimpression3d.com",
       "name": "ALGOLASER ALPHA MK2 40W",
       "category": "Herramientas",
-      "price": 2379963,
+      "price": 2696500,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -3733,7 +4187,7 @@
           "sku": "61503",
           "available": true,
           "options": [
-            "Opciones de Compra: preventa-julio"
+            "Opciones de Compra: preventa-noviembre"
           ]
         },
         {
@@ -3823,7 +4277,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 49,
+      "stock": 45,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -4007,7 +4461,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 11,
+      "stock": 10,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Creality",
@@ -4646,7 +5100,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 2,
+      "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": null,
@@ -4853,9 +5307,9 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
+      "stock": 1,
+      "stockLabel": "Pocas unidades",
+      "available": true,
       "brand": null,
       "tags": [
         "PLA",
@@ -5115,7 +5569,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 2,
+      "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": null,
@@ -5190,7 +5644,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 8,
+      "stock": 7,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu lab",
@@ -5258,7 +5712,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 32,
+      "stock": 31,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -5825,7 +6279,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 9,
+      "stock": 8,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Creality",
@@ -6599,7 +7053,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 8,
+      "stock": 6,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -7499,7 +7953,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 2,
+      "stock": 3,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Bambu lab",
@@ -7523,7 +7977,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 9,
+      "stock": 8,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Creality",
@@ -7619,7 +8073,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 83,
+      "stock": 81,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -7661,7 +8115,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 30,
+      "stock": 28,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -7955,7 +8409,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 3,
+      "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Creality",
@@ -8271,7 +8725,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 15,
+      "stock": 14,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Creality",
@@ -8431,7 +8885,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 38,
+      "stock": 30,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -8623,7 +9077,7 @@
       "domain": "starimpression3d.com",
       "name": "3N3 PETG 1KG",
       "category": "Filamentos",
-      "price": 15500,
+      "price": 18300,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -8698,7 +9152,7 @@
       "domain": "starimpression3d.com",
       "name": "3N3 PLA 1KG",
       "category": "Filamentos",
-      "price": 20720,
+      "price": 22300,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -10872,7 +11326,7 @@
       "domain": "starimpression3d.com",
       "name": "GRILON3 ABS 1KG",
       "category": "Filamentos",
-      "price": 25200,
+      "price": 26300,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -11046,7 +11500,7 @@
       "domain": "starimpression3d.com",
       "name": "GRILON3 ASTRA PLA 1Kg",
       "category": "Filamentos",
-      "price": 30200,
+      "price": 31600,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -11120,7 +11574,7 @@
       "domain": "starimpression3d.com",
       "name": "GRILON3 BOUTIQUE PLA 1Kg",
       "category": "Filamentos",
-      "price": 26900,
+      "price": 28200,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -11266,7 +11720,7 @@
       "domain": "starimpression3d.com",
       "name": "GRILON3 HIPS 1KG",
       "category": "Filamentos",
-      "price": 24400,
+      "price": 31000,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -11565,7 +12019,7 @@
       "domain": "starimpression3d.com",
       "name": "GRILON3 PETG 1Kg",
       "category": "Filamentos",
-      "price": 19600,
+      "price": 22300,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -11738,7 +12192,7 @@
       "domain": "starimpression3d.com",
       "name": "GRILON3 PLA 1KG",
       "category": "Filamentos",
-      "price": 26500,
+      "price": 27900,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -12152,7 +12606,7 @@
       "domain": "starimpression3d.com",
       "name": "GRILON3 PPT 1KG",
       "category": "Filamentos",
-      "price": 23701,
+      "price": 27400,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -12238,7 +12692,7 @@
       "domain": "starimpression3d.com",
       "name": "GRILON3 SILK 1KG",
       "category": "Filamentos",
-      "price": 30800,
+      "price": 31900,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -12406,7 +12860,7 @@
       "domain": "starimpression3d.com",
       "name": "GRILON3 WOOD PLA 1Kg",
       "category": "Filamentos",
-      "price": 42600,
+      "price": 44100,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -13998,6 +14452,22 @@
           "available": true,
           "options": [
             "Seleccionar color: blanco-perlado-050"
+          ]
+        },
+        {
+          "id": "starimpression3d-66988",
+          "sku": "66988",
+          "available": true,
+          "options": [
+            "Seleccionar color: ocre-amarillo-ferroso-812"
+          ]
+        },
+        {
+          "id": "starimpression3d-66989",
+          "sku": "66989",
+          "available": true,
+          "options": [
+            "Seleccionar color: cobre-iridisicente-030"
           ]
         }
       ]

@@ -5,15 +5,15 @@
     "baseUrl": "https://shop.wetech.ar",
     "listingPath": "/products"
   },
-  "scrapedAt": "2026-10-07T15:22:05.369Z",
-  "count": 293,
+  "scrapedAt": "2026-10-08T15:25:11.043Z",
+  "count": 294,
   "pages": [
     {
       "page": 1,
       "path": "/stk-item/catalogo",
       "url": "https://back.wetech.ar/stk-item/catalogo",
-      "found": 616,
-      "added": 293
+      "found": 617,
+      "added": 294
     }
   ],
   "products": [
@@ -28,7 +28,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 18699.15,
-      "stock": 25,
+      "stock": 24,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3n3",
@@ -129,7 +129,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 16999.15,
-      "stock": 51,
+      "stock": 43,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3n3",
@@ -230,7 +230,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 12499.25,
-      "stock": 369,
+      "stock": 378,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3n3",
@@ -417,7 +417,7 @@
         },
         {
           "id": "3N-PLA-1KG-NEGR",
-          "available": true,
+          "available": false,
           "price": 23528,
           "options": [
             "Negro",
@@ -477,7 +477,7 @@
         },
         {
           "id": "3N-PLA-1KG-VEFL",
-          "available": true,
+          "available": false,
           "price": 23528,
           "options": [
             "Verde Fluo",
@@ -1104,7 +1104,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 16499.35,
-      "stock": 202,
+      "stock": 223,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3nMax",
@@ -1135,7 +1135,7 @@
         },
         {
           "id": "3X-PLA-1KG-AZUL",
-          "available": false,
+          "available": true,
           "price": 23528,
           "options": [
             "Azul",
@@ -1243,7 +1243,7 @@
         },
         {
           "id": "3X-PLA-1KG-ROJO",
-          "available": false,
+          "available": true,
           "price": 23528,
           "options": [
             "Rojo",
@@ -2622,7 +2622,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 8924.03,
-      "stock": 10,
+      "stock": 8,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -3084,7 +3084,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 2974.11,
-      "stock": 47,
+      "stock": 46,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -4662,7 +4662,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 56099.15,
-      "stock": 6,
+      "stock": 5,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -4857,6 +4857,36 @@
           "id": "CR TOUCH CREALI",
           "available": true,
           "price": 109284.53,
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "wetech-carcasa-infront-bla1",
+      "sourceProductId": "CARCASA INFRONT BLA1",
+      "store": "WeTech",
+      "domain": "shop.wetech.ar",
+      "name": "Cubierta inferior frontal | Bambu Lab | A1",
+      "category": "Repuestos",
+      "price": 1530,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 1300.5,
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": null,
+      "tags": [
+        "Accesorios / Mejoras (upgrades)"
+      ],
+      "image": null,
+      "url": "https://shop.wetech.ar/product/CARCASA%20INFRONT%20BLA1",
+      "scrapedFrom": "https://shop.wetech.ar/products",
+      "variants": [
+        {
+          "id": "CARCASA INFRONT BLA1",
+          "available": false,
+          "price": 1530,
           "options": []
         }
       ]
@@ -7756,7 +7786,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 8499.03,
-      "stock": 83,
+      "stock": 81,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -8340,7 +8370,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 19499,
-      "stock": 161,
+      "stock": 159,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -9011,7 +9041,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 25998.95,
-      "stock": 127,
+      "stock": 126,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -9253,11 +9283,11 @@
       "domain": "shop.wetech.ar",
       "name": "Grilon3 PLA Premium",
       "category": "Filamentos",
-      "price": 27646,
+      "price": 29411,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 23499.1,
-      "stock": 338,
+      "transferPrice": 24999.35,
+      "stock": 277,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -9431,18 +9461,6 @@
           ]
         },
         {
-          "id": "G3-PLA1-1KG-BLAN",
-          "available": true,
-          "price": 27646,
-          "options": [
-            "Blanco",
-            "1kg",
-            "PLA",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
           "id": "G3-PLA2-1KG-BORD",
           "available": true,
           "price": 29411,
@@ -9539,18 +9557,6 @@
           ]
         },
         {
-          "id": "G3-PLA1-1KG-GRPL",
-          "available": true,
-          "price": 27646,
-          "options": [
-            "Gris Plata",
-            "1kg",
-            "PLA",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
           "id": "G3-PLA2-1KG-MAFL",
           "available": true,
           "price": 29411,
@@ -9575,18 +9581,6 @@
           ]
         },
         {
-          "id": "G3-PLA1-1KG-NEGR",
-          "available": false,
-          "price": 27646,
-          "options": [
-            "Negro",
-            "1kg",
-            "PLA",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
           "id": "G3-PLA2-1KG-PI16",
           "available": false,
           "price": 29411,
@@ -9600,7 +9594,7 @@
         },
         {
           "id": "G3-PLA2-1KG-PI72",
-          "available": true,
+          "available": false,
           "price": 29411,
           "options": [
             "Piel 720",
@@ -9611,20 +9605,8 @@
           ]
         },
         {
-          "id": "G3-PLA1-1KG-ROJO",
-          "available": false,
-          "price": 27646,
-          "options": [
-            "Rojo",
-            "1kg",
-            "PLA",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
           "id": "G3-PLA2-1KG-ROSA",
-          "available": false,
+          "available": true,
           "price": 29411,
           "options": [
             "Rosa",
@@ -9917,7 +9899,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 28998.6,
-      "stock": 62,
+      "stock": 61,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -10172,7 +10154,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 23499.1,
-      "stock": 17,
+      "stock": 16,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -10190,7 +10172,7 @@
       "variants": [
         {
           "id": "G3-PPT-1KG-AMAR",
-          "available": true,
+          "available": false,
           "price": 27646,
           "options": [
             "Amarillo",
@@ -10511,167 +10493,6 @@
       ]
     },
     {
-      "id": "wetech-gst3d-petg-basico-nacional",
-      "sourceProductId": "GST3D-PETG-BÁSICO-NACIONAL",
-      "store": "WeTech",
-      "domain": "shop.wetech.ar",
-      "name": "GST3D PetG Básico",
-      "category": "Filamentos",
-      "price": 21175,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 17998.75,
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "GST3D",
-      "tags": [
-        "GST3D",
-        "PetG",
-        "Básico",
-        "Nacional",
-        "Filamentos Técnicos",
-        "1kg"
-      ],
-      "image": "https://ik.imagekit.io/8x5mvqkfl0/GST3D/GST3D%20BLACK/PETG/PETG%201KG%20AMARILLO_Mesa%20de%20trabajo%201.png?updatedAt=1781111776955",
-      "url": "https://shop.wetech.ar/product/GST3D-PETG-B%C3%81SICO-NACIONAL",
-      "scrapedFrom": "https://shop.wetech.ar/products",
-      "variants": [
-        {
-          "id": "GSB-PETG-1KG-AMAR",
-          "available": false,
-          "price": 21175,
-          "options": [
-            "Amarillo",
-            "1kg",
-            "PetG",
-            "Básico",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "GSB-PETG-1KG-AZUL",
-          "available": false,
-          "price": 21175,
-          "options": [
-            "Azul",
-            "1kg",
-            "PetG",
-            "Básico",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "GSB-PETG-1KG-BLAN",
-          "available": false,
-          "price": 21175,
-          "options": [
-            "Blanco",
-            "1kg",
-            "PetG",
-            "Básico",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "GSB-PETG-1KG-PLAT",
-          "available": false,
-          "price": 21175,
-          "options": [
-            "Gris Plata",
-            "1kg",
-            "PetG",
-            "Básico",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "GSB-PETG-1KG-NEGR",
-          "available": false,
-          "price": 21175,
-          "options": [
-            "Negro",
-            "1kg",
-            "PetG",
-            "Básico",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "GSB-PETG-1KG-CARB",
-          "available": false,
-          "price": 21175,
-          "options": [
-            "Negro Fibra de Carbono",
-            "1kg",
-            "PetG",
-            "Básico",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "GSB-PETG-1KG-ROJO",
-          "available": false,
-          "price": 21175,
-          "options": [
-            "Rojo",
-            "1kg",
-            "PetG",
-            "Básico",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "GSB-PETG-1KG-CRIS",
-          "available": false,
-          "price": 21175,
-          "options": [
-            "Translucido Cristal",
-            "1kg",
-            "PetG",
-            "Básico",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "GSB-PETG-1KG-VEMA",
-          "available": false,
-          "price": 21175,
-          "options": [
-            "Verde Manzana",
-            "1kg",
-            "PetG",
-            "Básico",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "GSB-PETG-1KG-VEMI",
-          "available": false,
-          "price": 21175,
-          "options": [
-            "Verde Militar",
-            "1kg",
-            "PetG",
-            "Básico",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "GSB-PETG-1KG-VIOL",
-          "available": false,
-          "price": 21175,
-          "options": [
-            "Violeta",
-            "1kg",
-            "PetG",
-            "Básico",
-            "Nacional"
-          ]
-        }
-      ]
-    },
-    {
       "id": "wetech-gst3d-pla-estandar-importado",
       "sourceProductId": "GST3D-PLA-ESTÁNDAR-IMPORTADO",
       "store": "WeTech",
@@ -10764,7 +10585,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 18999.2,
-      "stock": 452,
+      "stock": 437,
       "stockLabel": "En stock",
       "available": true,
       "brand": "GST3D",
@@ -11273,7 +11094,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 19998.8,
-      "stock": 17,
+      "stock": 19,
       "stockLabel": "En stock",
       "available": true,
       "brand": "GST3D",
@@ -11363,7 +11184,7 @@
         },
         {
           "id": "GSB-SILK-1KG-FUCS",
-          "available": false,
+          "available": true,
           "price": 23528,
           "options": [
             "Fucsia",
@@ -11946,7 +11767,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 18999.2,
-      "stock": 429,
+      "stock": 403,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -12120,7 +11941,7 @@
         },
         {
           "id": "HB-PLA-1KG-PLAT",
-          "available": true,
+          "available": false,
           "price": 22352,
           "options": [
             "Plateado",
@@ -12156,7 +11977,7 @@
         },
         {
           "id": "HB-PLA-1KG-MARR",
-          "available": true,
+          "available": false,
           "price": 22352,
           "options": [
             "Marron",
@@ -12288,7 +12109,7 @@
         },
         {
           "id": "HB-PLA-1KG-NACR",
-          "available": true,
+          "available": false,
           "price": 22352,
           "options": [
             "Translucido Natural Cristal",
@@ -12508,7 +12329,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 29999.05,
-      "stock": 17,
+      "stock": 15,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -13114,6 +12935,36 @@
           "id": "KIT HOTEND HIDR E2",
           "available": true,
           "price": 38248.93,
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "wetech-kithotend-bamba1-0-2",
+      "sourceProductId": "KITHOTEND BAMBA1 0.2",
+      "store": "WeTech",
+      "domain": "shop.wetech.ar",
+      "name": "Kit Hotend 0.2mm | Bambu Lab | A1 / A1 Mini",
+      "category": "Repuestos",
+      "price": 46519.19,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 39541.31,
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": null,
+      "tags": [
+        "Bloques y Extrusión"
+      ],
+      "image": null,
+      "url": "https://shop.wetech.ar/product/KITHOTEND%20BAMBA1%200.2",
+      "scrapedFrom": "https://shop.wetech.ar/products",
+      "variants": [
+        {
+          "id": "KITHOTEND BAMBA1 0.2",
+          "available": false,
+          "price": 46519.19,
           "options": []
         }
       ]

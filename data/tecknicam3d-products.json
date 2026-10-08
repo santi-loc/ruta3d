@@ -4,7 +4,7 @@
     "domain": "tecknicam3d.com.ar",
     "baseUrl": "https://www.tecknicam3d.com.ar"
   },
-  "scrapedAt": "2026-10-06T14:55:52.263Z",
+  "scrapedAt": "2026-10-08T15:25:20.209Z",
   "count": 217,
   "pages": [
     {
@@ -29,7 +29,7 @@
       "url": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock",
       "found": 16,
       "added": 16,
-      "totalPages": 37
+      "totalPages": 39
     },
     {
       "page": 2,
@@ -37,7 +37,7 @@
       "url": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock&page=2",
       "found": 16,
       "added": 16,
-      "totalPages": 37
+      "totalPages": 39
     },
     {
       "page": 1,
@@ -904,6 +904,35 @@
       "variants": []
     },
     {
+      "id": "tecknicam3d-3961",
+      "sourceProductId": "3961",
+      "store": "Tecknicam 3D",
+      "domain": "tecknicam3d.com.ar",
+      "name": "ZAFIRO TRANSLUCIDO SIN CARRETEL PLA RECARGA ECOFILA HELLBOT LOOK Filamento 3D 1,75mm x 1Kg 3681",
+      "category": "Filamentos",
+      "price": 19912,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 18916.4,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 10,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot",
+        "PLA",
+        "1kg",
+        "ECOFILA"
+      ],
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/zafiro-traslucido-1791388218-039502bd.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/zafiro-translucido-sin-carretel-pla-recarga-ecofila-hellbot-look-filamento-3d-1-75mm-x-1kg-3681",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock",
+      "variants": []
+    },
+    {
       "id": "tecknicam3d-3950",
       "sourceProductId": "3950",
       "store": "Tecknicam 3D",
@@ -917,8 +946,8 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 4,
-      "stockLabel": "En stock",
+      "stock": 1,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": null,
       "tags": [
@@ -958,33 +987,6 @@
       "variants": []
     },
     {
-      "id": "tecknicam3d-3948",
-      "sourceProductId": "3948",
-      "store": "Tecknicam 3D",
-      "domain": "tecknicam3d.com.ar",
-      "name": "ROSA Pink Filamento PLA High Speed x1kg TOOLBOX NEW",
-      "category": "Filamentos",
-      "price": 18990,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 15761.7,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 3,
-      "stockLabel": "Pocas unidades",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/pink-1790704979-f0f18665.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/rosa-pink-filamento-pla-high-speed-x1kg-toolbox-new",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock",
-      "variants": []
-    },
-    {
       "id": "tecknicam3d-3947",
       "sourceProductId": "3947",
       "store": "Tecknicam 3D",
@@ -998,8 +1000,8 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 4,
-      "stockLabel": "En stock",
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": null,
       "tags": [
@@ -1008,60 +1010,6 @@
       ],
       "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/orange-1790704902-eefaf843.webp",
       "url": "https://www.tecknicam3d.com.ar/productos/naranja-orange-filamento-pla-high-speed-x1kg-toolbox-new",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock",
-      "variants": []
-    },
-    {
-      "id": "tecknicam3d-3943",
-      "sourceProductId": "3943",
-      "store": "Tecknicam 3D",
-      "domain": "tecknicam3d.com.ar",
-      "name": "MARRON Brown Filamento PLA High Speed x1kg TOOLBOX NEW",
-      "category": "Filamentos",
-      "price": 18990,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 15761.7,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 2,
-      "stockLabel": "Pocas unidades",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/brown-1790704345-0bfcf979.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/marron-brown-filamento-pla-high-speed-x1kg-toolbox-new",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock",
-      "variants": []
-    },
-    {
-      "id": "tecknicam3d-3941",
-      "sourceProductId": "3941",
-      "store": "Tecknicam 3D",
-      "domain": "tecknicam3d.com.ar",
-      "name": "ROJO Red Filamento PLA High Speed x1kg TOOLBOX NEW",
-      "category": "Filamentos",
-      "price": 18990,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 15761.7,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 2,
-      "stockLabel": "Pocas unidades",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/red-2-1790704089-9952f32d.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/rojo-red-filamento-pla-high-speed-x1kg-toolbox-new",
       "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock",
       "variants": []
     },
@@ -1079,8 +1027,8 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 6,
-      "stockLabel": "En stock",
+      "stock": 3,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": null,
       "tags": [
@@ -1106,7 +1054,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 9,
+      "stock": 19,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -1135,7 +1083,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 7,
+      "stock": 17,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -1164,7 +1112,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 8,
+      "stock": 18,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -1193,7 +1141,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 8,
+      "stock": 18,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -1238,6 +1186,146 @@
       "variants": []
     },
     {
+      "id": "tecknicam3d-3839",
+      "sourceProductId": "3839",
+      "store": "Tecknicam 3D",
+      "domain": "tecknicam3d.com.ar",
+      "name": "NEGRO (Black) ABS W3D FILAMENTO 3D 1.75MM 1KG",
+      "category": "Filamentos",
+      "price": 43472,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 41298.4,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 8,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "W3D",
+      "tags": [
+        "W3D",
+        "ABS",
+        "1kg"
+      ],
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/DSC1755ABSNEGRO-1789668333-d0e460a1.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/negro-black-abs-w3d-filamento-3d-1-75mm-1kg",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock",
+      "variants": []
+    },
+    {
+      "id": "tecknicam3d-3838",
+      "sourceProductId": "3838",
+      "store": "Tecknicam 3D",
+      "domain": "tecknicam3d.com.ar",
+      "name": "BLANCO (White) ABS W3D FILAMENTO 3D 1.75MM 1KG",
+      "category": "Filamentos",
+      "price": 43472,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 41298.4,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 8,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "W3D",
+      "tags": [
+        "W3D",
+        "ABS",
+        "1kg"
+      ],
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/DSC1890absblanco-1789668215-aeb5bb82.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/blanco-white-abs-w3d-filamento-3d-1-75mm-1kg",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock",
+      "variants": []
+    },
+    {
+      "id": "tecknicam3d-3837",
+      "sourceProductId": "3837",
+      "store": "Tecknicam 3D",
+      "domain": "tecknicam3d.com.ar",
+      "name": "BLANCO ESPUMADO (Foam White) TPU W3D FILAMENTO 3D 1.75MM 1KG",
+      "category": "Filamentos",
+      "price": 66484.8,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 63160.56,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 4,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "W3D",
+      "tags": [
+        "W3D",
+        "TPU",
+        "1kg"
+      ],
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/DSC1890-1789667254-82d4fc63.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/blanco-espumado-foam-white-tpu-w3d-filamento-3d-1-75mm-1kg",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock",
+      "variants": []
+    },
+    {
+      "id": "tecknicam3d-3836",
+      "sourceProductId": "3836",
+      "store": "Tecknicam 3D",
+      "domain": "tecknicam3d.com.ar",
+      "name": "NEGRO ESPUMADO (Foam Black) TPU W3D FILAMENTO 3D 1.75MM 1KG",
+      "category": "Filamentos",
+      "price": 66484.8,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 63160.56,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 5,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "W3D",
+      "tags": [
+        "W3D",
+        "TPU",
+        "1kg"
+      ],
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/DSC1755-1789667063-5b5afc2a.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/negro-espumado-foam-black-tpu-w3d-filamento-3d-1-75mm-1kg",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock",
+      "variants": []
+    },
+    {
+      "id": "tecknicam3d-3829",
+      "sourceProductId": "3829",
+      "store": "Tecknicam 3D",
+      "domain": "tecknicam3d.com.ar",
+      "name": "ROSA SUAVE (Soft Pink) PLA W3D FILAMENTO 3D 1.75MM 1KG 0101017",
+      "category": "Filamentos",
+      "price": 21280,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 20216,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
+      "available": true,
+      "brand": "W3D",
+      "tags": [
+        "W3D",
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/PLA-------0-1789594390-8d9fce75.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/rosa-suave-soft-pink-pla-w3d-filamento-3d-1-75mm-1kg-0101017",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock",
+      "variants": []
+    },
+    {
       "id": "tecknicam3d-3828",
       "sourceProductId": "3828",
       "store": "Tecknicam 3D",
@@ -1251,8 +1339,8 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 5,
-      "stockLabel": "En stock",
+      "stock": 3,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "W3D",
       "tags": [
@@ -1279,7 +1367,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 9,
+      "stock": 5,
       "stockLabel": "En stock",
       "available": true,
       "brand": "W3D",
@@ -1290,7 +1378,7 @@
       ],
       "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/energy-1789593799-24044615.webp",
       "url": "https://www.tecknicam3d.com.ar/productos/rojo-energico-energy-red-pla-w3d-filamento-3d-1-75mm-1kg-101004",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock&page=2",
       "variants": []
     },
     {
@@ -1317,35 +1405,7 @@
       ],
       "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/50-203-0741-1789588979-2bdf5acb.webp",
       "url": "https://www.tecknicam3d.com.ar/productos/bronce-metalico-pla-elegoo-filamento-diametro-1-75mm-50-203-0741",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock",
-      "variants": []
-    },
-    {
-      "id": "tecknicam3d-3804",
-      "sourceProductId": "3804",
-      "store": "Tecknicam 3D",
-      "domain": "tecknicam3d.com.ar",
-      "name": "MATTE AZUL OSCURO NOCHE (Dark Blue) PLA W3D FILAMENTO 3D 1.75MM 1KG 101005",
-      "category": "Filamentos",
-      "price": 21280,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 20216,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 12,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "W3D",
-      "tags": [
-        "W3D",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/azul-noche-w3d3-1790698823-866f36c8.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/matte-azul-oscuro-noche-dark-blue-pla-w3d-filamento-3d-1-75mm-1kg-101005",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock&page=2",
       "variants": []
     },
     {
@@ -1389,7 +1449,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 4,
+      "stock": 14,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -1400,7 +1460,7 @@
         "ECOFILA"
       ],
       "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/D_NQ_NP_2X_691499-MLA99976492779_112025-F-1788386330-18d2a3ff.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/vainilla-pastel-sin-carretel-filamento-hellbot-ecofila-1kg-pla-1-75mm-ecofila",
+      "url": "https://www.tecknicam3d.com.ar/productos/vainilla-pastel-sin-carretel-recerga-pla-filamento-hellbot-ecofila-1kg-1-75mm-3645",
       "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock&page=2",
       "variants": []
     },
@@ -1418,7 +1478,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 13,
+      "stock": 8,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -1445,7 +1505,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 15,
+      "stock": 10,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -1472,7 +1532,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 16,
+      "stock": 12,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -1557,7 +1617,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 4,
+      "stock": 21,
       "stockLabel": "En stock",
       "available": true,
       "brand": "W3D",
@@ -1665,7 +1725,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 11,
+      "stock": 10,
       "stockLabel": "En stock",
       "available": true,
       "brand": "W3D",
@@ -1693,7 +1753,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 7,
+      "stock": 9,
       "stockLabel": "En stock",
       "available": true,
       "brand": "W3D",
@@ -1721,7 +1781,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 8,
+      "stock": 6,
       "stockLabel": "En stock",
       "available": true,
       "brand": "W3D",
@@ -1732,62 +1792,6 @@
       ],
       "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/w3d-verde-amarillo-1785001259-a4987d1a.webp",
       "url": "https://www.tecknicam3d.com.ar/productos/matte-amarillo-verde-yellow-green-pla-w3d-filamento-3d-1-75mm-1kg-104015",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock&page=2",
-      "variants": []
-    },
-    {
-      "id": "tecknicam3d-3553",
-      "sourceProductId": "3553",
-      "store": "Tecknicam 3D",
-      "domain": "tecknicam3d.com.ar",
-      "name": "MATTE CELESTE (matte Light blue) PLA W3D FILAMENTO 3D 1.75MM 1KG 0104012",
-      "category": "Filamentos",
-      "price": 21280,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 20216,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 9,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "W3D",
-      "tags": [
-        "W3D",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/D_NQ_NP_2X_754323-MLA101561212377_122025-F-1784752199-ddd572c6.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/matte-celeste-matte-light-blue-pla-w3d-filamento-3d-1-75mm-1kg-0104012",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock&page=2",
-      "variants": []
-    },
-    {
-      "id": "tecknicam3d-3544",
-      "sourceProductId": "3544",
-      "store": "Tecknicam 3D",
-      "domain": "tecknicam3d.com.ar",
-      "name": "NEGRO PLA Bambu Lab Lite CON CARRETEL Filamento 1kg 1.75mm BLACK 40838",
-      "category": "Impresoras",
-      "price": 28515.2,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 20,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Bambu Lab",
-      "tags": [
-        "Bambu Lab",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/40838-1784299745-2579e1c4.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/negro-pla-bambu-lab-lite-con-carretel-filamento-1kg-1-75mm-black-40838",
       "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock&page=2",
       "variants": []
     },
@@ -3451,7 +3455,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 3,
+      "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Bambu Lab",
@@ -3542,8 +3546,8 @@
       "variants": []
     },
     {
-      "id": "tecknicam3d-3905",
-      "sourceProductId": "3905",
+      "id": "tecknicam3d-nozzle-cleaner-0-4mm-limpiador-de-pico-0-4mm",
+      "sourceProductId": "nozzle-cleaner-0-4mm-limpiador-de-pico-0-4mm",
       "store": "Tecknicam 3D",
       "domain": "tecknicam3d.com.ar",
       "name": "Nozzle cleaner 0.4mm limpiador de pico 0.4mm",
@@ -3552,12 +3556,10 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 5,
-      "stockLabel": "En stock",
-      "available": true,
+      "purchaseModes": [],
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": null,
       "tags": [],
       "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/Nozzle-cleaner-0-4mm-1789755527-cbc5a606.webp",
@@ -4102,6 +4104,30 @@
       "variants": []
     },
     {
+      "id": "tecknicam3d-3960",
+      "sourceProductId": "3960",
+      "store": "Tecknicam 3D",
+      "domain": "tecknicam3d.com.ar",
+      "name": "Mate 3d De Acero Inoxidable Solo Interior 140m (LAS MEDIDAS PUEDEN VARIAR)",
+      "category": "Accesorios",
+      "price": 3572,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 2964.76,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 24,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [],
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/mate-acero3-1791320127-fedb8c17.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/mate-3d-de-acero-inoxidable-solo-interior-140m-las-medidas-pueden-variar",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=6-accesorios",
+      "variants": []
+    },
+    {
       "id": "tecknicam3d-3959",
       "sourceProductId": "3959",
       "store": "Tecknicam 3D",
@@ -4115,7 +4141,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 4,
+      "stock": 9,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -4126,8 +4152,8 @@
       "variants": []
     },
     {
-      "id": "tecknicam3d-3916",
-      "sourceProductId": "3916",
+      "id": "tecknicam3d-interior-para-mate-3d-de-aluminio-solo-interior-140m-las-medidas-pueden-variar",
+      "sourceProductId": "interior-para-mate-3d-de-aluminio-solo-interior-140m-las-medidas-pueden-variar",
       "store": "Tecknicam 3D",
       "domain": "tecknicam3d.com.ar",
       "name": "Interior Para Mate 3d De Aluminio Solo Interior 140m (LAS MEDIDAS PUEDEN VARIAR)",
@@ -4136,12 +4162,10 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 2169.95,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 16,
-      "stockLabel": "En stock",
-      "available": true,
+      "purchaseModes": [],
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": null,
       "tags": [],
       "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/MATE-INTERIOR-1790081736-c51ac1dc.webp",
@@ -4180,10 +4204,10 @@
       "domain": "tecknicam3d.com.ar",
       "name": "MATE LASERABLE Nativo con bombilla acero inoxidable x 100 unidades (elección de colores según disponibilidad)",
       "category": "Herramientas",
-      "price": 665000,
+      "price": 788920,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 551950,
+      "transferPrice": 654803.6,
       "purchaseModes": [
         "Entrega inmediata"
       ],
@@ -4213,8 +4237,8 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 8,
-      "stockLabel": "En stock",
+      "stock": 3,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Bambu Lab",
       "tags": [
@@ -4484,7 +4508,7 @@
       "tags": [],
       "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/Cable-22AWG-RGB-4x3-5mm-x-Mt-1785944327-b2783746.webp",
       "url": "https://www.tecknicam3d.com.ar/productos/cable-22awg-rgb-4x3-5mm-x-mt",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=6-accesorios",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=6-accesorios&page=2",
       "variants": []
     },
     {
@@ -4645,7 +4669,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 404,
+      "stock": 353,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -4656,30 +4680,8 @@
       "variants": []
     },
     {
-      "id": "tecknicam3d-x20-mod1-500ml-labio-fino-vaso-un-poco-de-ruido-500ml-sin-stl-solo-vaso-de-aluminio-sin-piezas-impresas-aluminio-las-medidas-pueden-variar",
-      "sourceProductId": "x20-mod1-500ml-labio-fino-vaso-un-poco-de-ruido-500ml-sin-stl-solo-vaso-de-aluminio-sin-piezas-impresas-aluminio-las-medidas-pueden-variar",
-      "store": "Tecknicam 3D",
-      "domain": "tecknicam3d.com.ar",
-      "name": "X20 MOD1 500ML LABIO FINO VASO UN POCO DE RUIDO 500ML SIN STL (SOLO VASO DE ALUMINIO SIN PIEZAS IMPRESAS) ALUMINIO,(LAS MEDIDAS PUEDEN VARIAR)",
-      "category": "Accesorios",
-      "price": 52440,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 43525.2,
-      "purchaseModes": [],
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": null,
-      "tags": [],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/download--2--1782736314-a57ec177.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/x20-mod1-500ml-labio-fino-vaso-un-poco-de-ruido-500ml-sin-stl-solo-vaso-de-aluminio-sin-piezas-impresas-aluminio-las-medidas-pueden-variar",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=6-accesorios&page=2",
-      "variants": []
-    },
-    {
-      "id": "tecknicam3d-x20-mod1-500ml-labio-grueso-vaso-un-poco-de-ruido-500ml-sin-stl-solo-vaso-de-aluminio-sin-piezas-impresas-aluminio-las-medidas-pueden-variar",
-      "sourceProductId": "x20-mod1-500ml-labio-grueso-vaso-un-poco-de-ruido-500ml-sin-stl-solo-vaso-de-aluminio-sin-piezas-impresas-aluminio-las-medidas-pueden-variar",
+      "id": "tecknicam3d-3448",
+      "sourceProductId": "3448",
       "store": "Tecknicam 3D",
       "domain": "tecknicam3d.com.ar",
       "name": "X20 MOD1 500ML LABIO GRUESO VASO UN POCO DE RUIDO 500ML SIN STL (SOLO VASO DE ALUMINIO SIN PIEZAS IMPRESAS) ALUMINIO,(LAS MEDIDAS PUEDEN VARIAR)",
@@ -4688,10 +4690,12 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 43525.2,
-      "purchaseModes": [],
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 3,
+      "stockLabel": "Pocas unidades",
+      "available": true,
       "brand": null,
       "tags": [],
       "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/download--2--1782736314-a57ec177.webp",
@@ -4700,48 +4704,26 @@
       "variants": []
     },
     {
-      "id": "tecknicam3d-rojo-escalonado-tacita-interior-polimero-impresion-3d-cant1",
-      "sourceProductId": "rojo-escalonado-tacita-interior-polimero-impresion-3d-cant1",
+      "id": "tecknicam3d-3447",
+      "sourceProductId": "3447",
       "store": "Tecknicam 3D",
       "domain": "tecknicam3d.com.ar",
-      "name": "ROJO Escalonado tacita Interior Polímero Impresión 3d cant1",
+      "name": "X20 MOD1 500ML LABIO FINO VASO UN POCO DE RUIDO 500ML SIN STL (SOLO VASO DE ALUMINIO SIN PIEZAS IMPRESAS) ALUMINIO,(LAS MEDIDAS PUEDEN VARIAR)",
       "category": "Accesorios",
-      "price": 530.33,
+      "price": 52440,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 440.17,
-      "purchaseModes": [],
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": null,
-      "tags": [],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/D_NQ_NP_2X_658298-MLA71636759510_092023-F-1784404840-4a0e331d.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/rojo-escalonado-tacita-interior-polimero-impresion-3d-cant1",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=6-accesorios&page=2",
-      "variants": []
-    },
-    {
-      "id": "tecknicam3d-3440",
-      "sourceProductId": "3440",
-      "store": "Tecknicam 3D",
-      "domain": "tecknicam3d.com.ar",
-      "name": "AMARILLO Escalonado tacita Interior Polímero Impresión 3d cant1",
-      "category": "Accesorios",
-      "price": 530.33,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 440.17,
+      "transferPrice": 43525.2,
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 2,
-      "stockLabel": "Pocas unidades",
+      "stock": 4,
+      "stockLabel": "En stock",
       "available": true,
       "brand": null,
       "tags": [],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/D_NQ_NP_2X_931553-MLA113556964295_062026-F-1784405218-a31a93f2.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/amarillo-escalonado-tacita-interior-polimero-impresion-3d-cant1",
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/download--2--1782736314-a57ec177.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/x20-mod1-500ml-labio-fino-vaso-un-poco-de-ruido-500ml-sin-stl-solo-vaso-de-aluminio-sin-piezas-impresas-aluminio-las-medidas-pueden-variar",
       "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=6-accesorios&page=2",
       "variants": []
     },
@@ -4770,11 +4752,11 @@
       "variants": []
     },
     {
-      "id": "tecknicam3d-3439",
-      "sourceProductId": "3439",
+      "id": "tecknicam3d-3440",
+      "sourceProductId": "3440",
       "store": "Tecknicam 3D",
       "domain": "tecknicam3d.com.ar",
-      "name": "AZUL Escalonado tacita Interior Polímero Impresión 3d cant1",
+      "name": "AMARILLO Escalonado tacita Interior Polímero Impresión 3d cant1",
       "category": "Accesorios",
       "price": 530.33,
       "currency": "ARS",
@@ -4783,13 +4765,35 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 6,
-      "stockLabel": "En stock",
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": null,
       "tags": [],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/D_NQ_NP_2X_679572-MLA70484754027_072023-F-1784404949-cd5042a6.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/azul-escalonado-tacita-interior-polimero-impresion-3d-cant1",
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/D_NQ_NP_2X_931553-MLA113556964295_062026-F-1784405218-a31a93f2.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/amarillo-escalonado-tacita-interior-polimero-impresion-3d-cant1",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=6-accesorios&page=2",
+      "variants": []
+    },
+    {
+      "id": "tecknicam3d-rojo-escalonado-tacita-interior-polimero-impresion-3d-cant1",
+      "sourceProductId": "rojo-escalonado-tacita-interior-polimero-impresion-3d-cant1",
+      "store": "Tecknicam 3D",
+      "domain": "tecknicam3d.com.ar",
+      "name": "ROJO Escalonado tacita Interior Polímero Impresión 3d cant1",
+      "category": "Accesorios",
+      "price": 530.33,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 440.17,
+      "purchaseModes": [],
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": null,
+      "tags": [],
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/D_NQ_NP_2X_658298-MLA71636759510_092023-F-1784404840-4a0e331d.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/rojo-escalonado-tacita-interior-polimero-impresion-3d-cant1",
       "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=6-accesorios&page=2",
       "variants": []
     },
@@ -4818,24 +4822,26 @@
       "variants": []
     },
     {
-      "id": "tecknicam3d-negro-escalonado-tacita-interior-polimero-impresion-3d-cant1",
-      "sourceProductId": "negro-escalonado-tacita-interior-polimero-impresion-3d-cant1",
+      "id": "tecknicam3d-3439",
+      "sourceProductId": "3439",
       "store": "Tecknicam 3D",
       "domain": "tecknicam3d.com.ar",
-      "name": "NEGRO Escalonado tacita Interior Polímero Impresión 3d cant1",
+      "name": "AZUL Escalonado tacita Interior Polímero Impresión 3d cant1",
       "category": "Accesorios",
-      "price": 450,
+      "price": 530.33,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 373.5,
-      "purchaseModes": [],
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
+      "transferPrice": 440.17,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 6,
+      "stockLabel": "En stock",
+      "available": true,
       "brand": null,
       "tags": [],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/D_NQ_NP_2X_895702-MLA105174685719_012026-F-1785005292-17147ce4.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/negro-escalonado-tacita-interior-polimero-impresion-3d-cant1",
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/D_NQ_NP_2X_679572-MLA70484754027_072023-F-1784404949-cd5042a6.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/azul-escalonado-tacita-interior-polimero-impresion-3d-cant1",
       "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=6-accesorios&page=2",
       "variants": []
     },
