@@ -5,7 +5,7 @@
     "baseUrl": "https://creaxis.com.ar",
     "apiPath": "/wp-json/wc/store/v1/products"
   },
-  "scrapedAt": "2026-10-08T15:24:31.697Z",
+  "scrapedAt": "2026-10-09T15:07:25.555Z",
   "source": "https://creaxis.com.ar/wp-json/wc/store/v1/products",
   "pages": [
     {
@@ -164,7 +164,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 10,
+      "stock": 9,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -902,7 +902,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 5,
+      "stock": 4,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Filar",
@@ -1752,7 +1752,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 12,
+      "stock": 11,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Filar",
@@ -2023,12 +2023,10 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 20990,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
-      "available": true,
+      "purchaseModes": [],
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": "Hellbot",
       "tags": [
         "Hellbot",
@@ -2272,7 +2270,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 2,
+      "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Hellbot",

@@ -5,8 +5,8 @@
     "baseUrl": "https://lefasoc.com.ar",
     "listingPath": "/productos/"
   },
-  "scrapedAt": "2026-10-08T15:24:38.711Z",
-  "count": 179,
+  "scrapedAt": "2026-10-09T15:07:31.817Z",
+  "count": 177,
   "pages": [
     {
       "page": 1,
@@ -29,8 +29,8 @@
     {
       "page": 4,
       "url": "https://lefasoc.com.ar/productos/?page=4",
-      "found": 29,
-      "added": 29
+      "found": 27,
+      "added": 27
     },
     {
       "page": 5,
@@ -52,7 +52,7 @@
       "previousPrice": null,
       "transferPrice": 23750,
       "purchaseModes": [],
-      "stock": 1874,
+      "stock": 1854,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -186,23 +186,11 @@
           "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/pla_cobre-15ef138eb159e78e9617731649863977-1024-1024.webp"
         },
         {
-          "id": 1454570145,
-          "sku": "M10IDO175CJ",
-          "price": 25000,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Dorado"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/pla_dorado_ml1-aecad1e012bcec6e4817731649927981-1024-1024.webp"
-        },
-        {
           "id": 1454570147,
           "sku": "M10IFU175CJ",
           "price": 25000,
           "isDeposit": false,
-          "stock": 22,
+          "stock": 19,
           "available": true,
           "options": [
             "Fucsia"
@@ -262,7 +250,7 @@
           "sku": "M10ING175CJ",
           "price": 25000,
           "isDeposit": false,
-          "stock": 218,
+          "stock": 211,
           "available": true,
           "options": [
             "Negro"
@@ -330,6 +318,18 @@
           "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/pla_turquesa-6e1687b76cdf70b2d117731650443751-1024-1024.webp"
         },
         {
+          "id": 1454570178,
+          "sku": "M10IVR175CJ",
+          "price": 25000,
+          "isDeposit": false,
+          "stock": 1,
+          "available": true,
+          "options": [
+            "Verde"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/pla_verde-9de6f1f1685be8669917731650494072-1024-1024.webp"
+        },
+        {
           "id": 1454570182,
           "sku": "M10IVF175CJ",
           "price": 25000,
@@ -358,7 +358,7 @@
           "sku": "M10IVI175CJ",
           "price": 25000,
           "isDeposit": false,
-          "stock": 24,
+          "stock": 23,
           "available": true,
           "options": [
             "Violeta"
@@ -391,7 +391,7 @@
       "previousPrice": null,
       "transferPrice": 3040,
       "purchaseModes": [],
-      "stock": 370,
+      "stock": 350,
       "stockLabel": "En stock",
       "available": true,
       "brand": "lefasoc3D",
@@ -409,7 +409,7 @@
           "sku": "VASO1000",
           "price": 3500,
           "isDeposit": false,
-          "stock": 80,
+          "stock": 70,
           "available": true,
           "options": [
             "1 litro"
@@ -442,7 +442,7 @@
       "previousPrice": null,
       "transferPrice": 20900,
       "purchaseModes": [],
-      "stock": 196,
+      "stock": 188,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -472,7 +472,7 @@
           "sku": "M77ICH175CJ",
           "price": 22000,
           "isDeposit": false,
-          "stock": 65,
+          "stock": 64,
           "available": true,
           "options": [
             "Chocolate"
@@ -496,7 +496,7 @@
           "sku": "M77IAB175CJ",
           "price": 22000,
           "isDeposit": false,
-          "stock": 19,
+          "stock": 18,
           "available": true,
           "options": [
             "Clear ambar"
@@ -508,8 +508,8 @@
           "sku": "M77IAZ175CJ",
           "price": 22000,
           "isDeposit": false,
-          "stock": 1,
-          "available": true,
+          "stock": 0,
+          "available": false,
           "options": [
             "Clear azul"
           ],
@@ -520,7 +520,7 @@
           "sku": "M77IRJ175CJ",
           "price": 22000,
           "isDeposit": false,
-          "stock": 6,
+          "stock": 5,
           "available": true,
           "options": [
             "Clear rojo"
@@ -577,7 +577,7 @@
       "previousPrice": null,
       "transferPrice": 19000,
       "purchaseModes": [],
-      "stock": 2774,
+      "stock": 2740,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3n3",
@@ -631,7 +631,7 @@
           "sku": "M80IBL175CJ",
           "price": 22000,
           "isDeposit": false,
-          "stock": 178,
+          "stock": 171,
           "available": true,
           "options": [
             "blanco"
@@ -691,7 +691,7 @@
           "sku": "M80IGR175CJ",
           "price": 22000,
           "isDeposit": false,
-          "stock": 59,
+          "stock": 55,
           "available": true,
           "options": [
             "Gris plomo"
@@ -703,7 +703,7 @@
           "sku": "M80IHU175CJ",
           "price": 22000,
           "isDeposit": false,
-          "stock": 169,
+          "stock": 168,
           "available": true,
           "options": [
             "hueso"
@@ -727,7 +727,7 @@
           "sku": "M80ING175CJ",
           "price": 22000,
           "isDeposit": false,
-          "stock": 138,
+          "stock": 136,
           "available": true,
           "options": [
             "negro"
@@ -763,7 +763,7 @@
           "sku": "M80IVR175CJ",
           "price": 22000,
           "isDeposit": false,
-          "stock": 130,
+          "stock": 129,
           "available": true,
           "options": [
             "verde"
@@ -787,7 +787,7 @@
           "sku": "M80IVI175CJ",
           "price": 20000,
           "isDeposit": false,
-          "stock": 31,
+          "stock": 29,
           "available": true,
           "options": [
             "violeta"
@@ -808,7 +808,7 @@
       "previousPrice": 20000,
       "transferPrice": 18050,
       "purchaseModes": [],
-      "stock": 124,
+      "stock": 84,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3n3",
@@ -826,7 +826,7 @@
           "sku": "M88IAZ175CJ",
           "price": 19000,
           "isDeposit": false,
-          "stock": 5,
+          "stock": 4,
           "available": true,
           "options": [
             "azul"
@@ -838,7 +838,7 @@
           "sku": "M88IBL175CJ",
           "price": 19000,
           "isDeposit": false,
-          "stock": 43,
+          "stock": 27,
           "available": true,
           "options": [
             "blanco"
@@ -850,7 +850,7 @@
           "sku": "M88IGE175CJ",
           "price": 19000,
           "isDeposit": false,
-          "stock": 12,
+          "stock": 11,
           "available": true,
           "options": [
             "Gris espacial"
@@ -862,8 +862,8 @@
           "sku": "M88ING175CJ",
           "price": 19000,
           "isDeposit": false,
-          "stock": 2,
-          "available": true,
+          "stock": 0,
+          "available": false,
           "options": [
             "negro"
           ],
@@ -895,7 +895,7 @@
       "previousPrice": null,
       "transferPrice": 23750,
       "purchaseModes": [],
-      "stock": 646,
+      "stock": 640,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -949,7 +949,7 @@
           "sku": "M17ICH175CJ",
           "price": 25000,
           "isDeposit": false,
-          "stock": 33,
+          "stock": 32,
           "available": true,
           "options": [
             "boutique chocolate"
@@ -1045,7 +1045,7 @@
           "sku": "M17IVA175CJ",
           "price": 25000,
           "isDeposit": false,
-          "stock": 29,
+          "stock": 27,
           "available": true,
           "options": [
             "boutique verde aviador"
@@ -1078,7 +1078,7 @@
       "previousPrice": null,
       "transferPrice": 23275,
       "purchaseModes": [],
-      "stock": 568,
+      "stock": 566,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -1132,12 +1132,24 @@
           "sku": "M09ING175CJ",
           "price": 24500,
           "isDeposit": false,
-          "stock": 200,
+          "stock": 198,
           "available": true,
           "options": [
             "Negro"
           ],
           "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/abs_negro-1-0f7bd5fb5c97dc3ced17745579226915-1024-1024.webp"
+        },
+        {
+          "id": 1486471825,
+          "sku": "M09IRJ175CJ",
+          "price": 24500,
+          "isDeposit": false,
+          "stock": 1,
+          "available": true,
+          "options": [
+            "Rojo"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/abs_rojo-ad8b7f4fd6e73a227617745579226693-1024-1024.webp"
         },
         {
           "id": 1486471827,
@@ -1316,7 +1328,7 @@
       "previousPrice": null,
       "transferPrice": 19475,
       "purchaseModes": [],
-      "stock": 12,
+      "stock": 10,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Generico",
@@ -1329,23 +1341,11 @@
       "scrapedFrom": "https://lefasoc.com.ar/productos/",
       "variants": [
         {
-          "id": 1499244312,
-          "sku": "100100143",
-          "price": 20500,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "0.4"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/d_929549-mlm93198191254_092025-c-e0d1e2de6721c2eaaa17757423966444-1024-1024.webp"
-        },
-        {
           "id": 1525898758,
           "sku": "100100245",
           "price": 20500,
           "isDeposit": false,
-          "stock": 6,
+          "stock": 5,
           "available": true,
           "options": [
             "0.6"
@@ -1555,7 +1555,7 @@
       "previousPrice": null,
       "transferPrice": 23750,
       "purchaseModes": [],
-      "stock": 42,
+      "stock": 38,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Generico",
@@ -1597,7 +1597,7 @@
           "sku": "100100210",
           "price": 27500,
           "isDeposit": false,
-          "stock": 3,
+          "stock": 2,
           "available": true,
           "options": [
             "Rainbow 1+Diamante"
@@ -1621,12 +1621,49 @@
           "sku": "100100232",
           "price": 28000,
           "isDeposit": false,
-          "stock": 3,
+          "stock": 2,
           "available": true,
           "options": [
             "Fria"
           ],
           "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/d_nq_np_961918-cbt103555204181_012026-o-7d8226b4a004d0934717761129133345-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "lefasoc-337360916",
+      "sourceProductId": "337360916",
+      "store": "Lefasoc",
+      "domain": "lefasoc.com.ar",
+      "name": "Alicate de Presicion Reforzado Acero Inoxidable",
+      "category": "Accesorios",
+      "price": 8000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 7600,
+      "purchaseModes": [],
+      "stock": 14,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Generico",
+      "tags": [
+        "Generico"
+      ],
+      "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/b1697edf-59c4-48fb-b0a4-d3fc71048922-fe2018d2026f34894717761772562049-1024-1024.webp",
+      "url": "https://lefasoc.com.ar/productos/Alicate-de-Presicion-Reforzado-Acero-Inoxidable/",
+      "scrapedFrom": "https://lefasoc.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1499587267,
+          "sku": "100100185",
+          "price": 8000,
+          "isDeposit": false,
+          "stock": 7,
+          "available": true,
+          "options": [
+            "azul"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/b1697edf-59c4-48fb-b0a4-d3fc71048922-fe2018d2026f34894717761772562049-1024-1024.webp"
         }
       ]
     },
@@ -1642,7 +1679,7 @@
       "previousPrice": 10000,
       "transferPrice": 7600,
       "purchaseModes": [],
-      "stock": 14,
+      "stock": 6,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Generico",
@@ -1658,10 +1695,48 @@
           "sku": "100100168",
           "price": 8000,
           "isDeposit": false,
-          "stock": 7,
+          "stock": 3,
           "available": true,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/d_nq_np_2x_743030-mla101916298097_122025-f-fd9d3fcdc57404698817756606835255-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "lefasoc-371300154",
+      "sourceProductId": "371300154",
+      "store": "Lefasoc",
+      "domain": "lefasoc.com.ar",
+      "name": "Filamento Bambu Lab PETG Basic Con Bobina",
+      "category": "Impresoras",
+      "price": 22000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 20900,
+      "purchaseModes": [],
+      "stock": 20,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab",
+        "PETG"
+      ],
+      "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/images-10-ddcdf3528edb9dc1af17908847566173-1024-1024.webp",
+      "url": "https://lefasoc.com.ar/productos/filamento-bambu-lab-petg-basic-con-bobina/",
+      "scrapedFrom": "https://lefasoc.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1610015099,
+          "sku": "6937285509727",
+          "price": 22000,
+          "isDeposit": false,
+          "stock": 10,
+          "available": true,
+          "options": [
+            "Blanco"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/images-10-ddcdf3528edb9dc1af17908847566173-1024-1024.webp"
         }
       ]
     },
@@ -1677,7 +1752,7 @@
       "previousPrice": null,
       "transferPrice": 27360,
       "purchaseModes": [],
-      "stock": 42,
+      "stock": 38,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Elegoo",
@@ -1695,7 +1770,7 @@
           "sku": "502030114",
           "price": 28800,
           "isDeposit": false,
-          "stock": 3,
+          "stock": 2,
           "available": true,
           "options": [
             "negro"
@@ -1719,7 +1794,7 @@
           "sku": "502030116",
           "price": 28800,
           "isDeposit": false,
-          "stock": 5,
+          "stock": 4,
           "available": true,
           "options": [
             "Gris"
@@ -1773,43 +1848,6 @@
             "Azul"
           ],
           "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/filamento-elegoo-rapido-pla-1-75mm-1kg-azul-6843e39abb998a7ca217871697267854-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "lefasoc-337360916",
-      "sourceProductId": "337360916",
-      "store": "Lefasoc",
-      "domain": "lefasoc.com.ar",
-      "name": "Alicate de Presicion Reforzado Acero Inoxidable",
-      "category": "Accesorios",
-      "price": 8000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 7600,
-      "purchaseModes": [],
-      "stock": 30,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Generico",
-      "tags": [
-        "Generico"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/b1697edf-59c4-48fb-b0a4-d3fc71048922-fe2018d2026f34894717761772562049-1024-1024.webp",
-      "url": "https://lefasoc.com.ar/productos/Alicate-de-Presicion-Reforzado-Acero-Inoxidable/",
-      "scrapedFrom": "https://lefasoc.com.ar/productos/",
-      "variants": [
-        {
-          "id": 1499587267,
-          "sku": "100100185",
-          "price": 8000,
-          "isDeposit": false,
-          "stock": 15,
-          "available": true,
-          "options": [
-            "azul"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/b1697edf-59c4-48fb-b0a4-d3fc71048922-fe2018d2026f34894717761772562049-1024-1024.webp"
         }
       ]
     },
@@ -1936,7 +1974,7 @@
       "previousPrice": null,
       "transferPrice": 17100,
       "purchaseModes": [],
-      "stock": 24,
+      "stock": 32,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Lefasoc",
@@ -1964,7 +2002,7 @@
           "sku": "100100257",
           "price": 19999,
           "isDeposit": false,
-          "stock": 7,
+          "stock": 11,
           "available": true,
           "options": [
             "0.6"
@@ -2110,7 +2148,7 @@
       "previousPrice": null,
       "transferPrice": 19950,
       "purchaseModes": [],
-      "stock": 6,
+      "stock": 4,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Generico",
@@ -2126,7 +2164,7 @@
           "sku": "100100153",
           "price": 21000,
           "isDeposit": false,
-          "stock": 3,
+          "stock": 2,
           "available": true,
           "options": [
             "0.4"
@@ -2257,7 +2295,7 @@
       "previousPrice": null,
       "transferPrice": 3800,
       "purchaseModes": [],
-      "stock": 24,
+      "stock": 20,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Generico",
@@ -2273,47 +2311,12 @@
           "sku": "100100184",
           "price": 4000,
           "isDeposit": false,
-          "stock": 12,
+          "stock": 10,
           "available": true,
           "options": [
             "Negro"
           ],
           "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/d_nq_np_956753-mla51231752663_082022-o-aa20da9c165c82c58717761776013040-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "lefasoc-336456756",
-      "sourceProductId": "336456756",
-      "store": "Lefasoc",
-      "domain": "lefasoc.com.ar",
-      "name": "Tubo Teflon PTFE por metro para filamento de 1,75MM Blanco",
-      "category": "Filamentos",
-      "price": 6000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 5700,
-      "purchaseModes": [],
-      "stock": 2,
-      "stockLabel": "Pocas unidades",
-      "available": true,
-      "brand": "Generico",
-      "tags": [
-        "Generico"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/d_nq_np_2x_957144-mla44767847731_012021-f-b3af7a19a4955756ef17756597514436-1024-1024.webp",
-      "url": "https://lefasoc.com.ar/productos/Tuno-Teflon-PTFE-por-metro-para-filamento-de-175MM-Blanco/",
-      "scrapedFrom": "https://lefasoc.com.ar/productos/",
-      "variants": [
-        {
-          "id": 1496132656,
-          "sku": "100100175",
-          "price": 6000,
-          "isDeposit": false,
-          "stock": 1,
-          "available": true,
-          "options": [],
-          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/d_nq_np_2x_957144-mla44767847731_012021-f-b3af7a19a4955756ef17756597514436-1024-1024.webp"
         }
       ]
     },
@@ -2364,6 +2367,43 @@
             "0.8"
           ],
           "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/d_nq_np_715836-mla83139166591_032025-o-c708d18d25887c78ee17758315094474-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "lefasoc-334290453",
+      "sourceProductId": "334290453",
+      "store": "Lefasoc",
+      "domain": "lefasoc.com.ar",
+      "name": "Spray Adhesivo para Impresión 3D x390cc - Roby",
+      "category": "Accesorios",
+      "price": 12000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 11400,
+      "purchaseModes": [],
+      "stock": 42,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Roby",
+      "tags": [
+        "Roby"
+      ],
+      "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/roby_spray_fijador_390ml_fuerte-924f0c8085443cd61017755932480262-1024-1024.webp",
+      "url": "https://lefasoc.com.ar/productos/Spray-Adhesivo-Roby-390cc/",
+      "scrapedFrom": "https://lefasoc.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1486478172,
+          "sku": "ROBYF390",
+          "price": 12000,
+          "isDeposit": false,
+          "stock": 21,
+          "available": true,
+          "options": [
+            "translucido"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/roby_spray_fijador_390ml_fuerte-924f0c8085443cd61017755932480262-1024-1024.webp"
         }
       ]
     },
@@ -2493,7 +2533,7 @@
       "previousPrice": null,
       "transferPrice": 3800,
       "purchaseModes": [],
-      "stock": 18,
+      "stock": 10,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Lefasoc",
@@ -2509,7 +2549,7 @@
           "sku": "100100250",
           "price": 4000,
           "isDeposit": false,
-          "stock": 9,
+          "stock": 5,
           "available": true,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/d_nq_np_2x_998655-mla89936397719_082025-f-70ca9448045b8f83ac17788726641207-1024-1024.webp"
@@ -2603,43 +2643,6 @@
       ]
     },
     {
-      "id": "lefasoc-334290453",
-      "sourceProductId": "334290453",
-      "store": "Lefasoc",
-      "domain": "lefasoc.com.ar",
-      "name": "Spray Adhesivo para Impresión 3D x390cc - Roby",
-      "category": "Accesorios",
-      "price": 12000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 11400,
-      "purchaseModes": [],
-      "stock": 40,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Roby",
-      "tags": [
-        "Roby"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/roby_spray_fijador_390ml_fuerte-924f0c8085443cd61017755932480262-1024-1024.webp",
-      "url": "https://lefasoc.com.ar/productos/Spray-Adhesivo-Roby-390cc/",
-      "scrapedFrom": "https://lefasoc.com.ar/productos/",
-      "variants": [
-        {
-          "id": 1486478172,
-          "sku": "ROBYF390",
-          "price": 12000,
-          "isDeposit": false,
-          "stock": 20,
-          "available": true,
-          "options": [
-            "translucido"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/roby_spray_fijador_390ml_fuerte-924f0c8085443cd61017755932480262-1024-1024.webp"
-        }
-      ]
-    },
-    {
       "id": "lefasoc-365545332",
       "sourceProductId": "365545332",
       "store": "Lefasoc",
@@ -2684,12 +2687,12 @@
       "domain": "lefasoc.com.ar",
       "name": "Hotend Assemby Cerámico para Bambu Lab series A1",
       "category": "Impresoras",
-      "price": 42000,
+      "price": 40000,
       "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 39900,
+      "previousPrice": 42000,
+      "transferPrice": 38000,
       "purchaseModes": [],
-      "stock": 10,
+      "stock": 14,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Generico",
@@ -2704,9 +2707,9 @@
         {
           "id": 1564186699,
           "sku": "100100253",
-          "price": 42000,
+          "price": 40000,
           "isDeposit": false,
-          "stock": 5,
+          "stock": 7,
           "available": true,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/a1-assembly-ceramico-lefasoc3d-7177c3389b816f0ac617914698223216-1024-1024.webp"
@@ -2720,12 +2723,12 @@
       "domain": "lefasoc.com.ar",
       "name": "Cepillo de Silicona Para nozzle Bambu lab A1 mini",
       "category": "Impresoras",
-      "price": 2500,
+      "price": 3000,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 2375,
+      "transferPrice": 2850,
       "purchaseModes": [],
-      "stock": 6,
+      "stock": 4,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Generico",
@@ -2740,9 +2743,9 @@
         {
           "id": 1499587280,
           "sku": "100100191",
-          "price": 2500,
+          "price": 3000,
           "isDeposit": false,
-          "stock": 3,
+          "stock": 2,
           "available": true,
           "options": [
             "gris"
@@ -2787,44 +2790,6 @@
       ]
     },
     {
-      "id": "lefasoc-336456623",
-      "sourceProductId": "336456623",
-      "store": "Lefasoc",
-      "domain": "lefasoc.com.ar",
-      "name": "Nozzle 3D Creality Unicorn Reforzada Boquilla para K2-HI alternativa",
-      "category": "Impresoras",
-      "price": 12000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 11400,
-      "purchaseModes": [],
-      "stock": 6,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Generico",
-      "tags": [
-        "Generico",
-        "Creality"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/d_nq_np_602293-cbt96287379800_102025-o-8c590c0ecdb7acf09c17758321427239-1024-1024.webp",
-      "url": "https://lefasoc.com.ar/productos/Nozzle-3D-Creality-Unicorn-Reforzada-Boquilla-para-K2-HI-alternativa/",
-      "scrapedFrom": "https://lefasoc.com.ar/productos/",
-      "variants": [
-        {
-          "id": 1496132200,
-          "sku": "100100106",
-          "price": 12000,
-          "isDeposit": false,
-          "stock": 3,
-          "available": true,
-          "options": [
-            "0.4"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/d_nq_np_602293-cbt96287379800_102025-o-8c590c0ecdb7acf09c17758321427239-1024-1024.webp"
-        }
-      ]
-    },
-    {
       "id": "lefasoc-336456619",
       "sourceProductId": "336456619",
       "store": "Lefasoc",
@@ -2836,7 +2801,7 @@
       "previousPrice": null,
       "transferPrice": 8075,
       "purchaseModes": [],
-      "stock": 8,
+      "stock": 6,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Generico",
@@ -2848,18 +2813,6 @@
       "url": "https://lefasoc.com.ar/productos/Nozzle-3D-Creality-Unicorn-Boquilla-para-k1c-alternativa/",
       "scrapedFrom": "https://lefasoc.com.ar/productos/",
       "variants": [
-        {
-          "id": 1496132183,
-          "sku": "100100101",
-          "price": 8500,
-          "isDeposit": false,
-          "stock": 1,
-          "available": true,
-          "options": [
-            "0.2"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/d_nq_np_796677-mla81357877151_122024-o-2b41a5ab8c75cf0f5a17758316345927-1024-1024.webp"
-        },
         {
           "id": 1499350998,
           "sku": "100100102",
@@ -3098,7 +3051,7 @@
       "previousPrice": null,
       "transferPrice": 5700,
       "purchaseModes": [],
-      "stock": 16,
+      "stock": 8,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Generico",
@@ -3115,7 +3068,7 @@
           "sku": "100100188",
           "price": 6000,
           "isDeposit": false,
-          "stock": 8,
+          "stock": 4,
           "available": true,
           "options": [
             "Negro"
@@ -3136,7 +3089,7 @@
       "previousPrice": null,
       "transferPrice": 5700,
       "purchaseModes": [],
-      "stock": 20,
+      "stock": 16,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Generico",
@@ -3153,7 +3106,7 @@
           "sku": "100100129",
           "price": 6000,
           "isDeposit": false,
-          "stock": 10,
+          "stock": 8,
           "available": true,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/d_nq_np_2x_910634-mla74341766272_022024-f-eb3fd8e6a531db8cbe17757480373671-1024-1024.webp"
@@ -3345,7 +3298,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/d_nq_np_2x_906358-mla96524632623_102025-f-332f70d3cba5c9dc4617745570119541-1024-1024.webp",
       "url": "https://lefasoc.com.ar/productos/Grilon3-MAXI-PLA-850-175MM-x25kg/",
-      "scrapedFrom": "https://lefasoc.com.ar/productos/?page=2",
+      "scrapedFrom": "https://lefasoc.com.ar/productos/",
       "variants": [
         {
           "id": 1486471848,
@@ -3436,6 +3389,45 @@
       ]
     },
     {
+      "id": "lefasoc-368099036",
+      "sourceProductId": "368099036",
+      "store": "Lefasoc",
+      "domain": "lefasoc.com.ar",
+      "name": "FILAMENTO FLASHFORGE HS PLA MARMOL 1.75 X 1KG",
+      "category": "Impresoras",
+      "price": 26800,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 25460,
+      "purchaseModes": [],
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
+      "available": true,
+      "brand": "Flashforge",
+      "tags": [
+        "Flashforge",
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/d_nq_np_2x_712209-mla115783439195_082026-f-7b0ad203b02e012eaf17896577231730-1024-1024.webp",
+      "url": "https://lefasoc.com.ar/productos/filamento-flashforge-hs-pla-1-75-x1kg/",
+      "scrapedFrom": "https://lefasoc.com.ar/productos/?page=2",
+      "variants": [
+        {
+          "id": 1599166050,
+          "sku": "6937120324935",
+          "price": 26800,
+          "isDeposit": false,
+          "stock": 1,
+          "available": true,
+          "options": [
+            "Marmol"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/d_nq_np_2x_712209-mla115783439195_082026-f-7b0ad203b02e012eaf17896577231730-1024-1024.webp"
+        }
+      ]
+    },
+    {
       "id": "lefasoc-358663875",
       "sourceProductId": "358663875",
       "store": "Lefasoc",
@@ -3482,7 +3474,7 @@
       "previousPrice": 18500,
       "transferPrice": 16624.05,
       "purchaseModes": [],
-      "stock": 26,
+      "stock": 24,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Lefasoc",
@@ -3498,7 +3490,7 @@
           "sku": "100100252",
           "price": 17499,
           "isDeposit": false,
-          "stock": 13,
+          "stock": 12,
           "available": true,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/d_q_np_938068-cbt104037836575_012026-f-568dc7963349e46f8b17788745991946-1024-1024.webp"
@@ -3594,6 +3586,81 @@
       ]
     },
     {
+      "id": "lefasoc-337362373",
+      "sourceProductId": "337362373",
+      "store": "Lefasoc",
+      "domain": "lefasoc.com.ar",
+      "name": "Nozzle 3D Elegoo Boquilla H22.5 para Neptune 4 PLUS/4 MAX",
+      "category": "Repuestos",
+      "price": 3500,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 3325,
+      "purchaseModes": [],
+      "stock": 12,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Elegoo",
+      "tags": [
+        "Elegoo"
+      ],
+      "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/s-l400-0e1e3f2e05caef90bd17760902187431-1024-1024.webp",
+      "url": "https://lefasoc.com.ar/productos/Nozzle-3D-Elegoo-Boquilla-para-Neptune-4-PLUS-4-MAX/",
+      "scrapedFrom": "https://lefasoc.com.ar/productos/?page=2",
+      "variants": [
+        {
+          "id": 1499591534,
+          "sku": "22.07.0045",
+          "price": 3500,
+          "isDeposit": false,
+          "stock": 6,
+          "available": true,
+          "options": [
+            "1.0"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/s-l400-0e1e3f2e05caef90bd17760902187431-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "lefasoc-337360922",
+      "sourceProductId": "337360922",
+      "store": "Lefasoc",
+      "domain": "lefasoc.com.ar",
+      "name": "Espatula Plastica",
+      "category": "Filamentos",
+      "price": 3500,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 3325,
+      "purchaseModes": [],
+      "stock": 12,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Generico",
+      "tags": [
+        "Generico",
+        "PLA"
+      ],
+      "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/1589130164_max-4c1ac05e4797d365df17761759641208-1024-1024.webp",
+      "url": "https://lefasoc.com.ar/productos/Espatula-Plastica/",
+      "scrapedFrom": "https://lefasoc.com.ar/productos/?page=2",
+      "variants": [
+        {
+          "id": 1499587275,
+          "sku": "100100189",
+          "price": 3500,
+          "isDeposit": false,
+          "stock": 6,
+          "available": true,
+          "options": [
+            "Negro"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/1589130164_max-4c1ac05e4797d365df17761759641208-1024-1024.webp"
+        }
+      ]
+    },
+    {
       "id": "lefasoc-337360918",
       "sourceProductId": "337360918",
       "store": "Lefasoc",
@@ -3642,7 +3709,7 @@
       "previousPrice": 8000,
       "transferPrice": 6175,
       "purchaseModes": [],
-      "stock": 16,
+      "stock": 8,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Generico",
@@ -3658,7 +3725,7 @@
           "sku": "100100177",
           "price": 6500,
           "isDeposit": false,
-          "stock": 8,
+          "stock": 4,
           "available": true,
           "options": [
             "gris"
@@ -3861,7 +3928,7 @@
       "previousPrice": null,
       "transferPrice": 939455,
       "purchaseModes": [],
-      "stock": 10,
+      "stock": 6,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Flashforge",
@@ -3877,7 +3944,7 @@
           "sku": "ADVENTURER-5X",
           "price": 988900,
           "isDeposit": false,
-          "stock": 5,
+          "stock": 3,
           "available": true,
           "options": [
             "negro"
@@ -3960,45 +4027,6 @@
       ]
     },
     {
-      "id": "lefasoc-368099036",
-      "sourceProductId": "368099036",
-      "store": "Lefasoc",
-      "domain": "lefasoc.com.ar",
-      "name": "FILAMENTO FLASHFORGE HS PLA MARMOL 1.75 X 1KG",
-      "category": "Impresoras",
-      "price": 26800,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 25460,
-      "purchaseModes": [],
-      "stock": 4,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Flashforge",
-      "tags": [
-        "Flashforge",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/d_nq_np_2x_712209-mla115783439195_082026-f-7b0ad203b02e012eaf17896577231730-1024-1024.webp",
-      "url": "https://lefasoc.com.ar/productos/filamento-flashforge-hs-pla-1-75-x1kg/",
-      "scrapedFrom": "https://lefasoc.com.ar/productos/?page=2",
-      "variants": [
-        {
-          "id": 1599166050,
-          "sku": "6937120324935",
-          "price": 26800,
-          "isDeposit": false,
-          "stock": 2,
-          "available": true,
-          "options": [
-            "Marmol"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/d_nq_np_2x_712209-mla115783439195_082026-f-7b0ad203b02e012eaf17896577231730-1024-1024.webp"
-        }
-      ]
-    },
-    {
       "id": "lefasoc-364013481",
       "sourceProductId": "364013481",
       "store": "Lefasoc",
@@ -4010,7 +4038,7 @@
       "previousPrice": null,
       "transferPrice": 5700,
       "purchaseModes": [],
-      "stock": 20,
+      "stock": 12,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Lefasoc3D",
@@ -4026,7 +4054,7 @@
           "sku": "100100260",
           "price": 6000,
           "isDeposit": false,
-          "stock": 10,
+          "stock": 6,
           "available": true,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/61f51b199702e51113a94877a567c3ae-fba4c65b7b3cefe1db17879483021329-1024-1024.webp"
@@ -4045,7 +4073,7 @@
       "previousPrice": 25500,
       "transferPrice": 22800,
       "purchaseModes": [],
-      "stock": 170,
+      "stock": 166,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3N3",
@@ -4063,7 +4091,7 @@
           "sku": "M84IAL175CJ",
           "price": 24000,
           "isDeposit": false,
-          "stock": 15,
+          "stock": 13,
           "available": true,
           "options": [
             "Aluminio"
@@ -4132,7 +4160,7 @@
       "previousPrice": null,
       "transferPrice": 3325,
       "purchaseModes": [],
-      "stock": 16,
+      "stock": 8,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Lefasoc",
@@ -4148,10 +4176,45 @@
           "sku": "100100178",
           "price": 3500,
           "isDeposit": false,
-          "stock": 8,
+          "stock": 4,
           "available": true,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/cmecresch005_2-1-3e4d04c7886cad154a17788775152200-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "lefasoc-344384476",
+      "sourceProductId": "344384476",
+      "store": "Lefasoc",
+      "domain": "lefasoc.com.ar",
+      "name": "Kit HOTEND BAMBU LAB REFORZADO para P2S - 0.4MM",
+      "category": "Impresoras",
+      "price": 29900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 28405,
+      "purchaseModes": [],
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab"
+      ],
+      "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/tmp_b64_73bdea91-db5e-4ec3-970f-5de48c6760bb_7254218_7532210-c45e591a7e5438315817879425041061-1024-1024.webp",
+      "url": "https://lefasoc.com.ar/productos/kit-hotend-bambu-lab-reforzado-para-p2s-0-4mm/",
+      "scrapedFrom": "https://lefasoc.com.ar/productos/?page=2",
+      "variants": [
+        {
+          "id": 1525287270,
+          "sku": "100100244",
+          "price": 29900,
+          "isDeposit": false,
+          "stock": 1,
+          "available": true,
+          "options": [],
+          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/tmp_b64_73bdea91-db5e-4ec3-970f-5de48c6760bb_7254218_7532210-c45e591a7e5438315817879425041061-1024-1024.webp"
         }
       ]
     },
@@ -4804,56 +4867,6 @@
       ]
     },
     {
-      "id": "lefasoc-371300154",
-      "sourceProductId": "371300154",
-      "store": "Lefasoc",
-      "domain": "lefasoc.com.ar",
-      "name": "Filamento Bambu Lab PETG Basic Con Bobina",
-      "category": "Impresoras",
-      "price": 22000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 20900,
-      "purchaseModes": [],
-      "stock": 20,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Bambu Lab",
-      "tags": [
-        "Bambu Lab",
-        "PETG"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/images-10-ddcdf3528edb9dc1af17908847566173-1024-1024.webp",
-      "url": "https://lefasoc.com.ar/productos/filamento-bambu-lab-petg-basic-con-bobina/",
-      "scrapedFrom": "https://lefasoc.com.ar/productos/?page=2",
-      "variants": [
-        {
-          "id": 1610015099,
-          "sku": "6937285509727",
-          "price": 22000,
-          "isDeposit": false,
-          "stock": 10,
-          "available": true,
-          "options": [
-            "Blanco"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/images-10-ddcdf3528edb9dc1af17908847566173-1024-1024.webp"
-        },
-        {
-          "id": 1610015100,
-          "sku": "6937285509710",
-          "price": 22000,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Negro"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/40937-6d63c871248d7eac0f17908847820469-1024-1024.webp"
-        }
-      ]
-    },
-    {
       "id": "lefasoc-365559460",
       "sourceProductId": "365559460",
       "store": "Lefasoc",
@@ -5095,7 +5108,7 @@
       "previousPrice": null,
       "transferPrice": 34200,
       "purchaseModes": [],
-      "stock": 12,
+      "stock": 6,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Generico",
@@ -5111,7 +5124,7 @@
           "sku": "100100254",
           "price": 36000,
           "isDeposit": false,
-          "stock": 6,
+          "stock": 3,
           "available": true,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/imagen3-58dc50edba115f2af917848178989371-1024-1024.webp"
@@ -5356,7 +5369,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/square-540x540-ecosys-pa4500x-5441474de06ed3636417809486632273-1024-1024.webp",
       "url": "https://lefasoc.com.ar/productos/impresora-kyocera-ecosys-pa4500x/",
-      "scrapedFrom": "https://lefasoc.com.ar/productos/?page=2",
+      "scrapedFrom": "https://lefasoc.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1539688358,
@@ -5634,15 +5647,15 @@
       "sourceProductId": "345053513",
       "store": "Lefasoc",
       "domain": "lefasoc.com.ar",
-      "name": "Elegoo nozzle brass reforzado - Elegoo Neptune 4 Plus/4 Max",
+      "name": "Elegoo nozzle brass reforzado - Elegoo Neptune 4",
       "category": "Repuestos",
       "price": 3000,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 2850,
       "purchaseModes": [],
-      "stock": 2,
-      "stockLabel": "Pocas unidades",
+      "stock": 14,
+      "stockLabel": "En stock",
       "available": true,
       "brand": "Elegoo",
       "tags": [
@@ -5657,8 +5670,8 @@
           "sku": "100100109",
           "price": 3000,
           "isDeposit": false,
-          "stock": 0,
-          "available": false,
+          "stock": 5,
+          "available": true,
           "options": [
             "0.4"
           ],
@@ -5669,7 +5682,7 @@
           "sku": "100100110",
           "price": 3000,
           "isDeposit": false,
-          "stock": 1,
+          "stock": 2,
           "available": true,
           "options": [
             "0.8"
@@ -5690,7 +5703,7 @@
       "previousPrice": null,
       "transferPrice": 4750,
       "purchaseModes": [],
-      "stock": 12,
+      "stock": 10,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Lefasoc",
@@ -5718,7 +5731,7 @@
           "sku": "100100249",
           "price": 6000,
           "isDeposit": false,
-          "stock": 5,
+          "stock": 4,
           "available": true,
           "options": [
             "10 mm"
@@ -5969,43 +5982,6 @@
             "0.2"
           ],
           "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/bambu-lab-x1-fah004-n-1-6c4c63ff8c7159f82417888034981305-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "lefasoc-337362373",
-      "sourceProductId": "337362373",
-      "store": "Lefasoc",
-      "domain": "lefasoc.com.ar",
-      "name": "Nozzle 3D Elegoo Boquilla H22.5 para Neptune 4 PLUS/4 MAX",
-      "category": "Repuestos",
-      "price": 3500,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 3325,
-      "purchaseModes": [],
-      "stock": 8,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Elegoo",
-      "tags": [
-        "Elegoo"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/s-l400-0e1e3f2e05caef90bd17760902187431-1024-1024.webp",
-      "url": "https://lefasoc.com.ar/productos/Nozzle-3D-Elegoo-Boquilla-para-Neptune-4-PLUS-4-MAX/",
-      "scrapedFrom": "https://lefasoc.com.ar/productos/?page=3",
-      "variants": [
-        {
-          "id": 1499591534,
-          "sku": "22.07.0045",
-          "price": 3500,
-          "isDeposit": false,
-          "stock": 4,
-          "available": true,
-          "options": [
-            "1.0"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/s-l400-0e1e3f2e05caef90bd17760902187431-1024-1024.webp"
         }
       ]
     },
@@ -6318,7 +6294,7 @@
       "previousPrice": 3500,
       "transferPrice": 2840.5,
       "purchaseModes": [],
-      "stock": 16,
+      "stock": 12,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Generico",
@@ -6334,7 +6310,7 @@
           "sku": "100100230",
           "price": 2990,
           "isDeposit": false,
-          "stock": 8,
+          "stock": 6,
           "available": true,
           "options": [
             "Negro"
@@ -6392,7 +6368,7 @@
       "previousPrice": null,
       "transferPrice": 1900,
       "purchaseModes": [],
-      "stock": 20,
+      "stock": 14,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Generico",
@@ -6409,7 +6385,7 @@
           "sku": "100100219",
           "price": 2000,
           "isDeposit": false,
-          "stock": 10,
+          "stock": 7,
           "available": true,
           "options": [
             "gris"
@@ -6634,10 +6610,10 @@
       "domain": "lefasoc.com.ar",
       "name": "Placa Superficie de Impresion 257x257 Bambu lab A1",
       "category": "Impresoras",
-      "price": 21000,
+      "price": 19000,
       "currency": "ARS",
       "previousPrice": 23000,
-      "transferPrice": 19950,
+      "transferPrice": 18050,
       "purchaseModes": [],
       "stock": 10,
       "stockLabel": "En stock",
@@ -6655,7 +6631,7 @@
         {
           "id": 1499587317,
           "sku": "100100213",
-          "price": 21000,
+          "price": 19000,
           "isDeposit": false,
           "stock": 5,
           "available": true,
@@ -6678,7 +6654,7 @@
       "previousPrice": null,
       "transferPrice": 6650,
       "purchaseModes": [],
-      "stock": 32,
+      "stock": 12,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Generico",
@@ -6694,49 +6670,12 @@
           "sku": "100100190",
           "price": 7000,
           "isDeposit": false,
-          "stock": 16,
+          "stock": 6,
           "available": true,
           "options": [
             "Negro"
           ],
           "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/images-97d05e49366dadaea617761761351497-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "lefasoc-336464686",
-      "sourceProductId": "336464686",
-      "store": "Lefasoc",
-      "domain": "lefasoc.com.ar",
-      "name": "Multifuncional Toshiba Estudio 478s 47ppm",
-      "category": "Accesorios",
-      "price": 1499000,
-      "currency": "ARS",
-      "previousPrice": 2230769,
-      "transferPrice": 1424050,
-      "purchaseModes": [],
-      "stock": 4,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Toshiba",
-      "tags": [
-        "Toshiba"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/2_es478s_std_f-4-e8828883-70233ea5d49277223c17756554403757-1024-1024.webp",
-      "url": "https://lefasoc.com.ar/productos/Multifuncional-Toshiba-Estudio-478s-47ppm/",
-      "scrapedFrom": "https://lefasoc.com.ar/productos/?page=3",
-      "variants": [
-        {
-          "id": 1496161816,
-          "sku": "E-STUDIO 478S",
-          "price": 1499000,
-          "isDeposit": false,
-          "stock": 2,
-          "available": true,
-          "options": [
-            "Negro"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/2_es478s_std_f-4-e8828883-70233ea5d49277223c17756554403757-1024-1024.webp"
         }
       ]
     },
@@ -6900,7 +6839,7 @@
       "previousPrice": null,
       "transferPrice": 7600,
       "purchaseModes": [],
-      "stock": 20,
+      "stock": 10,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Generico",
@@ -6916,7 +6855,7 @@
           "sku": "100100176",
           "price": 8000,
           "isDeposit": false,
-          "stock": 10,
+          "stock": 5,
           "available": true,
           "options": [
             "gris"
@@ -7079,7 +7018,7 @@
       "previousPrice": null,
       "transferPrice": 7600,
       "purchaseModes": [],
-      "stock": 26,
+      "stock": 20,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Generico",
@@ -7096,7 +7035,7 @@
           "sku": "100100158",
           "price": 8000,
           "isDeposit": false,
-          "stock": 13,
+          "stock": 10,
           "available": true,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/d_nq_np_736072-mlm103303275505_012026-o-062b141244f4202bbf17756696547107-1024-1024.webp"
@@ -7185,7 +7124,7 @@
       "previousPrice": null,
       "transferPrice": 2660,
       "purchaseModes": [],
-      "stock": 8,
+      "stock": 14,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Generico",
@@ -7202,7 +7141,7 @@
           "sku": "100100128",
           "price": 2800,
           "isDeposit": false,
-          "stock": 4,
+          "stock": 7,
           "available": true,
           "options": [
             "0.8"
@@ -7261,7 +7200,7 @@
       "previousPrice": null,
       "transferPrice": 3800,
       "purchaseModes": [],
-      "stock": 30,
+      "stock": 28,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Generico",
@@ -7278,7 +7217,7 @@
           "sku": "100100122",
           "price": 4000,
           "isDeposit": false,
-          "stock": 7,
+          "stock": 6,
           "available": true,
           "options": [
             "0.2"
@@ -7411,55 +7350,6 @@
       ]
     },
     {
-      "id": "lefasoc-336456626",
-      "sourceProductId": "336456626",
-      "store": "Lefasoc",
-      "domain": "lefasoc.com.ar",
-      "name": "Nozzle 3D Elegoo Boquilla Reforzada para Neptune 4 PLUS/4 MAX",
-      "category": "Repuestos",
-      "price": 4000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 3800,
-      "purchaseModes": [],
-      "stock": 8,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Generico",
-      "tags": [
-        "Generico"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/d_nq_np_752977-mla106067398051_012026-o-ba2d8e75028660ed6417758302590097-640-0-0f109b6d8b2d636dd517758313284502-1024-1024.webp",
-      "url": "https://lefasoc.com.ar/productos/Nozzle-3D-Elegoo-Boquilla-Reforzada-para-Neptune-4-PLUS-4-MAX/",
-      "scrapedFrom": "https://lefasoc.com.ar/productos/?page=3",
-      "variants": [
-        {
-          "id": 1496132216,
-          "sku": "100100114",
-          "price": 4000,
-          "isDeposit": false,
-          "stock": 3,
-          "available": true,
-          "options": [
-            "0.2"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/d_nq_np_752977-mla106067398051_012026-o-ba2d8e75028660ed6417758302590097-640-0-0f109b6d8b2d636dd517758313284502-1024-1024.webp"
-        },
-        {
-          "id": 1527252430,
-          "sku": "100100116",
-          "price": 4000,
-          "isDeposit": false,
-          "stock": 1,
-          "available": true,
-          "options": [
-            "0.8"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/d_nq_np_752977-mla106067398051_012026-o-ba2d8e75028660ed6417758302590097-640-0-0f109b6d8b2d636dd517758313284502-1024-1024.webp"
-        }
-      ]
-    },
-    {
       "id": "lefasoc-336456593",
       "sourceProductId": "336456593",
       "store": "Lefasoc",
@@ -7480,7 +7370,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/d_nq_np_833206-mla51326392233_082022-o-361d9212cce970bfa817758367117279-1024-1024.webp",
       "url": "https://lefasoc.com.ar/productos/Unidad-de-Imagen-Kyocera-DK-1150-alternativo/",
-      "scrapedFrom": "https://lefasoc.com.ar/productos/?page=4",
+      "scrapedFrom": "https://lefasoc.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1496132121,
@@ -7515,7 +7405,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/kyocera2_bbf6f5b8-f235-434f-b942-e99297a50375_500x-b91dc003088d6050f617758377887763-1024-1024.webp",
       "url": "https://lefasoc.com.ar/productos/BANDEJA-ADICIONAL-KYOCERA-PF-1100/",
-      "scrapedFrom": "https://lefasoc.com.ar/productos/?page=4",
+      "scrapedFrom": "https://lefasoc.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1496132093,
@@ -8519,42 +8409,6 @@
       ]
     },
     {
-      "id": "lefasoc-336456728",
-      "sourceProductId": "336456728",
-      "store": "Lefasoc",
-      "domain": "lefasoc.com.ar",
-      "name": "Cartucho Calefactor y Termistor para Bambu lab Series A1",
-      "category": "Impresoras",
-      "price": 10000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 9500,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Generico",
-      "tags": [
-        "Generico",
-        "Bambu Lab"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/d_nq_np_2x_870185-mla90078371114_082025-f-810950fce1783feaee17756661679588-1024-1024.webp",
-      "url": "https://lefasoc.com.ar/productos/Cartucho-Calefactor-y-Termistor-para-Bambu-lab-Series-A1/",
-      "scrapedFrom": "https://lefasoc.com.ar/productos/?page=4",
-      "variants": [
-        {
-          "id": 1496132551,
-          "sku": "100100164",
-          "price": 10000,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [],
-          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/d_nq_np_2x_870185-mla90078371114_082025-f-810950fce1783feaee17756661679588-1024-1024.webp"
-        }
-      ]
-    },
-    {
       "id": "lefasoc-327111264",
       "sourceProductId": "327111264",
       "store": "Lefasoc",
@@ -8625,6 +8479,43 @@
           "available": false,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/fae009_1000x-c4f38ea07fa4f954dd17767981815731-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "lefasoc-336464686",
+      "sourceProductId": "336464686",
+      "store": "Lefasoc",
+      "domain": "lefasoc.com.ar",
+      "name": "Multifuncional Toshiba Estudio 478s 47ppm",
+      "category": "Accesorios",
+      "price": 1499000,
+      "currency": "ARS",
+      "previousPrice": 2230769,
+      "transferPrice": 1424050,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Toshiba",
+      "tags": [
+        "Toshiba"
+      ],
+      "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/2_es478s_std_f-4-e8828883-70233ea5d49277223c17756554403757-1024-1024.webp",
+      "url": "https://lefasoc.com.ar/productos/Multifuncional-Toshiba-Estudio-478s-47ppm/",
+      "scrapedFrom": "https://lefasoc.com.ar/productos/?page=4",
+      "variants": [
+        {
+          "id": 1496161816,
+          "sku": "E-STUDIO 478S",
+          "price": 1499000,
+          "isDeposit": false,
+          "stock": 0,
+          "available": false,
+          "options": [
+            "Negro"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/2_es478s_std_f-4-e8828883-70233ea5d49277223c17756554403757-1024-1024.webp"
         }
       ]
     },

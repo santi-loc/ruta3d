@@ -5,7 +5,7 @@
     "baseUrl": "https://filacolor.com.ar",
     "apiPath": "/wp-json/wc/store/v1/products"
   },
-  "scrapedAt": "2026-10-08T15:24:35.211Z",
+  "scrapedAt": "2026-10-09T15:07:26.293Z",
   "source": "https://filacolor.com.ar/wp-json/wc/store/v1/products",
   "pages": [
     {
@@ -1000,6 +1000,14 @@
           ]
         },
         {
+          "id": "filacolor-8585",
+          "sku": "8585",
+          "available": true,
+          "options": [
+            "Colores: dorado"
+          ]
+        },
+        {
           "id": "filacolor-8586",
           "sku": "8586",
           "available": true,
@@ -1337,14 +1345,6 @@
           "options": [
             "Colores: verde"
           ]
-        },
-        {
-          "id": "filacolor-5390",
-          "sku": "5390",
-          "available": true,
-          "options": [
-            "Colores: verde-fluo"
-          ]
         }
       ]
     },
@@ -1534,11 +1534,11 @@
       "scrapedFrom": "https://filacolor.com.ar/wp-json/wc/store/v1/products",
       "variants": [
         {
-          "id": "filacolor-10959",
-          "sku": "10959",
+          "id": "filacolor-10961",
+          "sku": "10961",
           "available": true,
           "options": [
-            "Colores: arcoiris"
+            "Colores: dorado"
           ]
         },
         {
@@ -1712,14 +1712,6 @@
           "available": true,
           "options": [
             "Colores: calipso"
-          ]
-        },
-        {
-          "id": "filacolor-5552",
-          "sku": "5552",
-          "available": true,
-          "options": [
-            "Colores: jade"
           ]
         },
         {

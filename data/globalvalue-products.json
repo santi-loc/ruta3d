@@ -4,8 +4,8 @@
     "domain": "globalvalue.ar",
     "baseUrl": "https://globalvalue.ar"
   },
-  "scrapedAt": "2026-10-08T15:24:57.696Z",
-  "count": 217,
+  "scrapedAt": "2026-10-09T15:07:47.489Z",
+  "count": 219,
   "pages": [
     {
       "page": 1,
@@ -34,20 +34,20 @@
     {
       "page": 5,
       "url": "https://globalvalue.ar/shop/page/5",
-      "found": 16,
-      "added": 16
+      "found": 17,
+      "added": 17
     },
     {
       "page": 6,
       "url": "https://globalvalue.ar/shop/page/6",
-      "found": 18,
-      "added": 18
+      "found": 19,
+      "added": 19
     },
     {
       "page": 7,
       "url": "https://globalvalue.ar/shop/page/7",
-      "found": 14,
-      "added": 14
+      "found": 16,
+      "added": 16
     },
     {
       "page": 8,
@@ -58,50 +58,50 @@
     {
       "page": 9,
       "url": "https://globalvalue.ar/shop/page/9",
-      "found": 16,
-      "added": 16
+      "found": 17,
+      "added": 17
     },
     {
       "page": 10,
       "url": "https://globalvalue.ar/shop/page/10",
-      "found": 10,
-      "added": 10
-    },
-    {
-      "page": 11,
-      "url": "https://globalvalue.ar/shop/page/11",
-      "found": 13,
-      "added": 13
-    },
-    {
-      "page": 12,
-      "url": "https://globalvalue.ar/shop/page/12",
-      "found": 15,
-      "added": 15
-    },
-    {
-      "page": 13,
-      "url": "https://globalvalue.ar/shop/page/13",
-      "found": 10,
-      "added": 10
-    },
-    {
-      "page": 14,
-      "url": "https://globalvalue.ar/shop/page/14",
-      "found": 6,
-      "added": 6
-    },
-    {
-      "page": 15,
-      "url": "https://globalvalue.ar/shop/page/15",
       "found": 9,
       "added": 9
     },
     {
+      "page": 11,
+      "url": "https://globalvalue.ar/shop/page/11",
+      "found": 14,
+      "added": 14
+    },
+    {
+      "page": 12,
+      "url": "https://globalvalue.ar/shop/page/12",
+      "found": 12,
+      "added": 12
+    },
+    {
+      "page": 13,
+      "url": "https://globalvalue.ar/shop/page/13",
+      "found": 11,
+      "added": 11
+    },
+    {
+      "page": 14,
+      "url": "https://globalvalue.ar/shop/page/14",
+      "found": 9,
+      "added": 9
+    },
+    {
+      "page": 15,
+      "url": "https://globalvalue.ar/shop/page/15",
+      "found": 6,
+      "added": 6
+    },
+    {
       "page": 16,
       "url": "https://globalvalue.ar/shop/page/16",
-      "found": 1,
-      "added": 1
+      "found": 0,
+      "added": 0
     }
   ],
   "products": [
@@ -380,7 +380,7 @@
       "sourceProductId": "3831",
       "store": "Global Value",
       "domain": "globalvalue.ar",
-      "name": "Gabinete Laser Sculpfun B70 XL 112x126 cm con Extractor Humo",
+      "name": "Cubierta Protectora Para Grabadora Laser Sculpfun B70",
       "category": "Corte láser",
       "price": 1791000,
       "currency": "ARS",
@@ -398,7 +398,7 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3821/image_512",
-      "url": "https://globalvalue.ar/shop/000418-gabinete-laser-sculpfun-b70-xl-112x126-cm-con-extractor-humo-3821",
+      "url": "https://globalvalue.ar/shop/000418-cubierta-protectora-para-grabadora-laser-sculpfun-b70-3821",
       "scrapedFrom": "https://globalvalue.ar/shop",
       "variants": []
     },
@@ -2454,15 +2454,41 @@
       "variants": []
     },
     {
+      "id": "globalvalue-3131",
+      "sourceProductId": "3133",
+      "store": "Global Value",
+      "domain": "globalvalue.ar",
+      "name": "Kit Extension Area De Trabajo Two Trees 600*600mm",
+      "category": "Accesorios",
+      "price": 251910,
+      "currency": "ARS",
+      "previousPrice": 279900,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Two Trees",
+      "tags": [
+        "Two Trees"
+      ],
+      "image": "https://globalvalue.ar/web/image/product.template/3131/image_512",
+      "url": "https://globalvalue.ar/shop/000022-kit-extension-area-de-trabajo-two-trees-600-600mm-3131?page=5",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/5",
+      "variants": []
+    },
+    {
       "id": "globalvalue-3129",
       "sourceProductId": "3131",
       "store": "Global Value",
       "domain": "globalvalue.ar",
       "name": "Rotativo Two Trees TR2 Para Laser Multifuncion 4 En 1",
       "category": "Corte láser",
-      "price": 431910,
+      "price": 430268.74,
       "currency": "ARS",
-      "previousPrice": 479900,
+      "previousPrice": 478076.38,
       "transferPrice": null,
       "purchaseModes": [
         "Entrega inmediata"
@@ -2563,11 +2589,38 @@
       "variants": []
     },
     {
+      "id": "globalvalue-3117",
+      "sourceProductId": "3119",
+      "store": "Global Value",
+      "domain": "globalvalue.ar",
+      "name": "Router Cnc Ttc 3018 Pro Husillo 80W Two Trees",
+      "category": "Corte láser",
+      "price": 683914.5,
+      "currency": "ARS",
+      "previousPrice": 759905,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Two Trees",
+      "tags": [
+        "Two Trees",
+        "CNC"
+      ],
+      "image": "https://globalvalue.ar/web/image/product.template/3117/image_512",
+      "url": "https://globalvalue.ar/shop/000009-router-cnc-ttc-3018-pro-husillo-80w-two-trees-3117?page=6",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/6",
+      "variants": []
+    },
+    {
       "id": "globalvalue-3116",
       "sourceProductId": "3118",
       "store": "Global Value",
       "domain": "globalvalue.ar",
-      "name": "Router Cnc Two Trees Ttc 450 Pro Spindle 775",
+      "name": "Router Cnc Two Trees Ttc 450 Pro Spindle 775 Husillo 80 W",
       "category": "Corte láser",
       "price": 1529910,
       "currency": "ARS",
@@ -2585,7 +2638,7 @@
         "CNC"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3116/image_512",
-      "url": "https://globalvalue.ar/shop/000008-router-cnc-two-trees-ttc-450-pro-spindle-775-3116?page=6",
+      "url": "https://globalvalue.ar/shop/000008-router-cnc-two-trees-ttc-450-pro-spindle-775-husillo-80-w-3116?page=6",
       "scrapedFrom": "https://globalvalue.ar/shop/page/6",
       "variants": []
     },
@@ -2743,7 +2796,7 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2752/image_512",
-      "url": "https://globalvalue.ar/shop/cnc-20w-ortur-lm3-20w-grabadora-y-cortadora-laser-ortur-lm3-20w-2752?page=6",
+      "url": "https://globalvalue.ar/shop/000593-grabadora-y-cortadora-laser-ortur-lm3-20w-2752?page=6",
       "scrapedFrom": "https://globalvalue.ar/shop/page/6",
       "variants": []
     },
@@ -3273,6 +3326,34 @@
       "variants": []
     },
     {
+      "id": "globalvalue-2727",
+      "sourceProductId": "2727",
+      "store": "Global Value",
+      "domain": "globalvalue.ar",
+      "name": "Cnc Corte Laser Guepardo Servo 85 X 82 Cm Diodo 30w Opticos -",
+      "category": "Corte láser",
+      "price": 3149910,
+      "currency": "ARS",
+      "previousPrice": 3499900,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Laser",
+        "CNC",
+        "Diodo"
+      ],
+      "image": "https://globalvalue.ar/web/image/product.template/2727/image_512",
+      "url": "https://globalvalue.ar/shop/000591-cnc-corte-laser-guepardo-servo-85-x-82-cm-diodo-30w-opticos-2727?page=7",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/7",
+      "variants": []
+    },
+    {
       "id": "globalvalue-2725",
       "sourceProductId": "2725",
       "store": "Global Value",
@@ -3293,6 +3374,34 @@
       "tags": [],
       "image": "https://globalvalue.ar/web/image/product.template/2725/image_512",
       "url": "https://globalvalue.ar/shop/000331-purificador-aire-wainlux-md22-para-wainlux-k8-2725?page=7",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/7",
+      "variants": []
+    },
+    {
+      "id": "globalvalue-2724",
+      "sourceProductId": "2724",
+      "store": "Global Value",
+      "domain": "globalvalue.ar",
+      "name": "Cnc Corte Laser Guepardo 85 X 82 Cm Laser Diodo 30w Opticos",
+      "category": "Corte láser",
+      "price": 2699910,
+      "currency": "ARS",
+      "previousPrice": 2999900,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Laser",
+        "CNC",
+        "Diodo"
+      ],
+      "image": "https://globalvalue.ar/web/image/product.template/2724/image_512",
+      "url": "https://globalvalue.ar/shop/000592-cnc-corte-laser-guepardo-85-x-82-cm-laser-diodo-30w-opticos-2724?page=7",
       "scrapedFrom": "https://globalvalue.ar/shop/page/7",
       "variants": []
     },
@@ -4206,8 +4315,8 @@
         "Panal"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2674/image_512",
-      "url": "https://globalvalue.ar/shop/000188-cnc-laser-acmer-p3-48w-cubierta-panal-aire-camara-rotativo-2674?page=10",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/10",
+      "url": "https://globalvalue.ar/shop/000188-cnc-laser-acmer-p3-48w-cubierta-panal-aire-camara-rotativo-2674?page=9",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/9",
       "variants": []
     },
     {
@@ -4614,7 +4723,7 @@
       "sourceProductId": "2636",
       "store": "Global Value",
       "domain": "globalvalue.ar",
-      "name": "Repuesto Lente Focus Cabezal M50 - X7, A10, S10 - Atomstack",
+      "name": "Repuesto Lente Focus Cabezal Atomstack M50 - X7, A10, S10",
       "category": "Repuestos",
       "price": 89910,
       "currency": "ARS",
@@ -4629,7 +4738,7 @@
       "brand": null,
       "tags": [],
       "image": "https://globalvalue.ar/web/image/product.template/2636/image_512",
-      "url": "https://globalvalue.ar/shop/000001-repuesto-lente-focus-cabezal-m50-x7-a10-s10-atomstack-2636?page=11",
+      "url": "https://globalvalue.ar/shop/000001-repuesto-lente-focus-cabezal-atomstack-m50-x7-a10-s10-2636?page=11",
       "scrapedFrom": "https://globalvalue.ar/shop/page/11",
       "variants": []
     },
@@ -4664,7 +4773,7 @@
       "sourceProductId": "2632",
       "store": "Global Value",
       "domain": "globalvalue.ar",
-      "name": "Repuesto Lente Window Lu2 10w Kit X 3 - Ortur",
+      "name": "Repuesto Lente Window Ortur Lu2 10w Kit X 3",
       "category": "Repuestos",
       "price": 121410,
       "currency": "ARS",
@@ -4679,7 +4788,7 @@
       "brand": null,
       "tags": [],
       "image": "https://globalvalue.ar/web/image/product.template/2632/image_512",
-      "url": "https://globalvalue.ar/shop/000003-repuesto-lente-window-lu2-10w-kit-x-3-ortur-2632?page=11",
+      "url": "https://globalvalue.ar/shop/000003-repuesto-lente-window-ortur-lu2-10w-kit-x-3-2632?page=11",
       "scrapedFrom": "https://globalvalue.ar/shop/page/11",
       "variants": []
     },
@@ -4736,32 +4845,6 @@
       "variants": []
     },
     {
-      "id": "globalvalue-2628",
-      "sourceProductId": "2628",
-      "store": "Global Value",
-      "domain": "globalvalue.ar",
-      "name": "Router Cnc Dual 46x46 Cm Husillo 300w",
-      "category": "Corte láser",
-      "price": 2024910,
-      "currency": "ARS",
-      "previousPrice": 2249900,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "CNC"
-      ],
-      "image": "https://globalvalue.ar/web/image/product.template/2628/image_512",
-      "url": "https://globalvalue.ar/shop/rout-300w-sl-twotrees-ttc450-router-cnc-dual-46x46-cm-husillo-300w-2628?page=11",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/11",
-      "variants": []
-    },
-    {
       "id": "globalvalue-2627",
       "sourceProductId": "2627",
       "store": "Global Value",
@@ -4809,8 +4892,8 @@
         "CNC"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2626/image_512",
-      "url": "https://globalvalue.ar/shop/000313-set-10-fresas-para-cnc-3018-pcb-metales-madera-plastico-2626?page=12",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/12",
+      "url": "https://globalvalue.ar/shop/000313-set-10-fresas-para-cnc-3018-pcb-metales-madera-plastico-2626?page=11",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/11",
       "variants": []
     },
     {
@@ -4833,8 +4916,8 @@
       "brand": null,
       "tags": [],
       "image": "https://globalvalue.ar/web/image/product.template/2625/image_512",
-      "url": "https://globalvalue.ar/shop/000314-10-fresas-nano-para-pcb-metales-madera-plastico-2625?page=12",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/12",
+      "url": "https://globalvalue.ar/shop/000314-10-fresas-nano-para-pcb-metales-madera-plastico-2625?page=11",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/11",
       "variants": []
     },
     {
@@ -4990,33 +5073,6 @@
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2615/image_512",
       "url": "https://globalvalue.ar/shop/000360-neje-4-max-20w-75x46-cm-plotter-dibujo-rotativo-aire-pad-2615?page=12",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/12",
-      "variants": []
-    },
-    {
-      "id": "globalvalue-2614",
-      "sourceProductId": "2614",
-      "store": "Global Value",
-      "domain": "globalvalue.ar",
-      "name": "Router Cnc Dual 46x46 Cm Husillo 500w Laser 20w Opticos",
-      "category": "Corte láser",
-      "price": 3869910,
-      "currency": "ARS",
-      "previousPrice": 4299900,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "Laser",
-        "CNC"
-      ],
-      "image": "https://globalvalue.ar/web/image/product.template/2614/image_512",
-      "url": "https://globalvalue.ar/shop/rout-500w-20w-twotrees-ttc450-router-cnc-dual-46x46-cm-husillo-500w-laser-20w-opticos-2614?page=12",
       "scrapedFrom": "https://globalvalue.ar/shop/page/12",
       "variants": []
     },
@@ -5308,33 +5364,6 @@
       "variants": []
     },
     {
-      "id": "globalvalue-2584",
-      "sourceProductId": "2584",
-      "store": "Global Value",
-      "domain": "globalvalue.ar",
-      "name": "Router Cnc Dual 46x46 Cm Husillo 80w Laser 10w Opticos",
-      "category": "Corte láser",
-      "price": 2249910,
-      "currency": "ARS",
-      "previousPrice": 2499900,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "Laser",
-        "CNC"
-      ],
-      "image": "https://globalvalue.ar/web/image/product.template/2584/image_512",
-      "url": "https://globalvalue.ar/shop/rout-80w-10w-cnc-ttc450-router-cnc-dual-46x46-cm-husillo-80w-laser-10w-opticos-2584?page=13",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/13",
-      "variants": []
-    },
-    {
       "id": "globalvalue-2583",
       "sourceProductId": "2583",
       "store": "Global Value",
@@ -5461,8 +5490,8 @@
       "brand": null,
       "tags": [],
       "image": "https://globalvalue.ar/web/image/product.template/2574/image_512",
-      "url": "https://globalvalue.ar/shop/000151-atomstack-i-kier-k1-pro-24w-opticos-2574?page=14",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/14",
+      "url": "https://globalvalue.ar/shop/000151-atomstack-i-kier-k1-pro-24w-opticos-2574?page=13",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/13",
       "variants": []
     },
     {
@@ -5485,8 +5514,8 @@
       "brand": null,
       "tags": [],
       "image": "https://globalvalue.ar/web/image/product.template/2572/image_512",
-      "url": "https://globalvalue.ar/shop/000250-atomstack-a12-pro-12w-2572?page=14",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/14",
+      "url": "https://globalvalue.ar/shop/000250-atomstack-a12-pro-12w-2572?page=13",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/13",
       "variants": []
     },
     {
@@ -5564,6 +5593,33 @@
       "variants": []
     },
     {
+      "id": "globalvalue-2558",
+      "sourceProductId": "2558",
+      "store": "Global Value",
+      "domain": "globalvalue.ar",
+      "name": "Fuente 12v 5a Para Cnc Laser",
+      "category": "Corte láser",
+      "price": 9891,
+      "currency": "ARS",
+      "previousPrice": 10990,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Laser",
+        "CNC"
+      ],
+      "image": "https://globalvalue.ar/web/image/product.template/2558/image_512",
+      "url": "https://globalvalue.ar/shop/000590-fuente-12v-5a-para-cnc-laser-2558?page=14",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/14",
+      "variants": []
+    },
+    {
       "id": "globalvalue-2550",
       "sourceProductId": "2550",
       "store": "Global Value",
@@ -5611,8 +5667,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2547/image_512",
-      "url": "https://globalvalue.ar/shop/000276-cabezal-laser-80w-10w-opticos-lt80-2547?page=15",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/15",
+      "url": "https://globalvalue.ar/shop/000276-cabezal-laser-80w-10w-opticos-lt80-2547?page=14",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/14",
       "variants": []
     },
     {
@@ -5639,8 +5695,8 @@
         "CNC"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2544/image_512",
-      "url": "https://globalvalue.ar/shop/000308-panel-metalico-para-cnc-laser-40x40-cm-two-trees-2544?page=15",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/15",
+      "url": "https://globalvalue.ar/shop/000308-panel-metalico-para-cnc-laser-40x40-cm-two-trees-2544?page=14",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/14",
       "variants": []
     },
     {
@@ -5666,8 +5722,8 @@
         "Fibra"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2541/image_512",
-      "url": "https://globalvalue.ar/shop/000148-atomstack-m4-laser-de-fibra-2-en-1-graba-metales-oro-plata-2541?page=15",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/15",
+      "url": "https://globalvalue.ar/shop/000148-atomstack-m4-laser-de-fibra-2-en-1-graba-metales-oro-plata-2541?page=14",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/14",
       "variants": []
     },
     {
@@ -5695,8 +5751,8 @@
         "Panal"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2536/image_512",
-      "url": "https://globalvalue.ar/shop/000216-panel-abejas-sculpfun-400x400-mm-para-cnc-laser-2536?page=15",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/15",
+      "url": "https://globalvalue.ar/shop/000216-panel-abejas-sculpfun-400x400-mm-para-cnc-laser-2536?page=14",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/14",
       "variants": []
     },
     {
@@ -5732,7 +5788,7 @@
       "sourceProductId": "2526",
       "store": "Global Value",
       "domain": "globalvalue.ar",
-      "name": "Laser De Fibra Portatil 5w - Pantalla Color - Bateria Litio",
+      "name": "Laser De Fibra Portatil 5w Meenjet M3- Pantalla Color - Bateria Litio",
       "category": "Corte láser",
       "price": 1781910,
       "currency": "ARS",
@@ -5750,7 +5806,7 @@
         "Fibra"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2526/image_512",
-      "url": "https://globalvalue.ar/shop/000457-laser-de-fibra-portatil-5w-pantalla-color-bateria-litio-2526?page=15",
+      "url": "https://globalvalue.ar/shop/000457-laser-de-fibra-portatil-5w-meenjet-m3-pantalla-color-bateria-litio-2526?page=15",
       "scrapedFrom": "https://globalvalue.ar/shop/page/15",
       "variants": []
     },
@@ -5856,8 +5912,8 @@
       "brand": null,
       "tags": [],
       "image": "https://globalvalue.ar/web/image/product.template/2507/image_512",
-      "url": "https://globalvalue.ar/shop/000573-hoto-destornillador-inalambrico-luz-bateria-de-litio-2507?page=16",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/16",
+      "url": "https://globalvalue.ar/shop/000573-hoto-destornillador-inalambrico-luz-bateria-de-litio-2507?page=15",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/15",
       "variants": []
     }
   ]

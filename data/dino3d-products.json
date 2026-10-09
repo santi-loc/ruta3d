@@ -5,7 +5,7 @@
     "baseUrl": "https://www.dino3d.com.ar",
     "listingPath": "/productos.php"
   },
-  "scrapedAt": "2026-10-08T15:24:29.709Z",
+  "scrapedAt": "2026-10-09T15:07:22.607Z",
   "count": 505,
   "pages": [
     {
@@ -106,12 +106,10 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": "Bambu Lab",
       "color": null,
       "tags": [
@@ -125,8 +123,8 @@
           "id": "BAM-A1-MIN-COM",
           "sku": "BAM-A1-MIN-COM",
           "price": 1056900,
-          "stock": 1,
-          "available": true,
+          "stock": 0,
+          "available": false,
           "options": [
             "A1"
           ],
@@ -1269,49 +1267,6 @@
             "Pla"
           ],
           "image": "https://www.dino3d.com.ar/img/productos/AquapastelR-20260413190002-d6180f.png"
-        }
-      ]
-    },
-    {
-      "id": "dino3d-HEL-AQU-PAS",
-      "sourceProductId": "HEL-AQU-PAS",
-      "store": "Dino 3D",
-      "domain": "dino3d.com.ar",
-      "name": "Aqua Pastel x 1 Kg",
-      "category": "Filamentos",
-      "price": 20900,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Hellbot",
-      "color": "Aqua Pastel",
-      "tags": [
-        "Hellbot",
-        "Aqua Pastel",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://www.dino3d.com.ar/img/productos/AquaPastel-20260329131908-784dfe.png",
-      "url": "https://www.dino3d.com.ar/productos.php?q=HEL-AQU-PAS",
-      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
-      "variants": [
-        {
-          "id": "HEL-AQU-PAS",
-          "sku": "HEL-AQU-PAS",
-          "price": 20900,
-          "stock": 1,
-          "available": true,
-          "options": [
-            "Aqua Pastel",
-            "Pla"
-          ],
-          "image": "https://www.dino3d.com.ar/img/productos/AquaPastel-20260329131908-784dfe.png"
         }
       ]
     },
@@ -2842,49 +2797,6 @@
       ]
     },
     {
-      "id": "dino3d-HEL-DIA-TRA",
-      "sourceProductId": "HEL-DIA-TRA",
-      "store": "Dino 3D",
-      "domain": "dino3d.com.ar",
-      "name": "Diamante Translucido x 1 Kg",
-      "category": "Filamentos",
-      "price": 20900,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Hellbot",
-      "color": "Diamante Translucido",
-      "tags": [
-        "Hellbot",
-        "Diamante Translucido",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://www.dino3d.com.ar/img/productos/DiamantaTraslucido-20260329133739-75fa9c.png",
-      "url": "https://www.dino3d.com.ar/productos.php?q=HEL-DIA-TRA",
-      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
-      "variants": [
-        {
-          "id": "HEL-DIA-TRA",
-          "sku": "HEL-DIA-TRA",
-          "price": 20900,
-          "stock": 1,
-          "available": true,
-          "options": [
-            "Diamante Translucido",
-            "Pla"
-          ],
-          "image": "https://www.dino3d.com.ar/img/productos/DiamantaTraslucido-20260329133739-75fa9c.png"
-        }
-      ]
-    },
-    {
       "id": "dino3d-HEL-DOR-COP",
       "sourceProductId": "HEL-DOR-COP",
       "store": "Dino 3D",
@@ -3936,51 +3848,6 @@
             "Pla+"
           ],
           "image": "https://www.dino3d.com.ar/img/productos/Grayishgreen-20260404001401-67a6e7.png"
-        }
-      ]
-    },
-    {
-      "id": "dino3d-FRE-DUA-GO-SIL",
-      "sourceProductId": "FRE-DUA-GO-SIL",
-      "store": "Dino 3D",
-      "domain": "dino3d.com.ar",
-      "name": "Green Orange Dual Silk x 1 Kg",
-      "category": "Filamentos",
-      "price": 22500,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Fremover",
-      "color": "Verde Naranja Silk",
-      "tags": [
-        "Fremover",
-        "Verde Naranja Silk",
-        "PLA Silk",
-        "PLA",
-        "1kg",
-        "Silk"
-      ],
-      "image": "https://www.dino3d.com.ar/img/productos/PLA_High_Speed_Dual_SilkSilk_Green-Orange_7095b474-c208-406e-adf4-7b8653af8cc3-20260822163116-ef9835.webp",
-      "url": "https://www.dino3d.com.ar/productos.php?q=FRE-DUA-GO-SIL",
-      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
-      "variants": [
-        {
-          "id": "FRE-DUA-GO-SIL",
-          "sku": "FRE-DUA-GO-SIL",
-          "price": 22500,
-          "stock": 1,
-          "available": true,
-          "options": [
-            "Verde Naranja Silk",
-            "Pla Silk"
-          ],
-          "image": "https://www.dino3d.com.ar/img/productos/PLA_High_Speed_Dual_SilkSilk_Green-Orange_7095b474-c208-406e-adf4-7b8653af8cc3-20260822163116-ef9835.webp"
         }
       ]
     },
@@ -8898,49 +8765,6 @@
       ]
     },
     {
-      "id": "dino3d-PET-FRE-BLA",
-      "sourceProductId": "PET-FRE-BLA",
-      "store": "Dino 3D",
-      "domain": "dino3d.com.ar",
-      "name": "Petg Blanco x 1 Kg",
-      "category": "Filamentos",
-      "price": 19000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Fremover",
-      "color": "Blanco",
-      "tags": [
-        "Fremover",
-        "Blanco",
-        "PETG",
-        "1kg"
-      ],
-      "image": "https://www.dino3d.com.ar/img/productos/PETG_High_SpeedWhite_3b968e39-0c20-475a-a274-d93bb45992cc-20260918172830-089d64.webp",
-      "url": "https://www.dino3d.com.ar/productos.php?q=PET-FRE-BLA",
-      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
-      "variants": [
-        {
-          "id": "PET-FRE-BLA",
-          "sku": "PET-FRE-BLA",
-          "price": 19000,
-          "stock": 1,
-          "available": true,
-          "options": [
-            "Blanco",
-            "Petg"
-          ],
-          "image": "https://www.dino3d.com.ar/img/productos/PETG_High_SpeedWhite_3b968e39-0c20-475a-a274-d93bb45992cc-20260918172830-089d64.webp"
-        }
-      ]
-    },
-    {
       "id": "dino3d-PET-FRE-CEL",
       "sourceProductId": "PET-FRE-CEL",
       "store": "Dino 3D",
@@ -9114,49 +8938,6 @@
       ]
     },
     {
-      "id": "dino3d-PET-HEL-GRI",
-      "sourceProductId": "PET-HEL-GRI",
-      "store": "Dino 3D",
-      "domain": "dino3d.com.ar",
-      "name": "Petg Gris x 1 Kg",
-      "category": "Filamentos",
-      "price": 22900,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Hellbot",
-      "color": "Gris Oscuro",
-      "tags": [
-        "Hellbot",
-        "Gris Oscuro",
-        "PETG",
-        "1kg"
-      ],
-      "image": "https://www.dino3d.com.ar/img/productos/GrisGrafitoPetg-20260405024213-5f80df.png",
-      "url": "https://www.dino3d.com.ar/productos.php?q=PET-HEL-GRI",
-      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
-      "variants": [
-        {
-          "id": "PET-HEL-GRI",
-          "sku": "PET-HEL-GRI",
-          "price": 22900,
-          "stock": 1,
-          "available": true,
-          "options": [
-            "Gris Oscuro",
-            "Petg"
-          ],
-          "image": "https://www.dino3d.com.ar/img/productos/GrisGrafitoPetg-20260405024213-5f80df.png"
-        }
-      ]
-    },
-    {
       "id": "dino3d-PET-TOO-LAT",
       "sourceProductId": "PET-TOO-LAT",
       "store": "Dino 3D",
@@ -9200,49 +8981,6 @@
       ]
     },
     {
-      "id": "dino3d-PET-FIL-NEG",
-      "sourceProductId": "PET-FIL-NEG",
-      "store": "Dino 3D",
-      "domain": "dino3d.com.ar",
-      "name": "Petg Negro x 1 Kg",
-      "category": "Filamentos",
-      "price": 18000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Filanova",
-      "color": "Negro",
-      "tags": [
-        "Filanova",
-        "Negro",
-        "PETG",
-        "1kg"
-      ],
-      "image": "https://www.dino3d.com.ar/img/productos/WhatsAppImage2026-09-05at135216-20260905135231-d38e2e.jpeg",
-      "url": "https://www.dino3d.com.ar/productos.php?q=PET-FIL-NEG",
-      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
-      "variants": [
-        {
-          "id": "PET-FIL-NEG",
-          "sku": "PET-FIL-NEG",
-          "price": 18000,
-          "stock": 1,
-          "available": true,
-          "options": [
-            "Negro",
-            "Petg"
-          ],
-          "image": "https://www.dino3d.com.ar/img/productos/WhatsAppImage2026-09-05at135216-20260905135231-d38e2e.jpeg"
-        }
-      ]
-    },
-    {
       "id": "dino3d-PET-FRE-PIN",
       "sourceProductId": "PET-FRE-PIN",
       "store": "Dino 3D",
@@ -9282,49 +9020,6 @@
             "Petg"
           ],
           "image": "https://www.dino3d.com.ar/img/productos/petgpink-20260529152832-28ae73.webp"
-        }
-      ]
-    },
-    {
-      "id": "dino3d-PET-FRE-PUR",
-      "sourceProductId": "PET-FRE-PUR",
-      "store": "Dino 3D",
-      "domain": "dino3d.com.ar",
-      "name": "Petg Purpura x 1 Kg",
-      "category": "Filamentos",
-      "price": 18000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Fremover",
-      "color": "Violeta Purpura",
-      "tags": [
-        "Fremover",
-        "Violeta Purpura",
-        "PETG",
-        "1kg"
-      ],
-      "image": "https://www.dino3d.com.ar/img/productos/PETG_High_SpeedPurple_d28efa46-c3ba-449c-8b2a-d8aac311c1e7-20260529152840-765194.webp",
-      "url": "https://www.dino3d.com.ar/productos.php?q=PET-FRE-PUR",
-      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
-      "variants": [
-        {
-          "id": "PET-FRE-PUR",
-          "sku": "PET-FRE-PUR",
-          "price": 18000,
-          "stock": 1,
-          "available": true,
-          "options": [
-            "Violeta Purpura",
-            "Petg"
-          ],
-          "image": "https://www.dino3d.com.ar/img/productos/PETG_High_SpeedPurple_d28efa46-c3ba-449c-8b2a-d8aac311c1e7-20260529152840-765194.webp"
         }
       ]
     },
@@ -12107,45 +11802,6 @@
       ]
     },
     {
-      "id": "dino3d-ALU-650",
-      "sourceProductId": "ALU-650",
-      "store": "Dino 3D",
-      "domain": "dino3d.com.ar",
-      "name": "Vaso De Aluminio x 650 ml",
-      "category": "Accesorios",
-      "price": 3500,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Vasos Aluminio",
-      "color": null,
-      "tags": [
-        "Vasos Aluminio"
-      ],
-      "image": "https://www.dino3d.com.ar/img/productos/ChatGPTImage8jul202605_46_23pm-20260708174636-3dfd92.png",
-      "url": "https://www.dino3d.com.ar/productos.php?q=ALU-650",
-      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
-      "variants": [
-        {
-          "id": "ALU-650",
-          "sku": "ALU-650",
-          "price": 3500,
-          "stock": 1,
-          "available": true,
-          "options": [
-            "Aluminio"
-          ],
-          "image": "https://www.dino3d.com.ar/img/productos/ChatGPTImage8jul202605_46_23pm-20260708174636-3dfd92.png"
-        }
-      ]
-    },
-    {
       "id": "dino3d-VAS-ALU-750",
       "sourceProductId": "VAS-ALU-750",
       "store": "Dino 3D",
@@ -12598,6 +12254,47 @@
             "Pla"
           ],
           "image": "https://www.dino3d.com.ar/img/productos/AquaGreen-20260407025510-b3de46.png"
+        }
+      ]
+    },
+    {
+      "id": "dino3d-HEL-AQU-PAS",
+      "sourceProductId": "HEL-AQU-PAS",
+      "store": "Dino 3D",
+      "domain": "dino3d.com.ar",
+      "name": "Aqua Pastel x 1 Kg",
+      "category": "Filamentos",
+      "price": 20900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Hellbot",
+      "color": "Aqua Pastel",
+      "tags": [
+        "Hellbot",
+        "Aqua Pastel",
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://www.dino3d.com.ar/img/productos/AquaPastel-20260329131908-784dfe.png",
+      "url": "https://www.dino3d.com.ar/productos.php?q=HEL-AQU-PAS",
+      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
+      "variants": [
+        {
+          "id": "HEL-AQU-PAS",
+          "sku": "HEL-AQU-PAS",
+          "price": 20900,
+          "stock": 0,
+          "available": false,
+          "options": [
+            "Aqua Pastel",
+            "Pla"
+          ],
+          "image": "https://www.dino3d.com.ar/img/productos/AquaPastel-20260329131908-784dfe.png"
         }
       ]
     },
@@ -14648,6 +14345,47 @@
       ]
     },
     {
+      "id": "dino3d-HEL-DIA-TRA",
+      "sourceProductId": "HEL-DIA-TRA",
+      "store": "Dino 3D",
+      "domain": "dino3d.com.ar",
+      "name": "Diamante Translucido x 1 Kg",
+      "category": "Filamentos",
+      "price": 20900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Hellbot",
+      "color": "Diamante Translucido",
+      "tags": [
+        "Hellbot",
+        "Diamante Translucido",
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://www.dino3d.com.ar/img/productos/DiamantaTraslucido-20260329133739-75fa9c.png",
+      "url": "https://www.dino3d.com.ar/productos.php?q=HEL-DIA-TRA",
+      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
+      "variants": [
+        {
+          "id": "HEL-DIA-TRA",
+          "sku": "HEL-DIA-TRA",
+          "price": 20900,
+          "stock": 0,
+          "available": false,
+          "options": [
+            "Diamante Translucido",
+            "Pla"
+          ],
+          "image": "https://www.dino3d.com.ar/img/productos/DiamantaTraslucido-20260329133739-75fa9c.png"
+        }
+      ]
+    },
+    {
       "id": "dino3d-GST-DOR-SIL",
       "sourceProductId": "GST-DOR-SIL",
       "store": "Dino 3D",
@@ -15273,6 +15011,49 @@
             "Pla Silk"
           ],
           "image": "https://www.dino3d.com.ar/img/productos/gstlite-trisilk-gold-green-fucshia-7500d75bbbac75ff7817773797788551-1024-1024-20260603120624-19b795.webp"
+        }
+      ]
+    },
+    {
+      "id": "dino3d-FRE-DUA-GO-SIL",
+      "sourceProductId": "FRE-DUA-GO-SIL",
+      "store": "Dino 3D",
+      "domain": "dino3d.com.ar",
+      "name": "Green Orange Dual Silk x 1 Kg",
+      "category": "Filamentos",
+      "price": 22500,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Fremover",
+      "color": "Verde Naranja Silk",
+      "tags": [
+        "Fremover",
+        "Verde Naranja Silk",
+        "PLA Silk",
+        "PLA",
+        "1kg",
+        "Silk"
+      ],
+      "image": "https://www.dino3d.com.ar/img/productos/PLA_High_Speed_Dual_SilkSilk_Green-Orange_7095b474-c208-406e-adf4-7b8653af8cc3-20260822163116-ef9835.webp",
+      "url": "https://www.dino3d.com.ar/productos.php?q=FRE-DUA-GO-SIL",
+      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
+      "variants": [
+        {
+          "id": "FRE-DUA-GO-SIL",
+          "sku": "FRE-DUA-GO-SIL",
+          "price": 22500,
+          "stock": 0,
+          "available": false,
+          "options": [
+            "Verde Naranja Silk",
+            "Pla Silk"
+          ],
+          "image": "https://www.dino3d.com.ar/img/productos/PLA_High_Speed_Dual_SilkSilk_Green-Orange_7095b474-c208-406e-adf4-7b8653af8cc3-20260822163116-ef9835.webp"
         }
       ]
     },
@@ -19899,6 +19680,47 @@
       ]
     },
     {
+      "id": "dino3d-PET-FRE-BLA",
+      "sourceProductId": "PET-FRE-BLA",
+      "store": "Dino 3D",
+      "domain": "dino3d.com.ar",
+      "name": "Petg Blanco x 1 Kg",
+      "category": "Filamentos",
+      "price": 19000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Fremover",
+      "color": "Blanco",
+      "tags": [
+        "Fremover",
+        "Blanco",
+        "PETG",
+        "1kg"
+      ],
+      "image": "https://www.dino3d.com.ar/img/productos/PETG_High_SpeedWhite_3b968e39-0c20-475a-a274-d93bb45992cc-20260918172830-089d64.webp",
+      "url": "https://www.dino3d.com.ar/productos.php?q=PET-FRE-BLA",
+      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
+      "variants": [
+        {
+          "id": "PET-FRE-BLA",
+          "sku": "PET-FRE-BLA",
+          "price": 19000,
+          "stock": 0,
+          "available": false,
+          "options": [
+            "Blanco",
+            "Petg"
+          ],
+          "image": "https://www.dino3d.com.ar/img/productos/PETG_High_SpeedWhite_3b968e39-0c20-475a-a274-d93bb45992cc-20260918172830-089d64.webp"
+        }
+      ]
+    },
+    {
       "id": "dino3d-PET-GST-COS-BLA",
       "sourceProductId": "PET-GST-COS-BLA",
       "store": "Dino 3D",
@@ -20350,6 +20172,47 @@
       ]
     },
     {
+      "id": "dino3d-PET-HEL-GRI",
+      "sourceProductId": "PET-HEL-GRI",
+      "store": "Dino 3D",
+      "domain": "dino3d.com.ar",
+      "name": "Petg Gris x 1 Kg",
+      "category": "Filamentos",
+      "price": 22900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Hellbot",
+      "color": "Gris Oscuro",
+      "tags": [
+        "Hellbot",
+        "Gris Oscuro",
+        "PETG",
+        "1kg"
+      ],
+      "image": "https://www.dino3d.com.ar/img/productos/GrisGrafitoPetg-20260405024213-5f80df.png",
+      "url": "https://www.dino3d.com.ar/productos.php?q=PET-HEL-GRI",
+      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
+      "variants": [
+        {
+          "id": "PET-HEL-GRI",
+          "sku": "PET-HEL-GRI",
+          "price": 22900,
+          "stock": 0,
+          "available": false,
+          "options": [
+            "Gris Oscuro",
+            "Petg"
+          ],
+          "image": "https://www.dino3d.com.ar/img/productos/GrisGrafitoPetg-20260405024213-5f80df.png"
+        }
+      ]
+    },
+    {
       "id": "dino3d-PET-FRE-GRI",
       "sourceProductId": "PET-FRE-GRI",
       "store": "Dino 3D",
@@ -20756,6 +20619,88 @@
             "Petg"
           ],
           "image": "https://www.dino3d.com.ar/img/productos/PETG_High_SpeedBlack_0561f05a-3d6a-47ac-bb65-2be20fac3baa-20260822152805-5c9257.webp"
+        }
+      ]
+    },
+    {
+      "id": "dino3d-PET-FIL-NEG",
+      "sourceProductId": "PET-FIL-NEG",
+      "store": "Dino 3D",
+      "domain": "dino3d.com.ar",
+      "name": "Petg Negro x 1 Kg",
+      "category": "Filamentos",
+      "price": 18000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Filanova",
+      "color": "Negro",
+      "tags": [
+        "Filanova",
+        "Negro",
+        "PETG",
+        "1kg"
+      ],
+      "image": "https://www.dino3d.com.ar/img/productos/WhatsAppImage2026-09-05at135216-20260905135231-d38e2e.jpeg",
+      "url": "https://www.dino3d.com.ar/productos.php?q=PET-FIL-NEG",
+      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
+      "variants": [
+        {
+          "id": "PET-FIL-NEG",
+          "sku": "PET-FIL-NEG",
+          "price": 18000,
+          "stock": 0,
+          "available": false,
+          "options": [
+            "Negro",
+            "Petg"
+          ],
+          "image": "https://www.dino3d.com.ar/img/productos/WhatsAppImage2026-09-05at135216-20260905135231-d38e2e.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "dino3d-PET-FRE-PUR",
+      "sourceProductId": "PET-FRE-PUR",
+      "store": "Dino 3D",
+      "domain": "dino3d.com.ar",
+      "name": "Petg Purpura x 1 Kg",
+      "category": "Filamentos",
+      "price": 18000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Fremover",
+      "color": "Violeta Purpura",
+      "tags": [
+        "Fremover",
+        "Violeta Purpura",
+        "PETG",
+        "1kg"
+      ],
+      "image": "https://www.dino3d.com.ar/img/productos/PETG_High_SpeedPurple_d28efa46-c3ba-449c-8b2a-d8aac311c1e7-20260529152840-765194.webp",
+      "url": "https://www.dino3d.com.ar/productos.php?q=PET-FRE-PUR",
+      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
+      "variants": [
+        {
+          "id": "PET-FRE-PUR",
+          "sku": "PET-FRE-PUR",
+          "price": 18000,
+          "stock": 0,
+          "available": false,
+          "options": [
+            "Violeta Purpura",
+            "Petg"
+          ],
+          "image": "https://www.dino3d.com.ar/img/productos/PETG_High_SpeedPurple_d28efa46-c3ba-449c-8b2a-d8aac311c1e7-20260529152840-765194.webp"
         }
       ]
     },
@@ -21257,6 +21202,43 @@
             "Aluminio"
           ],
           "image": "https://www.dino3d.com.ar/img/productos/WhatsAppImage2026-07-08at170828-20260708170846-592d0c.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "dino3d-ALU-650",
+      "sourceProductId": "ALU-650",
+      "store": "Dino 3D",
+      "domain": "dino3d.com.ar",
+      "name": "Vaso De Aluminio x 650 ml",
+      "category": "Accesorios",
+      "price": 3500,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Vasos Aluminio",
+      "color": null,
+      "tags": [
+        "Vasos Aluminio"
+      ],
+      "image": "https://www.dino3d.com.ar/img/productos/ChatGPTImage8jul202605_46_23pm-20260708174636-3dfd92.png",
+      "url": "https://www.dino3d.com.ar/productos.php?q=ALU-650",
+      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
+      "variants": [
+        {
+          "id": "ALU-650",
+          "sku": "ALU-650",
+          "price": 3500,
+          "stock": 0,
+          "available": false,
+          "options": [
+            "Aluminio"
+          ],
+          "image": "https://www.dino3d.com.ar/img/productos/ChatGPTImage8jul202605_46_23pm-20260708174636-3dfd92.png"
         }
       ]
     }

@@ -4,8 +4,8 @@
     "domain": "todo3dsf.com.ar",
     "baseUrl": "https://www.todo3dsf.com.ar"
   },
-  "scrapedAt": "2026-10-08T15:25:07.651Z",
-  "count": 62,
+  "scrapedAt": "2026-10-09T15:07:55.576Z",
+  "count": 63,
   "pages": [
     {
       "page": 1,
@@ -68,7 +68,7 @@
       "path": "/impresoras-3d",
       "url": "https://www.todo3dsf.com.ar/impresoras-3d",
       "found": 12,
-      "added": 11
+      "added": 12
     },
     {
       "page": 1,
@@ -281,6 +281,32 @@
       "variants": []
     },
     {
+      "id": "todo3dsf-29369396",
+      "sourceProductId": "29369396",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Cadena plana dorada x50 unidades",
+      "category": "Filamentos",
+      "price": 6000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA"
+      ],
+      "image": "https://d22fxaf9t8d39k.cloudfront.net/c86dc0126f46f60b96a9a94b1b66f26587af184503869ad244ceff4fc1a676e532164.webp",
+      "url": "https://www.todo3dsf.com.ar/insumos-3d/bijouterie/cadena-plana-dorada-x50-unidades",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/productos",
+      "variants": []
+    },
+    {
       "id": "todo3dsf-29090186",
       "sourceProductId": "29090186",
       "store": "Todo 3D",
@@ -382,32 +408,6 @@
       ],
       "image": "https://d22fxaf9t8d39k.cloudfront.net/5353c331f1fe40859d0754d8e922676f34df45d993a21cea7e3b4617bfc72d6b32164.webp",
       "url": "https://www.todo3dsf.com.ar/accesorios/termistor-ender-3-v3-se",
-      "scrapedFrom": "https://www.todo3dsf.com.ar/productos",
-      "variants": []
-    },
-    {
-      "id": "todo3dsf-28449924",
-      "sourceProductId": "28449924",
-      "store": "Todo 3D",
-      "domain": "todo3dsf.com.ar",
-      "name": "Creality Ender 5 MAX",
-      "category": "Impresoras",
-      "price": 1550000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Creality",
-      "tags": [
-        "Creality"
-      ],
-      "image": "https://d22fxaf9t8d39k.cloudfront.net/bd7f43af5c4fe47198b908b24bf72fb64904135c53353bff96d9e34a6f1ad79e32164.jpg",
-      "url": "https://www.todo3dsf.com.ar/impresoras-3d/fdm-filamento/creality-ender-5-max",
       "scrapedFrom": "https://www.todo3dsf.com.ar/productos",
       "variants": []
     },
@@ -1036,6 +1036,32 @@
       "image": "https://d22fxaf9t8d39k.cloudfront.net/31c73f9d01969f99e14a04507cc030b355568004aa367db8b2d6416f41da7d9d32164.jpg",
       "url": "https://www.todo3dsf.com.ar/insumos-3d/resinas/resina-hellbot-estandar-dura-x250ml",
       "scrapedFrom": "https://www.todo3dsf.com.ar/insumos-3d/resinas",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-28449924",
+      "sourceProductId": "28449924",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Creality Ender 5 MAX",
+      "category": "Impresoras",
+      "price": 1550000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Creality",
+      "tags": [
+        "Creality"
+      ],
+      "image": "https://d22fxaf9t8d39k.cloudfront.net/bd7f43af5c4fe47198b908b24bf72fb64904135c53353bff96d9e34a6f1ad79e32164.jpg",
+      "url": "https://www.todo3dsf.com.ar/impresoras-3d/fdm-filamento/creality-ender-5-max",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/impresoras-3d",
       "variants": []
     },
     {

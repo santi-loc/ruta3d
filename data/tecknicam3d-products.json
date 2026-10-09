@@ -4,7 +4,7 @@
     "domain": "tecknicam3d.com.ar",
     "baseUrl": "https://www.tecknicam3d.com.ar"
   },
-  "scrapedAt": "2026-10-08T15:25:20.209Z",
+  "scrapedAt": "2026-10-09T15:08:08.750Z",
   "count": 217,
   "pages": [
     {
@@ -13,7 +13,7 @@
       "url": "https://www.tecknicam3d.com.ar/productos?categoria=1-impresoras-3d",
       "found": 16,
       "added": 16,
-      "totalPages": 6
+      "totalPages": 5
     },
     {
       "page": 2,
@@ -21,7 +21,7 @@
       "url": "https://www.tecknicam3d.com.ar/productos?categoria=1-impresoras-3d&page=2",
       "found": 16,
       "added": 16,
-      "totalPages": 6
+      "totalPages": 5
     },
     {
       "page": 1,
@@ -29,7 +29,7 @@
       "url": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock",
       "found": 16,
       "added": 16,
-      "totalPages": 39
+      "totalPages": 38
     },
     {
       "page": 2,
@@ -37,7 +37,7 @@
       "url": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock&page=2",
       "found": 16,
       "added": 16,
-      "totalPages": 39
+      "totalPages": 38
     },
     {
       "page": 1,
@@ -326,7 +326,7 @@
       "sourceProductId": "3564",
       "store": "Tecknicam 3D",
       "domain": "tecknicam3d.com.ar",
-      "name": "Preventa CANVAS for Centauri Carbon multicolor 4 colores",
+      "name": "CANVAS for Centauri Carbon multicolor 4 colores",
       "category": "Impresoras",
       "price": 272551,
       "currency": "ARS",
@@ -341,7 +341,7 @@
       "brand": null,
       "tags": [],
       "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/CANVAS-for-Centauri-Carbon-multicolor-4-colores2-1785379676-52f3918f.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/preventa-canvas-for-centauri-carbon-multicolor-4-colores",
+      "url": "https://www.tecknicam3d.com.ar/productos/canvas-for-centauri-carbon-multicolor-4-colores",
       "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=1-impresoras-3d",
       "variants": []
     },
@@ -396,8 +396,8 @@
       "variants": []
     },
     {
-      "id": "tecknicam3d-ad5x-de-exposicion-220x220x220mm-impresora-3d-flashforge-adventurer-se-retira-armada-por-suc-moron-30-dias-de-garantia",
-      "sourceProductId": "ad5x-de-exposicion-220x220x220mm-impresora-3d-flashforge-adventurer-se-retira-armada-por-suc-moron-30-dias-de-garantia",
+      "id": "tecknicam3d-3511",
+      "sourceProductId": "3511",
       "store": "Tecknicam 3D",
       "domain": "tecknicam3d.com.ar",
       "name": "AD5X de exposición 220x220x220mm IMPRESORA 3D FLASHFORGE ADVENTURER (se retira armada por suc moron 30 días de garantía)",
@@ -406,10 +406,12 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 724888,
-      "purchaseModes": [],
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "Pocas unidades",
+      "available": true,
       "brand": null,
       "tags": [],
       "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/AD5X4.webp",
@@ -542,8 +544,8 @@
       "variants": []
     },
     {
-      "id": "tecknicam3d-a1-combo-usada-256x256x256mm-impresora-3d-fdm-bambu-lab-usada-30-dias-de-garantia-se-retira-armada-en-suc-moron",
-      "sourceProductId": "a1-combo-usada-256x256x256mm-impresora-3d-fdm-bambu-lab-usada-30-dias-de-garantia-se-retira-armada-en-suc-moron",
+      "id": "tecknicam3d-3149",
+      "sourceProductId": "3149",
       "store": "Tecknicam 3D",
       "domain": "tecknicam3d.com.ar",
       "name": "A1 Combo usada 256x256x256mm Impresora 3D FDM Bambu Lab USADA 30 dias de garantía, se retira armada en SUC MORON",
@@ -552,10 +554,12 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 807500,
-      "purchaseModes": [],
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "Pocas unidades",
+      "available": true,
       "brand": "Bambu Lab",
       "tags": [
         "Bambu Lab"
@@ -590,28 +594,26 @@
       "variants": []
     },
     {
-      "id": "tecknicam3d-3074",
-      "sourceProductId": "3074",
+      "id": "tecknicam3d-3089",
+      "sourceProductId": "3089",
       "store": "Tecknicam 3D",
       "domain": "tecknicam3d.com.ar",
-      "name": "Ender 3 220x220x250mm IMPRESORA 3D FDM Creality",
+      "name": "Creator 5 256×256×256mm IMPRESORA 3D FLASHFORGE",
       "category": "Impresoras",
-      "price": 249999,
+      "price": 1931900,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 237499.05,
+      "transferPrice": 1835305,
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 2,
-      "stockLabel": "Pocas unidades",
+      "stock": 4,
+      "stockLabel": "En stock",
       "available": true,
-      "brand": "Creality",
-      "tags": [
-        "Creality"
-      ],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/ender-3-1.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/ender-3-220x220x250mm-impresora-3d-fdm-creality",
+      "brand": null,
+      "tags": [],
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/Creator-5-1.png",
+      "url": "https://www.tecknicam3d.com.ar/productos/creator-5-256-256-256mm-impresora-3d-flashforge",
       "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=1-impresoras-3d&page=2",
       "variants": []
     },
@@ -640,74 +642,74 @@
       "variants": []
     },
     {
-      "id": "tecknicam3d-3089",
-      "sourceProductId": "3089",
+      "id": "tecknicam3d-3074",
+      "sourceProductId": "3074",
       "store": "Tecknicam 3D",
       "domain": "tecknicam3d.com.ar",
-      "name": "Creator 5 256×256×256mm IMPRESORA 3D FLASHFORGE",
+      "name": "Ender 3 220x220x250mm IMPRESORA 3D FDM Creality",
       "category": "Impresoras",
-      "price": 1931900,
+      "price": 249999,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 1835305,
+      "transferPrice": 237499.05,
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 4,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/Creator-5-1.png",
-      "url": "https://www.tecknicam3d.com.ar/productos/creator-5-256-256-256mm-impresora-3d-flashforge",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=1-impresoras-3d&page=2",
-      "variants": []
-    },
-    {
-      "id": "tecknicam3d-248",
-      "sourceProductId": "248",
-      "store": "Tecknicam 3D",
-      "domain": "tecknicam3d.com.ar",
-      "name": "5M 220x220x220mm IMPRESORA 3D FLASHFORGE ADVENTURER",
-      "category": "Impresoras",
-      "price": 644900,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 612655,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
+      "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
-      "brand": null,
-      "tags": [],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/71lL5cwJLL._AC_SL1500_.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/5m-220x220x220mm-impresora-3d-flashforge-adventurer",
+      "brand": "Creality",
+      "tags": [
+        "Creality"
+      ],
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/ender-3-1.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/ender-3-220x220x250mm-impresora-3d-fdm-creality",
       "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=1-impresoras-3d&page=2",
       "variants": []
     },
     {
-      "id": "tecknicam3d-hidra-plus-300x300x400mm-doble-extrusor-independiente-impresora-3d-fdm-hellbot",
-      "sourceProductId": "hidra-plus-300x300x400mm-doble-extrusor-independiente-impresora-3d-fdm-hellbot",
+      "id": "tecknicam3d-centauri-carbon-fdm-3d-printer-256-x-256-x-256-mm-impresora-3d-fdm-elegoo",
+      "sourceProductId": "centauri-carbon-fdm-3d-printer-256-x-256-x-256-mm-impresora-3d-fdm-elegoo",
       "store": "Tecknicam 3D",
       "domain": "tecknicam3d.com.ar",
-      "name": "HIDRA PLUS 300x300x400mm Doble Extrusor Independiente Impresora 3D FDM Hellbot",
+      "name": "Centauri Carbon FDM 3D Printer 256 x 256 x 256 mm Impresora 3D FDM ELEGOO",
       "category": "Impresoras",
-      "price": 350000,
+      "price": 844900,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 332500,
+      "transferPrice": 802655,
       "purchaseModes": [],
       "stock": null,
       "stockLabel": "Consultar",
       "available": false,
-      "brand": "Hellbot",
+      "brand": "Elegoo",
       "tags": [
-        "Hellbot"
+        "Elegoo"
       ],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/HIDRA-PLUS-300x300x400mm-Doble-Extrusor-Independiente-Impresora-3D-FDM-Hellbot-3.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/hidra-plus-300x300x400mm-doble-extrusor-independiente-impresora-3d-fdm-hellbot",
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/CC-1_2_1220x1220_crop_center.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/centauri-carbon-fdm-3d-printer-256-x-256-x-256-mm-impresora-3d-fdm-elegoo",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=1-impresoras-3d&page=2",
+      "variants": []
+    },
+    {
+      "id": "tecknicam3d-mingda-ad-f4-800x1200x100mm-impresora",
+      "sourceProductId": "mingda-ad-f4-800x1200x100mm-impresora",
+      "store": "Tecknicam 3D",
+      "domain": "tecknicam3d.com.ar",
+      "name": "Mingda AD-F4 800X1200X100mm Impresora",
+      "category": "Impresoras",
+      "price": 8990000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 8540500,
+      "purchaseModes": [],
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": null,
+      "tags": [],
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/MINGDA_ADF4_VAR_SOLA-9-1.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/mingda-ad-f4-800x1200x100mm-impresora",
       "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=1-impresoras-3d&page=2",
       "variants": []
     },
@@ -736,122 +738,26 @@
       "variants": []
     },
     {
-      "id": "tecknicam3d-141",
-      "sourceProductId": "141",
+      "id": "tecknicam3d-248",
+      "sourceProductId": "248",
       "store": "Tecknicam 3D",
       "domain": "tecknicam3d.com.ar",
-      "name": "Kobra 3 Max Combo 420×420×500 mm preventa Anycubic Impresora 3D FDM",
+      "name": "5M 220x220x220mm IMPRESORA 3D FLASHFORGE ADVENTURER",
       "category": "Impresoras",
-      "price": 1329900,
+      "price": 644900,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 1263405,
+      "transferPrice": 612655,
       "purchaseModes": [
         "Entrega inmediata"
       ],
       "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
-      "brand": "Anycubic",
-      "tags": [
-        "Anycubic"
-      ],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/Kobra-3-Max-Combo-420--420--500---mm-preventa-Anyc-1790196420-16e3330e.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/kobra-3-max-combo-420-420-500-mm-preventa-anycubic-impresora-3d-fdm",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=1-impresoras-3d&page=2",
-      "variants": []
-    },
-    {
-      "id": "tecknicam3d-mingda-ad-f4-800x1200x100mm-impresora",
-      "sourceProductId": "mingda-ad-f4-800x1200x100mm-impresora",
-      "store": "Tecknicam 3D",
-      "domain": "tecknicam3d.com.ar",
-      "name": "Mingda AD-F4 800X1200X100mm Impresora",
-      "category": "Impresoras",
-      "price": 8990000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 8540500,
-      "purchaseModes": [],
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
       "brand": null,
       "tags": [],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/MINGDA_ADF4_VAR_SOLA-9-1.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/mingda-ad-f4-800x1200x100mm-impresora",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=1-impresoras-3d&page=2",
-      "variants": []
-    },
-    {
-      "id": "tecknicam3d-mars-4-9k-153x77x175mm-lcd-impresora-resina-elegoo",
-      "sourceProductId": "mars-4-9k-153x77x175mm-lcd-impresora-resina-elegoo",
-      "store": "Tecknicam 3D",
-      "domain": "tecknicam3d.com.ar",
-      "name": "Mars 4 9k 153x77x175mm Lcd Impresora Resina Elegoo",
-      "category": "Resina",
-      "price": 536900,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 510055,
-      "purchaseModes": [],
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Elegoo",
-      "tags": [
-        "Elegoo"
-      ],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/Mars-4-9k-153x77x175mm-Lcd-Impresora-Resina-Elegoo-.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/mars-4-9k-153x77x175mm-lcd-impresora-resina-elegoo",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=1-impresoras-3d&page=2",
-      "variants": []
-    },
-    {
-      "id": "tecknicam3d-neptune-4-max-420x420x480mm-klipper-500mms-impresora-3d-fdm-elegoo",
-      "sourceProductId": "neptune-4-max-420x420x480mm-klipper-500mms-impresora-3d-fdm-elegoo",
-      "store": "Tecknicam 3D",
-      "domain": "tecknicam3d.com.ar",
-      "name": "Neptune 4 max 420x420x480mm Klipper 500mms Impresora 3D FDM ELEGOO",
-      "category": "Impresoras",
-      "price": 1028900,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 977455,
-      "purchaseModes": [],
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Elegoo",
-      "tags": [
-        "Elegoo"
-      ],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/Neptune-4max-420x420x480mm-Klipper-500mms-Impresora-3D-FDM-ELEGO-.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/neptune-4-max-420x420x480mm-klipper-500mms-impresora-3d-fdm-elegoo",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=1-impresoras-3d&page=2",
-      "variants": []
-    },
-    {
-      "id": "tecknicam3d-centauri-carbon-de-exposicion-fdm-3d-printer-256-x-256-x-256-mm-impresora-3d-fdm-elegoo-usada-como-nueva-con-30-dias-de-garantia",
-      "sourceProductId": "centauri-carbon-de-exposicion-fdm-3d-printer-256-x-256-x-256-mm-impresora-3d-fdm-elegoo-usada-como-nueva-con-30-dias-de-garantia",
-      "store": "Tecknicam 3D",
-      "domain": "tecknicam3d.com.ar",
-      "name": "Centauri Carbon de exposición FDM 3D Printer 256 x 256 x 256 mm Impresora 3D FDM ELEGOO usada como nueva con 30 días de garantía",
-      "category": "Impresoras",
-      "price": 715350,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 679582.5,
-      "purchaseModes": [],
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Elegoo",
-      "tags": [
-        "Elegoo"
-      ],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/CC-1_2_1220x1220_crop_center.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/centauri-carbon-de-exposicion-fdm-3d-printer-256-x-256-x-256-mm-impresora-3d-fdm-elegoo-usada-como-nueva-con-30-dias-de-garantia",
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/71lL5cwJLL._AC_SL1500_.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/5m-220x220x220mm-impresora-3d-flashforge-adventurer",
       "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=1-impresoras-3d&page=2",
       "variants": []
     },
@@ -904,6 +810,104 @@
       "variants": []
     },
     {
+      "id": "tecknicam3d-mars-4-9k-153x77x175mm-lcd-impresora-resina-elegoo",
+      "sourceProductId": "mars-4-9k-153x77x175mm-lcd-impresora-resina-elegoo",
+      "store": "Tecknicam 3D",
+      "domain": "tecknicam3d.com.ar",
+      "name": "Mars 4 9k 153x77x175mm Lcd Impresora Resina Elegoo",
+      "category": "Resina",
+      "price": 536900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 510055,
+      "purchaseModes": [],
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Elegoo",
+      "tags": [
+        "Elegoo"
+      ],
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/Mars-4-9k-153x77x175mm-Lcd-Impresora-Resina-Elegoo-.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/mars-4-9k-153x77x175mm-lcd-impresora-resina-elegoo",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=1-impresoras-3d&page=2",
+      "variants": []
+    },
+    {
+      "id": "tecknicam3d-centauri-carbon-de-exposicion-fdm-3d-printer-256-x-256-x-256-mm-impresora-3d-fdm-elegoo-usada-como-nueva-con-30-dias-de-garantia",
+      "sourceProductId": "centauri-carbon-de-exposicion-fdm-3d-printer-256-x-256-x-256-mm-impresora-3d-fdm-elegoo-usada-como-nueva-con-30-dias-de-garantia",
+      "store": "Tecknicam 3D",
+      "domain": "tecknicam3d.com.ar",
+      "name": "Centauri Carbon de exposición FDM 3D Printer 256 x 256 x 256 mm Impresora 3D FDM ELEGOO usada como nueva con 30 días de garantía",
+      "category": "Impresoras",
+      "price": 715350,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 679582.5,
+      "purchaseModes": [],
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Elegoo",
+      "tags": [
+        "Elegoo"
+      ],
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/CC-1_2_1220x1220_crop_center.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/centauri-carbon-de-exposicion-fdm-3d-printer-256-x-256-x-256-mm-impresora-3d-fdm-elegoo-usada-como-nueva-con-30-dias-de-garantia",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=1-impresoras-3d&page=2",
+      "variants": []
+    },
+    {
+      "id": "tecknicam3d-neptune-4-max-420x420x480mm-klipper-500mms-impresora-3d-fdm-elegoo",
+      "sourceProductId": "neptune-4-max-420x420x480mm-klipper-500mms-impresora-3d-fdm-elegoo",
+      "store": "Tecknicam 3D",
+      "domain": "tecknicam3d.com.ar",
+      "name": "Neptune 4 max 420x420x480mm Klipper 500mms Impresora 3D FDM ELEGOO",
+      "category": "Impresoras",
+      "price": 1028900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 977455,
+      "purchaseModes": [],
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Elegoo",
+      "tags": [
+        "Elegoo"
+      ],
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/Neptune-4max-420x420x480mm-Klipper-500mms-Impresora-3D-FDM-ELEGO-.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/neptune-4-max-420x420x480mm-klipper-500mms-impresora-3d-fdm-elegoo",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=1-impresoras-3d&page=2",
+      "variants": []
+    },
+    {
+      "id": "tecknicam3d-141",
+      "sourceProductId": "141",
+      "store": "Tecknicam 3D",
+      "domain": "tecknicam3d.com.ar",
+      "name": "Kobra 3 Max Combo 420×420×500 mm preventa Anycubic Impresora 3D FDM",
+      "category": "Impresoras",
+      "price": 1329900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 1263405,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "Pocas unidades",
+      "available": true,
+      "brand": "Anycubic",
+      "tags": [
+        "Anycubic"
+      ],
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/Kobra-3-Max-Combo-420--420--500---mm-preventa-Anyc-1790196420-16e3330e.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/kobra-3-max-combo-420-420-500-mm-preventa-anycubic-impresora-3d-fdm",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=1-impresoras-3d&page=2",
+      "variants": []
+    },
+    {
       "id": "tecknicam3d-3961",
       "sourceProductId": "3961",
       "store": "Tecknicam 3D",
@@ -929,33 +933,6 @@
       ],
       "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/zafiro-traslucido-1791388218-039502bd.webp",
       "url": "https://www.tecknicam3d.com.ar/productos/zafiro-translucido-sin-carretel-pla-recarga-ecofila-hellbot-look-filamento-3d-1-75mm-x-1kg-3681",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock",
-      "variants": []
-    },
-    {
-      "id": "tecknicam3d-3950",
-      "sourceProductId": "3950",
-      "store": "Tecknicam 3D",
-      "domain": "tecknicam3d.com.ar",
-      "name": "AZUL CLARO Sky Blue Filamento PLA High Speed x1kg TOOLBOX NEW",
-      "category": "Filamentos",
-      "price": 18990,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 15761.7,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/skyblue-1790705190-e89afdf4.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/azul-claro-sky-blue-filamento-pla-high-speed-x1kg-toolbox-new",
       "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock",
       "variants": []
     },
@@ -1378,34 +1355,7 @@
       ],
       "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/energy-1789593799-24044615.webp",
       "url": "https://www.tecknicam3d.com.ar/productos/rojo-energico-energy-red-pla-w3d-filamento-3d-1-75mm-1kg-101004",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock&page=2",
-      "variants": []
-    },
-    {
-      "id": "tecknicam3d-3811",
-      "sourceProductId": "3811",
-      "store": "Tecknicam 3D",
-      "domain": "tecknicam3d.com.ar",
-      "name": "BRONCE METALICO PLA Elegoo Filamento Diámetro 1,75mm 50.203.0741",
-      "category": "Filamentos",
-      "price": 29108,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
-      "available": true,
-      "brand": "Elegoo",
-      "tags": [
-        "Elegoo",
-        "PLA"
-      ],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/50-203-0741-1789588979-2bdf5acb.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/bronce-metalico-pla-elegoo-filamento-diametro-1-75mm-50-203-0741",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock&page=2",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock",
       "variants": []
     },
     {
@@ -1617,7 +1567,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 21,
+      "stock": 20,
       "stockLabel": "En stock",
       "available": true,
       "brand": "W3D",
@@ -1725,7 +1675,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 10,
+      "stock": 9,
       "stockLabel": "En stock",
       "available": true,
       "brand": "W3D",
@@ -1753,7 +1703,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 9,
+      "stock": 7,
       "stockLabel": "En stock",
       "available": true,
       "brand": "W3D",
@@ -1792,6 +1742,62 @@
       ],
       "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/w3d-verde-amarillo-1785001259-a4987d1a.webp",
       "url": "https://www.tecknicam3d.com.ar/productos/matte-amarillo-verde-yellow-green-pla-w3d-filamento-3d-1-75mm-1kg-104015",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock&page=2",
+      "variants": []
+    },
+    {
+      "id": "tecknicam3d-3553",
+      "sourceProductId": "3553",
+      "store": "Tecknicam 3D",
+      "domain": "tecknicam3d.com.ar",
+      "name": "MATTE CELESTE (matte Light blue) PLA W3D FILAMENTO 3D 1.75MM 1KG 0104012",
+      "category": "Filamentos",
+      "price": 21280,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 20216,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 7,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "W3D",
+      "tags": [
+        "W3D",
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/D_NQ_NP_2X_754323-MLA101561212377_122025-F-1784752199-ddd572c6.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/matte-celeste-matte-light-blue-pla-w3d-filamento-3d-1-75mm-1kg-0104012",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock&page=2",
+      "variants": []
+    },
+    {
+      "id": "tecknicam3d-3544",
+      "sourceProductId": "3544",
+      "store": "Tecknicam 3D",
+      "domain": "tecknicam3d.com.ar",
+      "name": "NEGRO PLA Bambu Lab Lite CON CARRETEL Filamento 1kg 1.75mm BLACK 40838",
+      "category": "Impresoras",
+      "price": 28515.2,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 18,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab",
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/40838-1784299745-2579e1c4.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/negro-pla-bambu-lab-lite-con-carretel-filamento-1kg-1-75mm-black-40838",
       "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock&page=2",
       "variants": []
     },
@@ -3322,6 +3328,32 @@
       "variants": []
     },
     {
+      "id": "tecknicam3d-3962",
+      "sourceProductId": "3962",
+      "store": "Tecknicam 3D",
+      "domain": "tecknicam3d.com.ar",
+      "name": "Silicona para creality hi c14",
+      "category": "Impresoras",
+      "price": 5776,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 5,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Creality",
+      "tags": [
+        "Creality"
+      ],
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/gdgdfgdfgdf-1791493131-24b169f4.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/silicona-para-creality-hi-c14",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=5-repuestos-impresoras",
+      "variants": []
+    },
+    {
       "id": "tecknicam3d-3936",
       "sourceProductId": "3936",
       "store": "Tecknicam 3D",
@@ -3712,7 +3744,7 @@
       "tags": [],
       "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/Kobra-3-Max-nozzle-0-6mm-1-75mm-1789754516-c830562b.webp",
       "url": "https://www.tecknicam3d.com.ar/productos/pico-kobra-3-max-nozzle-0-4mm-1-75mm-generico-ma3-bk04175",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=5-repuestos-impresoras",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=5-repuestos-impresoras&page=2",
       "variants": []
     },
     {
@@ -4082,28 +4114,6 @@
       "variants": []
     },
     {
-      "id": "tecknicam3d-rebabador-raspador-de-recorte-de-modelos-para-impresion-3d-quita-rebarba-3d-tl-mostrador",
-      "sourceProductId": "rebabador-raspador-de-recorte-de-modelos-para-impresion-3d-quita-rebarba-3d-tl-mostrador",
-      "store": "Tecknicam 3D",
-      "domain": "tecknicam3d.com.ar",
-      "name": "Rebabador Raspador de recorte de modelos para impresión 3D - Quita rebarba 3D-TL MOSTRADOR",
-      "category": "Impresoras",
-      "price": 2964,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": null,
-      "tags": [],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/3D-printing-model-trimming-scraper-1789740468-fcb0f6a8.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/rebabador-raspador-de-recorte-de-modelos-para-impresion-3d-quita-rebarba-3d-tl-mostrador",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=5-repuestos-impresoras&page=2",
-      "variants": []
-    },
-    {
       "id": "tecknicam3d-3960",
       "sourceProductId": "3960",
       "store": "Tecknicam 3D",
@@ -4117,7 +4127,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 24,
+      "stock": 7,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -4599,7 +4609,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 15,
+      "stock": 14,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -4669,7 +4679,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 353,
+      "stock": 341,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -4693,7 +4703,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 3,
+      "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": null,
