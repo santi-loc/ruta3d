@@ -5,14 +5,14 @@
     "baseUrl": "https://starimpression3d.com",
     "apiPath": "/wp-json/wc/store/v1/products"
   },
-  "scrapedAt": "2026-10-08T15:25:16.045Z",
-  "count": 398,
+  "scrapedAt": "2026-10-10T14:21:56.175Z",
+  "count": 396,
   "pages": [
     {
       "page": 1,
       "url": "https://starimpression3d.com/wp-json/wc/store/v1/products?per_page=100&page=1",
       "found": 100,
-      "added": 98
+      "added": 97
     },
     {
       "page": 2,
@@ -35,11 +35,95 @@
     {
       "page": 5,
       "url": "https://starimpression3d.com/wp-json/wc/store/v1/products?per_page=100&page=5",
-      "found": 35,
-      "added": 35
+      "found": 34,
+      "added": 34
     }
   ],
   "products": [
+    {
+      "id": "starimpression3d-67033",
+      "sourceProductId": "67033",
+      "store": "Star Impression 3D",
+      "domain": "starimpression3d.com",
+      "name": "PRINTALOT FLEX 1KG",
+      "category": "Repuestos",
+      "price": 27300,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Printalot",
+      "tags": [
+        "Printalot",
+        "PLA",
+        "ABS",
+        "FLEX",
+        "1kg"
+      ],
+      "image": "https://starimpression3d.com/wp-content/uploads/2026/10/30fc969e-507d-488b-accc-d6683f559bf4.webp",
+      "url": "https://starimpression3d.com/producto/printalot-flex-1kg/",
+      "scrapedFrom": "https://starimpression3d.com/wp-json/wc/store/v1/products",
+      "variants": [
+        {
+          "id": "starimpression3d-67041",
+          "sku": "67041",
+          "available": false,
+          "options": [
+            "Seleccionar color"
+          ]
+        },
+        {
+          "id": "starimpression3d-67042",
+          "sku": "67042",
+          "available": false,
+          "options": [
+            "Seleccionar color"
+          ]
+        },
+        {
+          "id": "starimpression3d-67043",
+          "sku": "67043",
+          "available": false,
+          "options": [
+            "Seleccionar color"
+          ]
+        },
+        {
+          "id": "starimpression3d-67044",
+          "sku": "67044",
+          "available": false,
+          "options": [
+            "Seleccionar color"
+          ]
+        },
+        {
+          "id": "starimpression3d-67045",
+          "sku": "67045",
+          "available": false,
+          "options": [
+            "Seleccionar color"
+          ]
+        },
+        {
+          "id": "starimpression3d-67046",
+          "sku": "67046",
+          "available": false,
+          "options": [
+            "Seleccionar color"
+          ]
+        },
+        {
+          "id": "starimpression3d-67047",
+          "sku": "67047",
+          "available": false,
+          "options": [
+            "Seleccionar color"
+          ]
+        }
+      ]
+    },
     {
       "id": "starimpression3d-66952",
       "sourceProductId": "66952",
@@ -51,7 +135,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 19,
+      "stock": 16,
       "stockLabel": "En stock",
       "available": true,
       "brand": "W3D",
@@ -76,7 +160,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 10,
+      "stock": 9,
       "stockLabel": "En stock",
       "available": true,
       "brand": "W3D",
@@ -87,7 +171,7 @@
         "1kg",
         "Silk"
       ],
-      "image": "https://starimpression3d.com/wp-content/uploads/2026/10/ab1b065e-1727-4e5c-9096-c98daed69686.jpg",
+      "image": "https://starimpression3d.com/wp-content/uploads/2026/10/4075eae1-dc3f-42ee-9935-265045b7e701.jpg",
       "url": "https://starimpression3d.com/producto/w3d-pla-silk-1kg-rainbow/",
       "scrapedFrom": "https://starimpression3d.com/wp-json/wc/store/v1/products",
       "variants": []
@@ -188,7 +272,7 @@
         "PLA",
         "1kg"
       ],
-      "image": "https://starimpression3d.com/wp-content/uploads/2026/10/39fe03e4-3f76-4152-8665-6966c62c4fb3.jpg",
+      "image": "https://starimpression3d.com/wp-content/uploads/2026/10/8ee667e7-4d92-4a39-b8be-4845b86b8d55.jpg",
       "url": "https://starimpression3d.com/producto/w3d-pla-glow-in-the-dark-1kg/",
       "scrapedFrom": "https://starimpression3d.com/wp-json/wc/store/v1/products",
       "variants": [
@@ -266,7 +350,7 @@
         "1kg",
         "Silk"
       ],
-      "image": "https://starimpression3d.com/wp-content/uploads/2026/10/bcdfac87-0ac6-4d90-bd6e-558b45018ac0.jpg",
+      "image": "https://starimpression3d.com/wp-content/uploads/2026/10/7453ca52-ffcd-4cf1-881d-51f8f8a43faf.jpg",
       "url": "https://starimpression3d.com/producto/w3d-pla-silk-1kg/",
       "scrapedFrom": "https://starimpression3d.com/wp-json/wc/store/v1/products",
       "variants": [
@@ -495,9 +579,9 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
+      "available": true,
       "brand": "Creality",
       "tags": [
         "Creality",
@@ -522,9 +606,9 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
+      "available": true,
       "brand": "Bambu lab",
       "tags": [
         "Bambu lab"
@@ -545,9 +629,9 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
+      "available": true,
       "brand": "Bambu lab",
       "tags": [
         "Bambu lab"
@@ -616,7 +700,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 71,
+      "stock": 61,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -1642,7 +1726,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 60,
+      "stock": 59,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu lab",
@@ -1665,7 +1749,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 74,
+      "stock": 75,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu lab",
@@ -2563,7 +2647,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 6,
+      "stock": 7,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Creality",
@@ -2590,7 +2674,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 14,
+      "stock": 13,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Creality",
@@ -2641,7 +2725,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 117,
+      "stock": 116,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -2920,9 +3004,9 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
+      "stock": 5,
+      "stockLabel": "En stock",
+      "available": true,
       "brand": "Bambu lab",
       "tags": [
         "Bambu lab",
@@ -2973,8 +3057,8 @@
       "previousPrice": null,
       "transferPrice": null,
       "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
+      "stockLabel": "En stock",
+      "available": true,
       "brand": "Bambu lab",
       "tags": [
         "Bambu lab",
@@ -2990,7 +3074,7 @@
         {
           "id": "starimpression3d-62056",
           "sku": "62056",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: negro"
           ]
@@ -2998,7 +3082,7 @@
         {
           "id": "starimpression3d-62058",
           "sku": "62058",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: blanco"
           ]
@@ -3006,7 +3090,7 @@
         {
           "id": "starimpression3d-62060",
           "sku": "62060",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: rojo"
           ]
@@ -3014,7 +3098,7 @@
         {
           "id": "starimpression3d-62062",
           "sku": "62062",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: gris"
           ]
@@ -3022,7 +3106,7 @@
         {
           "id": "starimpression3d-62064",
           "sku": "62064",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: gris-oscuro"
           ]
@@ -3030,7 +3114,7 @@
         {
           "id": "starimpression3d-62066",
           "sku": "62066",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: crema"
           ]
@@ -3038,7 +3122,7 @@
         {
           "id": "starimpression3d-62068",
           "sku": "62068",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: amarillo"
           ]
@@ -3046,7 +3130,7 @@
         {
           "id": "starimpression3d-62070",
           "sku": "62070",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: naranja"
           ]
@@ -3054,7 +3138,7 @@
         {
           "id": "starimpression3d-62072",
           "sku": "62072",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: marron-cacahuete"
           ]
@@ -3062,7 +3146,7 @@
         {
           "id": "starimpression3d-62074",
           "sku": "62074",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: verde-lima"
           ]
@@ -3070,7 +3154,7 @@
         {
           "id": "starimpression3d-62076",
           "sku": "62076",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: verde"
           ]
@@ -3078,7 +3162,7 @@
         {
           "id": "starimpression3d-62078",
           "sku": "62078",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: verde-bosque"
           ]
@@ -3086,7 +3170,7 @@
         {
           "id": "starimpression3d-62080",
           "sku": "62080",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: azul"
           ]
@@ -3094,7 +3178,7 @@
         {
           "id": "starimpression3d-62082",
           "sku": "62082",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: azul-lago"
           ]
@@ -3363,13 +3447,13 @@
       "domain": "starimpression3d.com",
       "name": "BAMBU LAB PLA LITE 1KG",
       "category": "Filamentos",
-      "price": 24299,
+      "price": 26500,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
       "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
+      "stockLabel": "En stock",
+      "available": true,
       "brand": "Bambu lab",
       "tags": [
         "Bambu lab",
@@ -3379,7 +3463,72 @@
       "image": "https://starimpression3d.com/wp-content/uploads/2026/03/373ddc21-1c38-4974-afbc-a38c662dae12.jpg",
       "url": "https://starimpression3d.com/producto/bambu-lab-pla-lite-1kg/",
       "scrapedFrom": "https://starimpression3d.com/wp-json/wc/store/v1/products",
-      "variants": []
+      "variants": [
+        {
+          "id": "starimpression3d-67107",
+          "sku": "67107",
+          "available": true,
+          "options": [
+            "Seleccionar color: beige"
+          ]
+        },
+        {
+          "id": "starimpression3d-67108",
+          "sku": "67108",
+          "available": true,
+          "options": [
+            "Seleccionar color: beige"
+          ]
+        },
+        {
+          "id": "starimpression3d-67109",
+          "sku": "67109",
+          "available": true,
+          "options": [
+            "Seleccionar color: beige"
+          ]
+        },
+        {
+          "id": "starimpression3d-67110",
+          "sku": "67110",
+          "available": true,
+          "options": [
+            "Seleccionar color: beige"
+          ]
+        },
+        {
+          "id": "starimpression3d-67111",
+          "sku": "67111",
+          "available": true,
+          "options": [
+            "Seleccionar color: beige"
+          ]
+        },
+        {
+          "id": "starimpression3d-67112",
+          "sku": "67112",
+          "available": true,
+          "options": [
+            "Seleccionar color: beige"
+          ]
+        },
+        {
+          "id": "starimpression3d-67113",
+          "sku": "67113",
+          "available": true,
+          "options": [
+            "Seleccionar color: beige"
+          ]
+        },
+        {
+          "id": "starimpression3d-67114",
+          "sku": "67114",
+          "available": true,
+          "options": [
+            "Seleccionar color: beige"
+          ]
+        }
+      ]
     },
     {
       "id": "starimpression3d-61879",
@@ -3388,13 +3537,13 @@
       "domain": "starimpression3d.com",
       "name": "BAMBU LAB RECARGA PLA LITE 1KG",
       "category": "Filamentos",
-      "price": 20199,
+      "price": 21600,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
       "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
+      "stockLabel": "En stock",
+      "available": true,
       "brand": "Bambu lab",
       "tags": [
         "Bambu lab",
@@ -3404,7 +3553,64 @@
       "image": "https://starimpression3d.com/wp-content/uploads/2026/03/b73032fa-4307-41a5-8baf-3749d4cf81bf.jpg",
       "url": "https://starimpression3d.com/producto/bambu-lab-recarga-pla-lite-1kg/",
       "scrapedFrom": "https://starimpression3d.com/wp-json/wc/store/v1/products",
-      "variants": []
+      "variants": [
+        {
+          "id": "starimpression3d-67092",
+          "sku": "67092",
+          "available": true,
+          "options": [
+            "Seleccionar color: beige"
+          ]
+        },
+        {
+          "id": "starimpression3d-67093",
+          "sku": "67093",
+          "available": true,
+          "options": [
+            "Seleccionar color: beige"
+          ]
+        },
+        {
+          "id": "starimpression3d-67094",
+          "sku": "67094",
+          "available": true,
+          "options": [
+            "Seleccionar color: beige"
+          ]
+        },
+        {
+          "id": "starimpression3d-67095",
+          "sku": "67095",
+          "available": true,
+          "options": [
+            "Seleccionar color: beige"
+          ]
+        },
+        {
+          "id": "starimpression3d-67096",
+          "sku": "67096",
+          "available": true,
+          "options": [
+            "Seleccionar color: beige"
+          ]
+        },
+        {
+          "id": "starimpression3d-67097",
+          "sku": "67097",
+          "available": true,
+          "options": [
+            "Seleccionar color: beige"
+          ]
+        },
+        {
+          "id": "starimpression3d-67098",
+          "sku": "67098",
+          "available": true,
+          "options": [
+            "Seleccionar color: beige"
+          ]
+        }
+      ]
     },
     {
       "id": "starimpression3d-61844",
@@ -3418,8 +3624,8 @@
       "previousPrice": null,
       "transferPrice": null,
       "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
+      "stockLabel": "En stock",
+      "available": true,
       "brand": "Bambu lab",
       "tags": [
         "Bambu lab",
@@ -3433,7 +3639,7 @@
         {
           "id": "starimpression3d-61845",
           "sku": "61845",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: rojo-granate"
           ]
@@ -3441,7 +3647,7 @@
         {
           "id": "starimpression3d-61846",
           "sku": "61846",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: amarillo"
           ]
@@ -3449,7 +3655,7 @@
         {
           "id": "starimpression3d-61847",
           "sku": "61847",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: morado"
           ]
@@ -3457,7 +3663,7 @@
         {
           "id": "starimpression3d-61848",
           "sku": "61848",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: beige"
           ]
@@ -3465,7 +3671,7 @@
         {
           "id": "starimpression3d-61849",
           "sku": "61849",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: amarillo-girasol"
           ]
@@ -3473,7 +3679,7 @@
         {
           "id": "starimpression3d-61850",
           "sku": "61850",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: gris-claro"
           ]
@@ -3481,7 +3687,7 @@
         {
           "id": "starimpression3d-61851",
           "sku": "61851",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: verde-brillante"
           ]
@@ -3489,7 +3695,7 @@
         {
           "id": "starimpression3d-61852",
           "sku": "61852",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: bronce"
           ]
@@ -3497,7 +3703,7 @@
         {
           "id": "starimpression3d-61853",
           "sku": "61853",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: rosa-intenso"
           ]
@@ -3505,7 +3711,7 @@
         {
           "id": "starimpression3d-61854",
           "sku": "61854",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: marron-cacao"
           ]
@@ -3513,7 +3719,7 @@
         {
           "id": "starimpression3d-61855",
           "sku": "61855",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: gris"
           ]
@@ -3521,7 +3727,7 @@
         {
           "id": "starimpression3d-61856",
           "sku": "61856",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: gris-oscuro"
           ]
@@ -3529,7 +3735,7 @@
         {
           "id": "starimpression3d-61857",
           "sku": "61857",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: dorado"
           ]
@@ -3537,7 +3743,7 @@
         {
           "id": "starimpression3d-61858",
           "sku": "61858",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: magenta"
           ]
@@ -3545,7 +3751,7 @@
         {
           "id": "starimpression3d-61859",
           "sku": "61859",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: azul-grisaceo"
           ]
@@ -3553,7 +3759,7 @@
         {
           "id": "starimpression3d-61860",
           "sku": "61860",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: azul"
           ]
@@ -3561,7 +3767,7 @@
         {
           "id": "starimpression3d-61861",
           "sku": "61861",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: morado-indigo"
           ]
@@ -3569,7 +3775,7 @@
         {
           "id": "starimpression3d-61862",
           "sku": "61862",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: turquesa"
           ]
@@ -3577,7 +3783,7 @@
         {
           "id": "starimpression3d-61863",
           "sku": "61863",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: azul-cobalto"
           ]
@@ -3585,7 +3791,7 @@
         {
           "id": "starimpression3d-61864",
           "sku": "61864",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: plata"
           ]
@@ -3593,7 +3799,7 @@
         {
           "id": "starimpression3d-61865",
           "sku": "61865",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: verde-muerdago"
           ]
@@ -3601,7 +3807,7 @@
         {
           "id": "starimpression3d-61866",
           "sku": "61866",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: blanco-jade"
           ]
@@ -3609,7 +3815,7 @@
         {
           "id": "starimpression3d-61867",
           "sku": "61867",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: cian"
           ]
@@ -3617,7 +3823,7 @@
         {
           "id": "starimpression3d-61868",
           "sku": "61868",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: rosa"
           ]
@@ -3625,7 +3831,7 @@
         {
           "id": "starimpression3d-61869",
           "sku": "61869",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: verde-bambu"
           ]
@@ -3633,7 +3839,7 @@
         {
           "id": "starimpression3d-61870",
           "sku": "61870",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: naranja-calabaza"
           ]
@@ -3641,7 +3847,7 @@
         {
           "id": "starimpression3d-61871",
           "sku": "61871",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: negro"
           ]
@@ -3649,7 +3855,7 @@
         {
           "id": "starimpression3d-61872",
           "sku": "61872",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: rojo"
           ]
@@ -3657,7 +3863,7 @@
         {
           "id": "starimpression3d-61873",
           "sku": "61873",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: naranja"
           ]
@@ -3665,7 +3871,7 @@
         {
           "id": "starimpression3d-61874",
           "sku": "61874",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: marron"
           ]
@@ -3684,8 +3890,8 @@
       "previousPrice": null,
       "transferPrice": null,
       "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
+      "stockLabel": "En stock",
+      "available": true,
       "brand": "Bambu lab",
       "tags": [
         "Bambu lab",
@@ -3699,7 +3905,7 @@
         {
           "id": "starimpression3d-61815",
           "sku": "61815",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: cian"
           ]
@@ -3707,7 +3913,7 @@
         {
           "id": "starimpression3d-61816",
           "sku": "61816",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: gris"
           ]
@@ -3715,7 +3921,7 @@
         {
           "id": "starimpression3d-61817",
           "sku": "61817",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: dorado"
           ]
@@ -3723,7 +3929,7 @@
         {
           "id": "starimpression3d-61818",
           "sku": "61818",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: blanco-jade"
           ]
@@ -3731,7 +3937,7 @@
         {
           "id": "starimpression3d-61819",
           "sku": "61819",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: bronce"
           ]
@@ -3739,7 +3945,7 @@
         {
           "id": "starimpression3d-61820",
           "sku": "61820",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: beige"
           ]
@@ -3747,7 +3953,7 @@
         {
           "id": "starimpression3d-61821",
           "sku": "61821",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: azul-grisaceo"
           ]
@@ -3755,7 +3961,7 @@
         {
           "id": "starimpression3d-61822",
           "sku": "61822",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: azul-cobalto"
           ]
@@ -3763,7 +3969,7 @@
         {
           "id": "starimpression3d-61823",
           "sku": "61823",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: amarillo"
           ]
@@ -3771,7 +3977,7 @@
         {
           "id": "starimpression3d-61824",
           "sku": "61824",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: azul"
           ]
@@ -3779,7 +3985,7 @@
         {
           "id": "starimpression3d-61825",
           "sku": "61825",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: amarillo-girasol"
           ]
@@ -3787,7 +3993,7 @@
         {
           "id": "starimpression3d-61826",
           "sku": "61826",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: verde-muerdago"
           ]
@@ -3795,7 +4001,7 @@
         {
           "id": "starimpression3d-61827",
           "sku": "61827",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: negro"
           ]
@@ -3803,7 +4009,7 @@
         {
           "id": "starimpression3d-61828",
           "sku": "61828",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: verde-bambu"
           ]
@@ -3811,7 +4017,7 @@
         {
           "id": "starimpression3d-61829",
           "sku": "61829",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: turquesa"
           ]
@@ -3819,7 +4025,7 @@
         {
           "id": "starimpression3d-61830",
           "sku": "61830",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: rosa-intenso"
           ]
@@ -3827,7 +4033,7 @@
         {
           "id": "starimpression3d-61831",
           "sku": "61831",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: rosa"
           ]
@@ -3835,7 +4041,7 @@
         {
           "id": "starimpression3d-61832",
           "sku": "61832",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: rojo-granate"
           ]
@@ -3843,7 +4049,7 @@
         {
           "id": "starimpression3d-61833",
           "sku": "61833",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: verde-brillante"
           ]
@@ -3851,7 +4057,7 @@
         {
           "id": "starimpression3d-61834",
           "sku": "61834",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: naranja"
           ]
@@ -3859,7 +4065,7 @@
         {
           "id": "starimpression3d-61835",
           "sku": "61835",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: plata"
           ]
@@ -3867,7 +4073,7 @@
         {
           "id": "starimpression3d-61836",
           "sku": "61836",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: magenta"
           ]
@@ -3875,7 +4081,7 @@
         {
           "id": "starimpression3d-61837",
           "sku": "61837",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: morado"
           ]
@@ -3883,7 +4089,7 @@
         {
           "id": "starimpression3d-61838",
           "sku": "61838",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: naranja-calabaza"
           ]
@@ -3891,7 +4097,7 @@
         {
           "id": "starimpression3d-61839",
           "sku": "61839",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: marron-cacao"
           ]
@@ -3899,7 +4105,7 @@
         {
           "id": "starimpression3d-61840",
           "sku": "61840",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: morado-indigo"
           ]
@@ -3907,7 +4113,7 @@
         {
           "id": "starimpression3d-61841",
           "sku": "61841",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: marron"
           ]
@@ -3915,7 +4121,7 @@
         {
           "id": "starimpression3d-61842",
           "sku": "61842",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: gris-oscuro"
           ]
@@ -3923,7 +4129,7 @@
         {
           "id": "starimpression3d-61843",
           "sku": "61843",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: gris-claro"
           ]
@@ -3931,7 +4137,7 @@
         {
           "id": "starimpression3d-61967",
           "sku": "61967",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: rojo"
           ]
@@ -4461,7 +4667,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 10,
+      "stock": 9,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Creality",
@@ -4505,9 +4711,9 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
+      "stock": 50,
+      "stockLabel": "En stock",
+      "available": true,
       "brand": null,
       "tags": [
         "PLA"
@@ -5596,7 +5802,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 7,
+      "stock": 6,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -5644,7 +5850,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 7,
+      "stock": 6,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu lab",
@@ -5951,7 +6157,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 27,
+      "stock": 24,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -6279,8 +6485,8 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 8,
-      "stockLabel": "En stock",
+      "stock": 3,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Creality",
       "tags": [
@@ -6290,7 +6496,7 @@
         "TPU",
         "FLEX"
       ],
-      "image": "https://starimpression3d.com/wp-content/uploads/2026/03/86cc4621-701d-4a3e-b43a-a58911e88ead.jpg",
+      "image": "https://starimpression3d.com/wp-content/uploads/2026/07/5127cda7-1633-44cb-9c28-06e2582b9c00.jpg",
       "url": "https://starimpression3d.com/producto/creality-ender3-v3-se/",
       "scrapedFrom": "https://starimpression3d.com/wp-json/wc/store/v1/products",
       "variants": []
@@ -7518,7 +7724,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 7,
+      "stock": 12,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu lab",
@@ -8343,7 +8549,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 10,
+      "stock": 9,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -8453,7 +8659,7 @@
       "domain": "starimpression3d.com",
       "name": "RODILLO GIRATORIO PRO PARA GRABADORA LASER FALCON A1 CREALITY",
       "category": "Herramientas",
-      "price": 349990,
+      "price": 349900,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -8885,7 +9091,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 30,
+      "stock": 29,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -8919,80 +9125,6 @@
       "url": "https://starimpression3d.com/producto/tubo-de-teflon-capricorn-2mm-x-4mm-x-metro/",
       "scrapedFrom": "https://starimpression3d.com/wp-json/wc/store/v1/products",
       "variants": []
-    },
-    {
-      "id": "starimpression3d-59217",
-      "sourceProductId": "59217",
-      "store": "Star Impression 3D",
-      "domain": "starimpression3d.com",
-      "name": "3N3 EPET 1Kg",
-      "category": "Filamentos",
-      "price": 18499,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "3N3",
-      "tags": [
-        "3N3",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://starimpression3d.com/wp-content/uploads/2026/03/a6aa9f09-47aa-40a6-8bf7-27d5b6ea0203.jpg",
-      "url": "https://starimpression3d.com/producto/3n3-epet-1kg/",
-      "scrapedFrom": "https://starimpression3d.com/wp-json/wc/store/v1/products",
-      "variants": [
-        {
-          "id": "starimpression3d-59218",
-          "sku": "59218",
-          "available": false,
-          "options": [
-            "Seleccionar color: rojo-carmin"
-          ]
-        },
-        {
-          "id": "starimpression3d-59219",
-          "sku": "59219",
-          "available": false,
-          "options": [
-            "Seleccionar color: azul-traful"
-          ]
-        },
-        {
-          "id": "starimpression3d-59220",
-          "sku": "59220",
-          "available": false,
-          "options": [
-            "Seleccionar color: gris-espacial"
-          ]
-        },
-        {
-          "id": "starimpression3d-59221",
-          "sku": "59221",
-          "available": false,
-          "options": [
-            "Seleccionar color: verde-lima"
-          ]
-        },
-        {
-          "id": "starimpression3d-59222",
-          "sku": "59222",
-          "available": false,
-          "options": [
-            "Seleccionar color: blanco"
-          ]
-        },
-        {
-          "id": "starimpression3d-59223",
-          "sku": "59223",
-          "available": false,
-          "options": [
-            "Seleccionar color: negro"
-          ]
-        }
-      ]
     },
     {
       "id": "starimpression3d-59210",
@@ -12024,8 +12156,8 @@
       "previousPrice": null,
       "transferPrice": null,
       "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": "Grilon3",
       "tags": [
         "Grilon3",
@@ -12040,7 +12172,7 @@
         {
           "id": "starimpression3d-58911",
           "sku": "58911",
-          "available": true,
+          "available": false,
           "options": [
             "Seleccionar color: amarillo-clear"
           ]
@@ -12048,7 +12180,7 @@
         {
           "id": "starimpression3d-58912",
           "sku": "58912",
-          "available": true,
+          "available": false,
           "options": [
             "Seleccionar color: chocolate"
           ]
@@ -12056,7 +12188,7 @@
         {
           "id": "starimpression3d-58913",
           "sku": "58913",
-          "available": true,
+          "available": false,
           "options": [
             "Seleccionar color: azul-clear"
           ]
@@ -12064,7 +12196,7 @@
         {
           "id": "starimpression3d-58914",
           "sku": "58914",
-          "available": true,
+          "available": false,
           "options": [
             "Seleccionar color: gris-acero"
           ]
@@ -12072,7 +12204,7 @@
         {
           "id": "starimpression3d-58915",
           "sku": "58915",
-          "available": true,
+          "available": false,
           "options": [
             "Seleccionar color: ambar-clear"
           ]
@@ -12080,7 +12212,7 @@
         {
           "id": "starimpression3d-58916",
           "sku": "58916",
-          "available": true,
+          "available": false,
           "options": [
             "Seleccionar color: blanco"
           ]
@@ -12088,7 +12220,7 @@
         {
           "id": "starimpression3d-58917",
           "sku": "58917",
-          "available": true,
+          "available": false,
           "options": [
             "Seleccionar color: gris-plata"
           ]
@@ -12096,7 +12228,7 @@
         {
           "id": "starimpression3d-58918",
           "sku": "58918",
-          "available": true,
+          "available": false,
           "options": [
             "Seleccionar color: natural"
           ]
@@ -12104,7 +12236,7 @@
         {
           "id": "starimpression3d-58919",
           "sku": "58919",
-          "available": true,
+          "available": false,
           "options": [
             "Seleccionar color: naranja-praga"
           ]
@@ -12112,7 +12244,7 @@
         {
           "id": "starimpression3d-58920",
           "sku": "58920",
-          "available": true,
+          "available": false,
           "options": [
             "Seleccionar color: verde-clear"
           ]
@@ -12120,7 +12252,7 @@
         {
           "id": "starimpression3d-58921",
           "sku": "58921",
-          "available": true,
+          "available": false,
           "options": [
             "Seleccionar color: rojo-clear"
           ]
@@ -12128,7 +12260,7 @@
         {
           "id": "starimpression3d-58922",
           "sku": "58922",
-          "available": true,
+          "available": false,
           "options": [
             "Seleccionar color: negro"
           ]
@@ -12136,7 +12268,7 @@
         {
           "id": "starimpression3d-58923",
           "sku": "58923",
-          "available": true,
+          "available": false,
           "options": [
             "Seleccionar color: nova"
           ]
@@ -14453,22 +14585,6 @@
           "options": [
             "Seleccionar color: blanco-perlado-050"
           ]
-        },
-        {
-          "id": "starimpression3d-66988",
-          "sku": "66988",
-          "available": true,
-          "options": [
-            "Seleccionar color: ocre-amarillo-ferroso-812"
-          ]
-        },
-        {
-          "id": "starimpression3d-66989",
-          "sku": "66989",
-          "available": true,
-          "options": [
-            "Seleccionar color: cobre-iridisicente-030"
-          ]
         }
       ]
     },
@@ -15521,138 +15637,6 @@
       ]
     },
     {
-      "id": "starimpression3d-58560",
-      "sourceProductId": "58560",
-      "store": "Star Impression 3D",
-      "domain": "starimpression3d.com",
-      "name": "PRINTALOT PETG 250G",
-      "category": "Filamentos",
-      "price": 7000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Printalot",
-      "tags": [
-        "Printalot",
-        "PLA",
-        "PETG",
-        "ABS",
-        "250g"
-      ],
-      "image": "https://starimpression3d.com/wp-content/uploads/2026/03/0f255f3f-f8ab-4255-8517-4f654a2ad620.jpg",
-      "url": "https://starimpression3d.com/producto/printalot-petg-250g/",
-      "scrapedFrom": "https://starimpression3d.com/wp-json/wc/store/v1/products",
-      "variants": [
-        {
-          "id": "starimpression3d-58561",
-          "sku": "58561",
-          "available": false,
-          "options": [
-            "Seleccionar color: blanco"
-          ]
-        },
-        {
-          "id": "starimpression3d-58562",
-          "sku": "58562",
-          "available": false,
-          "options": [
-            "Seleccionar color: amarillo"
-          ]
-        },
-        {
-          "id": "starimpression3d-58563",
-          "sku": "58563",
-          "available": false,
-          "options": [
-            "Seleccionar color: rojo"
-          ]
-        },
-        {
-          "id": "starimpression3d-58564",
-          "sku": "58564",
-          "available": false,
-          "options": [
-            "Seleccionar color: verde"
-          ]
-        },
-        {
-          "id": "starimpression3d-58565",
-          "sku": "58565",
-          "available": false,
-          "options": [
-            "Seleccionar color: gris"
-          ]
-        },
-        {
-          "id": "starimpression3d-58566",
-          "sku": "58566",
-          "available": false,
-          "options": [
-            "Seleccionar color: negro"
-          ]
-        },
-        {
-          "id": "starimpression3d-58567",
-          "sku": "58567",
-          "available": false,
-          "options": [
-            "Seleccionar color: natural-transparente"
-          ]
-        },
-        {
-          "id": "starimpression3d-58568",
-          "sku": "58568",
-          "available": false,
-          "options": [
-            "Seleccionar color: plata"
-          ]
-        },
-        {
-          "id": "starimpression3d-58569",
-          "sku": "58569",
-          "available": false,
-          "options": [
-            "Seleccionar color: cobalto"
-          ]
-        },
-        {
-          "id": "starimpression3d-58570",
-          "sku": "58570",
-          "available": false,
-          "options": [
-            "Seleccionar color: azul"
-          ]
-        },
-        {
-          "id": "starimpression3d-58571",
-          "sku": "58571",
-          "available": false,
-          "options": [
-            "Seleccionar color: rosa"
-          ]
-        },
-        {
-          "id": "starimpression3d-58572",
-          "sku": "58572",
-          "available": false,
-          "options": [
-            "Seleccionar color: celeste"
-          ]
-        },
-        {
-          "id": "starimpression3d-58573",
-          "sku": "58573",
-          "available": false,
-          "options": [
-            "Seleccionar color: violeta-translucido"
-          ]
-        }
-      ]
-    },
-    {
       "id": "starimpression3d-58557",
       "sourceProductId": "58557",
       "store": "Star Impression 3D",
@@ -16069,385 +16053,6 @@
           "available": true,
           "options": [
             "Seleccionar color: blanco-calido"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "starimpression3d-58467",
-      "sourceProductId": "58467",
-      "store": "Star Impression 3D",
-      "domain": "starimpression3d.com",
-      "name": "PRINTALOT PLA 250G",
-      "category": "Filamentos",
-      "price": 7700,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Printalot",
-      "tags": [
-        "Printalot",
-        "PLA",
-        "1kg",
-        "250g"
-      ],
-      "image": "https://starimpression3d.com/wp-content/uploads/2026/03/51cce7d0-dcce-4a9b-8a7d-8277b4fa819f.png",
-      "url": "https://starimpression3d.com/producto/printalot-pla-250g/",
-      "scrapedFrom": "https://starimpression3d.com/wp-json/wc/store/v1/products",
-      "variants": [
-        {
-          "id": "starimpression3d-58468",
-          "sku": "58468",
-          "available": false,
-          "options": [
-            "Seleccionar color: blanco"
-          ]
-        },
-        {
-          "id": "starimpression3d-58469",
-          "sku": "58469",
-          "available": false,
-          "options": [
-            "Seleccionar color: dorado"
-          ]
-        },
-        {
-          "id": "starimpression3d-58470",
-          "sku": "58470",
-          "available": false,
-          "options": [
-            "Seleccionar color: negro"
-          ]
-        },
-        {
-          "id": "starimpression3d-58471",
-          "sku": "58471",
-          "available": false,
-          "options": [
-            "Seleccionar color: cobalto"
-          ]
-        },
-        {
-          "id": "starimpression3d-58472",
-          "sku": "58472",
-          "available": false,
-          "options": [
-            "Seleccionar color: tan"
-          ]
-        },
-        {
-          "id": "starimpression3d-58473",
-          "sku": "58473",
-          "available": false,
-          "options": [
-            "Seleccionar color: gris"
-          ]
-        },
-        {
-          "id": "starimpression3d-58474",
-          "sku": "58474",
-          "available": false,
-          "options": [
-            "Seleccionar color: cobre"
-          ]
-        },
-        {
-          "id": "starimpression3d-58475",
-          "sku": "58475",
-          "available": false,
-          "options": [
-            "Seleccionar color: fucsia"
-          ]
-        },
-        {
-          "id": "starimpression3d-58476",
-          "sku": "58476",
-          "available": false,
-          "options": [
-            "Seleccionar color: gris-claro"
-          ]
-        },
-        {
-          "id": "starimpression3d-58477",
-          "sku": "58477",
-          "available": false,
-          "options": [
-            "Seleccionar color: amarillo"
-          ]
-        },
-        {
-          "id": "starimpression3d-58478",
-          "sku": "58478",
-          "available": false,
-          "options": [
-            "Seleccionar color: plata"
-          ]
-        },
-        {
-          "id": "starimpression3d-58479",
-          "sku": "58479",
-          "available": false,
-          "options": [
-            "Seleccionar color: rosa"
-          ]
-        },
-        {
-          "id": "starimpression3d-58480",
-          "sku": "58480",
-          "available": false,
-          "options": [
-            "Seleccionar color: natural-transparente"
-          ]
-        },
-        {
-          "id": "starimpression3d-58481",
-          "sku": "58481",
-          "available": false,
-          "options": [
-            "Seleccionar color: celeste"
-          ]
-        },
-        {
-          "id": "starimpression3d-58482",
-          "sku": "58482",
-          "available": false,
-          "options": [
-            "Seleccionar color: verde"
-          ]
-        },
-        {
-          "id": "starimpression3d-58483",
-          "sku": "58483",
-          "available": false,
-          "options": [
-            "Seleccionar color: naranja"
-          ]
-        },
-        {
-          "id": "starimpression3d-58484",
-          "sku": "58484",
-          "available": false,
-          "options": [
-            "Seleccionar color: azul"
-          ]
-        },
-        {
-          "id": "starimpression3d-58485",
-          "sku": "58485",
-          "available": false,
-          "options": [
-            "Seleccionar color: rojo"
-          ]
-        },
-        {
-          "id": "starimpression3d-58486",
-          "sku": "58486",
-          "available": false,
-          "options": [
-            "Seleccionar color: verde-militar"
-          ]
-        },
-        {
-          "id": "starimpression3d-58487",
-          "sku": "58487",
-          "available": false,
-          "options": [
-            "Seleccionar color: blanco-calido"
-          ]
-        },
-        {
-          "id": "starimpression3d-58488",
-          "sku": "58488",
-          "available": false,
-          "options": [
-            "Seleccionar color: oro"
-          ]
-        },
-        {
-          "id": "starimpression3d-58489",
-          "sku": "58489",
-          "available": false,
-          "options": [
-            "Seleccionar color: chocolate"
-          ]
-        },
-        {
-          "id": "starimpression3d-58490",
-          "sku": "58490",
-          "available": false,
-          "options": [
-            "Seleccionar color: verde-fluo"
-          ]
-        },
-        {
-          "id": "starimpression3d-58491",
-          "sku": "58491",
-          "available": false,
-          "options": [
-            "Seleccionar color: amarillo-fluo"
-          ]
-        },
-        {
-          "id": "starimpression3d-58492",
-          "sku": "58492",
-          "available": false,
-          "options": [
-            "Seleccionar color: azul-fluo"
-          ]
-        },
-        {
-          "id": "starimpression3d-58493",
-          "sku": "58493",
-          "available": false,
-          "options": [
-            "Seleccionar color: fucsia-fluo"
-          ]
-        },
-        {
-          "id": "starimpression3d-58494",
-          "sku": "58494",
-          "available": false,
-          "options": [
-            "Seleccionar color: rojo-fluo"
-          ]
-        },
-        {
-          "id": "starimpression3d-58495",
-          "sku": "58495",
-          "available": false,
-          "options": [
-            "Seleccionar color: naranja-fluo"
-          ]
-        },
-        {
-          "id": "starimpression3d-58496",
-          "sku": "58496",
-          "available": false,
-          "options": [
-            "Seleccionar color: lila"
-          ]
-        },
-        {
-          "id": "starimpression3d-58497",
-          "sku": "58497",
-          "available": false,
-          "options": [
-            "Seleccionar color: piedra"
-          ]
-        },
-        {
-          "id": "starimpression3d-58498",
-          "sku": "58498",
-          "available": false,
-          "options": [
-            "Seleccionar color: piel"
-          ]
-        },
-        {
-          "id": "starimpression3d-58499",
-          "sku": "58499",
-          "available": false,
-          "options": [
-            "Seleccionar color: verde-manzana"
-          ]
-        },
-        {
-          "id": "starimpression3d-58500",
-          "sku": "58500",
-          "available": false,
-          "options": [
-            "Seleccionar color: violeta"
-          ]
-        },
-        {
-          "id": "starimpression3d-58501",
-          "sku": "58501",
-          "available": false,
-          "options": [
-            "Seleccionar color: verde-ninja"
-          ]
-        },
-        {
-          "id": "starimpression3d-58502",
-          "sku": "58502",
-          "available": false,
-          "options": [
-            "Seleccionar color: nafta-super"
-          ]
-        },
-        {
-          "id": "starimpression3d-58503",
-          "sku": "58503",
-          "available": false,
-          "options": [
-            "Seleccionar color: kriptonita"
-          ]
-        },
-        {
-          "id": "starimpression3d-58504",
-          "sku": "58504",
-          "available": false,
-          "options": [
-            "Seleccionar color: amarillo-translucido"
-          ]
-        },
-        {
-          "id": "starimpression3d-58505",
-          "sku": "58505",
-          "available": false,
-          "options": [
-            "Seleccionar color: azul-pal"
-          ]
-        },
-        {
-          "id": "starimpression3d-58506",
-          "sku": "58506",
-          "available": false,
-          "options": [
-            "Seleccionar color: rojo-translucido"
-          ]
-        },
-        {
-          "id": "starimpression3d-58507",
-          "sku": "58507",
-          "available": false,
-          "options": [
-            "Seleccionar color: safrano"
-          ]
-        },
-        {
-          "id": "starimpression3d-58508",
-          "sku": "58508",
-          "available": false,
-          "options": [
-            "Seleccionar color: uva"
-          ]
-        },
-        {
-          "id": "starimpression3d-58509",
-          "sku": "58509",
-          "available": false,
-          "options": [
-            "Seleccionar color: azul-translucido"
-          ]
-        },
-        {
-          "id": "starimpression3d-58510",
-          "sku": "58510",
-          "available": false,
-          "options": [
-            "Seleccionar color: verde-translucido"
-          ]
-        },
-        {
-          "id": "starimpression3d-58511",
-          "sku": "58511",
-          "available": false,
-          "options": [
-            "Seleccionar color: acqua"
           ]
         }
       ]

@@ -5,8 +5,8 @@
     "baseUrl": "https://laboratorio3d.com.ar",
     "listingPath": "/productos/"
   },
-  "scrapedAt": "2026-10-09T15:07:27.411Z",
-  "count": 85,
+  "scrapedAt": "2026-10-10T14:21:16.272Z",
+  "count": 84,
   "pages": [
     {
       "page": 1,
@@ -17,8 +17,8 @@
     {
       "page": 2,
       "url": "https://laboratorio3d.com.ar/productos/page/2/",
-      "found": 25,
-      "added": 25
+      "found": 24,
+      "added": 24
     },
     {
       "page": 3,
@@ -39,7 +39,7 @@
       "currency": "ARS",
       "transferPrice": 20309.38,
       "purchaseModes": [],
-      "stock": 1736,
+      "stock": 1724,
       "stockLabel": "En stock",
       "available": true,
       "brand": "FILALAB",
@@ -69,7 +69,7 @@
           "sku": "FILALAB-PLAMATTE-WHITE",
           "price": 22318,
           "isDeposit": false,
-          "stock": 469,
+          "stock": 463,
           "available": true,
           "options": [
             "Blanco Matte"
@@ -219,6 +219,260 @@
             "Naranja Matte"
           ],
           "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/matte-orange-0576df6c8cd67854ba17791537256155-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "laboratorio3d-357622436",
+      "sourceProductId": "357622436",
+      "store": "Laboratorio 3D",
+      "domain": "laboratorio3d.com.ar",
+      "name": "Filamento PLA Filasur 1 kg",
+      "category": "Filamentos",
+      "price": 20368,
+      "currency": "ARS",
+      "transferPrice": 18534.88,
+      "purchaseModes": [],
+      "stock": 896,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "FILASUR",
+      "tags": [
+        "FILASUR",
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/fs-amarillo-ec6a7882c34174936317849895935594-1024-1024.webp",
+      "url": "https://laboratorio3d.com.ar/productos/filamento-pla-filasur-1kg-1xukg/",
+      "scrapedFrom": "https://laboratorio3d.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1565389626,
+          "sku": "FILASURAMA",
+          "price": 20368,
+          "isDeposit": false,
+          "stock": 0,
+          "available": false,
+          "options": [
+            "Amarillo"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/fs-amarillo-ec6a7882c34174936317849895935594-1024-1024.webp"
+        },
+        {
+          "id": 1565389627,
+          "sku": "FILASURBE",
+          "price": 20368,
+          "isDeposit": false,
+          "stock": 153,
+          "available": true,
+          "options": [
+            "Beige"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/fs-beige-e8387d48e466dd9d1817849895919866-1024-1024.webp"
+        },
+        {
+          "id": 1565389628,
+          "sku": "FILASURVERA",
+          "price": 20368,
+          "isDeposit": false,
+          "stock": 0,
+          "available": false,
+          "options": [
+            "Verde Agua"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/fs-va-c6e9ca1d5d3b1a69ae17849895879151-1024-1024.webp"
+        },
+        {
+          "id": 1565389629,
+          "sku": "FILASURVIO",
+          "price": 20368,
+          "isDeposit": false,
+          "stock": 0,
+          "available": false,
+          "options": [
+            "Violeta"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/fs-v-a00f36f144baeb573017849895891485-1024-1024.webp"
+        },
+        {
+          "id": 1565389630,
+          "sku": "FILASURNEG",
+          "price": 20368,
+          "isDeposit": false,
+          "stock": 17,
+          "available": true,
+          "options": [
+            "Negro"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/fs-n-650646b5556a9b5bcd17849895905973-1024-1024.webp"
+        },
+        {
+          "id": 1571438696,
+          "sku": "FILASURBLA",
+          "price": 20368,
+          "isDeposit": false,
+          "stock": 0,
+          "available": false,
+          "options": [
+            "Blanco"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/fs-blanco-d75706916c0a9c027a17859442338547-1024-1024.webp"
+        },
+        {
+          "id": 1571438697,
+          "sku": "FILASURGRIS",
+          "price": 20368,
+          "isDeposit": false,
+          "stock": 0,
+          "available": false,
+          "options": [
+            "Gris"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/fs-gris-2a1153b7d52f51d0d317859442590170-1024-1024.webp"
+        },
+        {
+          "id": 1571438698,
+          "sku": "FILASURVM",
+          "price": 20368,
+          "isDeposit": false,
+          "stock": 0,
+          "available": false,
+          "options": [
+            "Verde Manzana"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/fs-verde-manzana-c4795fc6dd0f730f4217859442436140-1024-1024.webp"
+        },
+        {
+          "id": 1571438699,
+          "sku": "FILASURVF",
+          "price": 20368,
+          "isDeposit": false,
+          "stock": 0,
+          "available": false,
+          "options": [
+            "Verde Fuerte"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/fs-verde-fuerte-bf40c18ec537634b1817859442434707-1024-1024.webp"
+        },
+        {
+          "id": 1571438700,
+          "sku": "FILASURAZUL",
+          "price": 20368,
+          "isDeposit": false,
+          "stock": 98,
+          "available": true,
+          "options": [
+            "Azul Policia"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/fs-azul-oscuro-7e703d1b98fcfc51f817859442378697-1024-1024.webp"
+        },
+        {
+          "id": 1571438703,
+          "sku": "FILASURROJO",
+          "price": 20368,
+          "isDeposit": false,
+          "stock": 105,
+          "available": true,
+          "options": [
+            "Rojo"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/fs-rojo-09325598f6d7e741d517859442298824-1024-1024.webp"
+        },
+        {
+          "id": 1576057453,
+          "sku": "FILASURAZPER",
+          "price": 20368,
+          "isDeposit": false,
+          "stock": 16,
+          "available": true,
+          "options": [
+            "Azul Perlado"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/fs-azul-perlado-696e29f8b200701fb317866409417309-1024-1024.webp"
+        },
+        {
+          "id": 1576057454,
+          "sku": "FILASURNARPRA",
+          "price": 20368,
+          "isDeposit": false,
+          "stock": 1,
+          "available": true,
+          "options": [
+            "Naranja Praga"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/fs-naranja-rojizo-445b3b0a4a70a9f72117866409587645-1024-1024.webp"
+        },
+        {
+          "id": 1576057455,
+          "sku": "FILASURROS",
+          "price": 20368,
+          "isDeposit": false,
+          "stock": 0,
+          "available": false,
+          "options": [
+            "Rosa"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/fs-rosa-58c7b656dce0c2c76817866409547585-1024-1024.webp"
+        },
+        {
+          "id": 1576068906,
+          "sku": "FILASURAZULL",
+          "price": 20368,
+          "isDeposit": false,
+          "stock": 0,
+          "available": false,
+          "options": [
+            "Azul"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/fs-azul-a8c7e69774aa3f460817866409450245-1024-1024.webp"
+        },
+        {
+          "id": 1589441710,
+          "sku": "FILASURROSACHI",
+          "price": 20368,
+          "isDeposit": false,
+          "stock": 0,
+          "available": false,
+          "options": [
+            "Rosa Chicle"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/rosa-chicle-af474a2170a647370a17883813464545-1024-1024.webp"
+        },
+        {
+          "id": 1589441711,
+          "sku": "FILASURBOR",
+          "price": 20368,
+          "isDeposit": false,
+          "stock": 0,
+          "available": false,
+          "options": [
+            "Bordó"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/bordo-09918852e7956638ba17883814185465-1024-1024.webp"
+        },
+        {
+          "id": 1589441713,
+          "sku": "FILASURCELE",
+          "price": 20368,
+          "isDeposit": false,
+          "stock": 58,
+          "available": true,
+          "options": [
+            "Celeste"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/celeste-db8054efdeb0834cc817883820034363-1024-1024.webp"
+        },
+        {
+          "id": 1589441715,
+          "sku": "FILASURNARA",
+          "price": 20368,
+          "isDeposit": false,
+          "stock": 0,
+          "available": false,
+          "options": [
+            "Naranja"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/naranja-70f754f54b3de4dc5c17883819437412-1024-1024.webp"
         }
       ]
     },
@@ -394,260 +648,6 @@
       ]
     },
     {
-      "id": "laboratorio3d-357622436",
-      "sourceProductId": "357622436",
-      "store": "Laboratorio 3D",
-      "domain": "laboratorio3d.com.ar",
-      "name": "Filamento PLA Filasur 1 kg",
-      "category": "Filamentos",
-      "price": 20368,
-      "currency": "ARS",
-      "transferPrice": 18534.88,
-      "purchaseModes": [],
-      "stock": 956,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "FILASUR",
-      "tags": [
-        "FILASUR",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/fs-amarillo-ec6a7882c34174936317849895935594-1024-1024.webp",
-      "url": "https://laboratorio3d.com.ar/productos/filamento-pla-filasur-1kg-1xukg/",
-      "scrapedFrom": "https://laboratorio3d.com.ar/productos/",
-      "variants": [
-        {
-          "id": 1565389626,
-          "sku": "FILASURAMA",
-          "price": 20368,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Amarillo"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/fs-amarillo-ec6a7882c34174936317849895935594-1024-1024.webp"
-        },
-        {
-          "id": 1565389627,
-          "sku": "FILASURBE",
-          "price": 20368,
-          "isDeposit": false,
-          "stock": 158,
-          "available": true,
-          "options": [
-            "Beige"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/fs-beige-e8387d48e466dd9d1817849895919866-1024-1024.webp"
-        },
-        {
-          "id": 1565389628,
-          "sku": "FILASURVERA",
-          "price": 20368,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Verde Agua"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/fs-va-c6e9ca1d5d3b1a69ae17849895879151-1024-1024.webp"
-        },
-        {
-          "id": 1565389629,
-          "sku": "FILASURVIO",
-          "price": 20368,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Violeta"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/fs-v-a00f36f144baeb573017849895891485-1024-1024.webp"
-        },
-        {
-          "id": 1565389630,
-          "sku": "FILASURNEG",
-          "price": 20368,
-          "isDeposit": false,
-          "stock": 34,
-          "available": true,
-          "options": [
-            "Negro"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/fs-n-650646b5556a9b5bcd17849895905973-1024-1024.webp"
-        },
-        {
-          "id": 1571438696,
-          "sku": "FILASURBLA",
-          "price": 20368,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Blanco"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/fs-blanco-d75706916c0a9c027a17859442338547-1024-1024.webp"
-        },
-        {
-          "id": 1571438697,
-          "sku": "FILASURGRIS",
-          "price": 20368,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Gris"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/fs-gris-2a1153b7d52f51d0d317859442590170-1024-1024.webp"
-        },
-        {
-          "id": 1571438698,
-          "sku": "FILASURVM",
-          "price": 20368,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Verde Manzana"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/fs-verde-manzana-c4795fc6dd0f730f4217859442436140-1024-1024.webp"
-        },
-        {
-          "id": 1571438699,
-          "sku": "FILASURVF",
-          "price": 20368,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Verde Fuerte"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/fs-verde-fuerte-bf40c18ec537634b1817859442434707-1024-1024.webp"
-        },
-        {
-          "id": 1571438700,
-          "sku": "FILASURAZUL",
-          "price": 20368,
-          "isDeposit": false,
-          "stock": 101,
-          "available": true,
-          "options": [
-            "Azul Policia"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/fs-azul-oscuro-7e703d1b98fcfc51f817859442378697-1024-1024.webp"
-        },
-        {
-          "id": 1571438703,
-          "sku": "FILASURROJO",
-          "price": 20368,
-          "isDeposit": false,
-          "stock": 107,
-          "available": true,
-          "options": [
-            "Rojo"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/fs-rojo-09325598f6d7e741d517859442298824-1024-1024.webp"
-        },
-        {
-          "id": 1576057453,
-          "sku": "FILASURAZPER",
-          "price": 20368,
-          "isDeposit": false,
-          "stock": 18,
-          "available": true,
-          "options": [
-            "Azul Perlado"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/fs-azul-perlado-696e29f8b200701fb317866409417309-1024-1024.webp"
-        },
-        {
-          "id": 1576057454,
-          "sku": "FILASURNARPRA",
-          "price": 20368,
-          "isDeposit": false,
-          "stock": 1,
-          "available": true,
-          "options": [
-            "Naranja Praga"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/fs-naranja-rojizo-445b3b0a4a70a9f72117866409587645-1024-1024.webp"
-        },
-        {
-          "id": 1576057455,
-          "sku": "FILASURROS",
-          "price": 20368,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Rosa"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/fs-rosa-58c7b656dce0c2c76817866409547585-1024-1024.webp"
-        },
-        {
-          "id": 1576068906,
-          "sku": "FILASURAZULL",
-          "price": 20368,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Azul"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/fs-azul-a8c7e69774aa3f460817866409450245-1024-1024.webp"
-        },
-        {
-          "id": 1589441710,
-          "sku": "FILASURROSACHI",
-          "price": 20368,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Rosa Chicle"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/rosa-chicle-af474a2170a647370a17883813464545-1024-1024.webp"
-        },
-        {
-          "id": 1589441711,
-          "sku": "FILASURBOR",
-          "price": 20368,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Bordó"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/bordo-09918852e7956638ba17883814185465-1024-1024.webp"
-        },
-        {
-          "id": 1589441713,
-          "sku": "FILASURCELE",
-          "price": 20368,
-          "isDeposit": false,
-          "stock": 59,
-          "available": true,
-          "options": [
-            "Celeste"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/celeste-db8054efdeb0834cc817883820034363-1024-1024.webp"
-        },
-        {
-          "id": 1589441715,
-          "sku": "FILASURNARA",
-          "price": 20368,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Naranja"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/naranja-70f754f54b3de4dc5c17883819437412-1024-1024.webp"
-        }
-      ]
-    },
-    {
       "id": "laboratorio3d-318596407",
       "sourceProductId": "318596407",
       "store": "Laboratorio 3D",
@@ -658,7 +658,7 @@
       "currency": "ARS",
       "transferPrice": 24115,
       "purchaseModes": [],
-      "stock": 744,
+      "stock": 712,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -675,7 +675,7 @@
           "sku": "BambuLITECCBCO",
           "price": 26500,
           "isDeposit": false,
-          "stock": 105,
+          "stock": 94,
           "available": true,
           "options": [
             "Blanco"
@@ -687,7 +687,7 @@
           "sku": "BambuLITECCNEG",
           "price": 26500,
           "isDeposit": false,
-          "stock": 111,
+          "stock": 109,
           "available": true,
           "options": [
             "Negro"
@@ -711,7 +711,7 @@
           "sku": "BambuLITECCAMA",
           "price": 26500,
           "isDeposit": false,
-          "stock": 43,
+          "stock": 42,
           "available": true,
           "options": [
             "Amarillo"
@@ -723,7 +723,7 @@
           "sku": "BambuLITECCAZUL",
           "price": 26500,
           "isDeposit": false,
-          "stock": 33,
+          "stock": 32,
           "available": true,
           "options": [
             "Azul"
@@ -747,7 +747,7 @@
           "sku": "BambuLITECCVDE",
           "price": 26500,
           "isDeposit": false,
-          "stock": 41,
+          "stock": 40,
           "available": true,
           "options": [
             "Verde"
@@ -815,7 +815,7 @@
       "currency": "ARS",
       "transferPrice": 22295,
       "purchaseModes": [],
-      "stock": 364,
+      "stock": 348,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Printalot",
@@ -929,7 +929,7 @@
           "sku": "FPLA17510113",
           "price": 24500,
           "isDeposit": false,
-          "stock": 31,
+          "stock": 29,
           "available": true,
           "options": [
             "Verde"
@@ -941,7 +941,7 @@
           "sku": "FPLA17510114",
           "price": 24500,
           "isDeposit": false,
-          "stock": 25,
+          "stock": 24,
           "available": true,
           "options": [
             "Celeste"
@@ -965,7 +965,7 @@
           "sku": "FPLA17510116",
           "price": 24500,
           "isDeposit": false,
-          "stock": 16,
+          "stock": 15,
           "available": true,
           "options": [
             "Azul"
@@ -1001,7 +1001,7 @@
           "sku": "FPLA17510122",
           "price": 24500,
           "isDeposit": false,
-          "stock": 6,
+          "stock": 5,
           "available": true,
           "options": [
             "Tan"
@@ -1169,7 +1169,7 @@
           "sku": "FPLA17510112",
           "price": 24500,
           "isDeposit": false,
-          "stock": 15,
+          "stock": 14,
           "available": true,
           "options": [
             "Verde Ninja"
@@ -1181,7 +1181,7 @@
           "sku": "FPLA17510117",
           "price": 24500,
           "isDeposit": false,
-          "stock": 10,
+          "stock": 9,
           "available": true,
           "options": [
             "Chocolate"
@@ -1205,8 +1205,8 @@
           "sku": "FPLA17510119",
           "price": 24500,
           "isDeposit": false,
-          "stock": 1,
-          "available": true,
+          "stock": 0,
+          "available": false,
           "options": [
             "Gris Oscuro"
           ],
@@ -1277,7 +1277,7 @@
       "currency": "ARS",
       "transferPrice": 19656,
       "purchaseModes": [],
-      "stock": 760,
+      "stock": 754,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -1294,7 +1294,7 @@
           "sku": "BambuLITESCBLA",
           "price": 21600,
           "isDeposit": false,
-          "stock": 62,
+          "stock": 61,
           "available": true,
           "options": [
             "Blanco"
@@ -1306,7 +1306,7 @@
           "sku": "BambuLITESCNEG",
           "price": 21600,
           "isDeposit": false,
-          "stock": 57,
+          "stock": 55,
           "available": true,
           "options": [
             "Negro"
@@ -1580,7 +1580,7 @@
       "currency": "ARS",
       "transferPrice": 23545.34,
       "purchaseModes": [],
-      "stock": 452,
+      "stock": 448,
       "stockLabel": "En stock",
       "available": true,
       "brand": "FILALAB",
@@ -1634,7 +1634,7 @@
           "sku": "FILALAB-DUALSILK-BLUE-PURPLE",
           "price": 25874,
           "isDeposit": false,
-          "stock": 10,
+          "stock": 9,
           "available": true,
           "options": [
             "DUAL SILK Azul Purpura"
@@ -1658,7 +1658,7 @@
           "sku": "FILALAB-DUALSILK-BLUE-GREEN",
           "price": 25874,
           "isDeposit": false,
-          "stock": 7,
+          "stock": 6,
           "available": true,
           "options": [
             "DUAL SILK Azul Verde"
@@ -1705,7 +1705,7 @@
         "Preventa",
         "Entrega inmediata"
       ],
-      "stock": 2,
+      "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Snapmaker",
@@ -1734,7 +1734,7 @@
           "sku": "SNAP-INMEDIATA",
           "price": 2490000,
           "isDeposit": false,
-          "stock": 2,
+          "stock": 1,
           "available": true,
           "options": [
             "ENTREGA INMEDIATA",
@@ -1775,45 +1775,6 @@
           "available": true,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/stein-de-cerveza-inspirada-en-argentina-8a9b87fdb6e80567e417750690479778-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "laboratorio3d-283098651",
-      "sourceProductId": "283098651",
-      "store": "Laboratorio 3D",
-      "domain": "laboratorio3d.com.ar",
-      "name": "Impresora 3D Bambu Lab A1 Mini",
-      "category": "Impresoras",
-      "price": 578900,
-      "currency": "ARS",
-      "transferPrice": 526799,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 2,
-      "stockLabel": "Pocas unidades",
-      "available": true,
-      "brand": "Bambu Lab",
-      "tags": [
-        "Bambu Lab"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/103-8c5ca3cb727614f00a17912039091350-1024-1024.webp",
-      "url": "https://laboratorio3d.com.ar/productos/bambu-lab-a1-mini-3d/",
-      "scrapedFrom": "https://laboratorio3d.com.ar/productos/",
-      "variants": [
-        {
-          "id": 1389406845,
-          "sku": "BBLAB-A1MINI",
-          "price": 578900,
-          "isDeposit": false,
-          "stock": 1,
-          "available": true,
-          "options": [
-            "FDM",
-            "ENTREGA INMEDIATA"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/103-8c5ca3cb727614f00a17912039091350-1024-1024.webp"
         }
       ]
     },
@@ -2050,7 +2011,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 18,
+      "stock": 16,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -2066,7 +2027,7 @@
           "sku": "BBLAB-P2SCOMBO",
           "price": 3001900,
           "isDeposit": false,
-          "stock": 9,
+          "stock": 8,
           "available": true,
           "options": [
             "ENTREGA INMEDIATA",
@@ -2259,7 +2220,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 152,
+      "stock": 144,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -2275,7 +2236,7 @@
           "sku": "BB-A2LCOMBO-INM",
           "price": 1832900,
           "isDeposit": false,
-          "stock": 76,
+          "stock": 72,
           "available": true,
           "options": [
             "Entrega inmediata"
@@ -2432,44 +2393,6 @@
       ]
     },
     {
-      "id": "laboratorio3d-358619319",
-      "sourceProductId": "358619319",
-      "store": "Laboratorio 3D",
-      "domain": "laboratorio3d.com.ar",
-      "name": "Tapa Superior BIQU para Snapmaker U1",
-      "category": "Impresoras",
-      "price": 219000,
-      "currency": "ARS",
-      "transferPrice": 199290,
-      "purchaseModes": [
-        "Preventa"
-      ],
-      "stock": 19932,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Biqu",
-      "tags": [
-        "Biqu"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/1-1-d5719f4a1bd3e2d35017855013049206-1024-1024.webp",
-      "url": "https://laboratorio3d.com.ar/productos/tapa-superior-snapmakeru1-16hds/",
-      "scrapedFrom": "https://laboratorio3d.com.ar/productos/",
-      "variants": [
-        {
-          "id": 1568604317,
-          "sku": null,
-          "price": 219000,
-          "isDeposit": false,
-          "stock": 9966,
-          "available": true,
-          "options": [
-            "PREVENTA - ENTREGA OCTUBRE"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/1-1-d5719f4a1bd3e2d35017855013049206-1024-1024.webp"
-        }
-      ]
-    },
-    {
       "id": "laboratorio3d-365034506",
       "sourceProductId": "365034506",
       "store": "Laboratorio 3D",
@@ -2480,7 +2403,7 @@
       "currency": "ARS",
       "transferPrice": 24843,
       "purchaseModes": [],
-      "stock": 144,
+      "stock": 136,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -2496,7 +2419,7 @@
           "sku": "FFLE17510101",
           "price": 27300,
           "isDeposit": false,
-          "stock": 11,
+          "stock": 10,
           "available": true,
           "options": [
             "Blanco"
@@ -2508,7 +2431,7 @@
           "sku": "FFLE17510102",
           "price": 27300,
           "isDeposit": false,
-          "stock": 13,
+          "stock": 12,
           "available": true,
           "options": [
             "Amarillo"
@@ -2544,7 +2467,7 @@
           "sku": "FFLE17510116",
           "price": 27300,
           "isDeposit": false,
-          "stock": 12,
+          "stock": 11,
           "available": true,
           "options": [
             "Azul"
@@ -2556,7 +2479,7 @@
           "sku": "FFLE17510119",
           "price": 27300,
           "isDeposit": false,
-          "stock": 12,
+          "stock": 11,
           "available": true,
           "options": [
             "Gris Oscuro"
@@ -2574,6 +2497,44 @@
             "Negro"
           ],
           "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/f_flex_175_10_120_02_post-b8c6955df7e465597c17883799966180-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "laboratorio3d-358619319",
+      "sourceProductId": "358619319",
+      "store": "Laboratorio 3D",
+      "domain": "laboratorio3d.com.ar",
+      "name": "Tapa Superior BIQU para Snapmaker U1",
+      "category": "Impresoras",
+      "price": 219000,
+      "currency": "ARS",
+      "transferPrice": 199290,
+      "purchaseModes": [
+        "Preventa"
+      ],
+      "stock": 19930,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Biqu",
+      "tags": [
+        "Biqu"
+      ],
+      "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/1-1-d5719f4a1bd3e2d35017855013049206-1024-1024.webp",
+      "url": "https://laboratorio3d.com.ar/productos/tapa-superior-snapmakeru1-16hds/",
+      "scrapedFrom": "https://laboratorio3d.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1568604317,
+          "sku": null,
+          "price": 219000,
+          "isDeposit": false,
+          "stock": 9965,
+          "available": true,
+          "options": [
+            "PREVENTA - ENTREGA OCTUBRE"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/1-1-d5719f4a1bd3e2d35017855013049206-1024-1024.webp"
         }
       ]
     },
@@ -2811,6 +2772,40 @@
       ]
     },
     {
+      "id": "laboratorio3d-364268615",
+      "sourceProductId": "364268615",
+      "store": "Laboratorio 3D",
+      "domain": "laboratorio3d.com.ar",
+      "name": "Bambu Lab A1 Combo + 8 Filamentos",
+      "category": "Filamentos",
+      "price": 1640900,
+      "currency": "ARS",
+      "transferPrice": 1493219,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Bambu Lab"
+      ],
+      "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/img_0536-f8ef08e11acf92b47817915705257223-1024-1024.webp",
+      "url": "https://laboratorio3d.com.ar/productos/a1-combo-6-filamentos-2-de-regalo-7tjmn/",
+      "scrapedFrom": "https://laboratorio3d.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1587188466,
+          "sku": null,
+          "price": 1640900,
+          "isDeposit": false,
+          "stock": null,
+          "available": true,
+          "options": [],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/img_0536-f8ef08e11acf92b47817915705257223-1024-1024.webp"
+        }
+      ]
+    },
+    {
       "id": "laboratorio3d-359010373",
       "sourceProductId": "359010373",
       "store": "Laboratorio 3D",
@@ -2846,40 +2841,6 @@
             "FDM"
           ],
           "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/b00e2c9e-b207-4a61-96f9-a00fe6fd3f5b-a3a192de4a1777d12a17857618150409-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "laboratorio3d-364268615",
-      "sourceProductId": "364268615",
-      "store": "Laboratorio 3D",
-      "domain": "laboratorio3d.com.ar",
-      "name": "Bambu Lab A1 Combo + 8 Filamentos",
-      "category": "Filamentos",
-      "price": 1640900,
-      "currency": "ARS",
-      "transferPrice": 1493219,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "Bambu Lab"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/chatgpt-image-30-ago-2026-03_38_34-p-m-33ec382b84880eaa8717881157604412-1024-1024.webp",
-      "url": "https://laboratorio3d.com.ar/productos/a1-combo-6-filamentos-2-de-regalo-7tjmn/",
-      "scrapedFrom": "https://laboratorio3d.com.ar/productos/",
-      "variants": [
-        {
-          "id": 1587188466,
-          "sku": null,
-          "price": 1640900,
-          "isDeposit": false,
-          "stock": null,
-          "available": true,
-          "options": [],
-          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/chatgpt-image-30-ago-2026-03_38_34-p-m-33ec382b84880eaa8717881157604412-1024-1024.webp"
         }
       ]
     },
@@ -2981,7 +2942,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 36,
+      "stock": 32,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -2997,7 +2958,7 @@
           "sku": "BB-A2L-INM",
           "price": 1373900,
           "isDeposit": false,
-          "stock": 18,
+          "stock": 16,
           "available": true,
           "options": [
             "Entrega inmediata"
@@ -3095,7 +3056,7 @@
       "tags": [
         "Bambu Lab"
       ],
-      "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/gemini_generated_image_ocecmvocecmvocec-45d72b6f452516a37a17849109837571-1024-1024.webp",
+      "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/241-32035ab98eb774801217915727796978-1024-1024.webp",
       "url": "https://laboratorio3d.com.ar/productos/combo-impresora-3d-bambu-lab-p2s-combo-con-ams-4-filamentos-lite-600mm-s-y-pantalla-tactil-3on8t/",
       "scrapedFrom": "https://laboratorio3d.com.ar/productos/",
       "variants": [
@@ -3107,7 +3068,7 @@
           "stock": 6,
           "available": true,
           "options": [],
-          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/gemini_generated_image_ocecmvocecmvocec-45d72b6f452516a37a17849109837571-1024-1024.webp"
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/241-32035ab98eb774801217915727796978-1024-1024.webp"
         }
       ]
     },
@@ -3220,7 +3181,7 @@
       "tags": [
         "Bambu Lab"
       ],
-      "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/gemini_generated_image_1r8cww1r8cww1r8c-b93d3ff4d77a10e8da17849112872240-1024-1024.webp",
+      "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/234-c3bc98dce3f26c25ed17915726677758-1024-1024.webp",
       "url": "https://laboratorio3d.com.ar/productos/combo-impresora-3d-bambu-lab-p2s-combo-con-ams-6-filamentos-lite-2-filamento-lite-de-regalo-copia-tr79d/",
       "scrapedFrom": "https://laboratorio3d.com.ar/productos/",
       "variants": [
@@ -3232,7 +3193,7 @@
           "stock": 5,
           "available": true,
           "options": [],
-          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/gemini_generated_image_1r8cww1r8cww1r8c-b93d3ff4d77a10e8da17849112872240-1024-1024.webp"
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/234-c3bc98dce3f26c25ed17915726677758-1024-1024.webp"
         }
       ]
     },
@@ -3454,7 +3415,7 @@
       "tags": [
         "Bambu Lab"
       ],
-      "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/gemini_generated_image_phacv1phacv1phac-4c01f4f6d7dccb85fe17849117107528-1024-1024.webp",
+      "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/237-9830716a925b53c78217915727953807-1024-1024.webp",
       "url": "https://laboratorio3d.com.ar/productos/combo-impresora-3d-bambu-lab-a1-mini-combo-ams-lite-4-filamentos-lite-multicolor-copia-m2z5i/",
       "scrapedFrom": "https://laboratorio3d.com.ar/productos/",
       "variants": [
@@ -3466,7 +3427,7 @@
           "stock": 3,
           "available": true,
           "options": [],
-          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/gemini_generated_image_phacv1phacv1phac-4c01f4f6d7dccb85fe17849117107528-1024-1024.webp"
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/237-9830716a925b53c78217915727953807-1024-1024.webp"
         }
       ]
     },
@@ -3488,7 +3449,7 @@
       "tags": [
         "Bambu Lab"
       ],
-      "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/chatgpt-image-24-jul-2026-01_32_15-p-m-a889ac4f5a4a49341a17849107531528-1024-1024.webp",
+      "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/242-a7c66f81e23129371617915727886830-1024-1024.webp",
       "url": "https://laboratorio3d.com.ar/productos/combo-impresora-3d-bambu-lab-p1s-combo-con-ams-4-filamentos-lite-500mm-s-y-camara-integrada-pczji/",
       "scrapedFrom": "https://laboratorio3d.com.ar/productos/",
       "variants": [
@@ -3500,7 +3461,7 @@
           "stock": 4,
           "available": true,
           "options": [],
-          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/chatgpt-image-24-jul-2026-01_32_15-p-m-a889ac4f5a4a49341a17849107531528-1024-1024.webp"
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/242-a7c66f81e23129371617915727886830-1024-1024.webp"
         }
       ]
     },
@@ -3556,7 +3517,7 @@
       "tags": [
         "Bambu Lab"
       ],
-      "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/gemini_generated_image_nfqx60nfqx60nfqx-a0f87d017f1fec22d217849116223796-1024-1024.webp",
+      "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/236-5ab7f2d7d3eff18b6e17915727088505-1024-1024.webp",
       "url": "https://laboratorio3d.com.ar/productos/combo-impresora-3d-bambu-lab-a1-mini-combo-ams-lite-6-filamentos-lite-2-filamento-de-regalo-copia-1m5ji/",
       "scrapedFrom": "https://laboratorio3d.com.ar/productos/",
       "variants": [
@@ -3568,7 +3529,7 @@
           "stock": 2,
           "available": true,
           "options": [],
-          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/gemini_generated_image_nfqx60nfqx60nfqx-a0f87d017f1fec22d217849116223796-1024-1024.webp"
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/236-5ab7f2d7d3eff18b6e17915727088505-1024-1024.webp"
         }
       ]
     },
@@ -3767,7 +3728,7 @@
       "tags": [
         "Bambu Lab"
       ],
-      "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/gemini_generated_image_8qxtm58qxtm58qxt-d5013e098dd03e7b0717849114418581-1024-1024.webp",
+      "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/232-9263f424b8bbbde1c517915726475140-1024-1024.webp",
       "url": "https://laboratorio3d.com.ar/productos/combo-impresora-3d-bambu-lab-h2s-combo-con-ams-6-filamentos-lite-2-filamento-lite-de-regalo-copia-16zi6/",
       "scrapedFrom": "https://laboratorio3d.com.ar/productos/",
       "variants": [
@@ -3779,7 +3740,7 @@
           "stock": 4,
           "available": true,
           "options": [],
-          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/gemini_generated_image_8qxtm58qxtm58qxt-d5013e098dd03e7b0717849114418581-1024-1024.webp"
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/232-9263f424b8bbbde1c517915726475140-1024-1024.webp"
         }
       ]
     },
@@ -3942,9 +3903,9 @@
       "tags": [
         "Bambu Lab"
       ],
-      "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/gemini_generated_image_1oui431oui431oui-1-1dbca6575d52dd3aba17849111889696-1024-1024.webp",
+      "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/235-003b405cbbbb53290417915726961713-1024-1024.webp",
       "url": "https://laboratorio3d.com.ar/productos/combo-impresora-3d-bambu-lab-p1s-combo-con-ams-6-filamentos-lite-2-filamento-lite-de-regalo-copia-xhmpx/",
-      "scrapedFrom": "https://laboratorio3d.com.ar/productos/page/2/",
+      "scrapedFrom": "https://laboratorio3d.com.ar/productos/",
       "variants": [
         {
           "id": 1520171986,
@@ -3954,7 +3915,7 @@
           "stock": 4,
           "available": true,
           "options": [],
-          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/gemini_generated_image_1oui431oui431oui-1-1dbca6575d52dd3aba17849111889696-1024-1024.webp"
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/235-003b405cbbbb53290417915726961713-1024-1024.webp"
         }
       ]
     },
@@ -4042,7 +4003,7 @@
       "tags": [
         "Bambu Lab"
       ],
-      "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/chatgpt-image-24-jul-2026-01_29_13-p-m-467f3f28dd731d923d17849105646369-1024-1024.webp",
+      "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/238-d48994494b69b6c28117915727566289-1024-1024.webp",
       "url": "https://laboratorio3d.com.ar/productos/combo-impresora-3d-bambu-lab-h2d-combo-con-ams-4-filamentos-lite-doble-extrusor-1000mm-s-y-boquilla-350c-5c0ac/",
       "scrapedFrom": "https://laboratorio3d.com.ar/productos/page/2/",
       "variants": [
@@ -4054,7 +4015,7 @@
           "stock": 1,
           "available": true,
           "options": [],
-          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/chatgpt-image-24-jul-2026-01_29_13-p-m-467f3f28dd731d923d17849105646369-1024-1024.webp"
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/238-d48994494b69b6c28117915727566289-1024-1024.webp"
         }
       ]
     },
@@ -4076,7 +4037,7 @@
       "tags": [
         "Bambu Lab"
       ],
-      "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/chatgpt-image-24-jul-2026-01_23_41-p-m-2fc27d2ce91de025a217849104309045-1024-1024.webp",
+      "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/239-0c9474c1d5cd06c9b817915727644119-1024-1024.webp",
       "url": "https://laboratorio3d.com.ar/productos/combo-impresora-3d-bambu-lab-h2s-combo-con-ams-4-filamentos-lite-gran-volumen-340mm-y-plug-play-5dsfz/",
       "scrapedFrom": "https://laboratorio3d.com.ar/productos/page/2/",
       "variants": [
@@ -4088,7 +4049,7 @@
           "stock": 2,
           "available": true,
           "options": [],
-          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/chatgpt-image-24-jul-2026-01_23_41-p-m-2fc27d2ce91de025a217849104309045-1024-1024.webp"
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/239-0c9474c1d5cd06c9b817915727644119-1024-1024.webp"
         }
       ]
     },
@@ -4365,7 +4326,7 @@
       "tags": [
         "Bambu Lab"
       ],
-      "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/gemini_generated_image_lyai13lyai13lyai-e5d9f0a132666339b617849115284202-1024-1024.webp",
+      "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/231-0aa2cc82edf56de93717915726381224-1024-1024.webp",
       "url": "https://laboratorio3d.com.ar/productos/combo-impresora-3d-bambu-lab-h2d-combo-con-ams-6-filamentos-lite-2-filamento-lite-de-regalo-copia-vbqj3/",
       "scrapedFrom": "https://laboratorio3d.com.ar/productos/page/2/",
       "variants": [
@@ -4377,7 +4338,7 @@
           "stock": 1,
           "available": true,
           "options": [],
-          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/gemini_generated_image_lyai13lyai13lyai-e5d9f0a132666339b617849115284202-1024-1024.webp"
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/231-0aa2cc82edf56de93717915726381224-1024-1024.webp"
         }
       ]
     },
@@ -4399,7 +4360,7 @@
       "tags": [
         "Bambu Lab"
       ],
-      "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/chatgpt-image-24-jul-2026-01_26_38-p-m-89f12f84f5e1b20dfa17849104039502-1024-1024.webp",
+      "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/240-72633002498fa3474317915727726582-1024-1024.webp",
       "url": "https://laboratorio3d.com.ar/productos/combo-impresora-3d-bambu-lab-h2c-combo-con-ams-4-filamentos-lite-1000mm-s-y-nivelacion-activa-1tgpz/",
       "scrapedFrom": "https://laboratorio3d.com.ar/productos/page/2/",
       "variants": [
@@ -4411,7 +4372,7 @@
           "stock": 9,
           "available": true,
           "options": [],
-          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/chatgpt-image-24-jul-2026-01_26_38-p-m-89f12f84f5e1b20dfa17849104039502-1024-1024.webp"
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/240-72633002498fa3474317915727726582-1024-1024.webp"
         }
       ]
     },
@@ -4688,7 +4649,7 @@
       "tags": [
         "Bambu Lab"
       ],
-      "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/gemini_generated_image_cra6jxcra6jxcra6-41229a15d582bbb27517849113533119-1024-1024.webp",
+      "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/233-d8496677f8fa37715c17915726571339-1024-1024.webp",
       "url": "https://laboratorio3d.com.ar/productos/combo-impresora-3d-bambu-lab-h2c-combo-con-ams-6-filamentos-lite-2-filamento-lite-de-regalo-copia-1frgz/",
       "scrapedFrom": "https://laboratorio3d.com.ar/productos/page/2/",
       "variants": [
@@ -4700,7 +4661,7 @@
           "stock": 10,
           "available": true,
           "options": [],
-          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/gemini_generated_image_cra6jxcra6jxcra6-41229a15d582bbb27517849113533119-1024-1024.webp"
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/233-d8496677f8fa37715c17915726571339-1024-1024.webp"
         }
       ]
     },

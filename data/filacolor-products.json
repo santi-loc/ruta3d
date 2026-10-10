@@ -5,14 +5,14 @@
     "baseUrl": "https://filacolor.com.ar",
     "apiPath": "/wp-json/wc/store/v1/products"
   },
-  "scrapedAt": "2026-10-09T15:07:26.293Z",
+  "scrapedAt": "2026-10-10T14:21:17.458Z",
   "source": "https://filacolor.com.ar/wp-json/wc/store/v1/products",
   "pages": [
     {
       "page": 1,
       "url": "https://filacolor.com.ar/wp-json/wc/store/v1/products?per_page=100&page=1",
-      "found": 48,
-      "added": 37
+      "found": 50,
+      "added": 39
     }
   ],
   "products": [
@@ -85,14 +85,6 @@
           "available": true,
           "options": [
             "Colores: gris-plomo"
-          ]
-        },
-        {
-          "id": "filacolor-5462",
-          "sku": "5462",
-          "available": true,
-          "options": [
-            "Colores: negro"
           ]
         },
         {
@@ -307,6 +299,115 @@
         {
           "id": "filacolor-6481",
           "sku": "6481",
+          "available": true,
+          "options": [
+            "Colores: negro"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "filacolor-11377",
+      "sourceProductId": "11377",
+      "store": "Filacolor",
+      "domain": "filacolor.com.ar",
+      "name": "Bambu Lab Petg Basic (con carrete)",
+      "category": "Herramientas",
+      "price": 20800,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab",
+        "PETG",
+        "1kg"
+      ],
+      "image": "https://filacolor.com.ar/wp-content/uploads/2026/10/griscc.webp",
+      "url": "https://filacolor.com.ar/producto/bambu-lab-petg-basic-con-carrete/",
+      "scrapedFrom": "https://filacolor.com.ar/wp-json/wc/store/v1/products",
+      "variants": [
+        {
+          "id": "filacolor-11378",
+          "sku": "11378",
+          "available": true,
+          "options": [
+            "Colores: azul"
+          ]
+        },
+        {
+          "id": "filacolor-11379",
+          "sku": "11379",
+          "available": true,
+          "options": [
+            "Colores: blanco"
+          ]
+        },
+        {
+          "id": "filacolor-11380",
+          "sku": "11380",
+          "available": true,
+          "options": [
+            "Colores: gris"
+          ]
+        },
+        {
+          "id": "filacolor-11381",
+          "sku": "11381",
+          "available": true,
+          "options": [
+            "Colores: negro"
+          ]
+        },
+        {
+          "id": "filacolor-11382",
+          "sku": "11382",
+          "available": true,
+          "options": [
+            "Colores: rojo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "filacolor-11390",
+      "sourceProductId": "11390",
+      "store": "Filacolor",
+      "domain": "filacolor.com.ar",
+      "name": "Bambu Lab Petg Basic (recarga)",
+      "category": "Herramientas",
+      "price": 18000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab",
+        "PETG",
+        "1kg",
+        "recarga"
+      ],
+      "image": "https://filacolor.com.ar/wp-content/uploads/2026/10/blancosc.webp",
+      "url": "https://filacolor.com.ar/producto/bambu-lab-petg-basic-recarga/",
+      "scrapedFrom": "https://filacolor.com.ar/wp-json/wc/store/v1/products",
+      "variants": [
+        {
+          "id": "filacolor-11396",
+          "sku": "11396",
+          "available": true,
+          "options": [
+            "Colores: blanco"
+          ]
+        },
+        {
+          "id": "filacolor-11397",
+          "sku": "11397",
           "available": true,
           "options": [
             "Colores: negro"
@@ -992,14 +1093,6 @@
           ]
         },
         {
-          "id": "filacolor-8581",
-          "sku": "8581",
-          "available": true,
-          "options": [
-            "Colores: azul-purpura"
-          ]
-        },
-        {
           "id": "filacolor-8585",
           "sku": "8585",
           "available": true,
@@ -1439,14 +1532,6 @@
           ]
         },
         {
-          "id": "filacolor-10779",
-          "sku": "10779",
-          "available": true,
-          "options": [
-            "Colores: naranja"
-          ]
-        },
-        {
           "id": "filacolor-10780",
           "sku": "10780",
           "available": true,
@@ -1778,14 +1863,6 @@
           "available": true,
           "options": [
             "Colores: caribe"
-          ]
-        },
-        {
-          "id": "filacolor-5573",
-          "sku": "5573",
-          "available": true,
-          "options": [
-            "Colores: chocolate"
           ]
         },
         {

@@ -4,8 +4,8 @@
     "domain": "tp3d.com.ar",
     "baseUrl": "https://tp3d.com.ar"
   },
-  "scrapedAt": "2026-10-09T15:07:51.579Z",
-  "count": 495,
+  "scrapedAt": "2026-10-10T14:21:46.626Z",
+  "count": 512,
   "pages": [
     {
       "listing": "Insumos",
@@ -60,15 +60,22 @@
       "listing": "Impresoras FDM",
       "page": 4,
       "url": "https://tp3d.com.ar/203-all-fdm?page=4",
-      "found": 15,
-      "added": 15
+      "found": 24,
+      "added": 24
+    },
+    {
+      "listing": "Impresoras FDM",
+      "page": 5,
+      "url": "https://tp3d.com.ar/203-all-fdm?page=5",
+      "found": 2,
+      "added": 2
     },
     {
       "listing": "Impresoras Resina",
       "page": 1,
       "url": "https://tp3d.com.ar/7-impresoras-resina",
-      "found": 17,
-      "added": 17
+      "found": 23,
+      "added": 23
     },
     {
       "listing": "Repuestos",
@@ -170,6 +177,31 @@
     }
   ],
   "products": [
+    {
+      "id": "tp3d-2658",
+      "sourceProductId": "2658",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Combo Filamento Hellbot ECOFILA Pla Primarios 3kg 1,75mm",
+      "category": "Filamentos",
+      "price": 59373,
+      "currency": "ARS",
+      "transferPrice": 56404,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA",
+        "Hellbot",
+        "combo",
+        "Insumos"
+      ],
+      "image": "https://tp3d.com.ar/9662-large_default/combo-filamento-hellbot-ecofila-pla-primarios-3kg-175mm.jpg",
+      "url": "https://tp3d.com.ar/TP3D/2658-combo-filamento-hellbot-ecofila-pla-primarios-3kg-175mm.html",
+      "scrapedFrom": "https://tp3d.com.ar/127-insumos",
+      "variants": []
+    },
     {
       "id": "tp3d-2659",
       "sourceProductId": "2659",
@@ -367,6 +399,31 @@
       ],
       "image": "https://tp3d.com.ar/8864-large_default/filamento-hellbot-ecofila-pla-con-carrete-inyectado-combo-2kg-seleccion-argentina.jpg",
       "url": "https://tp3d.com.ar/filamentos-3d/2569-filamento-hellbot-ecofila-pla-con-carrete-inyectado-combo-2kg-seleccion-argentina.html",
+      "scrapedFrom": "https://tp3d.com.ar/127-insumos",
+      "variants": []
+    },
+    {
+      "id": "tp3d-2570",
+      "sourceProductId": "2570",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Filamento Hellbot ECOFILA PLA con carrete inyectado Combo 4kg Seleccion Argentina",
+      "category": "Filamentos",
+      "price": 71960,
+      "currency": "ARS",
+      "transferPrice": 68362,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA",
+        "Hellbot",
+        "combo",
+        "Insumos"
+      ],
+      "image": "https://tp3d.com.ar/8874-large_default/filamento-hellbot-ecofila-pla-con-carrete-inyectado-combo-4kg-seleccion-argentina.jpg",
+      "url": "https://tp3d.com.ar/filamentos-3d/2570-filamento-hellbot-ecofila-pla-con-carrete-inyectado-combo-4kg-seleccion-argentina.html",
       "scrapedFrom": "https://tp3d.com.ar/127-insumos",
       "variants": []
     },
@@ -737,7 +794,7 @@
       ],
       "image": "https://tp3d.com.ar/1931-large_default/resina-creality-pla-500g-botella-plastica.jpg",
       "url": "https://tp3d.com.ar/resinas-3d/1139-164-resina-creality-pla-500g-botella-plastica.html#/44-color-azul_cielo",
-      "scrapedFrom": "https://tp3d.com.ar/127-insumos",
+      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=2",
       "variants": []
     },
     {
@@ -760,7 +817,7 @@
       ],
       "image": "https://tp3d.com.ar/1927-large_default/resina-creality-dura-plus-500g-botella-plastica.jpg",
       "url": "https://tp3d.com.ar/resinas-3d/1134-137-resina-creality-dura-plus-500g-botella-plastica.html#/5-color-gris",
-      "scrapedFrom": "https://tp3d.com.ar/127-insumos",
+      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=2",
       "variants": []
     },
     {
@@ -1315,7 +1372,7 @@
       ],
       "image": "https://tp3d.com.ar/10386-large_default/filamento-hellbot-ecofila-pla-satinado-175mm-1kg.jpg",
       "url": "https://tp3d.com.ar/filamentos-3d/2737-1683-filamento-hellbot-ecofila-pla-satinado-175mm-1kg.html#/4-color-negro",
-      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=2",
+      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=3",
       "variants": []
     },
     {
@@ -1340,7 +1397,7 @@
       ],
       "image": "https://tp3d.com.ar/10500-large_default/filamento-hellbot-ecofila-pla-pastel175mm-1kg-v2-new-con-carrete-inyectado-lock.jpg",
       "url": "https://tp3d.com.ar/filamentos-3d/2750-1699-filamento-hellbot-ecofila-pla-pastel175mm-1kg-v2-new-con-carrete-inyectado-lock.html#/32-color-arena_pastel",
-      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=2",
+      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=3",
       "variants": []
     },
     {
@@ -1519,31 +1576,6 @@
       "variants": []
     },
     {
-      "id": "tp3d-2658",
-      "sourceProductId": "2658",
-      "store": "TP3D",
-      "domain": "tp3d.com.ar",
-      "name": "Combo Filamento Hellbot ECOFILA Pla Primarios 3kg 1,75mm",
-      "category": "Filamentos",
-      "price": 59373,
-      "currency": "ARS",
-      "transferPrice": 56404,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "PLA",
-        "Hellbot",
-        "combo",
-        "Insumos"
-      ],
-      "image": "https://tp3d.com.ar/9662-large_default/combo-filamento-hellbot-ecofila-pla-primarios-3kg-175mm.jpg",
-      "url": "https://tp3d.com.ar/TP3D/2658-combo-filamento-hellbot-ecofila-pla-primarios-3kg-175mm.html",
-      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=3",
-      "variants": []
-    },
-    {
       "id": "tp3d-1857",
       "sourceProductId": "1857",
       "store": "TP3D",
@@ -1565,31 +1597,6 @@
       ],
       "image": "https://tp3d.com.ar/5259-large_default/filamento-hellbot-ecofila-pla-silk-duotriple-1kg.jpg",
       "url": "https://tp3d.com.ar/filamentos-3d/1857-filamento-hellbot-ecofila-pla-silk-duotriple-1kg.html",
-      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=3",
-      "variants": []
-    },
-    {
-      "id": "tp3d-2570",
-      "sourceProductId": "2570",
-      "store": "TP3D",
-      "domain": "tp3d.com.ar",
-      "name": "Filamento Hellbot ECOFILA PLA con carrete inyectado Combo 4kg Seleccion Argentina",
-      "category": "Filamentos",
-      "price": 71960,
-      "currency": "ARS",
-      "transferPrice": 68362,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "PLA",
-        "Hellbot",
-        "combo",
-        "Insumos"
-      ],
-      "image": "https://tp3d.com.ar/8874-large_default/filamento-hellbot-ecofila-pla-con-carrete-inyectado-combo-4kg-seleccion-argentina.jpg",
-      "url": "https://tp3d.com.ar/filamentos-3d/2570-filamento-hellbot-ecofila-pla-con-carrete-inyectado-combo-4kg-seleccion-argentina.html",
       "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=3",
       "variants": []
     },
@@ -2344,6 +2351,29 @@
       "variants": []
     },
     {
+      "id": "tp3d-1264",
+      "sourceProductId": "1264",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Impresora 3D Creality Ender 3 V3 KE FDM",
+      "category": "Impresoras",
+      "price": 460799,
+      "currency": "ARS",
+      "transferPrice": 437759,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Creality",
+        "Impresoras FDM"
+      ],
+      "image": "https://tp3d.com.ar/2487-large_default/impresora-creality-ender-3-v3-ke.jpg",
+      "url": "https://tp3d.com.ar/impresoras-fdm/1264-impresora-creality-ender-3-v3-ke.html",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm",
+      "variants": []
+    },
+    {
       "id": "tp3d-1654",
       "sourceProductId": "1654",
       "store": "TP3D",
@@ -2838,7 +2868,7 @@
       ],
       "image": "https://tp3d.com.ar/10437-large_default/preventa-noviembre-impresora-creality-sparkx-i7-color-combo.jpg",
       "url": "https://tp3d.com.ar/impresoras-fdm/2745-preventa-noviembre-impresora-creality-sparkx-i7-color-combo.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=2",
       "variants": []
     },
     {
@@ -2862,6 +2892,242 @@
       ],
       "image": "https://tp3d.com.ar/10963-large_default/refurbished-impresora-creality-sparkx-i7-color-combo.jpg",
       "url": "https://tp3d.com.ar/impresoras-fdm/2768-refurbished-impresora-creality-sparkx-i7-color-combo.html",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=2",
+      "variants": []
+    },
+    {
+      "id": "tp3d-2806",
+      "sourceProductId": "2806",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Preventa Diciembre Impresora 3D Creality Ender 3 V3 SE FDM",
+      "category": "Impresoras",
+      "price": 370999,
+      "currency": "ARS",
+      "transferPrice": 352449,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Creality",
+        "Impresoras FDM"
+      ],
+      "image": "https://tp3d.com.ar/11361-large_default/preventa-diciembre-impresora-3d-creality-ender-3-v3-se-fdm.jpg",
+      "url": "https://tp3d.com.ar/TP3D/2806-preventa-diciembre-impresora-3d-creality-ender-3-v3-se-fdm.html",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=2",
+      "variants": []
+    },
+    {
+      "id": "tp3d-2808",
+      "sourceProductId": "2808",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Preventa Diciembre Impresora 3D Creality K2 PRO Combo FDM",
+      "category": "Impresoras",
+      "price": 2009999,
+      "currency": "ARS",
+      "transferPrice": 1909499,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Creality",
+        "combo",
+        "Impresoras FDM"
+      ],
+      "image": "https://tp3d.com.ar/11384-large_default/preventa-diciembre-impresora-3d-creality-k2-pro-combo-fdm.jpg",
+      "url": "https://tp3d.com.ar/TP3D/2808-preventa-diciembre-impresora-3d-creality-k2-pro-combo-fdm.html",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=2",
+      "variants": []
+    },
+    {
+      "id": "tp3d-2811",
+      "sourceProductId": "2811",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Preventa Diciembre Impresora 3D Creality K2 PLUS Combo FDM",
+      "category": "Impresoras",
+      "price": 3040999,
+      "currency": "ARS",
+      "transferPrice": 2888949,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Creality",
+        "combo",
+        "Impresoras FDM"
+      ],
+      "image": "https://tp3d.com.ar/11399-large_default/preventa-enero-impresora-3d-creality-k2-plus-combo-fdm.jpg",
+      "url": "https://tp3d.com.ar/TP3D/2811-preventa-enero-impresora-3d-creality-k2-plus-combo-fdm.html",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=2",
+      "variants": []
+    },
+    {
+      "id": "tp3d-2814",
+      "sourceProductId": "2814",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Preventa Diciembre Refurbished Impresora Bambu Lab P2S Combo",
+      "category": "Impresoras",
+      "price": 2694900,
+      "currency": "ARS",
+      "transferPrice": 2560155,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Bambu Lab",
+        "combo",
+        "Impresoras FDM"
+      ],
+      "image": "https://tp3d.com.ar/11427-large_default/preventa-diciembre-refurbished-impresora-bambu-lab-p2s-combo.jpg",
+      "url": "https://tp3d.com.ar/impresoras-fdm/2814-preventa-diciembre-refurbished-impresora-bambu-lab-p2s-combo.html",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=2",
+      "variants": []
+    },
+    {
+      "id": "tp3d-2816",
+      "sourceProductId": "2816",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Preventa Diciembre Refurbished Impresora 3D Bambu Lab P1S FDM",
+      "category": "Impresoras",
+      "price": 1203900,
+      "currency": "ARS",
+      "transferPrice": 1143705,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Bambu Lab",
+        "Impresoras FDM"
+      ],
+      "image": "https://tp3d.com.ar/11442-large_default/preventa-diciembre-refurbished-impresora-3d-bambu-lab-p1s-fdm.jpg",
+      "url": "https://tp3d.com.ar/impresoras-fdm/2816-preventa-diciembre-refurbished-impresora-3d-bambu-lab-p1s-fdm.html",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=2",
+      "variants": []
+    },
+    {
+      "id": "tp3d-2817",
+      "sourceProductId": "2817",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Preventa Diciembre Refurbished Impresora 3D Bambu Lab P1S Combo multicolor AMS",
+      "category": "Impresoras",
+      "price": 1643900,
+      "currency": "ARS",
+      "transferPrice": 1561705,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Bambu Lab",
+        "combo",
+        "Impresoras FDM"
+      ],
+      "image": "https://tp3d.com.ar/11451-large_default/preventa-diciembre-refurbished-impresora-3d-bambu-lab-p1s-combo-multicolor-ams.jpg",
+      "url": "https://tp3d.com.ar/impresoras-fdm/2817-preventa-diciembre-refurbished-impresora-3d-bambu-lab-p1s-combo-multicolor-ams.html",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=2",
+      "variants": []
+    },
+    {
+      "id": "tp3d-2818",
+      "sourceProductId": "2818",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Preventa Diciembre Impresora Anycubic Kobra 3 Max FDM",
+      "category": "Impresoras",
+      "price": 1064000,
+      "currency": "ARS",
+      "transferPrice": 1010800,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Anycubic",
+        "Impresoras FDM"
+      ],
+      "image": "https://tp3d.com.ar/11456-large_default/preventa-diciembre-impresora-anycubic-kobra-3-max-fdm.jpg",
+      "url": "https://tp3d.com.ar/impresoras-fdm/2818-preventa-diciembre-impresora-anycubic-kobra-3-max-fdm.html",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=2",
+      "variants": []
+    },
+    {
+      "id": "tp3d-2819",
+      "sourceProductId": "2819",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Preventa Diciembre Impresora 3D Anycubic Kobra S1 Combo FDM26",
+      "category": "Impresoras",
+      "price": 1299990,
+      "currency": "ARS",
+      "transferPrice": 1234991,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Anycubic",
+        "combo",
+        "Impresoras FDM"
+      ],
+      "image": "https://tp3d.com.ar/11458-large_default/preventa-diciembre-impresora-3d-anycubic-kobra-s1-combo-fdm26.jpg",
+      "url": "https://tp3d.com.ar/impresoras-fdm/2819-preventa-diciembre-impresora-3d-anycubic-kobra-s1-combo-fdm26.html",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=2",
+      "variants": []
+    },
+    {
+      "id": "tp3d-2833",
+      "sourceProductId": "2833",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Preventa Diciembre Impresora Bambu Lab P2S",
+      "category": "Impresoras",
+      "price": 2081900,
+      "currency": "ARS",
+      "transferPrice": 1977805,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Bambu Lab",
+        "Impresoras FDM"
+      ],
+      "image": "https://tp3d.com.ar/11554-large_default/preventa-diciembre-impresora-bambu-lab-p2s.jpg",
+      "url": "https://tp3d.com.ar/impresoras-fdm/2833-preventa-diciembre-impresora-bambu-lab-p2s.html",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=2",
+      "variants": []
+    },
+    {
+      "id": "tp3d-2834",
+      "sourceProductId": "2834",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Preventa Diciembre Impresora Bambu Lab P2S Combo",
+      "category": "Impresoras",
+      "price": 3001900,
+      "currency": "ARS",
+      "transferPrice": 2851805,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Bambu Lab",
+        "combo",
+        "Impresoras FDM"
+      ],
+      "image": "https://tp3d.com.ar/11562-large_default/preventa-diciembre-impresora-bambu-lab-p2s-combo.jpg",
+      "url": "https://tp3d.com.ar/impresoras-fdm/2834-preventa-diciembre-impresora-bambu-lab-p2s-combo.html",
       "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=2",
       "variants": []
     },
@@ -2910,29 +3176,6 @@
       ],
       "image": "https://tp3d.com.ar/4008-large_default/impresora-anycubic-kobra-3-combo-fdm.jpg",
       "url": "https://tp3d.com.ar/impresoras-fdm/1607-impresora-anycubic-kobra-3-combo-fdm.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=2",
-      "variants": []
-    },
-    {
-      "id": "tp3d-1264",
-      "sourceProductId": "1264",
-      "store": "TP3D",
-      "domain": "tp3d.com.ar",
-      "name": "Impresora 3D Creality Ender 3 V3 KE FDM",
-      "category": "Impresoras",
-      "price": 460799,
-      "currency": "ARS",
-      "transferPrice": 437759,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "Creality",
-        "Impresoras FDM"
-      ],
-      "image": "https://tp3d.com.ar/2487-large_default/impresora-creality-ender-3-v3-ke.jpg",
-      "url": "https://tp3d.com.ar/impresoras-fdm/1264-impresora-creality-ender-3-v3-ke.html",
       "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=2",
       "variants": []
     },
@@ -3189,7 +3432,7 @@
       ],
       "image": "https://tp3d.com.ar/3615-large_default/impresora-hellbot-hidra-plus-v2.jpg",
       "url": "https://tp3d.com.ar/impresoras-fdm/1565-impresora-hellbot-hidra-plus-v2.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=2",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=3",
       "variants": []
     },
     {
@@ -3212,7 +3455,7 @@
       ],
       "image": "https://tp3d.com.ar/5128-large_default/impresora-bambulab-a1-mini.jpg",
       "url": "https://tp3d.com.ar/impresoras-fdm/1671-impresora-bambulab-a1-mini.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=2",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=3",
       "variants": []
     },
     {
@@ -3235,7 +3478,7 @@
       ],
       "image": "https://tp3d.com.ar/1703-large_default/-impresora-creality-k-8-fdm.jpg",
       "url": "https://tp3d.com.ar/impresoras-fdm/1203--impresora-creality-k-8-fdm.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=2",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=3",
       "variants": []
     },
     {
@@ -3259,7 +3502,7 @@
       ],
       "image": "https://tp3d.com.ar/5123-large_default/impresora-3d-bambu-lab-x1-carbon-combo-multicolor-con-ams-4-colores-fdm.jpg",
       "url": "https://tp3d.com.ar/impresoras-fdm/1887-impresora-3d-bambu-lab-x1-carbon-combo-multicolor-con-ams-4-colores-fdm.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=2",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=3",
       "variants": []
     },
     {
@@ -3282,7 +3525,7 @@
       ],
       "image": "https://tp3d.com.ar/1678-large_default/impresora-creality-ender-3-max-neo-fdm.jpg",
       "url": "https://tp3d.com.ar/impresoras-fdm/1183-impresora-creality-ender-3-max-neo-fdm.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=2",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=3",
       "variants": []
     },
     {
@@ -3305,7 +3548,7 @@
       ],
       "image": "https://tp3d.com.ar/1676-large_default/impresora-creality-cr-m4-fdm.jpg",
       "url": "https://tp3d.com.ar/impresoras-fdm/1181-impresora-creality-cr-m4-fdm.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=2",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=3",
       "variants": []
     },
     {
@@ -3328,7 +3571,7 @@
       ],
       "image": "https://tp3d.com.ar/5939-large_default/impresora-creality-ender-3-v3-se.jpg",
       "url": "https://tp3d.com.ar/combos/2084-impresora-creality-ender-3-v3-se.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=2",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=3",
       "variants": []
     },
     {
@@ -3351,7 +3594,7 @@
       ],
       "image": "https://tp3d.com.ar/6572-large_default/preventa-mayo-impresora-anycubic-kobra-3-max-combo-fdm.jpg",
       "url": "https://tp3d.com.ar/impresoras-fdm/2281-preventa-mayo-impresora-anycubic-kobra-3-max-combo-fdm.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=2",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=3",
       "variants": []
     },
     {
@@ -3374,7 +3617,7 @@
       ],
       "image": "https://tp3d.com.ar/7481-large_default/outlet-impresora-3d-creality-k1c-fdm-220-x-220.jpg",
       "url": "https://tp3d.com.ar/outlet/2353-outlet-impresora-3d-creality-k1c-fdm-220-x-220.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=2",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=3",
       "variants": []
     },
     {
@@ -3397,7 +3640,7 @@
       ],
       "image": "https://tp3d.com.ar/1699-large_default/impresora-creality-k1-max-fdm.jpg",
       "url": "https://tp3d.com.ar/impresoras-fdm/1171-impresora-creality-k1-max-fdm.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=2",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=3",
       "variants": []
     },
     {
@@ -3753,7 +3996,7 @@
       ],
       "image": "https://tp3d.com.ar/8303-large_default/impresora-creality-k1c-2026.jpg",
       "url": "https://tp3d.com.ar/impresoras-fdm/2496-impresora-creality-k1c-2026.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=3",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=4",
       "variants": []
     },
     {
@@ -3776,7 +4019,7 @@
       ],
       "image": "https://tp3d.com.ar/8741-large_default/refurbished-impresora-anycubic-kobra-3-max-fdm.jpg",
       "url": "https://tp3d.com.ar/outlet/2506-refurbished-impresora-anycubic-kobra-3-max-fdm.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=3",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=4",
       "variants": []
     },
     {
@@ -3799,7 +4042,7 @@
       ],
       "image": "https://tp3d.com.ar/8734-large_default/refurbished-impresora-3d-anycubic-kobra-2-neo-fdm.jpg",
       "url": "https://tp3d.com.ar/outlet/2510-refurbished-impresora-3d-anycubic-kobra-2-neo-fdm.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=3",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=4",
       "variants": []
     },
     {
@@ -3823,7 +4066,7 @@
       ],
       "image": "https://tp3d.com.ar/8735-large_default/refurbished-impresora-3d-bambu-lab-a1-combo-multicolor-ams-fdm.jpg",
       "url": "https://tp3d.com.ar/outlet/2512-refurbished-impresora-3d-bambu-lab-a1-combo-multicolor-ams-fdm.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=3",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=4",
       "variants": []
     },
     {
@@ -3846,7 +4089,7 @@
       ],
       "image": "https://tp3d.com.ar/8988-large_default/refurbished-impresora-3d-bambu-lab-a1-mini.jpg",
       "url": "https://tp3d.com.ar/outlet/2513-refurbished-impresora-3d-bambu-lab-a1-mini.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=3",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=4",
       "variants": []
     },
     {
@@ -3869,7 +4112,7 @@
       ],
       "image": "https://tp3d.com.ar/8987-large_default/refurbished-impresora-3d-creality-ender-5-max-fdm.jpg",
       "url": "https://tp3d.com.ar/outlet/2517-refurbished-impresora-3d-creality-ender-5-max-fdm.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=3",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=4",
       "variants": []
     },
     {
@@ -3893,7 +4136,7 @@
       ],
       "image": "https://tp3d.com.ar/9015-large_default/combo-impresora-3d-creality-ender-3-v3-ke-fdm-5kg-filamento-soleyin.jpg",
       "url": "https://tp3d.com.ar/combos/2591-combo-impresora-3d-creality-ender-3-v3-ke-fdm-5kg-filamento-soleyin.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=3",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=4",
       "variants": []
     },
     {
@@ -3918,7 +4161,7 @@
       ],
       "image": "https://tp3d.com.ar/9017-large_default/combo-impresora-3d-creality-ender-3-v3-se-fdm-5kg-filamento-pla-soleyin.jpg",
       "url": "https://tp3d.com.ar/combos/2592-combo-impresora-3d-creality-ender-3-v3-se-fdm-5kg-filamento-pla-soleyin.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=3",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=4",
       "variants": []
     },
     {
@@ -3942,7 +4185,7 @@
       ],
       "image": "https://tp3d.com.ar/9413-large_default/impresora-creality-k1c-2026.jpg",
       "url": "https://tp3d.com.ar/impresoras-fdm/2627-impresora-creality-k1c-2026.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=3",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=4",
       "variants": []
     },
     {
@@ -3966,7 +4209,7 @@
       ],
       "image": "https://tp3d.com.ar/9524-large_default/combo-impresora-bambu-lab-p2s-ams-2-pro-.jpg",
       "url": "https://tp3d.com.ar/impresoras-fdm/2641-combo-impresora-bambu-lab-p2s-ams-2-pro-.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=3",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=4",
       "variants": []
     },
     {
@@ -4303,6 +4546,30 @@
       "variants": []
     },
     {
+      "id": "tp3d-2830",
+      "sourceProductId": "2830",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Preventa Diciembre Impresora 3D Bambu Lab A1 Combo multicolor AMS FDM",
+      "category": "Impresoras",
+      "price": 1464900,
+      "currency": "ARS",
+      "transferPrice": 1391655,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Bambu Lab",
+        "combo",
+        "Impresoras FDM"
+      ],
+      "image": "https://tp3d.com.ar/11540-large_default/preventa-diciembre-impresora-3d-bambu-lab-a1-combo-multicolor-ams-fdm.jpg",
+      "url": "https://tp3d.com.ar/impresoras-fdm/2830-preventa-diciembre-impresora-3d-bambu-lab-a1-combo-multicolor-ams-fdm.html",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=5",
+      "variants": []
+    },
+    {
       "id": "tp3d-2836",
       "sourceProductId": "2836",
       "store": "TP3D",
@@ -4323,7 +4590,7 @@
       ],
       "image": "https://tp3d.com.ar/11571-large_default/preventa-febrero-impresora-bambu-lab-p2s-combo.jpg",
       "url": "https://tp3d.com.ar/envio-flash/2836-preventa-febrero-impresora-bambu-lab-p2s-combo.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=4",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=5",
       "variants": []
     },
     {
@@ -4440,6 +4707,144 @@
       ],
       "image": "https://tp3d.com.ar/10961-large_default/impresora-3d-creality-halot-x1-resina.jpg",
       "url": "https://tp3d.com.ar/impresoras-resina/2767-impresora-3d-creality-halot-x1-resina.html",
+      "scrapedFrom": "https://tp3d.com.ar/7-impresoras-resina",
+      "variants": []
+    },
+    {
+      "id": "tp3d-2813",
+      "sourceProductId": "2813",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Preventa Diciembre Impresora de Resina Creality Halot X1 Neo",
+      "category": "Resina",
+      "price": 499900,
+      "currency": "ARS",
+      "transferPrice": 474905,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Creality",
+        "Impresoras Resina"
+      ],
+      "image": "https://tp3d.com.ar/11413-large_default/preventa-diciembre-impresora-de-resina-creality-halot-x1-neo.jpg",
+      "url": "https://tp3d.com.ar/TP3D/2813-preventa-diciembre-impresora-de-resina-creality-halot-x1-neo.html",
+      "scrapedFrom": "https://tp3d.com.ar/7-impresoras-resina",
+      "variants": []
+    },
+    {
+      "id": "tp3d-2821",
+      "sourceProductId": "2821",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Preventa Diciembre Impresora 3D Anycubic Photon Mono 4",
+      "category": "Resina",
+      "price": 449990,
+      "currency": "ARS",
+      "transferPrice": 427491,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Anycubic",
+        "Impresoras Resina"
+      ],
+      "image": "https://tp3d.com.ar/11477-large_default/preventa-diciembre-impresora-3d-anycubic-photon-mono-4.jpg",
+      "url": "https://tp3d.com.ar/impresoras-resina/2821-preventa-diciembre-impresora-3d-anycubic-photon-mono-4.html",
+      "scrapedFrom": "https://tp3d.com.ar/7-impresoras-resina",
+      "variants": []
+    },
+    {
+      "id": "tp3d-2822",
+      "sourceProductId": "2822",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Preventa Diciembre Impresora 3D Anycubic Photon Mono 4 Ultra",
+      "category": "Resina",
+      "price": 649990,
+      "currency": "ARS",
+      "transferPrice": 617491,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Anycubic",
+        "Impresoras Resina"
+      ],
+      "image": "https://tp3d.com.ar/11493-large_default/preventa-diciembre-impresora-3d-anycubic-photon-mono-4-ultra.jpg",
+      "url": "https://tp3d.com.ar/TP3D/2822-preventa-diciembre-impresora-3d-anycubic-photon-mono-4-ultra.html",
+      "scrapedFrom": "https://tp3d.com.ar/7-impresoras-resina",
+      "variants": []
+    },
+    {
+      "id": "tp3d-2824",
+      "sourceProductId": "2824",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Preventa Diciembre Impresora 3D Anycubic Photon Mono M7 Pro DLP",
+      "category": "Resina",
+      "price": 1259900,
+      "currency": "ARS",
+      "transferPrice": 1196905,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Anycubic",
+        "Impresoras Resina"
+      ],
+      "image": "https://tp3d.com.ar/11503-large_default/preventa-diciembre-impresora-3d-anycubic-photon-mono-m7-pro-dlp.jpg",
+      "url": "https://tp3d.com.ar/imp-resina-mono/2824-preventa-diciembre-impresora-3d-anycubic-photon-mono-m7-pro-dlp.html",
+      "scrapedFrom": "https://tp3d.com.ar/7-impresoras-resina",
+      "variants": []
+    },
+    {
+      "id": "tp3d-2825",
+      "sourceProductId": "2825",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Preventa Diciembre Impresora 3D Anycubic Photon P1",
+      "category": "Resina",
+      "price": 1590000,
+      "currency": "ARS",
+      "transferPrice": 1510500,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Anycubic",
+        "Impresoras Resina"
+      ],
+      "image": "https://tp3d.com.ar/11509-large_default/preventa-diciembre-impresora-3d-anycubic-photon-p1.jpg",
+      "url": "https://tp3d.com.ar/TP3D/2825-preventa-diciembre-impresora-3d-anycubic-photon-p1.html",
+      "scrapedFrom": "https://tp3d.com.ar/7-impresoras-resina",
+      "variants": []
+    },
+    {
+      "id": "tp3d-2826",
+      "sourceProductId": "2826",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Preventa Diciembre Impresora 3D Anycubic Mono M7 Max",
+      "category": "Resina",
+      "price": 1649990,
+      "currency": "ARS",
+      "transferPrice": 1567491,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Anycubic",
+        "Impresoras Resina"
+      ],
+      "image": "https://tp3d.com.ar/11511-large_default/preventa-diciembre-impresora-3d-anycubic-mono-m7-max.jpg",
+      "url": "https://tp3d.com.ar/TP3D/2826-preventa-diciembre-impresora-3d-anycubic-mono-m7-max.html",
       "scrapedFrom": "https://tp3d.com.ar/7-impresoras-resina",
       "variants": []
     },
