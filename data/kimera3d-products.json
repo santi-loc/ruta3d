@@ -5,8 +5,8 @@
     "baseUrl": "https://kimera3d.com.ar",
     "apiPath": "/wp-json/wc/store/v1/products"
   },
-  "scrapedAt": "2026-10-10T14:21:46.007Z",
-  "count": 297,
+  "scrapedAt": "2026-10-11T14:47:52.533Z",
+  "count": 296,
   "pages": [
     {
       "page": 1,
@@ -23,8 +23,8 @@
     {
       "page": 3,
       "url": "https://kimera3d.com.ar/wp-json/wc/store/v1/products?per_page=100&page=3",
-      "found": 97,
-      "added": 97
+      "found": 96,
+      "added": 96
     }
   ],
   "products": [
@@ -236,8 +236,8 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 4,
-      "stockLabel": "En stock",
+      "stock": 3,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Creality",
       "tags": [
@@ -653,6 +653,33 @@
       ],
       "image": "https://kimera3d.com.ar/wp-content/uploads/2026/08/3dsparkx-i7combo.5kg-1.jpg",
       "url": "https://kimera3d.com.ar/tienda/impresora-creality-sparkx-i7-color-combo-5kg-de-filamento/",
+      "scrapedFrom": "https://kimera3d.com.ar/wp-json/wc/store/v1/products",
+      "variants": []
+    },
+    {
+      "id": "kimera3d-44712",
+      "sourceProductId": "44712",
+      "store": "Kimera 3D",
+      "domain": "kimera3d.com.ar",
+      "name": "Impresora 3D Creality Ender 3 V3 SE + 5 kg de Filamento Preventa Noviembre",
+      "category": "Impresoras",
+      "price": 445999,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "stock": 8,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Creality",
+      "tags": [
+        "Creality",
+        "PLA",
+        "PETG",
+        "TPU",
+        "cuotas"
+      ],
+      "image": "https://kimera3d.com.ar/wp-content/uploads/2026/08/3dv3se.5kg-1.jpg",
+      "url": "https://kimera3d.com.ar/tienda/impresora-3d-creality-ender-3-v3-se-5-kg-de-filamento/",
       "scrapedFrom": "https://kimera3d.com.ar/wp-json/wc/store/v1/products",
       "variants": []
     },
@@ -1931,32 +1958,6 @@
       ],
       "image": "https://kimera3d.com.ar/wp-content/uploads/2026/07/3391-1.jpg",
       "url": "https://kimera3d.com.ar/tienda/filamento-hellbot-ecofila-pla-flex-plus-1-75mm-1kg/",
-      "scrapedFrom": "https://kimera3d.com.ar/wp-json/wc/store/v1/products",
-      "variants": []
-    },
-    {
-      "id": "kimera3d-43435",
-      "sourceProductId": "43435",
-      "store": "Kimera 3D",
-      "domain": "kimera3d.com.ar",
-      "name": "Filamento Bambulab PLA Lite Recarga Verde 1kg",
-      "category": "Filamentos",
-      "price": 21900,
-      "currency": "ARS",
-      "previousPrice": 25436,
-      "transferPrice": null,
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
-      "available": true,
-      "brand": "Bambu Lab",
-      "tags": [
-        "Bambu Lab",
-        "PLA",
-        "1kg",
-        "recarga"
-      ],
-      "image": "https://kimera3d.com.ar/wp-content/uploads/2026/07/4986-1.jpg",
-      "url": "https://kimera3d.com.ar/tienda/filamento-bambulab-pla-lite-recarga-verde-1kg/",
       "scrapedFrom": "https://kimera3d.com.ar/wp-json/wc/store/v1/products",
       "variants": []
     },
@@ -3525,7 +3526,7 @@
       "currency": "ARS",
       "previousPrice": 28900,
       "transferPrice": null,
-      "stock": 5,
+      "stock": 4,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Creality",
@@ -3552,7 +3553,7 @@
       "currency": "ARS",
       "previousPrice": 28900,
       "transferPrice": null,
-      "stock": 5,
+      "stock": 4,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Creality",
@@ -3633,7 +3634,7 @@
       "currency": "ARS",
       "previousPrice": 28900,
       "transferPrice": null,
-      "stock": 7,
+      "stock": 6,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Creality",
@@ -3701,33 +3702,6 @@
       "variants": []
     },
     {
-      "id": "kimera3d-37778",
-      "sourceProductId": "37778",
-      "store": "Kimera 3D",
-      "domain": "kimera3d.com.ar",
-      "name": "FILAMENTO CREALITY ENDER FAST PLA ROJO FUEGO 1KG",
-      "category": "Impresoras",
-      "price": 22490,
-      "currency": "ARS",
-      "previousPrice": 28900,
-      "transferPrice": null,
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
-      "available": true,
-      "brand": "Creality",
-      "tags": [
-        "Creality",
-        "PLA",
-        "FLEX",
-        "1kg",
-        "cuotas"
-      ],
-      "image": "https://kimera3d.com.ar/wp-content/uploads/2026/03/1247.webp",
-      "url": "https://kimera3d.com.ar/tienda/filamento-creality-ender-fast-pla-rojo-fuego-1kg/",
-      "scrapedFrom": "https://kimera3d.com.ar/wp-json/wc/store/v1/products",
-      "variants": []
-    },
-    {
       "id": "kimera3d-37776",
       "sourceProductId": "37776",
       "store": "Kimera 3D",
@@ -3738,8 +3712,8 @@
       "currency": "ARS",
       "previousPrice": 28900,
       "transferPrice": null,
-      "stock": 4,
-      "stockLabel": "En stock",
+      "stock": 3,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Creality",
       "tags": [
@@ -3792,7 +3766,7 @@
       "currency": "ARS",
       "previousPrice": 28900,
       "transferPrice": null,
-      "stock": 11,
+      "stock": 10,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Creality",
@@ -3819,8 +3793,8 @@
       "currency": "ARS",
       "previousPrice": 28900,
       "transferPrice": null,
-      "stock": 5,
-      "stockLabel": "En stock",
+      "stock": 3,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Creality",
       "tags": [
@@ -7540,7 +7514,7 @@
       "currency": "ARS",
       "previousPrice": 23990,
       "transferPrice": null,
-      "stock": 1,
+      "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Hellbot",

@@ -4,8 +4,8 @@
     "domain": "todo3dsf.com.ar",
     "baseUrl": "https://www.todo3dsf.com.ar"
   },
-  "scrapedAt": "2026-10-10T14:21:44.120Z",
-  "count": 63,
+  "scrapedAt": "2026-10-11T14:47:49.630Z",
+  "count": 64,
   "pages": [
     {
       "page": 1,
@@ -89,7 +89,7 @@
       "path": "/accesorios",
       "url": "https://www.todo3dsf.com.ar/accesorios",
       "found": 8,
-      "added": 7
+      "added": 8
     },
     {
       "page": 1,
@@ -281,6 +281,32 @@
       "variants": []
     },
     {
+      "id": "todo3dsf-29392168",
+      "sourceProductId": "29392168",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Kit LED Bambú Lab genérico 5W",
+      "category": "Impresoras",
+      "price": 15000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab"
+      ],
+      "image": "https://d22fxaf9t8d39k.cloudfront.net/0ee9428672e1840ac160487795428ae42082b05cc713be1fd7caac08e34a717e32164.webp",
+      "url": "https://www.todo3dsf.com.ar/insumos-3d/kit-led-bambu-lab-generico-5w",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/productos",
+      "variants": []
+    },
+    {
       "id": "todo3dsf-29369396",
       "sourceProductId": "29369396",
       "store": "Todo 3D",
@@ -382,32 +408,6 @@
       ],
       "image": "https://d22fxaf9t8d39k.cloudfront.net/d0b789a9649e9eec826690e2dcf80e8d4546f1f8067ae8763aa417051ee0a72632164.webp",
       "url": "https://www.todo3dsf.com.ar/insumos-3d/repuestos/cr-touch-sensor-autonivelacion-creality-3d-original",
-      "scrapedFrom": "https://www.todo3dsf.com.ar/productos",
-      "variants": []
-    },
-    {
-      "id": "todo3dsf-28622390",
-      "sourceProductId": "28622390",
-      "store": "Todo 3D",
-      "domain": "todo3dsf.com.ar",
-      "name": "Termistor Ender 3 V3 Se",
-      "category": "Impresoras",
-      "price": 9000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "Creality"
-      ],
-      "image": "https://d22fxaf9t8d39k.cloudfront.net/5353c331f1fe40859d0754d8e922676f34df45d993a21cea7e3b4617bfc72d6b32164.webp",
-      "url": "https://www.todo3dsf.com.ar/accesorios/termistor-ender-3-v3-se",
       "scrapedFrom": "https://www.todo3dsf.com.ar/productos",
       "variants": []
     },
@@ -990,8 +990,8 @@
       "variants": []
     },
     {
-      "id": "todo3dsf-resina-anycubic-dura-1kg",
-      "sourceProductId": "resina-anycubic-dura-1kg",
+      "id": "todo3dsf-23438800",
+      "sourceProductId": "23438800",
       "store": "Todo 3D",
       "domain": "todo3dsf.com.ar",
       "name": "Resina Anycubic Dura 1kg",
@@ -1000,10 +1000,12 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
       "brand": "Anycubic",
       "tags": [
         "Anycubic",
@@ -1334,6 +1336,32 @@
       "image": "https://d22fxaf9t8d39k.cloudfront.net/8eba8a641c0e0f2bf4091e35e4950d89d8a3859651d27358b6cb8ac53a289b0e32164.jpg",
       "url": "https://www.todo3dsf.com.ar/impresoras-3d/maquina-de-secado-de-filamento-space-pi-creality",
       "scrapedFrom": "https://www.todo3dsf.com.ar/impresoras-3d",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-28622390",
+      "sourceProductId": "28622390",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Termistor Ender 3 V3 Se",
+      "category": "Impresoras",
+      "price": 9000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Creality"
+      ],
+      "image": "https://d22fxaf9t8d39k.cloudfront.net/5353c331f1fe40859d0754d8e922676f34df45d993a21cea7e3b4617bfc72d6b32164.webp",
+      "url": "https://www.todo3dsf.com.ar/accesorios/termistor-ender-3-v3-se",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/accesorios",
       "variants": []
     },
     {

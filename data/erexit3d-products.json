@@ -5,7 +5,7 @@
     "baseUrl": "https://erexit3d.com",
     "listingPath": "/productos/"
   },
-  "scrapedAt": "2026-10-10T14:21:16.527Z",
+  "scrapedAt": "2026-10-11T14:47:22.830Z",
   "count": 64,
   "pages": [
     {
@@ -62,7 +62,7 @@
       "price": 1464900,
       "currency": "ARS",
       "transferPrice": 1391655,
-      "stock": 16,
+      "stock": 8,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -78,7 +78,7 @@
           "id": 1300553002,
           "sku": "BAMBU-A1COMBMULT",
           "price": 1464900,
-          "stock": 8,
+          "stock": 4,
           "available": true,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/bambu-a1-combo-fondo-blanco-3213485e9028a932e617905389451630-1024-1024.webp"
@@ -174,7 +174,7 @@
       "price": 28110,
       "currency": "ARS",
       "transferPrice": 26704.5,
-      "stock": 1094,
+      "stock": 1088,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -202,7 +202,7 @@
           "id": 1604038186,
           "sku": "BAMBU-PLALITECARR-VER",
           "price": 28110,
-          "stock": 41,
+          "stock": 40,
           "available": true,
           "options": [
             "Verde"
@@ -224,7 +224,7 @@
           "id": 1604038196,
           "sku": "BAMBU-PLALITECARR-BLA",
           "price": 28110,
-          "stock": 106,
+          "stock": 105,
           "available": true,
           "options": [
             "Blanco"
@@ -235,7 +235,7 @@
           "id": 1604038208,
           "sku": "BAMBU-PLALITECARR-AMA",
           "price": 28110,
-          "stock": 34,
+          "stock": 33,
           "available": true,
           "options": [
             "Amarillo"
@@ -331,7 +331,7 @@
       "price": 968900,
       "currency": "ARS",
       "transferPrice": 920455,
-      "stock": 6,
+      "stock": 8,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -346,7 +346,7 @@
           "id": 1300529798,
           "sku": "BAMBU-A1",
           "price": 968900,
-          "stock": 3,
+          "stock": 4,
           "available": true,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/bambu-lab-a1-2-1-895d2224d34539786317564974616120-1024-1024.webp"
@@ -383,6 +383,163 @@
           "available": true,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/a1-combo-1000x1000-079d86bab7f7766dc617786840937646-1024-1024.png"
+        }
+      ]
+    },
+    {
+      "id": "erexit3d-369450626",
+      "sourceProductId": "369450626",
+      "store": "Erexit 3D",
+      "domain": "erexit3d.com",
+      "name": "Filamento Bambu Lab PLA Lite Sin Carrete 1.75mm 1KG",
+      "category": "Filamentos",
+      "price": 22840,
+      "currency": "ARS",
+      "transferPrice": 21698,
+      "stock": 1322,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab",
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/naranja_sinrfid-fed358650fce1a048b17902992853884-1024-1024.webp",
+      "url": "https://erexit3d.com/productos/filamento-bambu-lab-pla-lite-sin-carrete-1-75mm-1kg-1rclp/",
+      "scrapedFrom": "https://erexit3d.com/productos/",
+      "variants": [
+        {
+          "id": 1604038274,
+          "sku": "BAMBU-PLALITESINCARR-NAR",
+          "price": 22840,
+          "stock": 42,
+          "available": true,
+          "options": [
+            "Naranja"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/naranja_sinrfid-fed358650fce1a048b17902992853884-1024-1024.webp"
+        },
+        {
+          "id": 1604038280,
+          "sku": "BAMBU-PLALITESINCARR-CIA",
+          "price": 22840,
+          "stock": 54,
+          "available": true,
+          "options": [
+            "Cyan"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/cian_sinrfid-4e312892238742098a17902992892962-1024-1024.webp"
+        },
+        {
+          "id": 1604038282,
+          "sku": "BAMBU-PLALITESINCARR-AZU",
+          "price": 22840,
+          "stock": 106,
+          "available": true,
+          "options": [
+            "Azul"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/azul_sinrfid-593691d54400c2cbc917902992926184-1024-1024.webp"
+        },
+        {
+          "id": 1604038290,
+          "sku": "BAMBU-PLALITESINCARR-GRI",
+          "price": 22840,
+          "stock": 47,
+          "available": true,
+          "options": [
+            "Gris"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/gris_sinrfid-48c1e251165511b2c617902992966521-1024-1024.webp"
+        },
+        {
+          "id": 1604038309,
+          "sku": "BAMBU-PLALITESINCARR-VER",
+          "price": 22840,
+          "stock": 45,
+          "available": true,
+          "options": [
+            "Verde"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/verde_sinrfid-b4338949f9a97216cb17902993001067-1024-1024.webp"
+        },
+        {
+          "id": 1604038318,
+          "sku": "BAMBU-PLALITESINCARR-NEG",
+          "price": 22840,
+          "stock": 126,
+          "available": true,
+          "options": [
+            "Negro"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/negro_sinrfid-1f1cbcf08e525b0a3617902993032957-1024-1024.webp"
+        },
+        {
+          "id": 1604038323,
+          "sku": "BAMBU-PLALITESINCARR-ROJ",
+          "price": 22840,
+          "stock": 49,
+          "available": true,
+          "options": [
+            "Rojo"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/rojo_sinrfid-33ff746c81890c242c17902993065616-1024-1024.webp"
+        },
+        {
+          "id": 1604038326,
+          "sku": "BAMBU-PLALITESINCARR-BLA",
+          "price": 22840,
+          "stock": 60,
+          "available": true,
+          "options": [
+            "Blanco"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/blanco_sinrfid-9121bd2ed880f5ea2217902993095896-1024-1024.webp"
+        },
+        {
+          "id": 1604038331,
+          "sku": "BAMBU-PLALITESINCARR-AMA",
+          "price": 22840,
+          "stock": 55,
+          "available": true,
+          "options": [
+            "Amarillo"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/amarillo_sinrfid-4a4c062f9d0d788c1d17902993124897-1024-1024.webp"
+        },
+        {
+          "id": 1604038337,
+          "sku": "BAMBU-PLALITESINCARR-AMAGIR",
+          "price": 22840,
+          "stock": 54,
+          "available": true,
+          "options": [
+            "Amarillo Girasol"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/amarillo_girasol_sinrfid-5e87367559dbf6fbd417902993156340-1024-1024.webp"
+        },
+        {
+          "id": 1605467791,
+          "sku": "BAMBU-PLALITESINCARR-NEGMAT",
+          "price": 20400,
+          "stock": 0,
+          "available": false,
+          "options": [
+            "Negro Mate"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/negromate_sinrfid-46e146bfb6863f441f17902993428828-1024-1024.webp"
+        },
+        {
+          "id": 1610835481,
+          "sku": "BAMBU-PLALITESINCARR-BEI",
+          "price": 22840,
+          "stock": 23,
+          "available": true,
+          "options": [
+            "Beige"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/d_nq_np_762110-mla116854262620_092026-f-615a9c716175d92c2b17909664992689-1024-1024.webp"
         }
       ]
     },
@@ -499,163 +656,6 @@
       ]
     },
     {
-      "id": "erexit3d-369450626",
-      "sourceProductId": "369450626",
-      "store": "Erexit 3D",
-      "domain": "erexit3d.com",
-      "name": "Filamento Bambu Lab PLA Lite Sin Carrete 1.75mm 1KG",
-      "category": "Filamentos",
-      "price": 22840,
-      "currency": "ARS",
-      "transferPrice": 21698,
-      "stock": 1350,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Bambu Lab",
-      "tags": [
-        "Bambu Lab",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/naranja_sinrfid-fed358650fce1a048b17902992853884-1024-1024.webp",
-      "url": "https://erexit3d.com/productos/filamento-bambu-lab-pla-lite-sin-carrete-1-75mm-1kg-1rclp/",
-      "scrapedFrom": "https://erexit3d.com/productos/",
-      "variants": [
-        {
-          "id": 1604038274,
-          "sku": "BAMBU-PLALITESINCARR-NAR",
-          "price": 22840,
-          "stock": 44,
-          "available": true,
-          "options": [
-            "Naranja"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/naranja_sinrfid-fed358650fce1a048b17902992853884-1024-1024.webp"
-        },
-        {
-          "id": 1604038280,
-          "sku": "BAMBU-PLALITESINCARR-CIA",
-          "price": 22840,
-          "stock": 56,
-          "available": true,
-          "options": [
-            "Cyan"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/cian_sinrfid-4e312892238742098a17902992892962-1024-1024.webp"
-        },
-        {
-          "id": 1604038282,
-          "sku": "BAMBU-PLALITESINCARR-AZU",
-          "price": 22840,
-          "stock": 108,
-          "available": true,
-          "options": [
-            "Azul"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/azul_sinrfid-593691d54400c2cbc917902992926184-1024-1024.webp"
-        },
-        {
-          "id": 1604038290,
-          "sku": "BAMBU-PLALITESINCARR-GRI",
-          "price": 22840,
-          "stock": 47,
-          "available": true,
-          "options": [
-            "Gris"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/gris_sinrfid-48c1e251165511b2c617902992966521-1024-1024.webp"
-        },
-        {
-          "id": 1604038309,
-          "sku": "BAMBU-PLALITESINCARR-VER",
-          "price": 22840,
-          "stock": 47,
-          "available": true,
-          "options": [
-            "Verde"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/verde_sinrfid-b4338949f9a97216cb17902993001067-1024-1024.webp"
-        },
-        {
-          "id": 1604038318,
-          "sku": "BAMBU-PLALITESINCARR-NEG",
-          "price": 22840,
-          "stock": 126,
-          "available": true,
-          "options": [
-            "Negro"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/negro_sinrfid-1f1cbcf08e525b0a3617902993032957-1024-1024.webp"
-        },
-        {
-          "id": 1604038323,
-          "sku": "BAMBU-PLALITESINCARR-ROJ",
-          "price": 22840,
-          "stock": 49,
-          "available": true,
-          "options": [
-            "Rojo"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/rojo_sinrfid-33ff746c81890c242c17902993065616-1024-1024.webp"
-        },
-        {
-          "id": 1604038326,
-          "sku": "BAMBU-PLALITESINCARR-BLA",
-          "price": 22840,
-          "stock": 60,
-          "available": true,
-          "options": [
-            "Blanco"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/blanco_sinrfid-9121bd2ed880f5ea2217902993095896-1024-1024.webp"
-        },
-        {
-          "id": 1604038331,
-          "sku": "BAMBU-PLALITESINCARR-AMA",
-          "price": 22840,
-          "stock": 57,
-          "available": true,
-          "options": [
-            "Amarillo"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/amarillo_sinrfid-4a4c062f9d0d788c1d17902993124897-1024-1024.webp"
-        },
-        {
-          "id": 1604038337,
-          "sku": "BAMBU-PLALITESINCARR-AMAGIR",
-          "price": 22840,
-          "stock": 56,
-          "available": true,
-          "options": [
-            "Amarillo Girasol"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/amarillo_girasol_sinrfid-5e87367559dbf6fbd417902993156340-1024-1024.webp"
-        },
-        {
-          "id": 1605467791,
-          "sku": "BAMBU-PLALITESINCARR-NEGMAT",
-          "price": 20400,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Negro Mate"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/negromate_sinrfid-46e146bfb6863f441f17902993428828-1024-1024.webp"
-        },
-        {
-          "id": 1610835481,
-          "sku": "BAMBU-PLALITESINCARR-BEI",
-          "price": 22840,
-          "stock": 25,
-          "available": true,
-          "options": [
-            "Beige"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/d_nq_np_762110-mla116854262620_092026-f-615a9c716175d92c2b17909664992689-1024-1024.webp"
-        }
-      ]
-    },
-    {
       "id": "erexit3d-370120274",
       "sourceProductId": "370120274",
       "store": "Erexit 3D",
@@ -665,7 +665,7 @@
       "price": 24444,
       "currency": "ARS",
       "transferPrice": 23221.8,
-      "stock": 316,
+      "stock": 312,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Elegoo",
@@ -726,7 +726,7 @@
           "id": 1606433171,
           "sku": "ELG-PLA1KG-AMA",
           "price": 24444,
-          "stock": 36,
+          "stock": 35,
           "available": true,
           "options": [
             "Amarillo"
@@ -737,7 +737,7 @@
           "id": 1606433172,
           "sku": "ELG-PLA1KG-PUR",
           "price": 24444,
-          "stock": 10,
+          "stock": 9,
           "available": true,
           "options": [
             "Violeta"
@@ -800,7 +800,7 @@
       "price": 23668,
       "currency": "ARS",
       "transferPrice": 22484.6,
-      "stock": 1106,
+      "stock": 1104,
       "stockLabel": "En stock",
       "available": true,
       "brand": "FlashForge",
@@ -927,7 +927,7 @@
           "id": 1606433074,
           "sku": "FF-PLA1KG-CEL",
           "price": 23668,
-          "stock": 49,
+          "stock": 48,
           "available": true,
           "options": [
             "Celeste"
@@ -1078,7 +1078,7 @@
       "price": 21990,
       "currency": "ARS",
       "transferPrice": 20890.5,
-      "stock": 886,
+      "stock": 880,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -1095,7 +1095,7 @@
           "id": 1606434673,
           "sku": "HB-ECOFPLA1-BLA",
           "price": 21990,
-          "stock": 106,
+          "stock": 103,
           "available": true,
           "options": [
             "Blanco"
@@ -1268,7 +1268,7 @@
       "price": 25500,
       "currency": "ARS",
       "transferPrice": 24225,
-      "stock": 466,
+      "stock": 462,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -1285,7 +1285,7 @@
           "id": 1605469060,
           "sku": "BAMBU-PETGBASCARR-NEG",
           "price": 25500,
-          "stock": 71,
+          "stock": 70,
           "available": true,
           "options": [
             "Negro"
@@ -1307,7 +1307,7 @@
           "id": 1605469069,
           "sku": "BAMBU-PETGBASCARR-GRI",
           "price": 25500,
-          "stock": 14,
+          "stock": 13,
           "available": true,
           "options": [
             "Gris"
@@ -1348,7 +1348,7 @@
       "price": 21260,
       "currency": "ARS",
       "transferPrice": 20197,
-      "stock": 208,
+      "stock": 198,
       "stockLabel": "En stock",
       "available": true,
       "brand": "GST3D",
@@ -1365,7 +1365,7 @@
           "id": 1606434572,
           "sku": "GSTCOSMOS-PLA-BLACK",
           "price": 21260,
-          "stock": 26,
+          "stock": 25,
           "available": true,
           "options": [
             "Negro"
@@ -1376,7 +1376,7 @@
           "id": 1606434573,
           "sku": "GSTCOSMOS-PLA-WHITE",
           "price": 21260,
-          "stock": 24,
+          "stock": 23,
           "available": true,
           "options": [
             "Blanco"
@@ -1387,7 +1387,7 @@
           "id": 1606434574,
           "sku": "GSTCOSMOS-PLA-GREY",
           "price": 21260,
-          "stock": 13,
+          "stock": 12,
           "available": true,
           "options": [
             "Gris"
@@ -1431,7 +1431,7 @@
           "id": 1606434579,
           "sku": "GSTCOSMOS-PLA-PURPLE",
           "price": 21260,
-          "stock": 11,
+          "stock": 9,
           "available": true,
           "options": [
             "Violeta"
@@ -1472,7 +1472,7 @@
       "price": 19990,
       "currency": "ARS",
       "transferPrice": 18990.5,
-      "stock": 492,
+      "stock": 488,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -1510,7 +1510,7 @@
           "id": 1606434991,
           "sku": "HB-ECOFRECAPLA-PIE",
           "price": 19990,
-          "stock": 20,
+          "stock": 19,
           "available": true,
           "options": [
             "Piel"
@@ -1598,7 +1598,7 @@
           "id": 1606435000,
           "sku": "HB-ECOFRECAPLA-MAR-2",
           "price": 19990,
-          "stock": 10,
+          "stock": 9,
           "available": true,
           "options": [
             "Marron"
@@ -1963,7 +1963,7 @@
       "price": 21000,
       "currency": "ARS",
       "transferPrice": 19950,
-      "stock": 312,
+      "stock": 310,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -1980,7 +1980,7 @@
           "id": 1605469088,
           "sku": "BAMBU-PETGBASSINCARR-NEG",
           "price": 21000,
-          "stock": 51,
+          "stock": 50,
           "available": true,
           "options": [
             "Negro"
@@ -2357,7 +2357,7 @@
       "price": 24638,
       "currency": "ARS",
       "transferPrice": 23406.1,
-      "stock": 52,
+      "stock": 46,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -2372,7 +2372,7 @@
           "id": 1606433052,
           "sku": "FF-PLASILK1-MARCAF",
           "price": 24638,
-          "stock": 9,
+          "stock": 8,
           "available": true,
           "options": [
             "Café"
@@ -2383,7 +2383,7 @@
           "id": 1606433053,
           "sku": "FF-PLASILK1-OROROS",
           "price": 24638,
-          "stock": 3,
+          "stock": 1,
           "available": true,
           "options": [
             "Oro Rosa"
