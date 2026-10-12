@@ -5,7 +5,7 @@
     "baseUrl": "https://laboratorio3d.com.ar",
     "listingPath": "/productos/"
   },
-  "scrapedAt": "2026-10-11T14:47:24.053Z",
+  "scrapedAt": "2026-10-12T17:35:34.260Z",
   "count": 84,
   "pages": [
     {
@@ -39,7 +39,7 @@
       "currency": "ARS",
       "transferPrice": 20309.38,
       "purchaseModes": [],
-      "stock": 1724,
+      "stock": 1704,
       "stockLabel": "En stock",
       "available": true,
       "brand": "FILALAB",
@@ -57,7 +57,7 @@
           "sku": "FILALAB-PLAMATTE-BLACK",
           "price": 22318,
           "isDeposit": false,
-          "stock": 319,
+          "stock": 316,
           "available": true,
           "options": [
             "Negro Matte"
@@ -69,7 +69,7 @@
           "sku": "FILALAB-PLAMATTE-WHITE",
           "price": 22318,
           "isDeposit": false,
-          "stock": 463,
+          "stock": 457,
           "available": true,
           "options": [
             "Blanco Matte"
@@ -105,7 +105,7 @@
           "sku": "FILALAB-PLAMATTE-TEALGREEN",
           "price": 22318,
           "isDeposit": false,
-          "stock": 46,
+          "stock": 45,
           "available": true,
           "options": [
             "Verde Azulado Matte"
@@ -233,7 +233,7 @@
       "currency": "ARS",
       "transferPrice": 18534.88,
       "purchaseModes": [],
-      "stock": 890,
+      "stock": 874,
       "stockLabel": "En stock",
       "available": true,
       "brand": "FILASUR",
@@ -263,7 +263,7 @@
           "sku": "FILASURBE",
           "price": 20368,
           "isDeposit": false,
-          "stock": 151,
+          "stock": 148,
           "available": true,
           "options": [
             "Beige"
@@ -371,7 +371,7 @@
           "sku": "FILASURROJO",
           "price": 20368,
           "isDeposit": false,
-          "stock": 103,
+          "stock": 102,
           "available": true,
           "options": [
             "Rojo"
@@ -383,7 +383,7 @@
           "sku": "FILASURAZPER",
           "price": 20368,
           "isDeposit": false,
-          "stock": 16,
+          "stock": 15,
           "available": true,
           "options": [
             "Azul Perlado"
@@ -395,8 +395,8 @@
           "sku": "FILASURNARPRA",
           "price": 20368,
           "isDeposit": false,
-          "stock": 1,
-          "available": true,
+          "stock": 0,
+          "available": false,
           "options": [
             "Naranja Praga"
           ],
@@ -455,7 +455,7 @@
           "sku": "FILASURCELE",
           "price": 20368,
           "isDeposit": false,
-          "stock": 58,
+          "stock": 56,
           "available": true,
           "options": [
             "Celeste"
@@ -815,7 +815,7 @@
       "currency": "ARS",
       "transferPrice": 22295,
       "purchaseModes": [],
-      "stock": 344,
+      "stock": 342,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Printalot",
@@ -965,7 +965,7 @@
           "sku": "FPLA17510116",
           "price": 24500,
           "isDeposit": false,
-          "stock": 15,
+          "stock": 14,
           "available": true,
           "options": [
             "Azul"
@@ -1277,7 +1277,7 @@
       "currency": "ARS",
       "transferPrice": 19656,
       "purchaseModes": [],
-      "stock": 728,
+      "stock": 722,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -1294,7 +1294,7 @@
           "sku": "BambuLITESCBLA",
           "price": 21600,
           "isDeposit": false,
-          "stock": 47,
+          "stock": 46,
           "available": true,
           "options": [
             "Blanco"
@@ -1306,7 +1306,7 @@
           "sku": "BambuLITESCNEG",
           "price": 21600,
           "isDeposit": false,
-          "stock": 56,
+          "stock": 55,
           "available": true,
           "options": [
             "Negro"
@@ -1366,7 +1366,7 @@
           "sku": "BambuLITESCVER",
           "price": 21600,
           "isDeposit": false,
-          "stock": 57,
+          "stock": 56,
           "available": true,
           "options": [
             "Verde"
@@ -1580,7 +1580,7 @@
       "currency": "ARS",
       "transferPrice": 23545.34,
       "purchaseModes": [],
-      "stock": 446,
+      "stock": 438,
       "stockLabel": "En stock",
       "available": true,
       "brand": "FILALAB",
@@ -1610,7 +1610,7 @@
           "sku": "FILALAB-DUALSILK-GREEN-RED",
           "price": 25874,
           "isDeposit": false,
-          "stock": 37,
+          "stock": 35,
           "available": true,
           "options": [
             "DUAL SILK Rojo Verde"
@@ -1634,7 +1634,7 @@
           "sku": "FILALAB-DUALSILK-BLUE-PURPLE",
           "price": 25874,
           "isDeposit": false,
-          "stock": 9,
+          "stock": 8,
           "available": true,
           "options": [
             "DUAL SILK Azul Purpura"
@@ -1682,7 +1682,7 @@
           "sku": "FILALAB-DUALSILK-BLACK-GREEN",
           "price": 25874,
           "isDeposit": false,
-          "stock": 78,
+          "stock": 77,
           "available": true,
           "options": [
             "DUAL SILK Verde Negro"
@@ -1698,15 +1698,15 @@
       "domain": "laboratorio3d.com.ar",
       "name": "Impresora 3D Snapmaker U1",
       "category": "Impresoras",
-      "price": 2190000,
+      "price": 2290000,
       "currency": "ARS",
-      "transferPrice": 1992900,
+      "transferPrice": 2083900,
       "purchaseModes": [
         "Preventa",
         "Entrega inmediata"
       ],
-      "stock": 0,
-      "stockLabel": "Consultar",
+      "stock": 44,
+      "stockLabel": "En stock",
       "available": true,
       "brand": "Snapmaker",
       "tags": [
@@ -1719,7 +1719,7 @@
         {
           "id": 1585323356,
           "sku": "SNAPPVTA-SEP",
-          "price": 2190000,
+          "price": 2290000,
           "isDeposit": false,
           "stock": null,
           "available": true,
@@ -1734,8 +1734,8 @@
           "sku": "SNAP-INMEDIATA",
           "price": 2490000,
           "isDeposit": false,
-          "stock": 0,
-          "available": false,
+          "stock": 44,
+          "available": true,
           "options": [
             "ENTREGA INMEDIATA",
             "FDM"
@@ -1886,7 +1886,7 @@
       "purchaseModes": [
         "Preventa"
       ],
-      "stock": 260,
+      "stock": 248,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -1902,7 +1902,7 @@
           "sku": "BB-LAB-A2LCOMBO",
           "price": 1649600,
           "isDeposit": false,
-          "stock": 65,
+          "stock": 62,
           "available": true,
           "options": [
             "PREVENTA - ENTREGA NOVIEMBRE"
@@ -1914,7 +1914,7 @@
           "sku": "BB-LAB-A2LCOMBO",
           "price": 824800,
           "isDeposit": true,
-          "stock": 65,
+          "stock": 62,
           "available": true,
           "options": [
             "SEÑA PREVENTA NOVIEMBRE"
@@ -1934,7 +1934,7 @@
       "currency": "ARS",
       "transferPrice": 34578.18,
       "purchaseModes": [],
-      "stock": 208,
+      "stock": 206,
       "stockLabel": "En stock",
       "available": true,
       "brand": "FILALAB",
@@ -1952,7 +1952,7 @@
           "sku": "FILALAB-PETG-CF",
           "price": 37998,
           "isDeposit": false,
-          "stock": 104,
+          "stock": 103,
           "available": true,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/1-446bc747bfd4ec5ae017786761397680-1024-1024.webp"
@@ -1972,7 +1972,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 14,
+      "stock": 12,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -1988,7 +1988,7 @@
           "sku": "BBLAB-A1",
           "price": 968900,
           "isDeposit": false,
-          "stock": 7,
+          "stock": 6,
           "available": true,
           "options": [
             "ENTREGA INMEDIATA",
@@ -2256,7 +2256,7 @@
       "currency": "ARS",
       "transferPrice": 34578.18,
       "purchaseModes": [],
-      "stock": 168,
+      "stock": 166,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -2273,7 +2273,7 @@
           "sku": "FILALAB-PETG-GF",
           "price": 37998,
           "isDeposit": false,
-          "stock": 84,
+          "stock": 83,
           "available": true,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/1-e3f3aefc45e46c69cc17786750648670-1024-1024.webp"
@@ -2403,7 +2403,7 @@
       "currency": "ARS",
       "transferPrice": 24843,
       "purchaseModes": [],
-      "stock": 136,
+      "stock": 138,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -2443,7 +2443,7 @@
           "sku": "FFLE17510110",
           "price": 27300,
           "isDeposit": false,
-          "stock": 11,
+          "stock": 12,
           "available": true,
           "options": [
             "Rojo"
@@ -2942,7 +2942,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 32,
+      "stock": 30,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -2958,7 +2958,7 @@
           "sku": "BB-A2L-INM",
           "price": 1373900,
           "isDeposit": false,
-          "stock": 16,
+          "stock": 15,
           "available": true,
           "options": [
             "Entrega inmediata"
@@ -3017,7 +3017,7 @@
       "currency": "ARS",
       "transferPrice": 2912,
       "purchaseModes": [],
-      "stock": 12,
+      "stock": 10,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -3031,7 +3031,7 @@
           "sku": "CVARSPRAR001",
           "price": 3200,
           "isDeposit": false,
-          "stock": 6,
+          "stock": 5,
           "available": true,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/cvarsprar001-773ed7d467699549c217883805336625-1024-1024.webp"
@@ -3408,7 +3408,7 @@
       "currency": "ARS",
       "transferPrice": 1070979,
       "purchaseModes": [],
-      "stock": 6,
+      "stock": 4,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -3424,7 +3424,7 @@
           "sku": "",
           "price": 1176900,
           "isDeposit": false,
-          "stock": 3,
+          "stock": 2,
           "available": true,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/237-9830716a925b53c78217915727953807-1024-1024.webp"
@@ -3476,7 +3476,7 @@
       "currency": "ARS",
       "transferPrice": 983800.09,
       "purchaseModes": [],
-      "stock": 16,
+      "stock": 14,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Creality",
@@ -3492,7 +3492,7 @@
           "sku": "SPARK-COMBO",
           "price": 1081099,
           "isDeposit": false,
-          "stock": 8,
+          "stock": 7,
           "available": true,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/2-da65c79477600c8b6417800762650238-1024-1024.webp"

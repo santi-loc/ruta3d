@@ -5,14 +5,14 @@
     "baseUrl": "https://filacolor.com.ar",
     "apiPath": "/wp-json/wc/store/v1/products"
   },
-  "scrapedAt": "2026-10-11T14:47:23.045Z",
+  "scrapedAt": "2026-10-12T17:35:31.993Z",
   "source": "https://filacolor.com.ar/wp-json/wc/store/v1/products",
   "pages": [
     {
       "page": 1,
       "url": "https://filacolor.com.ar/wp-json/wc/store/v1/products?per_page=100&page=1",
-      "found": 50,
-      "added": 39
+      "found": 49,
+      "added": 38
     }
   ],
   "products": [
@@ -166,14 +166,6 @@
       "scrapedFrom": "https://filacolor.com.ar/wp-json/wc/store/v1/products",
       "variants": [
         {
-          "id": "filacolor-11228",
-          "sku": "11228",
-          "available": true,
-          "options": [
-            "Colores: aluminio"
-          ]
-        },
-        {
           "id": "filacolor-11229",
           "sku": "11229",
           "available": true,
@@ -257,14 +249,6 @@
           ]
         },
         {
-          "id": "filacolor-11183",
-          "sku": "11183",
-          "available": true,
-          "options": [
-            "Colores: celeste"
-          ]
-        },
-        {
           "id": "filacolor-11184",
           "sku": "11184",
           "available": true,
@@ -331,14 +315,6 @@
       "scrapedFrom": "https://filacolor.com.ar/wp-json/wc/store/v1/products",
       "variants": [
         {
-          "id": "filacolor-11378",
-          "sku": "11378",
-          "available": true,
-          "options": [
-            "Colores: azul"
-          ]
-        },
-        {
           "id": "filacolor-11379",
           "sku": "11379",
           "available": true,
@@ -352,22 +328,6 @@
           "available": true,
           "options": [
             "Colores: gris"
-          ]
-        },
-        {
-          "id": "filacolor-11381",
-          "sku": "11381",
-          "available": true,
-          "options": [
-            "Colores: negro"
-          ]
-        },
-        {
-          "id": "filacolor-11382",
-          "sku": "11382",
-          "available": true,
-          "options": [
-            "Colores: rojo"
           ]
         }
       ]
@@ -403,14 +363,6 @@
           "available": true,
           "options": [
             "Colores: blanco"
-          ]
-        },
-        {
-          "id": "filacolor-11397",
-          "sku": "11397",
-          "available": true,
-          "options": [
-            "Colores: negro"
           ]
         }
       ]
@@ -1432,14 +1384,6 @@
           ]
         },
         {
-          "id": "filacolor-5348",
-          "sku": "5348",
-          "available": true,
-          "options": [
-            "Colores: amarillo-fluo"
-          ]
-        },
-        {
           "id": "filacolor-5352",
           "sku": "5352",
           "available": true,
@@ -1778,42 +1722,6 @@
           "available": true,
           "options": [
             "Colores: rosa"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "filacolor-6913",
-      "sourceProductId": "6913",
-      "store": "Filacolor",
-      "domain": "filacolor.com.ar",
-      "name": "Fremover PLA+ High Speed PLA MATTE",
-      "category": "Filamentos",
-      "price": 18600,
-      "currency": "ARS",
-      "previousPrice": 21000,
-      "transferPrice": null,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Fremover",
-      "tags": [
-        "Fremover",
-        "PLA+",
-        "PLA",
-        "1kg",
-        "Matte"
-      ],
-      "image": "https://filacolor.com.ar/wp-content/uploads/2025/07/fremattecalabaza.png",
-      "url": "https://filacolor.com.ar/producto/fremover-pla-high-speed-pla-matte/",
-      "scrapedFrom": "https://filacolor.com.ar/wp-json/wc/store/v1/products",
-      "variants": [
-        {
-          "id": "filacolor-6934",
-          "sku": "6934",
-          "available": true,
-          "options": [
-            "Colores: calabaza"
           ]
         }
       ]
