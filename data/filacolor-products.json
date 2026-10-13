@@ -5,7 +5,7 @@
     "baseUrl": "https://filacolor.com.ar",
     "apiPath": "/wp-json/wc/store/v1/products"
   },
-  "scrapedAt": "2026-10-12T17:35:31.993Z",
+  "scrapedAt": "2026-10-13T15:44:36.214Z",
   "source": "https://filacolor.com.ar/wp-json/wc/store/v1/products",
   "pages": [
     {
@@ -429,14 +429,6 @@
           "available": true,
           "options": [
             "Colores: naranja"
-          ]
-        },
-        {
-          "id": "filacolor-8197",
-          "sku": "8197",
-          "available": true,
-          "options": [
-            "Colores: negro"
           ]
         },
         {
@@ -950,40 +942,6 @@
       ]
     },
     {
-      "id": "filacolor-8730",
-      "sourceProductId": "8730",
-      "store": "Filacolor",
-      "domain": "filacolor.com.ar",
-      "name": "ELEGOO RAPID TPU A95",
-      "category": "Filamentos",
-      "price": 40800,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Elegoo",
-      "tags": [
-        "Elegoo",
-        "TPU",
-        "1kg"
-      ],
-      "image": "https://filacolor.com.ar/wp-content/uploads/2025/11/RAPID-NEGRO.webp",
-      "url": "https://filacolor.com.ar/producto/elegoo-rapid-tpu-a95/",
-      "scrapedFrom": "https://filacolor.com.ar/wp-json/wc/store/v1/products",
-      "variants": [
-        {
-          "id": "filacolor-8734",
-          "sku": "8734",
-          "available": true,
-          "options": [
-            "Colores: negro"
-          ]
-        }
-      ]
-    },
-    {
       "id": "filacolor-10928",
       "sourceProductId": "10928",
       "store": "Filacolor",
@@ -1186,6 +1144,40 @@
           "available": true,
           "options": [
             "Colores: verde-rojo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "filacolor-11422",
+      "sourceProductId": "11422",
+      "store": "Filacolor",
+      "domain": "filacolor.com.ar",
+      "name": "ELEGOO TPU A95",
+      "category": "Filamentos",
+      "price": 40800,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Elegoo",
+      "tags": [
+        "Elegoo",
+        "TPU",
+        "1kg"
+      ],
+      "image": "https://filacolor.com.ar/wp-content/uploads/2026/10/TPU_95A-Black-1KG.webp",
+      "url": "https://filacolor.com.ar/producto/elegoo-tpu-a95/",
+      "scrapedFrom": "https://filacolor.com.ar/wp-json/wc/store/v1/products",
+      "variants": [
+        {
+          "id": "filacolor-11423",
+          "sku": "11423",
+          "available": true,
+          "options": [
+            "Colores: negro"
           ]
         }
       ]
@@ -1883,14 +1875,6 @@
           "available": true,
           "options": [
             "Colores: frutilla"
-          ]
-        },
-        {
-          "id": "filacolor-5578",
-          "sku": "5578",
-          "available": true,
-          "options": [
-            "Colores: lavanda"
           ]
         },
         {

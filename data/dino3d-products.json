@@ -5,7 +5,7 @@
     "baseUrl": "https://www.dino3d.com.ar",
     "listingPath": "/productos.php"
   },
-  "scrapedAt": "2026-10-12T17:35:28.230Z",
+  "scrapedAt": "2026-10-13T15:44:32.967Z",
   "count": 505,
   "pages": [
     {
@@ -3538,50 +3538,6 @@
             "Pla Silk"
           ],
           "image": "https://www.dino3d.com.ar/img/productos/DorardOCopa1Silk-20260329104152-ada55c.png"
-        }
-      ]
-    },
-    {
-      "id": "dino3d-FRE-TRI-GGB-SIL",
-      "sourceProductId": "FRE-TRI-GGB-SIL",
-      "store": "Dino 3D",
-      "domain": "dino3d.com.ar",
-      "name": "Gold Green Black Tricolor Silk x 1 Kg",
-      "category": "Filamentos",
-      "price": 23500,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Fremover",
-      "color": "Dorado Verde Negro",
-      "tags": [
-        "Fremover",
-        "Dorado Verde Negro",
-        "PLA",
-        "1kg",
-        "Silk"
-      ],
-      "image": "https://www.dino3d.com.ar/img/productos/PLAHS-Tri-Color-Silk-Silk-GoldGreenBlack-1-20260728171739-dd252a.png",
-      "url": "https://www.dino3d.com.ar/productos.php?q=FRE-TRI-GGB-SIL",
-      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
-      "variants": [
-        {
-          "id": "FRE-TRI-GGB-SIL",
-          "sku": "FRE-TRI-GGB-SIL",
-          "price": 23500,
-          "stock": 1,
-          "available": true,
-          "options": [
-            "Dorado Verde Negro",
-            "Pla Trisilk"
-          ],
-          "image": "https://www.dino3d.com.ar/img/productos/PLAHS-Tri-Color-Silk-Silk-GoldGreenBlack-1-20260728171739-dd252a.png"
         }
       ]
     },
@@ -14924,6 +14880,48 @@
             "Pla Silk"
           ],
           "image": "https://www.dino3d.com.ar/img/productos/GSTLITE-TRISILK-GOLD-COPPER-BLUE-20260506220347-b3beb7.png"
+        }
+      ]
+    },
+    {
+      "id": "dino3d-FRE-TRI-GGB-SIL",
+      "sourceProductId": "FRE-TRI-GGB-SIL",
+      "store": "Dino 3D",
+      "domain": "dino3d.com.ar",
+      "name": "Gold Green Black Tricolor Silk x 1 Kg",
+      "category": "Filamentos",
+      "price": 23500,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Fremover",
+      "color": "Dorado Verde Negro",
+      "tags": [
+        "Fremover",
+        "Dorado Verde Negro",
+        "PLA",
+        "1kg",
+        "Silk"
+      ],
+      "image": "https://www.dino3d.com.ar/img/productos/PLAHS-Tri-Color-Silk-Silk-GoldGreenBlack-1-20260728171739-dd252a.png",
+      "url": "https://www.dino3d.com.ar/productos.php?q=FRE-TRI-GGB-SIL",
+      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
+      "variants": [
+        {
+          "id": "FRE-TRI-GGB-SIL",
+          "sku": "FRE-TRI-GGB-SIL",
+          "price": 23500,
+          "stock": 0,
+          "available": false,
+          "options": [
+            "Dorado Verde Negro",
+            "Pla Trisilk"
+          ],
+          "image": "https://www.dino3d.com.ar/img/productos/PLAHS-Tri-Color-Silk-Silk-GoldGreenBlack-1-20260728171739-dd252a.png"
         }
       ]
     },
