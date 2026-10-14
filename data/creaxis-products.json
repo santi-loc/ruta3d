@@ -5,7 +5,7 @@
     "baseUrl": "https://creaxis.com.ar",
     "apiPath": "/wp-json/wc/store/v1/products"
   },
-  "scrapedAt": "2026-10-13T15:44:34.939Z",
+  "scrapedAt": "2026-10-14T13:27:37.772Z",
   "source": "https://creaxis.com.ar/wp-json/wc/store/v1/products",
   "pages": [
     {
@@ -17,8 +17,8 @@
     {
       "page": 2,
       "url": "https://creaxis.com.ar/wp-json/wc/store/v1/products?per_page=100&page=2",
-      "found": 6,
-      "added": 6
+      "found": 7,
+      "added": 7
     }
   ],
   "products": [
@@ -87,7 +87,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 9,
+      "stock": 8,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Anycubic",
@@ -164,7 +164,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 7,
+      "stock": 6,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -345,8 +345,8 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 4,
-      "stockLabel": "En stock",
+      "stock": 3,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Bambu Lab",
       "tags": [
@@ -453,7 +453,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 2,
+      "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Creality",
@@ -1347,12 +1347,10 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 22690,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
-      "available": true,
+      "purchaseModes": [],
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": "Filar",
       "tags": [
         "Filar",
@@ -1461,12 +1459,10 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 22690,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
-      "available": true,
+      "purchaseModes": [],
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": "Filar",
       "tags": [
         "Filar",
@@ -2527,12 +2523,10 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 20990,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
-      "available": true,
+      "purchaseModes": [],
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": "Hellbot",
       "tags": [
         "Hellbot",
@@ -2870,6 +2864,32 @@
       ],
       "image": "https://creaxis.com.ar/wp-content/uploads/2026/02/Kasseld-High-temp.webp",
       "url": "https://creaxis.com.ar/producto/resina-3d-alta-temperatura-industrial/",
+      "scrapedFrom": "https://creaxis.com.ar/wp-json/wc/store/v1/products",
+      "variants": []
+    },
+    {
+      "id": "creaxis-2376",
+      "sourceProductId": "2376",
+      "store": "Creaxis 3D",
+      "domain": "creaxis.com.ar",
+      "name": "Pago Parcial - Bambu Lab A2L Combo + kit de corte",
+      "category": "Accesorios",
+      "price": 1500000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "Pocas unidades",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab"
+      ],
+      "image": null,
+      "url": "https://creaxis.com.ar/producto/pago-parcial/",
       "scrapedFrom": "https://creaxis.com.ar/wp-json/wc/store/v1/products",
       "variants": []
     },

@@ -5,7 +5,7 @@
     "baseUrl": "https://trimetra3d.com.ar",
     "listingPath": "/productos/"
   },
-  "scrapedAt": "2026-10-13T15:45:04.058Z",
+  "scrapedAt": "2026-10-14T13:28:08.528Z",
   "count": 53,
   "pages": [
     {
@@ -40,7 +40,7 @@
       "previousPrice": null,
       "transferPrice": 19440,
       "purchaseModes": [],
-      "stock": 432,
+      "stock": 394,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -71,7 +71,7 @@
           "sku": "BAMBULAB-PLA_LITE-SUNFLOWER-YELLOW_SC",
           "price": 21600,
           "isDeposit": false,
-          "stock": 14,
+          "stock": 13,
           "available": true,
           "options": [
             "PLA",
@@ -84,8 +84,8 @@
           "sku": "BAMBULAB-PLA_LITE-BLUE_SC",
           "price": 21600,
           "isDeposit": false,
-          "stock": 2,
-          "available": true,
+          "stock": 0,
+          "available": false,
           "options": [
             "PLA",
             "Azul"
@@ -110,7 +110,7 @@
           "sku": "BAMBULAB-PLA_LITE-CYAN_SC",
           "price": 21600,
           "isDeposit": false,
-          "stock": 29,
+          "stock": 26,
           "available": true,
           "options": [
             "PLA",
@@ -123,8 +123,8 @@
           "sku": "BAMBULAB-PLA_LITE-GRAY_SC",
           "price": 21600,
           "isDeposit": false,
-          "stock": 0,
-          "available": false,
+          "stock": 4,
+          "available": true,
           "options": [
             "PLA",
             "Gris"
@@ -162,7 +162,7 @@
           "sku": "BAMBULAB-PLA_LITE-BLACK_SC",
           "price": 21600,
           "isDeposit": false,
-          "stock": 107,
+          "stock": 95,
           "available": true,
           "options": [
             "PLA",
@@ -175,7 +175,7 @@
           "sku": "BAMBULAB-PLA_LITE-RED_SC",
           "price": 21600,
           "isDeposit": false,
-          "stock": 29,
+          "stock": 25,
           "available": true,
           "options": [
             "PLA",
@@ -188,8 +188,8 @@
           "sku": "BAMBULAB-PLA_LITE-GREEN_SC",
           "price": 21600,
           "isDeposit": false,
-          "stock": 1,
-          "available": true,
+          "stock": 0,
+          "available": false,
           "options": [
             "PLA",
             "Verde"
@@ -210,7 +210,7 @@
       "previousPrice": null,
       "transferPrice": 17991,
       "purchaseModes": [],
-      "stock": 400,
+      "stock": 390,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -228,7 +228,7 @@
           "sku": "HELLBOT-PLA_ECO-AMARILLO_SC",
           "price": 19990,
           "isDeposit": false,
-          "stock": 9,
+          "stock": 8,
           "available": true,
           "options": [
             "PLA+",
@@ -358,7 +358,7 @@
           "sku": "HELLBOT-PLA_ECO-COBALTO_SC",
           "price": 19990,
           "isDeposit": false,
-          "stock": 4,
+          "stock": 3,
           "available": true,
           "options": [
             "PLA+",
@@ -475,8 +475,8 @@
           "sku": "HELLBOT-PLA_ECO-MARRON_SC",
           "price": 19990,
           "isDeposit": false,
-          "stock": 1,
-          "available": true,
+          "stock": 0,
+          "available": false,
           "options": [
             "PLA+",
             "Marrón"
@@ -540,7 +540,7 @@
           "sku": "HELLBOT-PLA_ECO-NEGRO_SC",
           "price": 19990,
           "isDeposit": false,
-          "stock": 17,
+          "stock": 15,
           "available": true,
           "options": [
             "PLA+",
@@ -783,7 +783,7 @@
       "previousPrice": null,
       "transferPrice": 23850,
       "purchaseModes": [],
-      "stock": 414,
+      "stock": 410,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -892,7 +892,7 @@
           "sku": "BAMBULAB-PLA_LITE-ORANGE_CC",
           "price": 26500,
           "isDeposit": false,
-          "stock": 17,
+          "stock": 15,
           "available": true,
           "options": [
             "PLA",
@@ -953,7 +953,7 @@
       "previousPrice": null,
       "transferPrice": 1318410,
       "purchaseModes": [],
-      "stock": 16,
+      "stock": 12,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -969,10 +969,47 @@
           "sku": "BAMBULAB-A1COMBO",
           "price": 1464900,
           "isDeposit": false,
-          "stock": 8,
+          "stock": 6,
           "available": true,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambu-lab-a1-combo01-c161995f601bf6183e17758630056747-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "trimetra3d-348934364",
+      "sourceProductId": "348934364",
+      "store": "Trimetra 3D",
+      "domain": "trimetra3d.com.ar",
+      "name": "Bambu Lab — A2L Combo — Preventa Octubre",
+      "category": "Impresoras",
+      "price": 1649600,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 1484640,
+      "purchaseModes": [
+        "Preventa"
+      ],
+      "stock": 54,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab"
+      ],
+      "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambulab-a2lcombo-01-115358caa6e711b37417807758527754-1024-1024.webp",
+      "url": "https://www.trimetra3d.com.ar/productos/bambu-lab-a2l-combo-preventa-octubre/",
+      "scrapedFrom": "https://trimetra3d.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1538870865,
+          "sku": "BAMBULAB-A2LCOMBO-OCT26",
+          "price": 1649600,
+          "isDeposit": false,
+          "stock": 27,
+          "available": true,
+          "options": [],
+          "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambulab-a2lcombo-01-115358caa6e711b37417807758527754-1024-1024.webp"
         }
       ]
     },
@@ -1023,7 +1060,7 @@
       "previousPrice": 1676900,
       "transferPrice": 1476810,
       "purchaseModes": [],
-      "stock": 16,
+      "stock": 12,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -1040,7 +1077,7 @@
           "sku": "BAMBULAB-A1COMBO-8PLA_LITE-CC",
           "price": 1640900,
           "isDeposit": false,
-          "stock": 8,
+          "stock": 6,
           "available": true,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/d_nq_np_2x_933851-mla116765762708_092026-f-dafda6dca2458494e217916514821466-1024-1024.webp"
@@ -1059,7 +1096,7 @@
       "previousPrice": null,
       "transferPrice": 2701710,
       "purchaseModes": [],
-      "stock": 12,
+      "stock": 14,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -1075,7 +1112,7 @@
           "sku": "BAMBULAB-P2SCOMBO",
           "price": 3001900,
           "isDeposit": false,
-          "stock": 6,
+          "stock": 7,
           "available": true,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambu-lab-p2s-combo-2-a0617803cc4974273c17759357881446-1024-1024.webp"
@@ -1236,7 +1273,7 @@
       "previousPrice": 1597400,
       "transferPrice": 1426410,
       "purchaseModes": [],
-      "stock": 16,
+      "stock": 12,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -1253,7 +1290,7 @@
           "sku": "BAMBULAB-A1COMBO-5PLA_LITE-CC",
           "price": 1584900,
           "isDeposit": false,
-          "stock": 8,
+          "stock": 6,
           "available": true,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambulab-a1combo-5pla_lite-cc-0598fd023fb7d31c1717884738642742-1024-1024.webp"
@@ -2291,43 +2328,6 @@
       ]
     },
     {
-      "id": "trimetra3d-348934364",
-      "sourceProductId": "348934364",
-      "store": "Trimetra 3D",
-      "domain": "trimetra3d.com.ar",
-      "name": "Bambu Lab — A2L Combo — Preventa Octubre",
-      "category": "Impresoras",
-      "price": 1649600,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 1484640,
-      "purchaseModes": [
-        "Preventa"
-      ],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Bambu Lab",
-      "tags": [
-        "Bambu Lab"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambulab-a2lcombo-01-115358caa6e711b37417807758527754-1024-1024.webp",
-      "url": "https://www.trimetra3d.com.ar/productos/bambu-lab-a2l-combo-preventa-octubre/",
-      "scrapedFrom": "https://trimetra3d.com.ar/productos/",
-      "variants": [
-        {
-          "id": 1538870865,
-          "sku": "BAMBULAB-A2LCOMBO-OCT26",
-          "price": 1649600,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [],
-          "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambulab-a2lcombo-01-115358caa6e711b37417807758527754-1024-1024.webp"
-        }
-      ]
-    },
-    {
       "id": "trimetra3d-337390358",
       "sourceProductId": "337390358",
       "store": "Trimetra 3D",
@@ -2468,41 +2468,6 @@
       ]
     },
     {
-      "id": "trimetra3d-357654283",
-      "sourceProductId": "357654283",
-      "store": "Trimetra 3D",
-      "domain": "trimetra3d.com.ar",
-      "name": "Creality — Sparkx i7",
-      "category": "Impresoras",
-      "price": 711999,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 640799.1,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Creality",
-      "tags": [
-        "Creality"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/creality-sparkx-i7-1-beba2f689fd7eda62b17850108570256-1024-1024.webp",
-      "url": "https://www.trimetra3d.com.ar/productos/creality-sparx-i7/",
-      "scrapedFrom": "https://trimetra3d.com.ar/productos/",
-      "variants": [
-        {
-          "id": 1565487219,
-          "sku": "CREALITY-SPARKX-I7",
-          "price": 711999,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [],
-          "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/creality-sparkx-i7-1-beba2f689fd7eda62b17850108570256-1024-1024.webp"
-        }
-      ]
-    },
-    {
       "id": "trimetra3d-337293805",
       "sourceProductId": "337293805",
       "store": "Trimetra 3D",
@@ -2606,6 +2571,41 @@
           "available": false,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambulab-a1-5pla_lite-cc-f831f3590a762a088617884704007611-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "trimetra3d-357654283",
+      "sourceProductId": "357654283",
+      "store": "Trimetra 3D",
+      "domain": "trimetra3d.com.ar",
+      "name": "Creality — Sparkx i7",
+      "category": "Impresoras",
+      "price": 711999,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 640799.1,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Creality",
+      "tags": [
+        "Creality"
+      ],
+      "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/creality-sparkx-i7-1-beba2f689fd7eda62b17850108570256-1024-1024.webp",
+      "url": "https://www.trimetra3d.com.ar/productos/creality-sparx-i7/",
+      "scrapedFrom": "https://trimetra3d.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1565487219,
+          "sku": "CREALITY-SPARKX-I7",
+          "price": 711999,
+          "isDeposit": false,
+          "stock": 0,
+          "available": false,
+          "options": [],
+          "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/creality-sparkx-i7-1-beba2f689fd7eda62b17850108570256-1024-1024.webp"
         }
       ]
     },

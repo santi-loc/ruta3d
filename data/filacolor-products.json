@@ -5,14 +5,14 @@
     "baseUrl": "https://filacolor.com.ar",
     "apiPath": "/wp-json/wc/store/v1/products"
   },
-  "scrapedAt": "2026-10-13T15:44:36.214Z",
+  "scrapedAt": "2026-10-14T13:27:39.611Z",
   "source": "https://filacolor.com.ar/wp-json/wc/store/v1/products",
   "pages": [
     {
       "page": 1,
       "url": "https://filacolor.com.ar/wp-json/wc/store/v1/products?per_page=100&page=1",
-      "found": 49,
-      "added": 38
+      "found": 48,
+      "added": 37
     }
   ],
   "products": [
@@ -39,6 +39,14 @@
       "url": "https://filacolor.com.ar/producto/3n3-pla/",
       "scrapedFrom": "https://filacolor.com.ar/wp-json/wc/store/v1/products",
       "variants": [
+        {
+          "id": "filacolor-5448",
+          "sku": "5448",
+          "available": true,
+          "options": [
+            "Colores: amarillo"
+          ]
+        },
         {
           "id": "filacolor-5451",
           "sku": "5451",
@@ -85,6 +93,38 @@
           "available": true,
           "options": [
             "Colores: gris-plomo"
+          ]
+        },
+        {
+          "id": "filacolor-5459",
+          "sku": "5459",
+          "available": true,
+          "options": [
+            "Colores: hueso"
+          ]
+        },
+        {
+          "id": "filacolor-5461",
+          "sku": "5461",
+          "available": true,
+          "options": [
+            "Colores: natural"
+          ]
+        },
+        {
+          "id": "filacolor-5462",
+          "sku": "5462",
+          "available": true,
+          "options": [
+            "Colores: negro"
+          ]
+        },
+        {
+          "id": "filacolor-5464",
+          "sku": "5464",
+          "available": true,
+          "options": [
+            "Colores: rojo"
           ]
         },
         {
@@ -1318,11 +1358,51 @@
           ]
         },
         {
+          "id": "filacolor-5239",
+          "sku": "5239",
+          "available": true,
+          "options": [
+            "Colores: clear-ambar"
+          ]
+        },
+        {
+          "id": "filacolor-5241",
+          "sku": "5241",
+          "available": true,
+          "options": [
+            "Colores: clear-azul"
+          ]
+        },
+        {
+          "id": "filacolor-5245",
+          "sku": "5245",
+          "available": true,
+          "options": [
+            "Colores: clear-verde"
+          ]
+        },
+        {
+          "id": "filacolor-5247",
+          "sku": "5247",
+          "available": true,
+          "options": [
+            "Colores: gris-acero"
+          ]
+        },
+        {
           "id": "filacolor-5250",
           "sku": "5250",
           "available": true,
           "options": [
             "Colores: naranja-praga"
+          ]
+        },
+        {
+          "id": "filacolor-5256",
+          "sku": "5256",
+          "available": true,
+          "options": [
+            "Colores: nova"
           ]
         }
       ]
@@ -1384,6 +1464,14 @@
           ]
         },
         {
+          "id": "filacolor-5354",
+          "sku": "5354",
+          "available": true,
+          "options": [
+            "Colores: blanco"
+          ]
+        },
+        {
           "id": "filacolor-5358",
           "sku": "5358",
           "available": true,
@@ -1405,6 +1493,14 @@
           "available": true,
           "options": [
             "Colores: cobre"
+          ]
+        },
+        {
+          "id": "filacolor-5364",
+          "sku": "5364",
+          "available": true,
+          "options": [
+            "Colores: fucsia"
           ]
         },
         {
@@ -1440,6 +1536,14 @@
           ]
         },
         {
+          "id": "filacolor-5378",
+          "sku": "5378",
+          "available": true,
+          "options": [
+            "Colores: piel-162"
+          ]
+        },
+        {
           "id": "filacolor-5384",
           "sku": "5384",
           "available": true,
@@ -1456,45 +1560,11 @@
           ]
         },
         {
-          "id": "filacolor-5388",
-          "sku": "5388",
+          "id": "filacolor-5394",
+          "sku": "5394",
           "available": true,
           "options": [
-            "Colores: verde"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "filacolor-10976",
-      "sourceProductId": "10976",
-      "store": "Filacolor",
-      "domain": "filacolor.com.ar",
-      "name": "Flashforge Ecopla",
-      "category": "Filamentos",
-      "price": 15000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Flashforge",
-      "tags": [
-        "Flashforge",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://filacolor.com.ar/wp-content/uploads/2026/08/6937120326359.png",
-      "url": "https://filacolor.com.ar/producto/flashforge-ecopla/",
-      "scrapedFrom": "https://filacolor.com.ar/wp-json/wc/store/v1/products",
-      "variants": [
-        {
-          "id": "filacolor-10979",
-          "sku": "10979",
-          "available": true,
-          "options": [
-            "Colores: negro"
+            "Colores: violeta"
           ]
         }
       ]
@@ -1843,6 +1913,14 @@
           "available": true,
           "options": [
             "Colores: arena"
+          ]
+        },
+        {
+          "id": "filacolor-5571",
+          "sku": "5571",
+          "available": true,
+          "options": [
+            "Colores: carbon"
           ]
         },
         {
