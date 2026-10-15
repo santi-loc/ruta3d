@@ -5,7 +5,7 @@
     "baseUrl": "https://erexit3d.com",
     "listingPath": "/productos/"
   },
-  "scrapedAt": "2026-10-14T13:27:39.769Z",
+  "scrapedAt": "2026-10-15T13:12:26.084Z",
   "count": 65,
   "pages": [
     {
@@ -62,7 +62,7 @@
       "price": 1464900,
       "currency": "ARS",
       "transferPrice": 1391655,
-      "stock": 6,
+      "stock": 38,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -78,7 +78,7 @@
           "id": 1300553002,
           "sku": "BAMBU-A1COMBMULT",
           "price": 1464900,
-          "stock": 3,
+          "stock": 19,
           "available": true,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/bambu-a1-combo-fondo-blanco-3213485e9028a932e617905389451630-1024-1024.webp"
@@ -128,7 +128,7 @@
       "price": 28110,
       "currency": "ARS",
       "transferPrice": 26704.5,
-      "stock": 952,
+      "stock": 938,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -145,7 +145,7 @@
           "id": 1604038181,
           "sku": "BAMBU-PLALITECARR-AZU",
           "price": 28110,
-          "stock": 75,
+          "stock": 74,
           "available": true,
           "options": [
             "Azul"
@@ -189,7 +189,7 @@
           "id": 1604038208,
           "sku": "BAMBU-PLALITECARR-AMA",
           "price": 28110,
-          "stock": 27,
+          "stock": 26,
           "available": true,
           "options": [
             "Amarillo"
@@ -200,7 +200,7 @@
           "id": 1604038223,
           "sku": "BAMBU-PLALITECARR-AMAGIR",
           "price": 28110,
-          "stock": 20,
+          "stock": 18,
           "available": true,
           "options": [
             "Amarillo Girasol"
@@ -222,7 +222,7 @@
           "id": 1605467759,
           "sku": "BAMBU-PLALITECARR-ROJ",
           "price": 28110,
-          "stock": 42,
+          "stock": 41,
           "available": true,
           "options": [
             "Rojo"
@@ -255,7 +255,7 @@
           "id": 1610835466,
           "sku": "BAMBU-PLALITECARR-CIA",
           "price": 28110,
-          "stock": 20,
+          "stock": 19,
           "available": true,
           "options": [
             "Cian"
@@ -266,7 +266,7 @@
           "id": 1610837527,
           "sku": "BAMBU-PLALITECARR-GRI",
           "price": 28110,
-          "stock": 17,
+          "stock": 16,
           "available": true,
           "options": [
             "Gris"
@@ -386,6 +386,218 @@
       ]
     },
     {
+      "id": "erexit3d-370120236",
+      "sourceProductId": "370120236",
+      "store": "Erexit 3D",
+      "domain": "erexit3d.com",
+      "name": "FILAMENTO FLASHFORGE PLA 1KG",
+      "category": "Filamentos",
+      "price": 23668,
+      "currency": "ARS",
+      "transferPrice": 22484.6,
+      "stock": 1022,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "FlashForge",
+      "tags": [
+        "FlashForge",
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/plabasic-white-1e6ee34e85a2c7182417567484449395-1024-1024-25c41f330de416706517904027449516-1024-1024.webp",
+      "url": "https://erexit3d.com/productos/filamento-flashforge-pla-1kg-zaqj0/",
+      "scrapedFrom": "https://erexit3d.com/productos/",
+      "variants": [
+        {
+          "id": 1606433058,
+          "sku": "FF-PLA1KG-BLA",
+          "price": 23668,
+          "stock": 108,
+          "available": true,
+          "options": [
+            "Blanco"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/plabasic-white-1e6ee34e85a2c7182417567484449395-1024-1024-25c41f330de416706517904027449516-1024-1024.webp"
+        },
+        {
+          "id": 1606433059,
+          "sku": "FF-PLA1KG-VIO",
+          "price": 25123,
+          "stock": 46,
+          "available": true,
+          "options": [
+            "Violeta"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/plabasic-purple-4306ba2dc3b75725c517567484452372-1024-1024-f5e2110bfe5292b10317904027484212-1024-1024.webp"
+        },
+        {
+          "id": 1606433060,
+          "sku": "FF-PLA1KG-VER",
+          "price": 25123,
+          "stock": 30,
+          "available": true,
+          "options": [
+            "Verde"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/plabasic-green-38e496a784eb2eb69817567484455235-1024-1024-20ddd34425ddc8b39417904027518330-1024-1024.webp"
+        },
+        {
+          "id": 1606433061,
+          "sku": "FF-PLA1KG-ROS",
+          "price": 25123,
+          "stock": 29,
+          "available": true,
+          "options": [
+            "Rosa"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/plabasic-pink-38e20b6e9eaeb0762817567484454034-1024-1024-11241c600f6edf8dfb17904027492659-1024-1024.webp"
+        },
+        {
+          "id": 1606433063,
+          "sku": "FF-PLA1KG-NEG",
+          "price": 23668,
+          "stock": 82,
+          "available": true,
+          "options": [
+            "Negro"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/plabasic-black-51947b1f24978b927c17567484452160-1024-1024-923036ea8f196989ca17904027560673-1024-1024.webp"
+        },
+        {
+          "id": 1606433064,
+          "sku": "FF-PLA1KG-GRI",
+          "price": 25123,
+          "stock": 37,
+          "available": true,
+          "options": [
+            "Gris"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/plabasic-silver-2095d24faedd5410f317567484456491-1024-1024-bd3c00000bed3aed0817904027466996-1024-1024.webp"
+        },
+        {
+          "id": 1606433067,
+          "sku": "FF-PLA1KG-AZU",
+          "price": 25123,
+          "stock": 3,
+          "available": true,
+          "options": [
+            "Azul"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/plabasic-blue-5d33edb8220b81243e17567484452017-1024-1024-5098c43ada20dd238b17904027552244-1024-1024.webp"
+        },
+        {
+          "id": 1606433070,
+          "sku": "FF-PLA1KG-NAR",
+          "price": 25123,
+          "stock": 55,
+          "available": true,
+          "options": [
+            "Naranja"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/plabasic-orange-c3edeeab9a4acff3fd17567484454568-1024-1024-64eb65ab8baaf6cac017904027501604-1024-1024.webp"
+        },
+        {
+          "id": 1606433071,
+          "sku": "FF-PLA1KG-PLA",
+          "price": 35000,
+          "stock": 9,
+          "available": true,
+          "options": [
+            "Titanio"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/plabasic-gray-566f72b8bd77fa311517567484449611-1024-1024-35a4a950bf32ae4b6f17904027526471-1024-1024.webp"
+        },
+        {
+          "id": 1606433073,
+          "sku": "FF-PLA1KG-AMA",
+          "price": 25123,
+          "stock": 0,
+          "available": false,
+          "options": [
+            "Amarillo"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/plabasic-yellow-37db4506e00f51db7717567484448564-1024-1024-3027ed5ee331036abb17904027458601-1024-1024.webp"
+        },
+        {
+          "id": 1606433074,
+          "sku": "FF-PLA1KG-CEL",
+          "price": 23668,
+          "stock": 44,
+          "available": true,
+          "options": [
+            "Celeste"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/repuestos-12-920fabf3c31ad7e24617861316255897-1024-1024-050f662d60ae9e5d1e17904027616041-1024-1024.webp"
+        },
+        {
+          "id": 1606433075,
+          "sku": "FF-PLA1KG-NEGGAL",
+          "price": 26578,
+          "stock": 10,
+          "available": true,
+          "options": [
+            "Negro Galaxia Mate"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/pla-galaxia-mate-92d57dfdd1cda05f5c17891466890468-1024-1024-d27f7e9d53a0d372c717904027658582-1024-1024.webp"
+        },
+        {
+          "id": 1606433080,
+          "sku": "FF-PLA1KG-VERGAL",
+          "price": 26578,
+          "stock": 13,
+          "available": true,
+          "options": [
+            "Verde Galaxia Luminoso"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/pla-verde-luminoso-2c272b34cfaaa50b9117891466479332-1024-1024-5915465b5d4c6eb31d17904027638013-1024-1024.webp"
+        },
+        {
+          "id": 1606433081,
+          "sku": "FF-HSPLA1-NEGMAR",
+          "price": 24638,
+          "stock": 22,
+          "available": true,
+          "options": [
+            "Negro Marmol"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/amarillo-c9b21e1ad5921d19b417891467413121-1024-1024-b8bd3bbe6f68fbf0b517904027696414-1024-1024.webp"
+        },
+        {
+          "id": 1606433082,
+          "sku": "FF-HSPLA1-AZULUM",
+          "price": 34435,
+          "stock": 2,
+          "available": true,
+          "options": [
+            "Azul Luminoso"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/azul-luminoso-1-7bcfe2018adb724a0117891464685736-1024-1024-5901039ac32e26541b17904027678592-1024-1024.webp"
+        },
+        {
+          "id": 1606442212,
+          "sku": "FF-PLA1KG-AMALUM",
+          "price": 34435,
+          "stock": 7,
+          "available": true,
+          "options": [
+            "Amarillo Luminoso"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/hs_pla_neon_yellow_00003-f13704d2e53dacc2d217904068609812-1024-1024.webp"
+        },
+        {
+          "id": 1606442214,
+          "sku": "FF-PLA1KG-MARM",
+          "price": 35000,
+          "stock": 14,
+          "available": true,
+          "options": [
+            "Mármol"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/hs_pla_multicolor_burnt_titanium_00002-98e041971177660d5817904068661066-1024-1024.webp"
+        }
+      ]
+    },
+    {
       "id": "erexit3d-369450626",
       "sourceProductId": "369450626",
       "store": "Erexit 3D",
@@ -395,7 +607,7 @@
       "price": 22840,
       "currency": "ARS",
       "transferPrice": 21698,
-      "stock": 1264,
+      "stock": 1254,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -412,7 +624,7 @@
           "id": 1604038274,
           "sku": "BAMBU-PLALITESINCARR-NAR",
           "price": 22840,
-          "stock": 38,
+          "stock": 36,
           "available": true,
           "options": [
             "Naranja"
@@ -434,7 +646,7 @@
           "id": 1604038282,
           "sku": "BAMBU-PLALITESINCARR-AZU",
           "price": 22840,
-          "stock": 105,
+          "stock": 104,
           "available": true,
           "options": [
             "Azul"
@@ -445,7 +657,7 @@
           "id": 1604038290,
           "sku": "BAMBU-PLALITESINCARR-GRI",
           "price": 22840,
-          "stock": 47,
+          "stock": 46,
           "available": true,
           "options": [
             "Gris"
@@ -478,7 +690,7 @@
           "id": 1604038323,
           "sku": "BAMBU-PLALITESINCARR-ROJ",
           "price": 22840,
-          "stock": 46,
+          "stock": 45,
           "available": true,
           "options": [
             "Rojo"
@@ -576,218 +788,6 @@
       ]
     },
     {
-      "id": "erexit3d-370120236",
-      "sourceProductId": "370120236",
-      "store": "Erexit 3D",
-      "domain": "erexit3d.com",
-      "name": "FILAMENTO FLASHFORGE PLA 1KG",
-      "category": "Filamentos",
-      "price": 23668,
-      "currency": "ARS",
-      "transferPrice": 22484.6,
-      "stock": 1062,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "FlashForge",
-      "tags": [
-        "FlashForge",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/plabasic-white-1e6ee34e85a2c7182417567484449395-1024-1024-25c41f330de416706517904027449516-1024-1024.webp",
-      "url": "https://erexit3d.com/productos/filamento-flashforge-pla-1kg-zaqj0/",
-      "scrapedFrom": "https://erexit3d.com/productos/",
-      "variants": [
-        {
-          "id": 1606433058,
-          "sku": "FF-PLA1KG-BLA",
-          "price": 23668,
-          "stock": 111,
-          "available": true,
-          "options": [
-            "Blanco"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/plabasic-white-1e6ee34e85a2c7182417567484449395-1024-1024-25c41f330de416706517904027449516-1024-1024.webp"
-        },
-        {
-          "id": 1606433059,
-          "sku": "FF-PLA1KG-VIO",
-          "price": 25123,
-          "stock": 47,
-          "available": true,
-          "options": [
-            "Violeta"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/plabasic-purple-4306ba2dc3b75725c517567484452372-1024-1024-f5e2110bfe5292b10317904027484212-1024-1024.webp"
-        },
-        {
-          "id": 1606433060,
-          "sku": "FF-PLA1KG-VER",
-          "price": 25123,
-          "stock": 31,
-          "available": true,
-          "options": [
-            "Verde"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/plabasic-green-38e496a784eb2eb69817567484455235-1024-1024-20ddd34425ddc8b39417904027518330-1024-1024.webp"
-        },
-        {
-          "id": 1606433061,
-          "sku": "FF-PLA1KG-ROS",
-          "price": 25123,
-          "stock": 31,
-          "available": true,
-          "options": [
-            "Rosa"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/plabasic-pink-38e20b6e9eaeb0762817567484454034-1024-1024-11241c600f6edf8dfb17904027492659-1024-1024.webp"
-        },
-        {
-          "id": 1606433063,
-          "sku": "FF-PLA1KG-NEG",
-          "price": 23668,
-          "stock": 84,
-          "available": true,
-          "options": [
-            "Negro"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/plabasic-black-51947b1f24978b927c17567484452160-1024-1024-923036ea8f196989ca17904027560673-1024-1024.webp"
-        },
-        {
-          "id": 1606433064,
-          "sku": "FF-PLA1KG-GRI",
-          "price": 25123,
-          "stock": 38,
-          "available": true,
-          "options": [
-            "Gris"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/plabasic-silver-2095d24faedd5410f317567484456491-1024-1024-bd3c00000bed3aed0817904027466996-1024-1024.webp"
-        },
-        {
-          "id": 1606433067,
-          "sku": "FF-PLA1KG-AZU",
-          "price": 25123,
-          "stock": 4,
-          "available": true,
-          "options": [
-            "Azul"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/plabasic-blue-5d33edb8220b81243e17567484452017-1024-1024-5098c43ada20dd238b17904027552244-1024-1024.webp"
-        },
-        {
-          "id": 1606433070,
-          "sku": "FF-PLA1KG-NAR",
-          "price": 25123,
-          "stock": 57,
-          "available": true,
-          "options": [
-            "Naranja"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/plabasic-orange-c3edeeab9a4acff3fd17567484454568-1024-1024-64eb65ab8baaf6cac017904027501604-1024-1024.webp"
-        },
-        {
-          "id": 1606433071,
-          "sku": "FF-PLA1KG-PLA",
-          "price": 35000,
-          "stock": 10,
-          "available": true,
-          "options": [
-            "Titanio"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/plabasic-gray-566f72b8bd77fa311517567484449611-1024-1024-35a4a950bf32ae4b6f17904027526471-1024-1024.webp"
-        },
-        {
-          "id": 1606433073,
-          "sku": "FF-PLA1KG-AMA",
-          "price": 25123,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Amarillo"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/plabasic-yellow-37db4506e00f51db7717567484448564-1024-1024-3027ed5ee331036abb17904027458601-1024-1024.webp"
-        },
-        {
-          "id": 1606433074,
-          "sku": "FF-PLA1KG-CEL",
-          "price": 23668,
-          "stock": 46,
-          "available": true,
-          "options": [
-            "Celeste"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/repuestos-12-920fabf3c31ad7e24617861316255897-1024-1024-050f662d60ae9e5d1e17904027616041-1024-1024.webp"
-        },
-        {
-          "id": 1606433075,
-          "sku": "FF-PLA1KG-NEGGAL",
-          "price": 26578,
-          "stock": 10,
-          "available": true,
-          "options": [
-            "Negro Galaxia Mate"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/pla-galaxia-mate-92d57dfdd1cda05f5c17891466890468-1024-1024-d27f7e9d53a0d372c717904027658582-1024-1024.webp"
-        },
-        {
-          "id": 1606433080,
-          "sku": "FF-PLA1KG-VERGAL",
-          "price": 26578,
-          "stock": 14,
-          "available": true,
-          "options": [
-            "Verde Galaxia Luminoso"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/pla-verde-luminoso-2c272b34cfaaa50b9117891466479332-1024-1024-5915465b5d4c6eb31d17904027638013-1024-1024.webp"
-        },
-        {
-          "id": 1606433081,
-          "sku": "FF-HSPLA1-NEGMAR",
-          "price": 24638,
-          "stock": 23,
-          "available": true,
-          "options": [
-            "Negro Marmol"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/amarillo-c9b21e1ad5921d19b417891467413121-1024-1024-b8bd3bbe6f68fbf0b517904027696414-1024-1024.webp"
-        },
-        {
-          "id": 1606433082,
-          "sku": "FF-HSPLA1-AZULUM",
-          "price": 34435,
-          "stock": 3,
-          "available": true,
-          "options": [
-            "Azul Luminoso"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/azul-luminoso-1-7bcfe2018adb724a0117891464685736-1024-1024-5901039ac32e26541b17904027678592-1024-1024.webp"
-        },
-        {
-          "id": 1606442212,
-          "sku": "FF-PLA1KG-AMALUM",
-          "price": 34435,
-          "stock": 7,
-          "available": true,
-          "options": [
-            "Amarillo Luminoso"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/hs_pla_neon_yellow_00003-f13704d2e53dacc2d217904068609812-1024-1024.webp"
-        },
-        {
-          "id": 1606442214,
-          "sku": "FF-PLA1KG-MARM",
-          "price": 35000,
-          "stock": 15,
-          "available": true,
-          "options": [
-            "Mármol"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/hs_pla_multicolor_burnt_titanium_00002-98e041971177660d5817904068661066-1024-1024.webp"
-        }
-      ]
-    },
-    {
       "id": "erexit3d-300334096",
       "sourceProductId": "300334096",
       "store": "Erexit 3D",
@@ -797,7 +797,7 @@
       "price": 3001900,
       "currency": "ARS",
       "transferPrice": 2851805,
-      "stock": 14,
+      "stock": 12,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -813,7 +813,7 @@
           "id": 1339208771,
           "sku": "BAMBU-P2SCOMBMULT",
           "price": 3001900,
-          "stock": 7,
+          "stock": 6,
           "available": true,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/8-d854b311a922a21dc517605499408855-1024-1024.webp"
@@ -909,7 +909,7 @@
       "price": 24444,
       "currency": "ARS",
       "transferPrice": 23221.8,
-      "stock": 306,
+      "stock": 292,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Elegoo",
@@ -937,7 +937,7 @@
           "id": 1606433159,
           "sku": "ELG-PLA1KG-GRI",
           "price": 24444,
-          "stock": 31,
+          "stock": 29,
           "available": true,
           "options": [
             "Gris"
@@ -948,7 +948,7 @@
           "id": 1606433162,
           "sku": "ELG-PLA1KG-AZUCIE",
           "price": 24444,
-          "stock": 31,
+          "stock": 30,
           "available": true,
           "options": [
             "Azul Cielo"
@@ -970,7 +970,7 @@
           "id": 1606433171,
           "sku": "ELG-PLA1KG-AMA",
           "price": 24444,
-          "stock": 34,
+          "stock": 32,
           "available": true,
           "options": [
             "Amarillo"
@@ -1014,7 +1014,7 @@
           "id": 1606433176,
           "sku": "ELG-PLA1KG-MADREL",
           "price": 40158,
-          "stock": 14,
+          "stock": 13,
           "available": true,
           "options": [
             "Madera Relleno"
@@ -1025,7 +1025,7 @@
           "id": 1606442226,
           "sku": "ELG-PLA1KG-VERNEO",
           "price": 24444,
-          "stock": 3,
+          "stock": 2,
           "available": true,
           "options": [
             "Verde Neón"
@@ -1044,7 +1044,7 @@
       "price": 25500,
       "currency": "ARS",
       "transferPrice": 24225,
-      "stock": 348,
+      "stock": 340,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -1061,7 +1061,7 @@
           "id": 1605469060,
           "sku": "BAMBU-PETGBASCARR-NEG",
           "price": 25500,
-          "stock": 44,
+          "stock": 43,
           "available": true,
           "options": [
             "Negro"
@@ -1072,7 +1072,7 @@
           "id": 1605469063,
           "sku": "BAMBU-PETGBASCARR-BLA",
           "price": 25500,
-          "stock": 96,
+          "stock": 94,
           "available": true,
           "options": [
             "Blanco"
@@ -1094,7 +1094,7 @@
           "id": 1605469074,
           "sku": "BAMBU-PETGBASCARR-ROJ",
           "price": 25500,
-          "stock": 2,
+          "stock": 1,
           "available": true,
           "options": [
             "Rojo"
@@ -1380,7 +1380,7 @@
       "price": 21260,
       "currency": "ARS",
       "transferPrice": 20197,
-      "stock": 136,
+      "stock": 132,
       "stockLabel": "En stock",
       "available": true,
       "brand": "GST3D",
@@ -1397,7 +1397,7 @@
           "id": 1606434572,
           "sku": "GSTCOSMOS-PLA-BLACK",
           "price": 21260,
-          "stock": 9,
+          "stock": 8,
           "available": true,
           "options": [
             "Negro"
@@ -1408,7 +1408,7 @@
           "id": 1606434573,
           "sku": "GSTCOSMOS-PLA-WHITE",
           "price": 21260,
-          "stock": 15,
+          "stock": 14,
           "available": true,
           "options": [
             "Blanco"
@@ -1504,7 +1504,7 @@
       "price": 19990,
       "currency": "ARS",
       "transferPrice": 18990.5,
-      "stock": 460,
+      "stock": 452,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -1520,7 +1520,7 @@
           "id": 1606434986,
           "sku": "HB-ECOFRECAPLA-NEG",
           "price": 19990,
-          "stock": 3,
+          "stock": 2,
           "available": true,
           "options": [
             "Negro"
@@ -1553,7 +1553,7 @@
           "id": 1606434993,
           "sku": "HB-ECOFRECAPLA-AZU",
           "price": 19990,
-          "stock": 18,
+          "stock": 17,
           "available": true,
           "options": [
             "Azul"
@@ -1575,7 +1575,7 @@
           "id": 1606434995,
           "sku": "HB-ECOFRECAPLA-AMA",
           "price": 19990,
-          "stock": 14,
+          "stock": 13,
           "available": true,
           "options": [
             "Amarillo"
@@ -1630,7 +1630,7 @@
           "id": 1606435000,
           "sku": "HB-ECOFRECAPLA-MAR-2",
           "price": 19990,
-          "stock": 9,
+          "stock": 8,
           "available": true,
           "options": [
             "Marron"
@@ -1750,6 +1750,152 @@
       ]
     },
     {
+      "id": "erexit3d-370120620",
+      "sourceProductId": "370120620",
+      "store": "Erexit 3D",
+      "domain": "erexit3d.com",
+      "name": "FILAMENTO ELEGOO PLA SILK 1KG",
+      "category": "Filamentos",
+      "price": 30749,
+      "currency": "ARS",
+      "transferPrice": 29211.55,
+      "stock": 262,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Elegoo",
+      "tags": [
+        "Elegoo",
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/silk-pla-filament-1kg-silkgold_2_1220x1220_crop_center-b672b944e85779fea917629591675949-1024-1024-fc1e660c8e1f72aa3c17904031035391-1024-1024.webp",
+      "url": "https://erexit3d.com/productos/filamento-elegoo-pla-silk-1kg-3amsr/",
+      "scrapedFrom": "https://erexit3d.com/productos/page/2/",
+      "variants": [
+        {
+          "id": 1606434414,
+          "sku": "ELG-PLASILK1KG-OROSIL",
+          "price": 30749,
+          "stock": 22,
+          "available": true,
+          "options": [
+            "Oro Silk"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/silk-pla-filament-1kg-silkgold_2_1220x1220_crop_center-b672b944e85779fea917629591675949-1024-1024-fc1e660c8e1f72aa3c17904031035391-1024-1024.webp"
+        },
+        {
+          "id": 1606434417,
+          "sku": "ELG-PLASILK1KG-PLASIL",
+          "price": 30749,
+          "stock": 0,
+          "available": false,
+          "options": [
+            "Plata Silk"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/plata-520e8f6fd5405816b217629591677342-1024-1024-cfb023330a0890513017904031064435-1024-1024.webp"
+        },
+        {
+          "id": 1606434418,
+          "sku": "ELG-PLASILK1KG-ROSCOR",
+          "price": 30749,
+          "stock": 23,
+          "available": true,
+          "options": [
+            "Rosa coral Silk"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/rojo-5f229df9758257f92c17629591675701-1024-1024-2e3e960e67dd9ac9fd17904031050203-1024-1024.webp"
+        },
+        {
+          "id": 1606434420,
+          "sku": "ELG-PLASILK1KG-VERACE",
+          "price": 30749,
+          "stock": 18,
+          "available": true,
+          "options": [
+            "Verde Acebo Silk"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/verde-acebo-8cdd8a50e2eedb0f7e17629595971870-1024-1024-53a885c503a196240717904031079645-1024-1024.webp"
+        },
+        {
+          "id": 1606434422,
+          "sku": "ELG-PLASILK1KG-VERMEN",
+          "price": 30749,
+          "stock": 14,
+          "available": true,
+          "options": [
+            "Verde menta Silk"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/azul-coral-d0502ce78a40f3117817861321314073-1024-1024-80c11a9ad1ec77712217904031098176-1024-1024.webp"
+        },
+        {
+          "id": 1606434424,
+          "sku": "ELG-PLASILK1KG-PURGAL",
+          "price": 40158,
+          "stock": 15,
+          "available": true,
+          "options": [
+            "Violeta Galaxia"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/special-pla-filament-1kg-galaxypurple_2_1220x1220_crop_center-6f9add2c5a5ae27e9517891466656621-1024-1024-628393a57c4dfb4a5417904031112806-1024-1024.webp"
+        },
+        {
+          "id": 1606434427,
+          "sku": "ELG-PLASILK1KG-NEGGAL",
+          "price": 40158,
+          "stock": 10,
+          "available": true,
+          "options": [
+            "Negro Galaxia"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/special-pla-filament-1kg-galaxyblack_2_1220x1220_crop_center-dea573369a92fe9cad17891466682822-1024-1024-42c6bc17dcb99aa1c417904031127450-1024-1024.webp"
+        },
+        {
+          "id": 1606434433,
+          "sku": "ELG-PLASILK1KG-AZUGAL",
+          "price": 40158,
+          "stock": 14,
+          "available": true,
+          "options": [
+            "Azul Galaxia"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/pla-peacockblue-model_1220x1220_crop_center-cb697a077b5ca7dfa617891466706440-1024-1024-3fb80c72e56e67ebd217904031142154-1024-1024.webp"
+        },
+        {
+          "id": 1606434435,
+          "sku": "ELG-PLASILK1KG-AZUPUR",
+          "price": 30749,
+          "stock": 0,
+          "available": false,
+          "options": [
+            "Azul Purpura"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/silk_pla_filament_1-75mm_silk_blue_purple_black_1220x1220_crop_center-46c4c040c4eeb36fff17891466729305-1024-1024-ade192c5757a904bb217904031157023-1024-1024.webp"
+        },
+        {
+          "id": 1606434436,
+          "sku": "ELG-PLASILK1KG-COBROJ",
+          "price": 30749,
+          "stock": 7,
+          "available": true,
+          "options": [
+            "Cobre Rojo"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/e72ad67a-d33b-4d8a-b77d-03841b91e272-6355d5c4b9b1594b9217891466755075-1024-1024-63e45a88be7fbf581117904031172571-1024-1024.webp"
+        },
+        {
+          "id": 1610963996,
+          "sku": "ELG-PLASILK1KG-COB",
+          "price": 30749,
+          "stock": 8,
+          "available": true,
+          "options": [
+            "Cobre"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/pla_1-75mm_1kg_d48752ba-90dd-4f83-a1fe-23d2fd8e02db-5c56ba0e301d91f79617909730775191-1024-1024.webp"
+        }
+      ]
+    },
+    {
       "id": "erexit3d-370120219",
       "sourceProductId": "370120219",
       "store": "Erexit 3D",
@@ -1759,7 +1905,7 @@
       "price": 23668,
       "currency": "ARS",
       "transferPrice": 22484.6,
-      "stock": 498,
+      "stock": 494,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -1785,7 +1931,7 @@
           "id": 1606433019,
           "sku": "FF-PETGBASINEGR-NEG",
           "price": 23668,
-          "stock": 51,
+          "stock": 49,
           "available": true,
           "options": [
             "Negro"
@@ -1894,152 +2040,6 @@
       ]
     },
     {
-      "id": "erexit3d-370120620",
-      "sourceProductId": "370120620",
-      "store": "Erexit 3D",
-      "domain": "erexit3d.com",
-      "name": "FILAMENTO ELEGOO PLA SILK 1KG",
-      "category": "Filamentos",
-      "price": 30749,
-      "currency": "ARS",
-      "transferPrice": 29211.55,
-      "stock": 272,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Elegoo",
-      "tags": [
-        "Elegoo",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/silk-pla-filament-1kg-silkgold_2_1220x1220_crop_center-b672b944e85779fea917629591675949-1024-1024-fc1e660c8e1f72aa3c17904031035391-1024-1024.webp",
-      "url": "https://erexit3d.com/productos/filamento-elegoo-pla-silk-1kg-3amsr/",
-      "scrapedFrom": "https://erexit3d.com/productos/page/2/",
-      "variants": [
-        {
-          "id": 1606434414,
-          "sku": "ELG-PLASILK1KG-OROSIL",
-          "price": 30749,
-          "stock": 23,
-          "available": true,
-          "options": [
-            "Oro Silk"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/silk-pla-filament-1kg-silkgold_2_1220x1220_crop_center-b672b944e85779fea917629591675949-1024-1024-fc1e660c8e1f72aa3c17904031035391-1024-1024.webp"
-        },
-        {
-          "id": 1606434417,
-          "sku": "ELG-PLASILK1KG-PLASIL",
-          "price": 30749,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Plata Silk"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/plata-520e8f6fd5405816b217629591677342-1024-1024-cfb023330a0890513017904031064435-1024-1024.webp"
-        },
-        {
-          "id": 1606434418,
-          "sku": "ELG-PLASILK1KG-ROSCOR",
-          "price": 30749,
-          "stock": 23,
-          "available": true,
-          "options": [
-            "Rosa coral Silk"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/rojo-5f229df9758257f92c17629591675701-1024-1024-2e3e960e67dd9ac9fd17904031050203-1024-1024.webp"
-        },
-        {
-          "id": 1606434420,
-          "sku": "ELG-PLASILK1KG-VERACE",
-          "price": 30749,
-          "stock": 19,
-          "available": true,
-          "options": [
-            "Verde Acebo Silk"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/verde-acebo-8cdd8a50e2eedb0f7e17629595971870-1024-1024-53a885c503a196240717904031079645-1024-1024.webp"
-        },
-        {
-          "id": 1606434422,
-          "sku": "ELG-PLASILK1KG-VERMEN",
-          "price": 30749,
-          "stock": 14,
-          "available": true,
-          "options": [
-            "Verde menta Silk"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/azul-coral-d0502ce78a40f3117817861321314073-1024-1024-80c11a9ad1ec77712217904031098176-1024-1024.webp"
-        },
-        {
-          "id": 1606434424,
-          "sku": "ELG-PLASILK1KG-PURGAL",
-          "price": 40158,
-          "stock": 15,
-          "available": true,
-          "options": [
-            "Violeta Galaxia"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/special-pla-filament-1kg-galaxypurple_2_1220x1220_crop_center-6f9add2c5a5ae27e9517891466656621-1024-1024-628393a57c4dfb4a5417904031112806-1024-1024.webp"
-        },
-        {
-          "id": 1606434427,
-          "sku": "ELG-PLASILK1KG-NEGGAL",
-          "price": 40158,
-          "stock": 10,
-          "available": true,
-          "options": [
-            "Negro Galaxia"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/special-pla-filament-1kg-galaxyblack_2_1220x1220_crop_center-dea573369a92fe9cad17891466682822-1024-1024-42c6bc17dcb99aa1c417904031127450-1024-1024.webp"
-        },
-        {
-          "id": 1606434433,
-          "sku": "ELG-PLASILK1KG-AZUGAL",
-          "price": 40158,
-          "stock": 14,
-          "available": true,
-          "options": [
-            "Azul Galaxia"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/pla-peacockblue-model_1220x1220_crop_center-cb697a077b5ca7dfa617891466706440-1024-1024-3fb80c72e56e67ebd217904031142154-1024-1024.webp"
-        },
-        {
-          "id": 1606434435,
-          "sku": "ELG-PLASILK1KG-AZUPUR",
-          "price": 30749,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Azul Purpura"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/silk_pla_filament_1-75mm_silk_blue_purple_black_1220x1220_crop_center-46c4c040c4eeb36fff17891466729305-1024-1024-ade192c5757a904bb217904031157023-1024-1024.webp"
-        },
-        {
-          "id": 1606434436,
-          "sku": "ELG-PLASILK1KG-COBROJ",
-          "price": 30749,
-          "stock": 8,
-          "available": true,
-          "options": [
-            "Cobre Rojo"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/e72ad67a-d33b-4d8a-b77d-03841b91e272-6355d5c4b9b1594b9217891466755075-1024-1024-63e45a88be7fbf581117904031172571-1024-1024.webp"
-        },
-        {
-          "id": 1610963996,
-          "sku": "ELG-PLASILK1KG-COB",
-          "price": 30749,
-          "stock": 10,
-          "available": true,
-          "options": [
-            "Cobre"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/pla_1-75mm_1kg_d48752ba-90dd-4f83-a1fe-23d2fd8e02db-5c56ba0e301d91f79617909730775191-1024-1024.webp"
-        }
-      ]
-    },
-    {
       "id": "erexit3d-370120702",
       "sourceProductId": "370120702",
       "store": "Erexit 3D",
@@ -2049,7 +2049,7 @@
       "price": 26481,
       "currency": "ARS",
       "transferPrice": 25156.95,
-      "stock": 124,
+      "stock": 122,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -2065,7 +2065,7 @@
           "id": 1606434552,
           "sku": "ELG-RAPIPLA1-BLA",
           "price": 26481,
-          "stock": 28,
+          "stock": 27,
           "available": true,
           "options": [
             "Blanco"
@@ -2139,7 +2139,7 @@
       "price": 21000,
       "currency": "ARS",
       "transferPrice": 19950,
-      "stock": 260,
+      "stock": 250,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -2156,7 +2156,7 @@
           "id": 1605469088,
           "sku": "BAMBU-PETGBASSINCARR-NEG",
           "price": 21000,
-          "stock": 33,
+          "stock": 28,
           "available": true,
           "options": [
             "Negro"
@@ -2197,7 +2197,7 @@
       "price": 26481,
       "currency": "ARS",
       "transferPrice": 25156.95,
-      "stock": 138,
+      "stock": 134,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -2224,7 +2224,7 @@
           "id": 1606434541,
           "sku": "ELG-PLA175MM-ROS",
           "price": 26481,
-          "stock": 16,
+          "stock": 14,
           "available": true,
           "options": [
             "Rosa"
@@ -2265,7 +2265,7 @@
       "price": 21243,
       "currency": "ARS",
       "transferPrice": 20180.85,
-      "stock": 220,
+      "stock": 216,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Elegoo",
@@ -2326,8 +2326,8 @@
           "id": 1606433130,
           "sku": "ELG-PETGRAPI1KG-VER",
           "price": 21243,
-          "stock": 2,
-          "available": true,
+          "stock": 0,
+          "available": false,
           "options": [
             "Verde"
           ],
@@ -2492,7 +2492,7 @@
       "price": 24638,
       "currency": "ARS",
       "transferPrice": 23406.1,
-      "stock": 46,
+      "stock": 44,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -2529,7 +2529,7 @@
           "id": 1606442216,
           "sku": "FF-PLASILK1-GOLD",
           "price": 24638,
-          "stock": 14,
+          "stock": 13,
           "available": true,
           "options": [
             "Gold"
@@ -2580,7 +2580,7 @@
       "price": 26481,
       "currency": "ARS",
       "transferPrice": 25156.95,
-      "stock": 106,
+      "stock": 102,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Elegoo",
@@ -2597,7 +2597,7 @@
           "id": 1606442243,
           "sku": "ELG-PETGPRO-ROJ",
           "price": 26481,
-          "stock": 11,
+          "stock": 10,
           "available": true,
           "options": [
             "Rojo"
@@ -2630,7 +2630,7 @@
           "id": 1606442247,
           "sku": "ELG-PETGPRO-GRI",
           "price": 26481,
-          "stock": 18,
+          "stock": 17,
           "available": true,
           "options": [
             "Gris"
@@ -2849,8 +2849,8 @@
       "price": 2026233,
       "currency": "ARS",
       "transferPrice": 1924921.35,
-      "stock": 4,
-      "stockLabel": "En stock",
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Flashforge",
       "tags": [
@@ -2864,7 +2864,7 @@
           "id": 1588240674,
           "sku": "FF-CREA54",
           "price": 2026233,
-          "stock": 2,
+          "stock": 1,
           "available": true,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/creator-5-1f88b6abccc0a46be117768235261069-1024-1024.webp"

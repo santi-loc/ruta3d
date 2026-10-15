@@ -4,8 +4,8 @@
     "domain": "todo3dsf.com.ar",
     "baseUrl": "https://www.todo3dsf.com.ar"
   },
-  "scrapedAt": "2026-10-14T13:28:09.554Z",
-  "count": 64,
+  "scrapedAt": "2026-10-15T13:12:52.069Z",
+  "count": 65,
   "pages": [
     {
       "page": 1,
@@ -54,7 +54,7 @@
       "path": "/insumos-3d/repuestos",
       "url": "https://www.todo3dsf.com.ar/insumos-3d/repuestos",
       "found": 12,
-      "added": 10
+      "added": 11
     },
     {
       "page": 1,
@@ -281,6 +281,30 @@
       "variants": []
     },
     {
+      "id": "todo3dsf-29451460",
+      "sourceProductId": "29451460",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Triangulos para union de llavero color dorado pack x50u",
+      "category": "Accesorios",
+      "price": 1500,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [],
+      "image": "https://d22fxaf9t8d39k.cloudfront.net/baeade008e8f2f73584e2c3ff0833aa178d0f906bbcbcef57a04f1abff57526e32164.webp",
+      "url": "https://www.todo3dsf.com.ar/insumos-3d/bijouterie/triangulos-para-union-de-llavero-color-dorado-pack-x50u",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/productos",
+      "variants": []
+    },
+    {
       "id": "todo3dsf-29392168",
       "sourceProductId": "29392168",
       "store": "Todo 3D",
@@ -382,32 +406,6 @@
       ],
       "image": "https://d22fxaf9t8d39k.cloudfront.net/99f3f53e67fce4acabd0ad4b81cf9b343da146f4e4c6fcf16c4815407bdf382132164.webp",
       "url": "https://www.todo3dsf.com.ar/insumos-3d/repuestos/aislante-silicona-funda-protector-bloque-ender-v3-ke-k1",
-      "scrapedFrom": "https://www.todo3dsf.com.ar/productos",
-      "variants": []
-    },
-    {
-      "id": "todo3dsf-28810879",
-      "sourceProductId": "28810879",
-      "store": "Todo 3D",
-      "domain": "todo3dsf.com.ar",
-      "name": "Cr Touch Sensor Autonivelación Creality 3d Original",
-      "category": "Impresoras",
-      "price": 85000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Creality",
-      "tags": [
-        "Creality"
-      ],
-      "image": "https://d22fxaf9t8d39k.cloudfront.net/d0b789a9649e9eec826690e2dcf80e8d4546f1f8067ae8763aa417051ee0a72632164.webp",
-      "url": "https://www.todo3dsf.com.ar/insumos-3d/repuestos/cr-touch-sensor-autonivelacion-creality-3d-original",
       "scrapedFrom": "https://www.todo3dsf.com.ar/productos",
       "variants": []
     },
@@ -691,6 +689,32 @@
       "image": "https://d22fxaf9t8d39k.cloudfront.net/2c744f2bc1c92c34f7e3961ece9c5309d14596365cf37114fe3cfad88128576132164.jpeg",
       "url": "https://www.todo3dsf.com.ar/insumos-3d/filamentos/otros-filamentos/simpliflex",
       "scrapedFrom": "https://www.todo3dsf.com.ar/insumos-3d/filamentos/otros-filamentos",
+      "variants": []
+    },
+    {
+      "id": "todo3dsf-28810879",
+      "sourceProductId": "28810879",
+      "store": "Todo 3D",
+      "domain": "todo3dsf.com.ar",
+      "name": "Cr Touch Sensor Autonivelación Creality 3d Original",
+      "category": "Impresoras",
+      "price": 85000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Creality",
+      "tags": [
+        "Creality"
+      ],
+      "image": "https://d22fxaf9t8d39k.cloudfront.net/d0b789a9649e9eec826690e2dcf80e8d4546f1f8067ae8763aa417051ee0a72632164.webp",
+      "url": "https://www.todo3dsf.com.ar/insumos-3d/repuestos/cr-touch-sensor-autonivelacion-creality-3d-original",
+      "scrapedFrom": "https://www.todo3dsf.com.ar/insumos-3d/repuestos",
       "variants": []
     },
     {
@@ -1363,8 +1387,8 @@
       "variants": []
     },
     {
-      "id": "todo3dsf-27731553",
-      "sourceProductId": "27731553",
+      "id": "todo3dsf-nozzle-unicorn-de-cambio-rapido-04-mm-para-k1-y-ender-3-v3",
+      "sourceProductId": "nozzle-unicorn-de-cambio-rapido-04-mm-para-k1-y-ender-3-v3",
       "store": "Todo 3D",
       "domain": "todo3dsf.com.ar",
       "name": "Nozzle Unicorn de Cambio Rápido 0.4 mm para K1 y Ender 3 V3",
@@ -1373,12 +1397,10 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": null,
       "tags": [
         "Creality"

@@ -4,8 +4,8 @@
     "domain": "globalvalue.ar",
     "baseUrl": "https://globalvalue.ar"
   },
-  "scrapedAt": "2026-10-14T13:28:01.919Z",
-  "count": 223,
+  "scrapedAt": "2026-10-15T13:12:41.046Z",
+  "count": 228,
   "pages": [
     {
       "page": 1,
@@ -16,20 +16,20 @@
     {
       "page": 2,
       "url": "https://globalvalue.ar/shop/page/2",
-      "found": 18,
-      "added": 18
+      "found": 19,
+      "added": 19
     },
     {
       "page": 3,
       "url": "https://globalvalue.ar/shop/page/3",
-      "found": 17,
-      "added": 17
+      "found": 18,
+      "added": 18
     },
     {
       "page": 4,
       "url": "https://globalvalue.ar/shop/page/4",
-      "found": 18,
-      "added": 18
+      "found": 20,
+      "added": 20
     },
     {
       "page": 5,
@@ -52,14 +52,14 @@
     {
       "page": 8,
       "url": "https://globalvalue.ar/shop/page/8",
-      "found": 16,
-      "added": 16
+      "found": 17,
+      "added": 17
     },
     {
       "page": 9,
       "url": "https://globalvalue.ar/shop/page/9",
-      "found": 17,
-      "added": 17
+      "found": 16,
+      "added": 16
     },
     {
       "page": 10,
@@ -70,20 +70,20 @@
     {
       "page": 11,
       "url": "https://globalvalue.ar/shop/page/11",
-      "found": 14,
-      "added": 14
+      "found": 15,
+      "added": 15
     },
     {
       "page": 12,
       "url": "https://globalvalue.ar/shop/page/12",
-      "found": 13,
-      "added": 13
+      "found": 12,
+      "added": 12
     },
     {
       "page": 13,
       "url": "https://globalvalue.ar/shop/page/13",
-      "found": 10,
-      "added": 10
+      "found": 11,
+      "added": 11
     },
     {
       "page": 14,
@@ -149,6 +149,33 @@
       ],
       "image": "https://globalvalue.ar/web/image/product.template/4084/image_512",
       "url": "https://globalvalue.ar/shop/000548-cnc-grabadora-y-cortadora-laser-100-x-100-40w-opticos-asistente-de-aire-4084",
+      "scrapedFrom": "https://globalvalue.ar/shop",
+      "variants": []
+    },
+    {
+      "id": "globalvalue-4039",
+      "sourceProductId": "4050",
+      "store": "Global Value",
+      "domain": "globalvalue.ar",
+      "name": "Placa Controladora Makerbase Cnc Laser Y Fresadora 12/24v",
+      "category": "Corte láser",
+      "price": 89910,
+      "currency": "ARS",
+      "previousPrice": 99900,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Laser",
+        "CNC"
+      ],
+      "image": "https://globalvalue.ar/web/image/product.template/4039/image_512",
+      "url": "https://globalvalue.ar/shop/000463-placa-controladora-makerbase-cnc-laser-y-fresadora-12-24v-4039",
       "scrapedFrom": "https://globalvalue.ar/shop",
       "variants": []
     },
@@ -627,8 +654,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3772/image_512",
-      "url": "https://globalvalue.ar/shop/000356-modulo-laser-sculpfun-ir20-20w-3772",
-      "scrapedFrom": "https://globalvalue.ar/shop",
+      "url": "https://globalvalue.ar/shop/000356-modulo-laser-sculpfun-ir20-20w-3772?page=2",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/2",
       "variants": []
     },
     {
@@ -1305,8 +1332,8 @@
       "sourceProductId": "3601",
       "store": "Global Value",
       "domain": "globalvalue.ar",
-      "name": "Lentes de proteccion Sculpfun",
-      "category": "Repuestos",
+      "name": "Lentes Proteccion Laser Diodo,uv,fibra 200-455nm 900-1100nm",
+      "category": "Corte láser",
       "price": 170910,
       "currency": "ARS",
       "previousPrice": 189900,
@@ -1317,12 +1344,15 @@
       "stock": 1,
       "stockLabel": "En stock",
       "available": true,
-      "brand": "Sculpfun",
+      "brand": null,
       "tags": [
-        "Sculpfun"
+        "Laser",
+        "Fibra",
+        "Diodo",
+        "UV"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3600/image_512",
-      "url": "https://globalvalue.ar/shop/000124-lentes-de-proteccion-sculpfun-3600?page=3",
+      "url": "https://globalvalue.ar/shop/000124-lentes-proteccion-laser-diodo-uv-fibra-200-455nm-900-1100nm-3600?page=3",
       "scrapedFrom": "https://globalvalue.ar/shop/page/3",
       "variants": []
     },
@@ -1333,9 +1363,9 @@
       "domain": "globalvalue.ar",
       "name": "Asistente de Aire Two trees 220V",
       "category": "Accesorios",
-      "price": 206910,
+      "price": 251910,
       "currency": "ARS",
-      "previousPrice": 229900,
+      "previousPrice": 279900,
       "transferPrice": null,
       "purchaseModes": [
         "Entrega inmediata"
@@ -1379,11 +1409,37 @@
       "variants": []
     },
     {
+      "id": "globalvalue-3491",
+      "sourceProductId": "3493",
+      "store": "Global Value",
+      "domain": "globalvalue.ar",
+      "name": "Kit De Refrigeración Por Aire Two Trees 500w",
+      "category": "Accesorios",
+      "price": 269910,
+      "currency": "ARS",
+      "previousPrice": 299900,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Two Trees",
+      "tags": [
+        "Two Trees"
+      ],
+      "image": "https://globalvalue.ar/web/image/product.template/3491/image_512",
+      "url": "https://globalvalue.ar/shop/000106-kit-de-refrigeracion-por-aire-two-trees-500w-3491?page=3",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/3",
+      "variants": []
+    },
+    {
       "id": "globalvalue-3487",
       "sourceProductId": "3489",
       "store": "Global Value",
       "domain": "globalvalue.ar",
-      "name": "Panel Metalico Para Cnc Laser 50x50 Cm- Two Trees",
+      "name": "Panal de Abejas Two Trees 500x500 Para Cnc Laser",
       "category": "Corte láser",
       "price": 233910,
       "currency": "ARS",
@@ -1399,10 +1455,11 @@
       "tags": [
         "Two Trees",
         "Laser",
-        "CNC"
+        "CNC",
+        "Panal"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3487/image_512",
-      "url": "https://globalvalue.ar/shop/000103-panel-metalico-para-cnc-laser-50x50-cm-two-trees-3487?page=3",
+      "url": "https://globalvalue.ar/shop/000103-panal-de-abejas-two-trees-500x500-para-cnc-laser-3487?page=3",
       "scrapedFrom": "https://globalvalue.ar/shop/page/3",
       "variants": []
     },
@@ -1413,9 +1470,9 @@
       "domain": "globalvalue.ar",
       "name": "Router Cnc TTC 450 Husillo 80w",
       "category": "Corte láser",
-      "price": 1259910,
+      "price": 1214910,
       "currency": "ARS",
-      "previousPrice": 1399900,
+      "previousPrice": 1349900,
       "transferPrice": null,
       "purchaseModes": [
         "Entrega inmediata"
@@ -1437,7 +1494,7 @@
       "sourceProductId": "3483",
       "store": "Global Value",
       "domain": "globalvalue.ar",
-      "name": "Máquina Cortadora Y Grabadora Láser Sculpfun S30 Ultra 11w",
+      "name": "Cnc Cortadora Y Grabadora Láser Sculpfun S30 Ultra (11w)",
       "category": "Corte láser",
       "price": 1484910,
       "currency": "ARS",
@@ -1452,10 +1509,11 @@
       "brand": "Sculpfun",
       "tags": [
         "Sculpfun",
-        "Laser"
+        "Laser",
+        "CNC"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3481/image_512",
-      "url": "https://globalvalue.ar/shop/000080-maquina-cortadora-y-grabadora-laser-sculpfun-s30-ultra-11w-3481?page=3",
+      "url": "https://globalvalue.ar/shop/000080-cnc-cortadora-y-grabadora-laser-sculpfun-s30-ultra-11w-3481?page=3",
       "scrapedFrom": "https://globalvalue.ar/shop/page/3",
       "variants": []
     },
@@ -1490,11 +1548,11 @@
       "sourceProductId": "3465",
       "store": "Global Value",
       "domain": "globalvalue.ar",
-      "name": "Laser De Fibra Rayzen 30w fuente Max 20x20 cm + Rotativo",
+      "name": "Laser De Fibra Rayzen Noir 30w - 2 En 1 Portátil + Rotativo",
       "category": "Corte láser",
-      "price": 6291810.01,
+      "price": 6299910,
       "currency": "ARS",
-      "previousPrice": 6990900.01,
+      "previousPrice": 6999900,
       "transferPrice": null,
       "purchaseModes": [
         "Entrega inmediata"
@@ -1509,7 +1567,7 @@
         "Rotatorio"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3463/image_512",
-      "url": "https://globalvalue.ar/shop/000117-laser-de-fibra-rayzen-30w-fuente-max-20x20-cm-rotativo-3463?page=3",
+      "url": "https://globalvalue.ar/shop/000117-laser-de-fibra-rayzen-noir-30w-2-en-1-portatil-rotativo-3463?page=3",
       "scrapedFrom": "https://globalvalue.ar/shop/page/3",
       "variants": []
     },
@@ -1566,11 +1624,37 @@
       "variants": []
     },
     {
+      "id": "globalvalue-3441",
+      "sourceProductId": "3443",
+      "store": "Global Value",
+      "domain": "globalvalue.ar",
+      "name": "Cabezal Algo Laser infrarrojo 2w 1064nm",
+      "category": "Corte láser",
+      "price": 1169910,
+      "currency": "ARS",
+      "previousPrice": 1299900,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Laser"
+      ],
+      "image": "https://globalvalue.ar/web/image/product.template/3441/image_512",
+      "url": "https://globalvalue.ar/shop/000112-cabezal-algo-laser-infrarrojo-2w-1064nm-3441?page=4",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/4",
+      "variants": []
+    },
+    {
       "id": "globalvalue-3440",
       "sourceProductId": "3442",
       "store": "Global Value",
       "domain": "globalvalue.ar",
-      "name": "Cabezal Algolaser 20w",
+      "name": "Cabezal Laser Algolaser (20w)",
       "category": "Corte láser",
       "price": 1169910,
       "currency": "ARS",
@@ -1588,7 +1672,7 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3440/image_512",
-      "url": "https://globalvalue.ar/shop/000114-cabezal-algolaser-20w-3440?page=4",
+      "url": "https://globalvalue.ar/shop/000114-cabezal-laser-algolaser-20w-3440?page=4",
       "scrapedFrom": "https://globalvalue.ar/shop/page/4",
       "variants": []
     },
@@ -1597,11 +1681,11 @@
       "sourceProductId": "3441",
       "store": "Global Value",
       "domain": "globalvalue.ar",
-      "name": "Cabezal Algolaser 10w",
+      "name": "Cabezal Laser Algolaser (10w ) Diodo",
       "category": "Corte láser",
-      "price": 629910,
+      "price": 539910,
       "currency": "ARS",
-      "previousPrice": 699900.01,
+      "previousPrice": 599900,
       "transferPrice": null,
       "purchaseModes": [
         "Entrega inmediata"
@@ -1612,10 +1696,11 @@
       "brand": "AlgoLaser",
       "tags": [
         "AlgoLaser",
-        "Laser"
+        "Laser",
+        "Diodo"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3439/image_512",
-      "url": "https://globalvalue.ar/shop/000113-cabezal-algolaser-10w-3439?page=4",
+      "url": "https://globalvalue.ar/shop/000113-cabezal-laser-algolaser-10w-diodo-3439?page=4",
       "scrapedFrom": "https://globalvalue.ar/shop/page/4",
       "variants": []
     },
@@ -1626,9 +1711,9 @@
       "domain": "globalvalue.ar",
       "name": "Rotativo Algo Laser Arr 2.0 MINI - Para PIXI",
       "category": "Corte láser",
-      "price": 161910,
+      "price": 175410,
       "currency": "ARS",
-      "previousPrice": 179900,
+      "previousPrice": 194900,
       "transferPrice": null,
       "purchaseModes": [
         "Entrega inmediata"
@@ -1651,7 +1736,7 @@
       "sourceProductId": "3439",
       "store": "Global Value",
       "domain": "globalvalue.ar",
-      "name": "Asistente de aire Algolaser 1.0 220v",
+      "name": "Asistente de Aire Algolaser 1.0 220v",
       "category": "Corte láser",
       "price": 242910,
       "currency": "ARS",
@@ -1670,6 +1755,30 @@
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3437/image_512",
       "url": "https://globalvalue.ar/shop/000116-asistente-de-aire-algolaser-1-0-220v-3437?page=4",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/4",
+      "variants": []
+    },
+    {
+      "id": "globalvalue-3196",
+      "sourceProductId": "3198",
+      "store": "Global Value",
+      "domain": "globalvalue.ar",
+      "name": "Atomstack X7/s10/a10 Pro 50w [Refurbished]",
+      "category": "Accesorios",
+      "price": 1574910,
+      "currency": "ARS",
+      "previousPrice": 1749900,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [],
+      "image": "https://globalvalue.ar/web/image/product.template/3196/image_512",
+      "url": "https://globalvalue.ar/shop/000067-atomstack-x7-s10-a10-pro-50w-refurbished-3196?page=4",
       "scrapedFrom": "https://globalvalue.ar/shop/page/4",
       "variants": []
     },
@@ -1730,11 +1839,11 @@
       "sourceProductId": "3195",
       "store": "Global Value",
       "domain": "globalvalue.ar",
-      "name": "Atomstack P1 Laser de Diodo 5w",
+      "name": "Cnc Corte Laser Atomstack P1 (5w)",
       "category": "Corte láser",
-      "price": 917910,
+      "price": 989910,
       "currency": "ARS",
-      "previousPrice": 1019900.01,
+      "previousPrice": 1099900,
       "transferPrice": null,
       "purchaseModes": [
         "Entrega inmediata"
@@ -1745,10 +1854,34 @@
       "brand": null,
       "tags": [
         "Laser",
-        "Diodo"
+        "CNC"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3193/image_512",
-      "url": "https://globalvalue.ar/shop/000068-atomstack-p1-laser-de-diodo-5w-3193?page=4",
+      "url": "https://globalvalue.ar/shop/000068-cnc-corte-laser-atomstack-p1-5w-3193?page=4",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/4",
+      "variants": []
+    },
+    {
+      "id": "globalvalue-3192",
+      "sourceProductId": "3194",
+      "store": "Global Value",
+      "domain": "globalvalue.ar",
+      "name": "Máquina Cortadora De Plasma De Corte De Chapa De 60x60 Cm",
+      "category": "Corte láser",
+      "price": 14391000,
+      "currency": "ARS",
+      "previousPrice": 15990000,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [],
+      "image": "https://globalvalue.ar/web/image/product.template/3192/image_512",
+      "url": "https://globalvalue.ar/shop/000064-maquina-cortadora-de-plasma-de-corte-de-chapa-de-60x60-cm-3192?page=4",
       "scrapedFrom": "https://globalvalue.ar/shop/page/4",
       "variants": []
     },
@@ -1783,8 +1916,8 @@
       "sourceProductId": "3181",
       "store": "Global Value",
       "domain": "globalvalue.ar",
-      "name": "Panal de Abejas Sculpfun H3",
-      "category": "Accesorios",
+      "name": "Panal Sculpfun H3 600*600mm Para Cnc Grabado Y Corte Laser",
+      "category": "Corte láser",
       "price": 311310,
       "currency": "ARS",
       "previousPrice": 345900,
@@ -1798,10 +1931,12 @@
       "brand": "Sculpfun",
       "tags": [
         "Sculpfun",
+        "Laser",
+        "CNC",
         "Panal"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3179/image_512",
-      "url": "https://globalvalue.ar/shop/000060-panal-de-abejas-sculpfun-h3-3179?page=4",
+      "url": "https://globalvalue.ar/shop/000060-panal-sculpfun-h3-600-600mm-para-cnc-grabado-y-corte-laser-3179?page=4",
       "scrapedFrom": "https://globalvalue.ar/shop/page/4",
       "variants": []
     },
@@ -1810,7 +1945,7 @@
       "sourceProductId": "3179",
       "store": "Global Value",
       "domain": "globalvalue.ar",
-      "name": "Panal de abejas Sculpfun H5",
+      "name": "Panal de abejas Sculpfun H5 (40x40cm)",
       "category": "Accesorios",
       "price": 408510,
       "currency": "ARS",
@@ -1828,7 +1963,7 @@
         "Panal"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3177/image_512",
-      "url": "https://globalvalue.ar/shop/000059-panal-de-abejas-sculpfun-h5-3177?page=4",
+      "url": "https://globalvalue.ar/shop/000059-panal-de-abejas-sculpfun-h5-40x40cm-3177?page=4",
       "scrapedFrom": "https://globalvalue.ar/shop/page/4",
       "variants": []
     },
@@ -1837,7 +1972,7 @@
       "sourceProductId": "3178",
       "store": "Global Value",
       "domain": "globalvalue.ar",
-      "name": "Plancha Plana automatica Sculpfun H1",
+      "name": "Plancha para sublimar - Sculpfun H1 automatica",
       "category": "Accesorios",
       "price": 980910,
       "currency": "ARS",
@@ -1854,7 +1989,7 @@
         "Sculpfun"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3176/image_512",
-      "url": "https://globalvalue.ar/shop/000058-plancha-plana-automatica-sculpfun-h1-3176?page=4",
+      "url": "https://globalvalue.ar/shop/000058-plancha-para-sublimar-sculpfun-h1-automatica-3176?page=4",
       "scrapedFrom": "https://globalvalue.ar/shop/page/4",
       "variants": []
     },
@@ -1891,11 +2026,11 @@
       "sourceProductId": "3174",
       "store": "Global Value",
       "domain": "globalvalue.ar",
-      "name": "Fresadora Manual con Guías Two Trees RS-200",
+      "name": "Fresadora Manual Two Trees RS-200 con Guías",
       "category": "Accesorios",
-      "price": 908910,
+      "price": 900441,
       "currency": "ARS",
-      "previousPrice": 1009900,
+      "previousPrice": 1000490,
       "transferPrice": null,
       "purchaseModes": [
         "Entrega inmediata"
@@ -1908,7 +2043,7 @@
         "Two Trees"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3172/image_512",
-      "url": "https://globalvalue.ar/shop/000056-fresadora-manual-con-guias-two-trees-rs-200-3172?page=4",
+      "url": "https://globalvalue.ar/shop/000056-fresadora-manual-two-trees-rs-200-con-guias-3172?page=4",
       "scrapedFrom": "https://globalvalue.ar/shop/page/4",
       "variants": []
     },
@@ -2040,8 +2175,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3165/image_512",
-      "url": "https://globalvalue.ar/shop/000049-cabezal-laser-infrarrojo-atomstack-p1-1-2w-3165?page=4",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/4",
+      "url": "https://globalvalue.ar/shop/000049-cabezal-laser-infrarrojo-atomstack-p1-1-2w-3165?page=5",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/5",
       "variants": []
     },
     {
@@ -2550,8 +2685,8 @@
         "Rotatorio"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3129/image_512",
-      "url": "https://globalvalue.ar/shop/000020-rotativo-two-trees-tr2-para-laser-multifuncion-4-en-1-3129?page=5",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/5",
+      "url": "https://globalvalue.ar/shop/000020-rotativo-two-trees-tr2-para-laser-multifuncion-4-en-1-3129?page=6",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/6",
       "variants": []
     },
     {
@@ -3052,8 +3187,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2744/image_512",
-      "url": "https://globalvalue.ar/shop/000174-kit-expansion-para-grabadora-laser-algo-laser-diy-kit-mk2-2744?page=6",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/6",
+      "url": "https://globalvalue.ar/shop/000174-kit-expansion-para-grabadora-laser-algo-laser-diy-kit-mk2-2744?page=7",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/7",
       "variants": []
     },
     {
@@ -3474,8 +3609,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2722/image_512",
-      "url": "https://globalvalue.ar/shop/000156-grabadora-laser-wainlux-x1-10w-con-cobertor-2722?page=7",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/7",
+      "url": "https://globalvalue.ar/shop/000156-grabadora-laser-wainlux-x1-10w-con-cobertor-2722?page=8",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/8",
       "variants": []
     },
     {
@@ -4362,8 +4497,8 @@
         "Panal"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2674/image_512",
-      "url": "https://globalvalue.ar/shop/000188-cnc-laser-acmer-p3-48w-cubierta-panal-aire-camara-rotativo-2674?page=9",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/9",
+      "url": "https://globalvalue.ar/shop/000188-cnc-laser-acmer-p3-48w-cubierta-panal-aire-camara-rotativo-2674?page=10",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/10",
       "variants": []
     },
     {
@@ -4630,8 +4765,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2645/image_512",
-      "url": "https://globalvalue.ar/shop/000196-kit-de-extension-ortur-laser-master-3-olm3-80x41-cm-2645?page=10",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/10",
+      "url": "https://globalvalue.ar/shop/000196-kit-de-extension-ortur-laser-master-3-olm3-80x41-cm-2645?page=11",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/11",
       "variants": []
     },
     {
@@ -5324,8 +5459,8 @@
         "CNC"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2593/image_512",
-      "url": "https://globalvalue.ar/shop/000316-cnc-laser-two-trees-ts2-10w-opticos-auto-focus-graba-y-corta-2593?page=12",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/12",
+      "url": "https://globalvalue.ar/shop/000316-cnc-laser-two-trees-ts2-10w-opticos-auto-focus-graba-y-corta-2593?page=13",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/13",
       "variants": []
     },
     {
@@ -5333,11 +5468,11 @@
       "sourceProductId": "2589",
       "store": "Global Value",
       "domain": "globalvalue.ar",
-      "name": "Cabezal Laser Two Trees T20 Graba Metales P/ Atomstack Y Tts",
+      "name": "Cabezal Laser Infrarrojo Two Trees T20 (2w) Graba Metales",
       "category": "Corte láser",
-      "price": 1393811.1,
+      "price": 1151910,
       "currency": "ARS",
-      "previousPrice": 1548679,
+      "previousPrice": 1279900,
       "transferPrice": null,
       "purchaseModes": [
         "Entrega inmediata"
@@ -5351,7 +5486,7 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2589/image_512",
-      "url": "https://globalvalue.ar/shop/000066-cabezal-laser-two-trees-t20-graba-metales-p-atomstack-y-tts-2589?page=13",
+      "url": "https://globalvalue.ar/shop/000066-cabezal-laser-infrarrojo-two-trees-t20-2w-graba-metales-2589?page=13",
       "scrapedFrom": "https://globalvalue.ar/shop/page/13",
       "variants": []
     },
