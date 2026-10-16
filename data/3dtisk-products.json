@@ -5,42 +5,48 @@
     "baseUrl": "https://3dtisk.com.ar",
     "listingPath": "/productos/"
   },
-  "scrapedAt": "2026-10-15T13:12:25.742Z",
-  "count": 178,
+  "scrapedAt": "2026-10-16T13:06:33.927Z",
+  "count": 209,
   "pages": [
     {
       "page": 1,
       "url": "https://3dtisk.com.ar/productos/",
-      "found": 37,
-      "added": 37
+      "found": 47,
+      "added": 47
     },
     {
       "page": 2,
       "url": "https://3dtisk.com.ar/productos/?page=2",
-      "found": 48,
-      "added": 48
+      "found": 37,
+      "added": 37
     },
     {
       "page": 3,
       "url": "https://3dtisk.com.ar/productos/?page=3",
-      "found": 35,
-      "added": 35
+      "found": 46,
+      "added": 46
     },
     {
       "page": 4,
       "url": "https://3dtisk.com.ar/productos/?page=4",
-      "found": 41,
-      "added": 41
+      "found": 37,
+      "added": 37
     },
     {
       "page": 5,
       "url": "https://3dtisk.com.ar/productos/?page=5",
-      "found": 17,
-      "added": 17
+      "found": 34,
+      "added": 34
     },
     {
       "page": 6,
       "url": "https://3dtisk.com.ar/productos/?page=6",
+      "found": 8,
+      "added": 8
+    },
+    {
+      "page": 7,
+      "url": "https://3dtisk.com.ar/productos/?page=7",
       "found": 0,
       "added": 0
     }
@@ -82,6 +88,41 @@
       ]
     },
     {
+      "id": "3dtisk-341423084",
+      "sourceProductId": "341423084",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "Hellbot R.Rojo",
+      "category": "Accesorios",
+      "price": 17850,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 40,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084202391051-1da7f1851c9154605f17775813240064-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/hellbot-r-rojo-nq8vb/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1516020430,
+          "sku": "52",
+          "price": 17850,
+          "isDeposit": false,
+          "stock": 20,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084202391051-1da7f1851c9154605f17775813240064-1024-1024.webp"
+        }
+      ]
+    },
+    {
       "id": "3dtisk-341423223",
       "sourceProductId": "341423223",
       "store": "3DTisk",
@@ -93,7 +134,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 74,
+      "stock": 164,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -109,10 +150,45 @@
           "sku": "40",
           "price": 17850,
           "isDeposit": false,
-          "stock": 37,
+          "stock": 82,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084184182211-7589eebfbfdc1a37d317775813516820-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-341423216",
+      "sourceProductId": "341423216",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "Hellbot R.Blanco",
+      "category": "Accesorios",
+      "price": 17850,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 140,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084185482046-25b573c2f3cc3de1d517775813491720-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/hellbot-r-blanco-f8f3y/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1516020930,
+          "sku": "41",
+          "price": 17850,
+          "isDeposit": false,
+          "stock": 70,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084185482046-25b573c2f3cc3de1d517775813491720-1024-1024.webp"
         }
       ]
     },
@@ -128,7 +204,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 16,
+      "stock": 14,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -144,7 +220,7 @@
           "sku": "60",
           "price": 17850,
           "isDeposit": false,
-          "stock": 8,
+          "stock": 7,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084369414543-9883228b4a0022bf3817775813055061-1024-1024.webp"
@@ -220,6 +296,41 @@
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177729871157629-d3dca07e740cb7b5ce17775801684770-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-341423540",
+      "sourceProductId": "341423540",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "Hellbot E.Azul",
+      "category": "Accesorios",
+      "price": 19950,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 40,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084106991630-021a82e808e669234617775814234775-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/hellbot-e-azul-rodgf/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1516022629,
+          "sku": "8",
+          "price": 19950,
+          "isDeposit": false,
+          "stock": 20,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084106991630-021a82e808e669234617775814234775-1024-1024.webp"
         }
       ]
     },
@@ -305,7 +416,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 22,
+      "stock": 42,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -321,7 +432,7 @@
           "sku": "56",
           "price": 17850,
           "isDeposit": false,
-          "stock": 11,
+          "stock": 21,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084209452907-06ecfcf51c7e10d57217775813150221-1024-1024.webp"
@@ -360,41 +471,6 @@
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084210774760-5e8b39ab634caf78fa17775813127674-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "3dtisk-341423026",
-      "sourceProductId": "341423026",
-      "store": "3DTisk",
-      "domain": "3dtisk.com.ar",
-      "name": "Hellbot R.Lavanda Pastel",
-      "category": "Accesorios",
-      "price": 17850,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 2,
-      "stockLabel": "Pocas unidades",
-      "available": true,
-      "brand": "Hellbot",
-      "tags": [
-        "Hellbot"
-      ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084211817584-d551dd6e7ff5b2398917775813105939-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/hellbot-r-lavanda-pastel-6nqry/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/",
-      "variants": [
-        {
-          "id": 1516020231,
-          "sku": "58",
-          "price": 17850,
-          "isDeposit": false,
-          "stock": 1,
-          "available": true,
-          "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084211817584-d551dd6e7ff5b2398917775813105939-1024-1024.webp"
         }
       ]
     },
@@ -445,7 +521,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 16,
+      "stock": 8,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -461,7 +537,7 @@
           "sku": "62",
           "price": 17850,
           "isDeposit": false,
-          "stock": 8,
+          "stock": 4,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084375767265-c82fa540091e8cf83017775813006159-1024-1024.webp"
@@ -646,42 +722,6 @@
       ]
     },
     {
-      "id": "3dtisk-341418329",
-      "sourceProductId": "341418329",
-      "store": "3DTisk",
-      "domain": "3dtisk.com.ar",
-      "name": "Filamento PLA Elegoo Rosa",
-      "category": "Impresoras",
-      "price": 25100,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 2,
-      "stockLabel": "Pocas unidades",
-      "available": true,
-      "brand": "Elegoo",
-      "tags": [
-        "Elegoo",
-        "PLA"
-      ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177729729212457-cf0ad76bced5dc23b717775801851396-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/filamento-pla-elegoo-rosa-1ktp7/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/",
-      "variants": [
-        {
-          "id": 1515999405,
-          "sku": "770",
-          "price": 25100,
-          "isDeposit": false,
-          "stock": 1,
-          "available": true,
-          "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177729729212457-cf0ad76bced5dc23b717775801851396-1024-1024.webp"
-        }
-      ]
-    },
-    {
       "id": "3dtisk-341417785",
       "sourceProductId": "341417785",
       "store": "3DTisk",
@@ -754,6 +794,1021 @@
       ]
     },
     {
+      "id": "3dtisk-374385928",
+      "sourceProductId": "374385928",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "W3D PLA+ BLANCO",
+      "category": "Filamentos",
+      "price": 20600,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 36,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/w3d-pla-blanco-im1z1/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1619612676,
+          "sku": "1202",
+          "price": 20600,
+          "isDeposit": false,
+          "stock": 18,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-374385905",
+      "sourceProductId": "374385905",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "W3D PLA+AMARILLO",
+      "category": "Filamentos",
+      "price": 20600,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 6,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/w3d-plaamarillo-1oqnt/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1619612636,
+          "sku": "1205",
+          "price": 20600,
+          "isDeposit": false,
+          "stock": 3,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-374385447",
+      "sourceProductId": "374385447",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "W3D PLA+NARANJA",
+      "category": "Filamentos",
+      "price": 20600,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 4,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179138597038357-5defaf31caeeed387d17920962781642-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/w3d-planaranja-1xomo/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1619611795,
+          "sku": "1206",
+          "price": 20600,
+          "isDeposit": false,
+          "stock": 2,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179138597038357-5defaf31caeeed387d17920962781642-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-374385438",
+      "sourceProductId": "374385438",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "W3D PLA+ROJO",
+      "category": "Filamentos",
+      "price": 20600,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/w3d-plarojo-oa61i/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1619611785,
+          "sku": "1207",
+          "price": 20600,
+          "isDeposit": false,
+          "stock": 1,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-374385425",
+      "sourceProductId": "374385425",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "W3D PLA+ROSA",
+      "category": "Filamentos",
+      "price": 20600,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 6,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/w3d-plarosa-1rfhs/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1619611752,
+          "sku": "1208",
+          "price": 20600,
+          "isDeposit": false,
+          "stock": 3,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-374385415",
+      "sourceProductId": "374385415",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "W3D PLA+VIOLETA",
+      "category": "Filamentos",
+      "price": 20600,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 10,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/w3d-plavioleta-1hsur/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1619611739,
+          "sku": "1209",
+          "price": 20600,
+          "isDeposit": false,
+          "stock": 5,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-374385405",
+      "sourceProductId": "374385405",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "W3D PLA+AZUL",
+      "category": "Filamentos",
+      "price": 20600,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 12,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/w3d-plaazul-1xdvj/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1619611729,
+          "sku": "1210",
+          "price": 20600,
+          "isDeposit": false,
+          "stock": 6,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-374385394",
+      "sourceProductId": "374385394",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "W3D PLA+VERDE BORQUE",
+      "category": "Filamentos",
+      "price": 20600,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 8,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/w3d-plaverde-borque-gstai/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1619611692,
+          "sku": "1212",
+          "price": 20600,
+          "isDeposit": false,
+          "stock": 4,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-374385382",
+      "sourceProductId": "374385382",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "W3D PLA+VERDE",
+      "category": "Filamentos",
+      "price": 20600,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/w3d-plaverde-165gd/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1619611678,
+          "sku": "1211",
+          "price": 20600,
+          "isDeposit": false,
+          "stock": 1,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-374385373",
+      "sourceProductId": "374385373",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "W3D PLA+ CHOCOLATE",
+      "category": "Filamentos",
+      "price": 20600,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/w3d-pla-chocolate-1kkdp/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1619611669,
+          "sku": "1213",
+          "price": 20600,
+          "isDeposit": false,
+          "stock": 1,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-374385359",
+      "sourceProductId": "374385359",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "W3D PLA+GRIS",
+      "category": "Filamentos",
+      "price": 20600,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 10,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/w3d-plagris-10k7u/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1619611647,
+          "sku": "1214",
+          "price": 20600,
+          "isDeposit": false,
+          "stock": 5,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-374384833",
+      "sourceProductId": "374384833",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "W3D PLA+NEGRO",
+      "category": "Filamentos",
+      "price": 20600,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 34,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179138353651174-0278bff47df49e675517921037776263-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/w3d-planegro-pgbdh/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1619610574,
+          "sku": "1215",
+          "price": 20600,
+          "isDeposit": false,
+          "stock": 17,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179138353651174-0278bff47df49e675517921037776263-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-374384824",
+      "sourceProductId": "374384824",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "W3D PLA+MARRON CLARO",
+      "category": "Filamentos",
+      "price": 20600,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/w3d-plamarron-claro-589oi/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1619610558,
+          "sku": "1216",
+          "price": 20600,
+          "isDeposit": false,
+          "stock": 1,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-374384802",
+      "sourceProductId": "374384802",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "W3D ABS BLANCO",
+      "category": "Filamentos",
+      "price": 42300,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 60,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "ABS"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/w3d-abs-blanco-1jdvu/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1619610526,
+          "sku": "1218",
+          "price": 42300,
+          "isDeposit": false,
+          "stock": 30,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-374384795",
+      "sourceProductId": "374384795",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "W3D TPU ESPUMA NEGRO",
+      "category": "Filamentos",
+      "price": 78300,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 10,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "TPU"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/w3d-tpu-espuma-negro-dzs52/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1619610506,
+          "sku": "1219",
+          "price": 78300,
+          "isDeposit": false,
+          "stock": 5,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-374384784",
+      "sourceProductId": "374384784",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "W3D PETG NEGRO",
+      "category": "Filamentos",
+      "price": 19400,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 28,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PETG"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/w3d-petg-negro-2uma9/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1619610473,
+          "sku": "1220",
+          "price": 19400,
+          "isDeposit": false,
+          "stock": 14,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-374381008",
+      "sourceProductId": "374381008",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "W3D PLA MATTE NEGRO",
+      "category": "Filamentos",
+      "price": 20600,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 12,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/w3d-pla-matte-negro-2g9yk/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1619602745,
+          "sku": "1221",
+          "price": 20600,
+          "isDeposit": false,
+          "stock": 6,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-374380406",
+      "sourceProductId": "374380406",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "W3D PLA MATTE LADRILLO",
+      "category": "Filamentos",
+      "price": 20600,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 6,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/w3d-pla-matte-ladrillo-1h1e1/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1619601446,
+          "sku": "1222",
+          "price": 20600,
+          "isDeposit": false,
+          "stock": 3,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-374380394",
+      "sourceProductId": "374380394",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "W3D TPU 85A NEGRO",
+      "category": "Filamentos",
+      "price": 42300,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 10,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "TPU"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/w3d-tpu-85a-negro-1l1wg/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1619601418,
+          "sku": "1223",
+          "price": 42300,
+          "isDeposit": false,
+          "stock": 5,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-374380384",
+      "sourceProductId": "374380384",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "W3D PLA MATTE BLANCO",
+      "category": "Filamentos",
+      "price": 20600,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 6,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/w3d-pla-matte-blanco-fnn9m/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1619601390,
+          "sku": "1224",
+          "price": 20600,
+          "isDeposit": false,
+          "stock": 3,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-374380377",
+      "sourceProductId": "374380377",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "W3D PLA MATTE AMARILLO",
+      "category": "Filamentos",
+      "price": 20600,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 8,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/w3d-pla-matte-amarillo-1hbs7/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1619601366,
+          "sku": "1225",
+          "price": 20600,
+          "isDeposit": false,
+          "stock": 4,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-374379679",
+      "sourceProductId": "374379679",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "W3D PLA MATTE CYAN",
+      "category": "Filamentos",
+      "price": 20600,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 8,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/w3d-pla-matte-cyan-12gn6/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1619599685,
+          "sku": "1226",
+          "price": 20600,
+          "isDeposit": false,
+          "stock": 4,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-374377037",
+      "sourceProductId": "374377037",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "W3D PLA MATTE AZUL CLARO",
+      "category": "Filamentos",
+      "price": 20600,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 8,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/w3d-pla-matte-azul-claro-1083r/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1619593497,
+          "sku": "1229",
+          "price": 20600,
+          "isDeposit": false,
+          "stock": 4,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-374377031",
+      "sourceProductId": "374377031",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "W3D PLA MATTE VERDE PASTO",
+      "category": "Filamentos",
+      "price": 20600,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 8,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/w3d-pla-matte-verde-pasto-4bk5b/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1619593483,
+          "sku": "1230",
+          "price": 20600,
+          "isDeposit": false,
+          "stock": 4,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-374377013",
+      "sourceProductId": "374377013",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "W3D PLA MATTE PURPURA",
+      "category": "Filamentos",
+      "price": 20600,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 4,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/w3d-pla-matte-purpura-19q4x/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1619593459,
+          "sku": "1231",
+          "price": 20600,
+          "isDeposit": false,
+          "stock": 2,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-374377007",
+      "sourceProductId": "374377007",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "W3D PLA MATTE AMARILLO/VERDE",
+      "category": "Filamentos",
+      "price": 20600,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 8,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/w3d-pla-matte-amarillo-verde-804zq/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1619593449,
+          "sku": "1232",
+          "price": 20600,
+          "isDeposit": false,
+          "stock": 4,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-374377003",
+      "sourceProductId": "374377003",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "W3D PLA MATTE MARMOL",
+      "category": "Filamentos",
+      "price": 20600,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 8,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/w3d-pla-matte-marmol-bkkq2/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "variants": [
+        {
+          "id": 1619593441,
+          "sku": "1233",
+          "price": 20600,
+          "isDeposit": false,
+          "stock": 4,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-374376442",
+      "sourceProductId": "374376442",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "W3D PLA MATTE PIEL",
+      "category": "Filamentos",
+      "price": 20600,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/w3d-pla-matte-piel-12t95/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "variants": [
+        {
+          "id": 1619592297,
+          "sku": "1234",
+          "price": 20600,
+          "isDeposit": false,
+          "stock": 1,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-374376437",
+      "sourceProductId": "374376437",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "W3D PETG FIBRA DE CARBON NEGRO",
+      "category": "Filamentos",
+      "price": 29500,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 20,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PETG"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/w3d-petg-fibra-de-carbon-negro-oe7le/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "variants": [
+        {
+          "id": 1619592286,
+          "sku": "1235",
+          "price": 29500,
+          "isDeposit": false,
+          "stock": 10,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp"
+        }
+      ]
+    },
+    {
       "id": "3dtisk-366947954",
       "sourceProductId": "366947954",
       "store": "3DTisk",
@@ -772,7 +1827,7 @@
       "tags": [],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/178916067993472-f71e7222e31a3ecd9d17891614309383-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/animal-gato-3q7od/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
       "variants": [
         {
           "id": 1595273614,
@@ -808,7 +1863,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/elegoo-petg-pro-rojo-borgona-48tlq/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
       "variants": [
         {
           "id": 1581390718,
@@ -845,7 +1900,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/178587662553514-4c0721f7f2663d432117858766702346-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/elegoo-impresora-3d-de-resina-saturn-4ultra-msla-16k-preventa-2da-quincena-septiembre-4byb7/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
       "variants": [
         {
           "id": 1570955890,
@@ -883,7 +1938,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/178587522055395-23abfeea372c5613e217858752900721-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/impresora-3d-elegoo-fdm-centauri-carbon-2-combo-preventa-2da-quincena-septiembre-182dp/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
       "variants": [
         {
           "id": 1570934419,
@@ -920,7 +1975,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/178578962879553-b35b1e56b7f0f7a62e17857896691455-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/bambu-lab-a2l-preventa-octubre-18ilw/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
       "variants": [
         {
           "id": 1570213520,
@@ -958,7 +2013,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/178578926159292-11d7e497d96bc7131a17857893092535-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/bambu-lab-a2l-combo-modulo-de-corte-preventa-octubre-1ujl1/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
       "variants": [
         {
           "id": 1570207939,
@@ -994,7 +2049,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/178464678324868-5e89795665ca3b65f017846469709915-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/filamento-pla-pro-elegoo-verde-4hu89/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
       "variants": [
         {
           "id": 1562709728,
@@ -1030,7 +2085,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/178464602485957-dbbc7d7f48ca6cd22f17846460705255-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/filamento-flashforge-eco-pla-negro-1d0no/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
       "variants": [
         {
           "id": 1562697116,
@@ -1066,7 +2121,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/178464546283896-711dbd53e2e0fbe70817846454686495-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/filamento-pla-flashforge-silk-dorado-1t5t5/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
       "variants": [
         {
           "id": 1560926224,
@@ -1101,7 +2156,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/178231344135069-b12ffecc2be77ebfa417823134508497-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/elegoo-silk-azul-violeta-negro-1bf6k/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
       "variants": [
         {
           "id": 1548623867,
@@ -1137,7 +2192,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/178223877389868-c11e46c5a8235bc44217822388086586-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/elegoo-pla-rapid-blanco-7xm0z/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
       "variants": [
         {
           "id": 1548161640,
@@ -1174,7 +2229,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177869084947307-ebf96e5a383c71434817786908878915-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/impresora-3d-snapmaker-u1-preventa-agosto-k7ng7/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
       "variants": [
         {
           "id": 1523712376,
@@ -1209,7 +2264,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177868963855072-28045936eaaa791c0517786896879395-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/bambu-lab-ams-2-pro-bgseo/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
       "variants": [
         {
           "id": 1523701474,
@@ -1242,7 +2297,7 @@
       "tags": [],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177868706977890-77927381ace584e20d17786871087546-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/scanner-sermoon-p1-3tbpw/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
       "variants": [
         {
           "id": 1523677213,
@@ -1278,7 +2333,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177868642181691-bf3f00fa8784d7342217786864471776-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/impresora-3d-creality-k2-se-combo-tn8h9/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
       "variants": [
         {
           "id": 1523672369,
@@ -1313,7 +2368,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177868618814600-b3256969de9c3ee0a117786862082224-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/impresora-3d-creality-k2-se-75pv1/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
       "variants": [
         {
           "id": 1523668256,
@@ -1349,7 +2404,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177807758335911-75cd861a16a75fd78117780776873816-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/filamento-abs-elegoo-blanco-1xhf3/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
       "variants": [
         {
           "id": 1519215506,
@@ -1483,8 +2538,8 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 6,
-      "stockLabel": "En stock",
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Flashforge",
       "tags": [
@@ -1500,7 +2555,7 @@
           "sku": "786",
           "price": 24100,
           "isDeposit": false,
-          "stock": 3,
+          "stock": 1,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177790424041402-85b5ade6bbc83a037e17779042879188-1024-1024.webp"
@@ -1627,7 +2682,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 28,
+      "stock": 46,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -1643,7 +2698,7 @@
           "sku": "2",
           "price": 19950,
           "isDeposit": false,
-          "stock": 14,
+          "stock": 23,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/17708409228340-43f7a85ad36bbf2dba17775814376893-1024-1024.webp"
@@ -1662,7 +2717,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 42,
+      "stock": 58,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -1678,7 +2733,7 @@
           "sku": "3",
           "price": 19950,
           "isDeposit": false,
-          "stock": 21,
+          "stock": 29,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084093618115-a1eabab963e2c4946c17775814352794-1024-1024.webp"
@@ -1697,7 +2752,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 42,
+      "stock": 40,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -1713,7 +2768,7 @@
           "sku": "4",
           "price": 19950,
           "isDeposit": false,
-          "stock": 21,
+          "stock": 20,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084095242718-c8d4f57ef1d96957af17775814328512-1024-1024.webp"
@@ -1752,41 +2807,6 @@
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/1770840964857-d393746fa7428f3fc617775814305875-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "3dtisk-341423560",
-      "sourceProductId": "341423560",
-      "store": "3DTisk",
-      "domain": "3dtisk.com.ar",
-      "name": "Hellbot E.Marmol",
-      "category": "Accesorios",
-      "price": 19950,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 12,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Hellbot",
-      "tags": [
-        "Hellbot"
-      ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084098513864-9bd9c12fb96886efe317775814282622-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/hellbot-e-marmol-1urny/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
-      "variants": [
-        {
-          "id": 1516022697,
-          "sku": "6",
-          "price": 19950,
-          "isDeposit": false,
-          "stock": 6,
-          "available": true,
-          "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084098513864-9bd9c12fb96886efe317775814282622-1024-1024.webp"
         }
       ]
     },
@@ -1872,7 +2892,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 14,
+      "stock": 10,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -1888,10 +2908,45 @@
           "sku": "10",
           "price": 19950,
           "isDeposit": false,
-          "stock": 7,
+          "stock": 5,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084109425161-883d62754b25108fc317775814186258-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-341423510",
+      "sourceProductId": "341423510",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "Hellbot E.Verde",
+      "category": "Accesorios",
+      "price": 19950,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 20,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084111676430-39f82da8b4cd248a8817775814161581-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/hellbot-e-verde-lcdt7/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "variants": [
+        {
+          "id": 1516022501,
+          "sku": "11",
+          "price": 19950,
+          "isDeposit": false,
+          "stock": 10,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084111676430-39f82da8b4cd248a8817775814161581-1024-1024.webp"
         }
       ]
     },
@@ -1977,8 +3032,8 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 2,
-      "stockLabel": "Pocas unidades",
+      "stock": 42,
+      "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
       "tags": [
@@ -1986,17 +3041,87 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084114734048-e8bf0d518293e7f88317775814093694-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-e-rojo-12mek/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1516022340,
           "sku": "14",
           "price": 19950,
           "isDeposit": false,
-          "stock": 1,
+          "stock": 21,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084114734048-e8bf0d518293e7f88317775814093694-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-341423464",
+      "sourceProductId": "341423464",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "Hellbot E.Naranja",
+      "category": "Accesorios",
+      "price": 19950,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 20,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084117311210-da2033d4b67bacc0c217775814072976-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/hellbot-e-naranja-m8y8g/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
+      "variants": [
+        {
+          "id": 1516022298,
+          "sku": "15",
+          "price": 19950,
+          "isDeposit": false,
+          "stock": 10,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084117311210-da2033d4b67bacc0c217775814072976-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-341423455",
+      "sourceProductId": "341423455",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "Hellbot E.Rosa",
+      "category": "Accesorios",
+      "price": 19950,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 20,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084118573265-0681a4794c588d736017775814051546-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/hellbot-e-rosa-11ete/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
+      "variants": [
+        {
+          "id": 1516022247,
+          "sku": "16",
+          "price": 19950,
+          "isDeposit": false,
+          "stock": 10,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084118573265-0681a4794c588d736017775814051546-1024-1024.webp"
         }
       ]
     },
@@ -2021,7 +3146,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084120032578-0212aa84bfd27c3fc517775814029240-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-e-violeta-ldjtf/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1516022185,
@@ -2056,7 +3181,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084122943636-0531b74774f729a68c17775813985330-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-e-cristal-ii4i4/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1516022048,
@@ -2091,7 +3216,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084126376871-9e4b2af3f3fe03560517775813940374-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-e-aqua-pastel-13v98/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1516021942,
@@ -2126,7 +3251,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084127629616-30f53ba279b8d4556017775813919678-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-e-vainilla-pastel-fdiqe/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1516021889,
@@ -2161,7 +3286,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084128770147-87259560e8f93ab7c317775813898417-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-e-indigo-pastel-13aqs/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1516021818,
@@ -2196,7 +3321,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084133166839-a4cc00e5251addcfd917775813856589-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-e-menta-pastel-1kr9j/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1516021690,
@@ -2222,7 +3347,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 26,
+      "stock": 22,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2231,14 +3356,14 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084139866376-87a9872d9726c7d90417775813739216-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-e-esmeralada-tras-fu3a5/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1516021425,
           "sku": "30",
           "price": 19950,
           "isDeposit": false,
-          "stock": 13,
+          "stock": 11,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084139866376-87a9872d9726c7d90417775813739216-1024-1024.webp"
@@ -2266,7 +3391,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084141121183-116b7152c8a19c23d317775813716451-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-e-ruby-traslucido-1xhn6/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1516021389,
@@ -2292,8 +3417,8 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 2,
-      "stockLabel": "Pocas unidades",
+      "stock": 22,
+      "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
       "tags": [
@@ -2301,14 +3426,14 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084143961288-c6e55c2543ccefc40917775813696060-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-e-diamante-tras-1bgdc/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1516021306,
           "sku": "32",
           "price": 19950,
           "isDeposit": false,
-          "stock": 1,
+          "stock": 11,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084143961288-c6e55c2543ccefc40917775813696060-1024-1024.webp"
@@ -2336,7 +3461,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084146089384-184b42d578fb20dd3e17775813673451-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-e-zafiro-tras-xn693/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1516021269,
@@ -2371,7 +3496,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084147142728-eaa34f541a3d81290a17775813647556-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-e-dorado-1l59d/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1516021236,
@@ -2397,7 +3522,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 26,
+      "stock": 24,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2407,14 +3532,14 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084148399587-7f60d0fc3b5b3a064f17775813625760-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-e-plateado-dscz7/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1516021198,
           "sku": "35",
           "price": 19950,
           "isDeposit": false,
-          "stock": 13,
+          "stock": 12,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084148399587-7f60d0fc3b5b3a064f17775813625760-1024-1024.webp"
@@ -2442,7 +3567,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084149410146-5daa114b126c2b02fd17775813603337-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-e-bronce-14xzf/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1516021159,
@@ -2468,7 +3593,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 4,
+      "stock": 24,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2477,14 +3602,14 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084150586192-d325f6b6eeefe34c4617775813582103-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-e-amarillo-fluor-1ao5z/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1516021097,
           "sku": "37",
           "price": 19950,
           "isDeposit": false,
-          "stock": 2,
+          "stock": 12,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084150586192-d325f6b6eeefe34c4617775813582103-1024-1024.webp"
@@ -2503,8 +3628,8 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 2,
-      "stockLabel": "Pocas unidades",
+      "stock": 22,
+      "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
       "tags": [
@@ -2512,14 +3637,14 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084151860302-5926b551f961f88cc717775813560983-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-e-verde-fluor-wk40f/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1516021056,
           "sku": "38",
           "price": 19950,
           "isDeposit": false,
-          "stock": 1,
+          "stock": 11,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084151860302-5926b551f961f88cc717775813560983-1024-1024.webp"
@@ -2547,7 +3672,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177187861844395-c6992a5ec3541973eb17775813539078-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-e-naranja-fluor-1pybd/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1516021021,
@@ -2582,7 +3707,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084186569018-233e6643f6a7bba82917775813469669-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-r-gris-re6qo/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1516020888,
@@ -2608,7 +3733,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 20,
+      "stock": 40,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2617,14 +3742,14 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084188878521-04a202b21ed4c8de6917775813447254-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-r-gris-grafito-1qyd8/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1516020837,
           "sku": "43",
           "price": 17850,
           "isDeposit": false,
-          "stock": 10,
+          "stock": 20,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084188878521-04a202b21ed4c8de6917775813447254-1024-1024.webp"
@@ -2643,7 +3768,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 20,
+      "stock": 18,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2652,14 +3777,14 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084189918403-ee4cafe88da78423c817775813426230-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-r-marmol-1qvn7/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1516020789,
           "sku": "44",
           "price": 17850,
           "isDeposit": false,
-          "stock": 10,
+          "stock": 9,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084189918403-ee4cafe88da78423c817775813426230-1024-1024.webp"
@@ -2687,7 +3812,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084191338489-9febe9bfa27b9e0e7317775813401378-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-r-aqua-brlo7/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1516020743,
@@ -2713,7 +3838,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 40,
+      "stock": 36,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2722,14 +3847,14 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084194150423-180ef6d450745dcf2417775813353474-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-r-celeste-h7slp/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1516020658,
           "sku": "47",
           "price": 17850,
           "isDeposit": false,
-          "stock": 20,
+          "stock": 18,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084194150423-180ef6d450745dcf2417775813353474-1024-1024.webp"
@@ -2757,7 +3882,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084195197014-abbfaeb2a20a74a09117775813332007-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-r-cobalto-nss8o/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1516020610,
@@ -2783,7 +3908,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 26,
+      "stock": 24,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2792,14 +3917,14 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084196592107-98de2072c39f02f12017775813307875-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-r-verde-aookg/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1516020574,
           "sku": "49",
           "price": 17850,
           "isDeposit": false,
-          "stock": 13,
+          "stock": 12,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084196592107-98de2072c39f02f12017775813307875-1024-1024.webp"
@@ -2827,7 +3952,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084198293956-d32636f2980286732d17775813286263-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-r-verde-claro-5a7en/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1516020543,
@@ -2853,8 +3978,8 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 6,
-      "stockLabel": "En stock",
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Hellbot",
       "tags": [
@@ -2862,14 +3987,14 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084203519113-cafc42e0238d1f658617775813215786-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-r-naranja-ak1ux/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1516020393,
           "sku": "53",
           "price": 17850,
           "isDeposit": false,
-          "stock": 3,
+          "stock": 1,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084203519113-cafc42e0238d1f658617775813215786-1024-1024.webp"
@@ -2888,7 +4013,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 26,
+      "stock": 24,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2897,14 +4022,14 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084204589920-15e7d603bfeafdbffe17775813194199-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-r-rosa-26ry4/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1516020362,
           "sku": "54",
           "price": 17850,
           "isDeposit": false,
-          "stock": 13,
+          "stock": 12,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084204589920-15e7d603bfeafdbffe17775813194199-1024-1024.webp"
@@ -2932,7 +4057,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084374863980-98434c8d282958eba217775813029822-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-r-indigo-pastel-19zsi/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1516020102,
@@ -2967,7 +4092,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084376831771-ae51c6febfadf7e02917775812984230-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-r-menta-pastel-103ta/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1516020021,
@@ -3002,7 +4127,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084380076356-aa7bab47e21895109417775812934524-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-r-celeste-pastel-1fx2t/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1516019921,
@@ -3037,7 +4162,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084387282230-0de8a62b001d55841f17775812864497-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-r-esmeralada-tras-1u1vp/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1516019764,
@@ -3334,6 +4459,41 @@
       ]
     },
     {
+      "id": "3dtisk-341419720",
+      "sourceProductId": "341419720",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "Hellbot E.Marron Capibara",
+      "category": "Accesorios",
+      "price": 19950,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 20,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177187852489957-406263d3ec9781705f17775805410405-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/hellbot-e-marron-capibara-tp6i8/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
+      "variants": [
+        {
+          "id": 1516006673,
+          "sku": "460",
+          "price": 19950,
+          "isDeposit": false,
+          "stock": 10,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177187852489957-406263d3ec9781705f17775805410405-1024-1024.webp"
+        }
+      ]
+    },
+    {
       "id": "3dtisk-341419715",
       "sourceProductId": "341419715",
       "store": "3DTisk",
@@ -3345,8 +4505,8 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 2,
-      "stockLabel": "Pocas unidades",
+      "stock": 22,
+      "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
       "tags": [
@@ -3361,7 +4521,7 @@
           "sku": "461",
           "price": 19950,
           "isDeposit": false,
-          "stock": 1,
+          "stock": 11,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084081982278-9c0a24df4c6874857217775805387959-1024-1024.webp"
@@ -3496,7 +4656,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213208043425-6f32ff48df709dd16317775802675548-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/impresora-elegoo-fdm-centauri-carbon-11lh8/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
       "variants": [
         {
           "id": 1516001142,
@@ -3531,7 +4691,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213261191467-bc2ea198e21410fde217775802651100-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/impresora-elegoo-resina-mars-5-zizcd/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
       "variants": [
         {
           "id": 1516001102,
@@ -3564,7 +4724,7 @@
       "tags": [],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213300128396-c7cb3c8661dd359a3317775802611485-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/maquina-de-lavado-y-curado-mercury-xs-t7w9o/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
       "variants": [
         {
           "id": 1516001027,
@@ -3600,7 +4760,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213455875664-5641fb4f828596e5f217775802561265-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/impresora-bambu-lab-h2c-combo-172wv/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
       "variants": [
         {
           "id": 1516000909,
@@ -3636,7 +4796,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213465796201-db403bf90355962a2b17775802509011-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/impresora-fdm-bambu-lab-p2s-combo-1l2jh/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
       "variants": [
         {
           "id": 1516000847,
@@ -3671,7 +4831,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213508314532-ee2f5ff9083a622bc217775802476765-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/impresora-bambu-lab-a1-mtaib/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
       "variants": [
         {
           "id": 1516000762,
@@ -3707,7 +4867,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213719749567-1f524b904c9e7b7ebb17775802227778-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/impresora-creality-fdm-k2-combo-1k9y5/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
       "variants": [
         {
           "id": 1516000261,
@@ -3743,7 +4903,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213728751570-883412792ab099bfc917775802185699-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/impresora-3d-creality-k2-pro-combo-1wl61/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
       "variants": [
         {
           "id": 1516000146,
@@ -3779,7 +4939,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213782051880-053b9bbff50cc04cb917775802130672-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/impresora-3d-resina-creality-halot-x1-combo-8vfhu/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
       "variants": [
         {
           "id": 1515999968,
@@ -3815,7 +4975,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177369481328150-21fa739cbaf448229617775802066302-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/impresora-bambu-lab-h2s-combo-wpe2p/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
       "variants": [
         {
           "id": 1515999837,
@@ -3851,7 +5011,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177706591144912-94006d47acc86da73b17775801956995-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/filamento-pla-elegoo-gris-vi41q/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
       "variants": [
         {
           "id": 1515999665,
@@ -3887,7 +5047,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177729763336174-35efd86f0739ff25a617775801801420-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/filamento-pla-elegoo-gris-espacial-brqtx/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
       "variants": [
         {
           "id": 1515999318,
@@ -3923,7 +5083,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177729807277216-86512cbc940560b54917775801778303-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/filamento-pla-elegoo-bronce-relleno-11fhx/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
       "variants": [
         {
           "id": 1515999275,
@@ -3959,7 +5119,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177729850383123-fca341fd81659f855217775801734286-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/filamento-pla-elegoo-natural-18bd6/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
       "variants": [
         {
           "id": 1515999160,
@@ -3970,76 +5130,6 @@
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177729850383123-fca341fd81659f855217775801734286-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "3dtisk-341423084",
-      "sourceProductId": "341423084",
-      "store": "3DTisk",
-      "domain": "3dtisk.com.ar",
-      "name": "Hellbot R.Rojo",
-      "category": "Accesorios",
-      "price": 17850,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Hellbot",
-      "tags": [
-        "Hellbot"
-      ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084202391051-1da7f1851c9154605f17775813240064-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/hellbot-r-rojo-nq8vb/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
-      "variants": [
-        {
-          "id": 1516020430,
-          "sku": "52",
-          "price": 17850,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084202391051-1da7f1851c9154605f17775813240064-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "3dtisk-341423216",
-      "sourceProductId": "341423216",
-      "store": "3DTisk",
-      "domain": "3dtisk.com.ar",
-      "name": "Hellbot R.Blanco",
-      "category": "Accesorios",
-      "price": 17850,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Hellbot",
-      "tags": [
-        "Hellbot"
-      ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084185482046-25b573c2f3cc3de1d517775813491720-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/hellbot-r-blanco-f8f3y/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
-      "variants": [
-        {
-          "id": 1516020930,
-          "sku": "41",
-          "price": 17850,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084185482046-25b573c2f3cc3de1d517775813491720-1024-1024.webp"
         }
       ]
     },
@@ -4065,7 +5155,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213488554267-04ec5ae1616f5ee20517775807271086-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/impresora-bambu-lab-a1-combo-1p1jf/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
       "variants": [
         {
           "id": 1516009875,
@@ -4080,13 +5170,13 @@
       ]
     },
     {
-      "id": "3dtisk-341423540",
-      "sourceProductId": "341423540",
+      "id": "3dtisk-341423026",
+      "sourceProductId": "341423026",
       "store": "3DTisk",
       "domain": "3dtisk.com.ar",
-      "name": "Hellbot E.Azul",
+      "name": "Hellbot R.Lavanda Pastel",
       "category": "Accesorios",
-      "price": 19950,
+      "price": 17850,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -4098,19 +5188,19 @@
       "tags": [
         "Hellbot"
       ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084106991630-021a82e808e669234617775814234775-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/hellbot-e-azul-rodgf/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084211817584-d551dd6e7ff5b2398917775813105939-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/hellbot-r-lavanda-pastel-6nqry/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
       "variants": [
         {
-          "id": 1516022629,
-          "sku": "8",
-          "price": 19950,
+          "id": 1516020231,
+          "sku": "58",
+          "price": 17850,
           "isDeposit": false,
           "stock": 0,
           "available": false,
           "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084106991630-021a82e808e669234617775814234775-1024-1024.webp"
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084211817584-d551dd6e7ff5b2398917775813105939-1024-1024.webp"
         }
       ]
     },
@@ -4135,7 +5225,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177187853820284-fdbb8ba5184e4d3fcf17775805344886-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-r-marron-capibara-40gin/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
       "variants": [
         {
           "id": 1516006580,
@@ -4146,6 +5236,42 @@
           "available": false,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177187853820284-fdbb8ba5184e4d3fcf17775805344886-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-341418329",
+      "sourceProductId": "341418329",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "Filamento PLA Elegoo Rosa",
+      "category": "Impresoras",
+      "price": 25100,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Elegoo",
+      "tags": [
+        "Elegoo",
+        "PLA"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177729729212457-cf0ad76bced5dc23b717775801851396-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/filamento-pla-elegoo-rosa-1ktp7/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
+      "variants": [
+        {
+          "id": 1515999405,
+          "sku": "770",
+          "price": 25100,
+          "isDeposit": false,
+          "stock": 0,
+          "available": false,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177729729212457-cf0ad76bced5dc23b717775801851396-1024-1024.webp"
         }
       ]
     },
@@ -4171,7 +5297,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/1777298608510-c1534ec7ced15f20f517775801708220-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/filamento-pla-elegoo-rojo-1ne4d/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
       "variants": [
         {
           "id": 1515999086,
@@ -4182,6 +5308,74 @@
           "available": false,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/1777298608510-c1534ec7ced15f20f517775801708220-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-374384812",
+      "sourceProductId": "374384812",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "W3D SILK ARCOIRIS",
+      "category": "Accesorios",
+      "price": 33800,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": null,
+      "tags": [],
+      "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/w3d-silk-arcoiris-1fy9j/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
+      "variants": [
+        {
+          "id": 1619610541,
+          "sku": "1217",
+          "price": 33800,
+          "isDeposit": false,
+          "stock": 0,
+          "available": false,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-374377533",
+      "sourceProductId": "374377533",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "W3D PLA MATTE AZUL OSCURO",
+      "category": "Filamentos",
+      "price": 20600,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": null,
+      "tags": [
+        "PLA"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/w3d-pla-matte-azul-oscuro-p8ncn/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
+      "variants": [
+        {
+          "id": 1619594698,
+          "sku": "1228",
+          "price": 20600,
+          "isDeposit": false,
+          "stock": 0,
+          "available": false,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp"
         }
       ]
     },
@@ -4207,7 +5401,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/178464017192456-ae0bd75fde4aa46de317846430129647-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/filamento-elegoo-pla-rapid-beige-1goci/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
       "variants": [
         {
           "id": 1562627001,
@@ -4243,7 +5437,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/178231339767493-8fa1ccfa19b1733f6e17823134486738-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/elegoo-petg-pro-blanco-1l29a/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
       "variants": [
         {
           "id": 1548205370,
@@ -4279,7 +5473,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/178223978057412-3efc93c824a5f7902f17822398887114-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/elegoo-petg-pro-negro-1dxza/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
       "variants": [
         {
           "id": 1548178347,
@@ -4783,7 +5977,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/17785113373100-fa198c829c0c5a67ad17785113694552-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/filamento-rapid-petg-elegoo-amarillo-eyglz/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
       "variants": [
         {
           "id": 1522099885,
@@ -4819,7 +6013,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177851105425587-715ac6621ed3a5ca3f17785111908693-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/filamento-rapid-petg-elegoo-gris-t2jz8/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
       "variants": [
         {
           "id": 1522096284,
@@ -4855,7 +6049,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177851085247342-f2fb436bad6324e4d717785111888942-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/filamento-rapid-petg-elegoo-blanco-1b52w/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
       "variants": [
         {
           "id": 1522089723,
@@ -4891,7 +6085,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/17785104815346-3bf3c2aaf659e5b7bd17788751560642-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/filamento-rapid-petg-elegoo-negro-og1b8/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
       "variants": [
         {
           "id": 1522085691,
@@ -4926,7 +6120,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177825618432997-84e561d2ca6c79ce9917786869272166-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/scanner-creality-cr-scan-otter-1k64j/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
       "variants": [
         {
           "id": 1520675093,
@@ -4961,7 +6155,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177825623942322-3631560a50a00fabe617786868685173-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/scanner-creality-cr-raptor-pr1l4/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
       "variants": [
         {
           "id": 1520675084,
@@ -4996,7 +6190,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177825203997400-3be56099652d4b2c6917786866877965-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/impresora-creality-halot-r6-dlp-1pqu5/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
       "variants": [
         {
           "id": 1520627390,
@@ -5033,7 +6227,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/17781732853177-28ed6a5fcfc0fa10f717781733279044-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/impresora-3d-snapmaker-u1-preventa-octubre-1igw4/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
       "variants": [
         {
           "id": 1519932549,
@@ -5069,7 +6263,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177859603929203-243e25a582cbc704bc17785960882845-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/filamento-abs-elegoo-gris-xate3/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
       "variants": [
         {
           "id": 1517836628,
@@ -5105,7 +6299,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177790498856237-39eefd122027eb639517779079245341-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/filamento-pla-flashforge-amarillo-18fiz/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
       "variants": [
         {
           "id": 1517797147,
@@ -5141,7 +6335,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177790383231206-29957758f00fee704517779039287968-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/filamento-pla-flashforge-rojo-ghwdi/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
       "variants": [
         {
           "id": 1517777584,
@@ -5177,7 +6371,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/17779023595765-5b440b3d930805b9eb17779023680412-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/filamento-pla-flashforge-blanco-iq1hd/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
       "variants": [
         {
           "id": 1517760943,
@@ -5192,11 +6386,11 @@
       ]
     },
     {
-      "id": "3dtisk-341423510",
-      "sourceProductId": "341423510",
+      "id": "3dtisk-341423560",
+      "sourceProductId": "341423560",
       "store": "3DTisk",
       "domain": "3dtisk.com.ar",
-      "name": "Hellbot E.Verde",
+      "name": "Hellbot E.Marmol",
       "category": "Accesorios",
       "price": 19950,
       "currency": "ARS",
@@ -5210,89 +6404,19 @@
       "tags": [
         "Hellbot"
       ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084111676430-39f82da8b4cd248a8817775814161581-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/hellbot-e-verde-lcdt7/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084098513864-9bd9c12fb96886efe317775814282622-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/hellbot-e-marmol-1urny/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
       "variants": [
         {
-          "id": 1516022501,
-          "sku": "11",
+          "id": 1516022697,
+          "sku": "6",
           "price": 19950,
           "isDeposit": false,
           "stock": 0,
           "available": false,
           "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084111676430-39f82da8b4cd248a8817775814161581-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "3dtisk-341423464",
-      "sourceProductId": "341423464",
-      "store": "3DTisk",
-      "domain": "3dtisk.com.ar",
-      "name": "Hellbot E.Naranja",
-      "category": "Accesorios",
-      "price": 19950,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Hellbot",
-      "tags": [
-        "Hellbot"
-      ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084117311210-da2033d4b67bacc0c217775814072976-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/hellbot-e-naranja-m8y8g/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
-      "variants": [
-        {
-          "id": 1516022298,
-          "sku": "15",
-          "price": 19950,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084117311210-da2033d4b67bacc0c217775814072976-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "3dtisk-341423455",
-      "sourceProductId": "341423455",
-      "store": "3DTisk",
-      "domain": "3dtisk.com.ar",
-      "name": "Hellbot E.Rosa",
-      "category": "Accesorios",
-      "price": 19950,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Hellbot",
-      "tags": [
-        "Hellbot"
-      ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084118573265-0681a4794c588d736017775814051546-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/hellbot-e-rosa-11ete/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
-      "variants": [
-        {
-          "id": 1516022247,
-          "sku": "16",
-          "price": 19950,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084118573265-0681a4794c588d736017775814051546-1024-1024.webp"
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084098513864-9bd9c12fb96886efe317775814282622-1024-1024.webp"
         }
       ]
     },
@@ -5317,7 +6441,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084121710895-a8fffd4bde00ee0bfc17775814007647-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-e-marron-16gio/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
       "variants": [
         {
           "id": 1516022126,
@@ -5352,7 +6476,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084124193954-c295405b6fc55d4c4217775813961623-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-e-lavanda-pastel-io7zz/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
       "variants": [
         {
           "id": 1516021993,
@@ -5387,7 +6511,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084131350128-1125121752c9a0f3a217775813877180-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-e-arena-pastel-1frqb/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
       "variants": [
         {
           "id": 1516021748,
@@ -5422,7 +6546,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/tmp/stores/001/604/828/products/177084134220-d033dcdfa3925400b317775813836194.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-e-kiwi-pastel-1v5ry/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
       "variants": [
         {
           "id": 1516021640,
@@ -5457,7 +6581,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084135086885-400873f1e10ec723eb17775813812647-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-e-celeste-pastel-irw6g/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
       "variants": [
         {
           "id": 1516021586,
@@ -5492,7 +6616,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084136855751-bedfb6da5d5fbd995317775813788700-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-e-rosa-pastel-fss00/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
       "variants": [
         {
           "id": 1516021528,
@@ -5527,7 +6651,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084137838884-d556ab0ff07b5e48cd17775813763659-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-e-copa-del-mundo-xqblo/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
       "variants": [
         {
           "id": 1516021478,
@@ -5562,7 +6686,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084383135086-56adbed79f80a8b04117775812911751-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-r-rosa-pastel-pw73r/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
       "variants": [
         {
           "id": 1516019855,
@@ -5597,7 +6721,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084384399407-b313aec06d594b201d17775812887127-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-r-copa-del-mundo-lwnh9/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
       "variants": [
         {
           "id": 1516019819,
@@ -5632,7 +6756,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213628873343-c79acfeb116c76917717775807846841-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/impresora-creality-ender-3-v3-se-156na/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
       "variants": [
         {
           "id": 1516010697,
@@ -5667,7 +6791,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213634529850-6ce67a99a73338c1e817775807808510-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/impresora-creality-ender-3-v3-ke-1pzhk/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
       "variants": [
         {
           "id": 1516010628,
@@ -5703,7 +6827,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213683867045-e2669a4a3e434cef0017775807622560-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/impresora-3d-creality-k2-plus-combo-150yh/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
       "variants": [
         {
           "id": 1516010392,
@@ -5738,7 +6862,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213691422143-22eea98c65d866ccb717775807581928-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/impresora-creality-ender-5-max-1aca9/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
       "variants": [
         {
           "id": 1516010330,
@@ -5784,41 +6908,6 @@
           "available": false,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213770847-02574776540c87c29417775807374713-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "3dtisk-341419720",
-      "sourceProductId": "341419720",
-      "store": "3DTisk",
-      "domain": "3dtisk.com.ar",
-      "name": "Hellbot E.Marron Capibara",
-      "category": "Accesorios",
-      "price": 19950,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Hellbot",
-      "tags": [
-        "Hellbot"
-      ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177187852489957-406263d3ec9781705f17775805410405-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/hellbot-e-marron-capibara-tp6i8/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
-      "variants": [
-        {
-          "id": 1516006673,
-          "sku": "460",
-          "price": 19950,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177187852489957-406263d3ec9781705f17775805410405-1024-1024.webp"
         }
       ]
     },
@@ -6090,7 +7179,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213408951314-561eb86508ae87a27617775803521110-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/impresora-bambu-lab-h2s-full-combo-bz6l6/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=6",
       "variants": [
         {
           "id": 1516002875,
@@ -6125,7 +7214,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213290571872-9740a6daddf61a288b17775802633133-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/impresora-elegoo-resina-mars-5-ultra-7k-1n0q4/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=6",
       "variants": [
         {
           "id": 1516001064,
@@ -6160,7 +7249,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213531665403-bce84f780f666a139b17775802412200-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/impresora-3d-bambu-lab-a1-mini-cnsek/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=6",
       "variants": [
         {
           "id": 1516000655,
@@ -6196,7 +7285,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177729619973515-edf28eb0c7a71fcee817775801934935-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/filamento-pla-elegoo-amarillo-1kr44/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=6",
       "variants": [
         {
           "id": 1515999578,
@@ -6232,7 +7321,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/17772971363747-56d90fa13f8a135e4a17775801873160-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/filamento-pla-elegoo-purpura-hrs70/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=6",
       "variants": [
         {
           "id": 1515999456,
@@ -6268,7 +7357,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177729745416278-681bf192e5fdc40b0817775801825394-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/filamento-pla-elegoo-azul-oscuro-1n3zo/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=6",
       "variants": [
         {
           "id": 1515999362,
@@ -6304,7 +7393,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177729828492721-e95c17479edca5311517775801756384-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/filamento-pla-elegoo-marmol-1qbas/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=6",
       "variants": [
         {
           "id": 1515999229,
@@ -6340,7 +7429,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177729903999129-a2bdc7c2079ad14d3617775800735944-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/filamento-pla-elegoo-madera-vxks9/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=6",
       "variants": [
         {
           "id": 1515996613,

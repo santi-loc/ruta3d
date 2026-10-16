@@ -4,7 +4,7 @@
     "domain": "tecknicam3d.com.ar",
     "baseUrl": "https://www.tecknicam3d.com.ar"
   },
-  "scrapedAt": "2026-10-15T13:13:07.499Z",
+  "scrapedAt": "2026-10-16T13:07:16.865Z",
   "count": 217,
   "pages": [
     {
@@ -13,7 +13,7 @@
       "url": "https://www.tecknicam3d.com.ar/productos?categoria=1-impresoras-3d",
       "found": 15,
       "added": 15,
-      "totalPages": 5
+      "totalPages": 6
     },
     {
       "page": 2,
@@ -21,7 +21,7 @@
       "url": "https://www.tecknicam3d.com.ar/productos?categoria=1-impresoras-3d&page=2",
       "found": 16,
       "added": 16,
-      "totalPages": 5
+      "totalPages": 6
     },
     {
       "page": 1,
@@ -29,7 +29,7 @@
       "url": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock",
       "found": 16,
       "added": 16,
-      "totalPages": 37
+      "totalPages": 39
     },
     {
       "page": 2,
@@ -37,7 +37,7 @@
       "url": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock&page=2",
       "found": 16,
       "added": 16,
-      "totalPages": 37
+      "totalPages": 39
     },
     {
       "page": 1,
@@ -121,6 +121,30 @@
     }
   ],
   "products": [
+    {
+      "id": "tecknicam3d-a2l-330x320x325-mm-impresora-3d-fdm-bambu-lab",
+      "sourceProductId": "a2l-330x320x325-mm-impresora-3d-fdm-bambu-lab",
+      "store": "Tecknicam 3D",
+      "domain": "tecknicam3d.com.ar",
+      "name": "A2L 330x320x325 mm Impresora 3D FDM Bambu Lab",
+      "category": "Impresoras",
+      "price": 1301900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 1236805,
+      "purchaseModes": [],
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab"
+      ],
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/A2L-330x320x325-mm-Impresora-3D-FDM-Bambu-Lab--1792074909-19f7640a.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/a2l-330x320x325-mm-impresora-3d-fdm-bambu-lab",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=1-impresoras-3d",
+      "variants": []
+    },
     {
       "id": "tecknicam3d-3930",
       "sourceProductId": "3930",
@@ -492,7 +516,7 @@
       "tags": [],
       "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/AD5X1.webp",
       "url": "https://www.tecknicam3d.com.ar/productos/ad5x-220x220x220mm-impresora-3d-flashforge-adventurer",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=1-impresoras-3d",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=1-impresoras-3d&page=2",
       "variants": []
     },
     {
@@ -668,30 +692,6 @@
       "variants": []
     },
     {
-      "id": "tecknicam3d-saturn-3-12k-218x122x250mm-lcd-impresora-resina-elegoo",
-      "sourceProductId": "saturn-3-12k-218x122x250mm-lcd-impresora-resina-elegoo",
-      "store": "Tecknicam 3D",
-      "domain": "tecknicam3d.com.ar",
-      "name": "Saturn 3 12k 218x122x250mm Lcd Impresora Resina Elegoo",
-      "category": "Resina",
-      "price": 662900,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 629755,
-      "purchaseModes": [],
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Elegoo",
-      "tags": [
-        "Elegoo"
-      ],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/Saturn-3-12k-218x122x250mm-Lcd-Impresora-Resina-Elegoo.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/saturn-3-12k-218x122x250mm-lcd-impresora-resina-elegoo",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=1-impresoras-3d&page=2",
-      "variants": []
-    },
-    {
       "id": "tecknicam3d-mars-4-ultra-9k-wifi-153x77x165mm-impresora-resina-elegoo",
       "sourceProductId": "mars-4-ultra-9k-wifi-153x77x165mm-impresora-resina-elegoo",
       "store": "Tecknicam 3D",
@@ -716,30 +716,6 @@
       "variants": []
     },
     {
-      "id": "tecknicam3d-centauri-carbon-de-exposicion-fdm-3d-printer-256-x-256-x-256-mm-impresora-3d-fdm-elegoo-usada-como-nueva-con-30-dias-de-garantia",
-      "sourceProductId": "centauri-carbon-de-exposicion-fdm-3d-printer-256-x-256-x-256-mm-impresora-3d-fdm-elegoo-usada-como-nueva-con-30-dias-de-garantia",
-      "store": "Tecknicam 3D",
-      "domain": "tecknicam3d.com.ar",
-      "name": "Centauri Carbon de exposición FDM 3D Printer 256 x 256 x 256 mm Impresora 3D FDM ELEGOO usada como nueva con 30 días de garantía",
-      "category": "Impresoras",
-      "price": 715350,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 679582.5,
-      "purchaseModes": [],
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Elegoo",
-      "tags": [
-        "Elegoo"
-      ],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/CC-1_2_1220x1220_crop_center.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/centauri-carbon-de-exposicion-fdm-3d-printer-256-x-256-x-256-mm-impresora-3d-fdm-elegoo-usada-como-nueva-con-30-dias-de-garantia",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=1-impresoras-3d&page=2",
-      "variants": []
-    },
-    {
       "id": "tecknicam3d-neptune-4-max-420x420x480mm-klipper-500mms-impresora-3d-fdm-elegoo",
       "sourceProductId": "neptune-4-max-420x420x480mm-klipper-500mms-impresora-3d-fdm-elegoo",
       "store": "Tecknicam 3D",
@@ -760,6 +736,52 @@
       ],
       "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/Neptune-4max-420x420x480mm-Klipper-500mms-Impresora-3D-FDM-ELEGO-.webp",
       "url": "https://www.tecknicam3d.com.ar/productos/neptune-4-max-420x420x480mm-klipper-500mms-impresora-3d-fdm-elegoo",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=1-impresoras-3d&page=2",
+      "variants": []
+    },
+    {
+      "id": "tecknicam3d-mingda-ad-f4-800x1200x100mm-impresora",
+      "sourceProductId": "mingda-ad-f4-800x1200x100mm-impresora",
+      "store": "Tecknicam 3D",
+      "domain": "tecknicam3d.com.ar",
+      "name": "Mingda AD-F4 800X1200X100mm Impresora",
+      "category": "Impresoras",
+      "price": 8990000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 8540500,
+      "purchaseModes": [],
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": null,
+      "tags": [],
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/MINGDA_ADF4_VAR_SOLA-9-1.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/mingda-ad-f4-800x1200x100mm-impresora",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=1-impresoras-3d&page=2",
+      "variants": []
+    },
+    {
+      "id": "tecknicam3d-saturn-3-12k-218x122x250mm-lcd-impresora-resina-elegoo",
+      "sourceProductId": "saturn-3-12k-218x122x250mm-lcd-impresora-resina-elegoo",
+      "store": "Tecknicam 3D",
+      "domain": "tecknicam3d.com.ar",
+      "name": "Saturn 3 12k 218x122x250mm Lcd Impresora Resina Elegoo",
+      "category": "Resina",
+      "price": 662900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 629755,
+      "purchaseModes": [],
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Elegoo",
+      "tags": [
+        "Elegoo"
+      ],
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/Saturn-3-12k-218x122x250mm-Lcd-Impresora-Resina-Elegoo.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/saturn-3-12k-218x122x250mm-lcd-impresora-resina-elegoo",
       "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=1-impresoras-3d&page=2",
       "variants": []
     },
@@ -836,49 +858,133 @@
       "variants": []
     },
     {
-      "id": "tecknicam3d-kobra-3-max-combo-420-420-500-mm-preventa-anycubic-impresora-3d-fdm",
-      "sourceProductId": "kobra-3-max-combo-420-420-500-mm-preventa-anycubic-impresora-3d-fdm",
+      "id": "tecknicam3d-centauri-carbon-de-exposicion-fdm-3d-printer-256-x-256-x-256-mm-impresora-3d-fdm-elegoo-usada-como-nueva-con-30-dias-de-garantia",
+      "sourceProductId": "centauri-carbon-de-exposicion-fdm-3d-printer-256-x-256-x-256-mm-impresora-3d-fdm-elegoo-usada-como-nueva-con-30-dias-de-garantia",
       "store": "Tecknicam 3D",
       "domain": "tecknicam3d.com.ar",
-      "name": "Kobra 3 Max Combo 420×420×500 mm preventa Anycubic Impresora 3D FDM",
+      "name": "Centauri Carbon de exposición FDM 3D Printer 256 x 256 x 256 mm Impresora 3D FDM ELEGOO usada como nueva con 30 días de garantía",
       "category": "Impresoras",
-      "price": 1329900,
+      "price": 715350,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 1263405,
+      "transferPrice": 679582.5,
       "purchaseModes": [],
       "stock": null,
       "stockLabel": "Consultar",
       "available": false,
-      "brand": "Anycubic",
+      "brand": "Elegoo",
       "tags": [
-        "Anycubic"
+        "Elegoo"
       ],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/Kobra-3-Max-Combo-420--420--500---mm-preventa-Anyc-1790196420-16e3330e.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/kobra-3-max-combo-420-420-500-mm-preventa-anycubic-impresora-3d-fdm",
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/CC-1_2_1220x1220_crop_center.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/centauri-carbon-de-exposicion-fdm-3d-printer-256-x-256-x-256-mm-impresora-3d-fdm-elegoo-usada-como-nueva-con-30-dias-de-garantia",
       "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=1-impresoras-3d&page=2",
       "variants": []
     },
     {
-      "id": "tecknicam3d-mingda-ad-f4-800x1200x100mm-impresora",
-      "sourceProductId": "mingda-ad-f4-800x1200x100mm-impresora",
+      "id": "tecknicam3d-3983",
+      "sourceProductId": "3983",
       "store": "Tecknicam 3D",
       "domain": "tecknicam3d.com.ar",
-      "name": "Mingda AD-F4 800X1200X100mm Impresora",
-      "category": "Impresoras",
-      "price": 8990000,
+      "name": "NEGRO CE 3NMAX CARBOARD EDITION FILAMENTO 3D 1.75MM 1KG",
+      "category": "Filamentos",
+      "price": 22207.2,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 8540500,
-      "purchaseModes": [],
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
+      "transferPrice": 18431.98,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 74,
+      "stockLabel": "En stock",
+      "available": true,
       "brand": null,
-      "tags": [],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/MINGDA_ADF4_VAR_SOLA-9-1.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/mingda-ad-f4-800x1200x100mm-impresora",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=1-impresoras-3d&page=2",
+      "tags": [
+        "1kg"
+      ],
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/NEGRO-CE-3NMAX-CARBOARD-EDITION-FILAMENTO-3D-1-75M-1792090837-7eb9561b.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/negro-ce-3nmax-carboard-edition-filamento-3d-1-75mm-1kg",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock",
+      "variants": []
+    },
+    {
+      "id": "tecknicam3d-3982",
+      "sourceProductId": "3982",
+      "store": "Tecknicam 3D",
+      "domain": "tecknicam3d.com.ar",
+      "name": "BLANCO CE 3NMAX CARBOARD EDITION FILAMENTO 3D 1.75MM 1KG",
+      "category": "Filamentos",
+      "price": 22207.2,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 18431.98,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 74,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "1kg"
+      ],
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/BLANCO-CE-3NMAX-CARBOARD-EDITION-FILAMENTO-3D-1-75-1792090694-469f61d1.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/blanco-ce-3nmax-carboard-edition-filamento-3d-1-75mm-1kg",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock",
+      "variants": []
+    },
+    {
+      "id": "tecknicam3d-3981",
+      "sourceProductId": "3981",
+      "store": "Tecknicam 3D",
+      "domain": "tecknicam3d.com.ar",
+      "name": "MANDARINA PLA FilAr ESTANDAR Filamento 1.75 1KG",
+      "category": "Filamentos",
+      "price": 19760,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 18772,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 6,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA",
+        "1kg"
+      ],
+      "image": null,
+      "url": "https://www.tecknicam3d.com.ar/productos/mandarina-pla-filar-estandar-filamento-1-75-1kg",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock",
+      "variants": []
+    },
+    {
+      "id": "tecknicam3d-3980",
+      "sourceProductId": "3980",
+      "store": "Tecknicam 3D",
+      "domain": "tecknicam3d.com.ar",
+      "name": "AZAFRAN PLA FilAr ESTANDAR Filamento 1.75 1KG",
+      "category": "Filamentos",
+      "price": 19760,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 18772,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 12,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA",
+        "1kg"
+      ],
+      "image": null,
+      "url": "https://www.tecknicam3d.com.ar/productos/azafran-pla-filar-estandar-filamento-1-75-1kg",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock",
       "variants": []
     },
     {
@@ -895,8 +1001,8 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 2,
-      "stockLabel": "Pocas unidades",
+      "stock": 14,
+      "stockLabel": "En stock",
       "available": true,
       "brand": null,
       "tags": [
@@ -963,33 +1069,6 @@
       "variants": []
     },
     {
-      "id": "tecknicam3d-3970",
-      "sourceProductId": "3970",
-      "store": "Tecknicam 3D",
-      "domain": "tecknicam3d.com.ar",
-      "name": "VERDE OLIVA PLA+ High Speed Filanova Chroma Filamento x1 Kg.",
-      "category": "Filamentos",
-      "price": 19912,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 17821.24,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/FNO-CHROMA-PLA-OLIVE-GREEN_01-portada-blanca-1791646567-a7d56d41.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/verde-oliva-pla-high-speed-filanova-chroma-filamento-x1-kg",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock",
-      "variants": []
-    },
-    {
       "id": "tecknicam3d-3969",
       "sourceProductId": "3969",
       "store": "Tecknicam 3D",
@@ -1030,7 +1109,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 43,
+      "stock": 41,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -1165,7 +1244,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 49,
+      "stock": 46,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -1221,7 +1300,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 2,
+      "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": null,
@@ -1258,7 +1337,7 @@
       ],
       "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/latte-1790628927-b8a9db62.webp",
       "url": "https://www.tecknicam3d.com.ar/productos/latte-filamento-pla-high-speed-x1kg-toolbox-new",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock&page=2",
       "variants": []
     },
     {
@@ -1287,7 +1366,7 @@
       ],
       "image": null,
       "url": "https://www.tecknicam3d.com.ar/productos/rubi-traslucido-sin-carretel-filamento-hellbot-ecofila-1kg-pla-1-75mm-ecofila-3675",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock&page=2",
       "variants": []
     },
     {
@@ -1316,7 +1395,7 @@
       ],
       "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/800_0018_Lavanda-Pastel-1-1790364532-271fb023.webp",
       "url": "https://www.tecknicam3d.com.ar/productos/lavanda-pastel-sin-carretel-pla-filamento-3d-hellbot-1kg-1-75mm-ecofila-3665",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock&page=2",
       "variants": []
     },
     {
@@ -1391,7 +1470,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 8,
+      "stock": 6,
       "stockLabel": "En stock",
       "available": true,
       "brand": "W3D",
@@ -1419,7 +1498,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 8,
+      "stock": 6,
       "stockLabel": "En stock",
       "available": true,
       "brand": "W3D",
@@ -1447,8 +1526,8 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 4,
-      "stockLabel": "En stock",
+      "stock": 3,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "W3D",
       "tags": [
@@ -1490,34 +1569,6 @@
       "variants": []
     },
     {
-      "id": "tecknicam3d-3829",
-      "sourceProductId": "3829",
-      "store": "Tecknicam 3D",
-      "domain": "tecknicam3d.com.ar",
-      "name": "ROSA SUAVE (Soft Pink) PLA W3D FILAMENTO 3D 1.75MM 1KG 0101017",
-      "category": "Filamentos",
-      "price": 21280,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 20216,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
-      "available": true,
-      "brand": "W3D",
-      "tags": [
-        "W3D",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/PLA-------0-1789594390-8d9fce75.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/rosa-suave-soft-pink-pla-w3d-filamento-3d-1-75mm-1kg-0101017",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock&page=2",
-      "variants": []
-    },
-    {
       "id": "tecknicam3d-3828",
       "sourceProductId": "3828",
       "store": "Tecknicam 3D",
@@ -1531,7 +1582,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 6,
+      "stock": 4,
       "stockLabel": "En stock",
       "available": true,
       "brand": "W3D",
@@ -1559,7 +1610,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 13,
+      "stock": 11,
       "stockLabel": "En stock",
       "available": true,
       "brand": "W3D",
@@ -1630,6 +1681,60 @@
       "variants": []
     },
     {
+      "id": "tecknicam3d-3716",
+      "sourceProductId": "3716",
+      "store": "Tecknicam 3D",
+      "domain": "tecknicam3d.com.ar",
+      "name": "AZUL FRANCIA PETG FilAr Filamento 1.75 1KG",
+      "category": "Filamentos",
+      "price": 24016,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 22815.2,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 8,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PETG",
+        "1kg"
+      ],
+      "image": null,
+      "url": "https://www.tecknicam3d.com.ar/productos/azul-francia-filar-filamento-petg-1-75-1kg",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock&page=2",
+      "variants": []
+    },
+    {
+      "id": "tecknicam3d-3712",
+      "sourceProductId": "3712",
+      "store": "Tecknicam 3D",
+      "domain": "tecknicam3d.com.ar",
+      "name": "ROSA FLAMENCO PLA FilAr ESTANDAR Filamento 1.75 1KG",
+      "category": "Filamentos",
+      "price": 19760,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 18772,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 4,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA",
+        "1kg"
+      ],
+      "image": null,
+      "url": "https://www.tecknicam3d.com.ar/productos/rosa-flamenco-filar-pla-estandar-filamento-1-75-1kg",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock&page=2",
+      "variants": []
+    },
+    {
       "id": "tecknicam3d-3702",
       "sourceProductId": "3702",
       "store": "Tecknicam 3D",
@@ -1653,116 +1758,6 @@
       ],
       "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/yellow-1-1787752593-f151c27a.webp",
       "url": "https://www.tecknicam3d.com.ar/productos/amarillo-yellow-filamento-pla-high-speed-x1kg-toolbox-new",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock&page=2",
-      "variants": []
-    },
-    {
-      "id": "tecknicam3d-3700",
-      "sourceProductId": "3700",
-      "store": "Tecknicam 3D",
-      "domain": "tecknicam3d.com.ar",
-      "name": "GRIS grey Filamento PLA High Speed x1kg TOOLBOX NEW",
-      "category": "Filamentos",
-      "price": 18990,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 15761.7,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 4,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/grey-1-1787751491-0f7b1923.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/gris-grey-filamento-pla-high-speed-x1kg-toolbox-new",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock&page=2",
-      "variants": []
-    },
-    {
-      "id": "tecknicam3d-3698",
-      "sourceProductId": "3698",
-      "store": "Tecknicam 3D",
-      "domain": "tecknicam3d.com.ar",
-      "name": "VERDE OCEANO sea green Filamento PLA High Speed x1kg TOOLBOX NEW",
-      "category": "Filamentos",
-      "price": 18990,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 15761.7,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 11,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/sea-green-1-1787749742-d9a0877c.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/verde-oceano-sea-green-filamento-pla-high-speed-x1kg-toolbox-new",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock&page=2",
-      "variants": []
-    },
-    {
-      "id": "tecknicam3d-3692",
-      "sourceProductId": "3692",
-      "store": "Tecknicam 3D",
-      "domain": "tecknicam3d.com.ar",
-      "name": "GRAFITO Matte Graphite Filamento PLA High Speed x1kg FREMOVER New FREA1F121NLS",
-      "category": "Filamentos",
-      "price": 18756.8,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 15568.14,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/PLA-High-SpeedMatte-Graphite-1787664881-4ae9496e.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/grafito-matte-graphite-filamento-pla-high-speed-x1kg-fremover-new",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock&page=2",
-      "variants": []
-    },
-    {
-      "id": "tecknicam3d-3663",
-      "sourceProductId": "3663",
-      "store": "Tecknicam 3D",
-      "domain": "tecknicam3d.com.ar",
-      "name": "Zafiro SIN CARRETEL RECERGA PLA Filamento Hellbot ECOFILA 1Kg 1,75mm 3649",
-      "category": "Filamentos",
-      "price": 19000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 18050,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 3,
-      "stockLabel": "Pocas unidades",
-      "available": true,
-      "brand": "Hellbot",
-      "tags": [
-        "Hellbot",
-        "PLA",
-        "1kg",
-        "ECOFILA"
-      ],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/zafiro-1787319816-c26be382.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/zafiro-sin-carretel-filamento-hellbot-ecofila-1kg-pla-1-75mm-ecofila",
       "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock&page=2",
       "variants": []
     },
@@ -2983,7 +2978,7 @@
       "price": 206720,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": null,
+      "transferPrice": 185014.4,
       "purchaseModes": [
         "Entrega inmediata"
       ],
@@ -4352,8 +4347,8 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 4,
-      "stockLabel": "En stock",
+      "stock": 3,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": null,
       "tags": [],
@@ -4708,7 +4703,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 323,
+      "stock": 322,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -4828,7 +4823,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 12,
+      "stock": 8,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
