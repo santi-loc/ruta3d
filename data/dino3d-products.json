@@ -5,15 +5,15 @@
     "baseUrl": "https://www.dino3d.com.ar",
     "listingPath": "/productos.php"
   },
-  "scrapedAt": "2026-10-16T13:06:29.669Z",
-  "count": 507,
+  "scrapedAt": "2026-10-17T12:02:58.375Z",
+  "count": 511,
   "pages": [
     {
       "page": 1,
       "path": "/productos.php",
       "url": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
-      "found": 507,
-      "added": 507
+      "found": 511,
+      "added": 511
     }
   ],
   "products": [
@@ -106,10 +106,12 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
       "brand": "Bambu Lab",
       "color": null,
       "tags": [
@@ -123,8 +125,8 @@
           "id": "BAM-A1-MIN-COM",
           "sku": "BAM-A1-MIN-COM",
           "price": 1056900,
-          "stock": 0,
-          "available": false,
+          "stock": 1,
+          "available": true,
           "options": [
             "A1"
           ],
@@ -837,49 +839,6 @@
       ]
     },
     {
-      "id": "dino3d-HEL-AMA-FLU",
-      "sourceProductId": "HEL-AMA-FLU",
-      "store": "Dino 3D",
-      "domain": "dino3d.com.ar",
-      "name": "Amarillo Fluo x 1 Kg",
-      "category": "Filamentos",
-      "price": 20900,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Hellbot",
-      "color": "Amarillo Fluo",
-      "tags": [
-        "Hellbot",
-        "Amarillo Fluo",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://www.dino3d.com.ar/img/productos/Amarillo-Fluohell-20260524150353-6c901d.png",
-      "url": "https://www.dino3d.com.ar/productos.php?q=HEL-AMA-FLU",
-      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
-      "variants": [
-        {
-          "id": "HEL-AMA-FLU",
-          "sku": "HEL-AMA-FLU",
-          "price": 20900,
-          "stock": 1,
-          "available": true,
-          "options": [
-            "Amarillo Fluo",
-            "Pla"
-          ],
-          "image": "https://www.dino3d.com.ar/img/productos/Amarillo-Fluohell-20260524150353-6c901d.png"
-        }
-      ]
-    },
-    {
       "id": "dino3d-FAR-AMA-LIR",
       "sourceProductId": "FAR-AMA-LIR",
       "store": "Dino 3D",
@@ -1399,50 +1358,6 @@
             "Pla"
           ],
           "image": "https://www.dino3d.com.ar/img/productos/Aqua-20260329122531-65e6ce.png"
-        }
-      ]
-    },
-    {
-      "id": "dino3d-HEL-R-ARE-PAS",
-      "sourceProductId": "HEL-R-ARE-PAS",
-      "store": "Dino 3D",
-      "domain": "dino3d.com.ar",
-      "name": "Arena Pastel Recarga x 1 Kg",
-      "category": "Filamentos",
-      "price": 18900,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Hellbot",
-      "color": "Arena Pastel",
-      "tags": [
-        "Hellbot",
-        "Arena Pastel",
-        "PLA",
-        "1kg",
-        "Recarga"
-      ],
-      "image": "https://www.dino3d.com.ar/img/productos/ArenapastelR-20260413190121-ff98d5.png",
-      "url": "https://www.dino3d.com.ar/productos.php?q=HEL-R-ARE-PAS",
-      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
-      "variants": [
-        {
-          "id": "HEL-R-ARE-PAS",
-          "sku": "HEL-R-ARE-PAS",
-          "price": 18900,
-          "stock": 1,
-          "available": true,
-          "options": [
-            "Arena Pastel",
-            "Pla"
-          ],
-          "image": "https://www.dino3d.com.ar/img/productos/ArenapastelR-20260413190121-ff98d5.png"
         }
       ]
     },
@@ -3066,7 +2981,7 @@
       "domain": "dino3d.com.ar",
       "name": "Filamento Gst Cosmos HS x 1 Kg",
       "category": "Filamentos",
-      "price": 17000,
+      "price": 20900,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -3091,7 +3006,7 @@
         {
           "id": "GST-COS-VAR",
           "sku": "GST-COS-VAR",
-          "price": 17000,
+          "price": 20900,
           "stock": 1,
           "available": true,
           "options": [
@@ -5291,7 +5206,7 @@
       "domain": "dino3d.com.ar",
       "name": "Neon Green x 1 Kg",
       "category": "Filamentos",
-      "price": 17000,
+      "price": 20900,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -5317,7 +5232,7 @@
         {
           "id": "GST-COS-NEO-GRE",
           "sku": "GST-COS-NEO-GRE",
-          "price": 17000,
+          "price": 20900,
           "stock": 1,
           "available": true,
           "options": [
@@ -7773,7 +7688,7 @@
       "domain": "dino3d.com.ar",
       "name": "Filamento Petg Gst Cosmos x 1 Kg",
       "category": "Filamentos",
-      "price": 17000,
+      "price": 20900,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -7797,7 +7712,7 @@
         {
           "id": "PET-GST-COS-VAR",
           "sku": "PET-GST-COS-VAR",
-          "price": 17000,
+          "price": 20900,
           "stock": 1,
           "available": true,
           "options": [
@@ -8111,7 +8026,7 @@
       "domain": "dino3d.com.ar",
       "name": "Petg Beige x 1 Kg",
       "category": "Filamentos",
-      "price": 17000,
+      "price": 20900,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -8121,10 +8036,10 @@
       "stock": 1,
       "stockLabel": "En stock",
       "available": true,
-      "brand": "Gst",
+      "brand": "Gst Cosmos",
       "color": "Beige",
       "tags": [
-        "Gst",
+        "Gst Cosmos",
         "Beige",
         "PETG",
         "1kg"
@@ -8136,7 +8051,7 @@
         {
           "id": "PET-GST-COS-BEI",
           "sku": "PET-GST-COS-BEI",
-          "price": 17000,
+          "price": 20900,
           "stock": 1,
           "available": true,
           "options": [
@@ -11564,6 +11479,47 @@
       ]
     },
     {
+      "id": "dino3d-HEL-AMA-FLU",
+      "sourceProductId": "HEL-AMA-FLU",
+      "store": "Dino 3D",
+      "domain": "dino3d.com.ar",
+      "name": "Amarillo Fluo x 1 Kg",
+      "category": "Filamentos",
+      "price": 20900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Hellbot",
+      "color": "Amarillo Fluo",
+      "tags": [
+        "Hellbot",
+        "Amarillo Fluo",
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://www.dino3d.com.ar/img/productos/Amarillo-Fluohell-20260524150353-6c901d.png",
+      "url": "https://www.dino3d.com.ar/productos.php?q=HEL-AMA-FLU",
+      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
+      "variants": [
+        {
+          "id": "HEL-AMA-FLU",
+          "sku": "HEL-AMA-FLU",
+          "price": 20900,
+          "stock": 0,
+          "available": false,
+          "options": [
+            "Amarillo Fluo",
+            "Pla"
+          ],
+          "image": "https://www.dino3d.com.ar/img/productos/Amarillo-Fluohell-20260524150353-6c901d.png"
+        }
+      ]
+    },
+    {
       "id": "dino3d-GST-AMA",
       "sourceProductId": "GST-AMA",
       "store": "Dino 3D",
@@ -11653,7 +11609,7 @@
       "domain": "dino3d.com.ar",
       "name": "Amarillo x 1 Kg",
       "category": "Filamentos",
-      "price": 17000,
+      "price": 20900,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -11677,7 +11633,7 @@
         {
           "id": "GST-COS-AMA",
           "sku": "GST-COS-AMA",
-          "price": 17000,
+          "price": 20900,
           "stock": 0,
           "available": false,
           "options": [
@@ -11808,6 +11764,48 @@
             "Pla"
           ],
           "image": "https://www.dino3d.com.ar/img/productos/AquaPastel-20260329131908-784dfe.png"
+        }
+      ]
+    },
+    {
+      "id": "dino3d-HEL-R-ARE-PAS",
+      "sourceProductId": "HEL-R-ARE-PAS",
+      "store": "Dino 3D",
+      "domain": "dino3d.com.ar",
+      "name": "Arena Pastel Recarga x 1 Kg",
+      "category": "Filamentos",
+      "price": 18900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Hellbot",
+      "color": "Arena Pastel",
+      "tags": [
+        "Hellbot",
+        "Arena Pastel",
+        "PLA",
+        "1kg",
+        "Recarga"
+      ],
+      "image": "https://www.dino3d.com.ar/img/productos/ArenapastelR-20260413190121-ff98d5.png",
+      "url": "https://www.dino3d.com.ar/productos.php?q=HEL-R-ARE-PAS",
+      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
+      "variants": [
+        {
+          "id": "HEL-R-ARE-PAS",
+          "sku": "HEL-R-ARE-PAS",
+          "price": 18900,
+          "stock": 0,
+          "available": false,
+          "options": [
+            "Arena Pastel",
+            "Pla"
+          ],
+          "image": "https://www.dino3d.com.ar/img/productos/ArenapastelR-20260413190121-ff98d5.png"
         }
       ]
     },
@@ -12319,7 +12317,7 @@
       "domain": "dino3d.com.ar",
       "name": "Beige x 1 Kg",
       "category": "Filamentos",
-      "price": 17000,
+      "price": 20900,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -12343,7 +12341,7 @@
         {
           "id": "GST-COS-BEI",
           "sku": "GST-COS-BEI",
-          "price": 17000,
+          "price": 20900,
           "stock": 0,
           "available": false,
           "options": [
@@ -12697,7 +12695,7 @@
       "domain": "dino3d.com.ar",
       "name": "Blanco x 1 Kg",
       "category": "Filamentos",
-      "price": 17000,
+      "price": 20900,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -12721,7 +12719,7 @@
         {
           "id": "GST-COS-BLA",
           "sku": "GST-COS-BLA",
-          "price": 17000,
+          "price": 20900,
           "stock": 0,
           "available": false,
           "options": [
@@ -13907,7 +13905,7 @@
       "domain": "dino3d.com.ar",
       "name": "Dark Blue x 1 Kg",
       "category": "Filamentos",
-      "price": 17000,
+      "price": 20900,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -13931,7 +13929,7 @@
         {
           "id": "GST-COS-DAR-BLU",
           "sku": "GST-COS-DAR-BLU",
-          "price": 17000,
+          "price": 20900,
           "stock": 0,
           "available": false,
           "options": [
@@ -14782,6 +14780,49 @@
       ]
     },
     {
+      "id": "dino3d-FRE-DUA-GC-SIL",
+      "sourceProductId": "FRE-DUA-GC-SIL",
+      "store": "Dino 3D",
+      "domain": "dino3d.com.ar",
+      "name": "Gold Copper Dual Silk x 1 Kg",
+      "category": "Filamentos",
+      "price": 23500,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Fremover",
+      "color": "Dorado Cobre",
+      "tags": [
+        "Fremover",
+        "Dorado Cobre",
+        "PLA Silk",
+        "PLA",
+        "1kg",
+        "Silk"
+      ],
+      "image": "https://www.dino3d.com.ar/img/productos/D_NQ_NP_642761-MLA112110218464_062026-O-20261016194332-1bcf92.webp",
+      "url": "https://www.dino3d.com.ar/productos.php?q=FRE-DUA-GC-SIL",
+      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
+      "variants": [
+        {
+          "id": "FRE-DUA-GC-SIL",
+          "sku": "FRE-DUA-GC-SIL",
+          "price": 23500,
+          "stock": 0,
+          "available": false,
+          "options": [
+            "Dorado Cobre",
+            "Pla Silk"
+          ],
+          "image": "https://www.dino3d.com.ar/img/productos/D_NQ_NP_642761-MLA112110218464_062026-O-20261016194332-1bcf92.webp"
+        }
+      ]
+    },
+    {
       "id": "dino3d-FRE-TRI-GGB-SIL",
       "sourceProductId": "FRE-TRI-GGB-SIL",
       "store": "Dino 3D",
@@ -15113,6 +15154,47 @@
             "Pla"
           ],
           "image": "https://www.dino3d.com.ar/img/productos/GSTPLATEADO-20260314170006-6d16e2.png"
+        }
+      ]
+    },
+    {
+      "id": "dino3d-GST-COS-GRI",
+      "sourceProductId": "GST-COS-GRI",
+      "store": "Dino 3D",
+      "domain": "dino3d.com.ar",
+      "name": "Gris x 1 Kg",
+      "category": "Filamentos",
+      "price": 20900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Gst Cosmos",
+      "color": "Gris Claro",
+      "tags": [
+        "Gst Cosmos",
+        "Gris Claro",
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://www.dino3d.com.ar/img/productos/PLA-GREY-31-20261016195741-f03e29.png",
+      "url": "https://www.dino3d.com.ar/productos.php?q=GST-COS-GRI",
+      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
+      "variants": [
+        {
+          "id": "GST-COS-GRI",
+          "sku": "GST-COS-GRI",
+          "price": 20900,
+          "stock": 0,
+          "available": false,
+          "options": [
+            "Gris Claro",
+            "Pla"
+          ],
+          "image": "https://www.dino3d.com.ar/img/productos/PLA-GREY-31-20261016195741-f03e29.png"
         }
       ]
     },
@@ -15996,7 +16078,7 @@
       "domain": "dino3d.com.ar",
       "name": "Marron x 1 Kg",
       "category": "Filamentos",
-      "price": 17000,
+      "price": 20900,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -16020,7 +16102,7 @@
         {
           "id": "GST-COS-MAR",
           "sku": "GST-COS-MAR",
-          "price": 17000,
+          "price": 20900,
           "stock": 0,
           "available": false,
           "options": [
@@ -16623,7 +16705,7 @@
       "domain": "dino3d.com.ar",
       "name": "Naranja x 1 Kg",
       "category": "Filamentos",
-      "price": 17000,
+      "price": 20900,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -16647,7 +16729,7 @@
         {
           "id": "GST-COS-NAR",
           "sku": "GST-COS-NAR",
-          "price": 17000,
+          "price": 20900,
           "stock": 0,
           "available": false,
           "options": [
@@ -16789,7 +16871,7 @@
       "domain": "dino3d.com.ar",
       "name": "Negro x 1 Kg",
       "category": "Filamentos",
-      "price": 17000,
+      "price": 20900,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -16813,7 +16895,7 @@
         {
           "id": "GST-COS-NEG",
           "sku": "GST-COS-NEG",
-          "price": 17000,
+          "price": 20900,
           "stock": 0,
           "available": false,
           "options": [
@@ -18007,7 +18089,7 @@
       "domain": "dino3d.com.ar",
       "name": "Rojo x 1 Kg",
       "category": "Filamentos",
-      "price": 17000,
+      "price": 20900,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -18031,7 +18113,7 @@
         {
           "id": "GST-COS-ROJ",
           "sku": "GST-COS-ROJ",
-          "price": 17000,
+          "price": 20900,
           "stock": 0,
           "available": false,
           "options": [
@@ -18298,7 +18380,7 @@
       "domain": "dino3d.com.ar",
       "name": "Rosa x 1 Kg",
       "category": "Filamentos",
-      "price": 17000,
+      "price": 20900,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -18322,7 +18404,7 @@
         {
           "id": "GST-COS-ROS",
           "sku": "GST-COS-ROS",
-          "price": 17000,
+          "price": 20900,
           "stock": 0,
           "available": false,
           "options": [
@@ -18466,7 +18548,7 @@
       "domain": "dino3d.com.ar",
       "name": "Sea Green x 1 Kg",
       "category": "Filamentos",
-      "price": 17000,
+      "price": 20900,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -18490,7 +18572,7 @@
         {
           "id": "GST-COS-SEA-GREE",
           "sku": "GST-COS-SEA-GREE",
-          "price": 17000,
+          "price": 20900,
           "stock": 0,
           "available": false,
           "options": [
@@ -18634,7 +18716,7 @@
       "domain": "dino3d.com.ar",
       "name": "Space Grey x 1 Kg",
       "category": "Filamentos",
-      "price": 17000,
+      "price": 20900,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -18658,7 +18740,7 @@
         {
           "id": "GST-COS-SPA-GRE",
           "sku": "GST-COS-SPA-GRE",
-          "price": 17000,
+          "price": 20900,
           "stock": 0,
           "available": false,
           "options": [
@@ -18676,7 +18758,7 @@
       "domain": "dino3d.com.ar",
       "name": "Taro Purple x 1 Kg",
       "category": "Filamentos",
-      "price": 19900,
+      "price": 20900,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -18700,7 +18782,7 @@
         {
           "id": "FIL-CRO-PUR",
           "sku": "FIL-CRO-PUR",
-          "price": 19900,
+          "price": 20900,
           "stock": 0,
           "available": false,
           "options": [
@@ -19874,7 +19956,7 @@
       "domain": "dino3d.com.ar",
       "name": "Petg Blanco x 1 Kg",
       "category": "Filamentos",
-      "price": 17000,
+      "price": 20900,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -19897,7 +19979,7 @@
         {
           "id": "PET-GST-COS-BLA",
           "sku": "PET-GST-COS-BLA",
-          "price": 17000,
+          "price": 20900,
           "stock": 0,
           "available": false,
           "options": [
@@ -20069,6 +20151,47 @@
             "Petg"
           ],
           "image": "https://www.dino3d.com.ar/img/productos/soleyinblanco-20260819175832-a51aa8.webp"
+        }
+      ]
+    },
+    {
+      "id": "dino3d-PET-FRE-COF",
+      "sourceProductId": "PET-FRE-COF",
+      "store": "Dino 3D",
+      "domain": "dino3d.com.ar",
+      "name": "Petg Coffee x 1 Kg",
+      "category": "Filamentos",
+      "price": 20900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Fremover",
+      "color": "Marron Cafe",
+      "tags": [
+        "Fremover",
+        "Marron Cafe",
+        "PETG",
+        "1kg"
+      ],
+      "image": "https://www.dino3d.com.ar/img/productos/BobinadefilamentoPETGcobre-20261016194938-333a87.png",
+      "url": "https://www.dino3d.com.ar/productos.php?q=PET-FRE-COF",
+      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
+      "variants": [
+        {
+          "id": "PET-FRE-COF",
+          "sku": "PET-FRE-COF",
+          "price": 20900,
+          "stock": 0,
+          "available": false,
+          "options": [
+            "Marron Cafe",
+            "Petg"
+          ],
+          "image": "https://www.dino3d.com.ar/img/productos/BobinadefilamentoPETGcobre-20261016194938-333a87.png"
         }
       ]
     },
@@ -20401,6 +20524,47 @@
       ]
     },
     {
+      "id": "dino3d-PET-GST-COS-NAR",
+      "sourceProductId": "PET-GST-COS-NAR",
+      "store": "Dino 3D",
+      "domain": "dino3d.com.ar",
+      "name": "Petg Naranja x 1 Kg",
+      "category": "Filamentos",
+      "price": 20900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Gst Cosmos",
+      "color": "Naranja",
+      "tags": [
+        "Gst Cosmos",
+        "Naranja",
+        "PETG",
+        "1kg"
+      ],
+      "image": "https://www.dino3d.com.ar/img/productos/D_NQ_NP_665173-MLA112943403951_062026-O-20261016195510-e247a1.webp",
+      "url": "https://www.dino3d.com.ar/productos.php?q=PET-GST-COS-NAR",
+      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
+      "variants": [
+        {
+          "id": "PET-GST-COS-NAR",
+          "sku": "PET-GST-COS-NAR",
+          "price": 20900,
+          "stock": 0,
+          "available": false,
+          "options": [
+            "Naranja",
+            "Petg"
+          ],
+          "image": "https://www.dino3d.com.ar/img/productos/D_NQ_NP_665173-MLA112943403951_062026-O-20261016195510-e247a1.webp"
+        }
+      ]
+    },
+    {
       "id": "dino3d-PET-TOO-NAR",
       "sourceProductId": "PET-TOO-NAR",
       "store": "Dino 3D",
@@ -20489,7 +20653,7 @@
       "domain": "dino3d.com.ar",
       "name": "Petg Negro x 1 Kg",
       "category": "Filamentos",
-      "price": 17000,
+      "price": 20900,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -20512,7 +20676,7 @@
         {
           "id": "PET-GST-COS-NEG",
           "sku": "PET-GST-COS-NEG",
-          "price": 17000,
+          "price": 20900,
           "stock": 0,
           "available": false,
           "options": [
@@ -20858,7 +21022,7 @@
       "domain": "dino3d.com.ar",
       "name": "Petg Verde x 1 Kg",
       "category": "Filamentos",
-      "price": 17000,
+      "price": 20900,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -20881,7 +21045,7 @@
         {
           "id": "PET-GST-COS-VER",
           "sku": "PET-GST-COS-VER",
-          "price": 17000,
+          "price": 20900,
           "stock": 0,
           "available": false,
           "options": [

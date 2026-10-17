@@ -5,7 +5,7 @@
     "baseUrl": "https://shop.wetech.ar",
     "listingPath": "/products"
   },
-  "scrapedAt": "2026-10-16T13:07:05.368Z",
+  "scrapedAt": "2026-10-17T12:03:34.291Z",
   "count": 293,
   "pages": [
     {
@@ -129,7 +129,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 16999.15,
-      "stock": 13,
+      "stock": 16,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3n3",
@@ -195,7 +195,7 @@
         },
         {
           "id": "3N-PETG-1KG-NEGR",
-          "available": false,
+          "available": true,
           "price": 19999,
           "options": [
             "Negro",
@@ -230,7 +230,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 12499.25,
-      "stock": 445,
+      "stock": 458,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3n3",
@@ -249,7 +249,7 @@
       "variants": [
         {
           "id": "3N-PLA-1KG-AMAR",
-          "available": false,
+          "available": true,
           "price": 23528,
           "options": [
             "Amarillo",
@@ -357,7 +357,7 @@
         },
         {
           "id": "3N-PLA-1KG-FUCS",
-          "available": false,
+          "available": true,
           "price": 23528,
           "options": [
             "Fucsia",
@@ -417,7 +417,7 @@
         },
         {
           "id": "3N-PLA-1KG-NEGR",
-          "available": true,
+          "available": false,
           "price": 23528,
           "options": [
             "Negro",
@@ -745,7 +745,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 20999.25,
-      "stock": 53,
+      "stock": 52,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3n3",
@@ -848,7 +848,7 @@
         },
         {
           "id": "3N-TPU-500-BLAN",
-          "available": true,
+          "available": false,
           "price": 24705,
           "options": [
             "Blanco",
@@ -919,7 +919,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 24999.35,
-      "stock": 27,
+      "stock": 25,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3nFlex",
@@ -1104,7 +1104,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 16499.35,
-      "stock": 235,
+      "stock": 297,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3nMax",
@@ -1195,7 +1195,7 @@
         },
         {
           "id": "3X-PLA-1KG-GRPL",
-          "available": false,
+          "available": true,
           "price": 23528,
           "options": [
             "Gris Plomo",
@@ -1207,7 +1207,7 @@
         },
         {
           "id": "3X-PLA-1KG-LILA",
-          "available": false,
+          "available": true,
           "price": 23528,
           "options": [
             "Lila",
@@ -1255,7 +1255,7 @@
         },
         {
           "id": "3X-PLA-1KG-ROSA",
-          "available": false,
+          "available": true,
           "price": 23528,
           "options": [
             "Rosa",
@@ -1454,10 +1454,10 @@
       "domain": "shop.wetech.ar",
       "name": "Acople flexible | Geeetech | 5x8mm",
       "category": "Repuestos",
-      "price": 9624.77,
+      "price": 9750.59,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 8181.06,
+      "transferPrice": 8288,
       "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -1472,7 +1472,7 @@
         {
           "id": "ACOPLE GEEETECH",
           "available": true,
-          "price": 9624.77,
+          "price": 9750.59,
           "options": []
         }
       ]
@@ -1484,10 +1484,10 @@
       "domain": "shop.wetech.ar",
       "name": "Aguja para destapar | 0.2mm",
       "category": "Repuestos",
-      "price": 3617.07,
+      "price": 3664.36,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 3074.51,
+      "transferPrice": 3114.7,
       "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -1502,7 +1502,7 @@
         {
           "id": "AGUJA 0.2MM",
           "available": true,
-          "price": 3617.07,
+          "price": 3664.36,
           "options": []
         }
       ]
@@ -1514,11 +1514,11 @@
       "domain": "shop.wetech.ar",
       "name": "Aguja para destapar | 0.4mm",
       "category": "Repuestos",
-      "price": 3498.96,
+      "price": 3544.7,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 2974.11,
-      "stock": 87,
+      "transferPrice": 3012.99,
+      "stock": 86,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -1532,7 +1532,7 @@
         {
           "id": "AGUJA 0.4MM",
           "available": true,
-          "price": 3498.96,
+          "price": 3544.7,
           "options": []
         }
       ]
@@ -1544,10 +1544,10 @@
       "domain": "shop.wetech.ar",
       "name": "Aislante silicona | Bambu Lab | Negro | A1",
       "category": "Repuestos",
-      "price": 8996.4,
+      "price": 9114,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 7646.94,
+      "transferPrice": 7746.9,
       "stock": 8,
       "stockLabel": "En stock",
       "available": true,
@@ -1562,7 +1562,7 @@
         {
           "id": "SILICONA BAMBUA1",
           "available": true,
-          "price": 8996.4,
+          "price": 9114,
           "options": []
         }
       ]
@@ -1574,10 +1574,10 @@
       "domain": "shop.wetech.ar",
       "name": "Aislante silicona | Creality | Color Negro | Ender 3 v3 SE",
       "category": "Repuestos",
-      "price": 11498.87,
+      "price": 11649.18,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 9774.04,
+      "transferPrice": 9901.8,
       "stock": 16,
       "stockLabel": "En stock",
       "available": true,
@@ -1592,7 +1592,7 @@
         {
           "id": "SILICONA ENDER3V3SE",
           "available": true,
-          "price": 11498.87,
+          "price": 11649.18,
           "options": []
         }
       ]
@@ -1604,10 +1604,10 @@
       "domain": "shop.wetech.ar",
       "name": "Aislante silicona | Creality | Ender 5 Max",
       "category": "Repuestos",
-      "price": 9303.01,
+      "price": 9424.62,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 7907.56,
+      "transferPrice": 8010.93,
       "stock": 4,
       "stockLabel": "En stock",
       "available": true,
@@ -1622,7 +1622,7 @@
         {
           "id": "SILICONA ENDER5MAX",
           "available": true,
-          "price": 9303.01,
+          "price": 9424.62,
           "options": []
         }
       ]
@@ -1634,10 +1634,10 @@
       "domain": "shop.wetech.ar",
       "name": "Aislante silicona | Creality | Ender S1",
       "category": "Repuestos",
-      "price": 5167.88,
+      "price": 5235.43,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 4392.7,
+      "transferPrice": 4450.12,
       "stock": 85,
       "stockLabel": "En stock",
       "available": true,
@@ -1652,7 +1652,7 @@
         {
           "id": "SILICONA ENDERS1",
           "available": true,
-          "price": 5167.88,
+          "price": 5235.43,
           "options": []
         }
       ]
@@ -1664,10 +1664,10 @@
       "domain": "shop.wetech.ar",
       "name": "Aislante silicona | Creality | Hi Combo / K2 Plus",
       "category": "Repuestos",
-      "price": 10853.67,
+      "price": 10995.55,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 9225.62,
+      "transferPrice": 9346.21,
       "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -1682,7 +1682,7 @@
         {
           "id": "SILICONA HI/K2",
           "available": true,
-          "price": 10853.67,
+          "price": 10995.55,
           "options": []
         }
       ]
@@ -1694,10 +1694,10 @@
       "domain": "shop.wetech.ar",
       "name": "Aislante silicona | Creality | K1-KE / Ender 3 v3 Plus",
       "category": "Repuestos",
-      "price": 5997.6,
+      "price": 6076,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 5097.96,
+      "transferPrice": 5164.6,
       "stock": 16,
       "stockLabel": "En stock",
       "available": true,
@@ -1712,7 +1712,7 @@
         {
           "id": "SILICONA K1 KE V3PLU",
           "available": true,
-          "price": 5997.6,
+          "price": 6076,
           "options": []
         }
       ]
@@ -1724,10 +1724,10 @@
       "domain": "shop.wetech.ar",
       "name": "Aislante silicona | Creality | Negro | K1C",
       "category": "Repuestos",
-      "price": 9303.01,
+      "price": 9424.62,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 7907.56,
+      "transferPrice": 8010.93,
       "stock": 6,
       "stockLabel": "En stock",
       "available": true,
@@ -1742,7 +1742,7 @@
         {
           "id": "SILICONA K1C",
           "available": true,
-          "price": 9303.01,
+          "price": 9424.62,
           "options": []
         }
       ]
@@ -1754,10 +1754,10 @@
       "domain": "shop.wetech.ar",
       "name": "Aislante silicona | Creality | Negro | MK8 / Series Ender-3",
       "category": "Repuestos",
-      "price": 5167.88,
+      "price": 5235.43,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 4392.7,
+      "transferPrice": 4450.12,
       "stock": 22,
       "stockLabel": "En stock",
       "available": true,
@@ -1772,7 +1772,7 @@
         {
           "id": "SILICONA MK8",
           "available": true,
-          "price": 5167.88,
+          "price": 5235.43,
           "options": []
         }
       ]
@@ -1784,10 +1784,10 @@
       "domain": "shop.wetech.ar",
       "name": "Aislante silicona | Creality | Negro | Serie CR",
       "category": "Repuestos",
-      "price": 6201.55,
+      "price": 6282.61,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 5271.32,
+      "transferPrice": 5340.22,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -1802,7 +1802,7 @@
         {
           "id": "SILICONA CR6",
           "available": false,
-          "price": 6201.55,
+          "price": 6282.61,
           "options": []
         }
       ]
@@ -1814,10 +1814,10 @@
       "domain": "shop.wetech.ar",
       "name": "Alicate Oblicuo | Plato | Modelo 170",
       "category": "Filamentos",
-      "price": 16998.91,
+      "price": 17221.12,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 14449.08,
+      "transferPrice": 14637.95,
       "stock": 27,
       "stockLabel": "En stock",
       "available": true,
@@ -1832,7 +1832,7 @@
         {
           "id": "ALICATE SIMIL CRE",
           "available": true,
-          "price": 16998.91,
+          "price": 17221.12,
           "options": []
         }
       ]
@@ -1844,10 +1844,10 @@
       "domain": "shop.wetech.ar",
       "name": "Barrel | Creality | CR-10 MAX / CR10 S Pro V2 / CR10 S Pro",
       "category": "Repuestos",
-      "price": 15887.21,
+      "price": 16094.89,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 13504.13,
+      "transferPrice": 13680.66,
       "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -1862,7 +1862,7 @@
         {
           "id": "BARREL CR10 S PRO V2",
           "available": true,
-          "price": 15887.21,
+          "price": 16094.89,
           "options": []
         }
       ]
@@ -1874,10 +1874,10 @@
       "domain": "shop.wetech.ar",
       "name": "Barrel | Creality | CR-10 Smart / CR-6 SE / CR-6 MAX / Series Neo",
       "category": "Repuestos",
-      "price": 10958.01,
+      "price": 11101.25,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 9314.31,
+      "transferPrice": 9436.07,
       "stock": 3,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -1892,7 +1892,7 @@
         {
           "id": "BARREL CR6 CR10S",
           "available": true,
-          "price": 10958.01,
+          "price": 11101.25,
           "options": []
         }
       ]
@@ -1904,10 +1904,10 @@
       "domain": "shop.wetech.ar",
       "name": "Barrel | Creality | Series Ender",
       "category": "Repuestos",
-      "price": 7648.78,
+      "price": 7748.76,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 6501.46,
+      "transferPrice": 6586.45,
       "stock": 20,
       "stockLabel": "En stock",
       "available": true,
@@ -1922,7 +1922,7 @@
         {
           "id": "BARREL ENDER",
           "available": true,
-          "price": 7648.78,
+          "price": 7748.76,
           "options": []
         }
       ]
@@ -1934,10 +1934,10 @@
       "domain": "shop.wetech.ar",
       "name": "Barrel | Hellbot | Magna Dual",
       "category": "Repuestos",
-      "price": 10591.12,
+      "price": 10729.57,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 9002.45,
+      "transferPrice": 9120.13,
       "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -1952,7 +1952,7 @@
         {
           "id": "BARREL MAGNA DUAL",
           "available": true,
-          "price": 10591.12,
+          "price": 10729.57,
           "options": []
         }
       ]
@@ -1964,10 +1964,10 @@
       "domain": "shop.wetech.ar",
       "name": "Barrel | Hellbot | Magna SE",
       "category": "Repuestos",
-      "price": 30598.78,
+      "price": 30998.76,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 26008.96,
+      "transferPrice": 26348.95,
       "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -1982,7 +1982,7 @@
         {
           "id": "BARREL MAGNA SE",
           "available": true,
-          "price": 30598.78,
+          "price": 30998.76,
           "options": []
         }
       ]
@@ -1994,10 +1994,10 @@
       "domain": "shop.wetech.ar",
       "name": "Barrel Bimetalico | Creality | CR-10 Smart / CR-6 SE / CR-6 MAX",
       "category": "Repuestos",
-      "price": 20674.58,
+      "price": 20944.84,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 17573.4,
+      "transferPrice": 17803.11,
       "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -2012,7 +2012,7 @@
         {
           "id": "BARREL BIMECR6 CR10S",
           "available": true,
-          "price": 20674.58,
+          "price": 20944.84,
           "options": []
         }
       ]
@@ -2024,10 +2024,10 @@
       "domain": "shop.wetech.ar",
       "name": "Barrel Bimetalico | Creality | Ender 3 V3 KE",
       "category": "Repuestos",
-      "price": 21708.4,
+      "price": 21992.17,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 18452.14,
+      "transferPrice": 18693.35,
       "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -2042,7 +2042,7 @@
         {
           "id": "BARREL BIME E3V3KE",
           "available": true,
-          "price": 21708.4,
+          "price": 21992.17,
           "options": []
         }
       ]
@@ -2054,10 +2054,10 @@
       "domain": "shop.wetech.ar",
       "name": "Base para Display | Creality | Serie Ender 3 v2",
       "category": "Filamentos",
-      "price": 20674.58,
+      "price": 20944.84,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 17573.4,
+      "transferPrice": 17803.11,
       "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -2072,7 +2072,7 @@
         {
           "id": "BASE DISPLAY E3V2",
           "available": true,
-          "price": 20674.58,
+          "price": 20944.84,
           "options": []
         }
       ]
@@ -2084,10 +2084,10 @@
       "domain": "shop.wetech.ar",
       "name": "Bloque Calefactor | Artillery | Hornet",
       "category": "Repuestos",
-      "price": 9834.69,
+      "price": 9963.25,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 8359.48,
+      "transferPrice": 8468.76,
       "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -2102,7 +2102,7 @@
         {
           "id": "BLOQUE ARTILLERY HOR",
           "available": true,
-          "price": 9834.69,
+          "price": 9963.25,
           "options": []
         }
       ]
@@ -2114,10 +2114,10 @@
       "domain": "shop.wetech.ar",
       "name": "Bloque Calefactor | Creality | CR10 Max / CR10s Pro V2",
       "category": "Repuestos",
-      "price": 14206.05,
+      "price": 14391.75,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 12075.14,
+      "transferPrice": 12232.99,
       "stock": 5,
       "stockLabel": "En stock",
       "available": true,
@@ -2132,7 +2132,7 @@
         {
           "id": "BLOQUE CR10MAX",
           "available": true,
-          "price": 14206.05,
+          "price": 14391.75,
           "options": []
         }
       ]
@@ -2144,10 +2144,10 @@
       "domain": "shop.wetech.ar",
       "name": "Bloque Calefactor | Creality | CR10 Smart / CR 6 SE",
       "category": "Repuestos",
-      "price": 10336.68,
+      "price": 10471.8,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 8786.18,
+      "transferPrice": 8901.03,
       "stock": 7,
       "stockLabel": "En stock",
       "available": true,
@@ -2162,7 +2162,7 @@
         {
           "id": "BLOQUE CR10S-CR6SE",
           "available": true,
-          "price": 10336.68,
+          "price": 10471.8,
           "options": []
         }
       ]
@@ -2174,10 +2174,10 @@
       "domain": "shop.wetech.ar",
       "name": "Bloque Calefactor | Creality | Ender 3 v3 SE",
       "category": "Repuestos",
-      "price": 10853.67,
+      "price": 10995.55,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 9225.62,
+      "transferPrice": 9346.21,
       "stock": 8,
       "stockLabel": "En stock",
       "available": true,
@@ -2192,7 +2192,7 @@
         {
           "id": "BLOQUE ENDER3V3SE",
           "available": true,
-          "price": 10853.67,
+          "price": 10995.55,
           "options": []
         }
       ]
@@ -2204,10 +2204,10 @@
       "domain": "shop.wetech.ar",
       "name": "Bloque Calefactor | Creality | Series Ender 3 / MK8",
       "category": "Repuestos",
-      "price": 13954.98,
+      "price": 14137.4,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 11861.73,
+      "transferPrice": 12016.79,
       "stock": 3,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -2222,7 +2222,7 @@
         {
           "id": "BLOQUE SERIES ENDER",
           "available": true,
-          "price": 13954.98,
+          "price": 14137.4,
           "options": []
         }
       ]
@@ -2234,10 +2234,10 @@
       "domain": "shop.wetech.ar",
       "name": "Bloque Calefactor | Creality | Series Neo",
       "category": "Repuestos",
-      "price": 11370.5,
+      "price": 11519.14,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 9664.93,
+      "transferPrice": 9791.26,
       "stock": 23,
       "stockLabel": "En stock",
       "available": true,
@@ -2252,7 +2252,7 @@
         {
           "id": "BLOQUE SERIES NEO",
           "available": true,
-          "price": 11370.5,
+          "price": 11519.14,
           "options": []
         }
       ]
@@ -2264,10 +2264,10 @@
       "domain": "shop.wetech.ar",
       "name": "Bloque Calefactor | Hellbot | Magna Dual",
       "category": "Repuestos",
-      "price": 10381.05,
+      "price": 10516.75,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 8823.89,
+      "transferPrice": 8939.24,
       "stock": 4,
       "stockLabel": "En stock",
       "available": true,
@@ -2282,7 +2282,7 @@
         {
           "id": "BLOQUE HELLBOT MAGND",
           "available": true,
-          "price": 10381.05,
+          "price": 10516.75,
           "options": []
         }
       ]
@@ -2294,10 +2294,10 @@
       "domain": "shop.wetech.ar",
       "name": "Bloque Calefactor | MK10 / MK2 | M7",
       "category": "Repuestos",
-      "price": 10336.68,
+      "price": 10471.8,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 8786.18,
+      "transferPrice": 8901.03,
       "stock": 3,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -2312,7 +2312,7 @@
         {
           "id": "BLOQUE CALEF MK10",
           "available": true,
-          "price": 10336.68,
+          "price": 10471.8,
           "options": []
         }
       ]
@@ -2324,10 +2324,10 @@
       "domain": "shop.wetech.ar",
       "name": "Bloque Calefactor | MK7 / MK8 | M6",
       "category": "Repuestos",
-      "price": 8786.02,
+      "price": 8900.88,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 7468.12,
+      "transferPrice": 7565.74,
       "stock": 29,
       "stockLabel": "En stock",
       "available": true,
@@ -2342,7 +2342,7 @@
         {
           "id": "BLOQUE CALEF MK7MK8",
           "available": true,
-          "price": 8786.02,
+          "price": 8900.88,
           "options": []
         }
       ]
@@ -2354,10 +2354,10 @@
       "domain": "shop.wetech.ar",
       "name": "Boquilla Acero endurecido | Bambu Lab | 0.2mm | A1",
       "category": "Repuestos",
-      "price": 11498.87,
+      "price": 11649.18,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 9774.04,
+      "transferPrice": 9901.8,
       "stock": 15,
       "stockLabel": "En stock",
       "available": true,
@@ -2373,7 +2373,7 @@
         {
           "id": "BQ BL ACERO 0.2MM A1",
           "available": true,
-          "price": 11498.87,
+          "price": 11649.18,
           "options": [
             "Acero Endurecido"
           ]
@@ -2387,10 +2387,10 @@
       "domain": "shop.wetech.ar",
       "name": "Boquilla Acero endurecido | Bambu Lab | 0.4mm | A1",
       "category": "Repuestos",
-      "price": 11370.5,
+      "price": 11519.14,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 9664.93,
+      "transferPrice": 9791.26,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -2406,7 +2406,7 @@
         {
           "id": "BQ BL ACERO 0.4MM A1",
           "available": false,
-          "price": 11370.5,
+          "price": 11519.14,
           "options": [
             "Acero Endurecido"
           ]
@@ -2420,10 +2420,10 @@
       "domain": "shop.wetech.ar",
       "name": "Boquilla Acero endurecido | Bambu Lab | 0.6mm | A1",
       "category": "Repuestos",
-      "price": 11370.5,
+      "price": 11519.14,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 9664.93,
+      "transferPrice": 9791.26,
       "stock": 7,
       "stockLabel": "En stock",
       "available": true,
@@ -2439,7 +2439,7 @@
         {
           "id": "BQ BL ACERO 0.6MM A1",
           "available": true,
-          "price": 11370.5,
+          "price": 11519.14,
           "options": [
             "Acero Endurecido"
           ]
@@ -2453,10 +2453,10 @@
       "domain": "shop.wetech.ar",
       "name": "Boquilla Acero endurecido | Bambu Lab | 0.8mm | A1",
       "category": "Repuestos",
-      "price": 11498.87,
+      "price": 11649.18,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 9774.04,
+      "transferPrice": 9901.8,
       "stock": 6,
       "stockLabel": "En stock",
       "available": true,
@@ -2472,7 +2472,7 @@
         {
           "id": "BQ BL ACERO 0.8MM A1",
           "available": true,
-          "price": 11498.87,
+          "price": 11649.18,
           "options": [
             "Acero Endurecido"
           ]
@@ -2486,10 +2486,10 @@
       "domain": "shop.wetech.ar",
       "name": "Boquilla Acero Inoxidable | MK8 | 0.4mm | Series CR - Series Ender",
       "category": "Repuestos",
-      "price": 9819.85,
+      "price": 9948.21,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 8346.87,
+      "transferPrice": 8455.98,
       "stock": 6,
       "stockLabel": "En stock",
       "available": true,
@@ -2505,7 +2505,7 @@
         {
           "id": "BQ MK8 AI 0.4",
           "available": true,
-          "price": 9819.85,
+          "price": 9948.21,
           "options": [
             "Acero Inoxidable"
           ]
@@ -2519,10 +2519,10 @@
       "domain": "shop.wetech.ar",
       "name": "Boquilla Bimetalica | K1-KE | 0.4mm",
       "category": "Repuestos",
-      "price": 14471.81,
+      "price": 14660.99,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 12301.04,
+      "transferPrice": 12461.84,
       "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -2538,7 +2538,7 @@
         {
           "id": "BQ K1 BIME 0.4",
           "available": true,
-          "price": 14471.81,
+          "price": 14660.99,
           "options": [
             "Bimetalica"
           ]
@@ -2552,10 +2552,10 @@
       "domain": "shop.wetech.ar",
       "name": "Boquilla Bronce | E3D V6 | 0.4mm",
       "category": "Repuestos",
-      "price": 5463.17,
+      "price": 5534.59,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 4643.7,
+      "transferPrice": 4704.4,
       "stock": 3,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -2571,7 +2571,7 @@
         {
           "id": "BQ E3DV6 0.4",
           "available": true,
-          "price": 5463.17,
+          "price": 5534.59,
           "options": [
             "Bronce"
           ]
@@ -2585,10 +2585,10 @@
       "domain": "shop.wetech.ar",
       "name": "Boquilla Bronce | K1-KE | 0.2mm",
       "category": "Repuestos",
-      "price": 11887.33,
+      "price": 12042.73,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 10104.23,
+      "transferPrice": 10236.32,
       "stock": 11,
       "stockLabel": "En stock",
       "available": true,
@@ -2604,7 +2604,7 @@
         {
           "id": "BQ K1 BR 0.2",
           "available": true,
-          "price": 11887.33,
+          "price": 12042.73,
           "options": [
             "Bronce"
           ]
@@ -2618,10 +2618,10 @@
       "domain": "shop.wetech.ar",
       "name": "Boquilla Bronce | K1-KE | 0.4mm",
       "category": "Repuestos",
-      "price": 10498.86,
+      "price": 10636.1,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 8924.03,
+      "transferPrice": 9040.68,
       "stock": 8,
       "stockLabel": "En stock",
       "available": true,
@@ -2637,7 +2637,7 @@
         {
           "id": "BQ K1 BR 0.4",
           "available": true,
-          "price": 10498.86,
+          "price": 10636.1,
           "options": [
             "Bronce"
           ]
@@ -2651,10 +2651,10 @@
       "domain": "shop.wetech.ar",
       "name": "Boquilla Bronce | K1-KE | 0.6mm",
       "category": "Repuestos",
-      "price": 11887.33,
+      "price": 12042.73,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 10104.23,
+      "transferPrice": 10236.32,
       "stock": 16,
       "stockLabel": "En stock",
       "available": true,
@@ -2670,7 +2670,7 @@
         {
           "id": "BQ K1 BR 0.6",
           "available": true,
-          "price": 11887.33,
+          "price": 12042.73,
           "options": [
             "Bronce"
           ]
@@ -2684,10 +2684,10 @@
       "domain": "shop.wetech.ar",
       "name": "Boquilla Bronce | K1-KE | 0.8mm",
       "category": "Repuestos",
-      "price": 11887.33,
+      "price": 12042.73,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 10104.23,
+      "transferPrice": 10236.32,
       "stock": 32,
       "stockLabel": "En stock",
       "available": true,
@@ -2703,7 +2703,7 @@
         {
           "id": "BQ K1 BR 0.8",
           "available": true,
-          "price": 11887.33,
+          "price": 12042.73,
           "options": [
             "Bronce"
           ]
@@ -2717,10 +2717,10 @@
       "domain": "shop.wetech.ar",
       "name": "Boquilla Bronce | Magna Dual | 0.4mm",
       "category": "Repuestos",
-      "price": 9303.01,
+      "price": 9424.62,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 7907.56,
+      "transferPrice": 8010.93,
       "stock": 5,
       "stockLabel": "En stock",
       "available": true,
@@ -2736,7 +2736,7 @@
         {
           "id": "BQ MAGNADUAL BR 0.4",
           "available": true,
-          "price": 9303.01,
+          "price": 9424.62,
           "options": [
             "Bronce"
           ]
@@ -2750,10 +2750,10 @@
       "domain": "shop.wetech.ar",
       "name": "Boquilla Bronce | Magna Dual | 0.6mm",
       "category": "Repuestos",
-      "price": 9303.01,
+      "price": 9424.62,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 7907.56,
+      "transferPrice": 8010.93,
       "stock": 3,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -2769,7 +2769,7 @@
         {
           "id": "BQ MAGNADUAL BR 0.6",
           "available": true,
-          "price": 9303.01,
+          "price": 9424.62,
           "options": [
             "Bronce"
           ]
@@ -2783,10 +2783,10 @@
       "domain": "shop.wetech.ar",
       "name": "Boquilla Bronce | MK10 | M6 | 0.2mm | Series CR-10 / CR-10S PRO V2 / CR-10 MAX",
       "category": "Repuestos",
-      "price": 8786.02,
+      "price": 8900.88,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 7468.12,
+      "transferPrice": 7565.74,
       "stock": 3,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -2802,7 +2802,7 @@
         {
           "id": "BQ MK10 M6 BR 0.2",
           "available": true,
-          "price": 8786.02,
+          "price": 8900.88,
           "options": [
             "Bronce"
           ]
@@ -2816,10 +2816,10 @@
       "domain": "shop.wetech.ar",
       "name": "Boquilla Bronce | MK10 | M6 | 0.4mm | Series CR-10 / CR-10S PRO V2 / CR-10 MAX",
       "category": "Repuestos",
-      "price": 7752.2,
+      "price": 7853.54,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 6589.37,
+      "transferPrice": 6675.51,
       "stock": 3,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -2835,7 +2835,7 @@
         {
           "id": "BQ MK10 M6 BR 0.4",
           "available": true,
-          "price": 7752.2,
+          "price": 7853.54,
           "options": [
             "Bronce"
           ]
@@ -2849,10 +2849,10 @@
       "domain": "shop.wetech.ar",
       "name": "Boquilla Bronce | MK10 | M6 | 0.8mm | Series CR-10 / CR-10S PRO V2 / CR-10 MAX",
       "category": "Repuestos",
-      "price": 8786.02,
+      "price": 8900.88,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 7468.12,
+      "transferPrice": 7565.74,
       "stock": 9,
       "stockLabel": "En stock",
       "available": true,
@@ -2868,7 +2868,7 @@
         {
           "id": "BQ MK10 M6 BR 0.8",
           "available": true,
-          "price": 8786.02,
+          "price": 8900.88,
           "options": [
             "Bronce"
           ]
@@ -2882,10 +2882,10 @@
       "domain": "shop.wetech.ar",
       "name": "Boquilla Bronce | MK10 | M7 | 0.2mm | Serie Wanhao i3 / Wanhao Duplicador serie 4 / Wanhao Duplicador 4S / Wanhao Duplicador 4X",
       "category": "Repuestos",
-      "price": 10336.68,
+      "price": 10471.8,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 8786.18,
+      "transferPrice": 8901.03,
       "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -2901,7 +2901,7 @@
         {
           "id": "BQ MK10 M7 BR 0.2",
           "available": true,
-          "price": 10336.68,
+          "price": 10471.8,
           "options": [
             "Bronce"
           ]
@@ -2915,10 +2915,10 @@
       "domain": "shop.wetech.ar",
       "name": "Boquilla Bronce | MK10 | M7 | 0.4mm | Serie Wanhao i3 / Wanhao Duplicador serie 4 / Wanhao Duplicador 4S / Wanhao Duplicador 4X",
       "category": "Repuestos",
-      "price": 9303.01,
+      "price": 9424.62,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 7907.56,
+      "transferPrice": 8010.93,
       "stock": 6,
       "stockLabel": "En stock",
       "available": true,
@@ -2934,7 +2934,7 @@
         {
           "id": "BQ MK10 M7 BR 0.4",
           "available": true,
-          "price": 9303.01,
+          "price": 9424.62,
           "options": [
             "Bronce"
           ]
@@ -2948,10 +2948,10 @@
       "domain": "shop.wetech.ar",
       "name": "Boquilla Bronce | MK10 | M7 | 0.6mm | Serie Wanhao i3 / Wanhao Duplicador serie 4 / Wanhao Duplicador 4S / Wanhao Duplicador 4X",
       "category": "Repuestos",
-      "price": 10336.68,
+      "price": 10471.8,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 8786.18,
+      "transferPrice": 8901.03,
       "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -2967,7 +2967,7 @@
         {
           "id": "BQ MK10 M7 BR 0.6",
           "available": true,
-          "price": 10336.68,
+          "price": 10471.8,
           "options": [
             "Bronce"
           ]
@@ -2981,10 +2981,10 @@
       "domain": "shop.wetech.ar",
       "name": "Boquilla Bronce | MK10 | M7 | 0.8mm | Serie Wanhao i3 / Wanhao Duplicador serie 4 / Wanhao Duplicador 4S / Wanhao Duplicador 4X",
       "category": "Repuestos",
-      "price": 10336.68,
+      "price": 10471.8,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 8786.18,
+      "transferPrice": 8901.03,
       "stock": 5,
       "stockLabel": "En stock",
       "available": true,
@@ -3000,7 +3000,7 @@
         {
           "id": "BQ MK10 M7 BR 0.8",
           "available": true,
-          "price": 10336.68,
+          "price": 10471.8,
           "options": [
             "Bronce"
           ]
@@ -3014,10 +3014,10 @@
       "domain": "shop.wetech.ar",
       "name": "Boquilla Bronce | MK8 | M6 | 0.2mm | Series Ender",
       "category": "Repuestos",
-      "price": 4650.89,
+      "price": 4711.69,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 3953.26,
+      "transferPrice": 4004.94,
       "stock": 56,
       "stockLabel": "En stock",
       "available": true,
@@ -3033,7 +3033,7 @@
         {
           "id": "BQ MK8 BR 0.2",
           "available": true,
-          "price": 4650.89,
+          "price": 4711.69,
           "options": [
             "Bronce"
           ]
@@ -3047,10 +3047,10 @@
       "domain": "shop.wetech.ar",
       "name": "Boquilla Bronce | MK8 | M6 | 0.3mm | Series Ender",
       "category": "Repuestos",
-      "price": 5167.88,
+      "price": 5235.43,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 4392.7,
+      "transferPrice": 4450.12,
       "stock": 4,
       "stockLabel": "En stock",
       "available": true,
@@ -3066,7 +3066,7 @@
         {
           "id": "BQ MK8 BR 0.3",
           "available": true,
-          "price": 5167.88,
+          "price": 5235.43,
           "options": [
             "Bronce"
           ]
@@ -3080,10 +3080,10 @@
       "domain": "shop.wetech.ar",
       "name": "Boquilla Bronce | MK8 | M6 | 0.4mm | Series Ender",
       "category": "Repuestos",
-      "price": 3498.96,
+      "price": 3544.7,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 2974.11,
+      "transferPrice": 3012.99,
       "stock": 44,
       "stockLabel": "En stock",
       "available": true,
@@ -3099,7 +3099,7 @@
         {
           "id": "BQ MK8 BR 0.4",
           "available": true,
-          "price": 3498.96,
+          "price": 3544.7,
           "options": [
             "Bronce"
           ]
@@ -3113,10 +3113,10 @@
       "domain": "shop.wetech.ar",
       "name": "Boquilla Bronce | MK8 | M6 | 0.5mm | Series Ender",
       "category": "Repuestos",
-      "price": 5167.88,
+      "price": 5235.43,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 4392.7,
+      "transferPrice": 4450.12,
       "stock": 7,
       "stockLabel": "En stock",
       "available": true,
@@ -3132,7 +3132,7 @@
         {
           "id": "BQ MK8 BR 0.5",
           "available": true,
-          "price": 5167.88,
+          "price": 5235.43,
           "options": [
             "Bronce"
           ]
@@ -3146,10 +3146,10 @@
       "domain": "shop.wetech.ar",
       "name": "Boquilla Bronce | MK8 | M6 | 0.6mm | Series Ender",
       "category": "Repuestos",
-      "price": 4650.89,
+      "price": 4711.69,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 3953.26,
+      "transferPrice": 4004.94,
       "stock": 32,
       "stockLabel": "En stock",
       "available": true,
@@ -3165,7 +3165,7 @@
         {
           "id": "BQ MK8 BR 0.6",
           "available": true,
-          "price": 4650.89,
+          "price": 4711.69,
           "options": [
             "Bronce"
           ]
@@ -3179,10 +3179,10 @@
       "domain": "shop.wetech.ar",
       "name": "Boquilla Bronce | MK8 | M6 | 0.8mm | Series Ender",
       "category": "Repuestos",
-      "price": 5167.88,
+      "price": 5235.43,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 4392.7,
+      "transferPrice": 4450.12,
       "stock": 64,
       "stockLabel": "En stock",
       "available": true,
@@ -3198,7 +3198,7 @@
         {
           "id": "BQ MK8 BR 0.8",
           "available": true,
-          "price": 5167.88,
+          "price": 5235.43,
           "options": [
             "Bronce"
           ]
@@ -3212,10 +3212,10 @@
       "domain": "shop.wetech.ar",
       "name": "Boquilla Bronce | MK8 | M6 | 1.0mm | Series Ender",
       "category": "Repuestos",
-      "price": 5167.88,
+      "price": 5235.43,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 4392.7,
+      "transferPrice": 4450.12,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -3231,7 +3231,7 @@
         {
           "id": "BQ MK8 BR 1.0",
           "available": false,
-          "price": 5167.88,
+          "price": 5235.43,
           "options": [
             "Bronce"
           ]
@@ -3245,10 +3245,10 @@
       "domain": "shop.wetech.ar",
       "name": "Boquilla Bronce | TTS | 0.2mm | Series CR / S1 / NEO",
       "category": "Repuestos",
-      "price": 6718.54,
+      "price": 6806.36,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 5710.76,
+      "transferPrice": 5785.41,
       "stock": 43,
       "stockLabel": "En stock",
       "available": true,
@@ -3264,7 +3264,7 @@
         {
           "id": "BQ TTS BR 0.2",
           "available": true,
-          "price": 6718.54,
+          "price": 6806.36,
           "options": [
             "Bronce"
           ]
@@ -3278,10 +3278,10 @@
       "domain": "shop.wetech.ar",
       "name": "Boquilla Bronce | TTS | 0.3mm | Series CR / S1 / NEO",
       "category": "Repuestos",
-      "price": 7648.78,
+      "price": 7748.76,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 6501.46,
+      "transferPrice": 6586.45,
       "stock": 9,
       "stockLabel": "En stock",
       "available": true,
@@ -3297,7 +3297,7 @@
         {
           "id": "BQ TTS BR 0.3",
           "available": true,
-          "price": 7648.78,
+          "price": 7748.76,
           "options": [
             "Bronce"
           ]
@@ -3311,11 +3311,11 @@
       "domain": "shop.wetech.ar",
       "name": "Boquilla Bronce | TTS | 0.4mm | Series CR / S1 / NEO",
       "category": "Repuestos",
-      "price": 6498.98,
+      "price": 6583.94,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 5524.13,
-      "stock": 216,
+      "transferPrice": 5596.34,
+      "stock": 215,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -3330,7 +3330,7 @@
         {
           "id": "BQ TTS BR 0.4",
           "available": true,
-          "price": 6498.98,
+          "price": 6583.94,
           "options": [
             "Bronce"
           ]
@@ -3344,10 +3344,10 @@
       "domain": "shop.wetech.ar",
       "name": "Boquilla Bronce | TTS | 0.5mm | Series CR / S1 / NEO",
       "category": "Repuestos",
-      "price": 7648.78,
+      "price": 7748.76,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 6501.46,
+      "transferPrice": 6586.45,
       "stock": 9,
       "stockLabel": "En stock",
       "available": true,
@@ -3363,7 +3363,7 @@
         {
           "id": "BQ TTS BR 0.5",
           "available": true,
-          "price": 7648.78,
+          "price": 7748.76,
           "options": [
             "Bronce"
           ]
@@ -3377,10 +3377,10 @@
       "domain": "shop.wetech.ar",
       "name": "Boquilla Bronce | TTS | 0.6mm | Series CR / S1 / NEO",
       "category": "Repuestos",
-      "price": 7648.78,
+      "price": 7748.76,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 6501.46,
+      "transferPrice": 6586.45,
       "stock": 48,
       "stockLabel": "En stock",
       "available": true,
@@ -3396,7 +3396,7 @@
         {
           "id": "BQ TTS BR 0.6",
           "available": true,
-          "price": 7648.78,
+          "price": 7748.76,
           "options": [
             "Bronce"
           ]
@@ -3410,10 +3410,10 @@
       "domain": "shop.wetech.ar",
       "name": "Boquilla Bronce | TTS | 0.8mm | Series CR / S1 / NEO",
       "category": "Repuestos",
-      "price": 7648.78,
+      "price": 7748.76,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 6501.46,
+      "transferPrice": 6586.45,
       "stock": 21,
       "stockLabel": "En stock",
       "available": true,
@@ -3429,7 +3429,7 @@
         {
           "id": "BQ TTS BR 0.8",
           "available": true,
-          "price": 7648.78,
+          "price": 7748.76,
           "options": [
             "Bronce"
           ]
@@ -3443,10 +3443,10 @@
       "domain": "shop.wetech.ar",
       "name": "Boquilla Bronce | TTS | 1.0mm | Series CR / S1 / NEO",
       "category": "Repuestos",
-      "price": 7648.78,
+      "price": 7748.76,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 6501.46,
+      "transferPrice": 6586.45,
       "stock": 4,
       "stockLabel": "En stock",
       "available": true,
@@ -3462,7 +3462,7 @@
         {
           "id": "BQ TTS BR 1.0",
           "available": true,
-          "price": 7648.78,
+          "price": 7748.76,
           "options": [
             "Bronce"
           ]
@@ -3476,11 +3476,11 @@
       "domain": "shop.wetech.ar",
       "name": "Boquilla Bronce | TTS | M6 | 0.2mm | Ender 7 - Ender 3 v3 SE",
       "category": "Repuestos",
-      "price": 7998.99,
+      "price": 8103.56,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 6799.14,
-      "stock": 13,
+      "transferPrice": 6888.02,
+      "stock": 12,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -3495,7 +3495,7 @@
         {
           "id": "BQ E7 TTS BR 0.2",
           "available": true,
-          "price": 7998.99,
+          "price": 8103.56,
           "options": [
             "Bronce"
           ]
@@ -3509,11 +3509,11 @@
       "domain": "shop.wetech.ar",
       "name": "Boquilla Bronce | TTS | M6 | 0.4mm | Ender 7 - Ender 3 v3 SE",
       "category": "Repuestos",
-      "price": 6998.98,
+      "price": 7090.47,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 5949.14,
-      "stock": 13,
+      "transferPrice": 6026.9,
+      "stock": 10,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -3528,7 +3528,7 @@
         {
           "id": "BQ E7 TTS BR 0.4",
           "available": true,
-          "price": 6998.98,
+          "price": 7090.47,
           "options": [
             "Bronce"
           ]
@@ -3542,11 +3542,11 @@
       "domain": "shop.wetech.ar",
       "name": "Boquilla Bronce | TTS | M6 | 0.6mm | Ender 7 - Ender 3 v3 SE",
       "category": "Repuestos",
-      "price": 8786.02,
+      "price": 8900.88,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 7468.12,
-      "stock": 9,
+      "transferPrice": 7565.74,
+      "stock": 8,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -3561,7 +3561,7 @@
         {
           "id": "BQ E7 TTS BR 0.6",
           "available": true,
-          "price": 8786.02,
+          "price": 8900.88,
           "options": [
             "Bronce"
           ]
@@ -3575,10 +3575,10 @@
       "domain": "shop.wetech.ar",
       "name": "Boquilla Bronce | TTS | M6 | 0.8mm | Ender 7 - Ender 3 v3 SE",
       "category": "Repuestos",
-      "price": 8786.02,
+      "price": 8900.88,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 7468.12,
+      "transferPrice": 7565.74,
       "stock": 3,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -3594,7 +3594,7 @@
         {
           "id": "BQ E7 TTS BR 0.8",
           "available": true,
-          "price": 8786.02,
+          "price": 8900.88,
           "options": [
             "Bronce"
           ]
@@ -3608,10 +3608,10 @@
       "domain": "shop.wetech.ar",
       "name": "Boquilla Bronce | Volcano | 0.2mm | Artillery SW / Genius",
       "category": "Repuestos",
-      "price": 9303.01,
+      "price": 9424.62,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 7907.56,
+      "transferPrice": 8010.93,
       "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -3627,7 +3627,7 @@
         {
           "id": "BQ VOLCANO BR 0.2",
           "available": true,
-          "price": 9303.01,
+          "price": 9424.62,
           "options": [
             "Bronce"
           ]
@@ -3641,10 +3641,10 @@
       "domain": "shop.wetech.ar",
       "name": "Boquilla Bronce | Volcano | 0.4mm | Artillery SW / Genius",
       "category": "Repuestos",
-      "price": 9303.01,
+      "price": 9424.62,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 7907.56,
+      "transferPrice": 8010.93,
       "stock": 19,
       "stockLabel": "En stock",
       "available": true,
@@ -3660,7 +3660,7 @@
         {
           "id": "BQ VOLCANO BR 0.4",
           "available": true,
-          "price": 9303.01,
+          "price": 9424.62,
           "options": [
             "Bronce"
           ]
@@ -3674,10 +3674,10 @@
       "domain": "shop.wetech.ar",
       "name": "Boquilla Bronce | Volcano | 0.6mm | Artillery SW / Genius",
       "category": "Repuestos",
-      "price": 9303.01,
+      "price": 9424.62,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 7907.56,
+      "transferPrice": 8010.93,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -3693,7 +3693,7 @@
         {
           "id": "BQ VOLCANO BR 0.6",
           "available": false,
-          "price": 9303.01,
+          "price": 9424.62,
           "options": [
             "Bronce"
           ]
@@ -3707,10 +3707,10 @@
       "domain": "shop.wetech.ar",
       "name": "Boquilla CHT | Alto Flujo | Acero Endurecido | MK8 | 0.4mm | Series CR - Series Ender",
       "category": "Repuestos",
-      "price": 20674.58,
+      "price": 20944.84,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 17573.4,
+      "transferPrice": 17803.11,
       "stock": 3,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -3726,7 +3726,7 @@
         {
           "id": "BQ MK8 AE CHT 0.4",
           "available": true,
-          "price": 20674.58,
+          "price": 20944.84,
           "options": [
             "Acero Endurecido CHT"
           ]
@@ -3740,10 +3740,10 @@
       "domain": "shop.wetech.ar",
       "name": "Boquilla CHT | Alto Flujo | Bronce | MK8 | 0.4mm | Series CR - Series Ender",
       "category": "Repuestos",
-      "price": 15505.63,
+      "price": 15708.32,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 13179.79,
+      "transferPrice": 13352.07,
       "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -3759,7 +3759,7 @@
         {
           "id": "BQ MK8 CHT 0.4",
           "available": true,
-          "price": 15505.63,
+          "price": 15708.32,
           "options": [
             "Bronce CHT"
           ]
@@ -3773,10 +3773,10 @@
       "domain": "shop.wetech.ar",
       "name": "Boquilla Unicorn Bronce | Ender 3 v3 Plus | 0.2mm",
       "category": "Repuestos",
-      "price": 21191.42,
+      "price": 21468.43,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 18012.71,
+      "transferPrice": 18248.17,
       "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -3792,7 +3792,7 @@
         {
           "id": "BQ UNICORN BR 0.2",
           "available": true,
-          "price": 21191.42,
+          "price": 21468.43,
           "options": [
             "Bronce"
           ]
@@ -3806,10 +3806,10 @@
       "domain": "shop.wetech.ar",
       "name": "Boquilla Unicorn Bronce | Ender 3 v3 Plus | 0.4mm",
       "category": "Repuestos",
-      "price": 20674.58,
+      "price": 20944.84,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 17573.4,
+      "transferPrice": 17803.11,
       "stock": 8,
       "stockLabel": "En stock",
       "available": true,
@@ -3825,7 +3825,7 @@
         {
           "id": "BQ UNICORN BR 0.4",
           "available": true,
-          "price": 20674.58,
+          "price": 20944.84,
           "options": [
             "Bronce"
           ]
@@ -3839,10 +3839,10 @@
       "domain": "shop.wetech.ar",
       "name": "Boquilla Unicorn Bronce | Ender 3 v3 Plus | 0.6mm",
       "category": "Repuestos",
-      "price": 20998.94,
+      "price": 21273.44,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 17849.1,
+      "transferPrice": 18082.42,
       "stock": 4,
       "stockLabel": "En stock",
       "available": true,
@@ -3858,7 +3858,7 @@
         {
           "id": "BQ UNICORN BR 0.6",
           "available": true,
-          "price": 20998.94,
+          "price": 21273.44,
           "options": [
             "Bronce"
           ]
@@ -3872,10 +3872,10 @@
       "domain": "shop.wetech.ar",
       "name": "Boquilla Unicorn Bronce | Ender 3 v3 Plus | 0.8mm",
       "category": "Repuestos",
-      "price": 21191.42,
+      "price": 21468.43,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 18012.71,
+      "transferPrice": 18248.17,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -3891,7 +3891,7 @@
         {
           "id": "BQ UNICORN BR 0.8",
           "available": false,
-          "price": 21191.42,
+          "price": 21468.43,
           "options": [
             "Bronce"
           ]
@@ -3905,10 +3905,10 @@
       "domain": "shop.wetech.ar",
       "name": "Boquilla Unicorn Bronce | Hi Combo / K2 Plus | 0.4mm",
       "category": "Repuestos",
-      "price": 27999,
+      "price": 28365,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 23799.15,
+      "transferPrice": 24110.25,
       "stock": 14,
       "stockLabel": "En stock",
       "available": true,
@@ -3924,7 +3924,7 @@
         {
           "id": "BQ UNICORN HI-K2 0.4",
           "available": true,
-          "price": 27999,
+          "price": 28365,
           "options": [
             "Bronce"
           ]
@@ -3938,10 +3938,10 @@
       "domain": "shop.wetech.ar",
       "name": "Boquillas | K1-KE | 0.4mm",
       "category": "Repuestos",
-      "price": 8741.65,
+      "price": 8855.92,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 7430.41,
+      "transferPrice": 7527.54,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -3956,7 +3956,7 @@
         {
           "id": "BQ K1 KIT 0.4",
           "available": false,
-          "price": 8741.65,
+          "price": 8855.92,
           "options": []
         }
       ]
@@ -3968,10 +3968,10 @@
       "domain": "shop.wetech.ar",
       "name": "Cable Eje X | Artillery | Genius Pro / SW X2",
       "category": "Filamentos",
-      "price": 41350.24,
+      "price": 41890.76,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 35147.7,
+      "transferPrice": 35607.15,
       "stock": 3,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -3986,7 +3986,7 @@
         {
           "id": "CABLE EJE X ARTILLER",
           "available": true,
-          "price": 41350.24,
+          "price": 41890.76,
           "options": []
         }
       ]
@@ -3998,10 +3998,10 @@
       "domain": "shop.wetech.ar",
       "name": "Cable Eje Z | Artillery | Genius",
       "category": "Filamentos",
-      "price": 32563.14,
+      "price": 32988.81,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 27678.67,
+      "transferPrice": 28040.48,
       "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -4016,7 +4016,7 @@
         {
           "id": "CABLE EJE Z ARTILLER",
           "available": true,
-          "price": 32563.14,
+          "price": 32988.81,
           "options": []
         }
       ]
@@ -4028,10 +4028,10 @@
       "domain": "shop.wetech.ar",
       "name": "Cable Embellecedor | Negro",
       "category": "Filamentos",
-      "price": 15505.63,
+      "price": 15708.32,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 13179.79,
+      "transferPrice": 13352.07,
       "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -4046,7 +4046,7 @@
         {
           "id": "CABLE EMBELLECEDOR",
           "available": true,
-          "price": 15505.63,
+          "price": 15708.32,
           "options": []
         }
       ]
@@ -4058,10 +4058,10 @@
       "domain": "shop.wetech.ar",
       "name": "Cable Extrusor | Hellbot | Magna 1 v2",
       "category": "Filamentos",
-      "price": 20203.34,
+      "price": 20467.44,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 17172.84,
+      "transferPrice": 17397.32,
       "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -4076,7 +4076,7 @@
         {
           "id": "CABLE EXTRUSOR HBM1",
           "available": true,
-          "price": 20203.34,
+          "price": 20467.44,
           "options": []
         }
       ]
@@ -4088,10 +4088,10 @@
       "domain": "shop.wetech.ar",
       "name": "Cable Ribbon Display | Creality | Serie Ender K touch",
       "category": "Filamentos",
-      "price": 76500,
+      "price": 77500,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 65025,
+      "transferPrice": 65875,
       "stock": 4,
       "stockLabel": "En stock",
       "available": true,
@@ -4106,7 +4106,7 @@
         {
           "id": "CABLE RIBBON DISPLAY",
           "available": true,
-          "price": 76500,
+          "price": 77500,
           "options": []
         }
       ]
@@ -4118,10 +4118,10 @@
       "domain": "shop.wetech.ar",
       "name": "Cable Sensor de Filamento | Creality | 65cm | Ender-3 MAX",
       "category": "Filamentos",
-      "price": 7049.32,
+      "price": 7141.47,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 5991.92,
+      "transferPrice": 6070.25,
       "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -4136,7 +4136,7 @@
         {
           "id": "SENSOR FILA CABLE ",
           "available": true,
-          "price": 7049.32,
+          "price": 7141.47,
           "options": []
         }
       ]
@@ -4148,10 +4148,10 @@
       "domain": "shop.wetech.ar",
       "name": "Cable VGA | Hellbot | Hidra",
       "category": "Filamentos",
-      "price": 32542.79,
+      "price": 32968.19,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 27661.37,
+      "transferPrice": 28022.96,
       "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -4166,7 +4166,7 @@
         {
           "id": "CABLE VGA HIDRA",
           "available": true,
-          "price": 32542.79,
+          "price": 32968.19,
           "options": []
         }
       ]
@@ -4178,10 +4178,10 @@
       "domain": "shop.wetech.ar",
       "name": "Cadena porta cable | 1m | 7x7mm | Negro",
       "category": "Filamentos",
-      "price": 47552.4,
+      "price": 48174,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 40419.54,
+      "transferPrice": 40947.9,
       "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -4196,7 +4196,7 @@
         {
           "id": "CADENA PORTA CABLE",
           "available": true,
-          "price": 47552.4,
+          "price": 48174,
           "options": []
         }
       ]
@@ -4208,10 +4208,10 @@
       "domain": "shop.wetech.ar",
       "name": "Calentador Ceramico y Termistor + Grasa Termica | Bambu Lab | P1P / P1S",
       "category": "Filamentos",
-      "price": 30998.87,
+      "price": 31404.08,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 26349.04,
+      "transferPrice": 26693.47,
       "stock": 4,
       "stockLabel": "En stock",
       "available": true,
@@ -4226,7 +4226,7 @@
         {
           "id": "TERM Y RESIS P1S",
           "available": true,
-          "price": 30998.87,
+          "price": 31404.08,
           "options": []
         }
       ]
@@ -4238,10 +4238,10 @@
       "domain": "shop.wetech.ar",
       "name": "Cama Caliente | Creality | 235x235mm | Ender 3 V3 SE / Ender 3 V3 KE",
       "category": "Repuestos",
-      "price": 51688.14,
+      "price": 52363.8,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 43934.92,
+      "transferPrice": 44509.23,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -4256,7 +4256,7 @@
         {
           "id": "CAMACALIENTE E3V3SE",
           "available": false,
-          "price": 51688.14,
+          "price": 52363.8,
           "options": []
         }
       ]
@@ -4268,10 +4268,10 @@
       "domain": "shop.wetech.ar",
       "name": "Cama Magnetica Holografica | Bambu Lab | Light Beam / Phantom",
       "category": "Repuestos",
-      "price": 62025.89,
+      "price": 62836.69,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 52722.01,
+      "transferPrice": 53411.19,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -4286,7 +4286,7 @@
         {
           "id": "CAMAHOLO BAMBU",
           "available": false,
-          "price": 62025.89,
+          "price": 62836.69,
           "options": []
         }
       ]
@@ -4298,10 +4298,10 @@
       "domain": "shop.wetech.ar",
       "name": "Cama Magnetica Holografica | Creality | Light Beam / Phantom | Ender 3 v3 SE / Ender 3 v3 KE",
       "category": "Repuestos",
-      "price": 62935.02,
+      "price": 63757.7,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 53494.77,
+      "transferPrice": 54194.04,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -4316,7 +4316,7 @@
         {
           "id": "CAMAHOLO E3V3SEKE",
           "available": false,
-          "price": 62935.02,
+          "price": 63757.7,
           "options": []
         }
       ]
@@ -4328,10 +4328,10 @@
       "domain": "shop.wetech.ar",
       "name": "Cama magnetica PEI | Creality | 235x235mm",
       "category": "Repuestos",
-      "price": 69941.81,
+      "price": 70856.08,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 59450.54,
+      "transferPrice": 60227.67,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -4346,7 +4346,7 @@
         {
           "id": "CAMA PEI DORADO LISA",
           "available": false,
-          "price": 69941.81,
+          "price": 70856.08,
           "options": []
         }
       ]
@@ -4358,10 +4358,10 @@
       "domain": "shop.wetech.ar",
       "name": "Cama magnetica PEI | Creality | 235x235mm | Ender 3 v3 KE / Ender 3 v3 SE",
       "category": "Repuestos",
-      "price": 65127.2,
+      "price": 65978.54,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 55358.12,
+      "transferPrice": 56081.76,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -4376,7 +4376,7 @@
         {
           "id": "CAMA PEI E3V3KE/SE",
           "available": false,
-          "price": 65127.2,
+          "price": 65978.54,
           "options": []
         }
       ]
@@ -4388,10 +4388,10 @@
       "domain": "shop.wetech.ar",
       "name": "Cama Magnetica PEI Textura Dorada | Bambu Lab | 256x256x256mm | X1 / P1 / P2 / A1",
       "category": "Repuestos",
-      "price": 66161.02,
+      "price": 67025.88,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 56236.87,
+      "transferPrice": 56971.99,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -4406,7 +4406,7 @@
         {
           "id": "CAMA PEI DORADA BAMB",
           "available": false,
-          "price": 66161.02,
+          "price": 67025.88,
           "options": []
         }
       ]
@@ -4418,10 +4418,10 @@
       "domain": "shop.wetech.ar",
       "name": "Cama magnetica PEI/PEO | Creality | 235x235mm | Ender 3 v3 SE / Ender 3 v3 KE",
       "category": "Repuestos",
-      "price": 60165.11,
+      "price": 60951.58,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 51140.34,
+      "transferPrice": 51808.84,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -4436,7 +4436,7 @@
         {
           "id": "CAMA PEI/PEO CREAL",
           "available": false,
-          "price": 60165.11,
+          "price": 60951.58,
           "options": []
         }
       ]
@@ -4448,10 +4448,10 @@
       "domain": "shop.wetech.ar",
       "name": "Carcasa | Creality | CR-10 Smart",
       "category": "Filamentos",
-      "price": 15505.63,
+      "price": 15708.32,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 13179.79,
+      "transferPrice": 13352.07,
       "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -4466,7 +4466,7 @@
         {
           "id": "OFERTA-KITCARCASA",
           "available": true,
-          "price": 15505.63,
+          "price": 15708.32,
           "options": []
         }
       ]
@@ -4478,10 +4478,10 @@
       "domain": "shop.wetech.ar",
       "name": "Cepillo de silicona | Bambu Lab | A1 | 3,7 cm | Adhesivo",
       "category": "Repuestos",
-      "price": 13438.14,
+      "price": 13613.8,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 11422.42,
+      "transferPrice": 11571.73,
       "stock": 16,
       "stockLabel": "En stock",
       "available": true,
@@ -4496,7 +4496,7 @@
         {
           "id": "SILIC LIMPNOZZ BA1",
           "available": true,
-          "price": 13438.14,
+          "price": 13613.8,
           "options": []
         }
       ]
@@ -4508,10 +4508,10 @@
       "domain": "shop.wetech.ar",
       "name": "Cepillo de silicona | Bambu Lab | A1 Mini | 2,8 cm | Adhesivo",
       "category": "Repuestos",
-      "price": 12404.32,
+      "price": 12566.47,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 10543.67,
+      "transferPrice": 10681.5,
       "stock": 18,
       "stockLabel": "En stock",
       "available": true,
@@ -4526,7 +4526,7 @@
         {
           "id": "SILIC LIMPNOZZ BA1M",
           "available": true,
-          "price": 12404.32,
+          "price": 12566.47,
           "options": []
         }
       ]
@@ -4538,10 +4538,10 @@
       "domain": "shop.wetech.ar",
       "name": "Clip | Cama de vidrio",
       "category": "Repuestos",
-      "price": 7648.62,
+      "price": 7748.61,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 6501.33,
+      "transferPrice": 6586.31,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -4556,7 +4556,7 @@
         {
           "id": "CLIP CAMA DE VIDRIO",
           "available": false,
-          "price": 7648.62,
+          "price": 7748.61,
           "options": []
         }
       ]
@@ -4568,10 +4568,10 @@
       "domain": "shop.wetech.ar",
       "name": "Clip de correa | Aimosar | GT2",
       "category": "Repuestos",
-      "price": 8786.02,
+      "price": 8900.88,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 7468.12,
+      "transferPrice": 7565.74,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -4586,7 +4586,7 @@
         {
           "id": "CLIPS DE CORREA",
           "available": false,
-          "price": 8786.02,
+          "price": 8900.88,
           "options": []
         }
       ]
@@ -4598,10 +4598,10 @@
       "domain": "shop.wetech.ar",
       "name": "Clip de retencion kit calentador | Bambu Lab | P1P / P1S / X1C",
       "category": "Repuestos",
-      "price": 6201.55,
+      "price": 6282.61,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 5271.32,
+      "transferPrice": 5340.22,
       "stock": 8,
       "stockLabel": "En stock",
       "available": true,
@@ -4616,7 +4616,7 @@
         {
           "id": "CLIP RETENCION P1X1",
           "available": true,
-          "price": 6201.55,
+          "price": 6282.61,
           "options": []
         }
       ]
@@ -4628,10 +4628,10 @@
       "domain": "shop.wetech.ar",
       "name": "Conector 2 a 1 | Hellbot | Magna 2",
       "category": "Repuestos",
-      "price": 8061.88,
+      "price": 8167.26,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 6852.59,
+      "transferPrice": 6942.17,
       "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -4646,7 +4646,7 @@
         {
           "id": "CONECTOR HELLBOT",
           "available": true,
-          "price": 8061.88,
+          "price": 8167.26,
           "options": []
         }
       ]
@@ -4658,10 +4658,10 @@
       "domain": "shop.wetech.ar",
       "name": "Conjunto Calefactor + Clip | Bambu Lab | A1 / A1 Mini",
       "category": "Repuestos",
-      "price": 65999,
+      "price": 66861.73,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 56099.15,
+      "transferPrice": 56832.47,
       "stock": 5,
       "stockLabel": "En stock",
       "available": true,
@@ -4676,7 +4676,7 @@
         {
           "id": "CONJUNTO CALF BAMA1",
           "available": true,
-          "price": 65999,
+          "price": 66861.73,
           "options": []
         }
       ]
@@ -4688,10 +4688,10 @@
       "domain": "shop.wetech.ar",
       "name": "Correa + Clip | Geeetech | GT2 | Por metro",
       "category": "Repuestos",
-      "price": 15505.63,
+      "price": 15708.32,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 13179.79,
+      "transferPrice": 13352.07,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -4706,7 +4706,7 @@
         {
           "id": "CORREA GT2 1M¡CLIP",
           "available": false,
-          "price": 15505.63,
+          "price": 15708.32,
           "options": []
         }
       ]
@@ -4718,10 +4718,10 @@
       "domain": "shop.wetech.ar",
       "name": "Correa | Creality | GT2 6mm x 71cm | Eje Y",
       "category": "Repuestos",
-      "price": 12020.29,
+      "price": 12177.42,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 10217.25,
+      "transferPrice": 10350.81,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -4736,7 +4736,7 @@
         {
           "id": "CORREA CREA GT2 71CM",
           "available": false,
-          "price": 12020.29,
+          "price": 12177.42,
           "options": []
         }
       ]
@@ -4748,10 +4748,10 @@
       "domain": "shop.wetech.ar",
       "name": "Correa | Geeetech | GT2 | Metros Varios",
       "category": "Repuestos",
-      "price": 13303.96,
+      "price": 13477.87,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 11308.37,
+      "transferPrice": 11456.19,
       "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -4766,7 +4766,7 @@
         {
           "id": "CORREA GT2 VARIOS",
           "available": true,
-          "price": 13303.96,
+          "price": 13477.87,
           "options": []
         }
       ]
@@ -4778,10 +4778,10 @@
       "domain": "shop.wetech.ar",
       "name": "Correa | Geeetech | GT2 | Por metro",
       "category": "Repuestos",
-      "price": 11370.5,
+      "price": 11519.14,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 9664.93,
+      "transferPrice": 9791.26,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -4796,7 +4796,7 @@
         {
           "id": "CORREA GT2 1M",
           "available": false,
-          "price": 11370.5,
+          "price": 11519.14,
           "options": []
         }
       ]
@@ -4808,10 +4808,10 @@
       "domain": "shop.wetech.ar",
       "name": "Cortador de filamento del extrusor | Creality | Hi Combo / K2 Plus",
       "category": "Filamentos",
-      "price": 16391.65,
+      "price": 16605.92,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 13932.91,
+      "transferPrice": 14115.04,
       "stock": 19,
       "stockLabel": "En stock",
       "available": true,
@@ -4826,7 +4826,7 @@
         {
           "id": "CUTTER EXTRUSOR",
           "available": true,
-          "price": 16391.65,
+          "price": 16605.92,
           "options": []
         }
       ]
@@ -4838,10 +4838,10 @@
       "domain": "shop.wetech.ar",
       "name": "CR-Touch | Creality | Serie Ender 3 v3 SE",
       "category": "Filamentos",
-      "price": 109284.53,
+      "price": 110713.09,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 92891.85,
+      "transferPrice": 94106.13,
       "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -4856,7 +4856,7 @@
         {
           "id": "CR TOUCH CREALI",
           "available": true,
-          "price": 109284.53,
+          "price": 110713.09,
           "options": []
         }
       ]
@@ -4868,10 +4868,10 @@
       "domain": "shop.wetech.ar",
       "name": "Cubierta inferior frontal | Bambu Lab | A1",
       "category": "Repuestos",
-      "price": 1530,
+      "price": 1550,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 1300.5,
+      "transferPrice": 1317.5,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -4886,7 +4886,7 @@
         {
           "id": "CARCASA INFRONT BLA1",
           "available": false,
-          "price": 1530,
+          "price": 1550,
           "options": []
         }
       ]
@@ -4898,10 +4898,10 @@
       "domain": "shop.wetech.ar",
       "name": "Disipador | Creality | CR10 Max / CR10s Pro V2",
       "category": "Repuestos",
-      "price": 15505.63,
+      "price": 15708.32,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 13179.79,
+      "transferPrice": 13352.07,
       "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -4916,7 +4916,7 @@
         {
           "id": "DISIPADOR CR10MAX",
           "available": true,
-          "price": 15505.63,
+          "price": 15708.32,
           "options": []
         }
       ]
@@ -4928,10 +4928,10 @@
       "domain": "shop.wetech.ar",
       "name": "Disipador | Creality | Ender 3 v2 NEO",
       "category": "Repuestos",
-      "price": 21150.72,
+      "price": 21427.2,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 17978.11,
+      "transferPrice": 18213.12,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -4946,7 +4946,7 @@
         {
           "id": "DISIPADOR END3V2 NEO",
           "available": false,
-          "price": 21150.72,
+          "price": 21427.2,
           "options": []
         }
       ]
@@ -4958,10 +4958,10 @@
       "domain": "shop.wetech.ar",
       "name": "Disipador | Creality | K1 / K1 Max",
       "category": "Repuestos",
-      "price": 26877.2,
+      "price": 27228.54,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 22845.62,
+      "transferPrice": 23144.26,
       "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -4976,7 +4976,7 @@
         {
           "id": "DISIPADOR K1MAX",
           "available": true,
-          "price": 26877.2,
+          "price": 27228.54,
           "options": []
         }
       ]
@@ -4988,10 +4988,10 @@
       "domain": "shop.wetech.ar",
       "name": "Disipador | Creality | MK9S | CR-10 Smart",
       "category": "Repuestos",
-      "price": 20673.36,
+      "price": 20943.6,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 17572.36,
+      "transferPrice": 17802.06,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -5006,7 +5006,7 @@
         {
           "id": "DISIPADOR_CR10SMART",
           "available": false,
-          "price": 20673.36,
+          "price": 20943.6,
           "options": []
         }
       ]
@@ -5018,10 +5018,10 @@
       "domain": "shop.wetech.ar",
       "name": "Disipador | Creality | Plateado | Ender 3 series",
       "category": "Filamentos",
-      "price": 12404.32,
+      "price": 12566.47,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 10543.67,
+      "transferPrice": 10681.5,
       "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -5036,7 +5036,7 @@
         {
           "id": "DISIPADOR ENDER3",
           "available": true,
-          "price": 12404.32,
+          "price": 12566.47,
           "options": []
         }
       ]
@@ -5048,10 +5048,10 @@
       "domain": "shop.wetech.ar",
       "name": "Disipador | Creality | Rojo | CR-6 series",
       "category": "Repuestos",
-      "price": 20674.58,
+      "price": 20944.84,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 17573.4,
+      "transferPrice": 17803.11,
       "stock": 5,
       "stockLabel": "En stock",
       "available": true,
@@ -5066,7 +5066,7 @@
         {
           "id": "DISIPADOR CR6",
           "available": true,
-          "price": 20674.58,
+          "price": 20944.84,
           "options": []
         }
       ]
@@ -5078,10 +5078,10 @@
       "domain": "shop.wetech.ar",
       "name": "Display Original | Creality | Serie Ender 3 v3 ke",
       "category": "Filamentos",
-      "price": 70505.46,
+      "price": 71427.1,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 59929.64,
+      "transferPrice": 60713.04,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -5096,7 +5096,7 @@
         {
           "id": "DISPLAY CREALI E3V3K",
           "available": false,
-          "price": 70505.46,
+          "price": 71427.1,
           "options": []
         }
       ]
@@ -5108,10 +5108,10 @@
       "domain": "shop.wetech.ar",
       "name": "Driver TMC2208 | Hellbot",
       "category": "Filamentos",
-      "price": 20674.58,
+      "price": 20944.84,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 17573.4,
+      "transferPrice": 17803.11,
       "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -5126,7 +5126,7 @@
         {
           "id": "DRIVER HELLBOT",
           "available": true,
-          "price": 20674.58,
+          "price": 20944.84,
           "options": []
         }
       ]
@@ -5628,10 +5628,10 @@
       "domain": "shop.wetech.ar",
       "name": "Endstop | BiQu | B1",
       "category": "Repuestos",
-      "price": 8036.33,
+      "price": 8141.38,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 6830.88,
+      "transferPrice": 6920.17,
       "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -5646,7 +5646,7 @@
         {
           "id": "ENDSTOP BIQU B1",
           "available": true,
-          "price": 8036.33,
+          "price": 8141.38,
           "options": []
         }
       ]
@@ -5658,10 +5658,10 @@
       "domain": "shop.wetech.ar",
       "name": "Endstop | Geeetech | Pro B",
       "category": "Repuestos",
-      "price": 10715.66,
+      "price": 10855.74,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 9108.31,
+      "transferPrice": 9227.37,
       "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -5676,7 +5676,7 @@
         {
           "id": "ENDSTOPGEEETECH PROB",
           "available": true,
-          "price": 10715.66,
+          "price": 10855.74,
           "options": []
         }
       ]
@@ -5688,10 +5688,10 @@
       "domain": "shop.wetech.ar",
       "name": "Endstop | Hellbot",
       "category": "Repuestos",
-      "price": 17998.31,
+      "price": 18233.58,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 15298.56,
+      "transferPrice": 15498.54,
       "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -5706,7 +5706,7 @@
         {
           "id": "ENDSTOP HELLBOT",
           "available": true,
-          "price": 17998.31,
+          "price": 18233.58,
           "options": []
         }
       ]
@@ -5718,10 +5718,10 @@
       "domain": "shop.wetech.ar",
       "name": "Endstop Fotoelectrico | Hellbot | Hidra 220 / Hidra Plus 300",
       "category": "Repuestos",
-      "price": 26460.43,
+      "price": 26806.32,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 22491.37,
+      "transferPrice": 22785.37,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -5736,7 +5736,7 @@
         {
           "id": "ENDSTOP FOTO HIDRA",
           "available": false,
-          "price": 26460.43,
+          "price": 26806.32,
           "options": []
         }
       ]
@@ -5748,10 +5748,10 @@
       "domain": "shop.wetech.ar",
       "name": "Endstop Kit Fotoelectrico | Creality | CR-30",
       "category": "Repuestos",
-      "price": 23970.97,
+      "price": 24284.31,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 20375.32,
+      "transferPrice": 20641.67,
       "stock": 3,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -5766,7 +5766,7 @@
         {
           "id": "ENDSTOP KIT CR30",
           "available": true,
-          "price": 23970.97,
+          "price": 24284.31,
           "options": []
         }
       ]
@@ -5778,10 +5778,10 @@
       "domain": "shop.wetech.ar",
       "name": "Extrusor | Creality | Ender 3 v3 Plus",
       "category": "Repuestos",
-      "price": 82701.55,
+      "price": 83782.62,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 70296.32,
+      "transferPrice": 71215.22,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -5796,7 +5796,7 @@
         {
           "id": "EXTRUSOR ENDER3V3+",
           "available": false,
-          "price": 82701.55,
+          "price": 83782.62,
           "options": []
         }
       ]
@@ -5808,10 +5808,10 @@
       "domain": "shop.wetech.ar",
       "name": "Extrusor | Creality | Hi Combo / K2 Plus",
       "category": "Repuestos",
-      "price": 82701.55,
+      "price": 83782.62,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 70296.32,
+      "transferPrice": 71215.22,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -5826,7 +5826,7 @@
         {
           "id": "EXTRUSOR CR HI",
           "available": false,
-          "price": 82701.55,
+          "price": 83782.62,
           "options": []
         }
       ]
@@ -5838,10 +5838,10 @@
       "domain": "shop.wetech.ar",
       "name": "Fan Axial | 6010 | 24V",
       "category": "Repuestos",
-      "price": 14023.67,
+      "price": 14206.99,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 11920.12,
+      "transferPrice": 12075.94,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -5856,7 +5856,7 @@
         {
           "id": "FAN AXIAL 6010",
           "available": false,
-          "price": 14023.67,
+          "price": 14206.99,
           "options": []
         }
       ]
@@ -5868,10 +5868,10 @@
       "domain": "shop.wetech.ar",
       "name": "Fan Axial | Bambu Lab | 2510 | 5V | 0.40A | A1 / A1 Mini",
       "category": "Repuestos",
-      "price": 25843.54,
+      "price": 26181.36,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 21967.01,
+      "transferPrice": 22254.16,
       "stock": 23,
       "stockLabel": "En stock",
       "available": true,
@@ -5886,7 +5886,7 @@
         {
           "id": "FAN AXIAL BL A1M",
           "available": true,
-          "price": 25843.54,
+          "price": 26181.36,
           "options": []
         }
       ]
@@ -5898,10 +5898,10 @@
       "domain": "shop.wetech.ar",
       "name": "Fan Axial | Bambu Lab | 2510 | 5V | 0.40A | P1P / P1S",
       "category": "Repuestos",
-      "price": 25843.54,
+      "price": 26181.36,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 21967.01,
+      "transferPrice": 22254.16,
       "stock": 3,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -5916,7 +5916,7 @@
         {
           "id": "FAN AXIAL BL P1PS",
           "available": true,
-          "price": 25843.54,
+          "price": 26181.36,
           "options": []
         }
       ]
@@ -5928,10 +5928,10 @@
       "domain": "shop.wetech.ar",
       "name": "Fan Axial | Bambu Lab | 2510 | 5V | 0.40A | X1C",
       "category": "Repuestos",
-      "price": 25843.54,
+      "price": 26181.36,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 21967.01,
+      "transferPrice": 22254.16,
       "stock": 3,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -5946,7 +5946,7 @@
         {
           "id": "FAN AXIAL BL X1C",
           "available": true,
-          "price": 25843.54,
+          "price": 26181.36,
           "options": []
         }
       ]
@@ -5958,10 +5958,10 @@
       "domain": "shop.wetech.ar",
       "name": "Fan Axial | Creality | 2510 | 24V | 0.10A",
       "category": "Repuestos",
-      "price": 24998.67,
+      "price": 25325.45,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 21248.87,
+      "transferPrice": 21526.63,
       "stock": 12,
       "stockLabel": "En stock",
       "available": true,
@@ -5976,7 +5976,7 @@
         {
           "id": "FAN AXIAL 2510 CREA",
           "available": true,
-          "price": 24998.67,
+          "price": 25325.45,
           "options": []
         }
       ]
@@ -5988,10 +5988,10 @@
       "domain": "shop.wetech.ar",
       "name": "Fan Axial | Creality | 3010 | 24V | 0.08A | Cable corto con ficha | Comp. Magna 2",
       "category": "Repuestos",
-      "price": 11935.07,
+      "price": 12091.08,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 10144.81,
+      "transferPrice": 10277.42,
       "stock": 3,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -6006,7 +6006,7 @@
         {
           "id": "FAN AXIAL 3010 CREAL",
           "available": true,
-          "price": 11935.07,
+          "price": 12091.08,
           "options": []
         }
       ]
@@ -6018,10 +6018,10 @@
       "domain": "shop.wetech.ar",
       "name": "Fan Axial | Creality | 3010 | 24V | 0.10A | Ender 5 Max",
       "category": "Repuestos",
-      "price": 11935.07,
+      "price": 12091.08,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 10144.81,
+      "transferPrice": 10277.42,
       "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -6036,7 +6036,7 @@
         {
           "id": "FAN AXIAL 3010E5M CR",
           "available": true,
-          "price": 11935.07,
+          "price": 12091.08,
           "options": []
         }
       ]
@@ -6048,10 +6048,10 @@
       "domain": "shop.wetech.ar",
       "name": "Fan Axial | Creality | 4010 | 24V | 0.10A | Silencioso | Con conector",
       "category": "Repuestos",
-      "price": 18582.16,
+      "price": 18825.06,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 15794.83,
+      "transferPrice": 16001.3,
       "stock": 10,
       "stockLabel": "En stock",
       "available": true,
@@ -6066,7 +6066,7 @@
         {
           "id": "FAN AXIAL 4010 SILEN",
           "available": true,
-          "price": 18582.16,
+          "price": 18825.06,
           "options": []
         }
       ]
@@ -6078,10 +6078,10 @@
       "domain": "shop.wetech.ar",
       "name": "Fan Axial | Creality | 4010 | 24V | 0.10A | Sin conector | Series Ender / CR10 Smart",
       "category": "Repuestos",
-      "price": 12921.16,
+      "price": 13090.06,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 10982.98,
+      "transferPrice": 11126.55,
       "stock": 22,
       "stockLabel": "En stock",
       "available": true,
@@ -6096,7 +6096,7 @@
         {
           "id": "FAN AXIAL 4010 CREA",
           "available": true,
-          "price": 12921.16,
+          "price": 13090.06,
           "options": []
         }
       ]
@@ -6108,10 +6108,10 @@
       "domain": "shop.wetech.ar",
       "name": "Fan Axial | Creality | 4020 | 24V | 0.20A | Ficha Fuente",
       "category": "Repuestos",
-      "price": 11456.18,
+      "price": 11605.93,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 9737.75,
+      "transferPrice": 9865.04,
       "stock": 3,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -6126,7 +6126,7 @@
         {
           "id": "FAN AXIA 4020 CRELIT",
           "available": true,
-          "price": 11456.18,
+          "price": 11605.93,
           "options": []
         }
       ]
@@ -6138,10 +6138,10 @@
       "domain": "shop.wetech.ar",
       "name": "Fan Axial | Hellbot | 3010 | 24V | 0.08A | Magna 2 | Cable corto sin ficha",
       "category": "Repuestos",
-      "price": 24148.6,
+      "price": 24464.27,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 20526.31,
+      "transferPrice": 20794.63,
       "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -6156,7 +6156,7 @@
         {
           "id": "FAN AXIAL 3010 MAGN2",
           "available": true,
-          "price": 24148.6,
+          "price": 24464.27,
           "options": []
         }
       ]
@@ -6168,10 +6168,10 @@
       "domain": "shop.wetech.ar",
       "name": "Fan Axial | Hellbot | 6015 | 12V | Sin conector",
       "category": "Repuestos",
-      "price": 14471.81,
+      "price": 14660.99,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 12301.04,
+      "transferPrice": 12461.84,
       "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -6186,7 +6186,7 @@
         {
           "id": "FAN AXIAL 6015 12V",
           "available": true,
-          "price": 14471.81,
+          "price": 14660.99,
           "options": []
         }
       ]
@@ -6198,10 +6198,10 @@
       "domain": "shop.wetech.ar",
       "name": "Fan Axial | Pengda | 5010 | 24V | terminal de tipo pin",
       "category": "Repuestos",
-      "price": 17746.47,
+      "price": 17978.45,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 15084.5,
+      "transferPrice": 15281.68,
       "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -6216,7 +6216,7 @@
         {
           "id": "FAN AXIAL 5010 PENG",
           "available": true,
-          "price": 17746.47,
+          "price": 17978.45,
           "options": []
         }
       ]
@@ -6228,10 +6228,10 @@
       "domain": "shop.wetech.ar",
       "name": "Fan Axial Brushless | Hellbot | 6015 | 24V | Con conector",
       "category": "Repuestos",
-      "price": 14023.67,
+      "price": 14206.99,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 11920.12,
+      "transferPrice": 12075.94,
       "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -6246,7 +6246,7 @@
         {
           "id": "FAN AXIAL 6015 BRUSH",
           "available": true,
-          "price": 14023.67,
+          "price": 14206.99,
           "options": []
         }
       ]
@@ -6258,10 +6258,10 @@
       "domain": "shop.wetech.ar",
       "name": "Fan Capa | Bambu Lab | 5015 | 24V | A1 / A1 Mini",
       "category": "Repuestos",
-      "price": 46002.2,
+      "price": 46603.54,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 39101.87,
+      "transferPrice": 39613.01,
       "stock": 5,
       "stockLabel": "En stock",
       "available": true,
@@ -6276,7 +6276,7 @@
         {
           "id": "FAN CAPA BAMBALA1",
           "available": true,
-          "price": 46002.2,
+          "price": 46603.54,
           "options": []
         }
       ]
@@ -6288,10 +6288,10 @@
       "domain": "shop.wetech.ar",
       "name": "Fan Capa | Creality | 4010 | 24V | 0.10A | Series Ender",
       "category": "Repuestos",
-      "price": 14471.81,
+      "price": 14660.99,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 12301.04,
+      "transferPrice": 12461.84,
       "stock": 9,
       "stockLabel": "En stock",
       "available": true,
@@ -6306,7 +6306,7 @@
         {
           "id": "FAN CAPA 4010 CREALI",
           "available": true,
-          "price": 14471.81,
+          "price": 14660.99,
           "options": []
         }
       ]
@@ -6348,10 +6348,10 @@
       "domain": "shop.wetech.ar",
       "name": "Fan Capa | Creality | 4020 | 24V | 0.10A",
       "category": "Repuestos",
-      "price": 12993.07,
+      "price": 13162.91,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 11044.11,
+      "transferPrice": 11188.47,
       "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -6366,7 +6366,7 @@
         {
           "id": "FAN CAPA 4020 CREA",
           "available": true,
-          "price": 12993.07,
+          "price": 13162.91,
           "options": []
         }
       ]
@@ -6378,10 +6378,10 @@
       "domain": "shop.wetech.ar",
       "name": "Fan Capa | Creality | 4020 | 24V | 0.20A | Con ficha",
       "category": "Repuestos",
-      "price": 12993.07,
+      "price": 13162.91,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 11044.11,
+      "transferPrice": 11188.47,
       "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -6396,7 +6396,7 @@
         {
           "id": "FAN CAPA 4020 CRELIT",
           "available": true,
-          "price": 12993.07,
+          "price": 13162.91,
           "options": []
         }
       ]
@@ -6408,10 +6408,10 @@
       "domain": "shop.wetech.ar",
       "name": "Fan Capa | Creality | 4020 | 24V | 0.20A | Sin ficha",
       "category": "Repuestos",
-      "price": 12993.07,
+      "price": 13162.91,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 11044.11,
+      "transferPrice": 11188.47,
       "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -6426,7 +6426,7 @@
         {
           "id": "FAN CAPA 4020 CRE SF",
           "available": true,
-          "price": 12993.07,
+          "price": 13162.91,
           "options": []
         }
       ]
@@ -6438,10 +6438,10 @@
       "domain": "shop.wetech.ar",
       "name": "Fan Capa Brushless | 3010 | 24V | 0.10A | Ender S1 / Ender 2 Pro",
       "category": "Repuestos",
-      "price": 20763.17,
+      "price": 21034.58,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 17648.7,
+      "transferPrice": 17879.4,
       "stock": 3,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -6456,7 +6456,7 @@
         {
           "id": "FAN CAPA 3010 BRUSH",
           "available": true,
-          "price": 20763.17,
+          "price": 21034.58,
           "options": []
         }
       ]
@@ -6468,10 +6468,10 @@
       "domain": "shop.wetech.ar",
       "name": "FEP Film Original | Creality | 140x200mm | Halot One / LD-002H / LD-002R",
       "category": "Repuestos",
-      "price": 54254.11,
+      "price": 54963.31,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 46115.99,
+      "transferPrice": 46718.81,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -6486,7 +6486,7 @@
         {
           "id": "FEP FILM CREALITY",
           "available": false,
-          "price": 54254.11,
+          "price": 54963.31,
           "options": []
         }
       ]
@@ -6498,10 +6498,10 @@
       "domain": "shop.wetech.ar",
       "name": "FEP Film Original | Creality | 200x180mm | Halot One Pro",
       "category": "Repuestos",
-      "price": 63449.1,
+      "price": 64278.5,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 53931.74,
+      "transferPrice": 54636.72,
       "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -6516,7 +6516,7 @@
         {
           "id": "FEP FILM CREALITY PR",
           "available": true,
-          "price": 63449.1,
+          "price": 64278.5,
           "options": []
         }
       ]
@@ -7752,10 +7752,10 @@
       "domain": "shop.wetech.ar",
       "name": "Gatillo y Engranaje Extrusor | Bambu Lab | A1 / A1 Mini",
       "category": "Repuestos",
-      "price": 49985.1,
+      "price": 50638.5,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 42487.34,
+      "transferPrice": 43042.72,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -7770,7 +7770,7 @@
         {
           "id": "GATILL Y ENGR A1",
           "available": false,
-          "price": 49985.1,
+          "price": 50638.5,
           "options": []
         }
       ]
@@ -7782,11 +7782,11 @@
       "domain": "shop.wetech.ar",
       "name": "Grasa Siliconada | 10gr",
       "category": "Filamentos",
-      "price": 9998.86,
+      "price": 10129.56,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 8499.03,
-      "stock": 79,
+      "transferPrice": 8610.13,
+      "stock": 74,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -7800,7 +7800,7 @@
         {
           "id": "GRASA SILICONADA",
           "available": true,
-          "price": 9998.86,
+          "price": 10129.56,
           "options": []
         }
       ]
@@ -7816,7 +7816,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 24999.35,
-      "stock": 128,
+      "stock": 136,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -8079,7 +8079,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 24498.7,
-      "stock": 49,
+      "stock": 42,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -8121,7 +8121,7 @@
         },
         {
           "id": "G3-HIPS-1KG-NEGR",
-          "available": true,
+          "available": false,
           "price": 28822,
           "options": [
             "Negro",
@@ -8370,7 +8370,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 19499,
-      "stock": 157,
+      "stock": 166,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -8510,7 +8510,7 @@
         },
         {
           "id": "G3-PETG-1KG-GRAC",
-          "available": false,
+          "available": true,
           "price": 22940,
           "options": [
             "Gris Acero",
@@ -8839,7 +8839,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 37999.25,
-      "stock": 27,
+      "stock": 24,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -8869,7 +8869,7 @@
         },
         {
           "id": "G3-P870-1KG-BORD",
-          "available": true,
+          "available": false,
           "price": 44705,
           "options": [
             "Rojo Bordo",
@@ -9041,7 +9041,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 25998.95,
-      "stock": 96,
+      "stock": 107,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -9120,7 +9120,7 @@
         },
         {
           "id": "G3-BOUT-1KG-PECA",
-          "available": false,
+          "available": true,
           "price": 30587,
           "options": [
             "Perla Calido",
@@ -9287,7 +9287,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 24999.35,
-      "stock": 261,
+      "stock": 315,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -9342,7 +9342,7 @@
         },
         {
           "id": "G3-MEGA-4KG-GRPL",
-          "available": false,
+          "available": true,
           "price": 90587,
           "options": [
             "Gris Plata",
@@ -9354,7 +9354,7 @@
         },
         {
           "id": "G3-MEGA-4KG-NEGR",
-          "available": false,
+          "available": true,
           "price": 90587,
           "options": [
             "Negro",
@@ -9414,7 +9414,7 @@
         },
         {
           "id": "G3-PLA2-1KG-AMAR",
-          "available": false,
+          "available": true,
           "price": 29411,
           "options": [
             "Amarillo",
@@ -9582,7 +9582,7 @@
         },
         {
           "id": "G3-PLA2-1KG-PI16",
-          "available": false,
+          "available": true,
           "price": 29411,
           "options": [
             "Piel 162",
@@ -9642,7 +9642,7 @@
         },
         {
           "id": "G3-PLA2-1KG-VERD",
-          "available": false,
+          "available": true,
           "price": 29411,
           "options": [
             "Verde",
@@ -10585,7 +10585,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 18999.2,
-      "stock": 568,
+      "stock": 545,
       "stockLabel": "En stock",
       "available": true,
       "brand": "GST3D",
@@ -10891,7 +10891,7 @@
         },
         {
           "id": "GSB-PLA-1KG-PLAT",
-          "available": true,
+          "available": false,
           "price": 22352,
           "options": [
             "Plata",
@@ -11094,7 +11094,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 19998.8,
-      "stock": 37,
+      "stock": 36,
       "stockLabel": "En stock",
       "available": true,
       "brand": "GST3D",
@@ -11767,7 +11767,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 18999.2,
-      "stock": 304,
+      "stock": 445,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -11845,7 +11845,7 @@
         },
         {
           "id": "HB-PLA-1KG-INPA",
-          "available": false,
+          "available": true,
           "price": 22352,
           "options": [
             "Indigo Pastel",
@@ -11917,7 +11917,7 @@
         },
         {
           "id": "HB-PLA-1KG-GRCL",
-          "available": false,
+          "available": true,
           "price": 22352,
           "options": [
             "Gris Claro",
@@ -11965,7 +11965,7 @@
         },
         {
           "id": "HB-PLA-1KG-MARM",
-          "available": false,
+          "available": true,
           "price": 22352,
           "options": [
             "Marmol",
@@ -11977,7 +11977,7 @@
         },
         {
           "id": "HB-PLA-1KG-MARR",
-          "available": false,
+          "available": true,
           "price": 22352,
           "options": [
             "Marron",
@@ -12037,7 +12037,7 @@
         },
         {
           "id": "HB-PLA-1KG-PIMA",
-          "available": false,
+          "available": true,
           "price": 22352,
           "options": [
             "Piel",
@@ -12061,7 +12061,7 @@
         },
         {
           "id": "HB-PLA-1KG-ROSA",
-          "available": false,
+          "available": true,
           "price": 22352,
           "options": [
             "Rosa",
@@ -12157,7 +12157,7 @@
         },
         {
           "id": "HB-PLA-1KG-VERD",
-          "available": false,
+          "available": true,
           "price": 22352,
           "options": [
             "Verde",
@@ -12217,7 +12217,7 @@
         },
         {
           "id": "HB-PLA-1KG-KIPA",
-          "available": false,
+          "available": true,
           "price": 22352,
           "options": [
             "Kiwi Pastel",
@@ -12241,7 +12241,7 @@
         },
         {
           "id": "HB-PLA-1KG-VIOL",
-          "available": false,
+          "available": true,
           "price": 22352,
           "options": [
             "Violeta",
@@ -12575,13 +12575,13 @@
       "domain": "shop.wetech.ar",
       "name": "Hub Plastico | Bambu Lab | A1 / A1 Mini",
       "category": "Filamentos",
-      "price": 41998.96,
+      "price": 42547.96,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 35699.12,
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
+      "transferPrice": 36165.77,
+      "stock": 10,
+      "stockLabel": "En stock",
+      "available": true,
       "brand": null,
       "tags": [
         "Secadoras y Accesorios"
@@ -12592,8 +12592,8 @@
       "variants": [
         {
           "id": "HUB AMS LITE A1",
-          "available": false,
-          "price": 41998.96,
+          "available": true,
+          "price": 42547.96,
           "options": []
         }
       ]
@@ -12605,10 +12605,10 @@
       "domain": "shop.wetech.ar",
       "name": "Kit Cable VGA | Hellbot | Hidra | Placa Extension de Extrusor V2",
       "category": "Filamentos",
-      "price": 32542.79,
+      "price": 32968.19,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 27661.37,
+      "transferPrice": 28022.96,
       "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -12623,7 +12623,7 @@
         {
           "id": "KIT CABLE VGA HELLBO",
           "available": true,
-          "price": 32542.79,
+          "price": 32968.19,
           "options": []
         }
       ]
@@ -12635,10 +12635,10 @@
       "domain": "shop.wetech.ar",
       "name": "Kit Extrusor Doble | Creality | 2 boquillas MK8 de regalo",
       "category": "Repuestos",
-      "price": 15505.63,
+      "price": 15708.32,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 13179.79,
+      "transferPrice": 13352.07,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -12653,7 +12653,7 @@
         {
           "id": "OFERTA-EXTDOBLE",
           "available": false,
-          "price": 15505.63,
+          "price": 15708.32,
           "options": []
         }
       ]
@@ -12665,10 +12665,10 @@
       "domain": "shop.wetech.ar",
       "name": "Kit Extrusor Simple Metalico | Creality | Rojo",
       "category": "Repuestos",
-      "price": 25843.54,
+      "price": 26181.36,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 21967.01,
+      "transferPrice": 22254.16,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -12683,7 +12683,7 @@
         {
           "id": "EXTR MET SIM ROJO CR",
           "available": false,
-          "price": 25843.54,
+          "price": 26181.36,
           "options": []
         }
       ]
@@ -12695,10 +12695,10 @@
       "domain": "shop.wetech.ar",
       "name": "Kit Hotend | Bambu Lab | P1 Series / X1 Series",
       "category": "Repuestos",
-      "price": 50998.88,
+      "price": 51665.53,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 43349.05,
+      "transferPrice": 43915.7,
       "stock": 7,
       "stockLabel": "En stock",
       "available": true,
@@ -12713,7 +12713,7 @@
         {
           "id": "KIT HOTEND BAMBUP1",
           "available": true,
-          "price": 50998.88,
+          "price": 51665.53,
           "options": []
         }
       ]
@@ -12725,10 +12725,10 @@
       "domain": "shop.wetech.ar",
       "name": "Kit Hotend | Creality | 1 Bloque calefactor - 1 Barrel - 1 Aislante de silicona - 1 Disipador | Ender v3 Plus",
       "category": "Repuestos",
-      "price": 39282.75,
+      "price": 39796.25,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 33390.34,
+      "transferPrice": 33826.81,
       "stock": 8,
       "stockLabel": "En stock",
       "available": true,
@@ -12743,7 +12743,7 @@
         {
           "id": "KIT HOTEND E3V3+",
           "available": true,
-          "price": 39282.75,
+          "price": 39796.25,
           "options": []
         }
       ]
@@ -12755,10 +12755,10 @@
       "domain": "shop.wetech.ar",
       "name": "Kit Hotend | Creality | Bloque calefactor, Barrel, Termistor, Resistencia ceramica, Boquilla, Aislante de silicona, Microtornilleria x2 | Ender 3 v3 KE",
       "category": "Repuestos",
-      "price": 41998.96,
+      "price": 42547.96,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 35699.12,
+      "transferPrice": 36165.77,
       "stock": 5,
       "stockLabel": "En stock",
       "available": true,
@@ -12773,7 +12773,7 @@
         {
           "id": "KIT HOTEND E3V3KE",
           "available": true,
-          "price": 41998.96,
+          "price": 42547.96,
           "options": []
         }
       ]
@@ -12785,10 +12785,10 @@
       "domain": "shop.wetech.ar",
       "name": "Kit Hotend | Creality | Bloque calefactor, Barrel, Termistor, Resistencia, Boquilla, Aislante de silicona | Ender 3 v3 SE",
       "category": "Repuestos",
-      "price": 34991.1,
+      "price": 35448.5,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 29742.43,
+      "transferPrice": 30131.22,
       "stock": 11,
       "stockLabel": "En stock",
       "available": true,
@@ -12803,7 +12803,7 @@
         {
           "id": "KIT HOTEND E3V3SE",
           "available": true,
-          "price": 34991.1,
+          "price": 35448.5,
           "options": []
         }
       ]
@@ -12815,10 +12815,10 @@
       "domain": "shop.wetech.ar",
       "name": "Kit Hotend | Creality | Bloque calefactor, Barrel, Termistor, Resistencia, Boquilla, Aislante de silicona, Disipador, Teflon interno, Microtornilleria | Ender 3 V3 SE",
       "category": "Repuestos",
-      "price": 49495.5,
+      "price": 50142.5,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 42071.17,
+      "transferPrice": 42621.13,
       "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -12833,7 +12833,7 @@
         {
           "id": "KIT HOTEND E3V3SECOM",
           "available": true,
-          "price": 49495.5,
+          "price": 50142.5,
           "options": []
         }
       ]
@@ -12845,10 +12845,10 @@
       "domain": "shop.wetech.ar",
       "name": "Kit hotend | Creality | Serie Ender 5 MAX",
       "category": "Repuestos",
-      "price": 65659.95,
+      "price": 66518.25,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 55810.96,
+      "transferPrice": 56540.51,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -12863,7 +12863,7 @@
         {
           "id": "KIT HOTEND ENDER5MAX",
           "available": false,
-          "price": 65659.95,
+          "price": 66518.25,
           "options": []
         }
       ]
@@ -12875,10 +12875,10 @@
       "domain": "shop.wetech.ar",
       "name": "Kit Hotend | Hellbot | Hidra 220 / Hidra Plus | E2",
       "category": "Repuestos",
-      "price": 38248.93,
+      "price": 38748.92,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 32511.59,
+      "transferPrice": 32936.58,
       "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -12893,7 +12893,7 @@
         {
           "id": "KIT HOTEND HIDR E2",
           "available": true,
-          "price": 38248.93,
+          "price": 38748.92,
           "options": []
         }
       ]
@@ -12905,13 +12905,13 @@
       "domain": "shop.wetech.ar",
       "name": "Kit Hotend 0.2mm | Bambu Lab | A1 / A1 Mini",
       "category": "Repuestos",
-      "price": 55998.92,
+      "price": 56730.93,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 47599.08,
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
+      "transferPrice": 48221.29,
+      "stock": 14,
+      "stockLabel": "En stock",
+      "available": true,
       "brand": null,
       "tags": [
         "Bloques y Extrusión"
@@ -12922,8 +12922,8 @@
       "variants": [
         {
           "id": "KITHOTEND BAMBA1 0.2",
-          "available": false,
-          "price": 55998.92,
+          "available": true,
+          "price": 56730.93,
           "options": []
         }
       ]
@@ -12935,10 +12935,10 @@
       "domain": "shop.wetech.ar",
       "name": "Kit Hotend 0.4mm | Bambu Lab Original | A1 / A1 Mini",
       "category": "Repuestos",
-      "price": 55998.92,
+      "price": 56730.93,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 47599.08,
+      "transferPrice": 48221.29,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -12953,7 +12953,7 @@
         {
           "id": "KITHOTEND BAMBA1 0.4",
           "available": false,
-          "price": 55998.92,
+          "price": 56730.93,
           "options": []
         }
       ]
@@ -12965,10 +12965,10 @@
       "domain": "shop.wetech.ar",
       "name": "Kit Hotend Alto Flujo Recubrimiento TCN 0.4mm | Bambu Lab | P2S / H Series",
       "category": "Repuestos",
-      "price": 51363.17,
+      "price": 52034.59,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 43658.7,
+      "transferPrice": 44229.4,
       "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -12983,7 +12983,7 @@
         {
           "id": "KIT HOTEND BAMBU P2H",
           "available": true,
-          "price": 51363.17,
+          "price": 52034.59,
           "options": []
         }
       ]
@@ -12995,10 +12995,10 @@
       "domain": "shop.wetech.ar",
       "name": "Kit Hotend Boquilla | Acero Inoxidable 0.4mm | Bambu Lab Generico | A1 / A1 Mini",
       "category": "Repuestos",
-      "price": 31998.88,
+      "price": 32417.17,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 27199.05,
+      "transferPrice": 27554.59,
       "stock": 15,
       "stockLabel": "En stock",
       "available": true,
@@ -13013,7 +13013,7 @@
         {
           "id": "KITHOTEND BLA1 0.4",
           "available": true,
-          "price": 31998.88,
+          "price": 32417.17,
           "options": []
         }
       ]
@@ -13025,10 +13025,10 @@
       "domain": "shop.wetech.ar",
       "name": "Kit Hotend Boquilla 0.4mm | Snapmaker U1",
       "category": "Repuestos",
-      "price": 39994.2,
+      "price": 40517,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 33995.07,
+      "transferPrice": 34439.45,
       "stock": 6,
       "stockLabel": "En stock",
       "available": true,
@@ -13043,7 +13043,7 @@
         {
           "id": "KITHOTEND SNAP 0.4",
           "available": true,
-          "price": 39994.2,
+          "price": 40517,
           "options": []
         }
       ]
@@ -13055,10 +13055,10 @@
       "domain": "shop.wetech.ar",
       "name": "Kit Hotend Boquilla Intercambiable 0.2mm | Bambu Lab | A1 / A1 Mini",
       "category": "Repuestos",
-      "price": 41498.96,
+      "price": 42041.43,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 35274.11,
+      "transferPrice": 35735.21,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -13073,7 +13073,7 @@
         {
           "id": "KITHOTEND INBLA1 0.2",
           "available": false,
-          "price": 41498.96,
+          "price": 42041.43,
           "options": []
         }
       ]
@@ -13085,10 +13085,10 @@
       "domain": "shop.wetech.ar",
       "name": "Kit Hotend Boquilla Intercambiable 0.6mm | Bambu Lab | A1 / A1 Mini",
       "category": "Repuestos",
-      "price": 41498.96,
+      "price": 42041.43,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 35274.11,
+      "transferPrice": 35735.21,
       "stock": 15,
       "stockLabel": "En stock",
       "available": true,
@@ -13103,7 +13103,7 @@
         {
           "id": "KITHOTEND INBLA1 0.6",
           "available": true,
-          "price": 41498.96,
+          "price": 42041.43,
           "options": []
         }
       ]
@@ -13115,10 +13115,10 @@
       "domain": "shop.wetech.ar",
       "name": "Kit Hotend Boquilla Intercambiable Acero Endurecido 0.4mm | Bambu Lab | A1 / A1 Mini",
       "category": "Repuestos",
-      "price": 41498.96,
+      "price": 42041.43,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 35274.11,
+      "transferPrice": 35735.21,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -13133,7 +13133,7 @@
         {
           "id": "KITHOTEND INBLA1 0.4",
           "available": false,
-          "price": 41498.96,
+          "price": 42041.43,
           "options": []
         }
       ]
@@ -13145,10 +13145,10 @@
       "domain": "shop.wetech.ar",
       "name": "Kit Nivelacion PRO | Creality | Series Ender | 4 tuercas de acero + resortes reforzados",
       "category": "Repuestos",
-      "price": 48902.78,
+      "price": 49542.03,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 41567.36,
+      "transferPrice": 42110.73,
       "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -13163,7 +13163,7 @@
         {
           "id": "KIT NIVELACI PRO",
           "available": true,
-          "price": 48902.78,
+          "price": 49542.03,
           "options": []
         }
       ]
@@ -13175,10 +13175,10 @@
       "domain": "shop.wetech.ar",
       "name": "Micro Tornilleria | M2 x 10mm | Allen / Cabeza Cilindrica",
       "category": "Repuestos",
-      "price": 1346.55,
+      "price": 1364.15,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 1144.57,
+      "transferPrice": 1159.53,
       "stock": 27,
       "stockLabel": "En stock",
       "available": true,
@@ -13193,7 +13193,7 @@
         {
           "id": "MICRO TORN ALLEN CIL",
           "available": true,
-          "price": 1346.55,
+          "price": 1364.15,
           "options": []
         }
       ]
@@ -13205,10 +13205,10 @@
       "domain": "shop.wetech.ar",
       "name": "Micro Tornilleria | M3 x 10mm | Allen / Cabeza Boton",
       "category": "Repuestos",
-      "price": 1346.55,
+      "price": 1364.15,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 1144.57,
+      "transferPrice": 1159.53,
       "stock": 53,
       "stockLabel": "En stock",
       "available": true,
@@ -13223,7 +13223,7 @@
         {
           "id": "MICRO TORN ALLEN CAB",
           "available": true,
-          "price": 1346.55,
+          "price": 1364.15,
           "options": []
         }
       ]
@@ -13235,10 +13235,10 @@
       "domain": "shop.wetech.ar",
       "name": "Micro Tornilleria | M3 x 20mm | Allen / Cabeza Fresada",
       "category": "Repuestos",
-      "price": 1346.55,
+      "price": 1364.15,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 1144.57,
+      "transferPrice": 1159.53,
       "stock": 12,
       "stockLabel": "En stock",
       "available": true,
@@ -13253,7 +13253,7 @@
         {
           "id": "MICRO TORN ALLEN ",
           "available": true,
-          "price": 1346.55,
+          "price": 1364.15,
           "options": []
         }
       ]
@@ -13265,10 +13265,10 @@
       "domain": "shop.wetech.ar",
       "name": "Micro Tornilleria | M3 x 3mm | Prisionero",
       "category": "Repuestos",
-      "price": 1346.55,
+      "price": 1364.15,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 1144.57,
+      "transferPrice": 1159.53,
       "stock": 98,
       "stockLabel": "En stock",
       "available": true,
@@ -13283,7 +13283,7 @@
         {
           "id": "MICRO TORN PRISION",
           "available": true,
-          "price": 1346.55,
+          "price": 1364.15,
           "options": []
         }
       ]
@@ -13295,10 +13295,10 @@
       "domain": "shop.wetech.ar",
       "name": "Micro Tornilleria | M3 x 6mm | Allen / Cabeza Boton",
       "category": "Repuestos",
-      "price": 1346.55,
+      "price": 1364.15,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 1144.57,
+      "transferPrice": 1159.53,
       "stock": 31,
       "stockLabel": "En stock",
       "available": true,
@@ -13313,7 +13313,7 @@
         {
           "id": "MICRO TORN ALLEN BOT",
           "available": true,
-          "price": 1346.55,
+          "price": 1364.15,
           "options": []
         }
       ]
@@ -13325,10 +13325,10 @@
       "domain": "shop.wetech.ar",
       "name": "Micro Tornilleria | M4 x 4mm | Prisionero",
       "category": "Repuestos",
-      "price": 1346.55,
+      "price": 1364.15,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 1144.57,
+      "transferPrice": 1159.53,
       "stock": 73,
       "stockLabel": "En stock",
       "available": true,
@@ -13343,7 +13343,7 @@
         {
           "id": "MICRO TORN PRISIONER",
           "available": true,
-          "price": 1346.55,
+          "price": 1364.15,
           "options": []
         }
       ]
@@ -13355,11 +13355,11 @@
       "domain": "shop.wetech.ar",
       "name": "Par de tapas | Carrete para recarga | Hellbot | Recarga Lock",
       "category": "Repuestos",
-      "price": 3498.96,
+      "price": 3544.7,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 2974.11,
-      "stock": 10,
+      "transferPrice": 3012.99,
+      "stock": 9,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -13373,7 +13373,7 @@
         {
           "id": "HELLTAPITAS LOCK",
           "available": true,
-          "price": 3498.96,
+          "price": 3544.7,
           "options": []
         }
       ]
@@ -13385,10 +13385,10 @@
       "domain": "shop.wetech.ar",
       "name": "Pasta Termica | 0.5gr | Para disipar calor",
       "category": "Repuestos",
-      "price": 8269.19,
+      "price": 8377.28,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 7028.81,
+      "transferPrice": 7120.69,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -13403,7 +13403,7 @@
         {
           "id": "PASTA TERMICA",
           "available": false,
-          "price": 8269.19,
+          "price": 8377.28,
           "options": []
         }
       ]
@@ -13415,10 +13415,10 @@
       "domain": "shop.wetech.ar",
       "name": "Placa AC de la fuente | Bambu Lab | A1",
       "category": "Filamentos",
-      "price": 69998.88,
+      "price": 70913.9,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 59499.05,
+      "transferPrice": 60276.81,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -13433,7 +13433,7 @@
         {
           "id": "PLACA AC FUENTE BLA1",
           "available": false,
-          "price": 69998.88,
+          "price": 70913.9,
           "options": []
         }
       ]
@@ -13445,10 +13445,10 @@
       "domain": "shop.wetech.ar",
       "name": "Placa Eje X | Artillery | Genius Pro / SW X2",
       "category": "Filamentos",
-      "price": 26877.2,
+      "price": 27228.54,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 22845.62,
+      "transferPrice": 23144.26,
       "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -13463,7 +13463,7 @@
         {
           "id": "PLACA EJE X ARTILLER",
           "available": true,
-          "price": 26877.2,
+          "price": 27228.54,
           "options": []
         }
       ]
@@ -13475,10 +13475,10 @@
       "domain": "shop.wetech.ar",
       "name": "Placa Eje Z | Artillery | Genius Pro / SW X2",
       "category": "Filamentos",
-      "price": 23775.89,
+      "price": 24086.69,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 20209.51,
+      "transferPrice": 20473.69,
       "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -13493,7 +13493,7 @@
         {
           "id": "PLACA EJE Z ARTILLER",
           "available": true,
-          "price": 23775.89,
+          "price": 24086.69,
           "options": []
         }
       ]
@@ -13505,10 +13505,10 @@
       "domain": "shop.wetech.ar",
       "name": "Placa Extension | Creality | Ender 3 v3 / v3 Plus",
       "category": "Filamentos",
-      "price": 46519.19,
+      "price": 47127.28,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 39541.31,
+      "transferPrice": 40058.19,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -13523,7 +13523,7 @@
         {
           "id": "CABLE CABEZAL",
           "available": false,
-          "price": 46519.19,
+          "price": 47127.28,
           "options": []
         }
       ]
@@ -13535,10 +13535,10 @@
       "domain": "shop.wetech.ar",
       "name": "Placa Extension | Creality | Ender 3 v3 / v3 Plus",
       "category": "Filamentos",
-      "price": 46519.19,
+      "price": 47127.28,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 39541.31,
+      "transferPrice": 40058.19,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -13553,7 +13553,7 @@
         {
           "id": "PLACA EXTEN EXT V3+",
           "available": false,
-          "price": 46519.19,
+          "price": 47127.28,
           "options": []
         }
       ]
@@ -13565,10 +13565,10 @@
       "domain": "shop.wetech.ar",
       "name": "Placa Madre | Creality | 1.0.6 | 32bits | Ender 3 v3 SE",
       "category": "Filamentos",
-      "price": 151913.7,
+      "price": 153899.5,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 129126.65,
+      "transferPrice": 130814.57,
       "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -13583,7 +13583,7 @@
         {
           "id": "MOTHER PLACA E3V3SE",
           "available": true,
-          "price": 151913.7,
+          "price": 153899.5,
           "options": []
         }
       ]
@@ -13595,10 +13595,10 @@
       "domain": "shop.wetech.ar",
       "name": "Placa Madre | Creality | 4.2.2 | Ender 3 Pro | Sin drivers silenciosos",
       "category": "Filamentos",
-      "price": 103377.2,
+      "price": 104728.54,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 87870.62,
+      "transferPrice": 89019.26,
       "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -13613,7 +13613,7 @@
         {
           "id": "MOTHER PLACA M 4.2.2",
           "available": true,
-          "price": 103377.2,
+          "price": 104728.54,
           "options": []
         }
       ]
@@ -13685,10 +13685,10 @@
       "domain": "shop.wetech.ar",
       "name": "Placa PCB | Creality | Ender 3 v3 Ke",
       "category": "Filamentos",
-      "price": 66161.02,
+      "price": 67025.88,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 56236.87,
+      "transferPrice": 56971.99,
       "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -13703,7 +13703,7 @@
         {
           "id": "PLACA PCB E3V3KE",
           "available": true,
-          "price": 66161.02,
+          "price": 67025.88,
           "options": []
         }
       ]
@@ -13715,10 +13715,10 @@
       "domain": "shop.wetech.ar",
       "name": "Placa TH del cabezal | Bambu Lab | A1",
       "category": "Filamentos",
-      "price": 82701.55,
+      "price": 83782.62,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 70296.32,
+      "transferPrice": 71215.22,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -13733,7 +13733,7 @@
         {
           "id": "PLACA TH CAB BLA1",
           "available": false,
-          "price": 82701.55,
+          "price": 83782.62,
           "options": []
         }
       ]
@@ -13745,10 +13745,10 @@
       "domain": "shop.wetech.ar",
       "name": "Polea dentada (hobbed) | Geeetech | MK8 | 16 dientes",
       "category": "Repuestos",
-      "price": 5385.6,
+      "price": 5456,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 4577.76,
+      "transferPrice": 4637.6,
       "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -13763,7 +13763,7 @@
         {
           "id": "POLEA HOBBED 16 DIEN",
           "available": true,
-          "price": 5385.6,
+          "price": 5456,
           "options": []
         }
       ]
@@ -13775,10 +13775,10 @@
       "domain": "shop.wetech.ar",
       "name": "Racor Kit | M6 + M10 + 2 clamp",
       "category": "Repuestos",
-      "price": 10336.68,
+      "price": 10471.8,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 8786.18,
+      "transferPrice": 8901.03,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -13793,7 +13793,7 @@
         {
           "id": "RACOR KIT M6YM10",
           "available": false,
-          "price": 10336.68,
+          "price": 10471.8,
           "options": []
         }
       ]
@@ -13805,10 +13805,10 @@
       "domain": "shop.wetech.ar",
       "name": "Racor M10 | Creality | PC4 | No pasante | Teflon | Extrusor Doble",
       "category": "Filamentos",
-      "price": 7235.37,
+      "price": 7329.95,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 6150.06,
+      "transferPrice": 6230.46,
       "stock": 38,
       "stockLabel": "En stock",
       "available": true,
@@ -13823,7 +13823,7 @@
         {
           "id": "RACOR M10 PC4 NO PAS",
           "available": true,
-          "price": 7235.37,
+          "price": 7329.95,
           "options": []
         }
       ]
@@ -13835,10 +13835,10 @@
       "domain": "shop.wetech.ar",
       "name": "Racor M10 | Creality | PC4 | Pasante | Acero Inoxidable",
       "category": "Filamentos",
-      "price": 5998.98,
+      "price": 6077.4,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 5099.13,
+      "transferPrice": 5165.79,
       "stock": 4,
       "stockLabel": "En stock",
       "available": true,
@@ -13853,7 +13853,7 @@
         {
           "id": "RACOR M10 PC4 PASANT",
           "available": true,
-          "price": 5998.98,
+          "price": 6077.4,
           "options": []
         }
       ]
@@ -13865,10 +13865,10 @@
       "domain": "shop.wetech.ar",
       "name": "Racor M6 | Creality | Series Ender / Magna",
       "category": "Repuestos",
-      "price": 6373.67,
+      "price": 6456.99,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 5417.62,
+      "transferPrice": 5488.44,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -13883,7 +13883,7 @@
         {
           "id": "RACOR M6 ENDER",
           "available": false,
-          "price": 6373.67,
+          "price": 6456.99,
           "options": []
         }
       ]
@@ -13895,10 +13895,10 @@
       "domain": "shop.wetech.ar",
       "name": "Racor M6 | Hellbot | PC4 | Series Ender / Magna | Acero Inoxidable",
       "category": "Repuestos",
-      "price": 7498.99,
+      "price": 7597.02,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 6374.14,
+      "transferPrice": 6457.46,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -13913,7 +13913,7 @@
         {
           "id": "RACOR M6 PC4 HELLBO",
           "available": false,
-          "price": 7498.99,
+          "price": 7597.02,
           "options": []
         }
       ]
@@ -13925,10 +13925,10 @@
       "domain": "shop.wetech.ar",
       "name": "Racor Plastico y Seguro | Creality | Series CR10 Smart / Ender Neo / CR6 SE",
       "category": "Filamentos",
-      "price": 10336.68,
+      "price": 10471.8,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 8786.18,
+      "transferPrice": 8901.03,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -13943,7 +13943,7 @@
         {
           "id": "RACOR PLAST SERIE CR",
           "available": false,
-          "price": 10336.68,
+          "price": 10471.8,
           "options": []
         }
       ]
@@ -13985,10 +13985,10 @@
       "domain": "shop.wetech.ar",
       "name": "Resistencia Calefactora | Creality | 1,20m | 24V | 40W | Series Ender",
       "category": "Repuestos",
-      "price": 15505.63,
+      "price": 15708.32,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 13179.79,
+      "transferPrice": 13352.07,
       "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -14003,7 +14003,7 @@
         {
           "id": "RESIST CALEF ENDER",
           "available": true,
-          "price": 15505.63,
+          "price": 15708.32,
           "options": []
         }
       ]
@@ -14015,10 +14015,10 @@
       "domain": "shop.wetech.ar",
       "name": "Resistencia Calefactora | Creality | 1m | 24V | 40W",
       "category": "Repuestos",
-      "price": 23045.01,
+      "price": 23346.25,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 19588.26,
+      "transferPrice": 19844.32,
       "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -14033,7 +14033,7 @@
         {
           "id": "RESIST CALEF CREALIT",
           "available": true,
-          "price": 23045.01,
+          "price": 23346.25,
           "options": []
         }
       ]
@@ -14045,10 +14045,10 @@
       "domain": "shop.wetech.ar",
       "name": "Resistencia Calefactora | Creality | 24V | 40W | CR10S PRO V2 | Con conector",
       "category": "Repuestos",
-      "price": 16539.45,
+      "price": 16755.65,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 14058.54,
+      "transferPrice": 14242.31,
       "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -14063,7 +14063,7 @@
         {
           "id": "RESIST CALEF CR10SPR",
           "available": true,
-          "price": 16539.45,
+          "price": 16755.65,
           "options": []
         }
       ]
@@ -14075,10 +14075,10 @@
       "domain": "shop.wetech.ar",
       "name": "Resistencia Calefactora | Creality | 24V | 40W | Ender 3 V3 SE",
       "category": "Repuestos",
-      "price": 14121.9,
+      "price": 14306.5,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 12003.62,
+      "transferPrice": 12160.52,
       "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -14093,7 +14093,7 @@
         {
           "id": "RESIST CALEF E3V3 SE",
           "available": true,
-          "price": 14121.9,
+          "price": 14306.5,
           "options": []
         }
       ]
@@ -14105,10 +14105,10 @@
       "domain": "shop.wetech.ar",
       "name": "Resistencia Calefactora | Creality | 24V | 40W | Series Ender 3 S1",
       "category": "Repuestos",
-      "price": 15771.24,
+      "price": 15977.4,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 13405.55,
+      "transferPrice": 13580.79,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -14123,7 +14123,7 @@
         {
           "id": "RESIST CALEF E3S1",
           "available": false,
-          "price": 15771.24,
+          "price": 15977.4,
           "options": []
         }
       ]
@@ -14135,11 +14135,11 @@
       "domain": "shop.wetech.ar",
       "name": "Resistencia Calefactora | Creality | 7cm | 24V | 40W | Ender 3 S1 Pro / CR-10 Smart Pro",
       "category": "Repuestos",
-      "price": 15505.63,
+      "price": 15708.32,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 13179.79,
-      "stock": 10,
+      "transferPrice": 13352.07,
+      "stock": 9,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -14153,7 +14153,7 @@
         {
           "id": "RESIST CALEF E3S1 PR",
           "available": true,
-          "price": 15505.63,
+          "price": 15708.32,
           "options": []
         }
       ]
@@ -14165,10 +14165,10 @@
       "domain": "shop.wetech.ar",
       "name": "Resistencia Calefactora | Creality | 8cm | 24V | 40W | Series CR-6 SE / Series CR-6 Max",
       "category": "Repuestos",
-      "price": 16539.45,
+      "price": 16755.65,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 14058.54,
+      "transferPrice": 14242.31,
       "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -14183,7 +14183,7 @@
         {
           "id": "RESIST CALEF CR6",
           "available": true,
-          "price": 16539.45,
+          "price": 16755.65,
           "options": []
         }
       ]
@@ -14195,10 +14195,10 @@
       "domain": "shop.wetech.ar",
       "name": "Resistencia Calefactora | Hellbot | 10cm | 24V | 40W | Magna 2",
       "category": "Repuestos",
-      "price": 33682.49,
+      "price": 34122.79,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 28630.12,
+      "transferPrice": 29004.37,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -14213,7 +14213,7 @@
         {
           "id": "RESIST CALEF MAGNA2",
           "available": false,
-          "price": 33682.49,
+          "price": 34122.79,
           "options": []
         }
       ]
@@ -14225,10 +14225,10 @@
       "domain": "shop.wetech.ar",
       "name": "Resistencia Calefactora | Hellbot | 10cm | 24V | 40W | Magna Dual",
       "category": "Repuestos",
-      "price": 13971.2,
+      "price": 14153.83,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 11875.52,
+      "transferPrice": 12030.75,
       "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -14243,7 +14243,7 @@
         {
           "id": "RESIST CALEF MAGDUAL",
           "available": true,
-          "price": 13971.2,
+          "price": 14153.83,
           "options": []
         }
       ]
@@ -14255,10 +14255,10 @@
       "domain": "shop.wetech.ar",
       "name": "Resistencia Calefactora | Hellbot | 24V | 40W | Hidra",
       "category": "Repuestos",
-      "price": 9303.01,
+      "price": 9424.62,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 7907.56,
+      "transferPrice": 8010.93,
       "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -14273,7 +14273,7 @@
         {
           "id": "RESIST CALEF HIDRA",
           "available": true,
-          "price": 9303.01,
+          "price": 9424.62,
           "options": []
         }
       ]
@@ -14285,10 +14285,10 @@
       "domain": "shop.wetech.ar",
       "name": "Resistencia Ceramica | Bambu Lab | X1C",
       "category": "Repuestos",
-      "price": 15505.63,
+      "price": 15708.32,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 13179.79,
+      "transferPrice": 13352.07,
       "stock": 3,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -14303,7 +14303,7 @@
         {
           "id": "RESISTENCIA X1C",
           "available": true,
-          "price": 15505.63,
+          "price": 15708.32,
           "options": []
         }
       ]
@@ -14315,10 +14315,10 @@
       "domain": "shop.wetech.ar",
       "name": "Resistencia Ceramica | Creality | 7cm | K1 / KE",
       "category": "Repuestos",
-      "price": 16498.91,
+      "price": 16714.58,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 14024.07,
+      "transferPrice": 14207.39,
       "stock": 14,
       "stockLabel": "En stock",
       "available": true,
@@ -14333,7 +14333,7 @@
         {
           "id": "RESIST CERAMICA K1",
           "available": true,
-          "price": 16498.91,
+          "price": 16714.58,
           "options": []
         }
       ]
@@ -14345,10 +14345,10 @@
       "domain": "shop.wetech.ar",
       "name": "Resistencia Ceramica | Creality | Ender 3 V3 Plus",
       "category": "Repuestos",
-      "price": 21708.4,
+      "price": 21992.17,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 18452.14,
+      "transferPrice": 18693.35,
       "stock": 4,
       "stockLabel": "En stock",
       "available": true,
@@ -14363,7 +14363,7 @@
         {
           "id": "RESIST CERAMICA 3V3¡",
           "available": true,
-          "price": 21708.4,
+          "price": 21992.17,
           "options": []
         }
       ]
@@ -14375,10 +14375,10 @@
       "domain": "shop.wetech.ar",
       "name": "Resistencia Ceramica | Creality | Hi",
       "category": "Repuestos",
-      "price": 23259.06,
+      "price": 23563.1,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 19770.2,
+      "transferPrice": 20028.63,
       "stock": 4,
       "stockLabel": "En stock",
       "available": true,
@@ -14393,7 +14393,7 @@
         {
           "id": "RESISTENCIA CE CR HI",
           "available": true,
-          "price": 23259.06,
+          "price": 23563.1,
           "options": []
         }
       ]
@@ -14405,10 +14405,10 @@
       "domain": "shop.wetech.ar",
       "name": "Resorte Reforzado | Creality | 25x8mm | Cama 220x220mm",
       "category": "Repuestos",
-      "price": 3617.07,
+      "price": 3664.36,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 3074.51,
+      "transferPrice": 3114.7,
       "stock": 3,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -14423,7 +14423,7 @@
         {
           "id": "RESORTE 1 REF 25X8MM",
           "available": true,
-          "price": 3617.07,
+          "price": 3664.36,
           "options": []
         }
       ]
@@ -14435,10 +14435,10 @@
       "domain": "shop.wetech.ar",
       "name": "Resortes de Acero | Creality | 20x8mm | Serie Ender",
       "category": "Repuestos",
-      "price": 10336.68,
+      "price": 10471.8,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 8786.18,
+      "transferPrice": 8901.03,
       "stock": 3,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -14453,7 +14453,7 @@
         {
           "id": "RESORTES ACERO",
           "available": true,
-          "price": 10336.68,
+          "price": 10471.8,
           "options": []
         }
       ]
@@ -14465,10 +14465,10 @@
       "domain": "shop.wetech.ar",
       "name": "Seguro Racor Extrusor | Hellbot / Creality | Naranja / Azul | Magna 2 / Series Ender",
       "category": "Repuestos",
-      "price": 2583.4,
+      "price": 2617.17,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 2195.89,
+      "transferPrice": 2224.6,
       "stock": 60,
       "stockLabel": "En stock",
       "available": true,
@@ -14483,7 +14483,7 @@
         {
           "id": "SEGUR RACOR EXTR",
           "available": true,
-          "price": 2583.4,
+          "price": 2617.17,
           "options": []
         }
       ]
@@ -14495,10 +14495,10 @@
       "domain": "shop.wetech.ar",
       "name": "Sensor Filamento | Bambu Lab | A1",
       "category": "Filamentos",
-      "price": 31012.34,
+      "price": 31417.73,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 26360.48,
+      "transferPrice": 26705.07,
       "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -14513,7 +14513,7 @@
         {
           "id": "SENSOR FILA BAMBU",
           "available": true,
-          "price": 31012.34,
+          "price": 31417.73,
           "options": []
         }
       ]
@@ -14525,10 +14525,10 @@
       "domain": "shop.wetech.ar",
       "name": "Sensor Filamento | Creality | Ender-3 MAX",
       "category": "Filamentos",
-      "price": 20674.58,
+      "price": 20944.84,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 17573.4,
+      "transferPrice": 17803.11,
       "stock": 3,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -14543,7 +14543,7 @@
         {
           "id": "SENSOR FILA ENDER3 M",
           "available": true,
-          "price": 20674.58,
+          "price": 20944.84,
           "options": []
         }
       ]
@@ -14555,10 +14555,10 @@
       "domain": "shop.wetech.ar",
       "name": "Sensor Filamento | Creality | Hi Combo / K2 Plus",
       "category": "Filamentos",
-      "price": 19123.78,
+      "price": 19373.76,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 16255.21,
+      "transferPrice": 16467.7,
       "stock": 4,
       "stockLabel": "En stock",
       "available": true,
@@ -14573,7 +14573,7 @@
         {
           "id": "SENSOR FILA HI",
           "available": true,
-          "price": 19123.78,
+          "price": 19373.76,
           "options": []
         }
       ]
@@ -14585,10 +14585,10 @@
       "domain": "shop.wetech.ar",
       "name": "Sensor Filamento | Hellbot | Hidra / Hidra Plus | Sensor + Cable 17cm",
       "category": "Filamentos",
-      "price": 20674.58,
+      "price": 20944.84,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 17573.4,
+      "transferPrice": 17803.11,
       "stock": 4,
       "stockLabel": "En stock",
       "available": true,
@@ -14603,7 +14603,7 @@
         {
           "id": "SENSOR FILA HIDRA",
           "available": true,
-          "price": 20674.58,
+          "price": 20944.84,
           "options": []
         }
       ]
@@ -14615,10 +14615,10 @@
       "domain": "shop.wetech.ar",
       "name": "Sensor Filamento | Hellbot | Magna 2 Izquierdo | Con rotula",
       "category": "Filamentos",
-      "price": 17343.31,
+      "price": 17570.02,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 14741.82,
+      "transferPrice": 14934.52,
       "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -14633,7 +14633,7 @@
         {
           "id": "SENSOR FILA HELL 2",
           "available": true,
-          "price": 17343.31,
+          "price": 17570.02,
           "options": []
         }
       ]
@@ -14645,10 +14645,10 @@
       "domain": "shop.wetech.ar",
       "name": "Sticker Cama Caliente | Creality | 310x320mm",
       "category": "Repuestos",
-      "price": 40261.64,
+      "price": 40787.94,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 34222.4,
+      "transferPrice": 34669.75,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -14663,7 +14663,7 @@
         {
           "id": "STICKER CREALITY",
           "available": false,
-          "price": 40261.64,
+          "price": 40787.94,
           "options": []
         }
       ]
@@ -14675,10 +14675,10 @@
       "domain": "shop.wetech.ar",
       "name": "Sticker Flexible Cama Caliente + Base Inmantada | Creality | 310x320mm",
       "category": "Repuestos",
-      "price": 134390.76,
+      "price": 136147.51,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 114232.15,
+      "transferPrice": 115725.38,
       "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -14693,7 +14693,7 @@
         {
           "id": "STICKERCAMA FLEX CRE",
           "available": true,
-          "price": 134390.76,
+          "price": 136147.51,
           "options": []
         }
       ]
@@ -14705,10 +14705,10 @@
       "domain": "shop.wetech.ar",
       "name": "Sticker Magnetico + Base Imantada | Creality | 235x235mm",
       "category": "Repuestos",
-      "price": 46991.65,
+      "price": 47605.93,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 39942.91,
+      "transferPrice": 40465.04,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -14723,7 +14723,7 @@
         {
           "id": "STICKERCAMA MAGENTI",
           "available": false,
-          "price": 46991.65,
+          "price": 47605.93,
           "options": []
         }
       ]
@@ -14735,10 +14735,10 @@
       "domain": "shop.wetech.ar",
       "name": "Termistor | Bambu Lab | X1C",
       "category": "Repuestos",
-      "price": 15505.63,
+      "price": 15708.32,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 13179.79,
+      "transferPrice": 13352.07,
       "stock": 3,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -14753,7 +14753,7 @@
         {
           "id": "TERMISTOR X1C",
           "available": true,
-          "price": 15505.63,
+          "price": 15708.32,
           "options": []
         }
       ]
@@ -14765,10 +14765,10 @@
       "domain": "shop.wetech.ar",
       "name": "Termistor | Creality | Hi",
       "category": "Repuestos",
-      "price": 19640.76,
+      "price": 19897.51,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 16694.65,
+      "transferPrice": 16912.88,
       "stock": 5,
       "stockLabel": "En stock",
       "available": true,
@@ -14783,7 +14783,7 @@
         {
           "id": "TERMISTOR CR HI",
           "available": true,
-          "price": 19640.76,
+          "price": 19897.51,
           "options": []
         }
       ]
@@ -14795,10 +14795,10 @@
       "domain": "shop.wetech.ar",
       "name": "Termistor Cama Caliente | Creality | 100k | 70cm | Series Ender",
       "category": "Repuestos",
-      "price": 10336.68,
+      "price": 10471.8,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 8786.18,
+      "transferPrice": 8901.03,
       "stock": 4,
       "stockLabel": "En stock",
       "available": true,
@@ -14813,7 +14813,7 @@
         {
           "id": "TERMIS CAMA CA CREAL",
           "available": true,
-          "price": 10336.68,
+          "price": 10471.8,
           "options": []
         }
       ]
@@ -14825,10 +14825,10 @@
       "domain": "shop.wetech.ar",
       "name": "Termistor Hotend | Creality | 100k | 13cm | Ender 3 v3 Plus",
       "category": "Repuestos",
-      "price": 16539.45,
+      "price": 16755.65,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 14058.54,
+      "transferPrice": 14242.31,
       "stock": 11,
       "stockLabel": "En stock",
       "available": true,
@@ -14843,7 +14843,7 @@
         {
           "id": "TERMISTOR E3V3 PLUS",
           "available": true,
-          "price": 16539.45,
+          "price": 16755.65,
           "options": []
         }
       ]
@@ -14855,11 +14855,11 @@
       "domain": "shop.wetech.ar",
       "name": "Termistor Hotend | Creality | 100k | 1m | Series Ender",
       "category": "Repuestos",
-      "price": 10336.68,
+      "price": 10471.8,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 8786.18,
-      "stock": 5,
+      "transferPrice": 8901.03,
+      "stock": 4,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -14873,7 +14873,7 @@
         {
           "id": "TERMIS HOTEND CREALI",
           "available": true,
-          "price": 10336.68,
+          "price": 10471.8,
           "options": []
         }
       ]
@@ -14885,11 +14885,11 @@
       "domain": "shop.wetech.ar",
       "name": "Termistor Hotend | Creality | 100K | 4cm | Ender 3 S1 Pro / CR-10 Smart Pro",
       "category": "Repuestos",
-      "price": 11911.05,
+      "price": 12066.75,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 10124.39,
-      "stock": 11,
+      "transferPrice": 10256.74,
+      "stock": 10,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -14903,7 +14903,7 @@
         {
           "id": "TERMIS HOTEN E3S1 PR",
           "available": true,
-          "price": 11911.05,
+          "price": 12066.75,
           "options": []
         }
       ]
@@ -14915,10 +14915,10 @@
       "domain": "shop.wetech.ar",
       "name": "Termistor Hotend | Creality | 100k | 7cm | K1 / KE / Ender 3 v3 SE",
       "category": "Repuestos",
-      "price": 13438.14,
+      "price": 13613.8,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 11422.42,
+      "transferPrice": 11571.73,
       "stock": 24,
       "stockLabel": "En stock",
       "available": true,
@@ -14933,7 +14933,7 @@
         {
           "id": "TERMISTOR K1 KE",
           "available": true,
-          "price": 13438.14,
+          "price": 13613.8,
           "options": []
         }
       ]
@@ -14945,10 +14945,10 @@
       "domain": "shop.wetech.ar",
       "name": "Termistor Hotend | Creality | 100k | 8cm | Ender 3 v3 SE",
       "category": "Repuestos",
-      "price": 11801.65,
+      "price": 11955.92,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 10031.41,
+      "transferPrice": 10162.54,
       "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -14963,7 +14963,7 @@
         {
           "id": "TERMISTOR E3V3 SE",
           "available": true,
-          "price": 11801.65,
+          "price": 11955.92,
           "options": []
         }
       ]
@@ -14975,10 +14975,10 @@
       "domain": "shop.wetech.ar",
       "name": "Termistor Hotend | Creality | 100K | CR6 Se",
       "category": "Repuestos",
-      "price": 15195.5,
+      "price": 15394.13,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 12916.18,
+      "transferPrice": 13085.01,
       "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -14993,7 +14993,7 @@
         {
           "id": "TERMIS HOTEN CR6 SE",
           "available": true,
-          "price": 15195.5,
+          "price": 15394.13,
           "options": []
         }
       ]
@@ -15005,10 +15005,10 @@
       "domain": "shop.wetech.ar",
       "name": "Termistor y Resistencia Hotend | Bambu Lab | A1 / A1 Mini",
       "category": "Repuestos",
-      "price": 25843.54,
+      "price": 26181.36,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 21967.01,
+      "transferPrice": 22254.16,
       "stock": 9,
       "stockLabel": "En stock",
       "available": true,
@@ -15023,7 +15023,7 @@
         {
           "id": "TERMIS Y RESIS BLA1M",
           "available": true,
-          "price": 25843.54,
+          "price": 26181.36,
           "options": []
         }
       ]
@@ -15035,10 +15035,10 @@
       "domain": "shop.wetech.ar",
       "name": "Tobera Fan Capa | Hellbot | Con aislante | Magna 2",
       "category": "Repuestos",
-      "price": 43788.6,
+      "price": 44361,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 37220.31,
+      "transferPrice": 37706.85,
       "stock": 3,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -15053,7 +15053,7 @@
         {
           "id": "TOBERA FANC MAGN2",
           "available": true,
-          "price": 43788.6,
+          "price": 44361,
           "options": []
         }
       ]
@@ -15065,10 +15065,10 @@
       "domain": "shop.wetech.ar",
       "name": "Tobera Fan Capa Guia Plastica Turbo | Creality | CR-10 Smart",
       "category": "Filamentos",
-      "price": 24463.93,
+      "price": 24783.72,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 20794.34,
+      "transferPrice": 21066.17,
       "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -15083,7 +15083,7 @@
         {
           "id": "TOBERA CR10SMART",
           "available": true,
-          "price": 24463.93,
+          "price": 24783.72,
           "options": []
         }
       ]
@@ -15095,10 +15095,10 @@
       "domain": "shop.wetech.ar",
       "name": "Tobera Fan Capa Guia Plastica Turbo | Creality | Serie Ender 3 S1",
       "category": "Filamentos",
-      "price": 24463.93,
+      "price": 24783.72,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 20794.34,
+      "transferPrice": 21066.17,
       "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -15113,7 +15113,7 @@
         {
           "id": "TOBERA ENDER3 S1",
           "available": true,
-          "price": 24463.93,
+          "price": 24783.72,
           "options": []
         }
       ]
@@ -15125,11 +15125,11 @@
       "domain": "shop.wetech.ar",
       "name": "Tubo Teflon Capricorn | Creality | 1m | DI 1.9mm | DE 4mm",
       "category": "Repuestos",
-      "price": 24998.98,
+      "price": 25325.76,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 21249.13,
-      "stock": 21,
+      "transferPrice": 21526.9,
+      "stock": 20,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -15143,7 +15143,7 @@
         {
           "id": "TEFLON CAPRICORN",
           "available": true,
-          "price": 24998.98,
+          "price": 25325.76,
           "options": []
         }
       ]
@@ -15155,10 +15155,10 @@
       "domain": "shop.wetech.ar",
       "name": "Tubo Teflon Plastico | Creality | Blanco | 1m",
       "category": "Filamentos",
-      "price": 21708.4,
+      "price": 21992.17,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 18452.14,
+      "transferPrice": 18693.35,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -15173,7 +15173,7 @@
         {
           "id": "TEFLON BLANCO",
           "available": false,
-          "price": 21708.4,
+          "price": 21992.17,
           "options": []
         }
       ]
@@ -15185,11 +15185,11 @@
       "domain": "shop.wetech.ar",
       "name": "Tubo Teflon Plastico | Generico | Blanco | 50cm",
       "category": "Filamentos",
-      "price": 11498.87,
+      "price": 11649.18,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 9774.04,
-      "stock": 3,
+      "transferPrice": 9901.8,
+      "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": null,
@@ -15203,7 +15203,7 @@
         {
           "id": "TEFLON BLANCO 50CM",
           "available": true,
-          "price": 11498.87,
+          "price": 11649.18,
           "options": []
         }
       ]
@@ -15215,10 +15215,10 @@
       "domain": "shop.wetech.ar",
       "name": "Tubo Teflon tipo Capricorn | 50cm | DI 2mm | DE 4mm",
       "category": "Repuestos",
-      "price": 12404.32,
+      "price": 12566.47,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 10543.67,
+      "transferPrice": 10681.5,
       "stock": 5,
       "stockLabel": "En stock",
       "available": true,
@@ -15233,7 +15233,7 @@
         {
           "id": "TEFLON TIPO CAPRI",
           "available": true,
-          "price": 12404.32,
+          "price": 12566.47,
           "options": []
         }
       ]
@@ -15245,10 +15245,10 @@
       "domain": "shop.wetech.ar",
       "name": "Vidrio Carbonado | Creality | 320x310mm",
       "category": "Repuestos",
-      "price": 79686.23,
+      "price": 80727.88,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 67733.29,
+      "transferPrice": 68618.69,
       "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -15263,7 +15263,7 @@
         {
           "id": "VIDRIO CARBONADO",
           "available": true,
-          "price": 79686.23,
+          "price": 80727.88,
           "options": []
         }
       ]

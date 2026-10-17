@@ -4,7 +4,7 @@
     "domain": "tecknicam3d.com.ar",
     "baseUrl": "https://www.tecknicam3d.com.ar"
   },
-  "scrapedAt": "2026-10-16T13:07:16.865Z",
+  "scrapedAt": "2026-10-17T12:03:43.348Z",
   "count": 217,
   "pages": [
     {
@@ -1015,33 +1015,6 @@
       "variants": []
     },
     {
-      "id": "tecknicam3d-3973",
-      "sourceProductId": "3973",
-      "store": "Tecknicam 3D",
-      "domain": "tecknicam3d.com.ar",
-      "name": "ROSA galactico PLA FilAr ESTANDAR Filamento 1.75 1KG",
-      "category": "Filamentos",
-      "price": 19760,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 18772,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 2,
-      "stockLabel": "Pocas unidades",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/rosa-galactico-1791818116-53add23a.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/rosa-galactico-pla-filar-estandar-filamento-1-75-1kg",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock",
-      "variants": []
-    },
-    {
       "id": "tecknicam3d-3972",
       "sourceProductId": "3972",
       "store": "Tecknicam 3D",
@@ -1109,7 +1082,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 41,
+      "stock": 35,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -1244,7 +1217,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 46,
+      "stock": 42,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -1337,7 +1310,7 @@
       ],
       "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/latte-1790628927-b8a9db62.webp",
       "url": "https://www.tecknicam3d.com.ar/productos/latte-filamento-pla-high-speed-x1kg-toolbox-new",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock&page=2",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock",
       "variants": []
     },
     {
@@ -1610,7 +1583,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 11,
+      "stock": 8,
       "stockLabel": "En stock",
       "available": true,
       "brand": "W3D",
@@ -1721,8 +1694,8 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 4,
-      "stockLabel": "En stock",
+      "stock": 3,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": null,
       "tags": [
@@ -1758,6 +1731,33 @@
       ],
       "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/yellow-1-1787752593-f151c27a.webp",
       "url": "https://www.tecknicam3d.com.ar/productos/amarillo-yellow-filamento-pla-high-speed-x1kg-toolbox-new",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock&page=2",
+      "variants": []
+    },
+    {
+      "id": "tecknicam3d-3700",
+      "sourceProductId": "3700",
+      "store": "Tecknicam 3D",
+      "domain": "tecknicam3d.com.ar",
+      "name": "GRIS grey Filamento PLA High Speed x1kg TOOLBOX NEW",
+      "category": "Filamentos",
+      "price": 18990,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 15761.7,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 5,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/grey-1-1787751491-0f7b1923.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/gris-grey-filamento-pla-high-speed-x1kg-toolbox-new",
       "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock&page=2",
       "variants": []
     },
@@ -2528,8 +2528,8 @@
       "variants": []
     },
     {
-      "id": "tecknicam3d-3746",
-      "sourceProductId": "3746",
+      "id": "tecknicam3d-30w-fibra-grabadora-laser-gac",
+      "sourceProductId": "30w-fibra-grabadora-laser-gac",
       "store": "Tecknicam 3D",
       "domain": "tecknicam3d.com.ar",
       "name": "30W FIBRA Grabadora Laser Gac",
@@ -2538,12 +2538,10 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
-      "available": true,
+      "purchaseModes": [],
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": null,
       "tags": [
         "Laser"
@@ -2554,8 +2552,8 @@
       "variants": []
     },
     {
-      "id": "tecknicam3d-3745",
-      "sourceProductId": "3745",
+      "id": "tecknicam3d-50w-fibra-grabadora-laser-gac",
+      "sourceProductId": "50w-fibra-grabadora-laser-gac",
       "store": "Tecknicam 3D",
       "domain": "tecknicam3d.com.ar",
       "name": "50W FIBRA Grabadora Laser Gac",
@@ -2564,12 +2562,10 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
-      "available": true,
+      "purchaseModes": [],
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": null,
       "tags": [
         "Laser"
@@ -2736,13 +2732,13 @@
       "variants": []
     },
     {
-      "id": "tecknicam3d-1413",
-      "sourceProductId": "1413",
+      "id": "tecknicam3d-1412",
+      "sourceProductId": "1412",
       "store": "Tecknicam 3D",
       "domain": "tecknicam3d.com.ar",
-      "name": "ROTADOR GIRATORIO PARA MÁQUINA DE GRABADO LÁSER CREALITY ROTATORIO 4 EJE 4005020010",
-      "category": "Impresoras",
-      "price": 270750,
+      "name": "Algolaser Alpha Mk2 22w de exposición 100x100x100 mm Laser Algolaser se retira armado por suc moron 30 dias de garantia",
+      "category": "Herramientas",
+      "price": 1438338,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -2752,13 +2748,12 @@
       "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
-      "brand": "Creality",
+      "brand": null,
       "tags": [
-        "Creality",
         "Laser"
       ],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/ROTADOR-GIRATORIO-PARA-MAQUINA-DE-GRABADO-LASER-CREALITY-ROTATORIO-4-EJE-4005020010-5.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/rotador-giratorio-para-maquina-de-grabado-laser-creality-rotatorio-4-eje-4005020010",
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/Algolaser-Mk2-22w-2-100x100-1.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/algolaser-alpha-mk2-22w-de-exposicion-100x100x100-mm-laser-algolaser-se-retira-armado-por-suc-moron-30-dias-de-garantia",
       "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=4-laser",
       "variants": []
     },
@@ -2815,13 +2810,13 @@
       "variants": []
     },
     {
-      "id": "tecknicam3d-1412",
-      "sourceProductId": "1412",
+      "id": "tecknicam3d-1413",
+      "sourceProductId": "1413",
       "store": "Tecknicam 3D",
       "domain": "tecknicam3d.com.ar",
-      "name": "Algolaser Alpha Mk2 22w de exposición 100x100x100 mm Laser Algolaser se retira armado por suc moron 30 dias de garantia",
-      "category": "Herramientas",
-      "price": 1438338,
+      "name": "ROTADOR GIRATORIO PARA MÁQUINA DE GRABADO LÁSER CREALITY ROTATORIO 4 EJE 4005020010",
+      "category": "Impresoras",
+      "price": 270750,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -2831,12 +2826,13 @@
       "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
-      "brand": null,
+      "brand": "Creality",
       "tags": [
+        "Creality",
         "Laser"
       ],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/Algolaser-Mk2-22w-2-100x100-1.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/algolaser-alpha-mk2-22w-de-exposicion-100x100x100-mm-laser-algolaser-se-retira-armado-por-suc-moron-30-dias-de-garantia",
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/ROTADOR-GIRATORIO-PARA-MAQUINA-DE-GRABADO-LASER-CREALITY-ROTATORIO-4-EJE-4005020010-5.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/rotador-giratorio-para-maquina-de-grabado-laser-creality-rotatorio-4-eje-4005020010",
       "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=4-laser",
       "variants": []
     },
@@ -2917,6 +2913,81 @@
       "variants": []
     },
     {
+      "id": "tecknicam3d-cubierta-protectora-funda-carpa-para-grabador-laser-creality-4008020045",
+      "sourceProductId": "cubierta-protectora-funda-carpa-para-grabador-laser-creality-4008020045",
+      "store": "Tecknicam 3D",
+      "domain": "tecknicam3d.com.ar",
+      "name": "CUBIERTA PROTECTORA FUNDA CARPA PARA GRABADOR LÁSER CREALITY 4008020045",
+      "category": "Impresoras",
+      "price": 106000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Creality",
+      "tags": [
+        "Creality",
+        "Laser"
+      ],
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/img_6a4d0e1c1417c1.43619926.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/cubierta-protectora-funda-carpa-para-grabador-laser-creality-4008020045",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=4-laser&page=2",
+      "variants": []
+    },
+    {
+      "id": "tecknicam3d-laser-uv-5w-aire-10x10",
+      "sourceProductId": "laser-uv-5w-aire-10x10",
+      "store": "Tecknicam 3D",
+      "domain": "tecknicam3d.com.ar",
+      "name": "Laser UV 5W AIRE 10X10",
+      "category": "Herramientas",
+      "price": 10687500,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": null,
+      "tags": [
+        "Laser"
+      ],
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/Captura-de-pantalla-2025-12-04-121814.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/laser-uv-5w-aire-10x10",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=4-laser&page=2",
+      "variants": []
+    },
+    {
+      "id": "tecknicam3d-1399",
+      "sourceProductId": "1399",
+      "store": "Tecknicam 3D",
+      "domain": "tecknicam3d.com.ar",
+      "name": "Lente F-Theta para Laser de Fibra GALVO F100 1064nm Longitud de Escaneo ~70x70 C22",
+      "category": "Herramientas",
+      "price": 206720,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 185014.4,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "Pocas unidades",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Laser"
+      ],
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/Lente-F-Theta-para-Laser-de-Fibra-GALVO-1788793274-720ffe79.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/lente-f-theta-para-laser-de-fibra-galvo-f100-1064nm-longitud-de-escaneo-70x70-c22",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=4-laser&page=2",
+      "variants": []
+    },
+    {
       "id": "tecknicam3d-1398",
       "sourceProductId": "1398",
       "store": "Tecknicam 3D",
@@ -2965,81 +3036,6 @@
       ],
       "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/Lente-F-Theta-para-Laser-de-Fibra-GALVO-1788793274-720ffe79.webp",
       "url": "https://www.tecknicam3d.com.ar/productos/lente-f-theta-para-laser-de-fibra-galvo-f300-1064nm-longitud-de-escaneo-200x200-c22",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=4-laser&page=2",
-      "variants": []
-    },
-    {
-      "id": "tecknicam3d-1399",
-      "sourceProductId": "1399",
-      "store": "Tecknicam 3D",
-      "domain": "tecknicam3d.com.ar",
-      "name": "Lente F-Theta para Laser de Fibra GALVO F100 1064nm Longitud de Escaneo ~70x70 C22",
-      "category": "Herramientas",
-      "price": 206720,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 185014.4,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "Laser"
-      ],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/Lente-F-Theta-para-Laser-de-Fibra-GALVO-1788793274-720ffe79.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/lente-f-theta-para-laser-de-fibra-galvo-f100-1064nm-longitud-de-escaneo-70x70-c22",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=4-laser&page=2",
-      "variants": []
-    },
-    {
-      "id": "tecknicam3d-cubierta-protectora-funda-carpa-para-grabador-laser-creality-4008020045",
-      "sourceProductId": "cubierta-protectora-funda-carpa-para-grabador-laser-creality-4008020045",
-      "store": "Tecknicam 3D",
-      "domain": "tecknicam3d.com.ar",
-      "name": "CUBIERTA PROTECTORA FUNDA CARPA PARA GRABADOR LÁSER CREALITY 4008020045",
-      "category": "Impresoras",
-      "price": 106000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Creality",
-      "tags": [
-        "Creality",
-        "Laser"
-      ],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/img_6a4d0e1c1417c1.43619926.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/cubierta-protectora-funda-carpa-para-grabador-laser-creality-4008020045",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=4-laser&page=2",
-      "variants": []
-    },
-    {
-      "id": "tecknicam3d-laser-uv-5w-aire-10x10",
-      "sourceProductId": "laser-uv-5w-aire-10x10",
-      "store": "Tecknicam 3D",
-      "domain": "tecknicam3d.com.ar",
-      "name": "Laser UV 5W AIRE 10X10",
-      "category": "Herramientas",
-      "price": 10687500,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": null,
-      "tags": [
-        "Laser"
-      ],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/Captura-de-pantalla-2025-12-04-121814.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/laser-uv-5w-aire-10x10",
       "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=4-laser&page=2",
       "variants": []
     },
@@ -3669,8 +3665,8 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 4,
-      "stockLabel": "En stock",
+      "stock": 3,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": null,
       "tags": [],
@@ -4703,7 +4699,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 322,
+      "stock": 315,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
