@@ -5,7 +5,7 @@
     "baseUrl": "https://lefasoc.com.ar",
     "listingPath": "/productos/"
   },
-  "scrapedAt": "2026-10-17T12:03:09.210Z",
+  "scrapedAt": "2026-10-18T12:31:12.710Z",
   "count": 175,
   "pages": [
     {
@@ -52,7 +52,7 @@
       "previousPrice": null,
       "transferPrice": 23750,
       "purchaseModes": [],
-      "stock": 1706,
+      "stock": 1698,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -70,7 +70,7 @@
           "sku": "M10IAM175CJ",
           "price": 25000,
           "isDeposit": false,
-          "stock": 20,
+          "stock": 19,
           "available": true,
           "options": [
             "Amarillo"
@@ -226,7 +226,7 @@
           "sku": "M10INT175CJ",
           "price": 25000,
           "isDeposit": false,
-          "stock": 26,
+          "stock": 24,
           "available": true,
           "options": [
             "Natural"
@@ -238,7 +238,7 @@
           "sku": "M10ING175CJ",
           "price": 25000,
           "isDeposit": false,
-          "stock": 163,
+          "stock": 162,
           "available": true,
           "options": [
             "Negro"
@@ -430,7 +430,7 @@
       "previousPrice": null,
       "transferPrice": 19000,
       "purchaseModes": [],
-      "stock": 1886,
+      "stock": 1854,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3n3",
@@ -448,7 +448,7 @@
           "sku": "M80IAM175CJ",
           "price": 22000,
           "isDeposit": false,
-          "stock": 80,
+          "stock": 79,
           "available": true,
           "options": [
             "amarillo"
@@ -484,7 +484,7 @@
           "sku": "M80IBL175CJ",
           "price": 22000,
           "isDeposit": false,
-          "stock": 37,
+          "stock": 33,
           "available": true,
           "options": [
             "blanco"
@@ -544,7 +544,7 @@
           "sku": "M80IGR175CJ",
           "price": 22000,
           "isDeposit": false,
-          "stock": 30,
+          "stock": 29,
           "available": true,
           "options": [
             "Gris plomo"
@@ -556,7 +556,7 @@
           "sku": "M80IHU175CJ",
           "price": 22000,
           "isDeposit": false,
-          "stock": 140,
+          "stock": 139,
           "available": true,
           "options": [
             "hueso"
@@ -580,7 +580,7 @@
           "sku": "M80ING175CJ",
           "price": 22000,
           "isDeposit": false,
-          "stock": 22,
+          "stock": 14,
           "available": true,
           "options": [
             "negro"
@@ -652,8 +652,8 @@
           "sku": "M80IVI175CJ",
           "price": 20000,
           "isDeposit": false,
-          "stock": 1,
-          "available": true,
+          "stock": 0,
+          "available": false,
           "options": [
             "violeta"
           ],
@@ -673,7 +673,7 @@
       "previousPrice": null,
       "transferPrice": 20900,
       "purchaseModes": [],
-      "stock": 148,
+      "stock": 144,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -751,8 +751,8 @@
           "sku": "M77IRJ175CJ",
           "price": 22000,
           "isDeposit": false,
-          "stock": 2,
-          "available": true,
+          "stock": 0,
+          "available": false,
           "options": [
             "Clear rojo"
           ],
@@ -1153,7 +1153,7 @@
       "previousPrice": null,
       "transferPrice": 31730,
       "purchaseModes": [],
-      "stock": 28,
+      "stock": 26,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Elegoo",
@@ -1201,18 +1201,6 @@
             "Azul Púrpura"
           ],
           "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/silk_pla_filament_1-75mm_silk_blue_purple_black_1220x1220_crop_center-936a435f796a06d69d17818803773878-1024-1024.webp"
-        },
-        {
-          "id": 1546104889,
-          "sku": "502030662",
-          "price": 33400,
-          "isDeposit": false,
-          "stock": 1,
-          "available": true,
-          "options": [
-            "Cobre"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/pla_filament_silk_bronze_1kg-model-cc499983a0bd80000917818800941720-1024-1024.webp"
         },
         {
           "id": 1562703350,
@@ -1902,7 +1890,7 @@
       "previousPrice": null,
       "transferPrice": 41515,
       "purchaseModes": [],
-      "stock": 14,
+      "stock": 12,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Elegoo",
@@ -1920,8 +1908,8 @@
           "sku": "502030110",
           "price": 43700,
           "isDeposit": false,
-          "stock": 1,
-          "available": true,
+          "stock": 0,
+          "available": false,
           "options": [
             "Negro Metalico"
           ],
@@ -2493,6 +2481,18 @@
             "Azabache"
           ],
           "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/captura-de-pantalla-2025-10-27-135455-47602e198ce3cb8e5317745530345277-1024-1024.webp"
+        },
+        {
+          "id": 1486472062,
+          "sku": "M21ICO175CJ",
+          "price": 32000,
+          "isDeposit": false,
+          "stock": 0,
+          "available": false,
+          "options": [
+            "Cobre"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/captura-de-pantalla-2025-10-27-135503-5f47ec6c6b898578d617745530349717-1024-1024.webp"
         }
       ]
     },
@@ -2508,7 +2508,7 @@
       "previousPrice": null,
       "transferPrice": 36100,
       "purchaseModes": [],
-      "stock": 110,
+      "stock": 108,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -2550,7 +2550,7 @@
           "sku": "M20IPI175CJ",
           "price": 38000,
           "isDeposit": false,
-          "stock": 9,
+          "stock": 8,
           "available": true,
           "options": [
             "Pino"
@@ -3900,43 +3900,6 @@
             "negro"
           ],
           "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/lefasoc-productos_mesa-de-trabajo-1-28-377754da14f04a72d517718622909606-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "lefasoc-327094414",
-      "sourceProductId": "327094414",
-      "store": "Lefasoc",
-      "domain": "lefasoc.com.ar",
-      "name": "Bambu Lab A1 Mini",
-      "category": "Impresoras",
-      "price": 578900,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 549955,
-      "purchaseModes": [],
-      "stock": 2,
-      "stockLabel": "Pocas unidades",
-      "available": true,
-      "brand": "Bambu Lab",
-      "tags": [
-        "Bambu Lab"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/lefasoc-productos_mesa-de-trabajo-1-10-2c585d814b989d594017718598129201-1024-1024.webp",
-      "url": "https://lefasoc.com.ar/productos/bambu-lab-a1-mini/",
-      "scrapedFrom": "https://lefasoc.com.ar/productos/?page=2",
-      "variants": [
-        {
-          "id": 1454650134,
-          "sku": "A1-MINI",
-          "price": 578900,
-          "isDeposit": false,
-          "stock": 1,
-          "available": true,
-          "options": [
-            "blanco"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/lefasoc-productos_mesa-de-trabajo-1-10-2c585d814b989d594017718598129201-1024-1024.webp"
         }
       ]
     },
@@ -5347,7 +5310,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/square-540x540-mfp_mfp_ma4000cix-5fda8e691a5703292317809499870823-1024-1024.webp",
       "url": "https://lefasoc.com.ar/productos/impresora-kyocera-ecosys-ma4000cix-color/",
-      "scrapedFrom": "https://lefasoc.com.ar/productos/?page=3",
+      "scrapedFrom": "https://lefasoc.com.ar/productos/?page=2",
       "variants": [
         {
           "id": 1539690457,
@@ -7406,7 +7369,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/ppt_azul-59d81477a3bfc6cf7617745491549989-1024-1024.webp",
       "url": "https://lefasoc.com.ar/productos/Grilon3-PPT-x1kg/",
-      "scrapedFrom": "https://lefasoc.com.ar/productos/?page=4",
+      "scrapedFrom": "https://lefasoc.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1486478435,
@@ -8247,6 +8210,43 @@
             "gris"
           ],
           "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/limpiador-boquilla-silicona-a1-mini-00-976aa26996b787aef317761749820428-640-0-952a90cc96a5628fcb17761762488106-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "lefasoc-327094414",
+      "sourceProductId": "327094414",
+      "store": "Lefasoc",
+      "domain": "lefasoc.com.ar",
+      "name": "Bambu Lab A1 Mini",
+      "category": "Impresoras",
+      "price": 578900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 549955,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab"
+      ],
+      "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/lefasoc-productos_mesa-de-trabajo-1-10-2c585d814b989d594017718598129201-1024-1024.webp",
+      "url": "https://lefasoc.com.ar/productos/bambu-lab-a1-mini/",
+      "scrapedFrom": "https://lefasoc.com.ar/productos/?page=4",
+      "variants": [
+        {
+          "id": 1454650134,
+          "sku": "A1-MINI",
+          "price": 578900,
+          "isDeposit": false,
+          "stock": 0,
+          "available": false,
+          "options": [
+            "blanco"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/lefasoc-productos_mesa-de-trabajo-1-10-2c585d814b989d594017718598129201-1024-1024.webp"
         }
       ]
     },

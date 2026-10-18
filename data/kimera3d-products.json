@@ -5,8 +5,8 @@
     "baseUrl": "https://kimera3d.com.ar",
     "apiPath": "/wp-json/wc/store/v1/products"
   },
-  "scrapedAt": "2026-10-17T12:03:34.912Z",
-  "count": 320,
+  "scrapedAt": "2026-10-18T12:31:36.683Z",
+  "count": 319,
   "pages": [
     {
       "page": 1,
@@ -29,8 +29,8 @@
     {
       "page": 4,
       "url": "https://kimera3d.com.ar/wp-json/wc/store/v1/products?per_page=100&page=4",
-      "found": 20,
-      "added": 20
+      "found": 19,
+      "added": 19
     }
   ],
   "products": [
@@ -2405,6 +2405,32 @@
       "variants": []
     },
     {
+      "id": "kimera3d-43435",
+      "sourceProductId": "43435",
+      "store": "Kimera 3D",
+      "domain": "kimera3d.com.ar",
+      "name": "Filamento Bambulab PLA Lite Recarga Verde 1kg",
+      "category": "Filamentos",
+      "price": 21900,
+      "currency": "ARS",
+      "previousPrice": 25436,
+      "transferPrice": null,
+      "stock": 1,
+      "stockLabel": "Pocas unidades",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab",
+        "PLA",
+        "1kg",
+        "recarga"
+      ],
+      "image": "https://kimera3d.com.ar/wp-content/uploads/2026/07/4986-1.jpg",
+      "url": "https://kimera3d.com.ar/tienda/filamento-bambulab-pla-lite-recarga-verde-1kg/",
+      "scrapedFrom": "https://kimera3d.com.ar/wp-json/wc/store/v1/products",
+      "variants": []
+    },
+    {
       "id": "kimera3d-43431",
       "sourceProductId": "43431",
       "store": "Kimera 3D",
@@ -3276,7 +3302,7 @@
       "currency": "ARS",
       "previousPrice": 29690,
       "transferPrice": null,
-      "stock": 6,
+      "stock": 5,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Elegoo",
@@ -4274,33 +4300,6 @@
       "variants": []
     },
     {
-      "id": "kimera3d-37697",
-      "sourceProductId": "37697",
-      "store": "Kimera 3D",
-      "domain": "kimera3d.com.ar",
-      "name": "FILAMENTO ELEGOO PETG RAPIDA -1.75mm-1KG- AMARILLO",
-      "category": "Filamentos",
-      "price": 20460,
-      "currency": "ARS",
-      "previousPrice": 26300,
-      "transferPrice": null,
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
-      "available": true,
-      "brand": "Elegoo",
-      "tags": [
-        "Elegoo",
-        "PLA",
-        "PETG",
-        "ABS",
-        "ASA"
-      ],
-      "image": "https://kimera3d.com.ar/wp-content/uploads/2026/03/RAPIDPETG1KGYellow_1220x1220_crop_center.webp",
-      "url": "https://kimera3d.com.ar/tienda/filamento-elegoo-petg-rapida-1-75mm-1kg-amarillo/",
-      "scrapedFrom": "https://kimera3d.com.ar/wp-json/wc/store/v1/products",
-      "variants": []
-    },
-    {
       "id": "kimera3d-37692",
       "sourceProductId": "37692",
       "store": "Kimera 3D",
@@ -4311,7 +4310,7 @@
       "currency": "ARS",
       "previousPrice": 26300,
       "transferPrice": null,
-      "stock": 2,
+      "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Elegoo",
@@ -8122,33 +8121,6 @@
       "variants": []
     },
     {
-      "id": "kimera3d-2963",
-      "sourceProductId": "2963",
-      "store": "Kimera 3D",
-      "domain": "kimera3d.com.ar",
-      "name": "PLA Hellbot 1KG 1,75mm - Marmol",
-      "category": "Filamentos",
-      "price": 21990,
-      "currency": "ARS",
-      "previousPrice": 23990,
-      "transferPrice": null,
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
-      "available": true,
-      "brand": "Hellbot",
-      "tags": [
-        "Hellbot",
-        "PLA",
-        "ABS",
-        "1kg",
-        "recarga"
-      ],
-      "image": "https://kimera3d.com.ar/wp-content/uploads/2021/03/Marmol-800x800.jpg.webp",
-      "url": "https://kimera3d.com.ar/tienda/filamento-3d-pla-hellbot-1kg-175mm/",
-      "scrapedFrom": "https://kimera3d.com.ar/wp-json/wc/store/v1/products",
-      "variants": []
-    },
-    {
       "id": "kimera3d-2754",
       "sourceProductId": "2754",
       "store": "Kimera 3D",
@@ -8159,7 +8131,7 @@
       "currency": "ARS",
       "previousPrice": 44990,
       "transferPrice": null,
-      "stock": 31,
+      "stock": 30,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,

@@ -4,8 +4,8 @@
     "domain": "3dimension.empretienda.com.ar",
     "baseUrl": "https://3dimension.empretienda.com.ar"
   },
-  "scrapedAt": "2026-10-17T12:02:59.864Z",
-  "count": 15,
+  "scrapedAt": "2026-10-18T12:31:05.140Z",
+  "count": 16,
   "pages": [
     {
       "page": 1,
@@ -26,7 +26,7 @@
       "path": "/cortadoras-laser/accesorios",
       "url": "https://3dimension.empretienda.com.ar/cortadoras-laser/accesorios",
       "found": 7,
-      "added": 2
+      "added": 3
     },
     {
       "page": 2,
@@ -72,6 +72,33 @@
     }
   ],
   "products": [
+    {
+      "id": "3dimension-laser-de-fibra-fd-50-50w",
+      "sourceProductId": "laser-de-fibra-fd-50-50w",
+      "store": "3Dimension",
+      "domain": "3dimension.empretienda.com.ar",
+      "name": "Láser de Fibra FD-50 50W",
+      "category": "Corte láser",
+      "price": 8711000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Corte láser",
+        "Fibra"
+      ],
+      "image": "https://d22fxaf9t8d39k.cloudfront.net/40b76bc7421db950f365c8c8876b45d51759b8e160a172ecd928972b30ba6c22182538.png",
+      "url": "https://3dimension.empretienda.com.ar/cortadoras-laser/laser-de-fibra-fd-50-50w",
+      "scrapedFrom": "https://3dimension.empretienda.com.ar/cortadoras-laser",
+      "variants": []
+    },
     {
       "id": "3dimension-combo-algolaser-diy-mk3-15w-rotativo-arc-asistente-de-aire-panal",
       "sourceProductId": "combo-algolaser-diy-mk3-15w-rotativo-arc-asistente-de-aire-panal",
@@ -400,7 +427,7 @@
       ],
       "image": "https://d22fxaf9t8d39k.cloudfront.net/c3d8bde0008a535d66d7db045e933ad19472007f77ff1b828d6596435b54459a182538.png",
       "url": "https://3dimension.empretienda.com.ar/cortadoras-laser/accesorios/acc-rotatorio-pinza-algolaser",
-      "scrapedFrom": "https://3dimension.empretienda.com.ar/cortadoras-laser",
+      "scrapedFrom": "https://3dimension.empretienda.com.ar/cortadoras-laser/accesorios",
       "variants": []
     },
     {
@@ -466,7 +493,7 @@
       "domain": "3dimension.empretienda.com.ar",
       "name": "Laser de Fibra 30W - FD-30",
       "category": "Corte láser",
-      "price": 6654000,
+      "price": 6565000,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,

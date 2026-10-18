@@ -5,8 +5,8 @@
     "baseUrl": "https://3dtisk.com.ar",
     "listingPath": "/productos/"
   },
-  "scrapedAt": "2026-10-17T12:03:04.881Z",
-  "count": 209,
+  "scrapedAt": "2026-10-18T12:31:06.318Z",
+  "count": 204,
   "pages": [
     {
       "page": 1,
@@ -17,36 +17,30 @@
     {
       "page": 2,
       "url": "https://3dtisk.com.ar/productos/?page=2",
-      "found": 37,
-      "added": 37
+      "found": 36,
+      "added": 36
     },
     {
       "page": 3,
       "url": "https://3dtisk.com.ar/productos/?page=3",
-      "found": 42,
-      "added": 42
+      "found": 48,
+      "added": 48
     },
     {
       "page": 4,
       "url": "https://3dtisk.com.ar/productos/?page=4",
-      "found": 41,
-      "added": 41
+      "found": 38,
+      "added": 38
     },
     {
       "page": 5,
       "url": "https://3dtisk.com.ar/productos/?page=5",
-      "found": 34,
-      "added": 34
+      "found": 35,
+      "added": 35
     },
     {
       "page": 6,
       "url": "https://3dtisk.com.ar/productos/?page=6",
-      "found": 8,
-      "added": 8
-    },
-    {
-      "page": 7,
-      "url": "https://3dtisk.com.ar/productos/?page=7",
       "found": 0,
       "added": 0
     }
@@ -134,7 +128,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 162,
+      "stock": 152,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -150,7 +144,7 @@
           "sku": "40",
           "price": 17850,
           "isDeposit": false,
-          "stock": 81,
+          "stock": 76,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084184182211-7589eebfbfdc1a37d317775813516820-1024-1024.webp"
@@ -169,7 +163,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 138,
+      "stock": 130,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -185,7 +179,7 @@
           "sku": "41",
           "price": 17850,
           "isDeposit": false,
-          "stock": 69,
+          "stock": 65,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084185482046-25b573c2f3cc3de1d517775813491720-1024-1024.webp"
@@ -224,6 +218,77 @@
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084369414543-9883228b4a0022bf3817775813055061-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-341422964",
+      "sourceProductId": "341422964",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "Hellbot R.Kiwi Pastel",
+      "category": "Accesorios",
+      "price": 17850,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 26,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084377974335-641ce2b2a466411adf17775812960666-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/hellbot-r-kiwi-pastel-1vife/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1516019969,
+          "sku": "64",
+          "price": 17850,
+          "isDeposit": false,
+          "stock": 13,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084377974335-641ce2b2a466411adf17775812960666-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-341420388",
+      "sourceProductId": "341420388",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "Impresora Bambu Lab A1 Combo",
+      "category": "Impresoras",
+      "price": 1464990,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab",
+        "Multicolor"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213488554267-04ec5ae1616f5ee20517775807271086-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/impresora-bambu-lab-a1-combo-1p1jf/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1516009875,
+          "sku": "307",
+          "price": 1464990,
+          "isDeposit": false,
+          "stock": 1,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213488554267-04ec5ae1616f5ee20517775807271086-1024-1024.webp"
         }
       ]
     },
@@ -346,7 +411,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 14,
+      "stock": 12,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -362,7 +427,7 @@
           "sku": "46",
           "price": 17850,
           "isDeposit": false,
-          "stock": 7,
+          "stock": 6,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084193078747-da20ab176a217c391f17775813375586-1024-1024.webp"
@@ -381,7 +446,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 16,
+      "stock": 12,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -397,7 +462,7 @@
           "sku": "55",
           "price": 17850,
           "isDeposit": false,
-          "stock": 8,
+          "stock": 6,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/17708420636734-d5b62b558f0e77d09217775813172815-1024-1024.webp"
@@ -545,41 +610,6 @@
       ]
     },
     {
-      "id": "3dtisk-341422964",
-      "sourceProductId": "341422964",
-      "store": "3DTisk",
-      "domain": "3dtisk.com.ar",
-      "name": "Hellbot R.Kiwi Pastel",
-      "category": "Accesorios",
-      "price": 17850,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 26,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Hellbot",
-      "tags": [
-        "Hellbot"
-      ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084377974335-641ce2b2a466411adf17775812960666-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/hellbot-r-kiwi-pastel-1vife/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/",
-      "variants": [
-        {
-          "id": 1516019969,
-          "sku": "64",
-          "price": 17850,
-          "isDeposit": false,
-          "stock": 13,
-          "available": true,
-          "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084377974335-641ce2b2a466411adf17775812960666-1024-1024.webp"
-        }
-      ]
-    },
-    {
       "id": "3dtisk-341422829",
       "sourceProductId": "341422829",
       "store": "3DTisk",
@@ -591,7 +621,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 18,
+      "stock": 16,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -607,7 +637,7 @@
           "sku": "76",
           "price": 17850,
           "isDeposit": false,
-          "stock": 9,
+          "stock": 8,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084399728931-e069c894594d3aa69817775812687619-1024-1024.webp"
@@ -646,6 +676,41 @@
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084401462748-f82bccded3e7cac9f117775812664768-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-341418559",
+      "sourceProductId": "341418559",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "Impresora 3D Bambu Lab A1 Mini",
+      "category": "Impresoras",
+      "price": 578900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213531665403-bce84f780f666a139b17775802412200-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/impresora-3d-bambu-lab-a1-mini-cnsek/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1516000655,
+          "sku": "699",
+          "price": 578900,
+          "isDeposit": false,
+          "stock": 1,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213531665403-bce84f780f666a139b17775802412200-1024-1024.webp"
         }
       ]
     },
@@ -875,8 +940,8 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 4,
-      "stockLabel": "En stock",
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": null,
       "tags": [
@@ -891,7 +956,7 @@
           "sku": "1206",
           "price": 20600,
           "isDeposit": false,
-          "stock": 2,
+          "stock": 1,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179138597038357-5defaf31caeeed387d17920962781642-1024-1024.webp"
@@ -1260,14 +1325,14 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 20,
+      "stock": 14,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
       "tags": [
         "PETG"
       ],
-      "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp",
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179225241719706-4f33bdfd1857bbdb5d17922524663990-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/w3d-petg-negro-2uma9/",
       "scrapedFrom": "https://3dtisk.com.ar/productos/",
       "variants": [
@@ -1276,10 +1341,10 @@
           "sku": "1220",
           "price": 19400,
           "isDeposit": false,
-          "stock": 10,
+          "stock": 7,
           "available": true,
           "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp"
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179225241719706-4f33bdfd1857bbdb5d17922524663990-1024-1024.webp"
         }
       ]
     },
@@ -1295,14 +1360,14 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 12,
+      "stock": 10,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
       "tags": [
         "PLA"
       ],
-      "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp",
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179138272182475-2725829a0d046be05117922667324876-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/w3d-pla-matte-negro-2g9yk/",
       "scrapedFrom": "https://3dtisk.com.ar/productos/",
       "variants": [
@@ -1311,10 +1376,10 @@
           "sku": "1221",
           "price": 20600,
           "isDeposit": false,
-          "stock": 6,
+          "stock": 5,
           "available": true,
           "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp"
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179138272182475-2725829a0d046be05117922667324876-1024-1024.webp"
         }
       ]
     },
@@ -1400,8 +1465,8 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 4,
-      "stockLabel": "En stock",
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": null,
       "tags": [
@@ -1416,7 +1481,7 @@
           "sku": "1224",
           "price": 20600,
           "isDeposit": false,
-          "stock": 2,
+          "stock": 1,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179138257645355-7a56da9f458093e20f17921816062573-1024-1024.webp"
@@ -1477,7 +1542,7 @@
       "tags": [
         "PLA"
       ],
-      "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp",
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179138239562962-91ac49f7ded8f864a417922667261160-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/w3d-pla-matte-cyan-12gn6/",
       "scrapedFrom": "https://3dtisk.com.ar/productos/",
       "variants": [
@@ -1489,7 +1554,7 @@
           "stock": 4,
           "available": true,
           "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp"
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179138239562962-91ac49f7ded8f864a417922667261160-1024-1024.webp"
         }
       ]
     },
@@ -1547,7 +1612,7 @@
       "tags": [
         "PLA"
       ],
-      "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp",
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179138190074256-2ed8db5f65bf132b2417922667107912-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/w3d-pla-matte-verde-pasto-4bk5b/",
       "scrapedFrom": "https://3dtisk.com.ar/productos/",
       "variants": [
@@ -1559,7 +1624,7 @@
           "stock": 4,
           "available": true,
           "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp"
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179138190074256-2ed8db5f65bf132b2417922667107912-1024-1024.webp"
         }
       ]
     },
@@ -1652,9 +1717,9 @@
       "tags": [
         "PLA"
       ],
-      "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp",
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179138099736068-df18e6acd193f49b4f17922667045397-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/w3d-pla-matte-marmol-bkkq2/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
       "variants": [
         {
           "id": 1619593441,
@@ -1664,7 +1729,7 @@
           "stock": 4,
           "available": true,
           "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp"
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179138099736068-df18e6acd193f49b4f17922667045397-1024-1024.webp"
         }
       ]
     },
@@ -1689,7 +1754,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/w3d-pla-matte-piel-12t95/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
       "variants": [
         {
           "id": 1619592297,
@@ -1812,15 +1877,13 @@
       "sourceProductId": "359306720",
       "store": "3DTisk",
       "domain": "3dtisk.com.ar",
-      "name": "ELEGOO Impresora 3D de resina Saturn-4ULTRA MSLA 16K Preventa 2Da Quincena Septiembre",
+      "name": "ELEGOO Impresora 3D de resina Saturn-4ULTRA MSLA 16K",
       "category": "Resina",
       "price": 1480900,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "purchaseModes": [
-        "Preventa"
-      ],
+      "purchaseModes": [],
       "stock": 4,
       "stockLabel": "En stock",
       "available": true,
@@ -1829,7 +1892,7 @@
         "Elegoo"
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/178587662553514-4c0721f7f2663d432117858766702346-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/elegoo-impresora-3d-de-resina-saturn-4ultra-msla-16k-preventa-2da-quincena-septiembre-4byb7/",
+      "url": "https://3dtisk.com.ar/productos/elegoo-impresora-3d-de-resina-saturn-4ultra-msla-16k-1mw6g/",
       "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
       "variants": [
         {
@@ -1849,17 +1912,15 @@
       "sourceProductId": "359300938",
       "store": "3DTisk",
       "domain": "3dtisk.com.ar",
-      "name": "Impresora 3D Elegoo FDM Centauri Carbon 2 Combo PREVENTA 2Da Quincena Septiembre",
+      "name": "Impresora 3D Elegoo FDM Centauri Carbon 2 Combo",
       "category": "Impresoras",
-      "price": 1355900,
+      "price": 1410900,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "purchaseModes": [
-        "Preventa"
-      ],
-      "stock": 4,
-      "stockLabel": "En stock",
+      "purchaseModes": [],
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Elegoo",
       "tags": [
@@ -1867,15 +1928,15 @@
         "Multicolor"
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/178587522055395-23abfeea372c5613e217858752900721-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/impresora-3d-elegoo-fdm-centauri-carbon-2-combo-preventa-2da-quincena-septiembre-182dp/",
+      "url": "https://3dtisk.com.ar/productos/impresora-3d-elegoo-fdm-centauri-carbon-2-combo-1gh7i/",
       "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
       "variants": [
         {
           "id": 1570934419,
           "sku": "930",
-          "price": 1355900,
+          "price": 1410900,
           "isDeposit": false,
-          "stock": 2,
+          "stock": 1,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/178587522055395-23abfeea372c5613e217858752900721-1024-1024.webp"
@@ -1887,73 +1948,33 @@
       "sourceProductId": "359121670",
       "store": "3DTisk",
       "domain": "3dtisk.com.ar",
-      "name": "Bambu Lab A2L Preventa Octubre",
+      "name": "Impresora Bambu Lab A2L",
       "category": "Impresoras",
-      "price": 1236500,
+      "price": 1373900,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "purchaseModes": [
-        "Preventa"
-      ],
-      "stock": 4,
-      "stockLabel": "En stock",
+      "purchaseModes": [],
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Bambu Lab",
       "tags": [
         "Bambu Lab"
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/178578962879553-b35b1e56b7f0f7a62e17857896691455-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/bambu-lab-a2l-preventa-octubre-18ilw/",
+      "url": "https://3dtisk.com.ar/productos/impresora-bambu-lab-a2l-drchf/",
       "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
       "variants": [
         {
           "id": 1570213520,
           "sku": "929",
-          "price": 1236500,
+          "price": 1373900,
           "isDeposit": false,
-          "stock": 2,
+          "stock": 1,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/178578962879553-b35b1e56b7f0f7a62e17857896691455-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "3dtisk-359119682",
-      "sourceProductId": "359119682",
-      "store": "3DTisk",
-      "domain": "3dtisk.com.ar",
-      "name": "Bambu Lab A2L Combo + Modulo De Corte Preventa Octubre",
-      "category": "Impresoras",
-      "price": 1893500,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Preventa"
-      ],
-      "stock": 4,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Bambu Lab",
-      "tags": [
-        "Bambu Lab",
-        "Multicolor"
-      ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/178578926159292-11d7e497d96bc7131a17857893092535-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/bambu-lab-a2l-combo-modulo-de-corte-preventa-octubre-1ujl1/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
-      "variants": [
-        {
-          "id": 1570207939,
-          "sku": "928",
-          "price": 1893500,
-          "isDeposit": false,
-          "stock": 2,
-          "available": true,
-          "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/178578926159292-11d7e497d96bc7131a17857893092535-1024-1024.webp"
         }
       ]
     },
@@ -2041,8 +2062,8 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 4,
-      "stockLabel": "En stock",
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Flashforge",
       "tags": [
@@ -2058,7 +2079,7 @@
           "sku": "918",
           "price": 24400,
           "isDeposit": false,
-          "stock": 2,
+          "stock": 1,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/178464546283896-711dbd53e2e0fbe70817846454686495-1024-1024.webp"
@@ -2101,74 +2122,248 @@
       ]
     },
     {
-      "id": "3dtisk-343790485",
-      "sourceProductId": "343790485",
+      "id": "3dtisk-348355111",
+      "sourceProductId": "348355111",
       "store": "3DTisk",
       "domain": "3dtisk.com.ar",
-      "name": "Impresora 3D SnapMaker U1 Preventa Septiembre",
+      "name": "Impresora Bambu Lab A2L Combo",
       "category": "Impresoras",
-      "price": 2290000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Preventa"
-      ],
-      "stock": 4,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Snapmaker",
-      "tags": [
-        "Snapmaker"
-      ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177869084947307-ebf96e5a383c71434817786908878915-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/impresora-3d-snapmaker-u1-preventa-agosto-k7ng7/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
-      "variants": [
-        {
-          "id": 1523712376,
-          "sku": "844",
-          "price": 2290000,
-          "isDeposit": false,
-          "stock": 2,
-          "available": true,
-          "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177869084947307-ebf96e5a383c71434817786908878915-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "3dtisk-343787392",
-      "sourceProductId": "343787392",
-      "store": "3DTisk",
-      "domain": "3dtisk.com.ar",
-      "name": "Bambu Lab AMS 2 PRO",
-      "category": "Impresoras",
-      "price": 1230900,
+      "price": 1832900,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 4,
-      "stockLabel": "En stock",
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab",
+        "Multicolor"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/178578843993157-09508995912a425dc817857884704175-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/impresora-bambu-lab-a2l-combo-tbjpn/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "variants": [
+        {
+          "id": 1537207362,
+          "sku": "878",
+          "price": 1832900,
+          "isDeposit": false,
+          "stock": 1,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/178578843993157-09508995912a425dc817857884704175-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-344792385",
+      "sourceProductId": "344792385",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "IMPRESORA 3D FLASHFORGE CREATOR 5",
+      "category": "Impresoras",
+      "price": 2215905,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
+      "available": true,
+      "brand": "Flashforge",
+      "tags": [
+        "Flashforge"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/178284373978657-b0276ded1ee7e2b14b17828437890871-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/impresora-3d-flashforge-creator-5-km8bx/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "variants": [
+        {
+          "id": 1526604901,
+          "sku": "850",
+          "price": 2215905,
+          "isDeposit": false,
+          "stock": 1,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/178284373978657-b0276ded1ee7e2b14b17828437890871-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-344789053",
+      "sourceProductId": "344789053",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "IMPRESORA 3D FLASHFORGE CREATOR 5 PRO",
+      "category": "Impresoras",
+      "price": 2484288,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
+      "available": true,
+      "brand": "Flashforge",
+      "tags": [
+        "Flashforge"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/17828443088328-b887cf16e23e4d6d0617828443307907-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/impresora-3d-flashforge-creator-5-pro-td786/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "variants": [
+        {
+          "id": 1526593769,
+          "sku": "849",
+          "price": 2484288,
+          "isDeposit": false,
+          "stock": 1,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/17828443088328-b887cf16e23e4d6d0617828443307907-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-344783920",
+      "sourceProductId": "344783920",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "Maquina de Lavado y Curado Anycubic 3",
+      "category": "Accesorios",
+      "price": 282169,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
+      "available": true,
+      "brand": "Anycubic",
+      "tags": [
+        "Anycubic"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177911070727266-8a4101f4e4a140779c17848403339470-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/maquina-de-lavado-y-curado-anycubic-3-1y1t7/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "variants": [
+        {
+          "id": 1526576431,
+          "sku": "323",
+          "price": 282169,
+          "isDeposit": false,
+          "stock": 1,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177911070727266-8a4101f4e4a140779c17848403339470-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-344783027",
+      "sourceProductId": "344783027",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "Maquina de Lavado y Curado Anycubic 3 Plus",
+      "category": "Accesorios",
+      "price": 390000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
+      "available": true,
+      "brand": "Anycubic",
+      "tags": [
+        "Anycubic"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177911079984110-ed1c0f0ae23bc4085e17848403357211-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/maquina-de-lavado-y-curado-anycubic-3-plus-c9a0b/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "variants": [
+        {
+          "id": 1526573008,
+          "sku": "324",
+          "price": 390000,
+          "isDeposit": false,
+          "stock": 1,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177911079984110-ed1c0f0ae23bc4085e17848403357211-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-344332675",
+      "sourceProductId": "344332675",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "Impresora Anycubic Photon Mono M7 14K",
+      "category": "Impresoras",
+      "price": 990000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
+      "available": true,
+      "brand": "Anycubic",
+      "tags": [
+        "Anycubic"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177886413112407-24abef88f78c93b0a517788642881139-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/impresora-anycubic-photon-mono-m7-14k-1wki9/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "variants": [
+        {
+          "id": 1525121933,
+          "sku": "847",
+          "price": 990000,
+          "isDeposit": false,
+          "stock": 1,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177886413112407-24abef88f78c93b0a517788642881139-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-343789285",
+      "sourceProductId": "343789285",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "Impresora FDM Bambu Lab P2S",
+      "category": "Impresoras",
+      "price": 2081900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Bambu Lab",
       "tags": [
         "Bambu Lab"
       ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177868963855072-28045936eaaa791c0517786896879395-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/bambu-lab-ams-2-pro-bgseo/",
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/178274571062947-34561e3276f827eeac17827457495014-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/impresora-fdm-bambu-lab-p2s-1753c/",
       "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
       "variants": [
         {
-          "id": 1523701474,
-          "sku": "842",
-          "price": 1230900,
+          "id": 1523708943,
+          "sku": "843",
+          "price": 2081900,
           "isDeposit": false,
-          "stock": 2,
+          "stock": 1,
           "available": true,
           "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177868963855072-28045936eaaa791c0517786896879395-1024-1024.webp"
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/178274571062947-34561e3276f827eeac17827457495014-1024-1024.webp"
         }
       ]
     },
@@ -2177,102 +2372,244 @@
       "sourceProductId": "343778897",
       "store": "3DTisk",
       "domain": "3dtisk.com.ar",
-      "name": "Scanner Sermoon P1",
+      "name": "Scanner Sermoon S1",
       "category": "Impresoras",
-      "price": 8106999,
+      "price": 6662034,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "En stock",
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": null,
       "tags": [],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177868706977890-77927381ace584e20d17786871087546-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/scanner-sermoon-p1-3tbpw/",
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179227329180528-4db74bdff52302510217922733462872-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/scanner-sermoon-s1-cxb2u/",
       "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
       "variants": [
         {
           "id": 1523677213,
           "sku": "840",
-          "price": 8106999,
+          "price": 6662034,
           "isDeposit": false,
-          "stock": null,
+          "stock": 1,
           "available": true,
           "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177868706977890-77927381ace584e20d17786871087546-1024-1024.webp"
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179227329180528-4db74bdff52302510217922733462872-1024-1024.webp"
         }
       ]
     },
     {
-      "id": "3dtisk-343777133",
-      "sourceProductId": "343777133",
+      "id": "3dtisk-343543188",
+      "sourceProductId": "343543188",
       "store": "3DTisk",
       "domain": "3dtisk.com.ar",
-      "name": "Impresora 3D Creality K2 SE COMBO",
+      "name": "Impresora Creality SPARKX i7 COMBO",
       "category": "Impresoras",
-      "price": 1547999,
+      "price": 1137999,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "En stock",
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Creality",
       "tags": [
         "Creality",
         "Multicolor"
       ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177868642181691-bf3f00fa8784d7342217786864471776-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/impresora-3d-creality-k2-se-combo-tn8h9/",
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177860048317452-ecc7488abe10830f4617786005867024-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/impresora-creality-sparkx-i7-combo-xl2do/",
       "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
       "variants": [
         {
-          "id": 1523672369,
-          "sku": "839",
-          "price": 1547999,
+          "id": 1522963371,
+          "sku": "836",
+          "price": 1137999,
           "isDeposit": false,
-          "stock": null,
+          "stock": 1,
           "available": true,
           "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177868642181691-bf3f00fa8784d7342217786864471776-1024-1024.webp"
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177860048317452-ecc7488abe10830f4617786005867024-1024-1024.webp"
         }
       ]
     },
     {
-      "id": "3dtisk-343775804",
-      "sourceProductId": "343775804",
+      "id": "3dtisk-342861464",
+      "sourceProductId": "342861464",
       "store": "3DTisk",
       "domain": "3dtisk.com.ar",
-      "name": "Impresora 3D Creality K2 SE",
+      "name": "Scanner Creality CR Scan Otter",
       "category": "Impresoras",
-      "price": 944999,
+      "price": 1583999,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "En stock",
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Creality",
       "tags": [
         "Creality"
       ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177868618814600-b3256969de9c3ee0a117786862082224-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/impresora-3d-creality-k2-se-75pv1/",
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179227550626198-90c7af00903341caca17922755087951-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/scanner-creality-cr-scan-otter-1k64j/",
       "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
       "variants": [
         {
-          "id": 1523668256,
-          "sku": "838",
-          "price": 944999,
+          "id": 1520675093,
+          "sku": "302",
+          "price": 1583999,
           "isDeposit": false,
-          "stock": null,
+          "stock": 1,
           "available": true,
           "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177868618814600-b3256969de9c3ee0a117786862082224-1024-1024.webp"
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179227550626198-90c7af00903341caca17922755087951-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-342861461",
+      "sourceProductId": "342861461",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "Scanner Creality CR Raptor",
+      "category": "Impresoras",
+      "price": 2893999,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
+      "available": true,
+      "brand": "Creality",
+      "tags": [
+        "Creality"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179227547742342-d4698e55e8c82b9c1117922755068250-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/scanner-creality-cr-raptor-pr1l4/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "variants": [
+        {
+          "id": 1520675084,
+          "sku": "303",
+          "price": 2893999,
+          "isDeposit": false,
+          "stock": 1,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179227547742342-d4698e55e8c82b9c1117922755068250-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-342847844",
+      "sourceProductId": "342847844",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "Impresora Creality Halot Mage S 14K",
+      "category": "Impresoras",
+      "price": 961999,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
+      "available": true,
+      "brand": "Creality",
+      "tags": [
+        "Creality"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177825214037903-2fe1ae48b038d0d80517848414864116-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/impresora-creality-halot-mage-s-dlp-1iurz/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "variants": [
+        {
+          "id": 1520629729,
+          "sku": "300",
+          "price": 961999,
+          "isDeposit": false,
+          "stock": 1,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177825214037903-2fe1ae48b038d0d80517848414864116-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-342847198",
+      "sourceProductId": "342847198",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "Impresora Resina Creality Halot X1",
+      "category": "Resina",
+      "price": 1299900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
+      "available": true,
+      "brand": "Creality",
+      "tags": [
+        "Creality"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179227352188266-c97dc67a1b20a9b02117922735253784-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/impresora-resina-creality-halot-x1-23etm/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "variants": [
+        {
+          "id": 1520627855,
+          "sku": "299",
+          "price": 1299900,
+          "isDeposit": false,
+          "stock": 1,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179227352188266-c97dc67a1b20a9b02117922735253784-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-342642316",
+      "sourceProductId": "342642316",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "Impresora 3D SnapMaker U1 Preventa Noviembre",
+      "category": "Impresoras",
+      "price": 2290000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Preventa"
+      ],
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
+      "available": true,
+      "brand": "Snapmaker",
+      "tags": [
+        "Snapmaker"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/17781732853177-28ed6a5fcfc0fa10f717781733279044-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/impresora-3d-snapmaker-u1-preventa-noviembre-7dllb/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "variants": [
+        {
+          "id": 1519932549,
+          "sku": "794",
+          "price": 2290000,
+          "isDeposit": false,
+          "stock": 1,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/17781732853177-28ed6a5fcfc0fa10f717781733279044-1024-1024.webp"
         }
       ]
     },
@@ -2396,8 +2733,8 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 4,
-      "stockLabel": "En stock",
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Flashforge",
       "tags": [
@@ -2413,7 +2750,7 @@
           "sku": "787",
           "price": 24100,
           "isDeposit": false,
-          "stock": 2,
+          "stock": 1,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177790460138520-b2ceb660988804747617779046579752-1024-1024.webp"
@@ -2504,7 +2841,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 30,
+      "stock": 28,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Flashforge",
@@ -2521,7 +2858,7 @@
           "sku": "781",
           "price": 24100,
           "isDeposit": false,
-          "stock": 15,
+          "stock": 14,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177790178549148-9fc4103ad2ac3ba5bd17779026081939-1024-1024.webp"
@@ -2575,7 +2912,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 56,
+      "stock": 52,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2591,7 +2928,7 @@
           "sku": "3",
           "price": 19950,
           "isDeposit": false,
-          "stock": 28,
+          "stock": 26,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084093618115-a1eabab963e2c4946c17775814352794-1024-1024.webp"
@@ -2654,7 +2991,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/1770840964857-d393746fa7428f3fc617775814305875-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-e-gris-grafito-ukvry/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1516022735,
@@ -2689,7 +3026,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084105620153-3666ef2f09e65acb8d17775814260955-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-e-aqua-1j3h2/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1516022665,
@@ -2724,7 +3061,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084108392150-c7e5f9af1045e2902d17775814210853-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-e-celeste-vduhi/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1516022588,
@@ -2759,7 +3096,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084109425161-883d62754b25108fc317775814186258-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-e-cobalto-1nwkn/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1516022542,
@@ -2794,7 +3131,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084111676430-39f82da8b4cd248a8817775814161581-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-e-verde-lcdt7/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1516022501,
@@ -2829,7 +3166,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084112747431-064425c4c2de862df717775814140756-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-e-verde-claro-1gf5z/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1516022447,
@@ -2855,7 +3192,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 26,
+      "stock": 24,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2864,14 +3201,14 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084113796905-72939cabfb398d09e417775814116408-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-e-amarillo-4xwsp/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1516022399,
           "sku": "13",
           "price": 19950,
           "isDeposit": false,
-          "stock": 13,
+          "stock": 12,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084113796905-72939cabfb398d09e417775814116408-1024-1024.webp"
@@ -2890,7 +3227,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 38,
+      "stock": 40,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2899,14 +3236,14 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084114734048-e8bf0d518293e7f88317775814093694-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-e-rojo-12mek/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1516022340,
           "sku": "14",
           "price": 19950,
           "isDeposit": false,
-          "stock": 19,
+          "stock": 20,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084114734048-e8bf0d518293e7f88317775814093694-1024-1024.webp"
@@ -2925,7 +3262,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 20,
+      "stock": 18,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2934,14 +3271,14 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084117311210-da2033d4b67bacc0c217775814072976-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-e-naranja-m8y8g/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1516022298,
           "sku": "15",
           "price": 19950,
           "isDeposit": false,
-          "stock": 10,
+          "stock": 9,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084117311210-da2033d4b67bacc0c217775814072976-1024-1024.webp"
@@ -2969,7 +3306,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084118573265-0681a4794c588d736017775814051546-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-e-rosa-11ete/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1516022247,
@@ -3004,7 +3341,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084120032578-0212aa84bfd27c3fc517775814029240-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-e-violeta-ldjtf/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1516022185,
@@ -3696,7 +4033,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 36,
+      "stock": 34,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -3712,7 +4049,7 @@
           "sku": "47",
           "price": 17850,
           "isDeposit": false,
-          "stock": 18,
+          "stock": 17,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084194150423-180ef6d450745dcf2417775813353474-1024-1024.webp"
@@ -3825,41 +4162,6 @@
       ]
     },
     {
-      "id": "3dtisk-341423070",
-      "sourceProductId": "341423070",
-      "store": "3DTisk",
-      "domain": "3dtisk.com.ar",
-      "name": "Hellbot R.Naranja",
-      "category": "Accesorios",
-      "price": 17850,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 2,
-      "stockLabel": "Pocas unidades",
-      "available": true,
-      "brand": "Hellbot",
-      "tags": [
-        "Hellbot"
-      ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084203519113-cafc42e0238d1f658617775813215786-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/hellbot-r-naranja-ak1ux/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
-      "variants": [
-        {
-          "id": 1516020393,
-          "sku": "53",
-          "price": 17850,
-          "isDeposit": false,
-          "stock": 1,
-          "available": true,
-          "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084203519113-cafc42e0238d1f658617775813215786-1024-1024.webp"
-        }
-      ]
-    },
-    {
       "id": "3dtisk-341423057",
       "sourceProductId": "341423057",
       "store": "3DTisk",
@@ -3871,7 +4173,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 24,
+      "stock": 22,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -3887,7 +4189,7 @@
           "sku": "54",
           "price": 17850,
           "isDeposit": false,
-          "stock": 12,
+          "stock": 11,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084204589920-15e7d603bfeafdbffe17775813194199-1024-1024.webp"
@@ -4281,6 +4583,111 @@
       ]
     },
     {
+      "id": "3dtisk-341420550",
+      "sourceProductId": "341420550",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "Impresora Creality Ender 3 V3 KE",
+      "category": "Impresoras",
+      "price": 400000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
+      "available": true,
+      "brand": "Creality",
+      "tags": [
+        "Creality"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213634529850-6ce67a99a73338c1e817775807808510-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/impresora-creality-ender-3-v3-ke-1pzhk/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
+      "variants": [
+        {
+          "id": 1516010628,
+          "sku": "277",
+          "price": 400000,
+          "isDeposit": false,
+          "stock": 1,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213634529850-6ce67a99a73338c1e817775807808510-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-341420454",
+      "sourceProductId": "341420454",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "Laser Creality CR Falcon PRO 40W",
+      "category": "Impresoras",
+      "price": 3105999,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
+      "available": true,
+      "brand": "Creality",
+      "tags": [
+        "Creality"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213740767874-0d5da1570f5726628a17775807498614-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/laser-creality-cr-falcon-pro-40w-1nf92/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
+      "variants": [
+        {
+          "id": 1516010168,
+          "sku": "293",
+          "price": 3105999,
+          "isDeposit": false,
+          "stock": 1,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213740767874-0d5da1570f5726628a17775807498614-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-341420415",
+      "sourceProductId": "341420415",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "Maquina de Lavado Creality UW-03",
+      "category": "Impresoras",
+      "price": 380000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
+      "available": true,
+      "brand": "Creality",
+      "tags": [
+        "Creality"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213770847-02574776540c87c29417775807374713-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/maquina-de-lavado-creality-uw-03-179l8/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
+      "variants": [
+        {
+          "id": 1516009992,
+          "sku": "301",
+          "price": 380000,
+          "isDeposit": false,
+          "stock": 1,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213770847-02574776540c87c29417775807374713-1024-1024.webp"
+        }
+      ]
+    },
+    {
       "id": "3dtisk-341420400",
       "sourceProductId": "341420400",
       "store": "3DTisk",
@@ -4302,7 +4709,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213497643442-c6596ff82793666fe917775807324251-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/impresora-bambu-lab-a1-mini-combo-1rr5m/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
       "variants": [
         {
           "id": 1516009915,
@@ -4337,7 +4744,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177187852489957-406263d3ec9781705f17775805410405-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-e-marron-capibara-tp6i8/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
       "variants": [
         {
           "id": 1516006673,
@@ -4372,7 +4779,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084081982278-9c0a24df4c6874857217775805387959-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-e-piel-17j13/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
       "variants": [
         {
           "id": 1516006647,
@@ -4407,7 +4814,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084180134869-f1d4b9346e705f3b2a17775805367493-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-r-piel-yljd9/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
       "variants": [
         {
           "id": 1516006619,
@@ -4422,39 +4829,37 @@
       ]
     },
     {
-      "id": "3dtisk-341419541",
-      "sourceProductId": "341419541",
+      "id": "3dtisk-341419529",
+      "sourceProductId": "341419529",
       "store": "3DTisk",
       "domain": "3dtisk.com.ar",
-      "name": "Impresora Elegoo FDM Neptune 4 Max Preventa 2Da Quincena Septiembre",
+      "name": "Impresora Elegoo FDM Orange Storm",
       "category": "Impresoras",
-      "price": 1028900,
+      "price": 8536900,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "purchaseModes": [
-        "Preventa"
-      ],
-      "stock": 4,
-      "stockLabel": "En stock",
+      "purchaseModes": [],
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Elegoo",
       "tags": [
         "Elegoo"
       ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213201790378-e3959f3977928bffe517775804874000-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/impresora-elegoo-fdm-neptune-4-max-preventa-2da-quincena-septiembre-4mcow/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213203710030-2ca46ead05108be89217775804850747-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/impresora-elegoo-fdm-orange-storm-71l46/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
       "variants": [
         {
-          "id": 1516005627,
-          "sku": "486",
-          "price": 1028900,
+          "id": 1516005581,
+          "sku": "487",
+          "price": 8536900,
           "isDeposit": false,
-          "stock": 2,
+          "stock": 1,
           "available": true,
           "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213201790378-e3959f3977928bffe517775804874000-1024-1024.webp"
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213203710030-2ca46ead05108be89217775804850747-1024-1024.webp"
         }
       ]
     },
@@ -4479,7 +4884,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/17708362274246-fd575952d7a7fdc04317775804332636-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-e-hueso-1evrw/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
       "variants": [
         {
           "id": 1516004516,
@@ -4494,13 +4899,119 @@
       ]
     },
     {
+      "id": "3dtisk-341419321",
+      "sourceProductId": "341419321",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "IMPRESORA 3D FLASHFORGE ADVENTURER-5X",
+      "category": "Impresoras",
+      "price": 988900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
+      "available": true,
+      "brand": "Flashforge",
+      "tags": [
+        "Flashforge"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213151484467-c0c7aec2f2c8072a5e17775804287485-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/impresora-3d-flashforge-adventurer-5x-xlmiu/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
+      "variants": [
+        {
+          "id": 1516004443,
+          "sku": "544",
+          "price": 988900,
+          "isDeposit": false,
+          "stock": 1,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213151484467-c0c7aec2f2c8072a5e17775804287485-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-341419312",
+      "sourceProductId": "341419312",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "IMPRESORA 3D FLASHFORGE ADVENTURER-5MPRO",
+      "category": "Impresoras",
+      "price": 890000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
+      "available": true,
+      "brand": "Flashforge",
+      "tags": [
+        "Flashforge"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213150759197-4596cf2523c9045d2a17775804261984-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/impresora-3d-flashforge-adventurer-5mpro-1xnts/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
+      "variants": [
+        {
+          "id": 1516004367,
+          "sku": "545",
+          "price": 890000,
+          "isDeposit": false,
+          "stock": 1,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213150759197-4596cf2523c9045d2a17775804261984-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-341419006",
+      "sourceProductId": "341419006",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "Impresora Bambu Lab H2S Full Combo",
+      "category": "Impresoras",
+      "price": 6873900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab",
+        "Multicolor"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213408951314-561eb86508ae87a27617775803521110-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/impresora-bambu-lab-h2s-full-combo-bz6l6/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
+      "variants": [
+        {
+          "id": 1516002875,
+          "sku": "606",
+          "price": 6873900,
+          "isDeposit": false,
+          "stock": 1,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213408951314-561eb86508ae87a27617775803521110-1024-1024.webp"
+        }
+      ]
+    },
+    {
       "id": "3dtisk-341418655",
       "sourceProductId": "341418655",
       "store": "3DTisk",
       "domain": "3dtisk.com.ar",
       "name": "Impresora Elegoo FDM Centauri Carbon",
       "category": "Impresoras",
-      "price": 1012900,
+      "price": 1053900,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -4519,7 +5030,7 @@
         {
           "id": 1516001142,
           "sku": "691",
-          "price": 1012900,
+          "price": 1053900,
           "isDeposit": false,
           "stock": 1,
           "available": true,
@@ -4603,13 +5114,13 @@
       "domain": "3dtisk.com.ar",
       "name": "Impresora Bambu Lab H2C Combo",
       "category": "Impresoras",
-      "price": 7544900,
+      "price": 7959900,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 4,
-      "stockLabel": "En stock",
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Bambu Lab",
       "tags": [
@@ -4623,9 +5134,9 @@
         {
           "id": 1516000909,
           "sku": "696",
-          "price": 7544900,
+          "price": 7959900,
           "isDeposit": false,
-          "stock": 2,
+          "stock": 1,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213455875664-5641fb4f828596e5f217775802561265-1024-1024.webp"
@@ -4644,8 +5155,8 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 4,
-      "stockLabel": "En stock",
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Bambu Lab",
       "tags": [
@@ -4661,7 +5172,7 @@
           "sku": "697",
           "price": 3001900,
           "isDeposit": false,
-          "stock": 2,
+          "stock": 1,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213465796201-db403bf90355962a2b17775802509011-1024-1024.webp"
@@ -4675,13 +5186,13 @@
       "domain": "3dtisk.com.ar",
       "name": "Impresora Bambu Lab A1",
       "category": "Impresoras",
-      "price": 918900,
+      "price": 968900,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 4,
-      "stockLabel": "En stock",
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Bambu Lab",
       "tags": [
@@ -4694,84 +5205,12 @@
         {
           "id": 1516000762,
           "sku": "698",
-          "price": 918900,
+          "price": 968900,
           "isDeposit": false,
-          "stock": 2,
+          "stock": 1,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213508314532-ee2f5ff9083a622bc217775802476765-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "3dtisk-341418491",
-      "sourceProductId": "341418491",
-      "store": "3DTisk",
-      "domain": "3dtisk.com.ar",
-      "name": "Impresora Creality FDM K2 Combo",
-      "category": "Impresoras",
-      "price": 1500999,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Creality",
-      "tags": [
-        "Creality",
-        "Multicolor"
-      ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213719749567-1f524b904c9e7b7ebb17775802227778-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/impresora-creality-fdm-k2-combo-1k9y5/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
-      "variants": [
-        {
-          "id": 1516000261,
-          "sku": "705",
-          "price": 1500999,
-          "isDeposit": false,
-          "stock": null,
-          "available": true,
-          "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213719749567-1f524b904c9e7b7ebb17775802227778-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "3dtisk-341418470",
-      "sourceProductId": "341418470",
-      "store": "3DTisk",
-      "domain": "3dtisk.com.ar",
-      "name": "Impresora 3D Creality K2 Pro Combo",
-      "category": "Impresoras",
-      "price": 2009999,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Creality",
-      "tags": [
-        "Creality",
-        "Multicolor"
-      ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213728751570-883412792ab099bfc917775802185699-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/impresora-3d-creality-k2-pro-combo-1wl61/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
-      "variants": [
-        {
-          "id": 1516000146,
-          "sku": "706",
-          "price": 2009999,
-          "isDeposit": false,
-          "stock": null,
-          "available": true,
-          "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213728751570-883412792ab099bfc917775802185699-1024-1024.webp"
         }
       ]
     },
@@ -4780,34 +5219,35 @@
       "sourceProductId": "341418442",
       "store": "3DTisk",
       "domain": "3dtisk.com.ar",
-      "name": "Impresora 3D Resina Creality Halot X1 Combo",
+      "name": "Preventa Diciembre Impresora 3D Resina Creality Halot X1 Neo",
       "category": "Resina",
-      "price": 1517999,
+      "price": 510000,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "En stock",
+      "purchaseModes": [
+        "Preventa"
+      ],
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Creality",
       "tags": [
-        "Creality",
-        "Multicolor"
+        "Creality"
       ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213782051880-053b9bbff50cc04cb917775802130672-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/impresora-3d-resina-creality-halot-x1-combo-8vfhu/",
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179227337278898-64ede880655e037d0217922734062455-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/preventa-diciembre-impresora-3d-resina-creality-halot-x1-neo-10nfk/",
       "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
       "variants": [
         {
           "id": 1515999968,
           "sku": "707",
-          "price": 1517999,
+          "price": 510000,
           "isDeposit": false,
-          "stock": null,
+          "stock": 1,
           "available": true,
           "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213782051880-053b9bbff50cc04cb917775802130672-1024-1024.webp"
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179227337278898-64ede880655e037d0217922734062455-1024-1024.webp"
         }
       ]
     },
@@ -4818,13 +5258,13 @@
       "domain": "3dtisk.com.ar",
       "name": "Impresora Bambu Lab H2S Combo",
       "category": "Impresoras",
-      "price": 4456900,
+      "price": 4701900,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 4,
-      "stockLabel": "En stock",
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Bambu Lab",
       "tags": [
@@ -4838,9 +5278,9 @@
         {
           "id": 1515999837,
           "sku": "721",
-          "price": 4456900,
+          "price": 4701900,
           "isDeposit": false,
-          "stock": 2,
+          "stock": 1,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177369481328150-21fa739cbaf448229617775802066302-1024-1024.webp"
@@ -4992,42 +5432,6 @@
       ]
     },
     {
-      "id": "3dtisk-341420388",
-      "sourceProductId": "341420388",
-      "store": "3DTisk",
-      "domain": "3dtisk.com.ar",
-      "name": "Impresora Bambu Lab A1 Combo",
-      "category": "Impresoras",
-      "price": 1464990,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Bambu Lab",
-      "tags": [
-        "Bambu Lab",
-        "Multicolor"
-      ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213488554267-04ec5ae1616f5ee20517775807271086-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/impresora-bambu-lab-a1-combo-1p1jf/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
-      "variants": [
-        {
-          "id": 1516009875,
-          "sku": "307",
-          "price": 1464990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213488554267-04ec5ae1616f5ee20517775807271086-1024-1024.webp"
-        }
-      ]
-    },
-    {
       "id": "3dtisk-341423026",
       "sourceProductId": "341423026",
       "store": "3DTisk",
@@ -5094,6 +5498,42 @@
           "available": false,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177187853820284-fdbb8ba5184e4d3fcf17775805344886-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-341418362",
+      "sourceProductId": "341418362",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "Filamento PLA Elegoo Amarillo",
+      "category": "Impresoras",
+      "price": 25100,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Elegoo",
+      "tags": [
+        "Elegoo",
+        "PLA"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177729619973515-edf28eb0c7a71fcee817775801934935-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/filamento-pla-elegoo-amarillo-1kr44/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
+      "variants": [
+        {
+          "id": 1515999578,
+          "sku": "767",
+          "price": 25100,
+          "isDeposit": false,
+          "stock": 0,
+          "available": false,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177729619973515-edf28eb0c7a71fcee817775801934935-1024-1024.webp"
         }
       ]
     },
@@ -5452,44 +5892,6 @@
       ]
     },
     {
-      "id": "3dtisk-348355111",
-      "sourceProductId": "348355111",
-      "store": "3DTisk",
-      "domain": "3dtisk.com.ar",
-      "name": "Bambu Lab A2L Combo Preventa Octubre",
-      "category": "Impresoras",
-      "price": 1649600,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Preventa"
-      ],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Bambu Lab",
-      "tags": [
-        "Bambu Lab",
-        "Multicolor"
-      ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/178578843993157-09508995912a425dc817857884704175-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/bambu-lab-a2l-combo-preventa-octubre-1qg5k/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
-      "variants": [
-        {
-          "id": 1537207362,
-          "sku": "878",
-          "price": 1649600,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/178578843993157-09508995912a425dc817857884704175-1024-1024.webp"
-        }
-      ]
-    },
-    {
       "id": "3dtisk-344799012",
       "sourceProductId": "344799012",
       "store": "3DTisk",
@@ -5522,147 +5924,6 @@
           "available": false,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177911499850200-e247b8914bd82ab31317791150295003-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "3dtisk-344792385",
-      "sourceProductId": "344792385",
-      "store": "3DTisk",
-      "domain": "3dtisk.com.ar",
-      "name": "IMPRESORA 3D FLASHFORGE CREATOR 5",
-      "category": "Impresoras",
-      "price": 1931900,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Flashforge",
-      "tags": [
-        "Flashforge"
-      ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/178284373978657-b0276ded1ee7e2b14b17828437890871-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/impresora-3d-flashforge-creator-5-km8bx/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
-      "variants": [
-        {
-          "id": 1526604901,
-          "sku": "850",
-          "price": 1931900,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/178284373978657-b0276ded1ee7e2b14b17828437890871-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "3dtisk-344789053",
-      "sourceProductId": "344789053",
-      "store": "3DTisk",
-      "domain": "3dtisk.com.ar",
-      "name": "IMPRESORA 3D FLASHFORGE CREATOR 5 PRO",
-      "category": "Impresoras",
-      "price": 2151900,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Flashforge",
-      "tags": [
-        "Flashforge"
-      ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/17828443088328-b887cf16e23e4d6d0617828443307907-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/impresora-3d-flashforge-creator-5-pro-td786/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
-      "variants": [
-        {
-          "id": 1526593769,
-          "sku": "849",
-          "price": 2151900,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/17828443088328-b887cf16e23e4d6d0617828443307907-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "3dtisk-343789285",
-      "sourceProductId": "343789285",
-      "store": "3DTisk",
-      "domain": "3dtisk.com.ar",
-      "name": "Impresora FDM Bambu Lab P2S",
-      "category": "Impresoras",
-      "price": 1972900,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Bambu Lab",
-      "tags": [
-        "Bambu Lab"
-      ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/178274571062947-34561e3276f827eeac17827457495014-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/impresora-fdm-bambu-lab-p2s-1753c/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
-      "variants": [
-        {
-          "id": 1523708943,
-          "sku": "843",
-          "price": 1972900,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/178274571062947-34561e3276f827eeac17827457495014-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "3dtisk-343543188",
-      "sourceProductId": "343543188",
-      "store": "3DTisk",
-      "domain": "3dtisk.com.ar",
-      "name": "Impresora Creality SPARKX i7 COLOR COMBO",
-      "category": "Impresoras",
-      "price": 1137999,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Creality",
-      "tags": [
-        "Creality",
-        "Multicolor"
-      ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177860048317452-ecc7488abe10830f4617786005867024-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/impresora-creality-sparkx-i7-color-combo-h0jno/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
-      "variants": [
-        {
-          "id": 1522963371,
-          "sku": "836",
-          "price": 1137999,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177860048317452-ecc7488abe10830f4617786005867024-1024-1024.webp"
         }
       ]
     },
@@ -5761,7 +6022,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177859452581617-49643e18920c19658d17785945881293-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/filamento-rapid-petg-elegoo-plata-12u5c/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
       "variants": [
         {
           "id": 1522879653,
@@ -5797,7 +6058,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/rapidpetg1kgorange_1220x1220_crop_center-530446dbbe594d15e317846436886210-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/filamento-rapid-petg-elegoo-naranja-7bqkm/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
       "variants": [
         {
           "id": 1522878297,
@@ -5833,7 +6094,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/rapidpetg1kgred_1220x1220_crop_center-b33a6ecf87f926128517846436105276-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/filamento-rapid-petg-elegoo-rojo-1q7s0/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
       "variants": [
         {
           "id": 1522872429,
@@ -5869,7 +6130,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177859377220934-14132d6b5b132b3cce17785938679724-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/filamento-rapid-petg-elegoo-azul-x6qh9/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
       "variants": [
         {
           "id": 1522868290,
@@ -5905,7 +6166,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177859348014209-2b7924f7633ea1b65817785935090237-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/filamento-rapid-petg-elegoo-verde-a6b1n/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
       "variants": [
         {
           "id": 1522862596,
@@ -5941,7 +6202,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/17785113373100-fa198c829c0c5a67ad17785113694552-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/filamento-rapid-petg-elegoo-amarillo-eyglz/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
       "variants": [
         {
           "id": 1522099885,
@@ -6060,148 +6321,6 @@
           "available": false,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/17785104815346-3bf3c2aaf659e5b7bd17788751560642-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "3dtisk-342861464",
-      "sourceProductId": "342861464",
-      "store": "3DTisk",
-      "domain": "3dtisk.com.ar",
-      "name": "Scanner Creality CR Scan Otter",
-      "category": "Impresoras",
-      "price": 1583999,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Creality",
-      "tags": [
-        "Creality"
-      ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177825618432997-84e561d2ca6c79ce9917786869272166-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/scanner-creality-cr-scan-otter-1k64j/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
-      "variants": [
-        {
-          "id": 1520675093,
-          "sku": "302",
-          "price": 1583999,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177825618432997-84e561d2ca6c79ce9917786869272166-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "3dtisk-342861461",
-      "sourceProductId": "342861461",
-      "store": "3DTisk",
-      "domain": "3dtisk.com.ar",
-      "name": "Scanner Creality CR Raptor",
-      "category": "Impresoras",
-      "price": 2893999,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Creality",
-      "tags": [
-        "Creality"
-      ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177825623942322-3631560a50a00fabe617786868685173-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/scanner-creality-cr-raptor-pr1l4/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
-      "variants": [
-        {
-          "id": 1520675084,
-          "sku": "303",
-          "price": 2893999,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177825623942322-3631560a50a00fabe617786868685173-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "3dtisk-342847029",
-      "sourceProductId": "342847029",
-      "store": "3DTisk",
-      "domain": "3dtisk.com.ar",
-      "name": "Impresora Creality Halot R6 DLP",
-      "category": "Impresoras",
-      "price": 293999,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Creality",
-      "tags": [
-        "Creality"
-      ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177825203997400-3be56099652d4b2c6917786866877965-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/impresora-creality-halot-r6-dlp-1pqu5/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
-      "variants": [
-        {
-          "id": 1520627390,
-          "sku": "298",
-          "price": 293999,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177825203997400-3be56099652d4b2c6917786866877965-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "3dtisk-342642316",
-      "sourceProductId": "342642316",
-      "store": "3DTisk",
-      "domain": "3dtisk.com.ar",
-      "name": "Impresora 3D SnapMaker U1 Preventa Octubre",
-      "category": "Impresoras",
-      "price": 1990000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Preventa"
-      ],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Snapmaker",
-      "tags": [
-        "Snapmaker"
-      ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/17781732853177-28ed6a5fcfc0fa10f717781733279044-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/impresora-3d-snapmaker-u1-preventa-octubre-1igw4/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
-      "variants": [
-        {
-          "id": 1519932549,
-          "sku": "794",
-          "price": 1990000,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/17781732853177-28ed6a5fcfc0fa10f717781733279044-1024-1024.webp"
         }
       ]
     },
@@ -6666,6 +6785,41 @@
       ]
     },
     {
+      "id": "3dtisk-341423070",
+      "sourceProductId": "341423070",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "Hellbot R.Naranja",
+      "category": "Accesorios",
+      "price": 17850,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084203519113-cafc42e0238d1f658617775813215786-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/hellbot-r-naranja-ak1ux/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
+      "variants": [
+        {
+          "id": 1516020393,
+          "sku": "53",
+          "price": 17850,
+          "isDeposit": false,
+          "stock": 0,
+          "available": false,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084203519113-cafc42e0238d1f658617775813215786-1024-1024.webp"
+        }
+      ]
+    },
+    {
       "id": "3dtisk-341422941",
       "sourceProductId": "341422941",
       "store": "3DTisk",
@@ -6736,189 +6890,13 @@
       ]
     },
     {
-      "id": "3dtisk-341420564",
-      "sourceProductId": "341420564",
+      "id": "3dtisk-341419541",
+      "sourceProductId": "341419541",
       "store": "3DTisk",
       "domain": "3dtisk.com.ar",
-      "name": "Impresora Creality Ender 3 V3 SE",
+      "name": "Impresora Elegoo FDM Neptune 4 Max",
       "category": "Impresoras",
-      "price": 370999,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Creality",
-      "tags": [
-        "Creality"
-      ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213628873343-c79acfeb116c76917717775807846841-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/impresora-creality-ender-3-v3-se-156na/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
-      "variants": [
-        {
-          "id": 1516010697,
-          "sku": "276",
-          "price": 370999,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213628873343-c79acfeb116c76917717775807846841-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "3dtisk-341420550",
-      "sourceProductId": "341420550",
-      "store": "3DTisk",
-      "domain": "3dtisk.com.ar",
-      "name": "Impresora Creality Ender 3 V3 KE",
-      "category": "Impresoras",
-      "price": 511999,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Creality",
-      "tags": [
-        "Creality"
-      ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213634529850-6ce67a99a73338c1e817775807808510-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/impresora-creality-ender-3-v3-ke-1pzhk/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
-      "variants": [
-        {
-          "id": 1516010628,
-          "sku": "277",
-          "price": 511999,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213634529850-6ce67a99a73338c1e817775807808510-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "3dtisk-341420493",
-      "sourceProductId": "341420493",
-      "store": "3DTisk",
-      "domain": "3dtisk.com.ar",
-      "name": "Impresora 3D Creality K2 Plus Combo",
-      "category": "Impresoras",
-      "price": 3040999,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Creality",
-      "tags": [
-        "Creality",
-        "Multicolor"
-      ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213683867045-e2669a4a3e434cef0017775807622560-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/impresora-3d-creality-k2-plus-combo-150yh/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
-      "variants": [
-        {
-          "id": 1516010392,
-          "sku": "284",
-          "price": 3040999,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213683867045-e2669a4a3e434cef0017775807622560-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "3dtisk-341420481",
-      "sourceProductId": "341420481",
-      "store": "3DTisk",
-      "domain": "3dtisk.com.ar",
-      "name": "Impresora Creality Ender 5 Max",
-      "category": "Impresoras",
-      "price": 1570999,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Creality",
-      "tags": [
-        "Creality"
-      ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213691422143-22eea98c65d866ccb717775807581928-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/impresora-creality-ender-5-max-1aca9/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
-      "variants": [
-        {
-          "id": 1516010330,
-          "sku": "286",
-          "price": 1570999,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213691422143-22eea98c65d866ccb717775807581928-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "3dtisk-341420415",
-      "sourceProductId": "341420415",
-      "store": "3DTisk",
-      "domain": "3dtisk.com.ar",
-      "name": "Maquina de Lavado Creality UW-03",
-      "category": "Impresoras",
-      "price": 415999,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Creality",
-      "tags": [
-        "Creality"
-      ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213770847-02574776540c87c29417775807374713-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/maquina-de-lavado-creality-uw-03-179l8/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
-      "variants": [
-        {
-          "id": 1516009992,
-          "sku": "301",
-          "price": 415999,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213770847-02574776540c87c29417775807374713-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "3dtisk-341419529",
-      "sourceProductId": "341419529",
-      "store": "3DTisk",
-      "domain": "3dtisk.com.ar",
-      "name": "Impresora Elegoo FDM Orange Storm",
-      "category": "Impresoras",
-      "price": 8200900,
+      "price": 1028900,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -6930,19 +6908,19 @@
       "tags": [
         "Elegoo"
       ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213203710030-2ca46ead05108be89217775804850747-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/impresora-elegoo-fdm-orange-storm-71l46/",
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213201790378-e3959f3977928bffe517775804874000-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/impresora-elegoo-fdm-neptune-4-max-ab824/",
       "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
       "variants": [
         {
-          "id": 1516005581,
-          "sku": "487",
-          "price": 8200900,
+          "id": 1516005627,
+          "sku": "486",
+          "price": 1028900,
           "isDeposit": false,
           "stock": 0,
           "available": false,
           "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213203710030-2ca46ead05108be89217775804850747-1024-1024.webp"
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213201790378-e3959f3977928bffe517775804874000-1024-1024.webp"
         }
       ]
     },
@@ -7017,83 +6995,13 @@
       ]
     },
     {
-      "id": "3dtisk-341419321",
-      "sourceProductId": "341419321",
-      "store": "3DTisk",
-      "domain": "3dtisk.com.ar",
-      "name": "IMPRESORA 3D FLASHFORGE ADVENTURER-5X",
-      "category": "Impresoras",
-      "price": 861900,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Flashforge",
-      "tags": [
-        "Flashforge"
-      ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213151484467-c0c7aec2f2c8072a5e17775804287485-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/impresora-3d-flashforge-adventurer-5x-xlmiu/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
-      "variants": [
-        {
-          "id": 1516004443,
-          "sku": "544",
-          "price": 861900,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213151484467-c0c7aec2f2c8072a5e17775804287485-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "3dtisk-341419312",
-      "sourceProductId": "341419312",
-      "store": "3DTisk",
-      "domain": "3dtisk.com.ar",
-      "name": "IMPRESORA 3D FLASHFORGE ADVENTURER-5MPRO",
-      "category": "Impresoras",
-      "price": 837900,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Flashforge",
-      "tags": [
-        "Flashforge"
-      ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213150759197-4596cf2523c9045d2a17775804261984-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/impresora-3d-flashforge-adventurer-5mpro-1xnts/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
-      "variants": [
-        {
-          "id": 1516004367,
-          "sku": "545",
-          "price": 837900,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213150759197-4596cf2523c9045d2a17775804261984-1024-1024.webp"
-        }
-      ]
-    },
-    {
       "id": "3dtisk-341419292",
       "sourceProductId": "341419292",
       "store": "3DTisk",
       "domain": "3dtisk.com.ar",
-      "name": "Impresora Bambu Lab H2D AMS COMBO",
+      "name": "Impresora Bambu Lab H2D COMBO",
       "category": "Impresoras",
-      "price": 6000900,
+      "price": 6330900,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -7107,13 +7015,13 @@
         "Multicolor"
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213418116666-2eb15564e168b569e417775804207740-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/impresora-bambu-lab-h2d-ams-combo-1gtzt/",
+      "url": "https://3dtisk.com.ar/productos/impresora-bambu-lab-h2d-combo-1o3nm/",
       "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
       "variants": [
         {
           "id": 1516004283,
           "sku": "546",
-          "price": 6000900,
+          "price": 6330900,
           "isDeposit": false,
           "stock": 0,
           "available": false,
@@ -7158,42 +7066,6 @@
       ]
     },
     {
-      "id": "3dtisk-341419006",
-      "sourceProductId": "341419006",
-      "store": "3DTisk",
-      "domain": "3dtisk.com.ar",
-      "name": "Impresora Bambu Lab H2S Full Combo",
-      "category": "Impresoras",
-      "price": 6515900,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Bambu Lab",
-      "tags": [
-        "Bambu Lab",
-        "Multicolor"
-      ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213408951314-561eb86508ae87a27617775803521110-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/impresora-bambu-lab-h2s-full-combo-bz6l6/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=6",
-      "variants": [
-        {
-          "id": 1516002875,
-          "sku": "606",
-          "price": 6515900,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213408951314-561eb86508ae87a27617775803521110-1024-1024.webp"
-        }
-      ]
-    },
-    {
       "id": "3dtisk-341418639",
       "sourceProductId": "341418639",
       "store": "3DTisk",
@@ -7214,7 +7086,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213290571872-9740a6daddf61a288b17775802633133-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/impresora-elegoo-resina-mars-5-ultra-7k-1n0q4/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=6",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
       "variants": [
         {
           "id": 1516001064,
@@ -7225,77 +7097,6 @@
           "available": false,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213290571872-9740a6daddf61a288b17775802633133-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "3dtisk-341418559",
-      "sourceProductId": "341418559",
-      "store": "3DTisk",
-      "domain": "3dtisk.com.ar",
-      "name": "Impresora 3D Bambu Lab A1 Mini",
-      "category": "Impresoras",
-      "price": 578900,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Bambu Lab",
-      "tags": [
-        "Bambu Lab"
-      ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213531665403-bce84f780f666a139b17775802412200-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/impresora-3d-bambu-lab-a1-mini-cnsek/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=6",
-      "variants": [
-        {
-          "id": 1516000655,
-          "sku": "699",
-          "price": 578900,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177213531665403-bce84f780f666a139b17775802412200-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "3dtisk-341418362",
-      "sourceProductId": "341418362",
-      "store": "3DTisk",
-      "domain": "3dtisk.com.ar",
-      "name": "Filamento PLA Elegoo Amarillo",
-      "category": "Impresoras",
-      "price": 25100,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Elegoo",
-      "tags": [
-        "Elegoo",
-        "PLA"
-      ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177729619973515-edf28eb0c7a71fcee817775801934935-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/filamento-pla-elegoo-amarillo-1kr44/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=6",
-      "variants": [
-        {
-          "id": 1515999578,
-          "sku": "767",
-          "price": 25100,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177729619973515-edf28eb0c7a71fcee817775801934935-1024-1024.webp"
         }
       ]
     },
@@ -7321,7 +7122,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/17772971363747-56d90fa13f8a135e4a17775801873160-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/filamento-pla-elegoo-purpura-hrs70/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=6",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
       "variants": [
         {
           "id": 1515999456,
@@ -7357,7 +7158,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177729745416278-681bf192e5fdc40b0817775801825394-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/filamento-pla-elegoo-azul-oscuro-1n3zo/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=6",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
       "variants": [
         {
           "id": 1515999362,
@@ -7393,7 +7194,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177729828492721-e95c17479edca5311517775801756384-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/filamento-pla-elegoo-marmol-1qbas/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=6",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
       "variants": [
         {
           "id": 1515999229,
@@ -7429,7 +7230,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177729903999129-a2bdc7c2079ad14d3617775800735944-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/filamento-pla-elegoo-madera-vxks9/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=6",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
       "variants": [
         {
           "id": 1515996613,

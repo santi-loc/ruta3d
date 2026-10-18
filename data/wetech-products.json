@@ -5,15 +5,15 @@
     "baseUrl": "https://shop.wetech.ar",
     "listingPath": "/products"
   },
-  "scrapedAt": "2026-10-17T12:03:34.291Z",
-  "count": 293,
+  "scrapedAt": "2026-10-18T12:31:35.973Z",
+  "count": 292,
   "pages": [
     {
       "page": 1,
       "path": "/stk-item/catalogo",
       "url": "https://back.wetech.ar/stk-item/catalogo",
       "found": 619,
-      "added": 293
+      "added": 292
     }
   ],
   "products": [
@@ -24,10 +24,10 @@
       "domain": "shop.wetech.ar",
       "name": "3n3 ePET Estándar",
       "category": "Filamentos",
-      "price": 21999,
+      "price": 23528,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 18699.15,
+      "transferPrice": 19998.8,
       "stock": 27,
       "stockLabel": "En stock",
       "available": true,
@@ -47,7 +47,7 @@
         {
           "id": "3N-EPET-1KG-AZTR",
           "available": true,
-          "price": 21999,
+          "price": 23528,
           "options": [
             "Azul Traful",
             "1kg",
@@ -59,7 +59,7 @@
         {
           "id": "3N-EPET-1KG-BLAN",
           "available": false,
-          "price": 21999,
+          "price": 23528,
           "options": [
             "Blanco",
             "1kg",
@@ -71,7 +71,7 @@
         {
           "id": "3N-EPET-1KG-GRES",
           "available": false,
-          "price": 21999,
+          "price": 23528,
           "options": [
             "Gris Espacial",
             "1kg",
@@ -83,7 +83,7 @@
         {
           "id": "3N-EPET-1KG-NEGR",
           "available": true,
-          "price": 21999,
+          "price": 23528,
           "options": [
             "Negro",
             "1kg",
@@ -95,7 +95,7 @@
         {
           "id": "3N-EPET-1KG-ROCA",
           "available": true,
-          "price": 21999,
+          "price": 23528,
           "options": [
             "Rojo Carmin",
             "1kg",
@@ -107,7 +107,7 @@
         {
           "id": "3N-EPET-1KG-VELI",
           "available": true,
-          "price": 21999,
+          "price": 23528,
           "options": [
             "Verde Lima",
             "1kg",
@@ -125,11 +125,11 @@
       "domain": "shop.wetech.ar",
       "name": "3n3 PetG Estándar",
       "category": "Filamentos",
-      "price": 19999,
+      "price": 23528,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 16999.15,
-      "stock": 16,
+      "transferPrice": 19998.8,
+      "stock": 9,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3n3",
@@ -148,7 +148,7 @@
         {
           "id": "3N-PETG-1KG-AZUL",
           "available": true,
-          "price": 19999,
+          "price": 23528,
           "options": [
             "Azul",
             "1kg",
@@ -160,7 +160,7 @@
         {
           "id": "3N-PETG-1KG-BLAN",
           "available": false,
-          "price": 19999,
+          "price": 23528,
           "options": [
             "Blanco",
             "1kg",
@@ -172,7 +172,7 @@
         {
           "id": "3N-PETG-1KG-BRON",
           "available": true,
-          "price": 19999,
+          "price": 23528,
           "options": [
             "Bronce",
             "1kg",
@@ -184,7 +184,7 @@
         {
           "id": "3N-PETG-1KG-GRES",
           "available": false,
-          "price": 19999,
+          "price": 23528,
           "options": [
             "Gris Espacial",
             "1kg",
@@ -195,8 +195,8 @@
         },
         {
           "id": "3N-PETG-1KG-NEGR",
-          "available": true,
-          "price": 19999,
+          "available": false,
+          "price": 23528,
           "options": [
             "Negro",
             "1kg",
@@ -208,7 +208,7 @@
         {
           "id": "3N-PETG-1KG-ROJO",
           "available": false,
-          "price": 19999,
+          "price": 23528,
           "options": [
             "Rojo",
             "1kg",
@@ -226,11 +226,11 @@
       "domain": "shop.wetech.ar",
       "name": "3n3 PLA Estándar",
       "category": "Filamentos",
-      "price": 14705,
+      "price": 15058,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 12499.25,
-      "stock": 458,
+      "transferPrice": 12799.3,
+      "stock": 453,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3n3",
@@ -250,7 +250,7 @@
         {
           "id": "3N-PLA-1KG-AMAR",
           "available": true,
-          "price": 23528,
+          "price": 24705,
           "options": [
             "Amarillo",
             "1kg",
@@ -262,7 +262,7 @@
         {
           "id": "3N-PLA-1KG-AMFL",
           "available": true,
-          "price": 23528,
+          "price": 24705,
           "options": [
             "Amarillo Fluo",
             "1kg",
@@ -274,7 +274,7 @@
         {
           "id": "3N-PLA-1KG-HUES",
           "available": false,
-          "price": 23528,
+          "price": 24705,
           "options": [
             "Hueso",
             "1kg",
@@ -286,7 +286,7 @@
         {
           "id": "3N-PLA-1KG-AZUL",
           "available": false,
-          "price": 23528,
+          "price": 24705,
           "options": [
             "Azul",
             "1kg",
@@ -298,7 +298,7 @@
         {
           "id": "3N-PLA-1KG-BLAN",
           "available": true,
-          "price": 23528,
+          "price": 24705,
           "options": [
             "Blanco",
             "1kg",
@@ -310,7 +310,7 @@
         {
           "id": "3N-PLA-1KG-BRON",
           "available": true,
-          "price": 23528,
+          "price": 24705,
           "options": [
             "Bronce",
             "1kg",
@@ -322,7 +322,7 @@
         {
           "id": "3N-PLA-1KG-CELE",
           "available": true,
-          "price": 23528,
+          "price": 24705,
           "options": [
             "Celeste",
             "1kg",
@@ -334,7 +334,7 @@
         {
           "id": "3N-PLA-1KG-COBR",
           "available": true,
-          "price": 23528,
+          "price": 24705,
           "options": [
             "Cobre",
             "1kg",
@@ -346,7 +346,7 @@
         {
           "id": "3N-PLA-1KG-ORO",
           "available": false,
-          "price": 23528,
+          "price": 24705,
           "options": [
             "Oro",
             "1kg",
@@ -358,7 +358,7 @@
         {
           "id": "3N-PLA-1KG-FUCS",
           "available": true,
-          "price": 23528,
+          "price": 24705,
           "options": [
             "Fucsia",
             "1kg",
@@ -370,7 +370,7 @@
         {
           "id": "3N-PLA-1KG-GRAC",
           "available": true,
-          "price": 23528,
+          "price": 24705,
           "options": [
             "Gris Acero",
             "1kg",
@@ -382,7 +382,7 @@
         {
           "id": "3N-PLA-1KG-GRPL",
           "available": false,
-          "price": 23528,
+          "price": 24705,
           "options": [
             "Gris Plomo",
             "1kg",
@@ -394,7 +394,7 @@
         {
           "id": "3N-PLA-1KG-HABA",
           "available": false,
-          "price": 23528,
+          "price": 24705,
           "options": [
             "Habano",
             "1kg",
@@ -406,7 +406,7 @@
         {
           "id": "3N-PLA-1KG-NARA",
           "available": false,
-          "price": 23528,
+          "price": 24705,
           "options": [
             "Naranja",
             "1kg",
@@ -418,7 +418,7 @@
         {
           "id": "3N-PLA-1KG-NEGR",
           "available": false,
-          "price": 23528,
+          "price": 24705,
           "options": [
             "Negro",
             "1kg",
@@ -430,7 +430,7 @@
         {
           "id": "3N-PLA-1KG-ROJO",
           "available": false,
-          "price": 23528,
+          "price": 24705,
           "options": [
             "Rojo",
             "1kg",
@@ -442,7 +442,7 @@
         {
           "id": "3N-PLA-1KG-ROSA",
           "available": false,
-          "price": 23528,
+          "price": 24705,
           "options": [
             "Rosa",
             "1kg",
@@ -454,7 +454,7 @@
         {
           "id": "3N-PLA-1KG-RUST",
           "available": true,
-          "price": 23528,
+          "price": 24705,
           "options": [
             "Rustico",
             "1kg",
@@ -466,7 +466,7 @@
         {
           "id": "3N-PLA-1KG-NATU",
           "available": true,
-          "price": 23528,
+          "price": 24705,
           "options": [
             "Translucido Natural",
             "1kg",
@@ -478,7 +478,7 @@
         {
           "id": "3N-PLA-1KG-VEFL",
           "available": false,
-          "price": 23528,
+          "price": 24705,
           "options": [
             "Verde Fluo",
             "1kg",
@@ -490,7 +490,7 @@
         {
           "id": "3N-PLA-1KG-VERD",
           "available": false,
-          "price": 23528,
+          "price": 24705,
           "options": [
             "Verde Jade Perlado",
             "1kg",
@@ -502,7 +502,7 @@
         {
           "id": "3N-PLA-1KG-VIOL",
           "available": false,
-          "price": 23528,
+          "price": 24705,
           "options": [
             "Violeta",
             "1kg",
@@ -514,7 +514,7 @@
         {
           "id": "3N-PLA-500-AMAR",
           "available": true,
-          "price": 14705,
+          "price": 15058,
           "options": [
             "Amarillo",
             "0.5kg",
@@ -526,7 +526,7 @@
         {
           "id": "3N-PLA-500-AZUL",
           "available": false,
-          "price": 14705,
+          "price": 15058,
           "options": [
             "Azul",
             "0.5kg",
@@ -538,7 +538,7 @@
         {
           "id": "3N-PLA-500-BLAN",
           "available": true,
-          "price": 14705,
+          "price": 15058,
           "options": [
             "Blanco",
             "0.5kg",
@@ -550,7 +550,7 @@
         {
           "id": "3N-PLA-500-BRON",
           "available": true,
-          "price": 14705,
+          "price": 15058,
           "options": [
             "Bronce",
             "0.5kg",
@@ -562,7 +562,7 @@
         {
           "id": "3N-PLA-500-CELE",
           "available": true,
-          "price": 14705,
+          "price": 15058,
           "options": [
             "Celeste",
             "0.5kg",
@@ -574,7 +574,7 @@
         {
           "id": "3N-PLA-500-FUCS",
           "available": true,
-          "price": 14705,
+          "price": 15058,
           "options": [
             "Fucsia",
             "0.5kg",
@@ -586,7 +586,7 @@
         {
           "id": "3N-PLA-500-GRPL",
           "available": true,
-          "price": 14705,
+          "price": 15058,
           "options": [
             "Gris Plomo",
             "0.5kg",
@@ -598,7 +598,7 @@
         {
           "id": "3N-PLA-500-NARA",
           "available": false,
-          "price": 14705,
+          "price": 15058,
           "options": [
             "Naranja",
             "0.5kg",
@@ -610,7 +610,7 @@
         {
           "id": "3N-PLA-500-NEGR",
           "available": true,
-          "price": 14705,
+          "price": 15058,
           "options": [
             "Negro",
             "0.5kg",
@@ -622,7 +622,7 @@
         {
           "id": "3N-PLA-500-ROJO",
           "available": false,
-          "price": 14705,
+          "price": 15058,
           "options": [
             "Rojo",
             "0.5kg",
@@ -634,7 +634,7 @@
         {
           "id": "3N-PLA-500-VEFL",
           "available": false,
-          "price": 14705,
+          "price": 15058,
           "options": [
             "Verde Fluo",
             "0.5kg",
@@ -652,10 +652,10 @@
       "domain": "shop.wetech.ar",
       "name": "3n3 PLA Silk Estándar",
       "category": "Filamentos",
-      "price": 29410,
+      "price": 30587,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 24998.5,
+      "transferPrice": 25998.95,
       "stock": 54,
       "stockLabel": "En stock",
       "available": true,
@@ -675,7 +675,7 @@
         {
           "id": "3N-SILK-1KG-ALUM",
           "available": true,
-          "price": 29410,
+          "price": 30587,
           "options": [
             "Aluminio",
             "1kg",
@@ -687,7 +687,7 @@
         {
           "id": "3N-SILK-1KG-MALA",
           "available": true,
-          "price": 29410,
+          "price": 30587,
           "options": [
             "Malaquita Verde",
             "1kg",
@@ -699,7 +699,7 @@
         {
           "id": "3N-SILK-1KG-PAPA",
           "available": true,
-          "price": 29410,
+          "price": 30587,
           "options": [
             "Papaya",
             "1kg",
@@ -711,7 +711,7 @@
         {
           "id": "3N-SILK-1KG-PLAT",
           "available": true,
-          "price": 29410,
+          "price": 30587,
           "options": [
             "Plata",
             "1kg",
@@ -723,7 +723,7 @@
         {
           "id": "3N-SILK-1KG-ROJO",
           "available": true,
-          "price": 29410,
+          "price": 30587,
           "options": [
             "Rojo",
             "1kg",
@@ -741,11 +741,11 @@
       "domain": "shop.wetech.ar",
       "name": "3n3 TPU Estándar",
       "category": "Filamentos",
-      "price": 24705,
+      "price": 27058,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 20999.25,
-      "stock": 52,
+      "transferPrice": 22999.3,
+      "stock": 51,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3n3",
@@ -765,7 +765,7 @@
         {
           "id": "3N-TPU-1KG-AZUL",
           "available": false,
-          "price": 35293,
+          "price": 39411,
           "options": [
             "Azul",
             "1kg",
@@ -777,7 +777,7 @@
         {
           "id": "3N-TPU-1KG-BLAN",
           "available": true,
-          "price": 35293,
+          "price": 39411,
           "options": [
             "Blanco",
             "1kg",
@@ -789,7 +789,7 @@
         {
           "id": "3N-TPU-1KG-GRPL",
           "available": false,
-          "price": 35293,
+          "price": 39411,
           "options": [
             "Gris Plomo",
             "1kg",
@@ -801,7 +801,7 @@
         {
           "id": "3N-TPU-1KG-NEGR",
           "available": false,
-          "price": 35293,
+          "price": 39411,
           "options": [
             "Negro",
             "1kg",
@@ -813,7 +813,7 @@
         {
           "id": "3N-TPU-1KG-ROJO",
           "available": false,
-          "price": 35293,
+          "price": 39411,
           "options": [
             "Rojo",
             "1kg",
@@ -825,7 +825,7 @@
         {
           "id": "3N-TPU-1KG-VERD",
           "available": false,
-          "price": 35293,
+          "price": 39411,
           "options": [
             "Verde",
             "1kg",
@@ -837,7 +837,7 @@
         {
           "id": "3N-TPU-500-AZUL",
           "available": true,
-          "price": 24705,
+          "price": 27058,
           "options": [
             "Azul",
             "0.5kg",
@@ -849,7 +849,7 @@
         {
           "id": "3N-TPU-500-BLAN",
           "available": false,
-          "price": 24705,
+          "price": 27058,
           "options": [
             "Blanco",
             "0.5kg",
@@ -861,7 +861,7 @@
         {
           "id": "3N-TPU-500-GRPL",
           "available": false,
-          "price": 24705,
+          "price": 27058,
           "options": [
             "Gris Plomo",
             "0.5kg",
@@ -873,7 +873,7 @@
         {
           "id": "3N-TPU-500-NEGR",
           "available": false,
-          "price": 24705,
+          "price": 27058,
           "options": [
             "Negro",
             "0.5kg",
@@ -885,7 +885,7 @@
         {
           "id": "3N-TPU-500-ROJO",
           "available": true,
-          "price": 24705,
+          "price": 27058,
           "options": [
             "Rojo",
             "0.5kg",
@@ -897,7 +897,7 @@
         {
           "id": "3N-TPU-500-VERD",
           "available": true,
-          "price": 24705,
+          "price": 27058,
           "options": [
             "Verde",
             "0.5kg",
@@ -915,10 +915,10 @@
       "domain": "shop.wetech.ar",
       "name": "3nFlex PLA+ Flex Estándar",
       "category": "Filamentos",
-      "price": 29411,
+      "price": 30587,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 24999.35,
+      "transferPrice": 25998.95,
       "stock": 25,
       "stockLabel": "En stock",
       "available": true,
@@ -938,7 +938,7 @@
         {
           "id": "3X-PLAF-1KG-AMAR",
           "available": false,
-          "price": 29411,
+          "price": 30587,
           "options": [
             "Amarillo",
             "1kg",
@@ -950,7 +950,7 @@
         {
           "id": "3X-PLAF-1KG-AZPR",
           "available": false,
-          "price": 29411,
+          "price": 30587,
           "options": [
             "Azul Prusia",
             "1kg",
@@ -962,7 +962,7 @@
         {
           "id": "3X-PLAF-1KG-BLAN",
           "available": false,
-          "price": 29411,
+          "price": 30587,
           "options": [
             "Blanco",
             "1kg",
@@ -974,7 +974,7 @@
         {
           "id": "3X-PLAF-1KG-BRON",
           "available": false,
-          "price": 29411,
+          "price": 30587,
           "options": [
             "Bronce",
             "1kg",
@@ -986,7 +986,7 @@
         {
           "id": "3X-PLAF-1KG-GRPL",
           "available": false,
-          "price": 29411,
+          "price": 30587,
           "options": [
             "Gris Plomo",
             "1kg",
@@ -998,7 +998,7 @@
         {
           "id": "3X-PLAF-1KG-NARA",
           "available": false,
-          "price": 29411,
+          "price": 30587,
           "options": [
             "Naranja",
             "1kg",
@@ -1010,7 +1010,7 @@
         {
           "id": "3X-PLAF-1KG-NEGR",
           "available": false,
-          "price": 29411,
+          "price": 30587,
           "options": [
             "Negro",
             "1kg",
@@ -1022,7 +1022,7 @@
         {
           "id": "3X-PLAF-1KG-PI16",
           "available": false,
-          "price": 29411,
+          "price": 30587,
           "options": [
             "Piel 162",
             "1kg",
@@ -1034,7 +1034,7 @@
         {
           "id": "3X-PLAF-1KG-PI72",
           "available": false,
-          "price": 29411,
+          "price": 30587,
           "options": [
             "Piel 720",
             "1kg",
@@ -1046,7 +1046,7 @@
         {
           "id": "3X-PLAF-1KG-ROJO",
           "available": true,
-          "price": 29411,
+          "price": 30587,
           "options": [
             "Rojo",
             "1kg",
@@ -1058,7 +1058,7 @@
         {
           "id": "3X-PLAF-1KG-ROSA",
           "available": false,
-          "price": 29411,
+          "price": 30587,
           "options": [
             "Rosa",
             "1kg",
@@ -1070,7 +1070,7 @@
         {
           "id": "3X-PLAF-1KG-VERD",
           "available": true,
-          "price": 29411,
+          "price": 30587,
           "options": [
             "Verde",
             "1kg",
@@ -1082,7 +1082,7 @@
         {
           "id": "3X-PLAF-1KG-VEMA",
           "available": true,
-          "price": 29411,
+          "price": 30587,
           "options": [
             "Verde Manzana",
             "1kg",
@@ -1100,11 +1100,11 @@
       "domain": "shop.wetech.ar",
       "name": "3nMax PLA+ Matte Estándar",
       "category": "Filamentos",
-      "price": 19411,
+      "price": 19999,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 16499.35,
-      "stock": 297,
+      "transferPrice": 16999.15,
+      "stock": 282,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3nMax",
@@ -1124,7 +1124,7 @@
         {
           "id": "3X-PLA-1KG-AMAR",
           "available": true,
-          "price": 23528,
+          "price": 24705,
           "options": [
             "Amarillo",
             "1kg",
@@ -1136,7 +1136,7 @@
         {
           "id": "3X-PLA-1KG-AZUL",
           "available": false,
-          "price": 23528,
+          "price": 24705,
           "options": [
             "Azul",
             "1kg",
@@ -1148,7 +1148,7 @@
         {
           "id": "3X-PLA-1KG-BLAN",
           "available": true,
-          "price": 23528,
+          "price": 24705,
           "options": [
             "Blanco",
             "1kg",
@@ -1160,7 +1160,7 @@
         {
           "id": "3X-PLA-1KG-BRON",
           "available": false,
-          "price": 23528,
+          "price": 24705,
           "options": [
             "Bronce",
             "1kg",
@@ -1172,7 +1172,7 @@
         {
           "id": "3X-PLA-1KG-CELE",
           "available": true,
-          "price": 23528,
+          "price": 24705,
           "options": [
             "Celeste",
             "1kg",
@@ -1184,7 +1184,7 @@
         {
           "id": "3X-PLA-1KG-CHOC",
           "available": false,
-          "price": 23528,
+          "price": 24705,
           "options": [
             "Chocolate",
             "1kg",
@@ -1196,7 +1196,7 @@
         {
           "id": "3X-PLA-1KG-GRPL",
           "available": true,
-          "price": 23528,
+          "price": 24705,
           "options": [
             "Gris Plomo",
             "1kg",
@@ -1208,7 +1208,7 @@
         {
           "id": "3X-PLA-1KG-LILA",
           "available": true,
-          "price": 23528,
+          "price": 24705,
           "options": [
             "Lila",
             "1kg",
@@ -1220,7 +1220,7 @@
         {
           "id": "3X-PLA-1KG-NARA",
           "available": false,
-          "price": 23528,
+          "price": 24705,
           "options": [
             "Naranja",
             "1kg",
@@ -1232,7 +1232,7 @@
         {
           "id": "3X-PLA-1KG-NEGR",
           "available": true,
-          "price": 23528,
+          "price": 24705,
           "options": [
             "Negro",
             "1kg",
@@ -1244,7 +1244,7 @@
         {
           "id": "3X-PLA-1KG-ROJO",
           "available": true,
-          "price": 23528,
+          "price": 24705,
           "options": [
             "Rojo",
             "1kg",
@@ -1256,7 +1256,7 @@
         {
           "id": "3X-PLA-1KG-ROSA",
           "available": true,
-          "price": 23528,
+          "price": 24705,
           "options": [
             "Rosa",
             "1kg",
@@ -1268,7 +1268,7 @@
         {
           "id": "3X-PLA-1KG-UVA",
           "available": true,
-          "price": 23528,
+          "price": 24705,
           "options": [
             "Uva",
             "1kg",
@@ -1280,7 +1280,7 @@
         {
           "id": "3X-PLA-1KG-VERD",
           "available": true,
-          "price": 23528,
+          "price": 24705,
           "options": [
             "Verde",
             "1kg",
@@ -1292,7 +1292,7 @@
         {
           "id": "3X-PLA-750-AMAR",
           "available": false,
-          "price": 19411,
+          "price": 19999,
           "options": [
             "Amarillo",
             "0.75kg",
@@ -1304,7 +1304,7 @@
         {
           "id": "3X-PLA-750-AZUL",
           "available": false,
-          "price": 19411,
+          "price": 19999,
           "options": [
             "Azul",
             "0.75kg",
@@ -1316,7 +1316,7 @@
         {
           "id": "3X-PLA-750-BLAN",
           "available": false,
-          "price": 19411,
+          "price": 19999,
           "options": [
             "Blanco",
             "0.75kg",
@@ -1328,7 +1328,7 @@
         {
           "id": "3X-PLA-750-BRON",
           "available": true,
-          "price": 19411,
+          "price": 19999,
           "options": [
             "Bronce",
             "0.75kg",
@@ -1340,7 +1340,7 @@
         {
           "id": "3X-PLA-750-CELE",
           "available": true,
-          "price": 19411,
+          "price": 19999,
           "options": [
             "Celeste",
             "0.75kg",
@@ -1352,7 +1352,7 @@
         {
           "id": "3X-PLA-750-CHOC",
           "available": true,
-          "price": 19411,
+          "price": 19999,
           "options": [
             "Chocolate",
             "0.75kg",
@@ -1364,7 +1364,7 @@
         {
           "id": "3X-PLA-750-GRPL",
           "available": false,
-          "price": 19411,
+          "price": 19999,
           "options": [
             "Gris Plomo",
             "0.75kg",
@@ -1376,7 +1376,7 @@
         {
           "id": "3X-PLA-750-LILA",
           "available": false,
-          "price": 19411,
+          "price": 19999,
           "options": [
             "Lila",
             "0.75kg",
@@ -1388,7 +1388,7 @@
         {
           "id": "3X-PLA-750-NARA",
           "available": false,
-          "price": 19411,
+          "price": 19999,
           "options": [
             "Naranja",
             "0.75kg",
@@ -1400,7 +1400,7 @@
         {
           "id": "3X-PLA-750-NEGR",
           "available": false,
-          "price": 19411,
+          "price": 19999,
           "options": [
             "Negro",
             "0.75kg",
@@ -1412,7 +1412,7 @@
         {
           "id": "3X-PLA-750-ROJO",
           "available": false,
-          "price": 19411,
+          "price": 19999,
           "options": [
             "Rojo",
             "0.75kg",
@@ -1424,7 +1424,7 @@
         {
           "id": "3X-PLA-750-ROSA",
           "available": true,
-          "price": 19411,
+          "price": 19999,
           "options": [
             "Rosa",
             "0.75kg",
@@ -1436,7 +1436,7 @@
         {
           "id": "3X-PLA-750-VERD",
           "available": true,
-          "price": 19411,
+          "price": 19999,
           "options": [
             "Verde",
             "0.75kg",
@@ -1698,7 +1698,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 5164.6,
-      "stock": 16,
+      "stock": 15,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -2268,8 +2268,8 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 8939.24,
-      "stock": 4,
-      "stockLabel": "En stock",
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": null,
       "tags": [
@@ -5138,10 +5138,10 @@
       "domain": "shop.wetech.ar",
       "name": "Elegoo PLA Matte Premium",
       "category": "Filamentos",
-      "price": 31175,
+      "price": 32940,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 26498.75,
+      "transferPrice": 27999,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -5161,7 +5161,7 @@
         {
           "id": "EG-PLAM-1KG-AMSO",
           "available": false,
-          "price": 31175,
+          "price": 32940,
           "options": [
             "Amarillo Soleado",
             "1kg",
@@ -5173,7 +5173,7 @@
         {
           "id": "EG-PLAM-1KG-AZMA",
           "available": false,
-          "price": 31175,
+          "price": 32940,
           "options": [
             "Azul Marino",
             "1kg",
@@ -5185,7 +5185,7 @@
         {
           "id": "EG-PLAM-1KG-BLAN",
           "available": false,
-          "price": 31175,
+          "price": 32940,
           "options": [
             "Blanco",
             "1kg",
@@ -5197,7 +5197,7 @@
         {
           "id": "EG-PLAM-1KG-CEHI",
           "available": false,
-          "price": 31175,
+          "price": 32940,
           "options": [
             "Celeste Hielo",
             "1kg",
@@ -5209,7 +5209,7 @@
         {
           "id": "EG-PLAM-1KG-GRPI",
           "available": false,
-          "price": 31175,
+          "price": 32940,
           "options": [
             "Gris Pizarra",
             "1kg",
@@ -5221,7 +5221,7 @@
         {
           "id": "EG-PLAM-1KG-BEIG",
           "available": false,
-          "price": 31175,
+          "price": 32940,
           "options": [
             "Beige",
             "1kg",
@@ -5233,7 +5233,7 @@
         {
           "id": "EG-PLAM-1KG-MATI",
           "available": false,
-          "price": 31175,
+          "price": 32940,
           "options": [
             "Marron Tierra",
             "1kg",
@@ -5245,7 +5245,7 @@
         {
           "id": "EG-PLAM-1KG-NARA",
           "available": false,
-          "price": 31175,
+          "price": 32940,
           "options": [
             "Naranja",
             "1kg",
@@ -5257,7 +5257,7 @@
         {
           "id": "EG-PLAM-1KG-NEGR",
           "available": false,
-          "price": 31175,
+          "price": 32940,
           "options": [
             "Negro",
             "1kg",
@@ -5269,7 +5269,7 @@
         {
           "id": "EG-PLAM-1KG-RORU",
           "available": false,
-          "price": 31175,
+          "price": 32940,
           "options": [
             "Rubi",
             "1kg",
@@ -5281,7 +5281,7 @@
         {
           "id": "EG-PLAM-1KG-ROSA",
           "available": false,
-          "price": 31175,
+          "price": 32940,
           "options": [
             "Rosa Sakura",
             "1kg",
@@ -5293,7 +5293,7 @@
         {
           "id": "EG-PLAM-1KG-VEAZ",
           "available": false,
-          "price": 31175,
+          "price": 32940,
           "options": [
             "Verde Azulado Teal",
             "1kg",
@@ -5305,7 +5305,7 @@
         {
           "id": "EG-PLAM-1KG-VEME",
           "available": false,
-          "price": 31175,
+          "price": 32940,
           "options": [
             "Menta",
             "1kg",
@@ -5317,7 +5317,7 @@
         {
           "id": "EG-PLAM-1KG-VILA",
           "available": false,
-          "price": 31175,
+          "price": 32940,
           "options": [
             "Violeta Lavanda",
             "1kg",
@@ -5335,10 +5335,10 @@
       "domain": "shop.wetech.ar",
       "name": "Elegoo PLA Premium",
       "category": "Filamentos",
-      "price": 28822,
+      "price": 29999,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 24498.7,
+      "transferPrice": 25499.15,
       "stock": 21,
       "stockLabel": "En stock",
       "available": true,
@@ -5358,7 +5358,7 @@
         {
           "id": "EG-PLA-1KG-AMAR",
           "available": false,
-          "price": 28822,
+          "price": 29999,
           "options": [
             "Amarillo",
             "1kg",
@@ -5370,7 +5370,7 @@
         {
           "id": "EG-PLA-1KG-AZOS",
           "available": false,
-          "price": 28822,
+          "price": 29999,
           "options": [
             "Azul Oscuro",
             "1kg",
@@ -5382,7 +5382,7 @@
         {
           "id": "EG-PLA-1KG-BLAN",
           "available": false,
-          "price": 28822,
+          "price": 29999,
           "options": [
             "Blanco",
             "1kg",
@@ -5394,7 +5394,7 @@
         {
           "id": "EG-PLA-1KG-CECI",
           "available": false,
-          "price": 28822,
+          "price": 29999,
           "options": [
             "Celeste Cielo",
             "1kg",
@@ -5406,7 +5406,7 @@
         {
           "id": "EG-PLA-1KG-GRIS",
           "available": false,
-          "price": 28822,
+          "price": 29999,
           "options": [
             "Gris",
             "1kg",
@@ -5418,7 +5418,7 @@
         {
           "id": "EG-PLA-1KG-GRES",
           "available": false,
-          "price": 28822,
+          "price": 29999,
           "options": [
             "Gris Espacial",
             "1kg",
@@ -5430,7 +5430,7 @@
         {
           "id": "EG-PLA-1KG-MARM",
           "available": false,
-          "price": 28822,
+          "price": 29999,
           "options": [
             "Marmol",
             "1kg",
@@ -5442,7 +5442,7 @@
         {
           "id": "EG-PLA-1KG-MAGR",
           "available": false,
-          "price": 28822,
+          "price": 29999,
           "options": [
             "Marmol Gris Cemento",
             "1kg",
@@ -5454,7 +5454,7 @@
         {
           "id": "EG-PLA-1KG-MALA",
           "available": false,
-          "price": 28822,
+          "price": 29999,
           "options": [
             "Marmol Rojo Ladrillo",
             "1kg",
@@ -5466,7 +5466,7 @@
         {
           "id": "EG-PLA-1KG-MARR",
           "available": false,
-          "price": 28822,
+          "price": 29999,
           "options": [
             "Marron",
             "1kg",
@@ -5478,7 +5478,7 @@
         {
           "id": "EG-PLA-1KG-BEIG",
           "available": false,
-          "price": 28822,
+          "price": 29999,
           "options": [
             "Beige",
             "1kg",
@@ -5490,7 +5490,7 @@
         {
           "id": "EG-PLA-1KG-MADE",
           "available": false,
-          "price": 28822,
+          "price": 29999,
           "options": [
             "Madera",
             "1kg",
@@ -5502,7 +5502,7 @@
         {
           "id": "EG-PLA-1KG-REMA",
           "available": false,
-          "price": 44705,
+          "price": 29999,
           "options": [
             "Relleno Madera",
             "1kg",
@@ -5514,7 +5514,7 @@
         {
           "id": "EG-PLA-1KG-NARA",
           "available": false,
-          "price": 28822,
+          "price": 29999,
           "options": [
             "Naranja",
             "1kg",
@@ -5526,7 +5526,7 @@
         {
           "id": "EG-PLA-1KG-NEGR",
           "available": false,
-          "price": 28822,
+          "price": 29999,
           "options": [
             "Negro",
             "1kg",
@@ -5538,7 +5538,7 @@
         {
           "id": "EG-PLA-1KG-REBR",
           "available": true,
-          "price": 34116,
+          "price": 29999,
           "options": [
             "Relleno Bronce",
             "1kg",
@@ -5550,7 +5550,7 @@
         {
           "id": "EG-PLA-1KG-ROJO",
           "available": false,
-          "price": 28822,
+          "price": 29999,
           "options": [
             "Rojo",
             "1kg",
@@ -5562,7 +5562,7 @@
         {
           "id": "EG-PLA-1KG-ROSA",
           "available": false,
-          "price": 28822,
+          "price": 29999,
           "options": [
             "Rosa",
             "1kg",
@@ -5574,7 +5574,7 @@
         {
           "id": "EG-PLA-1KG-TRAN",
           "available": false,
-          "price": 28822,
+          "price": 29999,
           "options": [
             "Translucido",
             "1kg",
@@ -5586,7 +5586,7 @@
         {
           "id": "EG-PLA-1KG-VEMA",
           "available": true,
-          "price": 28822,
+          "price": 29999,
           "options": [
             "Verde Marino",
             "1kg",
@@ -5598,7 +5598,7 @@
         {
           "id": "EG-PLA-1KG-VENE",
           "available": false,
-          "price": 28822,
+          "price": 29999,
           "options": [
             "Verde Neon",
             "1kg",
@@ -5610,7 +5610,7 @@
         {
           "id": "EG-PLA-1KG-VIOL",
           "available": false,
-          "price": 28822,
+          "price": 29999,
           "options": [
             "Violeta",
             "1kg",
@@ -6528,10 +6528,10 @@
       "domain": "shop.wetech.ar",
       "name": "FlashForge ABS Fibra de Vidrio Premium",
       "category": "Filamentos",
-      "price": 51175,
+      "price": 58822,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 43498.75,
+      "transferPrice": 49998.7,
       "stock": 4,
       "stockLabel": "En stock",
       "available": true,
@@ -6551,7 +6551,7 @@
         {
           "id": "FF-ABSGF-1KG-NEGR",
           "available": true,
-          "price": 51175,
+          "price": 58822,
           "options": [
             "Negro",
             "1kg",
@@ -6569,10 +6569,10 @@
       "domain": "shop.wetech.ar",
       "name": "FlashForge PLA LW Premium",
       "category": "Filamentos",
-      "price": 39411,
+      "price": 41175,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 33499.35,
+      "transferPrice": 34998.75,
       "stock": 4,
       "stockLabel": "En stock",
       "available": true,
@@ -6592,7 +6592,7 @@
         {
           "id": "FF-LW-1KG-NATU",
           "available": true,
-          "price": 39411,
+          "price": 41175,
           "options": [
             "Translucido Natural",
             "1kg",
@@ -6610,10 +6610,10 @@
       "domain": "shop.wetech.ar",
       "name": "Fremover High Speed PetG Fibra Carbono Premium",
       "category": "Filamentos",
-      "price": 39999,
+      "price": 42352,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 33999.15,
+      "transferPrice": 35999.2,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -6633,7 +6633,7 @@
         {
           "id": "FM-PEFC-1KG-FICA",
           "available": false,
-          "price": 39999,
+          "price": 42352,
           "options": [
             "Negro",
             "1kg",
@@ -6651,10 +6651,10 @@
       "domain": "shop.wetech.ar",
       "name": "Fremover High Speed PetG Fibra Vidrio Premium",
       "category": "Filamentos",
-      "price": 52352,
+      "price": 54705,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 44499.2,
+      "transferPrice": 46499.25,
       "stock": 9,
       "stockLabel": "En stock",
       "available": true,
@@ -6674,7 +6674,7 @@
         {
           "id": "FM-PEFV-1KG-FIVI",
           "available": true,
-          "price": 52352,
+          "price": 54705,
           "options": [
             "Negro",
             "1kg",
@@ -6937,10 +6937,10 @@
       "domain": "shop.wetech.ar",
       "name": "Fremover High Speed PLA Glow Premium",
       "category": "Filamentos",
-      "price": 34116,
+      "price": 35293,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 28998.6,
+      "transferPrice": 29999.05,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -6960,7 +6960,7 @@
         {
           "id": "FM-GLO-1KG-AZMI",
           "available": false,
-          "price": 34116,
+          "price": 35293,
           "options": [
             "Azul Misterio",
             "1kg",
@@ -6972,7 +6972,7 @@
         {
           "id": "FM-GLO-1KG-AZCI",
           "available": false,
-          "price": 34116,
+          "price": 35293,
           "options": [
             "Celeste Cielo",
             "1kg",
@@ -6984,7 +6984,7 @@
         {
           "id": "FM-GLO-1KG-MULT",
           "available": false,
-          "price": 34116,
+          "price": 35293,
           "options": [
             "Multicolor",
             "1kg",
@@ -6996,7 +6996,7 @@
         {
           "id": "FM-GLO-1KG-VEMI",
           "available": false,
-          "price": 34116,
+          "price": 35293,
           "options": [
             "Verde Neon Misterio",
             "1kg",
@@ -7008,7 +7008,7 @@
         {
           "id": "FM-GLO-1KG-TURQ",
           "available": false,
-          "price": 34116,
+          "price": 35293,
           "options": [
             "Verde Turquesa",
             "1kg",
@@ -7026,10 +7026,10 @@
       "domain": "shop.wetech.ar",
       "name": "Fremover High Speed PLA Matte Premium",
       "category": "Filamentos",
-      "price": 28234,
+      "price": 29411,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 23998.9,
+      "transferPrice": 24999.35,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -7049,7 +7049,7 @@
         {
           "id": "FM-PLAM-1KG-GLBL",
           "available": false,
-          "price": 28234,
+          "price": 29411,
           "options": [
             "Celeste Glaciar",
             "1kg",
@@ -7061,7 +7061,7 @@
         {
           "id": "FM-PLAM-1KG-GRMA",
           "available": false,
-          "price": 28234,
+          "price": 29411,
           "options": [
             "Gris Grafito",
             "1kg",
@@ -7073,7 +7073,7 @@
         {
           "id": "FM-PLAM-1KG-AVMA",
           "available": false,
-          "price": 28234,
+          "price": 29411,
           "options": [
             "Avena",
             "1kg",
@@ -7085,7 +7085,7 @@
         {
           "id": "FM-PLAM-1KG-MAOSMA",
           "available": false,
-          "price": 28234,
+          "price": 29411,
           "options": [
             "Marron Oscuro",
             "1kg",
@@ -7097,7 +7097,7 @@
         {
           "id": "FM-PLAM-1KG-CAMA",
           "available": false,
-          "price": 28234,
+          "price": 29411,
           "options": [
             "Calabaza",
             "1kg",
@@ -7109,7 +7109,7 @@
         {
           "id": "FM-PLAM-1KG-ROCRMA",
           "available": false,
-          "price": 28234,
+          "price": 29411,
           "options": [
             "Rosa Crema",
             "1kg",
@@ -7121,7 +7121,7 @@
         {
           "id": "FM-PLAM-1KG-CIVEMA",
           "available": false,
-          "price": 28234,
+          "price": 29411,
           "options": [
             "Verde Ciruela",
             "1kg",
@@ -7133,7 +7133,7 @@
         {
           "id": "FM-PLAM-1KG-LAMA",
           "available": false,
-          "price": 28234,
+          "price": 29411,
           "options": [
             "Violeta Lavanda",
             "1kg",
@@ -7145,7 +7145,7 @@
         {
           "id": "FM-PLAM-1KG-PUUVMA",
           "available": false,
-          "price": 28234,
+          "price": 29411,
           "options": [
             "Uva",
             "1kg",
@@ -7228,10 +7228,10 @@
       "domain": "shop.wetech.ar",
       "name": "Fremover PLA WOOD Premium",
       "category": "Filamentos",
-      "price": 44705,
+      "price": 52940,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 37999.25,
+      "transferPrice": 44999,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -7251,7 +7251,7 @@
         {
           "id": "FM-PLAWOOD-1KG-MADE",
           "available": false,
-          "price": 44705,
+          "price": 52940,
           "options": [
             "Madera",
             "1kg",
@@ -7263,7 +7263,7 @@
         {
           "id": "FM-PLAWOOD-1KG-MAOS",
           "available": false,
-          "price": 44705,
+          "price": 52940,
           "options": [
             "Madera Oscura",
             "1kg",
@@ -7281,10 +7281,10 @@
       "domain": "shop.wetech.ar",
       "name": "Fremover PLA+ Silk DUO Premium",
       "category": "Filamentos",
-      "price": 31764,
+      "price": 34116,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 26999.4,
+      "transferPrice": 28998.6,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -7304,7 +7304,7 @@
         {
           "id": "FM-SIDU-1KG-AZNA",
           "available": false,
-          "price": 31764,
+          "price": 34116,
           "options": [
             "Azul+Naranja",
             "1kg",
@@ -7316,7 +7316,7 @@
         {
           "id": "FM-SIDU-1KG-AZRO",
           "available": false,
-          "price": 31764,
+          "price": 34116,
           "options": [
             "Azul+Rojo",
             "1kg",
@@ -7328,7 +7328,7 @@
         {
           "id": "FM-SIDU-1KG-AZVE",
           "available": false,
-          "price": 31764,
+          "price": 34116,
           "options": [
             "Azul+Verde",
             "1kg",
@@ -7340,7 +7340,7 @@
         {
           "id": "FM-SIDU-1KG-BRNA",
           "available": false,
-          "price": 31764,
+          "price": 34116,
           "options": [
             "Bronce+Naranja",
             "1kg",
@@ -7352,7 +7352,7 @@
         {
           "id": "FM-SIDU-1KG-BRPU",
           "available": false,
-          "price": 31764,
+          "price": 34116,
           "options": [
             "Bronce+Purpura",
             "1kg",
@@ -7364,7 +7364,7 @@
         {
           "id": "FM-SIDU-1KG-DOCO",
           "available": false,
-          "price": 31764,
+          "price": 34116,
           "options": [
             "Dorado+Cobre",
             "1kg",
@@ -7376,7 +7376,7 @@
         {
           "id": "FM-SIDU-1KG-LAVA",
           "available": false,
-          "price": 31764,
+          "price": 34116,
           "options": [
             "Lavanda",
             "1kg",
@@ -7388,7 +7388,7 @@
         {
           "id": "FM-SIDU-1KG-NEAZ",
           "available": false,
-          "price": 31764,
+          "price": 34116,
           "options": [
             "Negro+Azul",
             "1kg",
@@ -7400,7 +7400,7 @@
         {
           "id": "FM-SIDU-1KG-NEPU",
           "available": false,
-          "price": 31764,
+          "price": 34116,
           "options": [
             "Negro+Purpura",
             "1kg",
@@ -7412,7 +7412,7 @@
         {
           "id": "FM-SIDU-1KG-NERO",
           "available": false,
-          "price": 31764,
+          "price": 34116,
           "options": [
             "Negro+Rojo",
             "1kg",
@@ -7424,7 +7424,7 @@
         {
           "id": "FM-SIDU-1KG-NERR",
           "available": false,
-          "price": 31764,
+          "price": 34116,
           "options": [
             "Negro+Rosa Rojo",
             "1kg",
@@ -7436,7 +7436,7 @@
         {
           "id": "FM-SIDU-1KG-PUAZ",
           "available": false,
-          "price": 31764,
+          "price": 34116,
           "options": [
             "Purpura+Azul",
             "1kg",
@@ -7448,7 +7448,7 @@
         {
           "id": "FM-SIDU-1KG-PUDO",
           "available": false,
-          "price": 31764,
+          "price": 34116,
           "options": [
             "Purpura+Dorado",
             "1kg",
@@ -7460,7 +7460,7 @@
         {
           "id": "FM-SIDU-1KG-ROVE",
           "available": false,
-          "price": 31764,
+          "price": 34116,
           "options": [
             "Rojo+Verde",
             "1kg",
@@ -7472,7 +7472,7 @@
         {
           "id": "FM-SIDU-1KG-RRVE",
           "available": false,
-          "price": 31764,
+          "price": 34116,
           "options": [
             "Rosa Rojo+Verde",
             "1kg",
@@ -7484,7 +7484,7 @@
         {
           "id": "FM-SIDU-1KG-VENA",
           "available": false,
-          "price": 31764,
+          "price": 34116,
           "options": [
             "Verde+Naranja",
             "1kg",
@@ -7502,10 +7502,10 @@
       "domain": "shop.wetech.ar",
       "name": "Fremover PLA+ Silk Premium",
       "category": "Filamentos",
-      "price": 31764,
+      "price": 34116,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 26999.4,
+      "transferPrice": 28998.6,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -7525,7 +7525,7 @@
         {
           "id": "FM-SILK-1KG-AMAR",
           "available": false,
-          "price": 31764,
+          "price": 34116,
           "options": [
             "Amarillo",
             "1kg",
@@ -7537,7 +7537,7 @@
         {
           "id": "FM-SILK-1KG-AZUL",
           "available": false,
-          "price": 31764,
+          "price": 34116,
           "options": [
             "Azul",
             "1kg",
@@ -7549,7 +7549,7 @@
         {
           "id": "FM-SILK-1KG-BRON",
           "available": false,
-          "price": 31764,
+          "price": 34116,
           "options": [
             "Bronce",
             "1kg",
@@ -7561,7 +7561,7 @@
         {
           "id": "FM-SILK-1KG-COBR",
           "available": false,
-          "price": 31764,
+          "price": 34116,
           "options": [
             "Cobre",
             "1kg",
@@ -7573,7 +7573,7 @@
         {
           "id": "FM-SILK-1KG-DORA",
           "available": false,
-          "price": 31764,
+          "price": 34116,
           "options": [
             "Dorado",
             "1kg",
@@ -7585,7 +7585,7 @@
         {
           "id": "FM-SILK-1KG-PLAT",
           "available": false,
-          "price": 31764,
+          "price": 34116,
           "options": [
             "Plateado",
             "1kg",
@@ -7597,7 +7597,7 @@
         {
           "id": "FM-SILK-1KG-NARA",
           "available": false,
-          "price": 31764,
+          "price": 34116,
           "options": [
             "Naranja",
             "1kg",
@@ -7609,7 +7609,7 @@
         {
           "id": "FM-SILK-1KG-NEGR",
           "available": false,
-          "price": 31764,
+          "price": 34116,
           "options": [
             "Negro",
             "1kg",
@@ -7621,7 +7621,7 @@
         {
           "id": "FM-SILK-1KG-ROJO",
           "available": false,
-          "price": 31764,
+          "price": 34116,
           "options": [
             "Rojo",
             "1kg",
@@ -7633,7 +7633,7 @@
         {
           "id": "FM-SILK-1KG-ROSA",
           "available": false,
-          "price": 31764,
+          "price": 34116,
           "options": [
             "Rosa",
             "1kg",
@@ -7645,7 +7645,7 @@
         {
           "id": "FM-SILK-1KG-VERD",
           "available": false,
-          "price": 31764,
+          "price": 34116,
           "options": [
             "Verde",
             "1kg",
@@ -7657,7 +7657,7 @@
         {
           "id": "FM-SILK-1KG-PURP",
           "available": false,
-          "price": 31764,
+          "price": 34116,
           "options": [
             "Purpura",
             "1kg",
@@ -7675,10 +7675,10 @@
       "domain": "shop.wetech.ar",
       "name": "Fremover PLA+ Silk TRIO Premium",
       "category": "Filamentos",
-      "price": 31764,
+      "price": 34116,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 26999.4,
+      "transferPrice": 28998.6,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -7698,7 +7698,7 @@
         {
           "id": "FM-SITR-1KG-AZVENA",
           "available": false,
-          "price": 31764,
+          "price": 34116,
           "options": [
             "Azul+Verde+Naranja",
             "1kg",
@@ -7710,7 +7710,7 @@
         {
           "id": "FM-SITR-1KG-DOVEFU",
           "available": false,
-          "price": 31764,
+          "price": 34116,
           "options": [
             "Dorado + Verde + Fucsia",
             "1kg",
@@ -7722,7 +7722,7 @@
         {
           "id": "FM-SITR-1KG-RODONE",
           "available": false,
-          "price": 31764,
+          "price": 34116,
           "options": [
             "Rojo+Dorado+Negro",
             "1kg",
@@ -7734,7 +7734,7 @@
         {
           "id": "FM-SITR-1KG-ROVEAZ",
           "available": false,
-          "price": 31764,
+          "price": 34116,
           "options": [
             "Rojo+Verde+Azul",
             "1kg",
@@ -7812,10 +7812,10 @@
       "domain": "shop.wetech.ar",
       "name": "Grilon3 ABS Premium",
       "category": "Filamentos",
-      "price": 29411,
+      "price": 32940,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 24999.35,
+      "transferPrice": 27999,
       "stock": 136,
       "stockLabel": "En stock",
       "available": true,
@@ -7836,7 +7836,7 @@
         {
           "id": "G3-ABS-1KG-AMAR",
           "available": true,
-          "price": 29411,
+          "price": 32940,
           "options": [
             "Amarillo",
             "1kg",
@@ -7848,7 +7848,7 @@
         {
           "id": "G3-ABS-1KG-AZUL",
           "available": true,
-          "price": 29411,
+          "price": 32940,
           "options": [
             "Azul",
             "1kg",
@@ -7860,7 +7860,7 @@
         {
           "id": "G3-ABS-1KG-BLAN",
           "available": true,
-          "price": 29411,
+          "price": 32940,
           "options": [
             "Blanco",
             "1kg",
@@ -7872,7 +7872,7 @@
         {
           "id": "G3-ABS-1KG-FUCS",
           "available": true,
-          "price": 29411,
+          "price": 32940,
           "options": [
             "Fucsia",
             "1kg",
@@ -7884,7 +7884,7 @@
         {
           "id": "G3-ABS-1KG-GRPL",
           "available": true,
-          "price": 29411,
+          "price": 32940,
           "options": [
             "Gris Plata",
             "1kg",
@@ -7896,7 +7896,7 @@
         {
           "id": "G3-ABS-1KG-NAFL",
           "available": true,
-          "price": 29411,
+          "price": 32940,
           "options": [
             "Naranja Fluo",
             "1kg",
@@ -7908,7 +7908,7 @@
         {
           "id": "G3-ABS-1KG-NEGR",
           "available": true,
-          "price": 29411,
+          "price": 32940,
           "options": [
             "Negro",
             "1kg",
@@ -7920,7 +7920,7 @@
         {
           "id": "G3-ABS-1KG-ROJO",
           "available": false,
-          "price": 29411,
+          "price": 32940,
           "options": [
             "Rojo",
             "1kg",
@@ -7932,7 +7932,7 @@
         {
           "id": "G3-ABS-1KG-NATU",
           "available": true,
-          "price": 29411,
+          "price": 32940,
           "options": [
             "Translucido Natural",
             "1kg",
@@ -7944,7 +7944,7 @@
         {
           "id": "G3-ABS-1KG-VERD",
           "available": true,
-          "price": 29411,
+          "price": 32940,
           "options": [
             "Verde",
             "1kg",
@@ -7956,7 +7956,7 @@
         {
           "id": "G3-MAXA-2K5-BLAN",
           "available": true,
-          "price": 58822,
+          "price": 72940,
           "options": [
             "Blanco",
             "2.5kg",
@@ -7968,7 +7968,7 @@
         {
           "id": "G3-MAXA-2K5-NEGR",
           "available": true,
-          "price": 58822,
+          "price": 72940,
           "options": [
             "Negro",
             "2.5kg",
@@ -7980,7 +7980,7 @@
         {
           "id": "G3-MAXA-2K5-TURQ",
           "available": true,
-          "price": 58822,
+          "price": 72940,
           "options": [
             "Azul Turquesa",
             "2.5kg",
@@ -7998,10 +7998,10 @@
       "domain": "shop.wetech.ar",
       "name": "Grilon3 Acetal Premium",
       "category": "Filamentos",
-      "price": 70587,
+      "price": 84705,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 59998.95,
+      "transferPrice": 71999.25,
       "stock": 20,
       "stockLabel": "En stock",
       "available": true,
@@ -8021,7 +8021,7 @@
         {
           "id": "G3-ACET-1KG-BLAN",
           "available": true,
-          "price": 70587,
+          "price": 84705,
           "options": [
             "Blanco",
             "1kg",
@@ -8033,7 +8033,7 @@
         {
           "id": "G3-ACET-1KG-GRAC",
           "available": true,
-          "price": 70587,
+          "price": 84705,
           "options": [
             "Gris Acero",
             "1kg",
@@ -8045,7 +8045,7 @@
         {
           "id": "G3-ACET-1KG-NEGR",
           "available": true,
-          "price": 70587,
+          "price": 84705,
           "options": [
             "Negro",
             "1kg",
@@ -8057,7 +8057,7 @@
         {
           "id": "G3-ACET-1KG-ROJO",
           "available": true,
-          "price": 70587,
+          "price": 84705,
           "options": [
             "Rojo",
             "1kg",
@@ -8075,10 +8075,10 @@
       "domain": "shop.wetech.ar",
       "name": "Grilon3 HIPS Premium",
       "category": "Filamentos",
-      "price": 28822,
+      "price": 41175,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 24498.7,
+      "transferPrice": 34998.75,
       "stock": 42,
       "stockLabel": "En stock",
       "available": true,
@@ -8098,7 +8098,7 @@
         {
           "id": "G3-HIPS-1KG-AZUL",
           "available": true,
-          "price": 28822,
+          "price": 41175,
           "options": [
             "Azul",
             "1kg",
@@ -8110,7 +8110,7 @@
         {
           "id": "G3-HIPS-1KG-BLAN",
           "available": true,
-          "price": 28822,
+          "price": 41175,
           "options": [
             "Blanco",
             "1kg",
@@ -8122,7 +8122,7 @@
         {
           "id": "G3-HIPS-1KG-NEGR",
           "available": false,
-          "price": 28822,
+          "price": 41175,
           "options": [
             "Negro",
             "1kg",
@@ -8134,7 +8134,7 @@
         {
           "id": "G3-HIPS-1KG-ROJO",
           "available": true,
-          "price": 28822,
+          "price": 41175,
           "options": [
             "Rojo",
             "1kg",
@@ -8146,7 +8146,7 @@
         {
           "id": "G3-HIPS-1KG-NATU",
           "available": true,
-          "price": 28822,
+          "price": 41175,
           "options": [
             "Translucido Natural",
             "1kg",
@@ -8158,7 +8158,7 @@
         {
           "id": "G3-HIPS-1KG-VERD",
           "available": true,
-          "price": 28822,
+          "price": 41175,
           "options": [
             "Verde",
             "1kg",
@@ -8176,10 +8176,10 @@
       "domain": "shop.wetech.ar",
       "name": "Grilon3 NYLON 12 Premium",
       "category": "Filamentos",
-      "price": 159999,
+      "price": 171764,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 135999.15,
+      "transferPrice": 145999.4,
       "stock": 39,
       "stockLabel": "En stock",
       "available": true,
@@ -8199,7 +8199,7 @@
         {
           "id": "G3-NY12-1KG-AZUL",
           "available": true,
-          "price": 159999,
+          "price": 171764,
           "options": [
             "Azul",
             "1kg",
@@ -8211,7 +8211,7 @@
         {
           "id": "G3-NY12-1KG-BLAN",
           "available": true,
-          "price": 159999,
+          "price": 171764,
           "options": [
             "Blanco",
             "1kg",
@@ -8223,7 +8223,7 @@
         {
           "id": "G3-NY12-1KG-TITA",
           "available": true,
-          "price": 159999,
+          "price": 171764,
           "options": [
             "Titanio",
             "1kg",
@@ -8235,7 +8235,7 @@
         {
           "id": "G3-NY12-1KG-NEGR",
           "available": true,
-          "price": 159999,
+          "price": 171764,
           "options": [
             "Negro",
             "1kg",
@@ -8247,7 +8247,7 @@
         {
           "id": "G3-NY12-1KG-NATU",
           "available": true,
-          "price": 159999,
+          "price": 171764,
           "options": [
             "Translucido Natural",
             "1kg",
@@ -8265,10 +8265,10 @@
       "domain": "shop.wetech.ar",
       "name": "Grilon3 NYLON 6 Premium",
       "category": "Filamentos",
-      "price": 45293,
+      "price": 53528,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 38499.05,
+      "transferPrice": 45498.8,
       "stock": 67,
       "stockLabel": "En stock",
       "available": true,
@@ -8288,7 +8288,7 @@
         {
           "id": "G3-NYL6-1KG-BLAN",
           "available": true,
-          "price": 45293,
+          "price": 53528,
           "options": [
             "Blanco",
             "1kg",
@@ -8300,7 +8300,7 @@
         {
           "id": "G3-NYL6-1KG-NAFL",
           "available": true,
-          "price": 45293,
+          "price": 53528,
           "options": [
             "Naranja Fluo",
             "1kg",
@@ -8312,7 +8312,7 @@
         {
           "id": "G3-NYL6-1KG-NEGR",
           "available": true,
-          "price": 45293,
+          "price": 53528,
           "options": [
             "Negro",
             "1kg",
@@ -8324,7 +8324,7 @@
         {
           "id": "G3-NYL6-1KG-NATU",
           "available": true,
-          "price": 45293,
+          "price": 53528,
           "options": [
             "Translucido Natural",
             "1kg",
@@ -8336,7 +8336,7 @@
         {
           "id": "G3-NYL6-1KG-OPTI",
           "available": true,
-          "price": 45293,
+          "price": 53528,
           "options": [
             "Translucido Optico",
             "1kg",
@@ -8348,7 +8348,7 @@
         {
           "id": "G3-NYL6-1KG-VEFL",
           "available": true,
-          "price": 45293,
+          "price": 53528,
           "options": [
             "Verde Fluo",
             "1kg",
@@ -8366,11 +8366,11 @@
       "domain": "shop.wetech.ar",
       "name": "Grilon3 PetG Premium",
       "category": "Filamentos",
-      "price": 22940,
+      "price": 27646,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 19499,
-      "stock": 166,
+      "transferPrice": 23499.1,
+      "stock": 162,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -8391,7 +8391,7 @@
         {
           "id": "G3-MAXP-2K5-BLAN",
           "available": true,
-          "price": 54116,
+          "price": 61175,
           "options": [
             "Blanco",
             "2.5kg",
@@ -8403,7 +8403,7 @@
         {
           "id": "G3-MAXP-2K5-NEGR",
           "available": true,
-          "price": 54116,
+          "price": 61175,
           "options": [
             "Negro",
             "2.5kg",
@@ -8415,7 +8415,7 @@
         {
           "id": "G3-MEGP-4KG-BLAN",
           "available": false,
-          "price": 70587,
+          "price": 85881,
           "options": [
             "Blanco",
             "4kg",
@@ -8427,7 +8427,7 @@
         {
           "id": "G3-MEGP-4KG-NEGR",
           "available": false,
-          "price": 70587,
+          "price": 85881,
           "options": [
             "Negro",
             "4kg",
@@ -8439,7 +8439,7 @@
         {
           "id": "G3-MEGP-4KG-VECL",
           "available": false,
-          "price": 70587,
+          "price": 85881,
           "options": [
             "Verde Clear",
             "4kg",
@@ -8451,7 +8451,7 @@
         {
           "id": "G3-PETG-1KG-AMCL",
           "available": true,
-          "price": 22940,
+          "price": 27646,
           "options": [
             "Amarillo Clear",
             "1kg",
@@ -8463,7 +8463,7 @@
         {
           "id": "G3-PETG-1KG-AMBA",
           "available": true,
-          "price": 22940,
+          "price": 27646,
           "options": [
             "Ambar Clear",
             "1kg",
@@ -8475,7 +8475,7 @@
         {
           "id": "G3-PETG-1KG-AZCL",
           "available": true,
-          "price": 22940,
+          "price": 27646,
           "options": [
             "Azul Clear",
             "1kg",
@@ -8487,7 +8487,7 @@
         {
           "id": "G3-PETG-1KG-BLAN",
           "available": true,
-          "price": 22940,
+          "price": 27646,
           "options": [
             "Blanco",
             "1kg",
@@ -8499,7 +8499,7 @@
         {
           "id": "G3-PETG-1KG-CHOC",
           "available": true,
-          "price": 22940,
+          "price": 27646,
           "options": [
             "Chocolate",
             "1kg",
@@ -8511,7 +8511,7 @@
         {
           "id": "G3-PETG-1KG-GRAC",
           "available": true,
-          "price": 22940,
+          "price": 27646,
           "options": [
             "Gris Acero",
             "1kg",
@@ -8523,7 +8523,7 @@
         {
           "id": "G3-PETG-1KG-GRPL",
           "available": true,
-          "price": 22940,
+          "price": 27646,
           "options": [
             "Gris Plata",
             "1kg",
@@ -8535,7 +8535,7 @@
         {
           "id": "G3-PETG-1KG-NAPR",
           "available": false,
-          "price": 22940,
+          "price": 27646,
           "options": [
             "Naranja Praga",
             "1kg",
@@ -8547,7 +8547,7 @@
         {
           "id": "G3-PETG-1KG-NEGR",
           "available": true,
-          "price": 22940,
+          "price": 27646,
           "options": [
             "Negro",
             "1kg",
@@ -8559,7 +8559,7 @@
         {
           "id": "G3-PETG-1KG-NOVA",
           "available": true,
-          "price": 22940,
+          "price": 27646,
           "options": [
             "Violeta Nova",
             "1kg",
@@ -8571,7 +8571,7 @@
         {
           "id": "G3-PETG-1KG-ROCL",
           "available": true,
-          "price": 22940,
+          "price": 27646,
           "options": [
             "Rojo Clear",
             "1kg",
@@ -8583,7 +8583,7 @@
         {
           "id": "G3-PETG-1KG-NATU",
           "available": false,
-          "price": 22940,
+          "price": 27646,
           "options": [
             "Translucido Natural",
             "1kg",
@@ -8595,7 +8595,7 @@
         {
           "id": "G3-PETG-1KG-VECL",
           "available": true,
-          "price": 22940,
+          "price": 27646,
           "options": [
             "Verde Clear",
             "1kg",
@@ -8613,10 +8613,10 @@
       "domain": "shop.wetech.ar",
       "name": "Grilon3 PLA 850 Premium",
       "category": "Filamentos",
-      "price": 33528,
+      "price": 31764,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 28498.8,
+      "transferPrice": 26999.4,
       "stock": 76,
       "stockLabel": "En stock",
       "available": true,
@@ -8637,7 +8637,7 @@
         {
           "id": "G3-MAXI-2K5-AZUL",
           "available": false,
-          "price": 74116,
+          "price": 70587,
           "options": [
             "Azul",
             "2.5kg",
@@ -8649,7 +8649,7 @@
         {
           "id": "G3-MAXI-2K5-BLAN",
           "available": true,
-          "price": 74116,
+          "price": 70587,
           "options": [
             "Blanco",
             "2.5kg",
@@ -8661,7 +8661,7 @@
         {
           "id": "G3-MAXI-2K5-BRON",
           "available": true,
-          "price": 74116,
+          "price": 70587,
           "options": [
             "Bronce",
             "2.5kg",
@@ -8673,7 +8673,7 @@
         {
           "id": "G3-MAXI-2K5-GRPL",
           "available": true,
-          "price": 74116,
+          "price": 70587,
           "options": [
             "Gris Plata",
             "2.5kg",
@@ -8685,7 +8685,7 @@
         {
           "id": "G3-MAXI-2K5-NEGR",
           "available": true,
-          "price": 74116,
+          "price": 70587,
           "options": [
             "Negro",
             "2.5kg",
@@ -8697,7 +8697,7 @@
         {
           "id": "G3-MAXI-2K5-ROJO",
           "available": true,
-          "price": 74116,
+          "price": 70587,
           "options": [
             "Rojo",
             "2.5kg",
@@ -8709,7 +8709,7 @@
         {
           "id": "G3-P850-1KG-AZUL",
           "available": false,
-          "price": 33528,
+          "price": 31764,
           "options": [
             "Azul",
             "1kg",
@@ -8721,7 +8721,7 @@
         {
           "id": "G3-P850-1KG-BLAN",
           "available": false,
-          "price": 33528,
+          "price": 31764,
           "options": [
             "Blanco",
             "1kg",
@@ -8733,7 +8733,7 @@
         {
           "id": "G3-P850-1KG-BORD",
           "available": false,
-          "price": 33528,
+          "price": 31764,
           "options": [
             "Rojo Bordo",
             "1kg",
@@ -8745,7 +8745,7 @@
         {
           "id": "G3-P850-1KG-BRON",
           "available": true,
-          "price": 33528,
+          "price": 31764,
           "options": [
             "Bronce",
             "1kg",
@@ -8757,7 +8757,7 @@
         {
           "id": "G3-P850-1KG-GRPL",
           "available": false,
-          "price": 33528,
+          "price": 31764,
           "options": [
             "Gris Plata",
             "1kg",
@@ -8769,7 +8769,7 @@
         {
           "id": "G3-P850-1KG-NAUV",
           "available": true,
-          "price": 33528,
+          "price": 31764,
           "options": [
             "Naranja Fluor UV",
             "1kg",
@@ -8781,7 +8781,7 @@
         {
           "id": "G3-P850-1KG-NEGR",
           "available": false,
-          "price": 33528,
+          "price": 31764,
           "options": [
             "Negro",
             "1kg",
@@ -8793,7 +8793,7 @@
         {
           "id": "G3-P850-1KG-ROJO",
           "available": false,
-          "price": 33528,
+          "price": 31764,
           "options": [
             "Rojo",
             "1kg",
@@ -8805,7 +8805,7 @@
         {
           "id": "G3-P850-1KG-TURQ",
           "available": true,
-          "price": 33528,
+          "price": 31764,
           "options": [
             "Azul Turquesa",
             "1kg",
@@ -8817,7 +8817,7 @@
         {
           "id": "G3-P850-1KG-VEUV",
           "available": true,
-          "price": 33528,
+          "price": 31764,
           "options": [
             "Verde Fluor UV",
             "1kg",
@@ -8835,10 +8835,10 @@
       "domain": "shop.wetech.ar",
       "name": "Grilon3 PLA 870 Premium",
       "category": "Filamentos",
-      "price": 44705,
+      "price": 58822,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 37999.25,
+      "transferPrice": 49998.7,
       "stock": 24,
       "stockLabel": "En stock",
       "available": true,
@@ -8858,7 +8858,7 @@
         {
           "id": "G3-P870-1KG-BLAN",
           "available": true,
-          "price": 44705,
+          "price": 58822,
           "options": [
             "Blanco",
             "1kg",
@@ -8870,7 +8870,7 @@
         {
           "id": "G3-P870-1KG-BORD",
           "available": false,
-          "price": 44705,
+          "price": 58822,
           "options": [
             "Rojo Bordo",
             "1kg",
@@ -8882,7 +8882,7 @@
         {
           "id": "G3-P870-1KG-GRPL",
           "available": false,
-          "price": 44705,
+          "price": 58822,
           "options": [
             "Gris Plata",
             "1kg",
@@ -8894,7 +8894,7 @@
         {
           "id": "G3-P870-1KG-NEGR",
           "available": true,
-          "price": 44705,
+          "price": 58822,
           "options": [
             "Negro",
             "1kg",
@@ -8906,7 +8906,7 @@
         {
           "id": "G3-P870-1KG-NATU",
           "available": true,
-          "price": 44705,
+          "price": 58822,
           "options": [
             "Translucido Natural",
             "1kg",
@@ -8918,7 +8918,7 @@
         {
           "id": "G3-P870-1KG-TURQ",
           "available": true,
-          "price": 44705,
+          "price": 58822,
           "options": [
             "Azul Turquesa",
             "1kg",
@@ -8936,10 +8936,10 @@
       "domain": "shop.wetech.ar",
       "name": "Grilon3 PLA Astra Premium",
       "category": "Filamentos",
-      "price": 34116,
+      "price": 35293,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 28998.6,
+      "transferPrice": 29999.05,
       "stock": 130,
       "stockLabel": "En stock",
       "available": true,
@@ -8959,7 +8959,7 @@
         {
           "id": "G3-ASTR-1KG-NOCH",
           "available": true,
-          "price": 34116,
+          "price": 35293,
           "options": [
             "Azul Noche",
             "1kg",
@@ -8971,7 +8971,7 @@
         {
           "id": "G3-ASTR-1KG-CALI",
           "available": true,
-          "price": 34116,
+          "price": 35293,
           "options": [
             "Calipso",
             "1kg",
@@ -8983,7 +8983,7 @@
         {
           "id": "G3-ASTR-1KG-DARK",
           "available": true,
-          "price": 34116,
+          "price": 35293,
           "options": [
             "Dark",
             "1kg",
@@ -8995,7 +8995,7 @@
         {
           "id": "G3-ASTR-1KG-JADE",
           "available": true,
-          "price": 34116,
+          "price": 35293,
           "options": [
             "Jade",
             "1kg",
@@ -9007,7 +9007,7 @@
         {
           "id": "G3-ASTR-1KG-NEBU",
           "available": true,
-          "price": 34116,
+          "price": 35293,
           "options": [
             "Nebula",
             "1kg",
@@ -9019,7 +9019,7 @@
         {
           "id": "G3-ASTR-1KG-ROBY",
           "available": true,
-          "price": 34116,
+          "price": 35293,
           "options": [
             "Roby",
             "1kg",
@@ -9037,11 +9037,11 @@
       "domain": "shop.wetech.ar",
       "name": "Grilon3 PLA Boutique Premium",
       "category": "Filamentos",
-      "price": 30587,
+      "price": 31764,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 25998.95,
-      "stock": 107,
+      "transferPrice": 26999.4,
+      "stock": 102,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -9061,7 +9061,7 @@
         {
           "id": "G3-MEGB-4KG-PECA",
           "available": true,
-          "price": 98822,
+          "price": 103528,
           "options": [
             "Perla Calido",
             "4kg",
@@ -9073,7 +9073,7 @@
         {
           "id": "G3-MEGB-4KG-PEFR",
           "available": true,
-          "price": 98822,
+          "price": 103528,
           "options": [
             "Perla Frio",
             "4kg",
@@ -9085,7 +9085,7 @@
         {
           "id": "G3-BOUT-1KG-ACQU",
           "available": true,
-          "price": 30587,
+          "price": 31764,
           "options": [
             "Acqua",
             "1kg",
@@ -9097,7 +9097,7 @@
         {
           "id": "G3-BOUT-1KG-AREN",
           "available": false,
-          "price": 30587,
+          "price": 31764,
           "options": [
             "Arena",
             "1kg",
@@ -9109,7 +9109,7 @@
         {
           "id": "G3-BOUT-1KG-ZAFI",
           "available": false,
-          "price": 30587,
+          "price": 31764,
           "options": [
             "Zafiro",
             "1kg",
@@ -9121,7 +9121,7 @@
         {
           "id": "G3-BOUT-1KG-PECA",
           "available": true,
-          "price": 30587,
+          "price": 31764,
           "options": [
             "Perla Calido",
             "1kg",
@@ -9133,7 +9133,7 @@
         {
           "id": "G3-BOUT-1KG-PEFR",
           "available": true,
-          "price": 30587,
+          "price": 31764,
           "options": [
             "Perla Frio",
             "1kg",
@@ -9145,7 +9145,7 @@
         {
           "id": "G3-BOUT-1KG-CARB",
           "available": true,
-          "price": 30587,
+          "price": 31764,
           "options": [
             "Carbon",
             "1kg",
@@ -9157,7 +9157,7 @@
         {
           "id": "G3-BOUT-1KG-CARI",
           "available": true,
-          "price": 30587,
+          "price": 31764,
           "options": [
             "Caribe",
             "1kg",
@@ -9169,7 +9169,7 @@
         {
           "id": "G3-BOUT-1KG-CHOC",
           "available": true,
-          "price": 30587,
+          "price": 31764,
           "options": [
             "Chocolate",
             "1kg",
@@ -9181,7 +9181,7 @@
         {
           "id": "G3-BOUT-1KG-CRCI",
           "available": true,
-          "price": 30587,
+          "price": 31764,
           "options": [
             "Crema del Cielo",
             "1kg",
@@ -9193,7 +9193,7 @@
         {
           "id": "G3-BOUT-1KG-DULE",
           "available": true,
-          "price": 30587,
+          "price": 31764,
           "options": [
             "Dulce de Leche",
             "1kg",
@@ -9205,7 +9205,7 @@
         {
           "id": "G3-BOUT-1KG-ESME",
           "available": true,
-          "price": 30587,
+          "price": 31764,
           "options": [
             "Esmeralda",
             "1kg",
@@ -9217,7 +9217,7 @@
         {
           "id": "G3-BOUT-1KG-FRUT",
           "available": true,
-          "price": 30587,
+          "price": 31764,
           "options": [
             "Frutilla",
             "1kg",
@@ -9229,7 +9229,7 @@
         {
           "id": "G3-BOUT-1KG-LAVA",
           "available": false,
-          "price": 30587,
+          "price": 31764,
           "options": [
             "Violeta Lavanda",
             "1kg",
@@ -9241,7 +9241,7 @@
         {
           "id": "G3-BOUT-1KG-RUBI",
           "available": false,
-          "price": 30587,
+          "price": 31764,
           "options": [
             "Rubi",
             "1kg",
@@ -9253,7 +9253,7 @@
         {
           "id": "G3-BOUT-1KG-SALM",
           "available": false,
-          "price": 30587,
+          "price": 31764,
           "options": [
             "Salmon",
             "1kg",
@@ -9265,7 +9265,7 @@
         {
           "id": "G3-BOUT-1KG-VEAV",
           "available": true,
-          "price": 30587,
+          "price": 31764,
           "options": [
             "Verde Aviador",
             "1kg",
@@ -9283,11 +9283,11 @@
       "domain": "shop.wetech.ar",
       "name": "Grilon3 PLA Premium",
       "category": "Filamentos",
-      "price": 29411,
+      "price": 30587,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 24999.35,
-      "stock": 315,
+      "transferPrice": 25998.95,
+      "stock": 312,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -9307,7 +9307,7 @@
         {
           "id": "G3-MEGA-4KG-AMAR",
           "available": true,
-          "price": 90587,
+          "price": 94116,
           "options": [
             "Amarillo",
             "4kg",
@@ -9319,7 +9319,7 @@
         {
           "id": "G3-MEGA-4KG-AZUL",
           "available": false,
-          "price": 90587,
+          "price": 94116,
           "options": [
             "Azul",
             "4kg",
@@ -9331,7 +9331,7 @@
         {
           "id": "G3-MEGA-4KG-BLAN",
           "available": false,
-          "price": 90587,
+          "price": 94116,
           "options": [
             "Blanco",
             "4kg",
@@ -9343,7 +9343,7 @@
         {
           "id": "G3-MEGA-4KG-GRPL",
           "available": true,
-          "price": 90587,
+          "price": 94116,
           "options": [
             "Gris Plata",
             "4kg",
@@ -9355,7 +9355,7 @@
         {
           "id": "G3-MEGA-4KG-NEGR",
           "available": true,
-          "price": 90587,
+          "price": 94116,
           "options": [
             "Negro",
             "4kg",
@@ -9367,7 +9367,7 @@
         {
           "id": "G3-MEGA-4KG-PI16",
           "available": true,
-          "price": 90587,
+          "price": 94116,
           "options": [
             "Piel 162",
             "4kg",
@@ -9379,7 +9379,7 @@
         {
           "id": "G3-MEGA-4KG-PI72",
           "available": true,
-          "price": 90587,
+          "price": 94116,
           "options": [
             "Piel 720",
             "4kg",
@@ -9391,7 +9391,7 @@
         {
           "id": "G3-MEGA-4KG-ROJO",
           "available": true,
-          "price": 90587,
+          "price": 94116,
           "options": [
             "Rojo",
             "4kg",
@@ -9403,7 +9403,7 @@
         {
           "id": "G3-MEGA-4KG-TURQ",
           "available": true,
-          "price": 90587,
+          "price": 94116,
           "options": [
             "Azul Turquesa",
             "4kg",
@@ -9415,7 +9415,7 @@
         {
           "id": "G3-PLA2-1KG-AMAR",
           "available": true,
-          "price": 29411,
+          "price": 30587,
           "options": [
             "Amarillo",
             "1kg",
@@ -9427,7 +9427,7 @@
         {
           "id": "G3-PLA2-1KG-AMFL",
           "available": true,
-          "price": 29411,
+          "price": 30587,
           "options": [
             "Amarillo Fluo",
             "1kg",
@@ -9439,7 +9439,7 @@
         {
           "id": "G3-PLA2-1KG-AZUL",
           "available": true,
-          "price": 29411,
+          "price": 30587,
           "options": [
             "Azul",
             "1kg",
@@ -9451,7 +9451,7 @@
         {
           "id": "G3-PLA2-1KG-AZPR",
           "available": true,
-          "price": 29411,
+          "price": 30587,
           "options": [
             "Azul Prusia",
             "1kg",
@@ -9463,7 +9463,7 @@
         {
           "id": "G3-PLA2-1KG-BORD",
           "available": false,
-          "price": 29411,
+          "price": 30587,
           "options": [
             "Bordo",
             "1kg",
@@ -9475,7 +9475,7 @@
         {
           "id": "G3-PLA2-1KG-BRON",
           "available": true,
-          "price": 29411,
+          "price": 30587,
           "options": [
             "Bronce",
             "1kg",
@@ -9487,7 +9487,7 @@
         {
           "id": "G3-PLA2-1KG-CARP",
           "available": true,
-          "price": 29411,
+          "price": 30587,
           "options": [
             "Marron Carpincho Ed. Limitada",
             "1kg",
@@ -9499,7 +9499,7 @@
         {
           "id": "G3-PLA2-1KG-CELE",
           "available": true,
-          "price": 29411,
+          "price": 30587,
           "options": [
             "Celeste",
             "1kg",
@@ -9511,7 +9511,7 @@
         {
           "id": "G3-PLA2-1KG-COBR",
           "available": true,
-          "price": 29411,
+          "price": 30587,
           "options": [
             "Cobre",
             "1kg",
@@ -9523,7 +9523,7 @@
         {
           "id": "G3-PLA2-1KG-DORA",
           "available": false,
-          "price": 29411,
+          "price": 30587,
           "options": [
             "Dorado",
             "1kg",
@@ -9535,7 +9535,7 @@
         {
           "id": "G3-PLA2-1KG-FUCS",
           "available": true,
-          "price": 29411,
+          "price": 30587,
           "options": [
             "Fucsia",
             "1kg",
@@ -9547,7 +9547,7 @@
         {
           "id": "G3-PLA2-1KG-GRES",
           "available": true,
-          "price": 29411,
+          "price": 30587,
           "options": [
             "Gris Espacial",
             "1kg",
@@ -9559,7 +9559,7 @@
         {
           "id": "G3-PLA2-1KG-MAFL",
           "available": true,
-          "price": 29411,
+          "price": 30587,
           "options": [
             "Rosa Magenta Fluo",
             "1kg",
@@ -9571,7 +9571,7 @@
         {
           "id": "G3-PLA2-1KG-NAFL",
           "available": false,
-          "price": 29411,
+          "price": 30587,
           "options": [
             "Naranja Fluo",
             "1kg",
@@ -9583,7 +9583,7 @@
         {
           "id": "G3-PLA2-1KG-PI16",
           "available": true,
-          "price": 29411,
+          "price": 30587,
           "options": [
             "Piel 162",
             "1kg",
@@ -9595,7 +9595,7 @@
         {
           "id": "G3-PLA2-1KG-PI72",
           "available": true,
-          "price": 29411,
+          "price": 30587,
           "options": [
             "Piel 720",
             "1kg",
@@ -9607,7 +9607,7 @@
         {
           "id": "G3-PLA2-1KG-ROSA",
           "available": false,
-          "price": 29411,
+          "price": 30587,
           "options": [
             "Rosa",
             "1kg",
@@ -9619,7 +9619,7 @@
         {
           "id": "G3-PLA2-1KG-NATU",
           "available": true,
-          "price": 29411,
+          "price": 30587,
           "options": [
             "Translucido Natural",
             "1kg",
@@ -9631,7 +9631,7 @@
         {
           "id": "G3-PLA2-1KG-TURQ",
           "available": true,
-          "price": 29411,
+          "price": 30587,
           "options": [
             "Azul Turquesa",
             "1kg",
@@ -9643,7 +9643,7 @@
         {
           "id": "G3-PLA2-1KG-VERD",
           "available": true,
-          "price": 29411,
+          "price": 30587,
           "options": [
             "Verde",
             "1kg",
@@ -9655,7 +9655,7 @@
         {
           "id": "G3-PLA2-1KG-VEFL",
           "available": true,
-          "price": 29411,
+          "price": 30587,
           "options": [
             "Verde Fluo",
             "1kg",
@@ -9667,7 +9667,7 @@
         {
           "id": "G3-PLA2-1KG-VEMA",
           "available": true,
-          "price": 29411,
+          "price": 30587,
           "options": [
             "Verde Manzana",
             "1kg",
@@ -9679,7 +9679,7 @@
         {
           "id": "G3-PLA2-1KG-VIOL",
           "available": false,
-          "price": 29411,
+          "price": 30587,
           "options": [
             "Violeta",
             "1kg",
@@ -9697,10 +9697,10 @@
       "domain": "shop.wetech.ar",
       "name": "Grilon3 PLA PRO Hyper Premium",
       "category": "Filamentos",
-      "price": 33528,
+      "price": 38822,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 28498.8,
+      "transferPrice": 32998.7,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -9721,7 +9721,7 @@
         {
           "id": "G3-MAXPR-2K5-AZUL",
           "available": false,
-          "price": 74116,
+          "price": 70587,
           "options": [
             "Azul",
             "2.5kg",
@@ -9733,7 +9733,7 @@
         {
           "id": "G3-MAXPR-2K5-BLAN",
           "available": false,
-          "price": 74116,
+          "price": 70587,
           "options": [
             "Blanco",
             "2.5kg",
@@ -9745,7 +9745,7 @@
         {
           "id": "G3-MAXPR-2K5-BRON",
           "available": false,
-          "price": 74116,
+          "price": 70587,
           "options": [
             "Bronce",
             "2.5kg",
@@ -9757,7 +9757,7 @@
         {
           "id": "G3-MAXPR-2K5-GRPL",
           "available": false,
-          "price": 74116,
+          "price": 70587,
           "options": [
             "Gris Plata",
             "2.5kg",
@@ -9769,7 +9769,7 @@
         {
           "id": "G3-MAXPR-2K5-NEGR",
           "available": false,
-          "price": 74116,
+          "price": 70587,
           "options": [
             "Negro",
             "2.5kg",
@@ -9781,7 +9781,7 @@
         {
           "id": "G3-MAXPR-2K5-ROJO",
           "available": false,
-          "price": 74116,
+          "price": 70587,
           "options": [
             "Rojo",
             "2.5kg",
@@ -9793,7 +9793,7 @@
         {
           "id": "G3-PLAPR-1KG-AZUL",
           "available": false,
-          "price": 33528,
+          "price": 38822,
           "options": [
             "Azul",
             "1kg",
@@ -9805,7 +9805,7 @@
         {
           "id": "G3-PLAPR-1KG-BLAN",
           "available": false,
-          "price": 33528,
+          "price": 38822,
           "options": [
             "Blanco",
             "1kg",
@@ -9817,7 +9817,7 @@
         {
           "id": "G3-PLAPR-1KG-BORD",
           "available": false,
-          "price": 33528,
+          "price": 38822,
           "options": [
             "Rojo Bordo",
             "1kg",
@@ -9829,7 +9829,7 @@
         {
           "id": "G3-PLAPR-1KG-GRPL",
           "available": false,
-          "price": 33528,
+          "price": 38822,
           "options": [
             "Gris Plata",
             "1kg",
@@ -9841,7 +9841,7 @@
         {
           "id": "G3-PLAPR-1KG-NEGR",
           "available": false,
-          "price": 33528,
+          "price": 38822,
           "options": [
             "Negro",
             "1kg",
@@ -9853,7 +9853,7 @@
         {
           "id": "G3-PLAPR-1KG-ROJO",
           "available": false,
-          "price": 33528,
+          "price": 38822,
           "options": [
             "Rojo",
             "1kg",
@@ -9865,7 +9865,7 @@
         {
           "id": "G3-PLAPR-1KG-TURQ",
           "available": false,
-          "price": 33528,
+          "price": 38822,
           "options": [
             "Azul Turquesa",
             "1kg",
@@ -9877,7 +9877,7 @@
         {
           "id": "G3-PLAPR-1KG-VEFL",
           "available": false,
-          "price": 33528,
+          "price": 38822,
           "options": [
             "Verde Fluo",
             "1kg",
@@ -9895,10 +9895,10 @@
       "domain": "shop.wetech.ar",
       "name": "Grilon3 PLA Silk Premium",
       "category": "Filamentos",
-      "price": 34116,
+      "price": 35293,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 28998.6,
+      "transferPrice": 29999.05,
       "stock": 59,
       "stockLabel": "En stock",
       "available": true,
@@ -9918,7 +9918,7 @@
         {
           "id": "G3-SILK-1KG-AZUL",
           "available": true,
-          "price": 34116,
+          "price": 35293,
           "options": [
             "Azul",
             "1kg",
@@ -9930,7 +9930,7 @@
         {
           "id": "G3-SILK-1KG-BLPE",
           "available": true,
-          "price": 34116,
+          "price": 35293,
           "options": [
             "Blanco Perla",
             "1kg",
@@ -9942,7 +9942,7 @@
         {
           "id": "G3-SILK-1KG-COBR",
           "available": true,
-          "price": 34116,
+          "price": 35293,
           "options": [
             "Cobre",
             "1kg",
@@ -9954,7 +9954,7 @@
         {
           "id": "G3-SILK-1KG-DORA",
           "available": false,
-          "price": 34116,
+          "price": 35293,
           "options": [
             "Dorado",
             "1kg",
@@ -9966,7 +9966,7 @@
         {
           "id": "G3-SILK-1KG-AZAB",
           "available": true,
-          "price": 34116,
+          "price": 35293,
           "options": [
             "Azabache",
             "1kg",
@@ -9978,7 +9978,7 @@
         {
           "id": "G3-SILK-1KG-PLAT",
           "available": true,
-          "price": 34116,
+          "price": 35293,
           "options": [
             "Platino",
             "1kg",
@@ -9990,7 +9990,7 @@
         {
           "id": "G3-SILK-1KG-TUTT",
           "available": true,
-          "price": 34116,
+          "price": 35293,
           "options": [
             "Tutti Fruti",
             "1kg",
@@ -10002,7 +10002,7 @@
         {
           "id": "G3-SILK-1KG-VERDE",
           "available": true,
-          "price": 34116,
+          "price": 35293,
           "options": [
             "Verde",
             "1kg",
@@ -10020,10 +10020,10 @@
       "domain": "shop.wetech.ar",
       "name": "Grilon3 PLA WOOD Premium",
       "category": "Filamentos",
-      "price": 45293,
+      "price": 47058,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 38499.05,
+      "transferPrice": 39999.3,
       "stock": 51,
       "stockLabel": "En stock",
       "available": true,
@@ -10043,7 +10043,7 @@
         {
           "id": "G3-WOOD-1KG-CAOB",
           "available": true,
-          "price": 45293,
+          "price": 47058,
           "options": [
             "Caoba",
             "1kg",
@@ -10055,7 +10055,7 @@
         {
           "id": "G3-WOOD-1KG-CERE",
           "available": true,
-          "price": 45293,
+          "price": 47058,
           "options": [
             "Cerezo",
             "1kg",
@@ -10067,7 +10067,7 @@
         {
           "id": "G3-WOOD-1KG-NOGA",
           "available": true,
-          "price": 45293,
+          "price": 47058,
           "options": [
             "Nogal",
             "1kg",
@@ -10079,7 +10079,7 @@
         {
           "id": "G3-WOOD-1KG-PINO",
           "available": true,
-          "price": 45293,
+          "price": 47058,
           "options": [
             "Pino",
             "1kg",
@@ -10097,10 +10097,10 @@
       "domain": "shop.wetech.ar",
       "name": "Grilon3 PLA ZETA Premium",
       "category": "Filamentos",
-      "price": 33528,
+      "price": 38822,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 28498.8,
+      "transferPrice": 32998.7,
       "stock": 32,
       "stockLabel": "En stock",
       "available": true,
@@ -10120,7 +10120,7 @@
         {
           "id": "G3-ZETA-1KG-AZAB",
           "available": true,
-          "price": 33528,
+          "price": 38822,
           "options": [
             "Azabache",
             "1kg",
@@ -10132,7 +10132,7 @@
         {
           "id": "G3-ZETA-1KG-CLCR",
           "available": true,
-          "price": 33528,
+          "price": 38822,
           "options": [
             "Translucido Cristal",
             "1kg",
@@ -10150,10 +10150,10 @@
       "domain": "shop.wetech.ar",
       "name": "Grilon3 PPT Premium",
       "category": "Filamentos",
-      "price": 27646,
+      "price": 44705,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 23499.1,
+      "transferPrice": 37999.25,
       "stock": 14,
       "stockLabel": "En stock",
       "available": true,
@@ -10173,7 +10173,7 @@
         {
           "id": "G3-PPT-1KG-AMAR",
           "available": false,
-          "price": 27646,
+          "price": 44705,
           "options": [
             "Amarillo",
             "1kg",
@@ -10185,7 +10185,7 @@
         {
           "id": "G3-PPT-1KG-AZUL",
           "available": false,
-          "price": 27646,
+          "price": 44705,
           "options": [
             "Azul",
             "1kg",
@@ -10197,7 +10197,7 @@
         {
           "id": "G3-PPT-1KG-ROJO",
           "available": false,
-          "price": 27646,
+          "price": 44705,
           "options": [
             "Rojo",
             "1kg",
@@ -10209,7 +10209,7 @@
         {
           "id": "G3-PPT-1KG-NATU",
           "available": true,
-          "price": 27646,
+          "price": 44705,
           "options": [
             "Translucido Natural",
             "1kg",
@@ -10221,7 +10221,7 @@
         {
           "id": "G3-PPT-1KG-VERD",
           "available": true,
-          "price": 27646,
+          "price": 44705,
           "options": [
             "Verde",
             "1kg",
@@ -10239,10 +10239,10 @@
       "domain": "shop.wetech.ar",
       "name": "Grilon3 PVA Premium",
       "category": "Filamentos",
-      "price": 49411,
+      "price": 88234,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 41999.35,
+      "transferPrice": 74998.9,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -10262,7 +10262,7 @@
         {
           "id": "G3-PVA-500-NATU",
           "available": false,
-          "price": 49411,
+          "price": 88234,
           "options": [
             "Translucido Natural",
             "0.5kg",
@@ -10280,10 +10280,10 @@
       "domain": "shop.wetech.ar",
       "name": "Grilon3 TPU SimpliFlex Premium",
       "category": "Filamentos",
-      "price": 47058,
+      "price": 54116,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 39999.3,
+      "transferPrice": 45998.6,
       "stock": 90,
       "stockLabel": "En stock",
       "available": true,
@@ -10303,7 +10303,7 @@
         {
           "id": "G3-TPU-1KG-BLAN",
           "available": true,
-          "price": 47058,
+          "price": 54116,
           "options": [
             "Blanco",
             "1kg",
@@ -10315,7 +10315,7 @@
         {
           "id": "G3-TPU-1KG-CELE",
           "available": true,
-          "price": 47058,
+          "price": 54116,
           "options": [
             "Celeste",
             "1kg",
@@ -10327,7 +10327,7 @@
         {
           "id": "G3-TPU-1KG-NARA",
           "available": true,
-          "price": 47058,
+          "price": 54116,
           "options": [
             "Naranja",
             "1kg",
@@ -10339,7 +10339,7 @@
         {
           "id": "G3-TPU-1KG-NEGR",
           "available": false,
-          "price": 47058,
+          "price": 54116,
           "options": [
             "Negro",
             "1kg",
@@ -10351,7 +10351,7 @@
         {
           "id": "G3-TPU-1KG-NOVA",
           "available": true,
-          "price": 47058,
+          "price": 54116,
           "options": [
             "Violeta Nova",
             "1kg",
@@ -10363,7 +10363,7 @@
         {
           "id": "G3-TPU-1KG-NATU",
           "available": true,
-          "price": 47058,
+          "price": 54116,
           "options": [
             "Translucido Natural",
             "1kg",
@@ -10375,7 +10375,7 @@
         {
           "id": "G3-TPU-1KG-VERD",
           "available": true,
-          "price": 47058,
+          "price": 54116,
           "options": [
             "Verde",
             "1kg",
@@ -10393,10 +10393,10 @@
       "domain": "shop.wetech.ar",
       "name": "GST3D ABS Básico",
       "category": "Filamentos",
-      "price": 23528,
+      "price": 10064,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 19998.8,
+      "transferPrice": 8554.4,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -10416,7 +10416,7 @@
         {
           "id": "GSB-ABS-1KG-BLAN",
           "available": false,
-          "price": 23528,
+          "price": 10064,
           "options": [
             "Blanco",
             "1kg",
@@ -10428,7 +10428,7 @@
         {
           "id": "GSB-ABS-1KG-NEGR",
           "available": false,
-          "price": 23528,
+          "price": 10064,
           "options": [
             "Negro",
             "1kg",
@@ -10446,10 +10446,10 @@
       "domain": "shop.wetech.ar",
       "name": "GST3D ASA Básico",
       "category": "Filamentos",
-      "price": 28234,
+      "price": 30587,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 23998.9,
+      "transferPrice": 25998.95,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -10469,7 +10469,7 @@
         {
           "id": "GSB-ASA-1KG-BLAN",
           "available": false,
-          "price": 28234,
+          "price": 30587,
           "options": [
             "Blanco",
             "1kg",
@@ -10481,7 +10481,7 @@
         {
           "id": "GSB-ASA-1KG-NEGR",
           "available": false,
-          "price": 28234,
+          "price": 30587,
           "options": [
             "Negro",
             "1kg",
@@ -10493,57 +10493,16 @@
       ]
     },
     {
-      "id": "wetech-gst3d-pla-estandar-importado",
-      "sourceProductId": "GST3D-PLA-ESTÁNDAR-IMPORTADO",
-      "store": "WeTech",
-      "domain": "shop.wetech.ar",
-      "name": "GST3D PLA Estándar",
-      "category": "Filamentos",
-      "price": 23528,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 19998.8,
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "GST3D",
-      "tags": [
-        "GST3D",
-        "PLA",
-        "Estándar",
-        "Importado",
-        "Filamentos PLA",
-        "1kg"
-      ],
-      "image": "https://ik.imagekit.io/8x5mvqkfl0/GST3D/GST3D%20COSMOS/PLA%20CLASSIC/PLA%201KG%20VERDE%20NEON_Mesa%20de%20trabajo%201.png?updatedAt=1780589302031",
-      "url": "https://shop.wetech.ar/product/GST3D-PLA-EST%C3%81NDAR-IMPORTADO",
-      "scrapedFrom": "https://shop.wetech.ar/products",
-      "variants": [
-        {
-          "id": "GSC-PLA-1KG-VENE",
-          "available": false,
-          "price": 23528,
-          "options": [
-            "Verde Neon",
-            "1kg",
-            "PLA",
-            "Estándar",
-            "Importado"
-          ]
-        }
-      ]
-    },
-    {
       "id": "wetech-gst3d-pla-glow-basico-nacional",
       "sourceProductId": "GST3D-PLA GLOW-BÁSICO-NACIONAL",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
       "name": "GST3D PLA GLOW Básico",
       "category": "Filamentos",
-      "price": 23528,
+      "price": 25881,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 19998.8,
+      "transferPrice": 21998.85,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -10563,7 +10522,7 @@
         {
           "id": "GSB-GLOW-1KG-FIFL",
           "available": false,
-          "price": 23528,
+          "price": 25881,
           "options": [
             "Firefly",
             "1kg",
@@ -10581,11 +10540,11 @@
       "domain": "shop.wetech.ar",
       "name": "GST3D PLA+ Básico",
       "category": "Filamentos",
-      "price": 22352,
+      "price": 23528,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 18999.2,
-      "stock": 545,
+      "transferPrice": 19998.8,
+      "stock": 542,
       "stockLabel": "En stock",
       "available": true,
       "brand": "GST3D",
@@ -10604,7 +10563,7 @@
         {
           "id": "GSB-PLA-1KG-AMAR",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Amarillo",
             "1kg",
@@ -10616,7 +10575,7 @@
         {
           "id": "GSB-PLA-1KG-PACR",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Crema Pastel",
             "1kg",
@@ -10628,7 +10587,7 @@
         {
           "id": "GSB-PLA-1KG-AMFL",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Amarillo Fluo",
             "1kg",
@@ -10640,7 +10599,7 @@
         {
           "id": "GSB-PLA-1KG-AZUL",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Azul",
             "1kg",
@@ -10652,7 +10611,7 @@
         {
           "id": "GSB-PLA-1KG-GLAZ",
           "available": false,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Azul Glitter",
             "1kg",
@@ -10664,7 +10623,7 @@
         {
           "id": "GSB-PLA-1KG-AZHI",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Azul Hielo",
             "1kg",
@@ -10676,7 +10635,7 @@
         {
           "id": "GSB-PLA-1KG-NASU",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Nafta Super",
             "1kg",
@@ -10688,7 +10647,7 @@
         {
           "id": "GSB-PLA-1KG-AZOS",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Azul Oscuro",
             "1kg",
@@ -10700,7 +10659,7 @@
         {
           "id": "GSB-PLA-1KG-PAAZ",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Azul Pastel",
             "1kg",
@@ -10712,7 +10671,7 @@
         {
           "id": "GSB-PLA-1KG-BLAN",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Blanco Comun",
             "1kg",
@@ -10724,7 +10683,7 @@
         {
           "id": "GSB-PLA-1KG-CELE",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Celeste",
             "1kg",
@@ -10736,7 +10695,7 @@
         {
           "id": "GSB-PLA-1KG-CREM",
           "available": false,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Crema",
             "1kg",
@@ -10748,7 +10707,7 @@
         {
           "id": "GSB-PLA-1KG-GOLD",
           "available": false,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Dorado",
             "1kg",
@@ -10760,7 +10719,7 @@
         {
           "id": "GSB-PLA-1KG-GLDO",
           "available": false,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Dorado Glitter",
             "1kg",
@@ -10772,7 +10731,7 @@
         {
           "id": "GSB-PLA-1KG-FUCS",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Fucsia",
             "1kg",
@@ -10784,7 +10743,7 @@
         {
           "id": "GSB-PLA-1KG-NUFU",
           "available": false,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Fucsia Nuevo",
             "1kg",
@@ -10796,7 +10755,7 @@
         {
           "id": "GSB-PLA-1KG-MARR",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Marron",
             "1kg",
@@ -10808,7 +10767,7 @@
         {
           "id": "GSB-PLA-1KG-CAPI",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Capibara",
             "1kg",
@@ -10820,7 +10779,7 @@
         {
           "id": "GSB-PLA-1KG-MACL",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Marron Claro",
             "1kg",
@@ -10832,7 +10791,7 @@
         {
           "id": "GSB-PLA-1KG-MOST",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Mostaza",
             "1kg",
@@ -10844,7 +10803,7 @@
         {
           "id": "GSB-PLA-1KG-NARA",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Naranja",
             "1kg",
@@ -10856,7 +10815,7 @@
         {
           "id": "GSB-PLA-1KG-NAFL",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Naranja Fluo",
             "1kg",
@@ -10868,7 +10827,7 @@
         {
           "id": "GSB-PLA-1KG-NEGR",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Negro",
             "1kg",
@@ -10880,7 +10839,7 @@
         {
           "id": "GSB-PLA-1KG-GLNE",
           "available": false,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Negro Glitter",
             "1kg",
@@ -10892,7 +10851,7 @@
         {
           "id": "GSB-PLA-1KG-PLAT",
           "available": false,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Plata",
             "1kg",
@@ -10904,7 +10863,7 @@
         {
           "id": "GSB-PLA-1KG-GLPL",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Plata Glitter",
             "1kg",
@@ -10916,7 +10875,7 @@
         {
           "id": "GSB-PLA-1KG-ROJO",
           "available": false,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Rojo",
             "1kg",
@@ -10928,7 +10887,7 @@
         {
           "id": "GSB-PLA-1KG-GLRO",
           "available": false,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Rojo Glitter",
             "1kg",
@@ -10940,7 +10899,7 @@
         {
           "id": "GSB-PLA-1KG-ROSA",
           "available": false,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Rosa",
             "1kg",
@@ -10952,7 +10911,7 @@
         {
           "id": "GSB-PLA-1KG-ROCL",
           "available": false,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Rosa Claro",
             "1kg",
@@ -10964,7 +10923,7 @@
         {
           "id": "GSB-PLA-1KG-NERO",
           "available": false,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Rosa Neo",
             "1kg",
@@ -10976,7 +10935,7 @@
         {
           "id": "GSB-PLA-1KG-ROPA",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Rosa Pastel",
             "1kg",
@@ -10988,7 +10947,7 @@
         {
           "id": "GSB-PLA-1KG-CRIS",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Translucido",
             "1kg",
@@ -11000,7 +10959,7 @@
         {
           "id": "GSB-PLA-1KG-VEFL",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Verde Fluo",
             "1kg",
@@ -11012,7 +10971,7 @@
         {
           "id": "GSB-PLA-1KG-VEMA",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Verde Manzana",
             "1kg",
@@ -11024,7 +10983,7 @@
         {
           "id": "GSB-PLA-1KG-VEMI",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Verde Militar",
             "1kg",
@@ -11036,7 +10995,7 @@
         {
           "id": "GSB-PLA-1KG-GLVE",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Verde Militar Glitter",
             "1kg",
@@ -11048,7 +11007,7 @@
         {
           "id": "GSB-PLA-1KG-VEPA",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Verde Pastel",
             "1kg",
@@ -11060,7 +11019,7 @@
         {
           "id": "GSB-PLA-1KG-VIOL",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Violeta",
             "1kg",
@@ -11072,7 +11031,7 @@
         {
           "id": "GSB-PLA-1KG-VIPA",
           "available": false,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Violeta Pastel",
             "1kg",
@@ -11090,10 +11049,10 @@
       "domain": "shop.wetech.ar",
       "name": "GST3D PLA+ Silk Básico",
       "category": "Filamentos",
-      "price": 23528,
+      "price": 25881,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 19998.8,
+      "transferPrice": 21998.85,
       "stock": 36,
       "stockLabel": "En stock",
       "available": true,
@@ -11113,7 +11072,7 @@
         {
           "id": "GSB-SILK-1KG-AMFL",
           "available": true,
-          "price": 23528,
+          "price": 25881,
           "options": [
             "Amarillo Fluo",
             "1kg",
@@ -11125,7 +11084,7 @@
         {
           "id": "GSB-SILK-1KG-AREN",
           "available": false,
-          "price": 23528,
+          "price": 25881,
           "options": [
             "Arena",
             "1kg",
@@ -11137,7 +11096,7 @@
         {
           "id": "GSB-SILK-1KG-AZUL",
           "available": false,
-          "price": 23528,
+          "price": 25881,
           "options": [
             "Azul",
             "1kg",
@@ -11149,7 +11108,7 @@
         {
           "id": "GSB-SILK-1KG-PERL",
           "available": false,
-          "price": 23528,
+          "price": 25881,
           "options": [
             "Blanco Perla",
             "1kg",
@@ -11161,7 +11120,7 @@
         {
           "id": "GSB-SILK-1KG-CELE",
           "available": false,
-          "price": 23528,
+          "price": 25881,
           "options": [
             "Celeste",
             "1kg",
@@ -11173,7 +11132,7 @@
         {
           "id": "GSB-SILK-1KG-DORA",
           "available": true,
-          "price": 23528,
+          "price": 25881,
           "options": [
             "Dorado",
             "1kg",
@@ -11185,7 +11144,7 @@
         {
           "id": "GSB-SILK-1KG-FUCS",
           "available": true,
-          "price": 23528,
+          "price": 25881,
           "options": [
             "Fucsia",
             "1kg",
@@ -11197,7 +11156,7 @@
         {
           "id": "GSB-SILK-1KG-ALUM",
           "available": false,
-          "price": 23528,
+          "price": 25881,
           "options": [
             "Gris Aluminio",
             "1kg",
@@ -11209,7 +11168,7 @@
         {
           "id": "GSB-SILK-1KG-GRAP",
           "available": false,
-          "price": 23528,
+          "price": 25881,
           "options": [
             "Gris Grafito",
             "1kg",
@@ -11221,7 +11180,7 @@
         {
           "id": "GSB-SILK-1KG-MARB",
           "available": false,
-          "price": 23528,
+          "price": 25881,
           "options": [
             "Marmol",
             "1kg",
@@ -11233,7 +11192,7 @@
         {
           "id": "GSB-SILK-1KG-DURA",
           "available": false,
-          "price": 23528,
+          "price": 25881,
           "options": [
             "Naranja Durazno",
             "1kg",
@@ -11245,7 +11204,7 @@
         {
           "id": "GSB-SILK-1KG-NAFL",
           "available": false,
-          "price": 23528,
+          "price": 25881,
           "options": [
             "Naranja Fluo",
             "1kg",
@@ -11257,7 +11216,7 @@
         {
           "id": "GSB-SILK-1KG-ROJO",
           "available": false,
-          "price": 23528,
+          "price": 25881,
           "options": [
             "Rojo",
             "1kg",
@@ -11269,7 +11228,7 @@
         {
           "id": "GSB-SILK-1KG-RODO",
           "available": true,
-          "price": 23528,
+          "price": 25881,
           "options": [
             "Rosa Oro",
             "1kg",
@@ -11281,7 +11240,7 @@
         {
           "id": "GSB-SILK-1KG-VERD",
           "available": false,
-          "price": 23528,
+          "price": 25881,
           "options": [
             "Verde",
             "1kg",
@@ -11293,7 +11252,7 @@
         {
           "id": "GSB-SILK-1KG-VEFL",
           "available": true,
-          "price": 23528,
+          "price": 25881,
           "options": [
             "Verde Fluo",
             "1kg",
@@ -11305,7 +11264,7 @@
         {
           "id": "GSB-SILK-1KG-VEMI",
           "available": false,
-          "price": 23528,
+          "price": 25881,
           "options": [
             "Verde Militar",
             "1kg",
@@ -11317,7 +11276,7 @@
         {
           "id": "GSB-SILK-1KG-OLIV",
           "available": true,
-          "price": 23528,
+          "price": 25881,
           "options": [
             "Verde Oliva",
             "1kg",
@@ -11329,7 +11288,7 @@
         {
           "id": "GSB-SILK-1KG-PURP",
           "available": false,
-          "price": 23528,
+          "price": 25881,
           "options": [
             "Purpura",
             "1kg",
@@ -11347,10 +11306,10 @@
       "domain": "shop.wetech.ar",
       "name": "GST3D PLA+ Silk DUO Básico",
       "category": "Filamentos",
-      "price": 23528,
+      "price": 25881,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 19998.8,
+      "transferPrice": 21998.85,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -11370,7 +11329,7 @@
         {
           "id": "GSB-SIDU-1KG-ARGE",
           "available": false,
-          "price": 23528,
+          "price": 25881,
           "options": [
             "Celeste + Blanco Argento",
             "1kg",
@@ -11382,7 +11341,7 @@
         {
           "id": "GSB-SIDU-1KG-FUDO",
           "available": false,
-          "price": 23528,
+          "price": 25881,
           "options": [
             "Fucsia + Dorado",
             "1kg",
@@ -11394,7 +11353,7 @@
         {
           "id": "GSB-SIDU-1KG-GRDO",
           "available": false,
-          "price": 23528,
+          "price": 25881,
           "options": [
             "Grafito + Dorado",
             "1kg",
@@ -11406,7 +11365,7 @@
         {
           "id": "GSB-SIDU-1KG-GRPE",
           "available": false,
-          "price": 23528,
+          "price": 25881,
           "options": [
             "Grafito + Perla",
             "1kg",
@@ -11418,7 +11377,7 @@
         {
           "id": "GSB-SIDU-1KG-GRPU",
           "available": false,
-          "price": 23528,
+          "price": 25881,
           "options": [
             "Grafito + Purpura",
             "1kg",
@@ -11430,7 +11389,7 @@
         {
           "id": "GSB-SIDU-1KG-GRRO",
           "available": false,
-          "price": 23528,
+          "price": 25881,
           "options": [
             "Grafito + Rojo",
             "1kg",
@@ -11442,7 +11401,7 @@
         {
           "id": "GSB-SIDU-1KG-GRVE",
           "available": false,
-          "price": 23528,
+          "price": 25881,
           "options": [
             "Grafito + Verde",
             "1kg",
@@ -11454,7 +11413,7 @@
         {
           "id": "GSB-SIDU-1KG-NADO",
           "available": false,
-          "price": 23528,
+          "price": 25881,
           "options": [
             "Naranja + Dorado",
             "1kg",
@@ -11472,10 +11431,10 @@
       "domain": "shop.wetech.ar",
       "name": "GST3D PLA+ Silk TRIO Básico",
       "category": "Filamentos",
-      "price": 23528,
+      "price": 25881,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 19998.8,
+      "transferPrice": 21998.85,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -11495,7 +11454,7 @@
         {
           "id": "GSB-SITR-1KG-AZVEAF",
           "available": false,
-          "price": 23528,
+          "price": 25881,
           "options": [
             "Azul + Verde + Amarillo Fluo",
             "1kg",
@@ -11507,7 +11466,7 @@
         {
           "id": "GSB-SITR-1KG-DOPUAZ",
           "available": false,
-          "price": 23528,
+          "price": 25881,
           "options": [
             "Dorado + Purpura + Azul",
             "1kg",
@@ -11519,7 +11478,7 @@
         {
           "id": "GSB-SITR-1KG-DOROAZ",
           "available": false,
-          "price": 23528,
+          "price": 25881,
           "options": [
             "Dorado + Rojo + Azul",
             "1kg",
@@ -11531,7 +11490,7 @@
         {
           "id": "GSB-SITR-1KG-DOVEFU",
           "available": false,
-          "price": 23528,
+          "price": 25881,
           "options": [
             "Dorado + Verde + Fucsia",
             "1kg",
@@ -11543,7 +11502,7 @@
         {
           "id": "GSB-SITR-1KG-DOVEPU",
           "available": false,
-          "price": 23528,
+          "price": 25881,
           "options": [
             "Dorado + Verde + Purpura",
             "1kg",
@@ -11555,7 +11514,7 @@
         {
           "id": "GSB-SITR-1KG-FUDONF",
           "available": false,
-          "price": 23528,
+          "price": 25881,
           "options": [
             "Fucsia + Dorado + Naranja Fluo",
             "1kg",
@@ -11567,7 +11526,7 @@
         {
           "id": "GSB-SITR-1KG-LAMB",
           "available": false,
-          "price": 23528,
+          "price": 25881,
           "options": [
             "Lambo Verde + Azul + Fucsia",
             "1kg",
@@ -11579,7 +11538,7 @@
         {
           "id": "GSB-SITR-1KG-RODONAF",
           "available": false,
-          "price": 23528,
+          "price": 25881,
           "options": [
             "Rojo + Dorado + Naranja Fluo",
             "1kg",
@@ -11591,7 +11550,7 @@
         {
           "id": "GSB-SITR-1KG-VEPUAZ",
           "available": false,
-          "price": 23528,
+          "price": 25881,
           "options": [
             "Verde + Purpura + Azul",
             "1kg",
@@ -11603,7 +11562,7 @@
         {
           "id": "GSB-SITR-1KG-VEROAZ",
           "available": false,
-          "price": 23528,
+          "price": 25881,
           "options": [
             "Verde + Rojo + Azul",
             "1kg",
@@ -11763,11 +11722,11 @@
       "domain": "shop.wetech.ar",
       "name": "Hellbot PLA Básico",
       "category": "Filamentos",
-      "price": 22352,
+      "price": 23528,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 18999.2,
-      "stock": 445,
+      "transferPrice": 19998.8,
+      "stock": 427,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -11786,7 +11745,7 @@
         {
           "id": "HB-PLA-1KG-AMAR",
           "available": false,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Amarillo",
             "1kg",
@@ -11798,7 +11757,7 @@
         {
           "id": "HB-PLA-1KG-AMFL",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Amarillo Fluo",
             "1kg",
@@ -11810,7 +11769,7 @@
         {
           "id": "HB-PLA-1KG-ARPA",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Arena Pastel",
             "1kg",
@@ -11822,7 +11781,7 @@
         {
           "id": "HB-PLA-1KG-AZUL",
           "available": false,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Azul",
             "1kg",
@@ -11834,7 +11793,7 @@
         {
           "id": "HB-PLA-1KG-COBA",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Cobalto",
             "1kg",
@@ -11846,7 +11805,7 @@
         {
           "id": "HB-PLA-1KG-INPA",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Indigo Pastel",
             "1kg",
@@ -11858,7 +11817,7 @@
         {
           "id": "HB-PLA-1KG-BLAN",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Blanco",
             "1kg",
@@ -11870,7 +11829,7 @@
         {
           "id": "HB-PLA-1KG-BRON",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Bronce",
             "1kg",
@@ -11882,7 +11841,7 @@
         {
           "id": "HB-PLA-1KG-CELE",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Celeste",
             "1kg",
@@ -11894,7 +11853,7 @@
         {
           "id": "HB-PLA-1KG-CEPA",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Celeste Pastel",
             "1kg",
@@ -11906,7 +11865,7 @@
         {
           "id": "HB-PLA-1KG-DORA",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Dorado",
             "1kg",
@@ -11918,7 +11877,7 @@
         {
           "id": "HB-PLA-1KG-GRCL",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Gris Claro",
             "1kg",
@@ -11930,7 +11889,7 @@
         {
           "id": "HB-PLA-1KG-GRGR",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Gris Grafito",
             "1kg",
@@ -11942,7 +11901,7 @@
         {
           "id": "HB-PLA-1KG-PLAT",
           "available": false,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Plateado",
             "1kg",
@@ -11954,7 +11913,7 @@
         {
           "id": "HB-PLA-1KG-LAPA",
           "available": false,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Lavanda Pastel",
             "1kg",
@@ -11966,7 +11925,7 @@
         {
           "id": "HB-PLA-1KG-MARM",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Marmol",
             "1kg",
@@ -11978,7 +11937,7 @@
         {
           "id": "HB-PLA-1KG-MARR",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Marron",
             "1kg",
@@ -11990,7 +11949,7 @@
         {
           "id": "HB-PLA-1KG-CAPI",
           "available": false,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Capibara",
             "1kg",
@@ -12002,7 +11961,7 @@
         {
           "id": "HB-PLA-1KG-NARA",
           "available": false,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Naranja",
             "1kg",
@@ -12014,7 +11973,7 @@
         {
           "id": "HB-PLA-1KG-NAFL",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Naranja Fluo",
             "1kg",
@@ -12026,7 +11985,7 @@
         {
           "id": "HB-PLA-1KG-NEGR",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Negro",
             "1kg",
@@ -12038,7 +11997,7 @@
         {
           "id": "HB-PLA-1KG-PIMA",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Piel",
             "1kg",
@@ -12050,7 +12009,7 @@
         {
           "id": "HB-PLA-1KG-ROJO",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Rojo",
             "1kg",
@@ -12062,7 +12021,7 @@
         {
           "id": "HB-PLA-1KG-ROSA",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Rosa",
             "1kg",
@@ -12074,7 +12033,7 @@
         {
           "id": "HB-PLA-1KG-ROPA",
           "available": false,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Rosa Pastel",
             "1kg",
@@ -12086,7 +12045,7 @@
         {
           "id": "HB-PLA-1KG-ZATR",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Translucido Zafiro",
             "1kg",
@@ -12098,7 +12057,7 @@
         {
           "id": "HB-PLA-1KG-DIAM",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Translucido Diamante",
             "1kg",
@@ -12110,7 +12069,7 @@
         {
           "id": "HB-PLA-1KG-NACR",
           "available": false,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Translucido Natural Cristal",
             "1kg",
@@ -12122,7 +12081,7 @@
         {
           "id": "HB-PLA-1KG-RUTR",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Translucido Rubi",
             "1kg",
@@ -12134,7 +12093,7 @@
         {
           "id": "HB-PLA-1KG-ESTR",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Translucido Esmeralda",
             "1kg",
@@ -12146,7 +12105,7 @@
         {
           "id": "HB-PLA-1KG-VAPA",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Vainilla Pastel",
             "1kg",
@@ -12158,7 +12117,7 @@
         {
           "id": "HB-PLA-1KG-VERD",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Verde",
             "1kg",
@@ -12170,7 +12129,7 @@
         {
           "id": "HB-PLA-1KG-AQUA",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Aqua",
             "1kg",
@@ -12182,7 +12141,7 @@
         {
           "id": "HB-PLA-1KG-AQPA",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Aqua Pastel",
             "1kg",
@@ -12194,7 +12153,7 @@
         {
           "id": "HB-PLA-1KG-VECL",
           "available": false,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Verde Claro",
             "1kg",
@@ -12206,7 +12165,7 @@
         {
           "id": "HB-PLA-1KG-VEFL",
           "available": false,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Verde Fluo",
             "1kg",
@@ -12218,7 +12177,7 @@
         {
           "id": "HB-PLA-1KG-KIPA",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Kiwi Pastel",
             "1kg",
@@ -12230,7 +12189,7 @@
         {
           "id": "HB-PLA-1KG-MEPA",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Menta Pastel",
             "1kg",
@@ -12242,7 +12201,7 @@
         {
           "id": "HB-PLA-1KG-VIOL",
           "available": true,
-          "price": 22352,
+          "price": 23528,
           "options": [
             "Violeta",
             "1kg",
@@ -12260,10 +12219,10 @@
       "domain": "shop.wetech.ar",
       "name": "Hellbot PLA Rainbow Premium",
       "category": "Filamentos",
-      "price": 45881,
+      "price": 47058,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 38998.85,
+      "transferPrice": 39999.3,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -12283,7 +12242,7 @@
         {
           "id": "HB-RAIN-1KG-CLAS",
           "available": false,
-          "price": 45881,
+          "price": 47058,
           "options": [
             "Multicolor Classic",
             "1kg",
@@ -12295,7 +12254,7 @@
         {
           "id": "HB-RAIN-1KG-RAMA",
           "available": false,
-          "price": 45881,
+          "price": 47058,
           "options": [
             "Multicolor Matte",
             "1kg",
@@ -12307,7 +12266,7 @@
         {
           "id": "HB-RAIN-1KG-SILK",
           "available": false,
-          "price": 45881,
+          "price": 47058,
           "options": [
             "Multicolor Silk",
             "1kg",
@@ -12486,10 +12445,10 @@
       "domain": "shop.wetech.ar",
       "name": "Hellbot PLA+ Silk DUO Premium",
       "category": "Filamentos",
-      "price": 35292.94,
+      "price": 35293,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 29999,
+      "transferPrice": 29999.05,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -12509,7 +12468,7 @@
         {
           "id": "HB-SIDU-1KG-AMRO",
           "available": false,
-          "price": 35292.94,
+          "price": 35293,
           "options": [
             "Amarillo+Rosa",
             "1kg",
@@ -12521,7 +12480,7 @@
         {
           "id": "HB-SIDU-1KG-AZRO",
           "available": false,
-          "price": 35292.94,
+          "price": 35293,
           "options": [
             "Azul+Rojo",
             "1kg",
@@ -12533,7 +12492,7 @@
         {
           "id": "HB-SIDU-1KG-AZVE",
           "available": false,
-          "price": 35292.94,
+          "price": 35293,
           "options": [
             "Azul+Verde",
             "1kg",
@@ -12545,7 +12504,7 @@
         {
           "id": "HB-SIDU-1KG-CEVI",
           "available": false,
-          "price": 35292.94,
+          "price": 35293,
           "options": [
             "Celeste+Violeta",
             "1kg",
@@ -12557,7 +12516,7 @@
         {
           "id": "HB-SIDU-1KG-ORRO",
           "available": false,
-          "price": 35292.94,
+          "price": 35293,
           "options": [
             "Oro+Rojo",
             "1kg",
@@ -12999,7 +12958,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 27554.59,
-      "stock": 15,
+      "stock": 14,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -13355,11 +13314,11 @@
       "domain": "shop.wetech.ar",
       "name": "Par de tapas | Carrete para recarga | Hellbot | Recarga Lock",
       "category": "Repuestos",
-      "price": 3544.7,
+      "price": 3498.97,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 3012.99,
-      "stock": 9,
+      "transferPrice": 2974.12,
+      "stock": 7,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -13373,7 +13332,7 @@
         {
           "id": "HELLTAPITAS LOCK",
           "available": true,
-          "price": 3544.7,
+          "price": 3498.97,
           "options": []
         }
       ]
@@ -14229,7 +14188,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 12030.75,
-      "stock": 2,
+      "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": null,
@@ -14859,8 +14818,8 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 8901.03,
-      "stock": 4,
-      "stockLabel": "En stock",
+      "stock": 3,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": null,
       "tags": [
