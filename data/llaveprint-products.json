@@ -5,15 +5,15 @@
     "baseUrl": "https://www.llaveprint.com.ar",
     "listingPath": "/impresion-3d/"
   },
-  "scrapedAt": "2026-10-18T12:31:38.150Z",
-  "count": 9,
+  "scrapedAt": "2026-10-19T15:24:34.190Z",
+  "count": 11,
   "pages": [
     {
       "page": 1,
       "path": "/impresion-3d/",
       "url": "https://www.llaveprint.com.ar/impresion-3d/",
-      "found": 9,
-      "added": 9
+      "found": 11,
+      "added": 11
     },
     {
       "page": 2,
@@ -264,6 +264,74 @@
       ]
     },
     {
+      "id": "llaveprint-375045463",
+      "sourceProductId": "375045463",
+      "store": "Llaveprint",
+      "domain": "llaveprint.com.ar",
+      "name": "Impresora 3D Flashforge Creator 5 Pro con 4 cabezales",
+      "category": "Impresoras",
+      "price": 2389900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 2150910,
+      "purchaseModes": [],
+      "stock": 5,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Flashforge",
+      "tags": [
+        "Flashforge"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/004/428/775/products/1-b1ae31f688ca08b33417923734244894-1024-1024.webp",
+      "url": "https://www.llaveprint.com.ar/productos/impresora-3d-flashforge-creator-5-pro/",
+      "scrapedFrom": "https://www.llaveprint.com.ar/impresion-3d/",
+      "variants": [
+        {
+          "id": 1621636962,
+          "sku": null,
+          "price": 2389900,
+          "stock": 5,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/004/428/775/products/1-b1ae31f688ca08b33417923734244894-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "llaveprint-375045810",
+      "sourceProductId": "375045810",
+      "store": "Llaveprint",
+      "domain": "llaveprint.com.ar",
+      "name": "Impresora 3D Flashforge Creator 5 con 4 cabezales",
+      "category": "Impresoras",
+      "price": 2129900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 1916910,
+      "purchaseModes": [],
+      "stock": 5,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Flashforge",
+      "tags": [
+        "Flashforge"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/004/428/775/products/1-a51558ea6d1067090f17923736383234-1024-1024.webp",
+      "url": "https://www.llaveprint.com.ar/productos/impresora-3d-flashforge-creator-5/",
+      "scrapedFrom": "https://www.llaveprint.com.ar/impresion-3d/",
+      "variants": [
+        {
+          "id": 1621637679,
+          "sku": "",
+          "price": 2129900,
+          "stock": 5,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/004/428/775/products/1-a51558ea6d1067090f17923736383234-1024-1024.webp"
+        }
+      ]
+    },
+    {
       "id": "llaveprint-373620983",
       "sourceProductId": "373620983",
       "store": "Llaveprint",
@@ -275,9 +343,9 @@
       "previousPrice": null,
       "transferPrice": 2618910,
       "purchaseModes": [],
-      "stock": 10,
-      "stockLabel": "En stock",
-      "available": true,
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": "Bambu Lab",
       "tags": [
         "Bambu Lab"
@@ -290,8 +358,8 @@
           "id": 1616982528,
           "sku": null,
           "price": 2909900,
-          "stock": 10,
-          "available": true,
+          "stock": 0,
+          "available": false,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/004/428/775/products/1-a1bf6f9aab29682d6217918100202699-1024-1024.webp"
         }
@@ -309,9 +377,9 @@
       "previousPrice": null,
       "transferPrice": 1808910,
       "purchaseModes": [],
-      "stock": 10,
-      "stockLabel": "En stock",
-      "available": true,
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": "Bambu Lab",
       "tags": [
         "Bambu Lab"
@@ -324,8 +392,8 @@
           "id": 1616982524,
           "sku": null,
           "price": 2009900,
-          "stock": 10,
-          "available": true,
+          "stock": 0,
+          "available": false,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/004/428/775/products/1-f6d66d553e17caf50617918108966995-1024-1024.webp"
         }
