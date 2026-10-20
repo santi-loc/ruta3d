@@ -4,8 +4,8 @@
     "domain": "tp3d.com.ar",
     "baseUrl": "https://tp3d.com.ar"
   },
-  "scrapedAt": "2026-10-19T15:24:37.135Z",
-  "count": 506,
+  "scrapedAt": "2026-10-20T13:27:17.616Z",
+  "count": 507,
   "pages": [
     {
       "listing": "Insumos",
@@ -145,14 +145,14 @@
       "page": 3,
       "url": "https://tp3d.com.ar/15-accesorios-y-complementos-3d?page=3",
       "found": 24,
-      "added": 22
+      "added": 23
     },
     {
       "listing": "Accesorios",
       "page": 4,
       "url": "https://tp3d.com.ar/15-accesorios-y-complementos-3d?page=4",
       "found": 24,
-      "added": 24
+      "added": 23
     },
     {
       "listing": "Accesorios",
@@ -165,8 +165,8 @@
       "listing": "Scanners",
       "page": 1,
       "url": "https://tp3d.com.ar/13-scanners",
-      "found": 12,
-      "added": 10
+      "found": 13,
+      "added": 11
     }
   ],
   "products": [
@@ -905,6 +905,31 @@
       "variants": []
     },
     {
+      "id": "tp3d-2465",
+      "sourceProductId": "2465",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Filamento Bambu Lab PETG HF 1kg",
+      "category": "Filamentos",
+      "price": 33690,
+      "currency": "ARS",
+      "transferPrice": 32006,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PETG",
+        "Bambu Lab",
+        "1kg",
+        "Insumos"
+      ],
+      "image": "https://tp3d.com.ar/8211-large_default/filamento-bambu-lab-petg-hf-1kg.jpg",
+      "url": "https://tp3d.com.ar/filamentos-3d/2465-1144-filamento-bambu-lab-petg-hf-1kg.html#/4-color-negro",
+      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=2",
+      "variants": []
+    },
+    {
       "id": "tp3d-2467",
       "sourceProductId": "2467",
       "store": "TP3D",
@@ -1244,6 +1269,56 @@
       "variants": []
     },
     {
+      "id": "tp3d-2616",
+      "sourceProductId": "2616",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Filamento Bambu Lab PLA Lite 1kg 1,75",
+      "category": "Filamentos",
+      "price": 22990,
+      "currency": "ARS",
+      "transferPrice": null,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA",
+        "Bambu Lab",
+        "1kg",
+        "Insumos"
+      ],
+      "image": "https://tp3d.com.ar/9313-large_default/filamento-bambu-lab-pla-lite-1kg-175.jpg",
+      "url": "https://tp3d.com.ar/TP3D/2616-1519-filamento-bambu-lab-pla-lite-1kg-175.html#/1-color-amarillo",
+      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=2",
+      "variants": []
+    },
+    {
+      "id": "tp3d-2617",
+      "sourceProductId": "2617",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Filamento Bambu Lab PLA Lite Recarga 1kg 1,75",
+      "category": "Filamentos",
+      "price": 19490,
+      "currency": "ARS",
+      "transferPrice": null,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA",
+        "Bambu Lab",
+        "1kg",
+        "Insumos"
+      ],
+      "image": "https://tp3d.com.ar/9340-large_default/filamento-bambu-lab-pla-lite-recarga-1kg-175.jpg",
+      "url": "https://tp3d.com.ar/TP3D/2617-1530-filamento-bambu-lab-pla-lite-recarga-1kg-175.html#/1-color-amarillo",
+      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=2",
+      "variants": []
+    },
+    {
       "id": "tp3d-2736",
       "sourceProductId": "2736",
       "store": "TP3D",
@@ -1290,7 +1365,7 @@
       ],
       "image": "https://tp3d.com.ar/10386-large_default/filamento-hellbot-ecofila-pla-satinado-175mm-1kg.jpg",
       "url": "https://tp3d.com.ar/filamentos-3d/2737-1683-filamento-hellbot-ecofila-pla-satinado-175mm-1kg.html#/4-color-negro",
-      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=2",
+      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=3",
       "variants": []
     },
     {
@@ -1315,7 +1390,7 @@
       ],
       "image": "https://tp3d.com.ar/10500-large_default/filamento-hellbot-ecofila-pla-pastel175mm-1kg-v2-new-con-carrete-inyectado-lock.jpg",
       "url": "https://tp3d.com.ar/filamentos-3d/2750-1699-filamento-hellbot-ecofila-pla-pastel175mm-1kg-v2-new-con-carrete-inyectado-lock.html#/32-color-arena_pastel",
-      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=2",
+      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=3",
       "variants": []
     },
     {
@@ -1340,7 +1415,7 @@
       ],
       "image": "https://tp3d.com.ar/10559-large_default/filamento-hellbot-ecofila-pla-traslucido-175mm-1kg-v2-new-con-carrete-inyectado-lock.jpg",
       "url": "https://tp3d.com.ar/filamentos-3d/2751-1745-filamento-hellbot-ecofila-pla-traslucido-175mm-1kg-v2-new-con-carrete-inyectado-lock.html#/36-color-diamante_traslucido",
-      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=2",
+      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=3",
       "variants": []
     },
     {
@@ -1513,7 +1588,7 @@
         "combo",
         "Insumos"
       ],
-      "image": "https://tp3d.com.ar/11601-large_default/combo-filamento-hellbot-ecofila-pla-negro-10kg-175mm.jpg",
+      "image": "https://tp3d.com.ar/11691-large_default/combo-filamento-hellbot-ecofila-pla-negro-10kg-175mm.jpg",
       "url": "https://tp3d.com.ar/TP3D/2840-combo-filamento-hellbot-ecofila-pla-negro-10kg-175mm.html",
       "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=3",
       "variants": []
@@ -1538,7 +1613,7 @@
         "combo",
         "Insumos"
       ],
-      "image": "https://tp3d.com.ar/11618-large_default/combo-filamento-hellbot-ecofila-pla-recarga-10kg-175mm.jpg",
+      "image": "https://tp3d.com.ar/11693-large_default/combo-filamento-hellbot-ecofila-pla-recarga-10kg-175mm.jpg",
       "url": "https://tp3d.com.ar/TP3D/2842-combo-filamento-hellbot-ecofila-pla-recarga-10kg-175mm.html",
       "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=3",
       "variants": []
@@ -1563,7 +1638,7 @@
         "combo",
         "Insumos"
       ],
-      "image": "https://tp3d.com.ar/11625-large_default/combo-filamento-hellbot-ecofila-pla-recarga-blanco-10kg-175mm.jpg",
+      "image": "https://tp3d.com.ar/11694-large_default/combo-filamento-hellbot-ecofila-pla-recarga-blanco-10kg-175mm.jpg",
       "url": "https://tp3d.com.ar/TP3D/2843-combo-filamento-hellbot-ecofila-pla-recarga-blanco-10kg-175mm.html",
       "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=3",
       "variants": []
@@ -1588,7 +1663,7 @@
         "combo",
         "Insumos"
       ],
-      "image": "https://tp3d.com.ar/11644-large_default/combo-filamento-hellbot-ecofila-pla-satinado-negro-10kg-175mm.jpg",
+      "image": "https://tp3d.com.ar/11696-large_default/combo-filamento-hellbot-ecofila-pla-satinado-negro-10kg-175mm.jpg",
       "url": "https://tp3d.com.ar/TP3D/2846-combo-filamento-hellbot-ecofila-pla-satinado-negro-10kg-175mm.html",
       "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=3",
       "variants": []
@@ -1613,7 +1688,7 @@
         "combo",
         "Insumos"
       ],
-      "image": "https://tp3d.com.ar/11653-large_default/combo-filamento-hellbot-ecofila-pla-satinado-gris-10kg-175mm.jpg",
+      "image": "https://tp3d.com.ar/11697-large_default/combo-filamento-hellbot-ecofila-pla-satinado-gris-10kg-175mm.jpg",
       "url": "https://tp3d.com.ar/TP3D/2847-combo-filamento-hellbot-ecofila-pla-satinado-gris-10kg-175mm.html",
       "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=3",
       "variants": []
@@ -1638,7 +1713,7 @@
         "combo",
         "Insumos"
       ],
-      "image": "https://tp3d.com.ar/11659-large_default/combo-filamento-hellbot-ecofila-pla-satinado-blanco-10kg-175mm.jpg",
+      "image": "https://tp3d.com.ar/11698-large_default/combo-filamento-hellbot-ecofila-pla-satinado-blanco-10kg-175mm.jpg",
       "url": "https://tp3d.com.ar/TP3D/2848-combo-filamento-hellbot-ecofila-pla-satinado-blanco-10kg-175mm.html",
       "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=3",
       "variants": []
@@ -1888,7 +1963,7 @@
       ],
       "image": "https://tp3d.com.ar/5719-large_default/resina-creality-alta-precision-gris-1kg-botella-plastica.jpg",
       "url": "https://tp3d.com.ar/resinas-3d/2036-821-resina-creality-alta-precision-gris-1kg-botella-plastica.html#/5-color-gris",
-      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=3",
+      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=4",
       "variants": []
     },
     {
@@ -1913,7 +1988,7 @@
       ],
       "image": "https://tp3d.com.ar/5721-large_default/resina-creality-plant-based-1kg-botella-plastica.jpg",
       "url": "https://tp3d.com.ar/resinas-3d/2037-823-resina-creality-plant-based-1kg-botella-plastica.html#/21-color-beige",
-      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=3",
+      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=4",
       "variants": []
     },
     {
@@ -1937,7 +2012,7 @@
       ],
       "image": "https://tp3d.com.ar/4988-large_default/resina-anycubic-dura-1kg.jpg",
       "url": "https://tp3d.com.ar/resinas-3d/1872-734-resina-anycubic-dura-1kg.html#/21-color-beige",
-      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=3",
+      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=4",
       "variants": []
     },
     {
@@ -2204,31 +2279,6 @@
       "variants": []
     },
     {
-      "id": "tp3d-2465",
-      "sourceProductId": "2465",
-      "store": "TP3D",
-      "domain": "tp3d.com.ar",
-      "name": "Filamento Bambu Lab PETG HF 1kg",
-      "category": "Filamentos",
-      "price": 33690,
-      "currency": "ARS",
-      "transferPrice": 32006,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "PETG",
-        "Bambu Lab",
-        "1kg",
-        "Insumos"
-      ],
-      "image": "https://tp3d.com.ar/8211-large_default/filamento-bambu-lab-petg-hf-1kg.jpg",
-      "url": "https://tp3d.com.ar/filamentos-3d/2465-1144-filamento-bambu-lab-petg-hf-1kg.html#/4-color-negro",
-      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=4",
-      "variants": []
-    },
-    {
       "id": "tp3d-2477",
       "sourceProductId": "2477",
       "store": "TP3D",
@@ -2348,56 +2398,6 @@
       "variants": []
     },
     {
-      "id": "tp3d-2616",
-      "sourceProductId": "2616",
-      "store": "TP3D",
-      "domain": "tp3d.com.ar",
-      "name": "Filamento Bambu Lab PLA Lite 1kg 1,75",
-      "category": "Filamentos",
-      "price": 22990,
-      "currency": "ARS",
-      "transferPrice": null,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "PLA",
-        "Bambu Lab",
-        "1kg",
-        "Insumos"
-      ],
-      "image": "https://tp3d.com.ar/9313-large_default/filamento-bambu-lab-pla-lite-1kg-175.jpg",
-      "url": "https://tp3d.com.ar/TP3D/2616-1519-filamento-bambu-lab-pla-lite-1kg-175.html#/1-color-amarillo",
-      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=4",
-      "variants": []
-    },
-    {
-      "id": "tp3d-2617",
-      "sourceProductId": "2617",
-      "store": "TP3D",
-      "domain": "tp3d.com.ar",
-      "name": "Filamento Bambu Lab PLA Lite Recarga 1kg 1,75",
-      "category": "Filamentos",
-      "price": 19490,
-      "currency": "ARS",
-      "transferPrice": null,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "PLA",
-        "Bambu Lab",
-        "1kg",
-        "Insumos"
-      ],
-      "image": "https://tp3d.com.ar/9340-large_default/filamento-bambu-lab-pla-lite-recarga-1kg-175.jpg",
-      "url": "https://tp3d.com.ar/TP3D/2617-1530-filamento-bambu-lab-pla-lite-recarga-1kg-175.html#/1-color-amarillo",
-      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=4",
-      "variants": []
-    },
-    {
       "id": "tp3d-2780",
       "sourceProductId": "2780",
       "store": "TP3D",
@@ -2471,6 +2471,30 @@
       "variants": []
     },
     {
+      "id": "tp3d-1607",
+      "sourceProductId": "1607",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Impresora 3D Anycubic Kobra 3 Combo FDM",
+      "category": "Impresoras",
+      "price": 649990,
+      "currency": "ARS",
+      "transferPrice": 617491,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Anycubic",
+        "combo",
+        "Impresoras FDM"
+      ],
+      "image": "https://tp3d.com.ar/4008-large_default/impresora-anycubic-kobra-3-combo-fdm.jpg",
+      "url": "https://tp3d.com.ar/impresoras-fdm/1607-impresora-anycubic-kobra-3-combo-fdm.html",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm",
+      "variants": []
+    },
+    {
       "id": "tp3d-1889",
       "sourceProductId": "1889",
       "store": "TP3D",
@@ -2514,29 +2538,6 @@
       ],
       "image": "https://tp3d.com.ar/5127-large_default/impresora-bambulab-a1-mini-combo.jpg",
       "url": "https://tp3d.com.ar/impresoras-fdm/1654-impresora-bambulab-a1-mini-combo.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm",
-      "variants": []
-    },
-    {
-      "id": "tp3d-1671",
-      "sourceProductId": "1671",
-      "store": "TP3D",
-      "domain": "tp3d.com.ar",
-      "name": "Impresora 3D Bambu Lab A1 Mini",
-      "category": "Impresoras",
-      "price": 578900,
-      "currency": "ARS",
-      "transferPrice": 549955,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "Bambu Lab",
-        "Impresoras FDM"
-      ],
-      "image": "https://tp3d.com.ar/5128-large_default/impresora-bambulab-a1-mini.jpg",
-      "url": "https://tp3d.com.ar/impresoras-fdm/1671-impresora-bambulab-a1-mini.html",
       "scrapedFrom": "https://tp3d.com.ar/203-all-fdm",
       "variants": []
     },
@@ -2826,29 +2827,6 @@
       "variants": []
     },
     {
-      "id": "tp3d-2596",
-      "sourceProductId": "2596",
-      "store": "TP3D",
-      "domain": "tp3d.com.ar",
-      "name": "Refurbished Impresora 3D Bambu Lab A1 Mini",
-      "category": "Impresoras",
-      "price": 494900,
-      "currency": "ARS",
-      "transferPrice": 470155,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "Bambu Lab",
-        "Impresoras FDM"
-      ],
-      "image": "https://tp3d.com.ar/9130-large_default/refurbished-impresora-3d-bambu-lab-a1-mini.jpg",
-      "url": "https://tp3d.com.ar/outlet/2596-refurbished-impresora-3d-bambu-lab-a1-mini.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm",
-      "variants": []
-    },
-    {
       "id": "tp3d-2597",
       "sourceProductId": "2597",
       "store": "TP3D",
@@ -3012,7 +2990,7 @@
       ],
       "image": "https://tp3d.com.ar/9827-large_default/out-impresora-bambu-lab-h2s-ams-combo.jpg",
       "url": "https://tp3d.com.ar/impresoras-fdm/2678-out-impresora-bambu-lab-h2s-ams-combo.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=2",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm",
       "variants": []
     },
     {
@@ -3202,54 +3180,6 @@
       ],
       "image": "https://tp3d.com.ar/11185-large_default/combo-impresora-bambulab-a1-combo-5kg-filamento-bambu-pla-lite.jpg",
       "url": "https://tp3d.com.ar/combos/2791-combo-impresora-bambulab-a1-combo-5kg-filamento-bambu-pla-lite.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=2",
-      "variants": []
-    },
-    {
-      "id": "tp3d-2795",
-      "sourceProductId": "2795",
-      "store": "TP3D",
-      "domain": "tp3d.com.ar",
-      "name": "Combo Impresora Bambulab A1 Mini + 5kg Filamento Bambu PLA LITE",
-      "category": "Filamentos",
-      "price": 698900,
-      "currency": "ARS",
-      "transferPrice": 663955,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "PLA",
-        "combo",
-        "Impresoras FDM"
-      ],
-      "image": "https://tp3d.com.ar/11222-large_default/combo-impresora-bambulab-a1-mini-5kg-filamento-bambu-pla-lite.jpg",
-      "url": "https://tp3d.com.ar/combos/2795-combo-impresora-bambulab-a1-mini-5kg-filamento-bambu-pla-lite.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=2",
-      "variants": []
-    },
-    {
-      "id": "tp3d-2796",
-      "sourceProductId": "2796",
-      "store": "TP3D",
-      "domain": "tp3d.com.ar",
-      "name": "Combo Impresora Bambulab A1 Mini + 8kg Filamento Bambu PLA LITE",
-      "category": "Filamentos",
-      "price": 754900,
-      "currency": "ARS",
-      "transferPrice": 717155,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "PLA",
-        "combo",
-        "Impresoras FDM"
-      ],
-      "image": "https://tp3d.com.ar/11229-large_default/combo-impresora-bambulab-a1-mini-8kg-filamento-bambu-pla-lite.jpg",
-      "url": "https://tp3d.com.ar/combos/2796-combo-impresora-bambulab-a1-mini-8kg-filamento-bambu-pla-lite.html",
       "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=2",
       "variants": []
     },
@@ -3562,30 +3492,6 @@
       "variants": []
     },
     {
-      "id": "tp3d-1607",
-      "sourceProductId": "1607",
-      "store": "TP3D",
-      "domain": "tp3d.com.ar",
-      "name": "Impresora 3D Anycubic Kobra 3 Combo FDM",
-      "category": "Impresoras",
-      "price": 649990,
-      "currency": "ARS",
-      "transferPrice": 617491,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "Anycubic",
-        "combo",
-        "Impresoras FDM"
-      ],
-      "image": "https://tp3d.com.ar/4008-large_default/impresora-anycubic-kobra-3-combo-fdm.jpg",
-      "url": "https://tp3d.com.ar/impresoras-fdm/1607-impresora-anycubic-kobra-3-combo-fdm.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=3",
-      "variants": []
-    },
-    {
       "id": "tp3d-1264",
       "sourceProductId": "1264",
       "store": "TP3D",
@@ -3605,7 +3511,7 @@
       ],
       "image": "https://tp3d.com.ar/2487-large_default/impresora-creality-ender-3-v3-ke.jpg",
       "url": "https://tp3d.com.ar/impresoras-fdm/1264-impresora-creality-ender-3-v3-ke.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=3",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=2",
       "variants": []
     },
     {
@@ -3629,7 +3535,7 @@
       ],
       "image": "https://tp3d.com.ar/5989-large_default/impresora-3d-creality-hi-combo-fdm.jpg",
       "url": "https://tp3d.com.ar/impresoras-fdm/1927-impresora-3d-creality-hi-combo-fdm.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=3",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=2",
       "variants": []
     },
     {
@@ -3653,7 +3559,7 @@
       ],
       "image": "https://tp3d.com.ar/7038-large_default/impresora-3d-creality-k2-plus-combo-fdm.jpg",
       "url": "https://tp3d.com.ar/impresoras-fdm/1850-impresora-3d-creality-k2-plus-combo-fdm.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=3",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=2",
       "variants": []
     },
     {
@@ -3861,6 +3767,29 @@
       ],
       "image": "https://tp3d.com.ar/3615-large_default/impresora-hellbot-hidra-plus-v2.jpg",
       "url": "https://tp3d.com.ar/impresoras-fdm/1565-impresora-hellbot-hidra-plus-v2.html",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=3",
+      "variants": []
+    },
+    {
+      "id": "tp3d-1671",
+      "sourceProductId": "1671",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Impresora 3D Bambu Lab A1 Mini",
+      "category": "Impresoras",
+      "price": 578900,
+      "currency": "ARS",
+      "transferPrice": 549955,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Bambu Lab",
+        "Impresoras FDM"
+      ],
+      "image": "https://tp3d.com.ar/5128-large_default/impresora-bambulab-a1-mini.jpg",
+      "url": "https://tp3d.com.ar/impresoras-fdm/1671-impresora-bambulab-a1-mini.html",
       "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=3",
       "variants": []
     },
@@ -4144,7 +4073,7 @@
       ],
       "image": "https://tp3d.com.ar/1752-large_default/impresora-hellbot-magna-se-pro-fdm.jpg",
       "url": "https://tp3d.com.ar/TP3D/24-impresora-hellbot-magna-se-pro-fdm.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=4",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=3",
       "variants": []
     },
     {
@@ -4168,7 +4097,7 @@
       ],
       "image": "https://tp3d.com.ar/7663-large_default/impresora-3d-anycubic-kobra-3-v2-combo-fdm.jpg",
       "url": "https://tp3d.com.ar/impresoras-fdm/2437-impresora-3d-anycubic-kobra-3-v2-combo-fdm.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=4",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=3",
       "variants": []
     },
     {
@@ -4192,7 +4121,7 @@
       ],
       "image": "https://tp3d.com.ar/7681-large_default/combo-impresora-3d-creality-hi-combo-fdm-scanner-otter.jpg",
       "url": "https://tp3d.com.ar/impresoras-fdm/2441-combo-impresora-3d-creality-hi-combo-fdm-scanner-otter.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=4",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=3",
       "variants": []
     },
     {
@@ -4336,6 +4265,29 @@
       ],
       "image": "https://tp3d.com.ar/9017-large_default/combo-impresora-3d-creality-ender-3-v3-se-fdm-5kg-filamento-pla-soleyin.jpg",
       "url": "https://tp3d.com.ar/combos/2592-combo-impresora-3d-creality-ender-3-v3-se-fdm-5kg-filamento-pla-soleyin.html",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=4",
+      "variants": []
+    },
+    {
+      "id": "tp3d-2596",
+      "sourceProductId": "2596",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Refurbished Impresora 3D Bambu Lab A1 Mini",
+      "category": "Impresoras",
+      "price": 494900,
+      "currency": "ARS",
+      "transferPrice": 470155,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Bambu Lab",
+        "Impresoras FDM"
+      ],
+      "image": "https://tp3d.com.ar/9130-large_default/refurbished-impresora-3d-bambu-lab-a1-mini.jpg",
+      "url": "https://tp3d.com.ar/outlet/2596-refurbished-impresora-3d-bambu-lab-a1-mini.html",
       "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=4",
       "variants": []
     },
@@ -4552,6 +4504,54 @@
       "variants": []
     },
     {
+      "id": "tp3d-2795",
+      "sourceProductId": "2795",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Combo Impresora Bambulab A1 Mini + 5kg Filamento Bambu PLA LITE",
+      "category": "Filamentos",
+      "price": 698900,
+      "currency": "ARS",
+      "transferPrice": 663955,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA",
+        "combo",
+        "Impresoras FDM"
+      ],
+      "image": "https://tp3d.com.ar/11222-large_default/combo-impresora-bambulab-a1-mini-5kg-filamento-bambu-pla-lite.jpg",
+      "url": "https://tp3d.com.ar/combos/2795-combo-impresora-bambulab-a1-mini-5kg-filamento-bambu-pla-lite.html",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=4",
+      "variants": []
+    },
+    {
+      "id": "tp3d-2796",
+      "sourceProductId": "2796",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Combo Impresora Bambulab A1 Mini + 8kg Filamento Bambu PLA LITE",
+      "category": "Filamentos",
+      "price": 754900,
+      "currency": "ARS",
+      "transferPrice": 717155,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA",
+        "combo",
+        "Impresoras FDM"
+      ],
+      "image": "https://tp3d.com.ar/11229-large_default/combo-impresora-bambulab-a1-mini-8kg-filamento-bambu-pla-lite.jpg",
+      "url": "https://tp3d.com.ar/combos/2796-combo-impresora-bambulab-a1-mini-8kg-filamento-bambu-pla-lite.html",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=4",
+      "variants": []
+    },
+    {
       "id": "tp3d-2830",
       "sourceProductId": "2830",
       "store": "TP3D",
@@ -4600,6 +4600,52 @@
       "variants": []
     },
     {
+      "id": "tp3d-1914",
+      "sourceProductId": "1914",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Impresora 3D Anycubic Photon Mono M7 DLP",
+      "category": "Resina",
+      "price": 990000,
+      "currency": "ARS",
+      "transferPrice": 940500,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Anycubic",
+        "Impresoras Resina"
+      ],
+      "image": "https://tp3d.com.ar/5218-large_default/impresora-anycubic-photon-mono-m7.jpg",
+      "url": "https://tp3d.com.ar/impresoras-resina/1914-impresora-anycubic-photon-mono-m7.html",
+      "scrapedFrom": "https://tp3d.com.ar/7-impresoras-resina",
+      "variants": []
+    },
+    {
+      "id": "tp3d-1913",
+      "sourceProductId": "1913",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Impresora 3D Anycubic Photon Mono M7 Pro DLP",
+      "category": "Resina",
+      "price": 1259900,
+      "currency": "ARS",
+      "transferPrice": 1196905,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Anycubic",
+        "Impresoras Resina"
+      ],
+      "image": "https://tp3d.com.ar/5217-large_default/impresora-anycubic-photon-mono-m7-pro.jpg",
+      "url": "https://tp3d.com.ar/impresoras-resina/1913-impresora-anycubic-photon-mono-m7-pro.html",
+      "scrapedFrom": "https://tp3d.com.ar/7-impresoras-resina",
+      "variants": []
+    },
+    {
       "id": "tp3d-1518",
       "sourceProductId": "1518",
       "store": "TP3D",
@@ -4619,6 +4665,29 @@
       ],
       "image": "https://tp3d.com.ar/3427-large_default/impresora-3d-creality-halot-mage-s-dlp.jpg",
       "url": "https://tp3d.com.ar/impresoras-resina/1518-impresora-3d-creality-halot-mage-s-dlp.html",
+      "scrapedFrom": "https://tp3d.com.ar/7-impresoras-resina",
+      "variants": []
+    },
+    {
+      "id": "tp3d-2533",
+      "sourceProductId": "2533",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Impresora de Resina 3D Anycubic Photon Mono 4",
+      "category": "Resina",
+      "price": 449990,
+      "currency": "ARS",
+      "transferPrice": 427491,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Anycubic",
+        "Impresoras Resina"
+      ],
+      "image": "https://tp3d.com.ar/8527-large_default/impresora-de-resina-3d-anycubic-photon-mono-4.jpg",
+      "url": "https://tp3d.com.ar/impresoras-resina/2533-impresora-de-resina-3d-anycubic-photon-mono-4.html",
       "scrapedFrom": "https://tp3d.com.ar/7-impresoras-resina",
       "variants": []
     },
@@ -4855,52 +4924,6 @@
       "variants": []
     },
     {
-      "id": "tp3d-1914",
-      "sourceProductId": "1914",
-      "store": "TP3D",
-      "domain": "tp3d.com.ar",
-      "name": "Impresora 3D Anycubic Photon Mono M7 DLP",
-      "category": "Resina",
-      "price": 990000,
-      "currency": "ARS",
-      "transferPrice": 940500,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "Anycubic",
-        "Impresoras Resina"
-      ],
-      "image": "https://tp3d.com.ar/5218-large_default/impresora-anycubic-photon-mono-m7.jpg",
-      "url": "https://tp3d.com.ar/impresoras-resina/1914-impresora-anycubic-photon-mono-m7.html",
-      "scrapedFrom": "https://tp3d.com.ar/7-impresoras-resina",
-      "variants": []
-    },
-    {
-      "id": "tp3d-1913",
-      "sourceProductId": "1913",
-      "store": "TP3D",
-      "domain": "tp3d.com.ar",
-      "name": "Impresora 3D Anycubic Photon Mono M7 Pro DLP",
-      "category": "Resina",
-      "price": 1259900,
-      "currency": "ARS",
-      "transferPrice": 1196905,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "Anycubic",
-        "Impresoras Resina"
-      ],
-      "image": "https://tp3d.com.ar/5217-large_default/impresora-anycubic-photon-mono-m7-pro.jpg",
-      "url": "https://tp3d.com.ar/impresoras-resina/1913-impresora-anycubic-photon-mono-m7-pro.html",
-      "scrapedFrom": "https://tp3d.com.ar/7-impresoras-resina",
-      "variants": []
-    },
-    {
       "id": "tp3d-2246",
       "sourceProductId": "2246",
       "store": "TP3D",
@@ -4966,29 +4989,6 @@
       ],
       "image": "https://tp3d.com.ar/1667-large_default/impresora-hellbot-apolo-pro-plus-dlp.jpg",
       "url": "https://tp3d.com.ar/TP3D/53-impresora-hellbot-apolo-pro-plus-dlp.html",
-      "scrapedFrom": "https://tp3d.com.ar/7-impresoras-resina",
-      "variants": []
-    },
-    {
-      "id": "tp3d-2533",
-      "sourceProductId": "2533",
-      "store": "TP3D",
-      "domain": "tp3d.com.ar",
-      "name": "Impresora de Resina 3D Anycubic Photon Mono 4",
-      "category": "Resina",
-      "price": 449990,
-      "currency": "ARS",
-      "transferPrice": 427491,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "Anycubic",
-        "Impresoras Resina"
-      ],
-      "image": "https://tp3d.com.ar/8527-large_default/impresora-de-resina-3d-anycubic-photon-mono-4.jpg",
-      "url": "https://tp3d.com.ar/impresoras-resina/2533-impresora-de-resina-3d-anycubic-photon-mono-4.html",
       "scrapedFrom": "https://tp3d.com.ar/7-impresoras-resina",
       "variants": []
     },
@@ -10684,6 +10684,29 @@
       "variants": []
     },
     {
+      "id": "tp3d-2361",
+      "sourceProductId": "2361",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Kit de Accesorios para Grabadores Láser Creality CR-Laser Falcon 5W y 10W",
+      "category": "Impresoras",
+      "price": 136000,
+      "currency": "ARS",
+      "transferPrice": 129200,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Creality",
+        "Accesorios"
+      ],
+      "image": "https://tp3d.com.ar/7008-large_default/kit-de-accesorios-para-grabadores-laser-creality-cr-laser-falcon-5w-y-10w.jpg",
+      "url": "https://tp3d.com.ar/TP3D/2361-kit-de-accesorios-para-grabadores-laser-creality-cr-laser-falcon-5w-y-10w.html",
+      "scrapedFrom": "https://tp3d.com.ar/15-accesorios-y-complementos-3d?page=3",
+      "variants": []
+    },
+    {
       "id": "tp3d-2454",
       "sourceProductId": "2454",
       "store": "TP3D",
@@ -10703,6 +10726,29 @@
       ],
       "image": "https://tp3d.com.ar/7783-large_default/ams-2-pro-multicolor-bambu-lab-4-colores.jpg",
       "url": "https://tp3d.com.ar/sistema-multicolor/2454-ams-2-pro-multicolor-bambu-lab-4-colores.html",
+      "scrapedFrom": "https://tp3d.com.ar/15-accesorios-y-complementos-3d?page=3",
+      "variants": []
+    },
+    {
+      "id": "tp3d-2488",
+      "sourceProductId": "2488",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Secador de Filamento Creality Space Pi X4",
+      "category": "Filamentos",
+      "price": 436990,
+      "currency": "ARS",
+      "transferPrice": 415141,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Creality",
+        "Accesorios"
+      ],
+      "image": "https://tp3d.com.ar/8221-large_default/secador-de-filamento-creality-space-pi-x4.jpg",
+      "url": "https://tp3d.com.ar/accesorios-y-complementos-3d/2488-secador-de-filamento-creality-space-pi-x4.html",
       "scrapedFrom": "https://tp3d.com.ar/15-accesorios-y-complementos-3d?page=3",
       "variants": []
     },
@@ -10845,6 +10891,29 @@
       "variants": []
     },
     {
+      "id": "tp3d-2626",
+      "sourceProductId": "2626",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Secador de Filamento Creality Space Pi SE",
+      "category": "Filamentos",
+      "price": 79990,
+      "currency": "ARS",
+      "transferPrice": 75991,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Creality",
+        "Accesorios"
+      ],
+      "image": "https://tp3d.com.ar/9389-large_default/secador-de-filamento-creality-space-pi-se.jpg",
+      "url": "https://tp3d.com.ar/accesorios-y-complementos-3d/2626-secador-de-filamento-creality-space-pi-se.html",
+      "scrapedFrom": "https://tp3d.com.ar/15-accesorios-y-complementos-3d?page=3",
+      "variants": []
+    },
+    {
       "id": "tp3d-2673",
       "sourceProductId": "2673",
       "store": "TP3D",
@@ -10977,7 +11046,7 @@
       ],
       "image": "https://tp3d.com.ar/5286-large_default/lapiz-3d-hellbot-celeste.jpg",
       "url": "https://tp3d.com.ar/accesorios-y-complementos-3d/1907-808-lapiz-3d-hellbot-celeste.html#/8-color-celeste",
-      "scrapedFrom": "https://tp3d.com.ar/15-accesorios-y-complementos-3d?page=3",
+      "scrapedFrom": "https://tp3d.com.ar/15-accesorios-y-complementos-3d?page=4",
       "variants": []
     },
     {
@@ -11000,7 +11069,7 @@
       ],
       "image": "https://tp3d.com.ar/5330-large_default/creativity-space-pi-filament-dryer.jpg",
       "url": "https://tp3d.com.ar/accesorios-y-complementos-3d/1958-creativity-space-pi-filament-dryer.html",
-      "scrapedFrom": "https://tp3d.com.ar/15-accesorios-y-complementos-3d?page=3",
+      "scrapedFrom": "https://tp3d.com.ar/15-accesorios-y-complementos-3d?page=4",
       "variants": []
     },
     {
@@ -11495,30 +11564,7 @@
       ],
       "image": "https://tp3d.com.ar/7430-large_default/pey-230-trama-2.jpg",
       "url": "https://tp3d.com.ar/accesorios-y-complementos-3d/2369-pey-230-trama-2.html",
-      "scrapedFrom": "https://tp3d.com.ar/15-accesorios-y-complementos-3d?page=4",
-      "variants": []
-    },
-    {
-      "id": "tp3d-2361",
-      "sourceProductId": "2361",
-      "store": "TP3D",
-      "domain": "tp3d.com.ar",
-      "name": "Kit de Accesorios para Grabadores Láser Creality CR-Laser Falcon 5W y 10W",
-      "category": "Impresoras",
-      "price": 136000,
-      "currency": "ARS",
-      "transferPrice": 129200,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "Creality",
-        "Accesorios"
-      ],
-      "image": "https://tp3d.com.ar/7008-large_default/kit-de-accesorios-para-grabadores-laser-creality-cr-laser-falcon-5w-y-10w.jpg",
-      "url": "https://tp3d.com.ar/TP3D/2361-kit-de-accesorios-para-grabadores-laser-creality-cr-laser-falcon-5w-y-10w.html",
-      "scrapedFrom": "https://tp3d.com.ar/15-accesorios-y-complementos-3d?page=4",
+      "scrapedFrom": "https://tp3d.com.ar/15-accesorios-y-complementos-3d?page=5",
       "variants": []
     },
     {
@@ -11540,29 +11586,6 @@
       ],
       "image": "https://tp3d.com.ar/7798-large_default/copy-of-maquina-de-secado-de-filamentos-20-creality.jpg",
       "url": "https://tp3d.com.ar/accesorios-y-complementos-3d/2456-copy-of-maquina-de-secado-de-filamentos-20-creality.html",
-      "scrapedFrom": "https://tp3d.com.ar/15-accesorios-y-complementos-3d?page=4",
-      "variants": []
-    },
-    {
-      "id": "tp3d-2488",
-      "sourceProductId": "2488",
-      "store": "TP3D",
-      "domain": "tp3d.com.ar",
-      "name": "Secador de Filamento Creality Space Pi X4",
-      "category": "Filamentos",
-      "price": 436990,
-      "currency": "ARS",
-      "transferPrice": 415141,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "Creality",
-        "Accesorios"
-      ],
-      "image": "https://tp3d.com.ar/8221-large_default/secador-de-filamento-creality-space-pi-x4.jpg",
-      "url": "https://tp3d.com.ar/accesorios-y-complementos-3d/2488-secador-de-filamento-creality-space-pi-x4.html",
       "scrapedFrom": "https://tp3d.com.ar/15-accesorios-y-complementos-3d?page=5",
       "variants": []
     },
@@ -11586,29 +11609,6 @@
       ],
       "image": "https://tp3d.com.ar/9358-large_default/creality-cfs-c-sistema-multicolor-k1-series.jpg",
       "url": "https://tp3d.com.ar/accesorios-y-complementos-3d/2618-creality-cfs-c-sistema-multicolor-k1-series.html",
-      "scrapedFrom": "https://tp3d.com.ar/15-accesorios-y-complementos-3d?page=5",
-      "variants": []
-    },
-    {
-      "id": "tp3d-2626",
-      "sourceProductId": "2626",
-      "store": "TP3D",
-      "domain": "tp3d.com.ar",
-      "name": "Secador de Filamento Creality Space Pi SE",
-      "category": "Filamentos",
-      "price": 79990,
-      "currency": "ARS",
-      "transferPrice": 75991,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "Creality",
-        "Accesorios"
-      ],
-      "image": "https://tp3d.com.ar/9389-large_default/secador-de-filamento-creality-space-pi-se.jpg",
-      "url": "https://tp3d.com.ar/accesorios-y-complementos-3d/2626-secador-de-filamento-creality-space-pi-se.html",
       "scrapedFrom": "https://tp3d.com.ar/15-accesorios-y-complementos-3d?page=5",
       "variants": []
     },
@@ -11771,6 +11771,75 @@
       "variants": []
     },
     {
+      "id": "tp3d-2095",
+      "sourceProductId": "2095",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Escáner 3D Creality CR Scan Raptor X",
+      "category": "Impresoras",
+      "price": 7690000,
+      "currency": "ARS",
+      "transferPrice": 7305500,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Creality",
+        "Scanners"
+      ],
+      "image": "https://tp3d.com.ar/5992-large_default/preventa-mayo-escaner-3d-creality-cr-scan-raptor-x.jpg",
+      "url": "https://tp3d.com.ar/Scanners/2095-preventa-mayo-escaner-3d-creality-cr-scan-raptor-x.html",
+      "scrapedFrom": "https://tp3d.com.ar/13-scanners",
+      "variants": []
+    },
+    {
+      "id": "tp3d-2331",
+      "sourceProductId": "2331",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Creality Scanner Ferret Pro",
+      "category": "Impresoras",
+      "price": 849499,
+      "currency": "ARS",
+      "transferPrice": 807024,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Creality",
+        "Scanners"
+      ],
+      "image": "https://tp3d.com.ar/6814-large_default/creality-scanner-ferret-pro.jpg",
+      "url": "https://tp3d.com.ar/Scanners/2331-creality-scanner-ferret-pro.html",
+      "scrapedFrom": "https://tp3d.com.ar/13-scanners",
+      "variants": []
+    },
+    {
+      "id": "tp3d-2397",
+      "sourceProductId": "2397",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Escaner Creality Scan Otter Lite",
+      "category": "Impresoras",
+      "price": 1425599,
+      "currency": "ARS",
+      "transferPrice": 1354319,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Creality",
+        "Scanners"
+      ],
+      "image": "https://tp3d.com.ar/7267-large_default/escaner-creality-scan-otter-lite.jpg",
+      "url": "https://tp3d.com.ar/Scanners/2397-escaner-creality-scan-otter-lite.html",
+      "scrapedFrom": "https://tp3d.com.ar/13-scanners",
+      "variants": []
+    },
+    {
       "id": "tp3d-2399",
       "sourceProductId": "2399",
       "store": "TP3D",
@@ -11790,6 +11859,29 @@
       ],
       "image": "https://tp3d.com.ar/7294-large_default/escaner-creality-sermoon-s1.jpg",
       "url": "https://tp3d.com.ar/Scanners/2399-escaner-creality-sermoon-s1.html",
+      "scrapedFrom": "https://tp3d.com.ar/13-scanners",
+      "variants": []
+    },
+    {
+      "id": "tp3d-2852",
+      "sourceProductId": "2852",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Preventa Diciembre Escaner Creality Pika",
+      "category": "Impresoras",
+      "price": 1706999,
+      "currency": "ARS",
+      "transferPrice": 1621649,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Creality",
+        "Scanners"
+      ],
+      "image": "https://tp3d.com.ar/11708-large_default/preventa-diciembre-escaner-creality-pika.jpg",
+      "url": "https://tp3d.com.ar/Scanners/2852-preventa-diciembre-escaner-creality-pika.html",
       "scrapedFrom": "https://tp3d.com.ar/13-scanners",
       "variants": []
     },
@@ -11858,75 +11950,6 @@
       ],
       "image": "https://tp3d.com.ar/4859-large_default/scanner-3d-revopoint-inspire-kit-movil.jpg",
       "url": "https://tp3d.com.ar/Scanners/1852-scanner-3d-revopoint-inspire-kit-movil.html",
-      "scrapedFrom": "https://tp3d.com.ar/13-scanners",
-      "variants": []
-    },
-    {
-      "id": "tp3d-2095",
-      "sourceProductId": "2095",
-      "store": "TP3D",
-      "domain": "tp3d.com.ar",
-      "name": "Escáner 3D Creality CR Scan Raptor X",
-      "category": "Impresoras",
-      "price": 7690000,
-      "currency": "ARS",
-      "transferPrice": 7305500,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "Creality",
-        "Scanners"
-      ],
-      "image": "https://tp3d.com.ar/5992-large_default/preventa-mayo-escaner-3d-creality-cr-scan-raptor-x.jpg",
-      "url": "https://tp3d.com.ar/Scanners/2095-preventa-mayo-escaner-3d-creality-cr-scan-raptor-x.html",
-      "scrapedFrom": "https://tp3d.com.ar/13-scanners",
-      "variants": []
-    },
-    {
-      "id": "tp3d-2331",
-      "sourceProductId": "2331",
-      "store": "TP3D",
-      "domain": "tp3d.com.ar",
-      "name": "Creality Scanner Ferret Pro",
-      "category": "Impresoras",
-      "price": 849499,
-      "currency": "ARS",
-      "transferPrice": 807024,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "Creality",
-        "Scanners"
-      ],
-      "image": "https://tp3d.com.ar/6814-large_default/creality-scanner-ferret-pro.jpg",
-      "url": "https://tp3d.com.ar/Scanners/2331-creality-scanner-ferret-pro.html",
-      "scrapedFrom": "https://tp3d.com.ar/13-scanners",
-      "variants": []
-    },
-    {
-      "id": "tp3d-2397",
-      "sourceProductId": "2397",
-      "store": "TP3D",
-      "domain": "tp3d.com.ar",
-      "name": "Escaner Creality Scan Otter Lite",
-      "category": "Impresoras",
-      "price": 1425599,
-      "currency": "ARS",
-      "transferPrice": 1354319,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "Creality",
-        "Scanners"
-      ],
-      "image": "https://tp3d.com.ar/7267-large_default/escaner-creality-scan-otter-lite.jpg",
-      "url": "https://tp3d.com.ar/Scanners/2397-escaner-creality-scan-otter-lite.html",
       "scrapedFrom": "https://tp3d.com.ar/13-scanners",
       "variants": []
     },

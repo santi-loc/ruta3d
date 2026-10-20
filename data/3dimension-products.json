@@ -4,35 +4,35 @@
     "domain": "3dimension.empretienda.com.ar",
     "baseUrl": "https://3dimension.empretienda.com.ar"
   },
-  "scrapedAt": "2026-10-19T15:23:58.059Z",
-  "count": 16,
+  "scrapedAt": "2026-10-20T13:26:38.473Z",
+  "count": 13,
   "pages": [
     {
       "page": 1,
       "path": "/cortadoras-laser",
       "url": "https://3dimension.empretienda.com.ar/cortadoras-laser",
-      "found": 12,
-      "added": 12
+      "found": 11,
+      "added": 11
     },
     {
       "page": 2,
       "path": "/cortadoras-laser",
       "url": "https://3dimension.empretienda.com.ar/cortadoras-laser?page=2",
-      "found": 12,
+      "found": 11,
       "added": 0
     },
     {
       "page": 1,
       "path": "/cortadoras-laser/accesorios",
       "url": "https://3dimension.empretienda.com.ar/cortadoras-laser/accesorios",
-      "found": 7,
-      "added": 3
+      "found": 4,
+      "added": 1
     },
     {
       "page": 2,
       "path": "/cortadoras-laser/accesorios",
       "url": "https://3dimension.empretienda.com.ar/cortadoras-laser/accesorios?page=2",
-      "found": 7,
+      "found": 4,
       "added": 0
     },
     {
@@ -323,34 +323,6 @@
       "variants": []
     },
     {
-      "id": "3dimension-algolaser-asistente-de-aire",
-      "sourceProductId": "algolaser-asistente-de-aire",
-      "store": "3Dimension",
-      "domain": "3dimension.empretienda.com.ar",
-      "name": "Algolaser Asistente de Aire",
-      "category": "Corte láser",
-      "price": 192000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "AlgoLaser",
-      "tags": [
-        "Corte láser",
-        "AlgoLaser",
-        "Air Assist"
-      ],
-      "image": "https://d22fxaf9t8d39k.cloudfront.net/a568e99b92bc66f4eae751edb8ec186cf6c0633b047a5cd8eca01a69cf757ae3182538.png",
-      "url": "https://3dimension.empretienda.com.ar/cortadoras-laser/accesorios/algolaser-asistente-de-aire",
-      "scrapedFrom": "https://3dimension.empretienda.com.ar/cortadoras-laser",
-      "variants": []
-    },
-    {
       "id": "3dimension-algolaser-alpha-mk2-40w",
       "sourceProductId": "algolaser-alpha-mk2-40w",
       "store": "3Dimension",
@@ -403,34 +375,6 @@
       "variants": []
     },
     {
-      "id": "3dimension-acc-rotatorio-pinza-algolaser",
-      "sourceProductId": "acc-rotatorio-pinza-algolaser",
-      "store": "3Dimension",
-      "domain": "3dimension.empretienda.com.ar",
-      "name": "Acc. rotatorio pinza Algolaser",
-      "category": "Corte láser",
-      "price": 346000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "AlgoLaser",
-      "tags": [
-        "Corte láser",
-        "AlgoLaser",
-        "Rotatorio"
-      ],
-      "image": "https://d22fxaf9t8d39k.cloudfront.net/c3d8bde0008a535d66d7db045e933ad19472007f77ff1b828d6596435b54459a182538.png",
-      "url": "https://3dimension.empretienda.com.ar/cortadoras-laser/accesorios/acc-rotatorio-pinza-algolaser",
-      "scrapedFrom": "https://3dimension.empretienda.com.ar/cortadoras-laser/accesorios",
-      "variants": []
-    },
-    {
       "id": "3dimension-panal-de-abejas-algolaser",
       "sourceProductId": "panal-de-abejas-algolaser",
       "store": "3Dimension",
@@ -455,34 +399,6 @@
       ],
       "image": "https://d22fxaf9t8d39k.cloudfront.net/ce242273c213a8cb3d67123f25f6e700c4c6e9c202364009d4e656a120094f1f182538.webp",
       "url": "https://3dimension.empretienda.com.ar/cortadoras-laser/accesorios/panal-de-abejas-algolaser",
-      "scrapedFrom": "https://3dimension.empretienda.com.ar/cortadoras-laser/accesorios",
-      "variants": []
-    },
-    {
-      "id": "3dimension-acc-rotatorio-rodillo-algolaser",
-      "sourceProductId": "acc-rotatorio-rodillo-algolaser",
-      "store": "3Dimension",
-      "domain": "3dimension.empretienda.com.ar",
-      "name": "Acc. rotatorio rodillo Algolaser",
-      "category": "Corte láser",
-      "price": 281000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "AlgoLaser",
-      "tags": [
-        "Corte láser",
-        "AlgoLaser",
-        "Rotatorio"
-      ],
-      "image": "https://d22fxaf9t8d39k.cloudfront.net/8d662b3098638bfc25035db12a999e5c06be52aaf1ad7365d666be53c6e14f79182538.png",
-      "url": "https://3dimension.empretienda.com.ar/cortadoras-laser/accesorios/acc-rotatorio-rodillo-algolaser",
       "scrapedFrom": "https://3dimension.empretienda.com.ar/cortadoras-laser/accesorios",
       "variants": []
     },
