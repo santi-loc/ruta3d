@@ -4,7 +4,7 @@
     "domain": "tecknicam3d.com.ar",
     "baseUrl": "https://www.tecknicam3d.com.ar"
   },
-  "scrapedAt": "2026-10-20T13:27:30.071Z",
+  "scrapedAt": "2026-10-21T13:36:46.828Z",
   "count": 217,
   "pages": [
     {
@@ -93,7 +93,7 @@
       "url": "https://www.tecknicam3d.com.ar/productos?categoria=6-accesorios",
       "found": 16,
       "added": 16,
-      "totalPages": 18
+      "totalPages": 19
     },
     {
       "page": 2,
@@ -101,7 +101,7 @@
       "url": "https://www.tecknicam3d.com.ar/productos?categoria=6-accesorios&page=2",
       "found": 16,
       "added": 16,
-      "totalPages": 18
+      "totalPages": 19
     },
     {
       "page": 1,
@@ -121,6 +121,32 @@
     }
   ],
   "products": [
+    {
+      "id": "tecknicam3d-3985",
+      "sourceProductId": "3985",
+      "store": "Tecknicam 3D",
+      "domain": "tecknicam3d.com.ar",
+      "name": "PREVENTA DICIEMBRE Neptune 4 max 420x420x480mm Klipper 500mms Impresora 3D FDM ELEGOO",
+      "category": "Impresoras",
+      "price": 1028900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 977455,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
+      "available": true,
+      "brand": "Elegoo",
+      "tags": [
+        "Elegoo"
+      ],
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/Neptune-4max-420x420x480mm-Klipper-500mms-Impresor-1792521632-0c1a33fe.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/preventa-diciembre-neptune-4-max-420x420x480mm-klipper-500mms-impresora-3d-fdm-elegoo",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=1-impresoras-3d",
+      "variants": []
+    },
     {
       "id": "tecknicam3d-a2l-330x320x325-mm-impresora-3d-fdm-bambu-lab",
       "sourceProductId": "a2l-330x320x325-mm-impresora-3d-fdm-bambu-lab",
@@ -492,7 +518,7 @@
       ],
       "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/A1-Mini-Combo-180x180x180-mm-Impresora-3D-FDM-Bambu-Lab-5.webp",
       "url": "https://www.tecknicam3d.com.ar/productos/a1-mini-combo-180x180x180-mm-impresora-3d-fdm-bambu-lab",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=1-impresoras-3d",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=1-impresoras-3d&page=2",
       "variants": []
     },
     {
@@ -616,26 +642,28 @@
       "variants": []
     },
     {
-      "id": "tecknicam3d-3089",
-      "sourceProductId": "3089",
+      "id": "tecknicam3d-3074",
+      "sourceProductId": "3074",
       "store": "Tecknicam 3D",
       "domain": "tecknicam3d.com.ar",
-      "name": "Creator 5 256×256×256mm IMPRESORA 3D FLASHFORGE",
+      "name": "Ender 3 220x220x250mm IMPRESORA 3D FDM Creality",
       "category": "Impresoras",
-      "price": 1931900,
+      "price": 249999,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 1835305,
+      "transferPrice": 237499.05,
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 4,
-      "stockLabel": "En stock",
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
       "available": true,
-      "brand": null,
-      "tags": [],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/Creator-5-1.png",
-      "url": "https://www.tecknicam3d.com.ar/productos/creator-5-256-256-256mm-impresora-3d-flashforge",
+      "brand": "Creality",
+      "tags": [
+        "Creality"
+      ],
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/ender-3-1.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/ender-3-220x220x250mm-impresora-3d-fdm-creality",
       "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=1-impresoras-3d&page=2",
       "variants": []
     },
@@ -664,28 +692,26 @@
       "variants": []
     },
     {
-      "id": "tecknicam3d-3074",
-      "sourceProductId": "3074",
+      "id": "tecknicam3d-3089",
+      "sourceProductId": "3089",
       "store": "Tecknicam 3D",
       "domain": "tecknicam3d.com.ar",
-      "name": "Ender 3 220x220x250mm IMPRESORA 3D FDM Creality",
+      "name": "Creator 5 256×256×256mm IMPRESORA 3D FLASHFORGE",
       "category": "Impresoras",
-      "price": 249999,
+      "price": 1931900,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 237499.05,
+      "transferPrice": 1835305,
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 2,
-      "stockLabel": "Pocas unidades",
+      "stock": 4,
+      "stockLabel": "En stock",
       "available": true,
-      "brand": "Creality",
-      "tags": [
-        "Creality"
-      ],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/ender-3-1.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/ender-3-220x220x250mm-impresora-3d-fdm-creality",
+      "brand": null,
+      "tags": [],
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/Creator-5-1.png",
+      "url": "https://www.tecknicam3d.com.ar/productos/creator-5-256-256-256mm-impresora-3d-flashforge",
       "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=1-impresoras-3d&page=2",
       "variants": []
     },
@@ -714,16 +740,16 @@
       "variants": []
     },
     {
-      "id": "tecknicam3d-neptune-4-max-420x420x480mm-klipper-500mms-impresora-3d-fdm-elegoo",
-      "sourceProductId": "neptune-4-max-420x420x480mm-klipper-500mms-impresora-3d-fdm-elegoo",
+      "id": "tecknicam3d-centauri-carbon-de-exposicion-fdm-3d-printer-256-x-256-x-256-mm-impresora-3d-fdm-elegoo-usada-como-nueva-con-30-dias-de-garantia",
+      "sourceProductId": "centauri-carbon-de-exposicion-fdm-3d-printer-256-x-256-x-256-mm-impresora-3d-fdm-elegoo-usada-como-nueva-con-30-dias-de-garantia",
       "store": "Tecknicam 3D",
       "domain": "tecknicam3d.com.ar",
-      "name": "Neptune 4 max 420x420x480mm Klipper 500mms Impresora 3D FDM ELEGOO",
+      "name": "Centauri Carbon de exposición FDM 3D Printer 256 x 256 x 256 mm Impresora 3D FDM ELEGOO usada como nueva con 30 días de garantía",
       "category": "Impresoras",
-      "price": 1028900,
+      "price": 715350,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 977455,
+      "transferPrice": 679582.5,
       "purchaseModes": [],
       "stock": null,
       "stockLabel": "Consultar",
@@ -732,54 +758,8 @@
       "tags": [
         "Elegoo"
       ],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/Neptune-4max-420x420x480mm-Klipper-500mms-Impresora-3D-FDM-ELEGO-.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/neptune-4-max-420x420x480mm-klipper-500mms-impresora-3d-fdm-elegoo",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=1-impresoras-3d&page=2",
-      "variants": []
-    },
-    {
-      "id": "tecknicam3d-mingda-ad-f4-800x1200x100mm-impresora",
-      "sourceProductId": "mingda-ad-f4-800x1200x100mm-impresora",
-      "store": "Tecknicam 3D",
-      "domain": "tecknicam3d.com.ar",
-      "name": "Mingda AD-F4 800X1200X100mm Impresora",
-      "category": "Impresoras",
-      "price": 8990000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 8540500,
-      "purchaseModes": [],
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": null,
-      "tags": [],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/MINGDA_ADF4_VAR_SOLA-9-1.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/mingda-ad-f4-800x1200x100mm-impresora",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=1-impresoras-3d&page=2",
-      "variants": []
-    },
-    {
-      "id": "tecknicam3d-saturn-3-12k-218x122x250mm-lcd-impresora-resina-elegoo",
-      "sourceProductId": "saturn-3-12k-218x122x250mm-lcd-impresora-resina-elegoo",
-      "store": "Tecknicam 3D",
-      "domain": "tecknicam3d.com.ar",
-      "name": "Saturn 3 12k 218x122x250mm Lcd Impresora Resina Elegoo",
-      "category": "Resina",
-      "price": 662900,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 629755,
-      "purchaseModes": [],
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Elegoo",
-      "tags": [
-        "Elegoo"
-      ],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/Saturn-3-12k-218x122x250mm-Lcd-Impresora-Resina-Elegoo.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/saturn-3-12k-218x122x250mm-lcd-impresora-resina-elegoo",
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/CC-1_2_1220x1220_crop_center.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/centauri-carbon-de-exposicion-fdm-3d-printer-256-x-256-x-256-mm-impresora-3d-fdm-elegoo-usada-como-nueva-con-30-dias-de-garantia",
       "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=1-impresoras-3d&page=2",
       "variants": []
     },
@@ -856,26 +836,48 @@
       "variants": []
     },
     {
-      "id": "tecknicam3d-centauri-carbon-de-exposicion-fdm-3d-printer-256-x-256-x-256-mm-impresora-3d-fdm-elegoo-usada-como-nueva-con-30-dias-de-garantia",
-      "sourceProductId": "centauri-carbon-de-exposicion-fdm-3d-printer-256-x-256-x-256-mm-impresora-3d-fdm-elegoo-usada-como-nueva-con-30-dias-de-garantia",
+      "id": "tecknicam3d-kit-de-mejora-creality-k1-impresora-3d",
+      "sourceProductId": "kit-de-mejora-creality-k1-impresora-3d",
       "store": "Tecknicam 3D",
       "domain": "tecknicam3d.com.ar",
-      "name": "Centauri Carbon de exposición FDM 3D Printer 256 x 256 x 256 mm Impresora 3D FDM ELEGOO usada como nueva con 30 días de garantía",
+      "name": "kit de mejora Creality k1 impresora 3d",
       "category": "Impresoras",
-      "price": 715350,
+      "price": 1399000,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 679582.5,
+      "transferPrice": 1329050,
       "purchaseModes": [],
       "stock": null,
       "stockLabel": "Consultar",
       "available": false,
-      "brand": "Elegoo",
+      "brand": "Creality",
       "tags": [
-        "Elegoo"
+        "Creality"
       ],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/CC-1_2_1220x1220_crop_center.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/centauri-carbon-de-exposicion-fdm-3d-printer-256-x-256-x-256-mm-impresora-3d-fdm-elegoo-usada-como-nueva-con-30-dias-de-garantia",
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/impresora-creality-k1-kit-de-mejora-creality-k1-series-cfs.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/kit-de-mejora-creality-k1-impresora-3d",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=1-impresoras-3d&page=2",
+      "variants": []
+    },
+    {
+      "id": "tecknicam3d-mingda-ad-f4-800x1200x100mm-impresora",
+      "sourceProductId": "mingda-ad-f4-800x1200x100mm-impresora",
+      "store": "Tecknicam 3D",
+      "domain": "tecknicam3d.com.ar",
+      "name": "Mingda AD-F4 800X1200X100mm Impresora",
+      "category": "Impresoras",
+      "price": 8990000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 8540500,
+      "purchaseModes": [],
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": null,
+      "tags": [],
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/MINGDA_ADF4_VAR_SOLA-9-1.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/mingda-ad-f4-800x1200x100mm-impresora",
       "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=1-impresoras-3d&page=2",
       "variants": []
     },
@@ -893,7 +895,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 63,
+      "stock": 62,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -919,7 +921,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 52,
+      "stock": 51,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -1080,7 +1082,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 17,
+      "stock": 16,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -1134,7 +1136,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 11,
+      "stock": 10,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -1498,7 +1500,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 3,
+      "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "W3D",
@@ -1609,7 +1611,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 13,
+      "stock": 12,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -1692,7 +1694,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 5,
+      "stock": 4,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -4066,6 +4068,52 @@
       "variants": []
     },
     {
+      "id": "tecknicam3d-transparente-100-unidades-vaso-milkshake-de-plastico-polimero-con-sorbete-300-ml-at",
+      "sourceProductId": "transparente-100-unidades-vaso-milkshake-de-plastico-polimero-con-sorbete-300-ml-at",
+      "store": "Tecknicam 3D",
+      "domain": "tecknicam3d.com.ar",
+      "name": "Transparente (100 unidades) Vaso Milkshake de plastico polimero con sorbete 300 ml - AT",
+      "category": "Filamentos",
+      "price": 71900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 59677,
+      "purchaseModes": [],
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": null,
+      "tags": [],
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/Imagen-de-WhatsApp-2024-12-12-a-las-17-18-52_214e7-1792589478-f38ad4a4.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/transparente-100-unidades-vaso-milkshake-de-plastico-polimero-con-sorbete-300-ml-at",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=6-accesorios",
+      "variants": []
+    },
+    {
+      "id": "tecknicam3d-3984",
+      "sourceProductId": "3984",
+      "store": "Tecknicam 3D",
+      "domain": "tecknicam3d.com.ar",
+      "name": "Cianocrilato 100gr Pegalo Profesional Instantáneo pegamento Adhesivo",
+      "category": "Accesorios",
+      "price": 18452.8,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 15315.82,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 67,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [],
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/cianocrilato-100gr-1792512367-c8caafbc.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/cianocrilato-100gr-pegalo-profesional-instantaneo-pegamento-adhesivo",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=6-accesorios",
+      "variants": []
+    },
+    {
       "id": "tecknicam3d-mate-laserable-con-bombilla-acero-inoxidable-grabado-feliz-dia-de-la-madre-x100",
       "sourceProductId": "mate-laserable-con-bombilla-acero-inoxidable-grabado-feliz-dia-de-la-madre-x100",
       "store": "Tecknicam 3D",
@@ -4317,7 +4365,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 3,
+      "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": null,
@@ -4418,7 +4466,7 @@
       "tags": [],
       "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/Tira-Led-PIXEL-Automatica--60-LM-Exterior--5Mt--12-1785953629-5302e00b.webp",
       "url": "https://www.tecknicam3d.com.ar/productos/tira-led-pixel-automatica-60-l-m-exterior-5mt-12v-strong-negro",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=6-accesorios",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=6-accesorios&page=2",
       "variants": []
     },
     {
@@ -4442,7 +4490,7 @@
       "tags": [],
       "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/download-1785953330-42bb3646.webp",
       "url": "https://www.tecknicam3d.com.ar/productos/fuente-plastica-pared-12v-3a-power-plus",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=6-accesorios",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=6-accesorios&page=2",
       "variants": []
     },
     {
@@ -4695,7 +4743,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 311,
+      "stock": 308,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -4750,54 +4798,6 @@
       "tags": [],
       "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/download--2--1782736314-a57ec177.webp",
       "url": "https://www.tecknicam3d.com.ar/productos/x20-mod1-500ml-labio-grueso-vaso-un-poco-de-ruido-500ml-sin-stl-solo-vaso-de-aluminio-sin-piezas-impresas-aluminio-las-medidas-pueden-variar",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=6-accesorios&page=2",
-      "variants": []
-    },
-    {
-      "id": "tecknicam3d-3440",
-      "sourceProductId": "3440",
-      "store": "Tecknicam 3D",
-      "domain": "tecknicam3d.com.ar",
-      "name": "AMARILLO Escalonado tacita Interior Polímero Impresión 3d cant1",
-      "category": "Accesorios",
-      "price": 530.33,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 440.17,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 2,
-      "stockLabel": "Pocas unidades",
-      "available": true,
-      "brand": null,
-      "tags": [],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/D_NQ_NP_2X_931553-MLA113556964295_062026-F-1784405218-a31a93f2.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/amarillo-escalonado-tacita-interior-polimero-impresion-3d-cant1",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=6-accesorios&page=2",
-      "variants": []
-    },
-    {
-      "id": "tecknicam3d-3437",
-      "sourceProductId": "3437",
-      "store": "Tecknicam 3D",
-      "domain": "tecknicam3d.com.ar",
-      "name": "VERDE Escalonado tacita Interior Polímero Impresión 3d cant1",
-      "category": "Accesorios",
-      "price": 530.33,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 440.17,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 13,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/D_NQ_NP_2X_826742-MLA111273897055_052026-F-1784404748-1e33475f.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/verde-escalonado-tacita-interior-polimero-impresion-3d-cant1",
       "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=6-accesorios&page=2",
       "variants": []
     },

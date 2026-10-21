@@ -5,14 +5,14 @@
     "baseUrl": "https://filacolor.com.ar",
     "apiPath": "/wp-json/wc/store/v1/products"
   },
-  "scrapedAt": "2026-10-20T13:26:40.801Z",
+  "scrapedAt": "2026-10-21T13:36:08.459Z",
   "source": "https://filacolor.com.ar/wp-json/wc/store/v1/products",
   "pages": [
     {
       "page": 1,
       "url": "https://filacolor.com.ar/wp-json/wc/store/v1/products?per_page=100&page=1",
-      "found": 48,
-      "added": 37
+      "found": 49,
+      "added": 38
     }
   ],
   "products": [
@@ -343,6 +343,29 @@
           ]
         }
       ]
+    },
+    {
+      "id": "filacolor-10284",
+      "sourceProductId": "10284",
+      "store": "Filacolor",
+      "domain": "filacolor.com.ar",
+      "name": "Adhesivo Para Impresion 3D solo para PLA 80cc",
+      "category": "Herramientas",
+      "price": 18000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "stock": 12,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA"
+      ],
+      "image": "https://filacolor.com.ar/wp-content/uploads/2026/06/WhatsApp-Image-2026-05-31-at-7.45.16-PM.jpeg",
+      "url": "https://filacolor.com.ar/producto/pegamento-para-impresion-3d-solo-pla-80cc/",
+      "scrapedFrom": "https://filacolor.com.ar/wp-json/wc/store/v1/products",
+      "variants": []
     },
     {
       "id": "filacolor-11377",
@@ -1166,14 +1189,6 @@
           "available": true,
           "options": [
             "Colores: rosa-coral"
-          ]
-        },
-        {
-          "id": "filacolor-8590",
-          "sku": "8590",
-          "available": true,
-          "options": [
-            "Colores: verde-acebo"
           ]
         },
         {
