@@ -5,15 +5,15 @@
     "baseUrl": "https://www.dino3d.com.ar",
     "listingPath": "/productos.php"
   },
-  "scrapedAt": "2026-10-21T13:36:05.211Z",
-  "count": 517,
+  "scrapedAt": "2026-10-22T13:37:46.417Z",
+  "count": 497,
   "pages": [
     {
       "page": 1,
       "path": "/productos.php",
       "url": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
-      "found": 517,
-      "added": 517
+      "found": 497,
+      "added": 497
     }
   ],
   "products": [
@@ -607,7 +607,7 @@
         "PLA",
         "1kg"
       ],
-      "image": "https://www.dino3d.com.ar/img/productos/Trodecarretesdefilamentomulticolor-20261007114659-2e89d1.png",
+      "image": "https://www.dino3d.com.ar/img/productos/TresbobinasPLAdecolores-20261021140036-217c28.png",
       "url": "https://www.dino3d.com.ar/productos.php?q=FAR-VAR",
       "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
       "variants": [
@@ -621,7 +621,7 @@
             "Variedad",
             "Pla"
           ],
-          "image": "https://www.dino3d.com.ar/img/productos/Trodecarretesdefilamentomulticolor-20261007114659-2e89d1.png"
+          "image": "https://www.dino3d.com.ar/img/productos/TresbobinasPLAdecolores-20261021140036-217c28.png"
         }
       ]
     },
@@ -868,51 +868,6 @@
             "Pla"
           ],
           "image": "https://www.dino3d.com.ar/img/productos/AmarilloR-20260407141838-2d06be.png"
-        }
-      ]
-    },
-    {
-      "id": "dino3d-FRE-SIL-AMA",
-      "sourceProductId": "FRE-SIL-AMA",
-      "store": "Dino 3D",
-      "domain": "dino3d.com.ar",
-      "name": "Amarillo Silk x 1 Kg",
-      "category": "Filamentos",
-      "price": 22500,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Fremover",
-      "color": "Amarillo Silk",
-      "tags": [
-        "Fremover",
-        "Amarillo Silk",
-        "PLA Silk",
-        "PLA",
-        "1kg",
-        "Silk"
-      ],
-      "image": "https://www.dino3d.com.ar/img/productos/PLA_High_Speed_SilkSilk_Yellow_8833898e-562a-44f7-8b4c-0151d93886d1-20260611182327-dd9995.webp",
-      "url": "https://www.dino3d.com.ar/productos.php?q=FRE-SIL-AMA",
-      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
-      "variants": [
-        {
-          "id": "FRE-SIL-AMA",
-          "sku": "FRE-SIL-AMA",
-          "price": 22500,
-          "stock": 1,
-          "available": true,
-          "options": [
-            "Amarillo Silk",
-            "Pla Silk"
-          ],
-          "image": "https://www.dino3d.com.ar/img/productos/PLA_High_Speed_SilkSilk_Yellow_8833898e-562a-44f7-8b4c-0151d93886d1-20260611182327-dd9995.webp"
         }
       ]
     },
@@ -1744,6 +1699,49 @@
       ]
     },
     {
+      "id": "dino3d-FAR-BLA-MAT",
+      "sourceProductId": "FAR-BLA-MAT",
+      "store": "Dino 3D",
+      "domain": "dino3d.com.ar",
+      "name": "Blanco Mate x 1 Kg",
+      "category": "Filamentos",
+      "price": 23000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "FilAr",
+      "color": "Blanco Mate",
+      "tags": [
+        "FilAr",
+        "Blanco Mate",
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://www.dino3d.com.ar/img/productos/BlancoMateFilamentoPLAx1KGBlancoMate-20260608194027-4a6fe4.webp",
+      "url": "https://www.dino3d.com.ar/productos.php?q=FAR-BLA-MAT",
+      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
+      "variants": [
+        {
+          "id": "FAR-BLA-MAT",
+          "sku": "FAR-BLA-MAT",
+          "price": 23000,
+          "stock": 1,
+          "available": true,
+          "options": [
+            "Blanco Mate",
+            "Pla"
+          ],
+          "image": "https://www.dino3d.com.ar/img/productos/BlancoMateFilamentoPLAx1KGBlancoMate-20260608194027-4a6fe4.webp"
+        }
+      ]
+    },
+    {
       "id": "dino3d-HEL-R-BLA",
       "sourceProductId": "HEL-R-BLA",
       "store": "Dino 3D",
@@ -1871,49 +1869,6 @@
             "Pla"
           ],
           "image": "https://www.dino3d.com.ar/img/productos/Blanco-20260329121130-4aa6cd.png"
-        }
-      ]
-    },
-    {
-      "id": "dino3d-FIL-BOR",
-      "sourceProductId": "FIL-BOR",
-      "store": "Dino 3D",
-      "domain": "dino3d.com.ar",
-      "name": "Bordeaux Red x 1 Kg",
-      "category": "Filamentos",
-      "price": 20500,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Filanova",
-      "color": "Rojo Bordo",
-      "tags": [
-        "Filanova",
-        "Rojo Bordo",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://www.dino3d.com.ar/img/productos/BordeauxRed-20260404200944-2f0894.png",
-      "url": "https://www.dino3d.com.ar/productos.php?q=FIL-BOR",
-      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
-      "variants": [
-        {
-          "id": "FIL-BOR",
-          "sku": "FIL-BOR",
-          "price": 20500,
-          "stock": 1,
-          "available": true,
-          "options": [
-            "Rojo Bordo",
-            "Pla"
-          ],
-          "image": "https://www.dino3d.com.ar/img/productos/BordeauxRed-20260404200944-2f0894.png"
         }
       ]
     },
@@ -2264,6 +2219,50 @@
             "Pla"
           ],
           "image": "https://www.dino3d.com.ar/img/productos/CelestePastel-20260329193317-c30b0b.png"
+        }
+      ]
+    },
+    {
+      "id": "dino3d-HEL-R-CEL",
+      "sourceProductId": "HEL-R-CEL",
+      "store": "Dino 3D",
+      "domain": "dino3d.com.ar",
+      "name": "Celeste Recarga x 1 Kg",
+      "category": "Filamentos",
+      "price": 18900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Hellbot",
+      "color": "Celeste",
+      "tags": [
+        "Hellbot",
+        "Celeste",
+        "PLA",
+        "1kg",
+        "Recarga"
+      ],
+      "image": "https://www.dino3d.com.ar/img/productos/CelesteR-20260330011609-57d1e2.png",
+      "url": "https://www.dino3d.com.ar/productos.php?q=HEL-R-CEL",
+      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
+      "variants": [
+        {
+          "id": "HEL-R-CEL",
+          "sku": "HEL-R-CEL",
+          "price": 18900,
+          "stock": 1,
+          "available": true,
+          "options": [
+            "Celeste",
+            "Pla"
+          ],
+          "image": "https://www.dino3d.com.ar/img/productos/CelesteR-20260330011609-57d1e2.png"
         }
       ]
     },
@@ -3092,6 +3091,94 @@
       ]
     },
     {
+      "id": "dino3d-FIL-CRO-MAT-VAR",
+      "sourceProductId": "FIL-CRO-MAT-VAR",
+      "store": "Dino 3D",
+      "domain": "dino3d.com.ar",
+      "name": "Filanova Chroma Mate x 1 Kg",
+      "category": "Filamentos",
+      "price": 20900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Filanova",
+      "color": "Variedad",
+      "tags": [
+        "Filanova",
+        "Variedad",
+        "PLA HS",
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://www.dino3d.com.ar/img/productos/CarretesdefilamentoPLAenestudio-20261021135535-3e707c.png",
+      "url": "https://www.dino3d.com.ar/productos.php?q=FIL-CRO-MAT-VAR",
+      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
+      "variants": [
+        {
+          "id": "FIL-CRO-MAT-VAR",
+          "sku": "FIL-CRO-MAT-VAR",
+          "price": 20900,
+          "stock": 1,
+          "available": true,
+          "options": [
+            "Variedad",
+            "Pla HS"
+          ],
+          "image": "https://www.dino3d.com.ar/img/productos/CarretesdefilamentoPLAenestudio-20261021135535-3e707c.png"
+        }
+      ]
+    },
+    {
+      "id": "dino3d-FIL-CRO-VAR",
+      "sourceProductId": "FIL-CRO-VAR",
+      "store": "Dino 3D",
+      "domain": "dino3d.com.ar",
+      "name": "Filanova Chroma x 1 Kg",
+      "category": "Filamentos",
+      "price": 20900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Filanova",
+      "color": "Variedad",
+      "tags": [
+        "Filanova",
+        "Variedad",
+        "PLA HS",
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://www.dino3d.com.ar/img/productos/TrodefilamentosFILANOVAPLA-20261021192029-2afe68.png",
+      "url": "https://www.dino3d.com.ar/productos.php?q=FIL-CRO-VAR",
+      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
+      "variants": [
+        {
+          "id": "FIL-CRO-VAR",
+          "sku": "FIL-CRO-VAR",
+          "price": 20900,
+          "stock": 1,
+          "available": true,
+          "options": [
+            "Variedad",
+            "Pla HS"
+          ],
+          "image": "https://www.dino3d.com.ar/img/productos/TrodefilamentosFILANOVAPLA-20261021192029-2afe68.png"
+        }
+      ]
+    },
+    {
       "id": "dino3d-FRE-FRO-DES",
       "sourceProductId": "FRE-FRO-DES",
       "store": "Dino 3D",
@@ -3132,6 +3219,49 @@
             "Pla+"
           ],
           "image": "https://www.dino3d.com.ar/img/productos/FrostyDesertYellow-20260404004126-9606b5.png"
+        }
+      ]
+    },
+    {
+      "id": "dino3d-HEL-FUC",
+      "sourceProductId": "HEL-FUC",
+      "store": "Dino 3D",
+      "domain": "dino3d.com.ar",
+      "name": "Fucsia x 1 Kg",
+      "category": "Filamentos",
+      "price": 20900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Hellbot",
+      "color": "Fucsia",
+      "tags": [
+        "Hellbot",
+        "Fucsia",
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://www.dino3d.com.ar/img/productos/ChatGPTImage8sept202603_10_52pm-20260908151115-da1e82.png",
+      "url": "https://www.dino3d.com.ar/productos.php?q=HEL-FUC",
+      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
+      "variants": [
+        {
+          "id": "HEL-FUC",
+          "sku": "HEL-FUC",
+          "price": 20900,
+          "stock": 1,
+          "available": true,
+          "options": [
+            "Fucsia",
+            "Pla"
+          ],
+          "image": "https://www.dino3d.com.ar/img/productos/ChatGPTImage8sept202603_10_52pm-20260908151115-da1e82.png"
         }
       ]
     },
@@ -3661,47 +3791,6 @@
             "Pla+"
           ],
           "image": "https://www.dino3d.com.ar/img/productos/Gris-20260403224932-66a3d0.png"
-        }
-      ]
-    },
-    {
-      "id": "dino3d-GST-VAR",
-      "sourceProductId": "GST-VAR",
-      "store": "Dino 3D",
-      "domain": "dino3d.com.ar",
-      "name": "GST3D Pla x 1 Kg",
-      "category": "Filamentos",
-      "price": 17000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Gst Black Edition",
-      "color": null,
-      "tags": [
-        "Gst Black Edition",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://www.dino3d.com.ar/img/productos/GstFilasVarios2-20260408013308-8cd634.png",
-      "url": "https://www.dino3d.com.ar/productos.php?q=GST-VAR",
-      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
-      "variants": [
-        {
-          "id": "GST-VAR",
-          "sku": "GST-VAR",
-          "price": 17000,
-          "stock": 1,
-          "available": true,
-          "options": [
-            "Pla"
-          ],
-          "image": "https://www.dino3d.com.ar/img/productos/GstFilasVarios2-20260408013308-8cd634.png"
         }
       ]
     },
@@ -5143,6 +5232,49 @@
       ]
     },
     {
+      "id": "dino3d-FAR-NEG-MAT",
+      "sourceProductId": "FAR-NEG-MAT",
+      "store": "Dino 3D",
+      "domain": "dino3d.com.ar",
+      "name": "Negro Mate x 1 Kg",
+      "category": "Filamentos",
+      "price": 23000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "FilAr",
+      "color": "Negro Mate",
+      "tags": [
+        "FilAr",
+        "Negro Mate",
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://www.dino3d.com.ar/img/productos/NegroMatefilar-20260430111517-4049db.webp",
+      "url": "https://www.dino3d.com.ar/productos.php?q=FAR-NEG-MAT",
+      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
+      "variants": [
+        {
+          "id": "FAR-NEG-MAT",
+          "sku": "FAR-NEG-MAT",
+          "price": 23000,
+          "stock": 1,
+          "available": true,
+          "options": [
+            "Negro Mate",
+            "Pla"
+          ],
+          "image": "https://www.dino3d.com.ar/img/productos/NegroMatefilar-20260430111517-4049db.webp"
+        }
+      ]
+    },
+    {
       "id": "dino3d-HEL-R-NEG",
       "sourceProductId": "HEL-R-NEG",
       "store": "Dino 3D",
@@ -5183,51 +5315,6 @@
             "Pla"
           ],
           "image": "https://www.dino3d.com.ar/img/productos/NegroR-20260330005847-a400c8.png"
-        }
-      ]
-    },
-    {
-      "id": "dino3d-FRE-SIL-NEG",
-      "sourceProductId": "FRE-SIL-NEG",
-      "store": "Dino 3D",
-      "domain": "dino3d.com.ar",
-      "name": "Negro Silk x 1 Kg",
-      "category": "Filamentos",
-      "price": 22500,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Fremover",
-      "color": "Negro Silk",
-      "tags": [
-        "Fremover",
-        "Negro Silk",
-        "PLA Silk",
-        "PLA",
-        "1kg",
-        "Silk"
-      ],
-      "image": "https://www.dino3d.com.ar/img/productos/NegroSilk-20260404013007-1b0026.png",
-      "url": "https://www.dino3d.com.ar/productos.php?q=FRE-SIL-NEG",
-      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
-      "variants": [
-        {
-          "id": "FRE-SIL-NEG",
-          "sku": "FRE-SIL-NEG",
-          "price": 22500,
-          "stock": 1,
-          "available": true,
-          "options": [
-            "Negro Silk",
-            "Pla Silk"
-          ],
-          "image": "https://www.dino3d.com.ar/img/productos/NegroSilk-20260404013007-1b0026.png"
         }
       ]
     },
@@ -5800,6 +5887,49 @@
       ]
     },
     {
+      "id": "dino3d-FAR-ROJ-MAT",
+      "sourceProductId": "FAR-ROJ-MAT",
+      "store": "Dino 3D",
+      "domain": "dino3d.com.ar",
+      "name": "Rojo Mate x 1 Kg",
+      "category": "Filamentos",
+      "price": 23000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "FilAr",
+      "color": "Rojo Mate",
+      "tags": [
+        "FilAr",
+        "Rojo Mate",
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://www.dino3d.com.ar/img/productos/rojo-mate1-20260828134332-7231cd.webp",
+      "url": "https://www.dino3d.com.ar/productos.php?q=FAR-ROJ-MAT",
+      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
+      "variants": [
+        {
+          "id": "FAR-ROJ-MAT",
+          "sku": "FAR-ROJ-MAT",
+          "price": 23000,
+          "stock": 1,
+          "available": true,
+          "options": [
+            "Rojo Mate",
+            "Pla"
+          ],
+          "image": "https://www.dino3d.com.ar/img/productos/rojo-mate1-20260828134332-7231cd.webp"
+        }
+      ]
+    },
+    {
       "id": "dino3d-HEL-R-ROJ",
       "sourceProductId": "HEL-R-ROJ",
       "store": "Dino 3D",
@@ -6101,6 +6231,50 @@
             "Pla"
           ],
           "image": "https://www.dino3d.com.ar/img/productos/RosaPastel-20260329132451-5d56a3.png"
+        }
+      ]
+    },
+    {
+      "id": "dino3d-HEL-R-ROS",
+      "sourceProductId": "HEL-R-ROS",
+      "store": "Dino 3D",
+      "domain": "dino3d.com.ar",
+      "name": "Rosa Recarga x 1 Kg",
+      "category": "Filamentos",
+      "price": 18900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Hellbot",
+      "color": "Rosa",
+      "tags": [
+        "Hellbot",
+        "Rosa",
+        "PLA",
+        "1kg",
+        "Recarga"
+      ],
+      "image": "https://www.dino3d.com.ar/img/productos/RosaR-20260330010251-3f051a.png",
+      "url": "https://www.dino3d.com.ar/productos.php?q=HEL-R-ROS",
+      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
+      "variants": [
+        {
+          "id": "HEL-R-ROS",
+          "sku": "HEL-R-ROS",
+          "price": 18900,
+          "stock": 1,
+          "available": true,
+          "options": [
+            "Rosa",
+            "Pla"
+          ],
+          "image": "https://www.dino3d.com.ar/img/productos/RosaR-20260330010251-3f051a.png"
         }
       ]
     },
@@ -6887,6 +7061,49 @@
       ]
     },
     {
+      "id": "dino3d-HEL-VER-CLA",
+      "sourceProductId": "HEL-VER-CLA",
+      "store": "Dino 3D",
+      "domain": "dino3d.com.ar",
+      "name": "Verde Claro x 1 Kg",
+      "category": "Filamentos",
+      "price": 20900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Hellbot",
+      "color": "Verde Claro",
+      "tags": [
+        "Hellbot",
+        "Verde Claro",
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://www.dino3d.com.ar/img/productos/VerdeClara-20260329123256-48abe6.png",
+      "url": "https://www.dino3d.com.ar/productos.php?q=HEL-VER-CLA",
+      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
+      "variants": [
+        {
+          "id": "HEL-VER-CLA",
+          "sku": "HEL-VER-CLA",
+          "price": 20900,
+          "stock": 1,
+          "available": true,
+          "options": [
+            "Verde Claro",
+            "Pla"
+          ],
+          "image": "https://www.dino3d.com.ar/img/productos/VerdeClara-20260329123256-48abe6.png"
+        }
+      ]
+    },
+    {
       "id": "dino3d-HEL-R-VER-FLU",
       "sourceProductId": "HEL-R-VER-FLU",
       "store": "Dino 3D",
@@ -6931,13 +7148,13 @@
       ]
     },
     {
-      "id": "dino3d-GST-VER-FLU",
-      "sourceProductId": "GST-VER-FLU",
+      "id": "dino3d-HEL-VER-FLU",
+      "sourceProductId": "HEL-VER-FLU",
       "store": "Dino 3D",
       "domain": "dino3d.com.ar",
       "name": "Verde Fluo x 1 Kg",
       "category": "Filamentos",
-      "price": 17000,
+      "price": 20900,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -6947,29 +7164,29 @@
       "stock": 1,
       "stockLabel": "En stock",
       "available": true,
-      "brand": "Gst Black Edition",
+      "brand": "Hellbot",
       "color": "Verde Fluo",
       "tags": [
-        "Gst Black Edition",
+        "Hellbot",
         "Verde Fluo",
         "PLA",
         "1kg"
       ],
-      "image": "https://www.dino3d.com.ar/img/productos/Verdefluo-20260410234504-fc3a17.jpeg",
-      "url": "https://www.dino3d.com.ar/productos.php?q=GST-VER-FLU",
+      "image": "https://www.dino3d.com.ar/img/productos/verde-fluohell-20260524150333-5c2cd3.png",
+      "url": "https://www.dino3d.com.ar/productos.php?q=HEL-VER-FLU",
       "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
       "variants": [
         {
-          "id": "GST-VER-FLU",
-          "sku": "GST-VER-FLU",
-          "price": 17000,
+          "id": "HEL-VER-FLU",
+          "sku": "HEL-VER-FLU",
+          "price": 20900,
           "stock": 1,
           "available": true,
           "options": [
             "Verde Fluo",
             "Pla"
           ],
-          "image": "https://www.dino3d.com.ar/img/productos/Verdefluo-20260410234504-fc3a17.jpeg"
+          "image": "https://www.dino3d.com.ar/img/productos/verde-fluohell-20260524150333-5c2cd3.png"
         }
       ]
     },
@@ -8225,6 +8442,49 @@
       ]
     },
     {
+      "id": "dino3d-PET-CRE-AZU-TRA",
+      "sourceProductId": "PET-CRE-AZU-TRA",
+      "store": "Dino 3D",
+      "domain": "dino3d.com.ar",
+      "name": "Petg Azul Transparente x 1 Kg",
+      "category": "Filamentos",
+      "price": 19900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Creality",
+      "color": "Azul Transparente",
+      "tags": [
+        "Creality",
+        "Azul Transparente",
+        "PETG",
+        "1kg"
+      ],
+      "image": "https://www.dino3d.com.ar/img/productos/filamento-creality-cr-petg-1kg-175mm-20260702205041-bb38ef.jpeg",
+      "url": "https://www.dino3d.com.ar/productos.php?q=PET-CRE-AZU-TRA",
+      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
+      "variants": [
+        {
+          "id": "PET-CRE-AZU-TRA",
+          "sku": "PET-CRE-AZU-TRA",
+          "price": 19900,
+          "stock": 1,
+          "available": true,
+          "options": [
+            "Azul Transparente",
+            "Petg"
+          ],
+          "image": "https://www.dino3d.com.ar/img/productos/filamento-creality-cr-petg-1kg-175mm-20260702205041-bb38ef.jpeg"
+        }
+      ]
+    },
+    {
       "id": "dino3d-PET-GST-COS-BEI",
       "sourceProductId": "PET-GST-COS-BEI",
       "store": "Dino 3D",
@@ -8307,6 +8567,49 @@
             "Petg"
           ],
           "image": "https://www.dino3d.com.ar/img/productos/PetgFilArBlancoAntartida-20260419201919-71695c.png"
+        }
+      ]
+    },
+    {
+      "id": "dino3d-PET-CRE-SOL-BLA",
+      "sourceProductId": "PET-CRE-SOL-BLA",
+      "store": "Dino 3D",
+      "domain": "dino3d.com.ar",
+      "name": "Petg Blanco x 1 Kg",
+      "category": "Filamentos",
+      "price": 19900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Creality Soleyin",
+      "color": "Blanco",
+      "tags": [
+        "Creality Soleyin",
+        "Blanco",
+        "PETG",
+        "1kg"
+      ],
+      "image": "https://www.dino3d.com.ar/img/productos/soleyinblanco-20260819175832-a51aa8.webp",
+      "url": "https://www.dino3d.com.ar/productos.php?q=PET-CRE-SOL-BLA",
+      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
+      "variants": [
+        {
+          "id": "PET-CRE-SOL-BLA",
+          "sku": "PET-CRE-SOL-BLA",
+          "price": 19900,
+          "stock": 1,
+          "available": true,
+          "options": [
+            "Blanco",
+            "Petg"
+          ],
+          "image": "https://www.dino3d.com.ar/img/productos/soleyinblanco-20260819175832-a51aa8.webp"
         }
       ]
     },
@@ -9591,6 +9894,45 @@
             "Resina"
           ],
           "image": "https://www.dino3d.com.ar/img/productos/CrealityHalot-X1Combo-20260603160524-fe0d10.png"
+        }
+      ]
+    },
+    {
+      "id": "dino3d-SNA-U1",
+      "sourceProductId": "SNA-U1",
+      "store": "Dino 3D",
+      "domain": "dino3d.com.ar",
+      "name": "Impresora Snapmaker U1 Entrega inmediata",
+      "category": "Impresoras",
+      "price": 2490000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Snapmaker",
+      "color": null,
+      "tags": [
+        "Snapmaker"
+      ],
+      "image": "https://www.dino3d.com.ar/img/productos/ImpresoraSnapmakerU1-20260423125946-3d2c64.png",
+      "url": "https://www.dino3d.com.ar/productos.php?q=SNA-U1",
+      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
+      "variants": [
+        {
+          "id": "SNA-U1",
+          "sku": "SNA-U1",
+          "price": 2490000,
+          "stock": 1,
+          "available": true,
+          "options": [
+            "U1"
+          ],
+          "image": "https://www.dino3d.com.ar/img/productos/ImpresoraSnapmakerU1-20260423125946-3d2c64.png"
         }
       ]
     },
@@ -11741,13 +12083,13 @@
       ]
     },
     {
-      "id": "dino3d-GST-AMA",
-      "sourceProductId": "GST-AMA",
+      "id": "dino3d-FRE-SIL-AMA",
+      "sourceProductId": "FRE-SIL-AMA",
       "store": "Dino 3D",
       "domain": "dino3d.com.ar",
-      "name": "Amarillo x 1 Kg",
+      "name": "Amarillo Silk x 1 Kg",
       "category": "Filamentos",
-      "price": 17000,
+      "price": 22500,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -11755,29 +12097,31 @@
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
-      "brand": "Gst Black Edition",
-      "color": "Amarillo",
+      "brand": "Fremover",
+      "color": "Amarillo Silk",
       "tags": [
-        "Gst Black Edition",
-        "Amarillo",
+        "Fremover",
+        "Amarillo Silk",
+        "PLA Silk",
         "PLA",
-        "1kg"
+        "1kg",
+        "Silk"
       ],
-      "image": "https://www.dino3d.com.ar/img/productos/GSTAMARILLO-20260313224827-1b0436.png",
-      "url": "https://www.dino3d.com.ar/productos.php?q=GST-AMA",
+      "image": "https://www.dino3d.com.ar/img/productos/PLA_High_Speed_SilkSilk_Yellow_8833898e-562a-44f7-8b4c-0151d93886d1-20260611182327-dd9995.webp",
+      "url": "https://www.dino3d.com.ar/productos.php?q=FRE-SIL-AMA",
       "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
       "variants": [
         {
-          "id": "GST-AMA",
-          "sku": "GST-AMA",
-          "price": 17000,
+          "id": "FRE-SIL-AMA",
+          "sku": "FRE-SIL-AMA",
+          "price": 22500,
           "stock": 0,
           "available": false,
           "options": [
-            "Amarillo",
-            "Pla"
+            "Amarillo Silk",
+            "Pla Silk"
           ],
-          "image": "https://www.dino3d.com.ar/img/productos/GSTAMARILLO-20260313224827-1b0436.png"
+          "image": "https://www.dino3d.com.ar/img/productos/PLA_High_Speed_SilkSilk_Yellow_8833898e-562a-44f7-8b4c-0151d93886d1-20260611182327-dd9995.webp"
         }
       ]
     },
@@ -12240,47 +12584,6 @@
       ]
     },
     {
-      "id": "dino3d-GST-AZU-OSC",
-      "sourceProductId": "GST-AZU-OSC",
-      "store": "Dino 3D",
-      "domain": "dino3d.com.ar",
-      "name": "Azul Oscuro x 1 Kg",
-      "category": "Filamentos",
-      "price": 19000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Gst Black Edition",
-      "color": "Azul Oscuro",
-      "tags": [
-        "Gst Black Edition",
-        "Azul Oscuro",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://www.dino3d.com.ar/img/productos/AzulOscuro-20260410234703-f80986.jpeg",
-      "url": "https://www.dino3d.com.ar/productos.php?q=GST-AZU-OSC",
-      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
-      "variants": [
-        {
-          "id": "GST-AZU-OSC",
-          "sku": "GST-AZU-OSC",
-          "price": 19000,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Azul Oscuro",
-            "Pla"
-          ],
-          "image": "https://www.dino3d.com.ar/img/productos/AzulOscuro-20260410234703-f80986.jpeg"
-        }
-      ]
-    },
-    {
       "id": "dino3d-GST-AZU-SIL",
       "sourceProductId": "GST-AZU-SIL",
       "store": "Dino 3D",
@@ -12363,47 +12666,6 @@
             "Pla Silk"
           ],
           "image": "https://www.dino3d.com.ar/img/productos/ChatGPTImage23jun202603_58_06pm-20260623155818-1f7f2e.png"
-        }
-      ]
-    },
-    {
-      "id": "dino3d-GST-AZU",
-      "sourceProductId": "GST-AZU",
-      "store": "Dino 3D",
-      "domain": "dino3d.com.ar",
-      "name": "Azul x 1 Kg",
-      "category": "Filamentos",
-      "price": 17000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Gst Black Edition",
-      "color": "Azul",
-      "tags": [
-        "Gst Black Edition",
-        "Azul",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://www.dino3d.com.ar/img/productos/GSTAZUL-20260313164243-3583ad.png",
-      "url": "https://www.dino3d.com.ar/productos.php?q=GST-AZU",
-      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
-      "variants": [
-        {
-          "id": "GST-AZU",
-          "sku": "GST-AZU",
-          "price": 17000,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Azul",
-            "Pla"
-          ],
-          "image": "https://www.dino3d.com.ar/img/productos/GSTAZUL-20260313164243-3583ad.png"
         }
       ]
     },
@@ -12701,47 +12963,6 @@
       ]
     },
     {
-      "id": "dino3d-FAR-BLA-MAT",
-      "sourceProductId": "FAR-BLA-MAT",
-      "store": "Dino 3D",
-      "domain": "dino3d.com.ar",
-      "name": "Blanco Mate x 1 Kg",
-      "category": "Filamentos",
-      "price": 23000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "FilAr",
-      "color": "Blanco Mate",
-      "tags": [
-        "FilAr",
-        "Blanco Mate",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://www.dino3d.com.ar/img/productos/BlancoMateFilamentoPLAx1KGBlancoMate-20260608194027-4a6fe4.webp",
-      "url": "https://www.dino3d.com.ar/productos.php?q=FAR-BLA-MAT",
-      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
-      "variants": [
-        {
-          "id": "FAR-BLA-MAT",
-          "sku": "FAR-BLA-MAT",
-          "price": 23000,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Blanco Mate",
-            "Pla"
-          ],
-          "image": "https://www.dino3d.com.ar/img/productos/BlancoMateFilamentoPLAx1KGBlancoMate-20260608194027-4a6fe4.webp"
-        }
-      ]
-    },
-    {
       "id": "dino3d-FRE-SIL-BLA",
       "sourceProductId": "FRE-SIL-BLA",
       "store": "Dino 3D",
@@ -12781,47 +13002,6 @@
             "Pla Silk"
           ],
           "image": "https://www.dino3d.com.ar/img/productos/WhatsAppImage2026-04-17at82121PM-20260421123029-1e54be.jpeg"
-        }
-      ]
-    },
-    {
-      "id": "dino3d-GST-BLA",
-      "sourceProductId": "GST-BLA",
-      "store": "Dino 3D",
-      "domain": "dino3d.com.ar",
-      "name": "Blanco x 1 Kg",
-      "category": "Filamentos",
-      "price": 17000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Gst Black Edition",
-      "color": "Blanco",
-      "tags": [
-        "Gst Black Edition",
-        "Blanco",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://www.dino3d.com.ar/img/productos/GSTBLANCO-20260313152019-378f98.png",
-      "url": "https://www.dino3d.com.ar/productos.php?q=GST-BLA",
-      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
-      "variants": [
-        {
-          "id": "GST-BLA",
-          "sku": "GST-BLA",
-          "price": 17000,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Blanco",
-            "Pla"
-          ],
-          "image": "https://www.dino3d.com.ar/img/productos/GSTBLANCO-20260313152019-378f98.png"
         }
       ]
     },
@@ -13332,6 +13512,47 @@
       ]
     },
     {
+      "id": "dino3d-FIL-BOR",
+      "sourceProductId": "FIL-BOR",
+      "store": "Dino 3D",
+      "domain": "dino3d.com.ar",
+      "name": "Bordeaux Red x 1 Kg",
+      "category": "Filamentos",
+      "price": 20500,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Filanova",
+      "color": "Rojo Bordo",
+      "tags": [
+        "Filanova",
+        "Rojo Bordo",
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://www.dino3d.com.ar/img/productos/BordeauxRed-20260404200944-2f0894.png",
+      "url": "https://www.dino3d.com.ar/productos.php?q=FIL-BOR",
+      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
+      "variants": [
+        {
+          "id": "FIL-BOR",
+          "sku": "FIL-BOR",
+          "price": 20500,
+          "stock": 0,
+          "available": false,
+          "options": [
+            "Rojo Bordo",
+            "Pla"
+          ],
+          "image": "https://www.dino3d.com.ar/img/productos/BordeauxRed-20260404200944-2f0894.png"
+        }
+      ]
+    },
+    {
       "id": "dino3d-FIL-BRO",
       "sourceProductId": "FIL-BRO",
       "store": "Dino 3D",
@@ -13412,47 +13633,6 @@
             "Pla Silk"
           ],
           "image": "https://www.dino3d.com.ar/img/productos/PLA_High_Speed_Dual_SilkSilk_Bronze-Purple_ff50ff75-bfce-48aa-954f-2313f3ef8917-20260710172756-25cfb0.webp"
-        }
-      ]
-    },
-    {
-      "id": "dino3d-GST-CAP",
-      "sourceProductId": "GST-CAP",
-      "store": "Dino 3D",
-      "domain": "dino3d.com.ar",
-      "name": "Capibara x 1 Kg",
-      "category": "Filamentos",
-      "price": 17000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Gst Black Edition",
-      "color": "Marron Capibara",
-      "tags": [
-        "Gst Black Edition",
-        "Marron Capibara",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://www.dino3d.com.ar/img/productos/Capibara-20260410234446-e22276.jpeg",
-      "url": "https://www.dino3d.com.ar/productos.php?q=GST-CAP",
-      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
-      "variants": [
-        {
-          "id": "GST-CAP",
-          "sku": "GST-CAP",
-          "price": 17000,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Marron Capibara",
-            "Pla"
-          ],
-          "image": "https://www.dino3d.com.ar/img/productos/Capibara-20260410234446-e22276.jpeg"
         }
       ]
     },
@@ -13621,89 +13801,6 @@
       ]
     },
     {
-      "id": "dino3d-GST-CEL-PAS",
-      "sourceProductId": "GST-CEL-PAS",
-      "store": "Dino 3D",
-      "domain": "dino3d.com.ar",
-      "name": "Celeste Pastel x 1 Kg",
-      "category": "Filamentos",
-      "price": 17000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Gst Black Edition",
-      "color": "Celeste Pastel",
-      "tags": [
-        "Gst Black Edition",
-        "Celeste Pastel",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://www.dino3d.com.ar/img/productos/GSTCELESTEPASTEL-20260313224856-157b73.png",
-      "url": "https://www.dino3d.com.ar/productos.php?q=GST-CEL-PAS",
-      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
-      "variants": [
-        {
-          "id": "GST-CEL-PAS",
-          "sku": "GST-CEL-PAS",
-          "price": 17000,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Celeste Pastel",
-            "Pla"
-          ],
-          "image": "https://www.dino3d.com.ar/img/productos/GSTCELESTEPASTEL-20260313224856-157b73.png"
-        }
-      ]
-    },
-    {
-      "id": "dino3d-HEL-R-CEL",
-      "sourceProductId": "HEL-R-CEL",
-      "store": "Dino 3D",
-      "domain": "dino3d.com.ar",
-      "name": "Celeste Recarga x 1 Kg",
-      "category": "Filamentos",
-      "price": 18900,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Hellbot",
-      "color": "Celeste",
-      "tags": [
-        "Hellbot",
-        "Celeste",
-        "PLA",
-        "1kg",
-        "Recarga"
-      ],
-      "image": "https://www.dino3d.com.ar/img/productos/CelesteR-20260330011609-57d1e2.png",
-      "url": "https://www.dino3d.com.ar/productos.php?q=HEL-R-CEL",
-      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
-      "variants": [
-        {
-          "id": "HEL-R-CEL",
-          "sku": "HEL-R-CEL",
-          "price": 18900,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Celeste",
-            "Pla"
-          ],
-          "image": "https://www.dino3d.com.ar/img/productos/CelesteR-20260330011609-57d1e2.png"
-        }
-      ]
-    },
-    {
       "id": "dino3d-GST-CEL-SIL",
       "sourceProductId": "GST-CEL-SIL",
       "store": "Dino 3D",
@@ -13743,47 +13840,6 @@
             "Pla Silk"
           ],
           "image": "https://www.dino3d.com.ar/img/productos/CelesteSIlk-20260329102347-6ba2b7.png"
-        }
-      ]
-    },
-    {
-      "id": "dino3d-GST-CEL",
-      "sourceProductId": "GST-CEL",
-      "store": "Dino 3D",
-      "domain": "dino3d.com.ar",
-      "name": "Celeste x 1 Kg",
-      "category": "Filamentos",
-      "price": 17000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Gst Black Edition",
-      "color": "Celeste",
-      "tags": [
-        "Gst Black Edition",
-        "Celeste",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://www.dino3d.com.ar/img/productos/GSTCELESTE-20260313170236-d1f0af.png",
-      "url": "https://www.dino3d.com.ar/productos.php?q=GST-CEL",
-      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
-      "variants": [
-        {
-          "id": "GST-CEL",
-          "sku": "GST-CEL",
-          "price": 17000,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Celeste",
-            "Pla"
-          ],
-          "image": "https://www.dino3d.com.ar/img/productos/GSTCELESTE-20260313170236-d1f0af.png"
         }
       ]
     },
@@ -13871,6 +13927,48 @@
       ]
     },
     {
+      "id": "dino3d-FIL-CRO-MAT-CHO",
+      "sourceProductId": "FIL-CRO-MAT-CHO",
+      "store": "Dino 3D",
+      "domain": "dino3d.com.ar",
+      "name": "Chocolate Mate x 1 Kg",
+      "category": "Filamentos",
+      "price": 20900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Filanova",
+      "color": "Chocolate Mate",
+      "tags": [
+        "Filanova",
+        "Chocolate Mate",
+        "PLA HS",
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://www.dino3d.com.ar/img/productos/FNO-CHROMA-PLA-M-CHOCOLATE-20261021134129-0026fe.png",
+      "url": "https://www.dino3d.com.ar/productos.php?q=FIL-CRO-MAT-CHO",
+      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
+      "variants": [
+        {
+          "id": "FIL-CRO-MAT-CHO",
+          "sku": "FIL-CRO-MAT-CHO",
+          "price": 20900,
+          "stock": 0,
+          "available": false,
+          "options": [
+            "Chocolate Mate",
+            "Pla HS"
+          ],
+          "image": "https://www.dino3d.com.ar/img/productos/FNO-CHROMA-PLA-M-CHOCOLATE-20261021134129-0026fe.png"
+        }
+      ]
+    },
+    {
       "id": "dino3d-FAR-CHO-MAT",
       "sourceProductId": "FAR-CHO-MAT",
       "store": "Dino 3D",
@@ -13951,88 +14049,6 @@
             "Pla Silk"
           ],
           "image": "https://www.dino3d.com.ar/img/productos/CobreSilk-20260404013015-50ebe5.png"
-        }
-      ]
-    },
-    {
-      "id": "dino3d-GST-CRE",
-      "sourceProductId": "GST-CRE",
-      "store": "Dino 3D",
-      "domain": "dino3d.com.ar",
-      "name": "Crema x 1 Kg",
-      "category": "Filamentos",
-      "price": 17000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Gst Black Edition",
-      "color": "Crema",
-      "tags": [
-        "Gst Black Edition",
-        "Crema",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://www.dino3d.com.ar/img/productos/GSTCREMA-20260313224819-14a22b.png",
-      "url": "https://www.dino3d.com.ar/productos.php?q=GST-CRE",
-      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
-      "variants": [
-        {
-          "id": "GST-CRE",
-          "sku": "GST-CRE",
-          "price": 17000,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Crema",
-            "Pla"
-          ],
-          "image": "https://www.dino3d.com.ar/img/productos/GSTCREMA-20260313224819-14a22b.png"
-        }
-      ]
-    },
-    {
-      "id": "dino3d-GST-CRI",
-      "sourceProductId": "GST-CRI",
-      "store": "Dino 3D",
-      "domain": "dino3d.com.ar",
-      "name": "Cristal x 1 Kg",
-      "category": "Filamentos",
-      "price": 17000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Gst Black Edition",
-      "color": "Cristal",
-      "tags": [
-        "Gst Black Edition",
-        "Cristal",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://www.dino3d.com.ar/img/productos/Cristal-20260410234538-b5ee4f.jpeg",
-      "url": "https://www.dino3d.com.ar/productos.php?q=GST-CRI",
-      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
-      "variants": [
-        {
-          "id": "GST-CRI",
-          "sku": "GST-CRI",
-          "price": 17000,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Cristal",
-            "Pla"
-          ],
-          "image": "https://www.dino3d.com.ar/img/productos/Cristal-20260410234538-b5ee4f.jpeg"
         }
       ]
     },
@@ -14368,47 +14384,6 @@
             "Pla Silk"
           ],
           "image": "https://www.dino3d.com.ar/img/productos/GSTLITE-SILK-GOLD-20260616120109-ac8b24.png"
-        }
-      ]
-    },
-    {
-      "id": "dino3d-GST-DOR",
-      "sourceProductId": "GST-DOR",
-      "store": "Dino 3D",
-      "domain": "dino3d.com.ar",
-      "name": "Dorado x 1 Kg",
-      "category": "Filamentos",
-      "price": 17000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Gst Black Edition",
-      "color": "Dorado",
-      "tags": [
-        "Gst Black Edition",
-        "Dorado",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://www.dino3d.com.ar/img/productos/Dorado-20260410234432-d1706c.jpeg",
-      "url": "https://www.dino3d.com.ar/productos.php?q=GST-DOR",
-      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
-      "variants": [
-        {
-          "id": "GST-DOR",
-          "sku": "GST-DOR",
-          "price": 17000,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Dorado",
-            "Pla"
-          ],
-          "image": "https://www.dino3d.com.ar/img/productos/Dorado-20260410234432-d1706c.jpeg"
         }
       ]
     },
@@ -14785,88 +14760,6 @@
             "Pla Silk"
           ],
           "image": "https://www.dino3d.com.ar/img/productos/FucsiaSilk-20260317215119-f6a0e4.png"
-        }
-      ]
-    },
-    {
-      "id": "dino3d-GST-FUC",
-      "sourceProductId": "GST-FUC",
-      "store": "Dino 3D",
-      "domain": "dino3d.com.ar",
-      "name": "Fucsia x 1 Kg",
-      "category": "Filamentos",
-      "price": 17000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Gst Black Edition",
-      "color": "Fucsia",
-      "tags": [
-        "Gst Black Edition",
-        "Fucsia",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://www.dino3d.com.ar/img/productos/GSTFUCSIA-20260313224903-c853a8.png",
-      "url": "https://www.dino3d.com.ar/productos.php?q=GST-FUC",
-      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
-      "variants": [
-        {
-          "id": "GST-FUC",
-          "sku": "GST-FUC",
-          "price": 17000,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Fucsia",
-            "Pla"
-          ],
-          "image": "https://www.dino3d.com.ar/img/productos/GSTFUCSIA-20260313224903-c853a8.png"
-        }
-      ]
-    },
-    {
-      "id": "dino3d-HEL-FUC",
-      "sourceProductId": "HEL-FUC",
-      "store": "Dino 3D",
-      "domain": "dino3d.com.ar",
-      "name": "Fucsia x 1 Kg",
-      "category": "Filamentos",
-      "price": 20900,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Hellbot",
-      "color": "Fucsia",
-      "tags": [
-        "Hellbot",
-        "Fucsia",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://www.dino3d.com.ar/img/productos/ChatGPTImage8sept202603_10_52pm-20260908151115-da1e82.png",
-      "url": "https://www.dino3d.com.ar/productos.php?q=HEL-FUC",
-      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
-      "variants": [
-        {
-          "id": "HEL-FUC",
-          "sku": "HEL-FUC",
-          "price": 20900,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Fucsia",
-            "Pla"
-          ],
-          "image": "https://www.dino3d.com.ar/img/productos/ChatGPTImage8sept202603_10_52pm-20260908151115-da1e82.png"
         }
       ]
     },
@@ -15379,47 +15272,6 @@
       ]
     },
     {
-      "id": "dino3d-GST-GRI",
-      "sourceProductId": "GST-GRI",
-      "store": "Dino 3D",
-      "domain": "dino3d.com.ar",
-      "name": "Gris Plata x 1 Kg",
-      "category": "Filamentos",
-      "price": 17000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Gst Black Edition",
-      "color": "Gris Plata",
-      "tags": [
-        "Gst Black Edition",
-        "Gris Plata",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://www.dino3d.com.ar/img/productos/GSTPLATEADO-20260314170006-6d16e2.png",
-      "url": "https://www.dino3d.com.ar/productos.php?q=GST-GRI",
-      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
-      "variants": [
-        {
-          "id": "GST-GRI",
-          "sku": "GST-GRI",
-          "price": 17000,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Gris Plata",
-            "Pla"
-          ],
-          "image": "https://www.dino3d.com.ar/img/productos/GSTPLATEADO-20260314170006-6d16e2.png"
-        }
-      ]
-    },
-    {
       "id": "dino3d-FRE-HEA-BTP",
       "sourceProductId": "FRE-HEA-BTP",
       "store": "Dino 3D",
@@ -15669,6 +15521,48 @@
       ]
     },
     {
+      "id": "dino3d-FIL-CRO-MAT-LAT",
+      "sourceProductId": "FIL-CRO-MAT-LAT",
+      "store": "Dino 3D",
+      "domain": "dino3d.com.ar",
+      "name": "Latte x 1 Kg",
+      "category": "Filamentos",
+      "price": 20900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Filanova",
+      "color": "Beige Mate / Marron Claro Mate",
+      "tags": [
+        "Filanova",
+        "Beige Mate / Marron Claro Mate",
+        "PLA HS",
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://www.dino3d.com.ar/img/productos/FNO-CHROMA-PLA-M-LATTE-20261021134328-8a5ea1.png",
+      "url": "https://www.dino3d.com.ar/productos.php?q=FIL-CRO-MAT-LAT",
+      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
+      "variants": [
+        {
+          "id": "FIL-CRO-MAT-LAT",
+          "sku": "FIL-CRO-MAT-LAT",
+          "price": 20900,
+          "stock": 0,
+          "available": false,
+          "options": [
+            "Beige Mate / Marron Claro Mate",
+            "Pla HS"
+          ],
+          "image": "https://www.dino3d.com.ar/img/productos/FNO-CHROMA-PLA-M-LATTE-20261021134328-8a5ea1.png"
+        }
+      ]
+    },
+    {
       "id": "dino3d-HEL-R-LAV-PAS",
       "sourceProductId": "HEL-R-LAV-PAS",
       "store": "Dino 3D",
@@ -15790,6 +15684,48 @@
             "Pla HS"
           ],
           "image": "https://www.dino3d.com.ar/img/productos/GSTLITE-PLA-LAVENDER-20260508141014-2d3fd4.png"
+        }
+      ]
+    },
+    {
+      "id": "dino3d-FIL-CRO-MAT-LAV",
+      "sourceProductId": "FIL-CRO-MAT-LAV",
+      "store": "Dino 3D",
+      "domain": "dino3d.com.ar",
+      "name": "Lavender Purple x 1 Kg",
+      "category": "Filamentos",
+      "price": 20900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Filanova",
+      "color": "Lavanda Mate",
+      "tags": [
+        "Filanova",
+        "Lavanda Mate",
+        "PLA HS",
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://www.dino3d.com.ar/img/productos/FNO-CHROMA-PLA-M-LAVANDER-PURPLE-20261021134849-6dc438.png",
+      "url": "https://www.dino3d.com.ar/productos.php?q=FIL-CRO-MAT-LAV",
+      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
+      "variants": [
+        {
+          "id": "FIL-CRO-MAT-LAV",
+          "sku": "FIL-CRO-MAT-LAV",
+          "price": 20900,
+          "stock": 0,
+          "available": false,
+          "options": [
+            "Lavanda Mate",
+            "Pla HS"
+          ],
+          "image": "https://www.dino3d.com.ar/img/productos/FNO-CHROMA-PLA-M-LAVANDER-PURPLE-20261021134849-6dc438.png"
         }
       ]
     },
@@ -16127,47 +16063,6 @@
       ]
     },
     {
-      "id": "dino3d-GST-MAR-CLA",
-      "sourceProductId": "GST-MAR-CLA",
-      "store": "Dino 3D",
-      "domain": "dino3d.com.ar",
-      "name": "Marron Claro x 1 Kg",
-      "category": "Filamentos",
-      "price": 17000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Gst Black Edition",
-      "color": "Marron Claro",
-      "tags": [
-        "Gst Black Edition",
-        "Marron Claro",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://www.dino3d.com.ar/img/productos/GSTMARRONCLARO-20260317214855-2e096c.png",
-      "url": "https://www.dino3d.com.ar/productos.php?q=GST-MAR-CLA",
-      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
-      "variants": [
-        {
-          "id": "GST-MAR-CLA",
-          "sku": "GST-MAR-CLA",
-          "price": 17000,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Marron Claro",
-            "Pla"
-          ],
-          "image": "https://www.dino3d.com.ar/img/productos/GSTMARRONCLARO-20260317214855-2e096c.png"
-        }
-      ]
-    },
-    {
       "id": "dino3d-HEL-R-MAR",
       "sourceProductId": "HEL-R-MAR",
       "store": "Dino 3D",
@@ -16206,47 +16101,6 @@
             "Pla"
           ],
           "image": "https://www.dino3d.com.ar/img/productos/MarronR-20260330024440-123e6f.png"
-        }
-      ]
-    },
-    {
-      "id": "dino3d-GST-MAR",
-      "sourceProductId": "GST-MAR",
-      "store": "Dino 3D",
-      "domain": "dino3d.com.ar",
-      "name": "Marron x 1 Kg",
-      "category": "Filamentos",
-      "price": 17000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Gst Black Edition",
-      "color": "Marron",
-      "tags": [
-        "Gst Black Edition",
-        "Marron",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://www.dino3d.com.ar/img/productos/GSTMARRON-20260313224914-471456.png",
-      "url": "https://www.dino3d.com.ar/productos.php?q=GST-MAR",
-      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
-      "variants": [
-        {
-          "id": "GST-MAR",
-          "sku": "GST-MAR",
-          "price": 17000,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Marron",
-            "Pla"
-          ],
-          "image": "https://www.dino3d.com.ar/img/productos/GSTMARRON-20260313224914-471456.png"
         }
       ]
     },
@@ -16670,129 +16524,6 @@
       ]
     },
     {
-      "id": "dino3d-GST-MOS",
-      "sourceProductId": "GST-MOS",
-      "store": "Dino 3D",
-      "domain": "dino3d.com.ar",
-      "name": "Mostaza x 1 Kg",
-      "category": "Filamentos",
-      "price": 9990,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Gst Black Edition",
-      "color": "Mostaza",
-      "tags": [
-        "Gst Black Edition",
-        "Mostaza",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://www.dino3d.com.ar/img/productos/Mostaza-20260314192148-2b6742.png",
-      "url": "https://www.dino3d.com.ar/productos.php?q=GST-MOS",
-      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
-      "variants": [
-        {
-          "id": "GST-MOS",
-          "sku": "GST-MOS",
-          "price": 9990,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Mostaza",
-            "Pla"
-          ],
-          "image": "https://www.dino3d.com.ar/img/productos/Mostaza-20260314192148-2b6742.png"
-        }
-      ]
-    },
-    {
-      "id": "dino3d-GST-NAF",
-      "sourceProductId": "GST-NAF",
-      "store": "Dino 3D",
-      "domain": "dino3d.com.ar",
-      "name": "Nafta Super x 1 Kg",
-      "category": "Filamentos",
-      "price": 17000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Gst Black Edition",
-      "color": "Nafta Super",
-      "tags": [
-        "Gst Black Edition",
-        "Nafta Super",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://www.dino3d.com.ar/img/productos/GSTNAFTASUPER-20260314192223-10bd46.png",
-      "url": "https://www.dino3d.com.ar/productos.php?q=GST-NAF",
-      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
-      "variants": [
-        {
-          "id": "GST-NAF",
-          "sku": "GST-NAF",
-          "price": 17000,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Nafta Super",
-            "Pla"
-          ],
-          "image": "https://www.dino3d.com.ar/img/productos/GSTNAFTASUPER-20260314192223-10bd46.png"
-        }
-      ]
-    },
-    {
-      "id": "dino3d-GST-NAR-FLU",
-      "sourceProductId": "GST-NAR-FLU",
-      "store": "Dino 3D",
-      "domain": "dino3d.com.ar",
-      "name": "Naranja Fluo x 1 Kg",
-      "category": "Filamentos",
-      "price": 9990,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Gst Black Edition",
-      "color": "Naranja Fluo",
-      "tags": [
-        "Gst Black Edition",
-        "Naranja Fluo",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://www.dino3d.com.ar/img/productos/GSTFluoNARANJA-20260314192249-fcc269.png",
-      "url": "https://www.dino3d.com.ar/productos.php?q=GST-NAR-FLU",
-      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
-      "variants": [
-        {
-          "id": "GST-NAR-FLU",
-          "sku": "GST-NAR-FLU",
-          "price": 9990,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Naranja Fluo",
-            "Pla"
-          ],
-          "image": "https://www.dino3d.com.ar/img/productos/GSTFluoNARANJA-20260314192249-fcc269.png"
-        }
-      ]
-    },
-    {
       "id": "dino3d-FRE-NAR-FLU",
       "sourceProductId": "FRE-NAR-FLU",
       "store": "Dino 3D",
@@ -16878,47 +16609,6 @@
       ]
     },
     {
-      "id": "dino3d-GST-NAR",
-      "sourceProductId": "GST-NAR",
-      "store": "Dino 3D",
-      "domain": "dino3d.com.ar",
-      "name": "Naranja x 1 Kg",
-      "category": "Filamentos",
-      "price": 17000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Gst Black Edition",
-      "color": "Naranja",
-      "tags": [
-        "Gst Black Edition",
-        "Naranja",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://www.dino3d.com.ar/img/productos/GSTNARANJA-20260314191602-ef73da.png",
-      "url": "https://www.dino3d.com.ar/productos.php?q=GST-NAR",
-      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
-      "variants": [
-        {
-          "id": "GST-NAR",
-          "sku": "GST-NAR",
-          "price": 17000,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Naranja",
-            "Pla"
-          ],
-          "image": "https://www.dino3d.com.ar/img/productos/GSTNARANJA-20260314191602-ef73da.png"
-        }
-      ]
-    },
-    {
       "id": "dino3d-GST-LIT-NAR",
       "sourceProductId": "GST-LIT-NAR",
       "store": "Dino 3D",
@@ -16961,13 +16651,13 @@
       ]
     },
     {
-      "id": "dino3d-FAR-NEG-MAT",
-      "sourceProductId": "FAR-NEG-MAT",
+      "id": "dino3d-FIL-CRO-MAT-NAV",
+      "sourceProductId": "FIL-CRO-MAT-NAV",
       "store": "Dino 3D",
       "domain": "dino3d.com.ar",
-      "name": "Negro Mate x 1 Kg",
+      "name": "Navy Blue x 1 Kg",
       "category": "Filamentos",
-      "price": 23000,
+      "price": 20900,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -16975,40 +16665,41 @@
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
-      "brand": "FilAr",
-      "color": "Negro Mate",
+      "brand": "Filanova",
+      "color": "Azul Marino Mate",
       "tags": [
-        "FilAr",
-        "Negro Mate",
+        "Filanova",
+        "Azul Marino Mate",
+        "PLA HS",
         "PLA",
         "1kg"
       ],
-      "image": "https://www.dino3d.com.ar/img/productos/NegroMatefilar-20260430111517-4049db.webp",
-      "url": "https://www.dino3d.com.ar/productos.php?q=FAR-NEG-MAT",
+      "image": "https://www.dino3d.com.ar/img/productos/FNO-CHROMA-PLA-M-NAVY-BLUE-20261021134526-e68ea3.png",
+      "url": "https://www.dino3d.com.ar/productos.php?q=FIL-CRO-MAT-NAV",
       "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
       "variants": [
         {
-          "id": "FAR-NEG-MAT",
-          "sku": "FAR-NEG-MAT",
-          "price": 23000,
+          "id": "FIL-CRO-MAT-NAV",
+          "sku": "FIL-CRO-MAT-NAV",
+          "price": 20900,
           "stock": 0,
           "available": false,
           "options": [
-            "Negro Mate",
-            "Pla"
+            "Azul Marino Mate",
+            "Pla HS"
           ],
-          "image": "https://www.dino3d.com.ar/img/productos/NegroMatefilar-20260430111517-4049db.webp"
+          "image": "https://www.dino3d.com.ar/img/productos/FNO-CHROMA-PLA-M-NAVY-BLUE-20261021134526-e68ea3.png"
         }
       ]
     },
     {
-      "id": "dino3d-GST-NEG",
-      "sourceProductId": "GST-NEG",
+      "id": "dino3d-FRE-SIL-NEG",
+      "sourceProductId": "FRE-SIL-NEG",
       "store": "Dino 3D",
       "domain": "dino3d.com.ar",
-      "name": "Negro x 1 Kg",
+      "name": "Negro Silk x 1 Kg",
       "category": "Filamentos",
-      "price": 17000,
+      "price": 22500,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -17016,29 +16707,31 @@
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
-      "brand": "Gst Black Edition",
-      "color": "Negro",
+      "brand": "Fremover",
+      "color": "Negro Silk",
       "tags": [
-        "Gst Black Edition",
-        "Negro",
+        "Fremover",
+        "Negro Silk",
+        "PLA Silk",
         "PLA",
-        "1kg"
+        "1kg",
+        "Silk"
       ],
-      "image": "https://www.dino3d.com.ar/img/productos/GSTNEGRO-20260313160439-ff7040.png",
-      "url": "https://www.dino3d.com.ar/productos.php?q=GST-NEG",
+      "image": "https://www.dino3d.com.ar/img/productos/NegroSilk-20260404013007-1b0026.png",
+      "url": "https://www.dino3d.com.ar/productos.php?q=FRE-SIL-NEG",
       "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
       "variants": [
         {
-          "id": "GST-NEG",
-          "sku": "GST-NEG",
-          "price": 17000,
+          "id": "FRE-SIL-NEG",
+          "sku": "FRE-SIL-NEG",
+          "price": 22500,
           "stock": 0,
           "available": false,
           "options": [
-            "Negro",
-            "Pla"
+            "Negro Silk",
+            "Pla Silk"
           ],
-          "image": "https://www.dino3d.com.ar/img/productos/GSTNEGRO-20260313160439-ff7040.png"
+          "image": "https://www.dino3d.com.ar/img/productos/NegroSilk-20260404013007-1b0026.png"
         }
       ]
     },
@@ -18011,47 +17704,6 @@
       ]
     },
     {
-      "id": "dino3d-FAR-ROJ-MAT",
-      "sourceProductId": "FAR-ROJ-MAT",
-      "store": "Dino 3D",
-      "domain": "dino3d.com.ar",
-      "name": "Rojo Mate x 1 Kg",
-      "category": "Filamentos",
-      "price": 23000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "FilAr",
-      "color": "Rojo Mate",
-      "tags": [
-        "FilAr",
-        "Rojo Mate",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://www.dino3d.com.ar/img/productos/rojo-mate1-20260828134332-7231cd.webp",
-      "url": "https://www.dino3d.com.ar/productos.php?q=FAR-ROJ-MAT",
-      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
-      "variants": [
-        {
-          "id": "FAR-ROJ-MAT",
-          "sku": "FAR-ROJ-MAT",
-          "price": 23000,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Rojo Mate",
-            "Pla"
-          ],
-          "image": "https://www.dino3d.com.ar/img/productos/rojo-mate1-20260828134332-7231cd.webp"
-        }
-      ]
-    },
-    {
       "id": "dino3d-GST-ROJ-SIL",
       "sourceProductId": "GST-ROJ-SIL",
       "store": "Dino 3D",
@@ -18134,47 +17786,6 @@
             "Pla Silk"
           ],
           "image": "https://www.dino3d.com.ar/img/productos/PLA_High_Speed_SilkSilk_Red_71bf2d30-8772-46ca-8e09-547bce1b3cc6-20260529145753-6a6d93.webp"
-        }
-      ]
-    },
-    {
-      "id": "dino3d-GST-ROJ",
-      "sourceProductId": "GST-ROJ",
-      "store": "Dino 3D",
-      "domain": "dino3d.com.ar",
-      "name": "Rojo x 1 Kg",
-      "category": "Filamentos",
-      "price": 17000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Gst Black Edition",
-      "color": "Rojo",
-      "tags": [
-        "Gst Black Edition",
-        "Rojo",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://www.dino3d.com.ar/img/productos/GSTROJO-20260313165926-5d0431.png",
-      "url": "https://www.dino3d.com.ar/productos.php?q=GST-ROJ",
-      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
-      "variants": [
-        {
-          "id": "GST-ROJ",
-          "sku": "GST-ROJ",
-          "price": 17000,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Rojo",
-            "Pla"
-          ],
-          "image": "https://www.dino3d.com.ar/img/productos/GSTROJO-20260313165926-5d0431.png"
         }
       ]
     },
@@ -18510,89 +18121,6 @@
       ]
     },
     {
-      "id": "dino3d-GST-ROS-PAS",
-      "sourceProductId": "GST-ROS-PAS",
-      "store": "Dino 3D",
-      "domain": "dino3d.com.ar",
-      "name": "Rosa Pastel x 1 Kg",
-      "category": "Filamentos",
-      "price": 17000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Gst Black Edition",
-      "color": "Rosa Pastel",
-      "tags": [
-        "Gst Black Edition",
-        "Rosa Pastel",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://www.dino3d.com.ar/img/productos/GSTROSAPASTEL-20260314165325-4549eb.png",
-      "url": "https://www.dino3d.com.ar/productos.php?q=GST-ROS-PAS",
-      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
-      "variants": [
-        {
-          "id": "GST-ROS-PAS",
-          "sku": "GST-ROS-PAS",
-          "price": 17000,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Rosa Pastel",
-            "Pla"
-          ],
-          "image": "https://www.dino3d.com.ar/img/productos/GSTROSAPASTEL-20260314165325-4549eb.png"
-        }
-      ]
-    },
-    {
-      "id": "dino3d-HEL-R-ROS",
-      "sourceProductId": "HEL-R-ROS",
-      "store": "Dino 3D",
-      "domain": "dino3d.com.ar",
-      "name": "Rosa Recarga x 1 Kg",
-      "category": "Filamentos",
-      "price": 18900,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Hellbot",
-      "color": "Rosa",
-      "tags": [
-        "Hellbot",
-        "Rosa",
-        "PLA",
-        "1kg",
-        "Recarga"
-      ],
-      "image": "https://www.dino3d.com.ar/img/productos/RosaR-20260330010251-3f051a.png",
-      "url": "https://www.dino3d.com.ar/productos.php?q=HEL-R-ROS",
-      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
-      "variants": [
-        {
-          "id": "HEL-R-ROS",
-          "sku": "HEL-R-ROS",
-          "price": 18900,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Rosa",
-            "Pla"
-          ],
-          "image": "https://www.dino3d.com.ar/img/productos/RosaR-20260330010251-3f051a.png"
-        }
-      ]
-    },
-    {
       "id": "dino3d-GST-ROS-SIL",
       "sourceProductId": "GST-ROS-SIL",
       "store": "Dino 3D",
@@ -18632,47 +18160,6 @@
             "Pla Silk"
           ],
           "image": "https://www.dino3d.com.ar/img/productos/rosasilk-20260424233546-4f3cf4.png"
-        }
-      ]
-    },
-    {
-      "id": "dino3d-GST-ROS",
-      "sourceProductId": "GST-ROS",
-      "store": "Dino 3D",
-      "domain": "dino3d.com.ar",
-      "name": "Rosa x 1 Kg",
-      "category": "Filamentos",
-      "price": 17000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Gst Black Edition",
-      "color": "Rosa",
-      "tags": [
-        "Gst Black Edition",
-        "Rosa",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://www.dino3d.com.ar/img/productos/GSTROSA-20260313170042-292b62.png",
-      "url": "https://www.dino3d.com.ar/productos.php?q=GST-ROS",
-      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
-      "variants": [
-        {
-          "id": "GST-ROS",
-          "sku": "GST-ROS",
-          "price": 17000,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Rosa",
-            "Pla"
-          ],
-          "image": "https://www.dino3d.com.ar/img/productos/GSTROSA-20260313170042-292b62.png"
         }
       ]
     },
@@ -18803,6 +18290,48 @@
       ]
     },
     {
+      "id": "dino3d-FIL-CRO-MAT-RUB",
+      "sourceProductId": "FIL-CRO-MAT-RUB",
+      "store": "Dino 3D",
+      "domain": "dino3d.com.ar",
+      "name": "Ruby Red x 1 Kg",
+      "category": "Filamentos",
+      "price": 20900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Filanova",
+      "color": "Rojo Rubi Mate",
+      "tags": [
+        "Filanova",
+        "Rojo Rubi Mate",
+        "PLA HS",
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://www.dino3d.com.ar/img/productos/FNO-CHROMA-PLA-M-RUBY-RED-1-20261021134643-46b013.png",
+      "url": "https://www.dino3d.com.ar/productos.php?q=FIL-CRO-MAT-RUB",
+      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
+      "variants": [
+        {
+          "id": "FIL-CRO-MAT-RUB",
+          "sku": "FIL-CRO-MAT-RUB",
+          "price": 20900,
+          "stock": 0,
+          "available": false,
+          "options": [
+            "Rojo Rubi Mate",
+            "Pla HS"
+          ],
+          "image": "https://www.dino3d.com.ar/img/productos/FNO-CHROMA-PLA-M-RUBY-RED-1-20261021134643-46b013.png"
+        }
+      ]
+    },
+    {
       "id": "dino3d-GST-LIT-SCA",
       "sourceProductId": "GST-LIT-SCA",
       "store": "Dino 3D",
@@ -18884,6 +18413,48 @@
             "Pla Silk"
           ],
           "image": "https://www.dino3d.com.ar/img/productos/PLA_High_Speed_SilkSilk_Silver_090a52f4-88a6-4b57-9349-e908f1ffbd9b-20260604155302-42228b.webp"
+        }
+      ]
+    },
+    {
+      "id": "dino3d-FIL-CRO-MAT-PIE",
+      "sourceProductId": "FIL-CRO-MAT-PIE",
+      "store": "Dino 3D",
+      "domain": "dino3d.com.ar",
+      "name": "Skin x 1 Kg",
+      "category": "Filamentos",
+      "price": 20900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Filanova",
+      "color": "Piel Mate",
+      "tags": [
+        "Filanova",
+        "Piel Mate",
+        "PLA HS",
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://www.dino3d.com.ar/img/productos/FNO-CHROMA-PLA-M-SKIN-20261021134229-c9fbea.png",
+      "url": "https://www.dino3d.com.ar/productos.php?q=FIL-CRO-MAT-PIE",
+      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
+      "variants": [
+        {
+          "id": "FIL-CRO-MAT-PIE",
+          "sku": "FIL-CRO-MAT-PIE",
+          "price": 20900,
+          "stock": 0,
+          "available": false,
+          "options": [
+            "Piel Mate",
+            "Pla HS"
+          ],
+          "image": "https://www.dino3d.com.ar/img/productos/FNO-CHROMA-PLA-M-SKIN-20261021134229-c9fbea.png"
         }
       ]
     },
@@ -19304,47 +18875,6 @@
       ]
     },
     {
-      "id": "dino3d-HEL-VER-CLA",
-      "sourceProductId": "HEL-VER-CLA",
-      "store": "Dino 3D",
-      "domain": "dino3d.com.ar",
-      "name": "Verde Claro x 1 Kg",
-      "category": "Filamentos",
-      "price": 20900,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Hellbot",
-      "color": "Verde Claro",
-      "tags": [
-        "Hellbot",
-        "Verde Claro",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://www.dino3d.com.ar/img/productos/VerdeClara-20260329123256-48abe6.png",
-      "url": "https://www.dino3d.com.ar/productos.php?q=HEL-VER-CLA",
-      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
-      "variants": [
-        {
-          "id": "HEL-VER-CLA",
-          "sku": "HEL-VER-CLA",
-          "price": 20900,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Verde Claro",
-            "Pla"
-          ],
-          "image": "https://www.dino3d.com.ar/img/productos/VerdeClara-20260329123256-48abe6.png"
-        }
-      ]
-    },
-    {
       "id": "dino3d-FAR-VER",
       "sourceProductId": "FAR-VER",
       "store": "Dino 3D",
@@ -19429,88 +18959,6 @@
       ]
     },
     {
-      "id": "dino3d-HEL-VER-FLU",
-      "sourceProductId": "HEL-VER-FLU",
-      "store": "Dino 3D",
-      "domain": "dino3d.com.ar",
-      "name": "Verde Fluo x 1 Kg",
-      "category": "Filamentos",
-      "price": 20900,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Hellbot",
-      "color": "Verde Fluo",
-      "tags": [
-        "Hellbot",
-        "Verde Fluo",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://www.dino3d.com.ar/img/productos/verde-fluohell-20260524150333-5c2cd3.png",
-      "url": "https://www.dino3d.com.ar/productos.php?q=HEL-VER-FLU",
-      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
-      "variants": [
-        {
-          "id": "HEL-VER-FLU",
-          "sku": "HEL-VER-FLU",
-          "price": 20900,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Verde Fluo",
-            "Pla"
-          ],
-          "image": "https://www.dino3d.com.ar/img/productos/verde-fluohell-20260524150333-5c2cd3.png"
-        }
-      ]
-    },
-    {
-      "id": "dino3d-GST-VER-MAN",
-      "sourceProductId": "GST-VER-MAN",
-      "store": "Dino 3D",
-      "domain": "dino3d.com.ar",
-      "name": "Verde Manzana x 1 Kg",
-      "category": "Filamentos",
-      "price": 17000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Gst Black Edition",
-      "color": "Verde Manzana",
-      "tags": [
-        "Gst Black Edition",
-        "Verde Manzana",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://www.dino3d.com.ar/img/productos/GSTVERDEMANZANA-20260313224939-32aa16.png",
-      "url": "https://www.dino3d.com.ar/productos.php?q=GST-VER-MAN",
-      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
-      "variants": [
-        {
-          "id": "GST-VER-MAN",
-          "sku": "GST-VER-MAN",
-          "price": 17000,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Verde Manzana",
-            "Pla"
-          ],
-          "image": "https://www.dino3d.com.ar/img/productos/GSTVERDEMANZANA-20260313224939-32aa16.png"
-        }
-      ]
-    },
-    {
       "id": "dino3d-FIL-VER-MAN",
       "sourceProductId": "FIL-VER-MAN",
       "store": "Dino 3D",
@@ -19548,88 +18996,6 @@
             "Pla"
           ],
           "image": "https://www.dino3d.com.ar/img/productos/VerdeManzana-20260404184816-65cf1e.png"
-        }
-      ]
-    },
-    {
-      "id": "dino3d-GST-VER-MIL",
-      "sourceProductId": "GST-VER-MIL",
-      "store": "Dino 3D",
-      "domain": "dino3d.com.ar",
-      "name": "Verde Militar X 1 Kg",
-      "category": "Filamentos",
-      "price": 17000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Gst Black Edition",
-      "color": "Verde Militar",
-      "tags": [
-        "Gst Black Edition",
-        "Verde Militar",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://www.dino3d.com.ar/img/productos/GSTVERDEMILITAR-20260313224930-e95d35.png",
-      "url": "https://www.dino3d.com.ar/productos.php?q=GST-VER-MIL",
-      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
-      "variants": [
-        {
-          "id": "GST-VER-MIL",
-          "sku": "GST-VER-MIL",
-          "price": 17000,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Verde Militar",
-            "Pla"
-          ],
-          "image": "https://www.dino3d.com.ar/img/productos/GSTVERDEMILITAR-20260313224930-e95d35.png"
-        }
-      ]
-    },
-    {
-      "id": "dino3d-GST-VER-PAS",
-      "sourceProductId": "GST-VER-PAS",
-      "store": "Dino 3D",
-      "domain": "dino3d.com.ar",
-      "name": "Verde Pastel x 1 Kg",
-      "category": "Filamentos",
-      "price": 17000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Gst Black Edition",
-      "color": "Verde Pastel",
-      "tags": [
-        "Gst Black Edition",
-        "Verde Pastel",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://www.dino3d.com.ar/img/productos/GSTVERDEPASTEL2-20260314165259-279d3c.png",
-      "url": "https://www.dino3d.com.ar/productos.php?q=GST-VER-PAS",
-      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
-      "variants": [
-        {
-          "id": "GST-VER-PAS",
-          "sku": "GST-VER-PAS",
-          "price": 17000,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Verde Pastel",
-            "Pla"
-          ],
-          "image": "https://www.dino3d.com.ar/img/productos/GSTVERDEPASTEL2-20260314165259-279d3c.png"
         }
       ]
     },
@@ -19712,88 +19078,6 @@
             "Pla"
           ],
           "image": "https://www.dino3d.com.ar/img/productos/bf4834b2-a22a-4274-b677-569163c5d328-20260706125646-437001.png"
-        }
-      ]
-    },
-    {
-      "id": "dino3d-GST-VIO-PAS",
-      "sourceProductId": "GST-VIO-PAS",
-      "store": "Dino 3D",
-      "domain": "dino3d.com.ar",
-      "name": "Violeta Pastel x 1 Kg",
-      "category": "Filamentos",
-      "price": 17000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Gst Black Edition",
-      "color": "Violeta Pastel",
-      "tags": [
-        "Gst Black Edition",
-        "Violeta Pastel",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://www.dino3d.com.ar/img/productos/GSTVIOLETAPASTEL-20260313224837-a60d4c.png",
-      "url": "https://www.dino3d.com.ar/productos.php?q=GST-VIO-PAS",
-      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
-      "variants": [
-        {
-          "id": "GST-VIO-PAS",
-          "sku": "GST-VIO-PAS",
-          "price": 17000,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Violeta Pastel",
-            "Pla"
-          ],
-          "image": "https://www.dino3d.com.ar/img/productos/GSTVIOLETAPASTEL-20260313224837-a60d4c.png"
-        }
-      ]
-    },
-    {
-      "id": "dino3d-GST-VIO",
-      "sourceProductId": "GST-VIO",
-      "store": "Dino 3D",
-      "domain": "dino3d.com.ar",
-      "name": "Violeta x 1 Kg",
-      "category": "Filamentos",
-      "price": 17000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Gst Black Edition",
-      "color": "Violeta",
-      "tags": [
-        "Gst Black Edition",
-        "Violeta",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://www.dino3d.com.ar/img/productos/GSTVIOLETA-20260313224845-e78f1f.png",
-      "url": "https://www.dino3d.com.ar/productos.php?q=GST-VIO",
-      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
-      "variants": [
-        {
-          "id": "GST-VIO",
-          "sku": "GST-VIO",
-          "price": 17000,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Violeta",
-            "Pla"
-          ],
-          "image": "https://www.dino3d.com.ar/img/productos/GSTVIOLETA-20260313224845-e78f1f.png"
         }
       ]
     },
@@ -20088,47 +19372,6 @@
       ]
     },
     {
-      "id": "dino3d-PET-CRE-AZU-TRA",
-      "sourceProductId": "PET-CRE-AZU-TRA",
-      "store": "Dino 3D",
-      "domain": "dino3d.com.ar",
-      "name": "Petg Azul Transparente x 1 Kg",
-      "category": "Filamentos",
-      "price": 19900,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Creality",
-      "color": "Azul Transparente",
-      "tags": [
-        "Creality",
-        "Azul Transparente",
-        "PETG",
-        "1kg"
-      ],
-      "image": "https://www.dino3d.com.ar/img/productos/filamento-creality-cr-petg-1kg-175mm-20260702205041-bb38ef.jpeg",
-      "url": "https://www.dino3d.com.ar/productos.php?q=PET-CRE-AZU-TRA",
-      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
-      "variants": [
-        {
-          "id": "PET-CRE-AZU-TRA",
-          "sku": "PET-CRE-AZU-TRA",
-          "price": 19900,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Azul Transparente",
-            "Petg"
-          ],
-          "image": "https://www.dino3d.com.ar/img/productos/filamento-creality-cr-petg-1kg-175mm-20260702205041-bb38ef.jpeg"
-        }
-      ]
-    },
-    {
       "id": "dino3d-PET-FRE-BLA",
       "sourceProductId": "PET-FRE-BLA",
       "store": "Dino 3D",
@@ -20330,47 +19573,6 @@
             "Petg"
           ],
           "image": "https://www.dino3d.com.ar/img/productos/BlancoPetg-20260405024345-02f9c0.png"
-        }
-      ]
-    },
-    {
-      "id": "dino3d-PET-CRE-SOL-BLA",
-      "sourceProductId": "PET-CRE-SOL-BLA",
-      "store": "Dino 3D",
-      "domain": "dino3d.com.ar",
-      "name": "Petg Blanco x 1 Kg",
-      "category": "Filamentos",
-      "price": 19900,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Creality Soleyin",
-      "color": "Blanco",
-      "tags": [
-        "Creality Soleyin",
-        "Blanco",
-        "PETG",
-        "1kg"
-      ],
-      "image": "https://www.dino3d.com.ar/img/productos/soleyinblanco-20260819175832-a51aa8.webp",
-      "url": "https://www.dino3d.com.ar/productos.php?q=PET-CRE-SOL-BLA",
-      "scrapedFrom": "https://www.dino3d.com.ar/productos.php?por_pagina=Todos",
-      "variants": [
-        {
-          "id": "PET-CRE-SOL-BLA",
-          "sku": "PET-CRE-SOL-BLA",
-          "price": 19900,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Blanco",
-            "Petg"
-          ],
-          "image": "https://www.dino3d.com.ar/img/productos/soleyinblanco-20260819175832-a51aa8.webp"
         }
       ]
     },

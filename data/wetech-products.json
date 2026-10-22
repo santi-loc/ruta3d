@@ -5,15 +5,15 @@
     "baseUrl": "https://shop.wetech.ar",
     "listingPath": "/products"
   },
-  "scrapedAt": "2026-10-21T13:36:38.055Z",
-  "count": 292,
+  "scrapedAt": "2026-10-22T13:38:16.686Z",
+  "count": 291,
   "pages": [
     {
       "page": 1,
       "path": "/stk-item/catalogo",
       "url": "https://back.wetech.ar/stk-item/catalogo",
       "found": 619,
-      "added": 292
+      "added": 291
     }
   ],
   "products": [
@@ -22,7 +22,7 @@
       "sourceProductId": "3N3-EPET-ESTÁNDAR-NACIONAL",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "3n3 ePET Estándar",
+      "name": "3n3 EPET",
       "category": "Filamentos",
       "price": 23528,
       "currency": "ARS",
@@ -123,7 +123,7 @@
       "sourceProductId": "3N3-PETG-ESTÁNDAR-NACIONAL",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "3n3 PetG Estándar",
+      "name": "3n3 PETG",
       "category": "Filamentos",
       "price": 23528,
       "currency": "ARS",
@@ -224,13 +224,13 @@
       "sourceProductId": "3N3-PLA-ESTÁNDAR-NACIONAL",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "3n3 PLA Estándar",
+      "name": "3n3 PLA",
       "category": "Filamentos",
       "price": 15058,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 12799.3,
-      "stock": 423,
+      "stock": 412,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3n3",
@@ -650,13 +650,13 @@
       "sourceProductId": "3N3-PLA SILK-ESTÁNDAR-NACIONAL",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "3n3 PLA Silk Estándar",
+      "name": "3n3 PLA SILK",
       "category": "Filamentos",
       "price": 30587,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 25998.95,
-      "stock": 54,
+      "stock": 53,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3n3",
@@ -739,13 +739,13 @@
       "sourceProductId": "3N3-TPU-ESTÁNDAR-NACIONAL",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "3n3 TPU Estándar",
+      "name": "3n3 TPU",
       "category": "Filamentos",
       "price": 27058,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 22999.3,
-      "stock": 46,
+      "stock": 45,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3n3",
@@ -913,7 +913,7 @@
       "sourceProductId": "3NFLEX-PLA+ FLEX-ESTÁNDAR-NACIONAL",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "3nFlex PLA+ Flex Estándar",
+      "name": "3nFlex PLA+ FLEX",
       "category": "Filamentos",
       "price": 30587,
       "currency": "ARS",
@@ -1098,13 +1098,13 @@
       "sourceProductId": "3NMAX-PLA+ MATTE-ESTÁNDAR-NACIONAL",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "3nMax PLA+ Matte Estándar",
+      "name": "3nMax PLA+",
       "category": "Filamentos",
       "price": 19999,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 16999.15,
-      "stock": 257,
+      "stock": 234,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3nMax",
@@ -1231,7 +1231,7 @@
         },
         {
           "id": "3X-PLA-1KG-NEGR",
-          "available": true,
+          "available": false,
           "price": 24705,
           "options": [
             "Negro",
@@ -1578,7 +1578,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 9901.8,
-      "stock": 16,
+      "stock": 15,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -3315,7 +3315,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 5609.12,
-      "stock": 215,
+      "stock": 214,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -3513,7 +3513,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 6026.9,
-      "stock": 10,
+      "stock": 9,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -5132,208 +5132,11 @@
       ]
     },
     {
-      "id": "wetech-elegoo-pla-matte-premium-importado",
-      "sourceProductId": "ELEGOO-PLA MATTE-PREMIUM-IMPORTADO",
-      "store": "WeTech",
-      "domain": "shop.wetech.ar",
-      "name": "Elegoo PLA Matte Premium",
-      "category": "Filamentos",
-      "price": 32940,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 27999,
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Elegoo",
-      "tags": [
-        "Elegoo",
-        "PLA Matte",
-        "Premium",
-        "Importado",
-        "Filamentos PLA",
-        "1kg"
-      ],
-      "image": "https://ik.imagekit.io/8x5mvqkfl0/ELEGOO/PLA%20MATTE/PLA%201KG%20MATTE%20AMARILLO%20RAYO%20DE%20SOL_Mesa%20de%20trabajo%201.png?updatedAt=1780589643847",
-      "url": "https://shop.wetech.ar/product/ELEGOO-PLA%20MATTE-PREMIUM-IMPORTADO",
-      "scrapedFrom": "https://shop.wetech.ar/products",
-      "variants": [
-        {
-          "id": "EG-PLAM-1KG-AMSO",
-          "available": false,
-          "price": 32940,
-          "options": [
-            "Amarillo Soleado",
-            "1kg",
-            "PLA Matte",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "EG-PLAM-1KG-AZMA",
-          "available": false,
-          "price": 32940,
-          "options": [
-            "Azul Marino",
-            "1kg",
-            "PLA Matte",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "EG-PLAM-1KG-BLAN",
-          "available": false,
-          "price": 32940,
-          "options": [
-            "Blanco",
-            "1kg",
-            "PLA Matte",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "EG-PLAM-1KG-CEHI",
-          "available": false,
-          "price": 32940,
-          "options": [
-            "Celeste Hielo",
-            "1kg",
-            "PLA Matte",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "EG-PLAM-1KG-GRPI",
-          "available": false,
-          "price": 32940,
-          "options": [
-            "Gris Pizarra",
-            "1kg",
-            "PLA Matte",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "EG-PLAM-1KG-BEIG",
-          "available": false,
-          "price": 32940,
-          "options": [
-            "Beige",
-            "1kg",
-            "PLA Matte",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "EG-PLAM-1KG-MATI",
-          "available": false,
-          "price": 32940,
-          "options": [
-            "Marron Tierra",
-            "1kg",
-            "PLA Matte",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "EG-PLAM-1KG-NARA",
-          "available": false,
-          "price": 32940,
-          "options": [
-            "Naranja",
-            "1kg",
-            "PLA Matte",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "EG-PLAM-1KG-NEGR",
-          "available": false,
-          "price": 32940,
-          "options": [
-            "Negro",
-            "1kg",
-            "PLA Matte",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "EG-PLAM-1KG-RORU",
-          "available": false,
-          "price": 32940,
-          "options": [
-            "Rubi",
-            "1kg",
-            "PLA Matte",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "EG-PLAM-1KG-ROSA",
-          "available": false,
-          "price": 32940,
-          "options": [
-            "Rosa Sakura",
-            "1kg",
-            "PLA Matte",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "EG-PLAM-1KG-VEAZ",
-          "available": false,
-          "price": 32940,
-          "options": [
-            "Verde Azulado Teal",
-            "1kg",
-            "PLA Matte",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "EG-PLAM-1KG-VEME",
-          "available": false,
-          "price": 32940,
-          "options": [
-            "Menta",
-            "1kg",
-            "PLA Matte",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "EG-PLAM-1KG-VILA",
-          "available": false,
-          "price": 32940,
-          "options": [
-            "Violeta Lavanda",
-            "1kg",
-            "PLA Matte",
-            "Premium",
-            "Importado"
-          ]
-        }
-      ]
-    },
-    {
       "id": "wetech-elegoo-pla-premium-importado",
       "sourceProductId": "ELEGOO-PLA-PREMIUM-IMPORTADO",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Elegoo PLA Premium",
+      "name": "Elegoo PLA",
       "category": "Filamentos",
       "price": 29999,
       "currency": "ARS",
@@ -5615,6 +5418,203 @@
             "Violeta",
             "1kg",
             "PLA",
+            "Premium",
+            "Importado"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wetech-elegoo-pla-matte-premium-importado",
+      "sourceProductId": "ELEGOO-PLA MATTE-PREMIUM-IMPORTADO",
+      "store": "WeTech",
+      "domain": "shop.wetech.ar",
+      "name": "Elegoo PLA",
+      "category": "Filamentos",
+      "price": 32940,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 27999,
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Elegoo",
+      "tags": [
+        "Elegoo",
+        "PLA Matte",
+        "Premium",
+        "Importado",
+        "Filamentos PLA",
+        "1kg"
+      ],
+      "image": "https://ik.imagekit.io/8x5mvqkfl0/ELEGOO/PLA%20MATTE/PLA%201KG%20MATTE%20AMARILLO%20RAYO%20DE%20SOL_Mesa%20de%20trabajo%201.png?updatedAt=1780589643847",
+      "url": "https://shop.wetech.ar/product/ELEGOO-PLA%20MATTE-PREMIUM-IMPORTADO",
+      "scrapedFrom": "https://shop.wetech.ar/products",
+      "variants": [
+        {
+          "id": "EG-PLAM-1KG-AMSO",
+          "available": false,
+          "price": 32940,
+          "options": [
+            "Amarillo Soleado",
+            "1kg",
+            "PLA Matte",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "EG-PLAM-1KG-AZMA",
+          "available": false,
+          "price": 32940,
+          "options": [
+            "Azul Marino",
+            "1kg",
+            "PLA Matte",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "EG-PLAM-1KG-BLAN",
+          "available": false,
+          "price": 32940,
+          "options": [
+            "Blanco",
+            "1kg",
+            "PLA Matte",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "EG-PLAM-1KG-CEHI",
+          "available": false,
+          "price": 32940,
+          "options": [
+            "Celeste Hielo",
+            "1kg",
+            "PLA Matte",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "EG-PLAM-1KG-GRPI",
+          "available": false,
+          "price": 32940,
+          "options": [
+            "Gris Pizarra",
+            "1kg",
+            "PLA Matte",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "EG-PLAM-1KG-BEIG",
+          "available": false,
+          "price": 32940,
+          "options": [
+            "Beige",
+            "1kg",
+            "PLA Matte",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "EG-PLAM-1KG-MATI",
+          "available": false,
+          "price": 32940,
+          "options": [
+            "Marron Tierra",
+            "1kg",
+            "PLA Matte",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "EG-PLAM-1KG-NARA",
+          "available": false,
+          "price": 32940,
+          "options": [
+            "Naranja",
+            "1kg",
+            "PLA Matte",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "EG-PLAM-1KG-NEGR",
+          "available": false,
+          "price": 32940,
+          "options": [
+            "Negro",
+            "1kg",
+            "PLA Matte",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "EG-PLAM-1KG-RORU",
+          "available": false,
+          "price": 32940,
+          "options": [
+            "Rubi",
+            "1kg",
+            "PLA Matte",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "EG-PLAM-1KG-ROSA",
+          "available": false,
+          "price": 32940,
+          "options": [
+            "Rosa Sakura",
+            "1kg",
+            "PLA Matte",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "EG-PLAM-1KG-VEAZ",
+          "available": false,
+          "price": 32940,
+          "options": [
+            "Verde Azulado Teal",
+            "1kg",
+            "PLA Matte",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "EG-PLAM-1KG-VEME",
+          "available": false,
+          "price": 32940,
+          "options": [
+            "Menta",
+            "1kg",
+            "PLA Matte",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "EG-PLAM-1KG-VILA",
+          "available": false,
+          "price": 32940,
+          "options": [
+            "Violeta Lavanda",
+            "1kg",
+            "PLA Matte",
             "Premium",
             "Importado"
           ]
@@ -6526,7 +6526,7 @@
       "sourceProductId": "FLASHFORGE-ABS FIBRA DE VIDRIO-PREMIUM-IMPORTADO",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "FlashForge ABS Fibra de Vidrio Premium",
+      "name": "FlashForge ABS+ FIBRA DE VIDRIO",
       "category": "Filamentos",
       "price": 58822,
       "currency": "ARS",
@@ -6567,7 +6567,7 @@
       "sourceProductId": "FLASHFORGE-PLA LW-PREMIUM-IMPORTADO",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "FlashForge PLA LW Premium",
+      "name": "FlashForge PLA+ BAJO PESO",
       "category": "Filamentos",
       "price": 41175,
       "currency": "ARS",
@@ -6608,7 +6608,7 @@
       "sourceProductId": "FREMOVER-HIGH SPEED PETG FIBRA CARBONO-PREMIUM-IMPORTADO",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Fremover High Speed PetG Fibra Carbono Premium",
+      "name": "Fremover PETG+ FIBRA DE CARBONO",
       "category": "Filamentos",
       "price": 42352,
       "currency": "ARS",
@@ -6649,7 +6649,7 @@
       "sourceProductId": "FREMOVER-HIGH SPEED PETG FIBRA VIDRIO-PREMIUM-IMPORTADO",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Fremover High Speed PetG Fibra Vidrio Premium",
+      "name": "Fremover PETG+ FIBRA DE VIDRIO",
       "category": "Filamentos",
       "price": 54705,
       "currency": "ARS",
@@ -6686,345 +6686,11 @@
       ]
     },
     {
-      "id": "wetech-fremover-high-speed-pla-art-premium-importado",
-      "sourceProductId": "FREMOVER-HIGH SPEED PLA ART-PREMIUM-IMPORTADO",
-      "store": "WeTech",
-      "domain": "shop.wetech.ar",
-      "name": "Fremover High Speed PLA Art Premium",
-      "category": "Filamentos",
-      "price": 28234,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 23998.9,
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Fremover",
-      "tags": [
-        "Fremover",
-        "High Speed PLA Art",
-        "Premium",
-        "Importado",
-        "Filamentos PLA",
-        "1kg"
-      ],
-      "image": "https://ik.imagekit.io/8x5mvqkfl0/FREMOVER/PLA+%20ART/PLA+%20ART%201KG%20FROSTY%20DESERT%20YELLOW_Mesa%20de%20trabajo%201.png?updatedAt=1779218347044",
-      "url": "https://shop.wetech.ar/product/FREMOVER-HIGH%20SPEED%20PLA%20ART-PREMIUM-IMPORTADO",
-      "scrapedFrom": "https://shop.wetech.ar/products",
-      "variants": [
-        {
-          "id": "FM-PLAA-1KG-FDYE",
-          "available": false,
-          "price": 28234,
-          "options": [
-            "Amarillo Desierto Helado",
-            "1kg",
-            "High Speed PLA Art",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "FM-PLAA-1KG-DUYE",
-          "available": false,
-          "price": 28234,
-          "options": [
-            "Amarillo Edredon Mostaza",
-            "1kg",
-            "High Speed PLA Art",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "FM-PLAA-1KG-WHOA",
-          "available": false,
-          "price": 28234,
-          "options": [
-            "Amarillo Roble Blanco",
-            "1kg",
-            "High Speed PLA Art",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "FM-PLAA-1KG-DECY",
-          "available": false,
-          "price": 28234,
-          "options": [
-            "Cian Profundo",
-            "1kg",
-            "High Speed PLA Art",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "FM-PLAA-1KG-DAGRE",
-          "available": false,
-          "price": 28234,
-          "options": [
-            "Gris Oscuro",
-            "1kg",
-            "High Speed PLA Art",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "FM-PLAA-1KG-DOGR",
-          "available": false,
-          "price": 28234,
-          "options": [
-            "Gris Paloma",
-            "1kg",
-            "High Speed PLA Art",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "FM-PLAA-1KG-MAHO",
-          "available": false,
-          "price": 28234,
-          "options": [
-            "Caoba Mahogany",
-            "1kg",
-            "High Speed PLA Art",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "FM-PLAA-1KG-CHOC",
-          "available": false,
-          "price": 28234,
-          "options": [
-            "Chocolate",
-            "1kg",
-            "High Speed PLA Art",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "FM-PLAA-1KG-EBON",
-          "available": false,
-          "price": 28234,
-          "options": [
-            "Marron Ebano",
-            "1kg",
-            "High Speed PLA Art",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "FM-PLAA-1KG-FAWO",
-          "available": false,
-          "price": 28234,
-          "options": [
-            "Madera Falsa",
-            "1kg",
-            "High Speed PLA Art",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "FM-PLAA-1KG-OCHR",
-          "available": false,
-          "price": 28234,
-          "options": [
-            "Ocre",
-            "1kg",
-            "High Speed PLA Art",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "FM-PLAA-1KG-SKIN",
-          "available": false,
-          "price": 28234,
-          "options": [
-            "Piel",
-            "1kg",
-            "High Speed PLA Art",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "FM-PLAA-1KG-PURE",
-          "available": false,
-          "price": 28234,
-          "options": [
-            "Rojo Purpura",
-            "1kg",
-            "High Speed PLA Art",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "FM-PLAA-1KG-APPO",
-          "available": false,
-          "price": 28234,
-          "options": [
-            "Rosa Polen de Damasco",
-            "1kg",
-            "High Speed PLA Art",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "FM-PLAA-1KG-GRGR",
-          "available": false,
-          "price": 28234,
-          "options": [
-            "Verde Azul Grisaceo",
-            "1kg",
-            "High Speed PLA Art",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "FM-PLAA-1KG-DAGR",
-          "available": false,
-          "price": 28234,
-          "options": [
-            "Verde Oscuro",
-            "1kg",
-            "High Speed PLA Art",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "FM-PLAA-1KG-PIGR",
-          "available": false,
-          "price": 28234,
-          "options": [
-            "Verde Pino",
-            "1kg",
-            "High Speed PLA Art",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "FM-PLAA-1KG-TUBL",
-          "available": false,
-          "price": 28234,
-          "options": [
-            "Verde Turquesa",
-            "1kg",
-            "High Speed PLA Art",
-            "Premium",
-            "Importado"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "wetech-fremover-high-speed-pla-glow-premium-importado",
-      "sourceProductId": "FREMOVER-HIGH SPEED PLA GLOW-PREMIUM-IMPORTADO",
-      "store": "WeTech",
-      "domain": "shop.wetech.ar",
-      "name": "Fremover High Speed PLA Glow Premium",
-      "category": "Filamentos",
-      "price": 35293,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 29999.05,
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Fremover",
-      "tags": [
-        "Fremover",
-        "High Speed PLA Glow",
-        "Premium",
-        "Importado",
-        "Filamentos PLA",
-        "1kg"
-      ],
-      "image": "https://ik.imagekit.io/8x5mvqkfl0/FREMOVER/ULTRA%20GLOW/PLA+%201KG%20ULTRA%20GLOW%20MYSTERY%20BLUE_Mesa%20de%20trabajo%201%20copia.png?updatedAt=1779218356625",
-      "url": "https://shop.wetech.ar/product/FREMOVER-HIGH%20SPEED%20PLA%20GLOW-PREMIUM-IMPORTADO",
-      "scrapedFrom": "https://shop.wetech.ar/products",
-      "variants": [
-        {
-          "id": "FM-GLO-1KG-AZMI",
-          "available": false,
-          "price": 35293,
-          "options": [
-            "Azul Misterio",
-            "1kg",
-            "High Speed PLA Glow",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "FM-GLO-1KG-AZCI",
-          "available": false,
-          "price": 35293,
-          "options": [
-            "Celeste Cielo",
-            "1kg",
-            "High Speed PLA Glow",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "FM-GLO-1KG-MULT",
-          "available": false,
-          "price": 35293,
-          "options": [
-            "Multicolor",
-            "1kg",
-            "High Speed PLA Glow",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "FM-GLO-1KG-VEMI",
-          "available": false,
-          "price": 35293,
-          "options": [
-            "Verde Neon Misterio",
-            "1kg",
-            "High Speed PLA Glow",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "FM-GLO-1KG-TURQ",
-          "available": false,
-          "price": 35293,
-          "options": [
-            "Verde Turquesa",
-            "1kg",
-            "High Speed PLA Glow",
-            "Premium",
-            "Importado"
-          ]
-        }
-      ]
-    },
-    {
       "id": "wetech-fremover-high-speed-pla-matte-premium-importado",
       "sourceProductId": "FREMOVER-HIGH SPEED PLA MATTE-PREMIUM-IMPORTADO",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Fremover High Speed PLA Matte Premium",
+      "name": "Fremover PLA",
       "category": "Filamentos",
       "price": 29411,
       "currency": "ARS",
@@ -7161,7 +6827,7 @@
       "sourceProductId": "FREMOVER-PLA SILK RAINBOW-PREMIUM-IMPORTADO",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Fremover PLA Silk Rainbow Premium",
+      "name": "Fremover PLA",
       "category": "Filamentos",
       "price": 45293,
       "currency": "ARS",
@@ -7222,52 +6888,261 @@
       ]
     },
     {
-      "id": "wetech-fremover-pla-wood-premium-importado",
-      "sourceProductId": "FREMOVER-PLA WOOD-PREMIUM-IMPORTADO",
+      "id": "wetech-fremover-high-speed-pla-glow-premium-importado",
+      "sourceProductId": "FREMOVER-HIGH SPEED PLA GLOW-PREMIUM-IMPORTADO",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Fremover PLA WOOD Premium",
+      "name": "Fremover PLA GLOW",
       "category": "Filamentos",
-      "price": 52940,
+      "price": 35293,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 44999,
+      "transferPrice": 29999.05,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
       "brand": "Fremover",
       "tags": [
         "Fremover",
-        "PLA WOOD",
+        "High Speed PLA Glow",
         "Premium",
         "Importado",
         "Filamentos PLA",
         "1kg"
       ],
-      "image": "https://ik.imagekit.io/8x5mvqkfl0/FREMOVER/WOOD/PLA+%201KG%20WOOD_Mesa%20de%20trabajo%201%20copia.png?updatedAt=1779218357881",
-      "url": "https://shop.wetech.ar/product/FREMOVER-PLA%20WOOD-PREMIUM-IMPORTADO",
+      "image": "https://ik.imagekit.io/8x5mvqkfl0/FREMOVER/ULTRA%20GLOW/PLA+%201KG%20ULTRA%20GLOW%20MYSTERY%20BLUE_Mesa%20de%20trabajo%201%20copia.png?updatedAt=1779218356625",
+      "url": "https://shop.wetech.ar/product/FREMOVER-HIGH%20SPEED%20PLA%20GLOW-PREMIUM-IMPORTADO",
       "scrapedFrom": "https://shop.wetech.ar/products",
       "variants": [
         {
-          "id": "FM-PLAWOOD-1KG-MADE",
+          "id": "FM-GLO-1KG-AZMI",
           "available": false,
-          "price": 52940,
+          "price": 35293,
           "options": [
-            "Madera",
+            "Azul Misterio",
             "1kg",
-            "PLA WOOD",
+            "High Speed PLA Glow",
             "Premium",
             "Importado"
           ]
         },
         {
-          "id": "FM-PLAWOOD-1KG-MAOS",
+          "id": "FM-GLO-1KG-AZCI",
           "available": false,
-          "price": 52940,
+          "price": 35293,
           "options": [
-            "Madera Oscura",
+            "Celeste Cielo",
             "1kg",
-            "PLA WOOD",
+            "High Speed PLA Glow",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "FM-GLO-1KG-MULT",
+          "available": false,
+          "price": 35293,
+          "options": [
+            "Multicolor",
+            "1kg",
+            "High Speed PLA Glow",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "FM-GLO-1KG-VEMI",
+          "available": false,
+          "price": 35293,
+          "options": [
+            "Verde Neon Misterio",
+            "1kg",
+            "High Speed PLA Glow",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "FM-GLO-1KG-TURQ",
+          "available": false,
+          "price": 35293,
+          "options": [
+            "Verde Turquesa",
+            "1kg",
+            "High Speed PLA Glow",
+            "Premium",
+            "Importado"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wetech-fremover-pla-silk-premium-importado",
+      "sourceProductId": "FREMOVER-PLA+ SILK-PREMIUM-IMPORTADO",
+      "store": "WeTech",
+      "domain": "shop.wetech.ar",
+      "name": "Fremover PLA SILK",
+      "category": "Filamentos",
+      "price": 34116,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 28998.6,
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Fremover",
+      "tags": [
+        "Fremover",
+        "PLA+ Silk",
+        "Premium",
+        "Importado",
+        "Filamentos PLA",
+        "1kg"
+      ],
+      "image": "https://ik.imagekit.io/8x5mvqkfl0/FREMOVER/SILK/PLA+%20SILK%201KG%20AMARILLO.png?updatedAt=1779218353361",
+      "url": "https://shop.wetech.ar/product/FREMOVER-PLA%2B%20SILK-PREMIUM-IMPORTADO",
+      "scrapedFrom": "https://shop.wetech.ar/products",
+      "variants": [
+        {
+          "id": "FM-SILK-1KG-AMAR",
+          "available": false,
+          "price": 34116,
+          "options": [
+            "Amarillo",
+            "1kg",
+            "PLA+ Silk",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "FM-SILK-1KG-AZUL",
+          "available": false,
+          "price": 34116,
+          "options": [
+            "Azul",
+            "1kg",
+            "PLA+ Silk",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "FM-SILK-1KG-BRON",
+          "available": false,
+          "price": 34116,
+          "options": [
+            "Bronce",
+            "1kg",
+            "PLA+ Silk",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "FM-SILK-1KG-COBR",
+          "available": false,
+          "price": 34116,
+          "options": [
+            "Cobre",
+            "1kg",
+            "PLA+ Silk",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "FM-SILK-1KG-DORA",
+          "available": false,
+          "price": 34116,
+          "options": [
+            "Dorado",
+            "1kg",
+            "PLA+ Silk",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "FM-SILK-1KG-PLAT",
+          "available": false,
+          "price": 34116,
+          "options": [
+            "Plateado",
+            "1kg",
+            "PLA+ Silk",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "FM-SILK-1KG-NARA",
+          "available": false,
+          "price": 34116,
+          "options": [
+            "Naranja",
+            "1kg",
+            "PLA+ Silk",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "FM-SILK-1KG-NEGR",
+          "available": false,
+          "price": 34116,
+          "options": [
+            "Negro",
+            "1kg",
+            "PLA+ Silk",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "FM-SILK-1KG-ROJO",
+          "available": false,
+          "price": 34116,
+          "options": [
+            "Rojo",
+            "1kg",
+            "PLA+ Silk",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "FM-SILK-1KG-ROSA",
+          "available": false,
+          "price": 34116,
+          "options": [
+            "Rosa",
+            "1kg",
+            "PLA+ Silk",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "FM-SILK-1KG-VERD",
+          "available": false,
+          "price": 34116,
+          "options": [
+            "Verde",
+            "1kg",
+            "PLA+ Silk",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "FM-SILK-1KG-PURP",
+          "available": false,
+          "price": 34116,
+          "options": [
+            "Purpura",
+            "1kg",
+            "PLA+ Silk",
             "Premium",
             "Importado"
           ]
@@ -7279,7 +7154,7 @@
       "sourceProductId": "FREMOVER-PLA+ SILK DUO-PREMIUM-IMPORTADO",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Fremover PLA+ Silk DUO Premium",
+      "name": "Fremover PLA SILK BICOLOR",
       "category": "Filamentos",
       "price": 34116,
       "currency": "ARS",
@@ -7496,184 +7371,11 @@
       ]
     },
     {
-      "id": "wetech-fremover-pla-silk-premium-importado",
-      "sourceProductId": "FREMOVER-PLA+ SILK-PREMIUM-IMPORTADO",
-      "store": "WeTech",
-      "domain": "shop.wetech.ar",
-      "name": "Fremover PLA+ Silk Premium",
-      "category": "Filamentos",
-      "price": 34116,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 28998.6,
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Fremover",
-      "tags": [
-        "Fremover",
-        "PLA+ Silk",
-        "Premium",
-        "Importado",
-        "Filamentos PLA",
-        "1kg"
-      ],
-      "image": "https://ik.imagekit.io/8x5mvqkfl0/FREMOVER/SILK/PLA+%20SILK%201KG%20AMARILLO.png?updatedAt=1779218353361",
-      "url": "https://shop.wetech.ar/product/FREMOVER-PLA%2B%20SILK-PREMIUM-IMPORTADO",
-      "scrapedFrom": "https://shop.wetech.ar/products",
-      "variants": [
-        {
-          "id": "FM-SILK-1KG-AMAR",
-          "available": false,
-          "price": 34116,
-          "options": [
-            "Amarillo",
-            "1kg",
-            "PLA+ Silk",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "FM-SILK-1KG-AZUL",
-          "available": false,
-          "price": 34116,
-          "options": [
-            "Azul",
-            "1kg",
-            "PLA+ Silk",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "FM-SILK-1KG-BRON",
-          "available": false,
-          "price": 34116,
-          "options": [
-            "Bronce",
-            "1kg",
-            "PLA+ Silk",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "FM-SILK-1KG-COBR",
-          "available": false,
-          "price": 34116,
-          "options": [
-            "Cobre",
-            "1kg",
-            "PLA+ Silk",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "FM-SILK-1KG-DORA",
-          "available": false,
-          "price": 34116,
-          "options": [
-            "Dorado",
-            "1kg",
-            "PLA+ Silk",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "FM-SILK-1KG-PLAT",
-          "available": false,
-          "price": 34116,
-          "options": [
-            "Plateado",
-            "1kg",
-            "PLA+ Silk",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "FM-SILK-1KG-NARA",
-          "available": false,
-          "price": 34116,
-          "options": [
-            "Naranja",
-            "1kg",
-            "PLA+ Silk",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "FM-SILK-1KG-NEGR",
-          "available": false,
-          "price": 34116,
-          "options": [
-            "Negro",
-            "1kg",
-            "PLA+ Silk",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "FM-SILK-1KG-ROJO",
-          "available": false,
-          "price": 34116,
-          "options": [
-            "Rojo",
-            "1kg",
-            "PLA+ Silk",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "FM-SILK-1KG-ROSA",
-          "available": false,
-          "price": 34116,
-          "options": [
-            "Rosa",
-            "1kg",
-            "PLA+ Silk",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "FM-SILK-1KG-VERD",
-          "available": false,
-          "price": 34116,
-          "options": [
-            "Verde",
-            "1kg",
-            "PLA+ Silk",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "FM-SILK-1KG-PURP",
-          "available": false,
-          "price": 34116,
-          "options": [
-            "Purpura",
-            "1kg",
-            "PLA+ Silk",
-            "Premium",
-            "Importado"
-          ]
-        }
-      ]
-    },
-    {
       "id": "wetech-fremover-pla-silk-trio-premium-importado",
       "sourceProductId": "FREMOVER-PLA+ SILK TRIO-PREMIUM-IMPORTADO",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Fremover PLA+ Silk TRIO Premium",
+      "name": "Fremover PLA SILK TRICOLOR",
       "category": "Filamentos",
       "price": 34116,
       "currency": "ARS",
@@ -7746,6 +7448,59 @@
       ]
     },
     {
+      "id": "wetech-fremover-pla-wood-premium-importado",
+      "sourceProductId": "FREMOVER-PLA WOOD-PREMIUM-IMPORTADO",
+      "store": "WeTech",
+      "domain": "shop.wetech.ar",
+      "name": "Fremover PLA WOOD",
+      "category": "Filamentos",
+      "price": 52940,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 44999,
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Fremover",
+      "tags": [
+        "Fremover",
+        "PLA WOOD",
+        "Premium",
+        "Importado",
+        "Filamentos PLA",
+        "1kg"
+      ],
+      "image": "https://ik.imagekit.io/8x5mvqkfl0/FREMOVER/WOOD/PLA+%201KG%20WOOD_Mesa%20de%20trabajo%201%20copia.png?updatedAt=1779218357881",
+      "url": "https://shop.wetech.ar/product/FREMOVER-PLA%20WOOD-PREMIUM-IMPORTADO",
+      "scrapedFrom": "https://shop.wetech.ar/products",
+      "variants": [
+        {
+          "id": "FM-PLAWOOD-1KG-MADE",
+          "available": false,
+          "price": 52940,
+          "options": [
+            "Madera",
+            "1kg",
+            "PLA WOOD",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "FM-PLAWOOD-1KG-MAOS",
+          "available": false,
+          "price": 52940,
+          "options": [
+            "Madera Oscura",
+            "1kg",
+            "PLA WOOD",
+            "Premium",
+            "Importado"
+          ]
+        }
+      ]
+    },
+    {
       "id": "wetech-gatill-y-engr-a1",
       "sourceProductId": "GATILL Y ENGR A1",
       "store": "WeTech",
@@ -7786,7 +7541,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 8610.13,
-      "stock": 73,
+      "stock": 70,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -7806,17 +7561,340 @@
       ]
     },
     {
+      "id": "wetech-grilon3-pla-850-premium-nacional",
+      "sourceProductId": "GRILON3-PLA 850-PREMIUM-NACIONAL",
+      "store": "WeTech",
+      "domain": "shop.wetech.ar",
+      "name": "Grilon3 850 PLA",
+      "category": "Filamentos",
+      "price": 31764,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 26999.4,
+      "stock": 76,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Grilon3",
+      "tags": [
+        "Grilon3",
+        "PLA 850",
+        "Premium",
+        "Nacional",
+        "Filamentos PLA",
+        "2.5kg",
+        "1kg"
+      ],
+      "image": "https://ik.imagekit.io/8x5mvqkfl0/Grilon3/MAXIFILL/PLA850/400X400/MAXIFILL%20PLA850%202,5KG%20AZUL_Mesa%20de%20trabajo%201%20copia.png?updatedAt=1772671305363",
+      "url": "https://shop.wetech.ar/product/GRILON3-PLA%20850-PREMIUM-NACIONAL",
+      "scrapedFrom": "https://shop.wetech.ar/products",
+      "variants": [
+        {
+          "id": "G3-MAXI-2K5-AZUL",
+          "available": false,
+          "price": 70587,
+          "options": [
+            "Azul",
+            "2.5kg",
+            "PLA 850",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-MAXI-2K5-BLAN",
+          "available": true,
+          "price": 70587,
+          "options": [
+            "Blanco",
+            "2.5kg",
+            "PLA 850",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-MAXI-2K5-BRON",
+          "available": true,
+          "price": 70587,
+          "options": [
+            "Bronce",
+            "2.5kg",
+            "PLA 850",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-MAXI-2K5-GRPL",
+          "available": true,
+          "price": 70587,
+          "options": [
+            "Gris Plata",
+            "2.5kg",
+            "PLA 850",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-MAXI-2K5-NEGR",
+          "available": true,
+          "price": 70587,
+          "options": [
+            "Negro",
+            "2.5kg",
+            "PLA 850",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-MAXI-2K5-ROJO",
+          "available": true,
+          "price": 70587,
+          "options": [
+            "Rojo",
+            "2.5kg",
+            "PLA 850",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-P850-1KG-AZUL",
+          "available": false,
+          "price": 31764,
+          "options": [
+            "Azul",
+            "1kg",
+            "PLA 850",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-P850-1KG-BLAN",
+          "available": false,
+          "price": 31764,
+          "options": [
+            "Blanco",
+            "1kg",
+            "PLA 850",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-P850-1KG-BORD",
+          "available": false,
+          "price": 31764,
+          "options": [
+            "Rojo Bordo",
+            "1kg",
+            "PLA 850",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-P850-1KG-BRON",
+          "available": true,
+          "price": 31764,
+          "options": [
+            "Bronce",
+            "1kg",
+            "PLA 850",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-P850-1KG-GRPL",
+          "available": false,
+          "price": 31764,
+          "options": [
+            "Gris Plata",
+            "1kg",
+            "PLA 850",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-P850-1KG-NAUV",
+          "available": true,
+          "price": 31764,
+          "options": [
+            "Naranja Fluor UV",
+            "1kg",
+            "PLA 850",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-P850-1KG-NEGR",
+          "available": false,
+          "price": 31764,
+          "options": [
+            "Negro",
+            "1kg",
+            "PLA 850",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-P850-1KG-ROJO",
+          "available": false,
+          "price": 31764,
+          "options": [
+            "Rojo",
+            "1kg",
+            "PLA 850",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-P850-1KG-TURQ",
+          "available": true,
+          "price": 31764,
+          "options": [
+            "Azul Turquesa",
+            "1kg",
+            "PLA 850",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-P850-1KG-VEUV",
+          "available": true,
+          "price": 31764,
+          "options": [
+            "Verde Fluor UV",
+            "1kg",
+            "PLA 850",
+            "Premium",
+            "Nacional"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wetech-grilon3-pla-870-premium-nacional",
+      "sourceProductId": "GRILON3-PLA 870-PREMIUM-NACIONAL",
+      "store": "WeTech",
+      "domain": "shop.wetech.ar",
+      "name": "Grilon3 870 PLA",
+      "category": "Filamentos",
+      "price": 58822,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 49998.7,
+      "stock": 24,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Grilon3",
+      "tags": [
+        "Grilon3",
+        "PLA 870",
+        "Premium",
+        "Nacional",
+        "Filamentos PLA",
+        "1kg"
+      ],
+      "image": "https://ik.imagekit.io/8x5mvqkfl0/Grilon3/TECNICOS/GRILON3_PLA_PLA870/PLA%20870%201KG%20BLANCO_Mesa%20de%20trabajo%201%20copia.png?updatedAt=1784383786729",
+      "url": "https://shop.wetech.ar/product/GRILON3-PLA%20870-PREMIUM-NACIONAL",
+      "scrapedFrom": "https://shop.wetech.ar/products",
+      "variants": [
+        {
+          "id": "G3-P870-1KG-BLAN",
+          "available": true,
+          "price": 58822,
+          "options": [
+            "Blanco",
+            "1kg",
+            "PLA 870",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-P870-1KG-BORD",
+          "available": false,
+          "price": 58822,
+          "options": [
+            "Rojo Bordo",
+            "1kg",
+            "PLA 870",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-P870-1KG-GRPL",
+          "available": false,
+          "price": 58822,
+          "options": [
+            "Gris Plata",
+            "1kg",
+            "PLA 870",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-P870-1KG-NEGR",
+          "available": true,
+          "price": 58822,
+          "options": [
+            "Negro",
+            "1kg",
+            "PLA 870",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-P870-1KG-NATU",
+          "available": true,
+          "price": 58822,
+          "options": [
+            "Translucido Natural",
+            "1kg",
+            "PLA 870",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-P870-1KG-TURQ",
+          "available": true,
+          "price": 58822,
+          "options": [
+            "Azul Turquesa",
+            "1kg",
+            "PLA 870",
+            "Premium",
+            "Nacional"
+          ]
+        }
+      ]
+    },
+    {
       "id": "wetech-grilon3-abs-premium-nacional",
       "sourceProductId": "GRILON3-ABS-PREMIUM-NACIONAL",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Grilon3 ABS Premium",
+      "name": "Grilon3 ABS",
       "category": "Filamentos",
       "price": 32940,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 27999,
-      "stock": 134,
+      "stock": 132,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -7996,7 +8074,7 @@
       "sourceProductId": "GRILON3-ACETAL-PREMIUM-NACIONAL",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Grilon3 Acetal Premium",
+      "name": "Grilon3 ACETAL",
       "category": "Filamentos",
       "price": 84705,
       "currency": "ARS",
@@ -8069,11 +8147,257 @@
       ]
     },
     {
+      "id": "wetech-grilon3-pla-boutique-premium-nacional",
+      "sourceProductId": "GRILON3-PLA BOUTIQUE-PREMIUM-NACIONAL",
+      "store": "WeTech",
+      "domain": "shop.wetech.ar",
+      "name": "Grilon3 Boutique PLA",
+      "category": "Filamentos",
+      "price": 31764,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 26999.4,
+      "stock": 88,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Grilon3",
+      "tags": [
+        "Grilon3",
+        "PLA Boutique",
+        "Premium",
+        "Nacional",
+        "Filamentos PLA",
+        "4kg",
+        "1kg"
+      ],
+      "image": "https://ik.imagekit.io/8x5mvqkfl0/Grilon3/MEGAFILL/PLA%20BOUTIQUE/100X100/GRILON3MEGA%20BOUTIQUE%20PERLA_Mesa%20de%20trabajo%201%20copia%203.png?updatedAt=1772671303213",
+      "url": "https://shop.wetech.ar/product/GRILON3-PLA%20BOUTIQUE-PREMIUM-NACIONAL",
+      "scrapedFrom": "https://shop.wetech.ar/products",
+      "variants": [
+        {
+          "id": "G3-MEGB-4KG-PECA",
+          "available": true,
+          "price": 103528,
+          "options": [
+            "Perla Calido",
+            "4kg",
+            "PLA Boutique",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-MEGB-4KG-PEFR",
+          "available": true,
+          "price": 103528,
+          "options": [
+            "Perla Frio",
+            "4kg",
+            "PLA Boutique",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-BOUT-1KG-ACQU",
+          "available": true,
+          "price": 31764,
+          "options": [
+            "Acqua",
+            "1kg",
+            "PLA Boutique",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-BOUT-1KG-AREN",
+          "available": false,
+          "price": 31764,
+          "options": [
+            "Arena",
+            "1kg",
+            "PLA Boutique",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-BOUT-1KG-ZAFI",
+          "available": false,
+          "price": 31764,
+          "options": [
+            "Zafiro",
+            "1kg",
+            "PLA Boutique",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-BOUT-1KG-PECA",
+          "available": true,
+          "price": 31764,
+          "options": [
+            "Perla Calido",
+            "1kg",
+            "PLA Boutique",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-BOUT-1KG-PEFR",
+          "available": true,
+          "price": 31764,
+          "options": [
+            "Perla Frio",
+            "1kg",
+            "PLA Boutique",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-BOUT-1KG-CARB",
+          "available": true,
+          "price": 31764,
+          "options": [
+            "Carbon",
+            "1kg",
+            "PLA Boutique",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-BOUT-1KG-CARI",
+          "available": true,
+          "price": 31764,
+          "options": [
+            "Caribe",
+            "1kg",
+            "PLA Boutique",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-BOUT-1KG-CHOC",
+          "available": false,
+          "price": 31764,
+          "options": [
+            "Chocolate",
+            "1kg",
+            "PLA Boutique",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-BOUT-1KG-CRCI",
+          "available": true,
+          "price": 31764,
+          "options": [
+            "Crema del Cielo",
+            "1kg",
+            "PLA Boutique",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-BOUT-1KG-DULE",
+          "available": true,
+          "price": 31764,
+          "options": [
+            "Dulce de Leche",
+            "1kg",
+            "PLA Boutique",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-BOUT-1KG-ESME",
+          "available": true,
+          "price": 31764,
+          "options": [
+            "Esmeralda",
+            "1kg",
+            "PLA Boutique",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-BOUT-1KG-FRUT",
+          "available": true,
+          "price": 31764,
+          "options": [
+            "Frutilla",
+            "1kg",
+            "PLA Boutique",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-BOUT-1KG-LAVA",
+          "available": false,
+          "price": 31764,
+          "options": [
+            "Violeta Lavanda",
+            "1kg",
+            "PLA Boutique",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-BOUT-1KG-RUBI",
+          "available": false,
+          "price": 31764,
+          "options": [
+            "Rubi",
+            "1kg",
+            "PLA Boutique",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-BOUT-1KG-SALM",
+          "available": false,
+          "price": 31764,
+          "options": [
+            "Salmon",
+            "1kg",
+            "PLA Boutique",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-BOUT-1KG-VEAV",
+          "available": true,
+          "price": 31764,
+          "options": [
+            "Verde Aviador",
+            "1kg",
+            "PLA Boutique",
+            "Premium",
+            "Nacional"
+          ]
+        }
+      ]
+    },
+    {
       "id": "wetech-grilon3-hips-premium-nacional",
       "sourceProductId": "GRILON3-HIPS-PREMIUM-NACIONAL",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Grilon3 HIPS Premium",
+      "name": "Grilon3 HIPS",
       "category": "Filamentos",
       "price": 41175,
       "currency": "ARS",
@@ -8174,7 +8498,7 @@
       "sourceProductId": "GRILON3-NYLON 12-PREMIUM-NACIONAL",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Grilon3 NYLON 12 Premium",
+      "name": "Grilon3 NYLON 12",
       "category": "Filamentos",
       "price": 171764,
       "currency": "ARS",
@@ -8263,7 +8587,7 @@
       "sourceProductId": "GRILON3-NYLON 6-PREMIUM-NACIONAL",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Grilon3 NYLON 6 Premium",
+      "name": "Grilon3 NYLON 6",
       "category": "Filamentos",
       "price": 53528,
       "currency": "ARS",
@@ -8364,13 +8688,13 @@
       "sourceProductId": "GRILON3-PETG-PREMIUM-NACIONAL",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Grilon3 PetG Premium",
+      "name": "Grilon3 PETG",
       "category": "Filamentos",
       "price": 27646,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 23499.1,
-      "stock": 160,
+      "stock": 154,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -8607,687 +8931,17 @@
       ]
     },
     {
-      "id": "wetech-grilon3-pla-850-premium-nacional",
-      "sourceProductId": "GRILON3-PLA 850-PREMIUM-NACIONAL",
-      "store": "WeTech",
-      "domain": "shop.wetech.ar",
-      "name": "Grilon3 PLA 850 Premium",
-      "category": "Filamentos",
-      "price": 31764,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 26999.4,
-      "stock": 76,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Grilon3",
-      "tags": [
-        "Grilon3",
-        "PLA 850",
-        "Premium",
-        "Nacional",
-        "Filamentos PLA",
-        "2.5kg",
-        "1kg"
-      ],
-      "image": "https://ik.imagekit.io/8x5mvqkfl0/Grilon3/MAXIFILL/PLA850/400X400/MAXIFILL%20PLA850%202,5KG%20AZUL_Mesa%20de%20trabajo%201%20copia.png?updatedAt=1772671305363",
-      "url": "https://shop.wetech.ar/product/GRILON3-PLA%20850-PREMIUM-NACIONAL",
-      "scrapedFrom": "https://shop.wetech.ar/products",
-      "variants": [
-        {
-          "id": "G3-MAXI-2K5-AZUL",
-          "available": false,
-          "price": 70587,
-          "options": [
-            "Azul",
-            "2.5kg",
-            "PLA 850",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-MAXI-2K5-BLAN",
-          "available": true,
-          "price": 70587,
-          "options": [
-            "Blanco",
-            "2.5kg",
-            "PLA 850",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-MAXI-2K5-BRON",
-          "available": true,
-          "price": 70587,
-          "options": [
-            "Bronce",
-            "2.5kg",
-            "PLA 850",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-MAXI-2K5-GRPL",
-          "available": true,
-          "price": 70587,
-          "options": [
-            "Gris Plata",
-            "2.5kg",
-            "PLA 850",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-MAXI-2K5-NEGR",
-          "available": true,
-          "price": 70587,
-          "options": [
-            "Negro",
-            "2.5kg",
-            "PLA 850",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-MAXI-2K5-ROJO",
-          "available": true,
-          "price": 70587,
-          "options": [
-            "Rojo",
-            "2.5kg",
-            "PLA 850",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-P850-1KG-AZUL",
-          "available": false,
-          "price": 31764,
-          "options": [
-            "Azul",
-            "1kg",
-            "PLA 850",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-P850-1KG-BLAN",
-          "available": false,
-          "price": 31764,
-          "options": [
-            "Blanco",
-            "1kg",
-            "PLA 850",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-P850-1KG-BORD",
-          "available": false,
-          "price": 31764,
-          "options": [
-            "Rojo Bordo",
-            "1kg",
-            "PLA 850",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-P850-1KG-BRON",
-          "available": true,
-          "price": 31764,
-          "options": [
-            "Bronce",
-            "1kg",
-            "PLA 850",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-P850-1KG-GRPL",
-          "available": false,
-          "price": 31764,
-          "options": [
-            "Gris Plata",
-            "1kg",
-            "PLA 850",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-P850-1KG-NAUV",
-          "available": true,
-          "price": 31764,
-          "options": [
-            "Naranja Fluor UV",
-            "1kg",
-            "PLA 850",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-P850-1KG-NEGR",
-          "available": false,
-          "price": 31764,
-          "options": [
-            "Negro",
-            "1kg",
-            "PLA 850",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-P850-1KG-ROJO",
-          "available": false,
-          "price": 31764,
-          "options": [
-            "Rojo",
-            "1kg",
-            "PLA 850",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-P850-1KG-TURQ",
-          "available": true,
-          "price": 31764,
-          "options": [
-            "Azul Turquesa",
-            "1kg",
-            "PLA 850",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-P850-1KG-VEUV",
-          "available": true,
-          "price": 31764,
-          "options": [
-            "Verde Fluor UV",
-            "1kg",
-            "PLA 850",
-            "Premium",
-            "Nacional"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "wetech-grilon3-pla-870-premium-nacional",
-      "sourceProductId": "GRILON3-PLA 870-PREMIUM-NACIONAL",
-      "store": "WeTech",
-      "domain": "shop.wetech.ar",
-      "name": "Grilon3 PLA 870 Premium",
-      "category": "Filamentos",
-      "price": 58822,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 49998.7,
-      "stock": 24,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Grilon3",
-      "tags": [
-        "Grilon3",
-        "PLA 870",
-        "Premium",
-        "Nacional",
-        "Filamentos PLA",
-        "1kg"
-      ],
-      "image": "https://ik.imagekit.io/8x5mvqkfl0/Grilon3/TECNICOS/GRILON3_PLA_PLA870/PLA%20870%201KG%20BLANCO_Mesa%20de%20trabajo%201%20copia.png?updatedAt=1784383786729",
-      "url": "https://shop.wetech.ar/product/GRILON3-PLA%20870-PREMIUM-NACIONAL",
-      "scrapedFrom": "https://shop.wetech.ar/products",
-      "variants": [
-        {
-          "id": "G3-P870-1KG-BLAN",
-          "available": true,
-          "price": 58822,
-          "options": [
-            "Blanco",
-            "1kg",
-            "PLA 870",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-P870-1KG-BORD",
-          "available": false,
-          "price": 58822,
-          "options": [
-            "Rojo Bordo",
-            "1kg",
-            "PLA 870",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-P870-1KG-GRPL",
-          "available": false,
-          "price": 58822,
-          "options": [
-            "Gris Plata",
-            "1kg",
-            "PLA 870",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-P870-1KG-NEGR",
-          "available": true,
-          "price": 58822,
-          "options": [
-            "Negro",
-            "1kg",
-            "PLA 870",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-P870-1KG-NATU",
-          "available": true,
-          "price": 58822,
-          "options": [
-            "Translucido Natural",
-            "1kg",
-            "PLA 870",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-P870-1KG-TURQ",
-          "available": true,
-          "price": 58822,
-          "options": [
-            "Azul Turquesa",
-            "1kg",
-            "PLA 870",
-            "Premium",
-            "Nacional"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "wetech-grilon3-pla-astra-premium-nacional",
-      "sourceProductId": "GRILON3-PLA ASTRA-PREMIUM-NACIONAL",
-      "store": "WeTech",
-      "domain": "shop.wetech.ar",
-      "name": "Grilon3 PLA Astra Premium",
-      "category": "Filamentos",
-      "price": 35293,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 29999.05,
-      "stock": 130,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Grilon3",
-      "tags": [
-        "Grilon3",
-        "PLA Astra",
-        "Premium",
-        "Nacional",
-        "Filamentos PLA",
-        "1kg"
-      ],
-      "image": "https://ik.imagekit.io/8x5mvqkfl0/Grilon3/PLA/GRILON3_PLA_ASTRA/PLA%20ASTRA%201KG%20NOCHE_Mesa%20de%20trabajo%201%20copia.png?updatedAt=1772572631722",
-      "url": "https://shop.wetech.ar/product/GRILON3-PLA%20ASTRA-PREMIUM-NACIONAL",
-      "scrapedFrom": "https://shop.wetech.ar/products",
-      "variants": [
-        {
-          "id": "G3-ASTR-1KG-NOCH",
-          "available": true,
-          "price": 35293,
-          "options": [
-            "Azul Noche",
-            "1kg",
-            "PLA Astra",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-ASTR-1KG-CALI",
-          "available": true,
-          "price": 35293,
-          "options": [
-            "Calipso",
-            "1kg",
-            "PLA Astra",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-ASTR-1KG-DARK",
-          "available": true,
-          "price": 35293,
-          "options": [
-            "Dark",
-            "1kg",
-            "PLA Astra",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-ASTR-1KG-JADE",
-          "available": true,
-          "price": 35293,
-          "options": [
-            "Jade",
-            "1kg",
-            "PLA Astra",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-ASTR-1KG-NEBU",
-          "available": true,
-          "price": 35293,
-          "options": [
-            "Nebula",
-            "1kg",
-            "PLA Astra",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-ASTR-1KG-ROBY",
-          "available": true,
-          "price": 35293,
-          "options": [
-            "Roby",
-            "1kg",
-            "PLA Astra",
-            "Premium",
-            "Nacional"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "wetech-grilon3-pla-boutique-premium-nacional",
-      "sourceProductId": "GRILON3-PLA BOUTIQUE-PREMIUM-NACIONAL",
-      "store": "WeTech",
-      "domain": "shop.wetech.ar",
-      "name": "Grilon3 PLA Boutique Premium",
-      "category": "Filamentos",
-      "price": 31764,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 26999.4,
-      "stock": 92,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Grilon3",
-      "tags": [
-        "Grilon3",
-        "PLA Boutique",
-        "Premium",
-        "Nacional",
-        "Filamentos PLA",
-        "4kg",
-        "1kg"
-      ],
-      "image": "https://ik.imagekit.io/8x5mvqkfl0/Grilon3/MEGAFILL/PLA%20BOUTIQUE/100X100/GRILON3MEGA%20BOUTIQUE%20PERLA_Mesa%20de%20trabajo%201%20copia%203.png?updatedAt=1772671303213",
-      "url": "https://shop.wetech.ar/product/GRILON3-PLA%20BOUTIQUE-PREMIUM-NACIONAL",
-      "scrapedFrom": "https://shop.wetech.ar/products",
-      "variants": [
-        {
-          "id": "G3-MEGB-4KG-PECA",
-          "available": true,
-          "price": 103528,
-          "options": [
-            "Perla Calido",
-            "4kg",
-            "PLA Boutique",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-MEGB-4KG-PEFR",
-          "available": true,
-          "price": 103528,
-          "options": [
-            "Perla Frio",
-            "4kg",
-            "PLA Boutique",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-BOUT-1KG-ACQU",
-          "available": true,
-          "price": 31764,
-          "options": [
-            "Acqua",
-            "1kg",
-            "PLA Boutique",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-BOUT-1KG-AREN",
-          "available": false,
-          "price": 31764,
-          "options": [
-            "Arena",
-            "1kg",
-            "PLA Boutique",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-BOUT-1KG-ZAFI",
-          "available": false,
-          "price": 31764,
-          "options": [
-            "Zafiro",
-            "1kg",
-            "PLA Boutique",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-BOUT-1KG-PECA",
-          "available": true,
-          "price": 31764,
-          "options": [
-            "Perla Calido",
-            "1kg",
-            "PLA Boutique",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-BOUT-1KG-PEFR",
-          "available": true,
-          "price": 31764,
-          "options": [
-            "Perla Frio",
-            "1kg",
-            "PLA Boutique",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-BOUT-1KG-CARB",
-          "available": true,
-          "price": 31764,
-          "options": [
-            "Carbon",
-            "1kg",
-            "PLA Boutique",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-BOUT-1KG-CARI",
-          "available": true,
-          "price": 31764,
-          "options": [
-            "Caribe",
-            "1kg",
-            "PLA Boutique",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-BOUT-1KG-CHOC",
-          "available": false,
-          "price": 31764,
-          "options": [
-            "Chocolate",
-            "1kg",
-            "PLA Boutique",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-BOUT-1KG-CRCI",
-          "available": true,
-          "price": 31764,
-          "options": [
-            "Crema del Cielo",
-            "1kg",
-            "PLA Boutique",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-BOUT-1KG-DULE",
-          "available": true,
-          "price": 31764,
-          "options": [
-            "Dulce de Leche",
-            "1kg",
-            "PLA Boutique",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-BOUT-1KG-ESME",
-          "available": true,
-          "price": 31764,
-          "options": [
-            "Esmeralda",
-            "1kg",
-            "PLA Boutique",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-BOUT-1KG-FRUT",
-          "available": true,
-          "price": 31764,
-          "options": [
-            "Frutilla",
-            "1kg",
-            "PLA Boutique",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-BOUT-1KG-LAVA",
-          "available": false,
-          "price": 31764,
-          "options": [
-            "Violeta Lavanda",
-            "1kg",
-            "PLA Boutique",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-BOUT-1KG-RUBI",
-          "available": false,
-          "price": 31764,
-          "options": [
-            "Rubi",
-            "1kg",
-            "PLA Boutique",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-BOUT-1KG-SALM",
-          "available": false,
-          "price": 31764,
-          "options": [
-            "Salmon",
-            "1kg",
-            "PLA Boutique",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-BOUT-1KG-VEAV",
-          "available": true,
-          "price": 31764,
-          "options": [
-            "Verde Aviador",
-            "1kg",
-            "PLA Boutique",
-            "Premium",
-            "Nacional"
-          ]
-        }
-      ]
-    },
-    {
       "id": "wetech-grilon3-pla-premium-nacional",
       "sourceProductId": "GRILON3-PLA-PREMIUM-NACIONAL",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Grilon3 PLA Premium",
+      "name": "Grilon3 PLA",
       "category": "Filamentos",
       "price": 29411,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 24999.35,
-      "stock": 343,
+      "stock": 330,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -9630,7 +9284,7 @@
         },
         {
           "id": "G3-PLA2-1KG-PI72",
-          "available": true,
+          "available": false,
           "price": 30587,
           "options": [
             "Piel 720",
@@ -9739,11 +9393,403 @@
       ]
     },
     {
+      "id": "wetech-grilon3-pla-astra-premium-nacional",
+      "sourceProductId": "GRILON3-PLA ASTRA-PREMIUM-NACIONAL",
+      "store": "WeTech",
+      "domain": "shop.wetech.ar",
+      "name": "Grilon3 PLA ASTRA",
+      "category": "Filamentos",
+      "price": 35293,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 29999.05,
+      "stock": 130,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Grilon3",
+      "tags": [
+        "Grilon3",
+        "PLA Astra",
+        "Premium",
+        "Nacional",
+        "Filamentos PLA",
+        "1kg"
+      ],
+      "image": "https://ik.imagekit.io/8x5mvqkfl0/Grilon3/PLA/GRILON3_PLA_ASTRA/PLA%20ASTRA%201KG%20NOCHE_Mesa%20de%20trabajo%201%20copia.png?updatedAt=1772572631722",
+      "url": "https://shop.wetech.ar/product/GRILON3-PLA%20ASTRA-PREMIUM-NACIONAL",
+      "scrapedFrom": "https://shop.wetech.ar/products",
+      "variants": [
+        {
+          "id": "G3-ASTR-1KG-NOCH",
+          "available": true,
+          "price": 35293,
+          "options": [
+            "Azul Noche",
+            "1kg",
+            "PLA Astra",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-ASTR-1KG-CALI",
+          "available": true,
+          "price": 35293,
+          "options": [
+            "Calipso",
+            "1kg",
+            "PLA Astra",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-ASTR-1KG-DARK",
+          "available": true,
+          "price": 35293,
+          "options": [
+            "Dark",
+            "1kg",
+            "PLA Astra",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-ASTR-1KG-JADE",
+          "available": true,
+          "price": 35293,
+          "options": [
+            "Jade",
+            "1kg",
+            "PLA Astra",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-ASTR-1KG-NEBU",
+          "available": true,
+          "price": 35293,
+          "options": [
+            "Nebula",
+            "1kg",
+            "PLA Astra",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-ASTR-1KG-ROBY",
+          "available": true,
+          "price": 35293,
+          "options": [
+            "Roby",
+            "1kg",
+            "PLA Astra",
+            "Premium",
+            "Nacional"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wetech-grilon3-pla-silk-premium-nacional",
+      "sourceProductId": "GRILON3-PLA SILK-PREMIUM-NACIONAL",
+      "store": "WeTech",
+      "domain": "shop.wetech.ar",
+      "name": "Grilon3 PLA SILK",
+      "category": "Filamentos",
+      "price": 35293,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 29999.05,
+      "stock": 56,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Grilon3",
+      "tags": [
+        "Grilon3",
+        "PLA Silk",
+        "Premium",
+        "Nacional",
+        "Filamentos PLA",
+        "1kg"
+      ],
+      "image": "https://ik.imagekit.io/8x5mvqkfl0/Grilon3/PLA/GRILON3_PLA_SILK/800X800/PLA%20SILK%201KG%20AZUL_Mesa%20de%20trabajo%201.png?updatedAt=1776718529657",
+      "url": "https://shop.wetech.ar/product/GRILON3-PLA%20SILK-PREMIUM-NACIONAL",
+      "scrapedFrom": "https://shop.wetech.ar/products",
+      "variants": [
+        {
+          "id": "G3-SILK-1KG-AZUL",
+          "available": true,
+          "price": 35293,
+          "options": [
+            "Azul",
+            "1kg",
+            "PLA Silk",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-SILK-1KG-BLPE",
+          "available": true,
+          "price": 35293,
+          "options": [
+            "Blanco Perla",
+            "1kg",
+            "PLA Silk",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-SILK-1KG-COBR",
+          "available": true,
+          "price": 35293,
+          "options": [
+            "Cobre",
+            "1kg",
+            "PLA Silk",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-SILK-1KG-DORA",
+          "available": false,
+          "price": 35293,
+          "options": [
+            "Dorado",
+            "1kg",
+            "PLA Silk",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-SILK-1KG-AZAB",
+          "available": true,
+          "price": 35293,
+          "options": [
+            "Azabache",
+            "1kg",
+            "PLA Silk",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-SILK-1KG-PLAT",
+          "available": false,
+          "price": 35293,
+          "options": [
+            "Platino",
+            "1kg",
+            "PLA Silk",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-SILK-1KG-TUTT",
+          "available": true,
+          "price": 35293,
+          "options": [
+            "Tutti Fruti",
+            "1kg",
+            "PLA Silk",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-SILK-1KG-VERDE",
+          "available": true,
+          "price": 35293,
+          "options": [
+            "Verde",
+            "1kg",
+            "PLA Silk",
+            "Premium",
+            "Nacional"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wetech-grilon3-pla-wood-premium-nacional",
+      "sourceProductId": "GRILON3-PLA WOOD-PREMIUM-NACIONAL",
+      "store": "WeTech",
+      "domain": "shop.wetech.ar",
+      "name": "Grilon3 PLA WOOD",
+      "category": "Filamentos",
+      "price": 47058,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 39999.3,
+      "stock": 51,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Grilon3",
+      "tags": [
+        "Grilon3",
+        "PLA WOOD",
+        "Premium",
+        "Nacional",
+        "Filamentos PLA",
+        "1kg"
+      ],
+      "image": "https://ik.imagekit.io/8x5mvqkfl0/Grilon3/PLA/GRILON3_PLA_WOOD/WOOD%20Caoba%201.jpg?updatedAt=1776799258674",
+      "url": "https://shop.wetech.ar/product/GRILON3-PLA%20WOOD-PREMIUM-NACIONAL",
+      "scrapedFrom": "https://shop.wetech.ar/products",
+      "variants": [
+        {
+          "id": "G3-WOOD-1KG-CAOB",
+          "available": true,
+          "price": 47058,
+          "options": [
+            "Caoba",
+            "1kg",
+            "PLA WOOD",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-WOOD-1KG-CERE",
+          "available": true,
+          "price": 47058,
+          "options": [
+            "Cerezo",
+            "1kg",
+            "PLA WOOD",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-WOOD-1KG-NOGA",
+          "available": true,
+          "price": 47058,
+          "options": [
+            "Nogal",
+            "1kg",
+            "PLA WOOD",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-WOOD-1KG-PINO",
+          "available": true,
+          "price": 47058,
+          "options": [
+            "Pino",
+            "1kg",
+            "PLA WOOD",
+            "Premium",
+            "Nacional"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wetech-grilon3-ppt-premium-nacional",
+      "sourceProductId": "GRILON3-PPT-PREMIUM-NACIONAL",
+      "store": "WeTech",
+      "domain": "shop.wetech.ar",
+      "name": "Grilon3 PPT",
+      "category": "Filamentos",
+      "price": 44705,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 37999.25,
+      "stock": 14,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Grilon3",
+      "tags": [
+        "Grilon3",
+        "PPT",
+        "Premium",
+        "Nacional",
+        "Filamentos Técnicos",
+        "1kg"
+      ],
+      "image": "https://i.imgur.com/BX0Lb52.png",
+      "url": "https://shop.wetech.ar/product/GRILON3-PPT-PREMIUM-NACIONAL",
+      "scrapedFrom": "https://shop.wetech.ar/products",
+      "variants": [
+        {
+          "id": "G3-PPT-1KG-AMAR",
+          "available": false,
+          "price": 44705,
+          "options": [
+            "Amarillo",
+            "1kg",
+            "PPT",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-PPT-1KG-AZUL",
+          "available": false,
+          "price": 44705,
+          "options": [
+            "Azul",
+            "1kg",
+            "PPT",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-PPT-1KG-ROJO",
+          "available": false,
+          "price": 44705,
+          "options": [
+            "Rojo",
+            "1kg",
+            "PPT",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-PPT-1KG-NATU",
+          "available": true,
+          "price": 44705,
+          "options": [
+            "Translucido Natural",
+            "1kg",
+            "PPT",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-PPT-1KG-VERD",
+          "available": true,
+          "price": 44705,
+          "options": [
+            "Verde",
+            "1kg",
+            "PPT",
+            "Premium",
+            "Nacional"
+          ]
+        }
+      ]
+    },
+    {
       "id": "wetech-grilon3-pla-pro-hyper-premium-nacional",
       "sourceProductId": "GRILON3-PLA PRO HYPER-PREMIUM-NACIONAL",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Grilon3 PLA PRO Hyper Premium",
+      "name": "Grilon3 Pro Hyper PLA",
       "category": "Filamentos",
       "price": 38822,
       "currency": "ARS",
@@ -9937,355 +9983,11 @@
       ]
     },
     {
-      "id": "wetech-grilon3-pla-silk-premium-nacional",
-      "sourceProductId": "GRILON3-PLA SILK-PREMIUM-NACIONAL",
-      "store": "WeTech",
-      "domain": "shop.wetech.ar",
-      "name": "Grilon3 PLA Silk Premium",
-      "category": "Filamentos",
-      "price": 35293,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 29999.05,
-      "stock": 57,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Grilon3",
-      "tags": [
-        "Grilon3",
-        "PLA Silk",
-        "Premium",
-        "Nacional",
-        "Filamentos PLA",
-        "1kg"
-      ],
-      "image": "https://ik.imagekit.io/8x5mvqkfl0/Grilon3/PLA/GRILON3_PLA_SILK/800X800/PLA%20SILK%201KG%20AZUL_Mesa%20de%20trabajo%201.png?updatedAt=1776718529657",
-      "url": "https://shop.wetech.ar/product/GRILON3-PLA%20SILK-PREMIUM-NACIONAL",
-      "scrapedFrom": "https://shop.wetech.ar/products",
-      "variants": [
-        {
-          "id": "G3-SILK-1KG-AZUL",
-          "available": true,
-          "price": 35293,
-          "options": [
-            "Azul",
-            "1kg",
-            "PLA Silk",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-SILK-1KG-BLPE",
-          "available": true,
-          "price": 35293,
-          "options": [
-            "Blanco Perla",
-            "1kg",
-            "PLA Silk",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-SILK-1KG-COBR",
-          "available": true,
-          "price": 35293,
-          "options": [
-            "Cobre",
-            "1kg",
-            "PLA Silk",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-SILK-1KG-DORA",
-          "available": false,
-          "price": 35293,
-          "options": [
-            "Dorado",
-            "1kg",
-            "PLA Silk",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-SILK-1KG-AZAB",
-          "available": true,
-          "price": 35293,
-          "options": [
-            "Azabache",
-            "1kg",
-            "PLA Silk",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-SILK-1KG-PLAT",
-          "available": true,
-          "price": 35293,
-          "options": [
-            "Platino",
-            "1kg",
-            "PLA Silk",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-SILK-1KG-TUTT",
-          "available": true,
-          "price": 35293,
-          "options": [
-            "Tutti Fruti",
-            "1kg",
-            "PLA Silk",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-SILK-1KG-VERDE",
-          "available": true,
-          "price": 35293,
-          "options": [
-            "Verde",
-            "1kg",
-            "PLA Silk",
-            "Premium",
-            "Nacional"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "wetech-grilon3-pla-wood-premium-nacional",
-      "sourceProductId": "GRILON3-PLA WOOD-PREMIUM-NACIONAL",
-      "store": "WeTech",
-      "domain": "shop.wetech.ar",
-      "name": "Grilon3 PLA WOOD Premium",
-      "category": "Filamentos",
-      "price": 47058,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 39999.3,
-      "stock": 51,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Grilon3",
-      "tags": [
-        "Grilon3",
-        "PLA WOOD",
-        "Premium",
-        "Nacional",
-        "Filamentos PLA",
-        "1kg"
-      ],
-      "image": "https://ik.imagekit.io/8x5mvqkfl0/Grilon3/PLA/GRILON3_PLA_WOOD/WOOD%20Caoba%201.jpg?updatedAt=1776799258674",
-      "url": "https://shop.wetech.ar/product/GRILON3-PLA%20WOOD-PREMIUM-NACIONAL",
-      "scrapedFrom": "https://shop.wetech.ar/products",
-      "variants": [
-        {
-          "id": "G3-WOOD-1KG-CAOB",
-          "available": true,
-          "price": 47058,
-          "options": [
-            "Caoba",
-            "1kg",
-            "PLA WOOD",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-WOOD-1KG-CERE",
-          "available": true,
-          "price": 47058,
-          "options": [
-            "Cerezo",
-            "1kg",
-            "PLA WOOD",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-WOOD-1KG-NOGA",
-          "available": true,
-          "price": 47058,
-          "options": [
-            "Nogal",
-            "1kg",
-            "PLA WOOD",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-WOOD-1KG-PINO",
-          "available": true,
-          "price": 47058,
-          "options": [
-            "Pino",
-            "1kg",
-            "PLA WOOD",
-            "Premium",
-            "Nacional"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "wetech-grilon3-pla-zeta-premium-nacional",
-      "sourceProductId": "GRILON3-PLA ZETA-PREMIUM-NACIONAL",
-      "store": "WeTech",
-      "domain": "shop.wetech.ar",
-      "name": "Grilon3 PLA ZETA Premium",
-      "category": "Filamentos",
-      "price": 38822,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 32998.7,
-      "stock": 32,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Grilon3",
-      "tags": [
-        "Grilon3",
-        "PLA ZETA",
-        "Premium",
-        "Nacional",
-        "Filamentos PLA",
-        "1kg"
-      ],
-      "image": "https://ik.imagekit.io/8x5mvqkfl0/Grilon3/PLA/ZETA/zeta_azabache_ml.jpg?updatedAt=1776799449633",
-      "url": "https://shop.wetech.ar/product/GRILON3-PLA%20ZETA-PREMIUM-NACIONAL",
-      "scrapedFrom": "https://shop.wetech.ar/products",
-      "variants": [
-        {
-          "id": "G3-ZETA-1KG-AZAB",
-          "available": true,
-          "price": 38822,
-          "options": [
-            "Azabache",
-            "1kg",
-            "PLA ZETA",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-ZETA-1KG-CLCR",
-          "available": true,
-          "price": 38822,
-          "options": [
-            "Translucido Cristal",
-            "1kg",
-            "PLA ZETA",
-            "Premium",
-            "Nacional"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "wetech-grilon3-ppt-premium-nacional",
-      "sourceProductId": "GRILON3-PPT-PREMIUM-NACIONAL",
-      "store": "WeTech",
-      "domain": "shop.wetech.ar",
-      "name": "Grilon3 PPT Premium",
-      "category": "Filamentos",
-      "price": 44705,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 37999.25,
-      "stock": 14,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Grilon3",
-      "tags": [
-        "Grilon3",
-        "PPT",
-        "Premium",
-        "Nacional",
-        "Filamentos Técnicos",
-        "1kg"
-      ],
-      "image": "https://i.imgur.com/BX0Lb52.png",
-      "url": "https://shop.wetech.ar/product/GRILON3-PPT-PREMIUM-NACIONAL",
-      "scrapedFrom": "https://shop.wetech.ar/products",
-      "variants": [
-        {
-          "id": "G3-PPT-1KG-AMAR",
-          "available": false,
-          "price": 44705,
-          "options": [
-            "Amarillo",
-            "1kg",
-            "PPT",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-PPT-1KG-AZUL",
-          "available": false,
-          "price": 44705,
-          "options": [
-            "Azul",
-            "1kg",
-            "PPT",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-PPT-1KG-ROJO",
-          "available": false,
-          "price": 44705,
-          "options": [
-            "Rojo",
-            "1kg",
-            "PPT",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-PPT-1KG-NATU",
-          "available": true,
-          "price": 44705,
-          "options": [
-            "Translucido Natural",
-            "1kg",
-            "PPT",
-            "Premium",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "G3-PPT-1KG-VERD",
-          "available": true,
-          "price": 44705,
-          "options": [
-            "Verde",
-            "1kg",
-            "PPT",
-            "Premium",
-            "Nacional"
-          ]
-        }
-      ]
-    },
-    {
       "id": "wetech-grilon3-pva-premium-nacional",
       "sourceProductId": "GRILON3-PVA-PREMIUM-NACIONAL",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Grilon3 PVA Premium",
+      "name": "Grilon3 PVA",
       "category": "Filamentos",
       "price": 88234,
       "currency": "ARS",
@@ -10326,7 +10028,7 @@
       "sourceProductId": "GRILON3-TPU SIMPLIFLEX-PREMIUM-NACIONAL",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Grilon3 TPU SimpliFlex Premium",
+      "name": "Grilon3 SimpleFlex TPU",
       "category": "Filamentos",
       "price": 54116,
       "currency": "ARS",
@@ -10435,11 +10137,64 @@
       ]
     },
     {
+      "id": "wetech-grilon3-pla-zeta-premium-nacional",
+      "sourceProductId": "GRILON3-PLA ZETA-PREMIUM-NACIONAL",
+      "store": "WeTech",
+      "domain": "shop.wetech.ar",
+      "name": "Grilon3 Zeta PLA",
+      "category": "Filamentos",
+      "price": 38822,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 32998.7,
+      "stock": 32,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Grilon3",
+      "tags": [
+        "Grilon3",
+        "PLA ZETA",
+        "Premium",
+        "Nacional",
+        "Filamentos PLA",
+        "1kg"
+      ],
+      "image": "https://ik.imagekit.io/8x5mvqkfl0/Grilon3/PLA/ZETA/zeta_azabache_ml.jpg?updatedAt=1776799449633",
+      "url": "https://shop.wetech.ar/product/GRILON3-PLA%20ZETA-PREMIUM-NACIONAL",
+      "scrapedFrom": "https://shop.wetech.ar/products",
+      "variants": [
+        {
+          "id": "G3-ZETA-1KG-AZAB",
+          "available": true,
+          "price": 38822,
+          "options": [
+            "Azabache",
+            "1kg",
+            "PLA ZETA",
+            "Premium",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "G3-ZETA-1KG-CLCR",
+          "available": true,
+          "price": 38822,
+          "options": [
+            "Translucido Cristal",
+            "1kg",
+            "PLA ZETA",
+            "Premium",
+            "Nacional"
+          ]
+        }
+      ]
+    },
+    {
       "id": "wetech-gst3d-abs-basico-nacional",
       "sourceProductId": "GST3D-ABS-BÁSICO-NACIONAL",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "GST3D ABS Básico",
+      "name": "GST3D Black ABS",
       "category": "Filamentos",
       "price": 10064,
       "currency": "ARS",
@@ -10492,7 +10247,7 @@
       "sourceProductId": "GST3D-ASA-BÁSICO-NACIONAL",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "GST3D ASA Básico",
+      "name": "GST3D Black ASA",
       "category": "Filamentos",
       "price": 30587,
       "currency": "ARS",
@@ -10545,13 +10300,13 @@
       "sourceProductId": "GST3D-PETG-BÁSICO-NACIONAL",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "GST3D PetG Básico",
+      "name": "GST3D Black PETG",
       "category": "Filamentos",
       "price": 23528,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 19998.8,
-      "stock": 80,
+      "stock": 67,
       "stockLabel": "En stock",
       "available": true,
       "brand": "GST3D",
@@ -10694,7 +10449,7 @@
       "sourceProductId": "GST3D-PLA GLOW-BÁSICO-NACIONAL",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "GST3D PLA GLOW Básico",
+      "name": "GST3D Black PLA GLOW",
       "category": "Filamentos",
       "price": 25881,
       "currency": "ARS",
@@ -10731,17 +10486,548 @@
       ]
     },
     {
+      "id": "wetech-gst3d-pla-silk-basico-nacional",
+      "sourceProductId": "GST3D-PLA+ SILK-BÁSICO-NACIONAL",
+      "store": "WeTech",
+      "domain": "shop.wetech.ar",
+      "name": "GST3D Black PLA SILK",
+      "category": "Filamentos",
+      "price": 25881,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 21998.85,
+      "stock": 30,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "GST3D",
+      "tags": [
+        "GST3D",
+        "PLA+ Silk",
+        "Básico",
+        "Nacional",
+        "Filamentos PLA",
+        "1kg"
+      ],
+      "image": "https://ik.imagekit.io/8x5mvqkfl0/GST3D/GST3D%20BLACK/SILK/PLA%20SILK%201KG%20YELLOW%20FLUOR_Mesa%20de%20trabajo%201.png?updatedAt=1780589535811",
+      "url": "https://shop.wetech.ar/product/GST3D-PLA%2B%20SILK-B%C3%81SICO-NACIONAL",
+      "scrapedFrom": "https://shop.wetech.ar/products",
+      "variants": [
+        {
+          "id": "GSB-SILK-1KG-AMFL",
+          "available": true,
+          "price": 25881,
+          "options": [
+            "Amarillo Fluo",
+            "1kg",
+            "PLA+ Silk",
+            "Básico",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "GSB-SILK-1KG-AREN",
+          "available": false,
+          "price": 25881,
+          "options": [
+            "Arena",
+            "1kg",
+            "PLA+ Silk",
+            "Básico",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "GSB-SILK-1KG-AZUL",
+          "available": false,
+          "price": 25881,
+          "options": [
+            "Azul",
+            "1kg",
+            "PLA+ Silk",
+            "Básico",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "GSB-SILK-1KG-PERL",
+          "available": false,
+          "price": 25881,
+          "options": [
+            "Blanco Perla",
+            "1kg",
+            "PLA+ Silk",
+            "Básico",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "GSB-SILK-1KG-CELE",
+          "available": false,
+          "price": 25881,
+          "options": [
+            "Celeste",
+            "1kg",
+            "PLA+ Silk",
+            "Básico",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "GSB-SILK-1KG-DORA",
+          "available": false,
+          "price": 25881,
+          "options": [
+            "Dorado",
+            "1kg",
+            "PLA+ Silk",
+            "Básico",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "GSB-SILK-1KG-FUCS",
+          "available": true,
+          "price": 25881,
+          "options": [
+            "Fucsia",
+            "1kg",
+            "PLA+ Silk",
+            "Básico",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "GSB-SILK-1KG-ALUM",
+          "available": false,
+          "price": 25881,
+          "options": [
+            "Gris Aluminio",
+            "1kg",
+            "PLA+ Silk",
+            "Básico",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "GSB-SILK-1KG-GRAP",
+          "available": false,
+          "price": 25881,
+          "options": [
+            "Gris Grafito",
+            "1kg",
+            "PLA+ Silk",
+            "Básico",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "GSB-SILK-1KG-MARB",
+          "available": false,
+          "price": 25881,
+          "options": [
+            "Marmol",
+            "1kg",
+            "PLA+ Silk",
+            "Básico",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "GSB-SILK-1KG-DURA",
+          "available": false,
+          "price": 25881,
+          "options": [
+            "Naranja Durazno",
+            "1kg",
+            "PLA+ Silk",
+            "Básico",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "GSB-SILK-1KG-NAFL",
+          "available": false,
+          "price": 25881,
+          "options": [
+            "Naranja Fluo",
+            "1kg",
+            "PLA+ Silk",
+            "Básico",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "GSB-SILK-1KG-ROJO",
+          "available": false,
+          "price": 25881,
+          "options": [
+            "Rojo",
+            "1kg",
+            "PLA+ Silk",
+            "Básico",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "GSB-SILK-1KG-RODO",
+          "available": true,
+          "price": 25881,
+          "options": [
+            "Rosa Oro",
+            "1kg",
+            "PLA+ Silk",
+            "Básico",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "GSB-SILK-1KG-VERD",
+          "available": false,
+          "price": 25881,
+          "options": [
+            "Verde",
+            "1kg",
+            "PLA+ Silk",
+            "Básico",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "GSB-SILK-1KG-VEFL",
+          "available": true,
+          "price": 25881,
+          "options": [
+            "Verde Fluo",
+            "1kg",
+            "PLA+ Silk",
+            "Básico",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "GSB-SILK-1KG-VEMI",
+          "available": false,
+          "price": 25881,
+          "options": [
+            "Verde Militar",
+            "1kg",
+            "PLA+ Silk",
+            "Básico",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "GSB-SILK-1KG-OLIV",
+          "available": true,
+          "price": 25881,
+          "options": [
+            "Verde Oliva",
+            "1kg",
+            "PLA+ Silk",
+            "Básico",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "GSB-SILK-1KG-PURP",
+          "available": false,
+          "price": 25881,
+          "options": [
+            "Purpura",
+            "1kg",
+            "PLA+ Silk",
+            "Básico",
+            "Nacional"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wetech-gst3d-pla-silk-duo-basico-nacional",
+      "sourceProductId": "GST3D-PLA+ SILK DUO-BÁSICO-NACIONAL",
+      "store": "WeTech",
+      "domain": "shop.wetech.ar",
+      "name": "GST3D Black PLA SILK BICOLOR",
+      "category": "Filamentos",
+      "price": 25881,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 21998.85,
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "GST3D",
+      "tags": [
+        "GST3D",
+        "PLA+ Silk DUO",
+        "Básico",
+        "Nacional",
+        "Filamentos PLA",
+        "1kg"
+      ],
+      "image": "https://ik.imagekit.io/8x5mvqkfl0/GST3D/GST3D%20BLACK/BICOLOR%20SILK/PLA%201KG%20BISILK%20ARGENTO_Mesa%20de%20trabajo%201.png?updatedAt=1781117191821",
+      "url": "https://shop.wetech.ar/product/GST3D-PLA%2B%20SILK%20DUO-B%C3%81SICO-NACIONAL",
+      "scrapedFrom": "https://shop.wetech.ar/products",
+      "variants": [
+        {
+          "id": "GSB-SIDU-1KG-ARGE",
+          "available": false,
+          "price": 25881,
+          "options": [
+            "Celeste + Blanco Argento",
+            "1kg",
+            "PLA+ Silk DUO",
+            "Básico",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "GSB-SIDU-1KG-FUDO",
+          "available": false,
+          "price": 25881,
+          "options": [
+            "Fucsia + Dorado",
+            "1kg",
+            "PLA+ Silk DUO",
+            "Básico",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "GSB-SIDU-1KG-GRDO",
+          "available": false,
+          "price": 25881,
+          "options": [
+            "Grafito + Dorado",
+            "1kg",
+            "PLA+ Silk DUO",
+            "Básico",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "GSB-SIDU-1KG-GRPE",
+          "available": false,
+          "price": 25881,
+          "options": [
+            "Grafito + Perla",
+            "1kg",
+            "PLA+ Silk DUO",
+            "Básico",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "GSB-SIDU-1KG-GRPU",
+          "available": false,
+          "price": 25881,
+          "options": [
+            "Grafito + Purpura",
+            "1kg",
+            "PLA+ Silk DUO",
+            "Básico",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "GSB-SIDU-1KG-GRRO",
+          "available": false,
+          "price": 25881,
+          "options": [
+            "Grafito + Rojo",
+            "1kg",
+            "PLA+ Silk DUO",
+            "Básico",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "GSB-SIDU-1KG-GRVE",
+          "available": false,
+          "price": 25881,
+          "options": [
+            "Grafito + Verde",
+            "1kg",
+            "PLA+ Silk DUO",
+            "Básico",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "GSB-SIDU-1KG-NADO",
+          "available": false,
+          "price": 25881,
+          "options": [
+            "Naranja + Dorado",
+            "1kg",
+            "PLA+ Silk DUO",
+            "Básico",
+            "Nacional"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wetech-gst3d-pla-silk-trio-basico-nacional",
+      "sourceProductId": "GST3D-PLA+ SILK TRIO-BÁSICO-NACIONAL",
+      "store": "WeTech",
+      "domain": "shop.wetech.ar",
+      "name": "GST3D Black PLA SILK TRICOLOR",
+      "category": "Filamentos",
+      "price": 25881,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 21998.85,
+      "stock": 33,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "GST3D",
+      "tags": [
+        "GST3D",
+        "PLA+ Silk TRIO",
+        "Básico",
+        "Nacional",
+        "Filamentos PLA",
+        "1kg"
+      ],
+      "image": "https://ik.imagekit.io/8x5mvqkfl0/GST3D/GST3D%20BLACK/TRICOLOR%20SILK/PLA%201KG%20TRISILK%20BLUE%20YELLOW%20GREEN_Mesa%20de%20trabajo%201.png?updatedAt=1780589535739",
+      "url": "https://shop.wetech.ar/product/GST3D-PLA%2B%20SILK%20TRIO-B%C3%81SICO-NACIONAL",
+      "scrapedFrom": "https://shop.wetech.ar/products",
+      "variants": [
+        {
+          "id": "GSB-SITR-1KG-AZVEAF",
+          "available": false,
+          "price": 25881,
+          "options": [
+            "Azul + Verde + Amarillo Fluo",
+            "1kg",
+            "PLA+ Silk TRIO",
+            "Básico",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "GSB-SITR-1KG-DOPUAZ",
+          "available": true,
+          "price": 25881,
+          "options": [
+            "Dorado + Purpura + Azul",
+            "1kg",
+            "PLA+ Silk TRIO",
+            "Básico",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "GSB-SITR-1KG-DOROAZ",
+          "available": true,
+          "price": 25881,
+          "options": [
+            "Dorado + Rojo + Azul",
+            "1kg",
+            "PLA+ Silk TRIO",
+            "Básico",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "GSB-SITR-1KG-DOVEFU",
+          "available": false,
+          "price": 25881,
+          "options": [
+            "Dorado + Verde + Fucsia",
+            "1kg",
+            "PLA+ Silk TRIO",
+            "Básico",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "GSB-SITR-1KG-DOVEPU",
+          "available": false,
+          "price": 25881,
+          "options": [
+            "Dorado + Verde + Purpura",
+            "1kg",
+            "PLA+ Silk TRIO",
+            "Básico",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "GSB-SITR-1KG-FUDONF",
+          "available": false,
+          "price": 25881,
+          "options": [
+            "Fucsia + Dorado + Naranja Fluo",
+            "1kg",
+            "PLA+ Silk TRIO",
+            "Básico",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "GSB-SITR-1KG-LAMB",
+          "available": true,
+          "price": 25881,
+          "options": [
+            "Lambo Verde + Azul + Fucsia",
+            "1kg",
+            "PLA+ Silk TRIO",
+            "Básico",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "GSB-SITR-1KG-RODONAF",
+          "available": false,
+          "price": 25881,
+          "options": [
+            "Rojo + Dorado + Naranja Fluo",
+            "1kg",
+            "PLA+ Silk TRIO",
+            "Básico",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "GSB-SITR-1KG-VEPUAZ",
+          "available": true,
+          "price": 25881,
+          "options": [
+            "Verde + Purpura + Azul",
+            "1kg",
+            "PLA+ Silk TRIO",
+            "Básico",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "GSB-SITR-1KG-VEROAZ",
+          "available": false,
+          "price": 25881,
+          "options": [
+            "Verde + Rojo + Azul",
+            "1kg",
+            "PLA+ Silk TRIO",
+            "Básico",
+            "Nacional"
+          ]
+        }
+      ]
+    },
+    {
       "id": "wetech-gst3d-pla-basico-nacional",
       "sourceProductId": "GST3D-PLA+-BÁSICO-NACIONAL",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "GST3D PLA+ Básico",
+      "name": "GST3D Black PLA+",
       "category": "Filamentos",
       "price": 23528,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 19998.8,
-      "stock": 489,
+      "stock": 469,
       "stockLabel": "En stock",
       "available": true,
       "brand": "GST3D",
@@ -11240,542 +11526,11 @@
       ]
     },
     {
-      "id": "wetech-gst3d-pla-silk-basico-nacional",
-      "sourceProductId": "GST3D-PLA+ SILK-BÁSICO-NACIONAL",
-      "store": "WeTech",
-      "domain": "shop.wetech.ar",
-      "name": "GST3D PLA+ Silk Básico",
-      "category": "Filamentos",
-      "price": 25881,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 21998.85,
-      "stock": 31,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "GST3D",
-      "tags": [
-        "GST3D",
-        "PLA+ Silk",
-        "Básico",
-        "Nacional",
-        "Filamentos PLA",
-        "1kg"
-      ],
-      "image": "https://ik.imagekit.io/8x5mvqkfl0/GST3D/GST3D%20BLACK/SILK/PLA%20SILK%201KG%20YELLOW%20FLUOR_Mesa%20de%20trabajo%201.png?updatedAt=1780589535811",
-      "url": "https://shop.wetech.ar/product/GST3D-PLA%2B%20SILK-B%C3%81SICO-NACIONAL",
-      "scrapedFrom": "https://shop.wetech.ar/products",
-      "variants": [
-        {
-          "id": "GSB-SILK-1KG-AMFL",
-          "available": true,
-          "price": 25881,
-          "options": [
-            "Amarillo Fluo",
-            "1kg",
-            "PLA+ Silk",
-            "Básico",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "GSB-SILK-1KG-AREN",
-          "available": false,
-          "price": 25881,
-          "options": [
-            "Arena",
-            "1kg",
-            "PLA+ Silk",
-            "Básico",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "GSB-SILK-1KG-AZUL",
-          "available": false,
-          "price": 25881,
-          "options": [
-            "Azul",
-            "1kg",
-            "PLA+ Silk",
-            "Básico",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "GSB-SILK-1KG-PERL",
-          "available": false,
-          "price": 25881,
-          "options": [
-            "Blanco Perla",
-            "1kg",
-            "PLA+ Silk",
-            "Básico",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "GSB-SILK-1KG-CELE",
-          "available": false,
-          "price": 25881,
-          "options": [
-            "Celeste",
-            "1kg",
-            "PLA+ Silk",
-            "Básico",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "GSB-SILK-1KG-DORA",
-          "available": false,
-          "price": 25881,
-          "options": [
-            "Dorado",
-            "1kg",
-            "PLA+ Silk",
-            "Básico",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "GSB-SILK-1KG-FUCS",
-          "available": true,
-          "price": 25881,
-          "options": [
-            "Fucsia",
-            "1kg",
-            "PLA+ Silk",
-            "Básico",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "GSB-SILK-1KG-ALUM",
-          "available": false,
-          "price": 25881,
-          "options": [
-            "Gris Aluminio",
-            "1kg",
-            "PLA+ Silk",
-            "Básico",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "GSB-SILK-1KG-GRAP",
-          "available": false,
-          "price": 25881,
-          "options": [
-            "Gris Grafito",
-            "1kg",
-            "PLA+ Silk",
-            "Básico",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "GSB-SILK-1KG-MARB",
-          "available": false,
-          "price": 25881,
-          "options": [
-            "Marmol",
-            "1kg",
-            "PLA+ Silk",
-            "Básico",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "GSB-SILK-1KG-DURA",
-          "available": false,
-          "price": 25881,
-          "options": [
-            "Naranja Durazno",
-            "1kg",
-            "PLA+ Silk",
-            "Básico",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "GSB-SILK-1KG-NAFL",
-          "available": false,
-          "price": 25881,
-          "options": [
-            "Naranja Fluo",
-            "1kg",
-            "PLA+ Silk",
-            "Básico",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "GSB-SILK-1KG-ROJO",
-          "available": false,
-          "price": 25881,
-          "options": [
-            "Rojo",
-            "1kg",
-            "PLA+ Silk",
-            "Básico",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "GSB-SILK-1KG-RODO",
-          "available": true,
-          "price": 25881,
-          "options": [
-            "Rosa Oro",
-            "1kg",
-            "PLA+ Silk",
-            "Básico",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "GSB-SILK-1KG-VERD",
-          "available": false,
-          "price": 25881,
-          "options": [
-            "Verde",
-            "1kg",
-            "PLA+ Silk",
-            "Básico",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "GSB-SILK-1KG-VEFL",
-          "available": true,
-          "price": 25881,
-          "options": [
-            "Verde Fluo",
-            "1kg",
-            "PLA+ Silk",
-            "Básico",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "GSB-SILK-1KG-VEMI",
-          "available": false,
-          "price": 25881,
-          "options": [
-            "Verde Militar",
-            "1kg",
-            "PLA+ Silk",
-            "Básico",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "GSB-SILK-1KG-OLIV",
-          "available": true,
-          "price": 25881,
-          "options": [
-            "Verde Oliva",
-            "1kg",
-            "PLA+ Silk",
-            "Básico",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "GSB-SILK-1KG-PURP",
-          "available": false,
-          "price": 25881,
-          "options": [
-            "Purpura",
-            "1kg",
-            "PLA+ Silk",
-            "Básico",
-            "Nacional"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "wetech-gst3d-pla-silk-duo-basico-nacional",
-      "sourceProductId": "GST3D-PLA+ SILK DUO-BÁSICO-NACIONAL",
-      "store": "WeTech",
-      "domain": "shop.wetech.ar",
-      "name": "GST3D PLA+ Silk DUO Básico",
-      "category": "Filamentos",
-      "price": 25881,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 21998.85,
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "GST3D",
-      "tags": [
-        "GST3D",
-        "PLA+ Silk DUO",
-        "Básico",
-        "Nacional",
-        "Filamentos PLA",
-        "1kg"
-      ],
-      "image": "https://ik.imagekit.io/8x5mvqkfl0/GST3D/GST3D%20BLACK/BICOLOR%20SILK/PLA%201KG%20BISILK%20ARGENTO_Mesa%20de%20trabajo%201.png?updatedAt=1781117191821",
-      "url": "https://shop.wetech.ar/product/GST3D-PLA%2B%20SILK%20DUO-B%C3%81SICO-NACIONAL",
-      "scrapedFrom": "https://shop.wetech.ar/products",
-      "variants": [
-        {
-          "id": "GSB-SIDU-1KG-ARGE",
-          "available": false,
-          "price": 25881,
-          "options": [
-            "Celeste + Blanco Argento",
-            "1kg",
-            "PLA+ Silk DUO",
-            "Básico",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "GSB-SIDU-1KG-FUDO",
-          "available": false,
-          "price": 25881,
-          "options": [
-            "Fucsia + Dorado",
-            "1kg",
-            "PLA+ Silk DUO",
-            "Básico",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "GSB-SIDU-1KG-GRDO",
-          "available": false,
-          "price": 25881,
-          "options": [
-            "Grafito + Dorado",
-            "1kg",
-            "PLA+ Silk DUO",
-            "Básico",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "GSB-SIDU-1KG-GRPE",
-          "available": false,
-          "price": 25881,
-          "options": [
-            "Grafito + Perla",
-            "1kg",
-            "PLA+ Silk DUO",
-            "Básico",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "GSB-SIDU-1KG-GRPU",
-          "available": false,
-          "price": 25881,
-          "options": [
-            "Grafito + Purpura",
-            "1kg",
-            "PLA+ Silk DUO",
-            "Básico",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "GSB-SIDU-1KG-GRRO",
-          "available": false,
-          "price": 25881,
-          "options": [
-            "Grafito + Rojo",
-            "1kg",
-            "PLA+ Silk DUO",
-            "Básico",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "GSB-SIDU-1KG-GRVE",
-          "available": false,
-          "price": 25881,
-          "options": [
-            "Grafito + Verde",
-            "1kg",
-            "PLA+ Silk DUO",
-            "Básico",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "GSB-SIDU-1KG-NADO",
-          "available": false,
-          "price": 25881,
-          "options": [
-            "Naranja + Dorado",
-            "1kg",
-            "PLA+ Silk DUO",
-            "Básico",
-            "Nacional"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "wetech-gst3d-pla-silk-trio-basico-nacional",
-      "sourceProductId": "GST3D-PLA+ SILK TRIO-BÁSICO-NACIONAL",
-      "store": "WeTech",
-      "domain": "shop.wetech.ar",
-      "name": "GST3D PLA+ Silk TRIO Básico",
-      "category": "Filamentos",
-      "price": 25881,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 21998.85,
-      "stock": 52,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "GST3D",
-      "tags": [
-        "GST3D",
-        "PLA+ Silk TRIO",
-        "Básico",
-        "Nacional",
-        "Filamentos PLA",
-        "1kg"
-      ],
-      "image": "https://ik.imagekit.io/8x5mvqkfl0/GST3D/GST3D%20BLACK/TRICOLOR%20SILK/PLA%201KG%20TRISILK%20BLUE%20YELLOW%20GREEN_Mesa%20de%20trabajo%201.png?updatedAt=1780589535739",
-      "url": "https://shop.wetech.ar/product/GST3D-PLA%2B%20SILK%20TRIO-B%C3%81SICO-NACIONAL",
-      "scrapedFrom": "https://shop.wetech.ar/products",
-      "variants": [
-        {
-          "id": "GSB-SITR-1KG-AZVEAF",
-          "available": false,
-          "price": 25881,
-          "options": [
-            "Azul + Verde + Amarillo Fluo",
-            "1kg",
-            "PLA+ Silk TRIO",
-            "Básico",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "GSB-SITR-1KG-DOPUAZ",
-          "available": true,
-          "price": 25881,
-          "options": [
-            "Dorado + Purpura + Azul",
-            "1kg",
-            "PLA+ Silk TRIO",
-            "Básico",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "GSB-SITR-1KG-DOROAZ",
-          "available": true,
-          "price": 25881,
-          "options": [
-            "Dorado + Rojo + Azul",
-            "1kg",
-            "PLA+ Silk TRIO",
-            "Básico",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "GSB-SITR-1KG-DOVEFU",
-          "available": false,
-          "price": 25881,
-          "options": [
-            "Dorado + Verde + Fucsia",
-            "1kg",
-            "PLA+ Silk TRIO",
-            "Básico",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "GSB-SITR-1KG-DOVEPU",
-          "available": false,
-          "price": 25881,
-          "options": [
-            "Dorado + Verde + Purpura",
-            "1kg",
-            "PLA+ Silk TRIO",
-            "Básico",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "GSB-SITR-1KG-FUDONF",
-          "available": false,
-          "price": 25881,
-          "options": [
-            "Fucsia + Dorado + Naranja Fluo",
-            "1kg",
-            "PLA+ Silk TRIO",
-            "Básico",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "GSB-SITR-1KG-LAMB",
-          "available": true,
-          "price": 25881,
-          "options": [
-            "Lambo Verde + Azul + Fucsia",
-            "1kg",
-            "PLA+ Silk TRIO",
-            "Básico",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "GSB-SITR-1KG-RODONAF",
-          "available": false,
-          "price": 25881,
-          "options": [
-            "Rojo + Dorado + Naranja Fluo",
-            "1kg",
-            "PLA+ Silk TRIO",
-            "Básico",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "GSB-SITR-1KG-VEPUAZ",
-          "available": true,
-          "price": 25881,
-          "options": [
-            "Verde + Purpura + Azul",
-            "1kg",
-            "PLA+ Silk TRIO",
-            "Básico",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "GSB-SITR-1KG-VEROAZ",
-          "available": false,
-          "price": 25881,
-          "options": [
-            "Verde + Rojo + Azul",
-            "1kg",
-            "PLA+ Silk TRIO",
-            "Básico",
-            "Nacional"
-          ]
-        }
-      ]
-    },
-    {
       "id": "wetech-gst3d-tpu-basico-nacional",
       "sourceProductId": "GST3D-TPU-BÁSICO-NACIONAL",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "GST3D TPU Básico",
+      "name": "GST3D Black TPU",
       "category": "Filamentos",
       "price": 23528,
       "currency": "ARS",
@@ -11872,17 +11627,332 @@
       ]
     },
     {
+      "id": "wetech-hellbot-pla-rainbow-premium-importado",
+      "sourceProductId": "HELLBOT-PLA RAINBOW-PREMIUM-IMPORTADO",
+      "store": "WeTech",
+      "domain": "shop.wetech.ar",
+      "name": "Hellbot Ecofila PLA RAINBOW",
+      "category": "Filamentos",
+      "price": 47058,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 39999.3,
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot",
+        "PLA Rainbow",
+        "Premium",
+        "Importado",
+        "Filamentos PLA",
+        "1kg"
+      ],
+      "image": "https://ik.imagekit.io/8x5mvqkfl0/HELLBOT/RAINBOW/PLA%20RAINBOW%201KG%20CLASSIC_Mesa%20de%20trabajo%201.png?updatedAt=1780680139890",
+      "url": "https://shop.wetech.ar/product/HELLBOT-PLA%20RAINBOW-PREMIUM-IMPORTADO",
+      "scrapedFrom": "https://shop.wetech.ar/products",
+      "variants": [
+        {
+          "id": "HB-RAIN-1KG-CLAS",
+          "available": false,
+          "price": 47058,
+          "options": [
+            "Multicolor Classic",
+            "1kg",
+            "PLA Rainbow",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "HB-RAIN-1KG-RAMA",
+          "available": false,
+          "price": 47058,
+          "options": [
+            "Multicolor Matte",
+            "1kg",
+            "PLA Rainbow",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "HB-RAIN-1KG-SILK",
+          "available": false,
+          "price": 47058,
+          "options": [
+            "Multicolor Silk",
+            "1kg",
+            "PLA Rainbow",
+            "Premium",
+            "Importado"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wetech-hellbot-pla-silk-premium-importado",
+      "sourceProductId": "HELLBOT-PLA SILK-PREMIUM-IMPORTADO",
+      "store": "WeTech",
+      "domain": "shop.wetech.ar",
+      "name": "Hellbot Ecofila PLA SILK",
+      "category": "Filamentos",
+      "price": 35293,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 29999.05,
+      "stock": 15,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot",
+        "PLA Silk",
+        "Premium",
+        "Importado",
+        "Filamentos PLA",
+        "1kg"
+      ],
+      "image": "https://ik.imagekit.io/8x5mvqkfl0/HELLBOT/PLA%20SILK/PLA%20SILK%201KG%20ORO.png?updatedAt=1787350420603",
+      "url": "https://shop.wetech.ar/product/HELLBOT-PLA%20SILK-PREMIUM-IMPORTADO",
+      "scrapedFrom": "https://shop.wetech.ar/products",
+      "variants": [
+        {
+          "id": "HB-SILK-1KG-AMOR",
+          "available": false,
+          "price": 35293,
+          "options": [
+            "Amarillo Oro",
+            "1kg",
+            "PLA Silk",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "HB-SILK-1KG-AZEL",
+          "available": false,
+          "price": 35293,
+          "options": [
+            "Azul Electrico",
+            "1kg",
+            "PLA Silk",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "HB-SILK-1KG-AZOS",
+          "available": false,
+          "price": 35293,
+          "options": [
+            "Azul Oscuro",
+            "1kg",
+            "PLA Silk",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "HB-SILK-1KG-BLAN",
+          "available": false,
+          "price": 35293,
+          "options": [
+            "Blanco",
+            "1kg",
+            "PLA Silk",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "HB-SILK-1KG-COBR",
+          "available": false,
+          "price": 35293,
+          "options": [
+            "Cobre",
+            "1kg",
+            "PLA Silk",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "HB-SILK-1KG-ORO",
+          "available": false,
+          "price": 35293,
+          "options": [
+            "Oro Copa del Mundo",
+            "1kg",
+            "PLA Silk",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "HB-SILK-1KG-GRPL",
+          "available": true,
+          "price": 35293,
+          "options": [
+            "Gris Plata",
+            "1kg",
+            "PLA Silk",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "HB-SILK-1KG-NARA",
+          "available": false,
+          "price": 35293,
+          "options": [
+            "Naranja",
+            "1kg",
+            "PLA Silk",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "HB-SILK-1KG-ROJO",
+          "available": true,
+          "price": 35293,
+          "options": [
+            "Rojo",
+            "1kg",
+            "PLA Silk",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "HB-SILK-1KG-VERD",
+          "available": false,
+          "price": 35293,
+          "options": [
+            "Verde",
+            "1kg",
+            "PLA Silk",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "HB-SILK-1KG-VIOL",
+          "available": true,
+          "price": 35293,
+          "options": [
+            "Violeta",
+            "1kg",
+            "PLA Silk",
+            "Premium",
+            "Importado"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wetech-hellbot-pla-silk-duo-premium-importado",
+      "sourceProductId": "HELLBOT-PLA+ SILK DUO-PREMIUM-IMPORTADO",
+      "store": "WeTech",
+      "domain": "shop.wetech.ar",
+      "name": "Hellbot Ecofila PLA SILK BICOLOR",
+      "category": "Filamentos",
+      "price": 35293,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 29999.05,
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot",
+        "PLA+ Silk DUO",
+        "Premium",
+        "Importado",
+        "Filamentos PLA",
+        "1kg"
+      ],
+      "image": "https://ik.imagekit.io/8x5mvqkfl0/HELLBOT/PLA%20SILK%20DUO/PLA%20SILK%20DUO%201KG%20AMARILLO-ROSA.png?updatedAt=1785178692361",
+      "url": "https://shop.wetech.ar/product/HELLBOT-PLA%2B%20SILK%20DUO-PREMIUM-IMPORTADO",
+      "scrapedFrom": "https://shop.wetech.ar/products",
+      "variants": [
+        {
+          "id": "HB-SIDU-1KG-AMRO",
+          "available": false,
+          "price": 35293,
+          "options": [
+            "Amarillo+Rosa",
+            "1kg",
+            "PLA+ Silk DUO",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "HB-SIDU-1KG-AZRO",
+          "available": false,
+          "price": 35293,
+          "options": [
+            "Azul+Rojo",
+            "1kg",
+            "PLA+ Silk DUO",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "HB-SIDU-1KG-AZVE",
+          "available": false,
+          "price": 35293,
+          "options": [
+            "Azul+Verde",
+            "1kg",
+            "PLA+ Silk DUO",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "HB-SIDU-1KG-CEVI",
+          "available": false,
+          "price": 35293,
+          "options": [
+            "Celeste+Violeta",
+            "1kg",
+            "PLA+ Silk DUO",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "HB-SIDU-1KG-ORRO",
+          "available": false,
+          "price": 35293,
+          "options": [
+            "Oro+Rojo",
+            "1kg",
+            "PLA+ Silk DUO",
+            "Premium",
+            "Importado"
+          ]
+        }
+      ]
+    },
+    {
       "id": "wetech-hellbot-pla-basico-nacional",
       "sourceProductId": "HELLBOT-PLA-BÁSICO-NACIONAL",
       "store": "WeTech",
       "domain": "shop.wetech.ar",
-      "name": "Hellbot PLA Básico",
+      "name": "Hellbot Lock PLA",
       "category": "Filamentos",
       "price": 23528,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 19998.8,
-      "stock": 353,
+      "stock": 335,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -12364,321 +12434,6 @@
             "PLA",
             "Básico",
             "Nacional"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "wetech-hellbot-pla-rainbow-premium-importado",
-      "sourceProductId": "HELLBOT-PLA RAINBOW-PREMIUM-IMPORTADO",
-      "store": "WeTech",
-      "domain": "shop.wetech.ar",
-      "name": "Hellbot PLA Rainbow Premium",
-      "category": "Filamentos",
-      "price": 47058,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 39999.3,
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Hellbot",
-      "tags": [
-        "Hellbot",
-        "PLA Rainbow",
-        "Premium",
-        "Importado",
-        "Filamentos PLA",
-        "1kg"
-      ],
-      "image": "https://ik.imagekit.io/8x5mvqkfl0/HELLBOT/RAINBOW/PLA%20RAINBOW%201KG%20CLASSIC_Mesa%20de%20trabajo%201.png?updatedAt=1780680139890",
-      "url": "https://shop.wetech.ar/product/HELLBOT-PLA%20RAINBOW-PREMIUM-IMPORTADO",
-      "scrapedFrom": "https://shop.wetech.ar/products",
-      "variants": [
-        {
-          "id": "HB-RAIN-1KG-CLAS",
-          "available": false,
-          "price": 47058,
-          "options": [
-            "Multicolor Classic",
-            "1kg",
-            "PLA Rainbow",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "HB-RAIN-1KG-RAMA",
-          "available": false,
-          "price": 47058,
-          "options": [
-            "Multicolor Matte",
-            "1kg",
-            "PLA Rainbow",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "HB-RAIN-1KG-SILK",
-          "available": false,
-          "price": 47058,
-          "options": [
-            "Multicolor Silk",
-            "1kg",
-            "PLA Rainbow",
-            "Premium",
-            "Importado"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "wetech-hellbot-pla-silk-premium-importado",
-      "sourceProductId": "HELLBOT-PLA SILK-PREMIUM-IMPORTADO",
-      "store": "WeTech",
-      "domain": "shop.wetech.ar",
-      "name": "Hellbot PLA Silk Premium",
-      "category": "Filamentos",
-      "price": 35293,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 29999.05,
-      "stock": 16,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Hellbot",
-      "tags": [
-        "Hellbot",
-        "PLA Silk",
-        "Premium",
-        "Importado",
-        "Filamentos PLA",
-        "1kg"
-      ],
-      "image": "https://ik.imagekit.io/8x5mvqkfl0/HELLBOT/PLA%20SILK/PLA%20SILK%201KG%20ORO.png?updatedAt=1787350420603",
-      "url": "https://shop.wetech.ar/product/HELLBOT-PLA%20SILK-PREMIUM-IMPORTADO",
-      "scrapedFrom": "https://shop.wetech.ar/products",
-      "variants": [
-        {
-          "id": "HB-SILK-1KG-AMOR",
-          "available": false,
-          "price": 35293,
-          "options": [
-            "Amarillo Oro",
-            "1kg",
-            "PLA Silk",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "HB-SILK-1KG-AZEL",
-          "available": false,
-          "price": 35293,
-          "options": [
-            "Azul Electrico",
-            "1kg",
-            "PLA Silk",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "HB-SILK-1KG-AZOS",
-          "available": false,
-          "price": 35293,
-          "options": [
-            "Azul Oscuro",
-            "1kg",
-            "PLA Silk",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "HB-SILK-1KG-BLAN",
-          "available": false,
-          "price": 35293,
-          "options": [
-            "Blanco",
-            "1kg",
-            "PLA Silk",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "HB-SILK-1KG-COBR",
-          "available": false,
-          "price": 35293,
-          "options": [
-            "Cobre",
-            "1kg",
-            "PLA Silk",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "HB-SILK-1KG-ORO",
-          "available": false,
-          "price": 35293,
-          "options": [
-            "Oro Copa del Mundo",
-            "1kg",
-            "PLA Silk",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "HB-SILK-1KG-GRPL",
-          "available": true,
-          "price": 35293,
-          "options": [
-            "Gris Plata",
-            "1kg",
-            "PLA Silk",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "HB-SILK-1KG-NARA",
-          "available": false,
-          "price": 35293,
-          "options": [
-            "Naranja",
-            "1kg",
-            "PLA Silk",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "HB-SILK-1KG-ROJO",
-          "available": true,
-          "price": 35293,
-          "options": [
-            "Rojo",
-            "1kg",
-            "PLA Silk",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "HB-SILK-1KG-VERD",
-          "available": false,
-          "price": 35293,
-          "options": [
-            "Verde",
-            "1kg",
-            "PLA Silk",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "HB-SILK-1KG-VIOL",
-          "available": true,
-          "price": 35293,
-          "options": [
-            "Violeta",
-            "1kg",
-            "PLA Silk",
-            "Premium",
-            "Importado"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "wetech-hellbot-pla-silk-duo-premium-importado",
-      "sourceProductId": "HELLBOT-PLA+ SILK DUO-PREMIUM-IMPORTADO",
-      "store": "WeTech",
-      "domain": "shop.wetech.ar",
-      "name": "Hellbot PLA+ Silk DUO Premium",
-      "category": "Filamentos",
-      "price": 35293,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 29999.05,
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Hellbot",
-      "tags": [
-        "Hellbot",
-        "PLA+ Silk DUO",
-        "Premium",
-        "Importado",
-        "Filamentos PLA",
-        "1kg"
-      ],
-      "image": "https://ik.imagekit.io/8x5mvqkfl0/HELLBOT/PLA%20SILK%20DUO/PLA%20SILK%20DUO%201KG%20AMARILLO-ROSA.png?updatedAt=1785178692361",
-      "url": "https://shop.wetech.ar/product/HELLBOT-PLA%2B%20SILK%20DUO-PREMIUM-IMPORTADO",
-      "scrapedFrom": "https://shop.wetech.ar/products",
-      "variants": [
-        {
-          "id": "HB-SIDU-1KG-AMRO",
-          "available": false,
-          "price": 35293,
-          "options": [
-            "Amarillo+Rosa",
-            "1kg",
-            "PLA+ Silk DUO",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "HB-SIDU-1KG-AZRO",
-          "available": false,
-          "price": 35293,
-          "options": [
-            "Azul+Rojo",
-            "1kg",
-            "PLA+ Silk DUO",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "HB-SIDU-1KG-AZVE",
-          "available": false,
-          "price": 35293,
-          "options": [
-            "Azul+Verde",
-            "1kg",
-            "PLA+ Silk DUO",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "HB-SIDU-1KG-CEVI",
-          "available": false,
-          "price": 35293,
-          "options": [
-            "Celeste+Violeta",
-            "1kg",
-            "PLA+ Silk DUO",
-            "Premium",
-            "Importado"
-          ]
-        },
-        {
-          "id": "HB-SIDU-1KG-ORRO",
-          "available": false,
-          "price": 35293,
-          "options": [
-            "Oro+Rojo",
-            "1kg",
-            "PLA+ Silk DUO",
-            "Premium",
-            "Importado"
           ]
         }
       ]
@@ -13474,7 +13229,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 2974.12,
-      "stock": 18,
+      "stock": 16,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -15244,7 +14999,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 21674.06,
-      "stock": 19,
+      "stock": 18,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,

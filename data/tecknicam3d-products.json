@@ -4,8 +4,8 @@
     "domain": "tecknicam3d.com.ar",
     "baseUrl": "https://www.tecknicam3d.com.ar"
   },
-  "scrapedAt": "2026-10-21T13:36:46.828Z",
-  "count": 217,
+  "scrapedAt": "2026-10-22T13:38:26.720Z",
+  "count": 218,
   "pages": [
     {
       "page": 1,
@@ -29,7 +29,7 @@
       "url": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock",
       "found": 16,
       "added": 16,
-      "totalPages": 39
+      "totalPages": 38
     },
     {
       "page": 2,
@@ -37,7 +37,7 @@
       "url": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock&page=2",
       "found": 16,
       "added": 16,
-      "totalPages": 39
+      "totalPages": 38
     },
     {
       "page": 1,
@@ -68,7 +68,7 @@
       "path": "/productos?categoria=4-laser",
       "url": "https://www.tecknicam3d.com.ar/productos?categoria=4-laser&page=2",
       "found": 16,
-      "added": 15,
+      "added": 16,
       "totalPages": 5
     },
     {
@@ -422,8 +422,8 @@
       "variants": []
     },
     {
-      "id": "tecknicam3d-a2l-combo-330x320x325-mm-impresora-3d-fdm-bambu-lab",
-      "sourceProductId": "a2l-combo-330x320x325-mm-impresora-3d-fdm-bambu-lab",
+      "id": "tecknicam3d-3512",
+      "sourceProductId": "3512",
       "store": "Tecknicam 3D",
       "domain": "tecknicam3d.com.ar",
       "name": "A2L COMBO 330x320x325 mm Impresora 3D FDM Bambu Lab",
@@ -432,10 +432,12 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 1741255,
-      "purchaseModes": [],
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
+      "available": true,
       "brand": "Bambu Lab",
       "tags": [
         "Bambu Lab"
@@ -594,32 +596,6 @@
       "variants": []
     },
     {
-      "id": "tecknicam3d-3149",
-      "sourceProductId": "3149",
-      "store": "Tecknicam 3D",
-      "domain": "tecknicam3d.com.ar",
-      "name": "A1 Combo usada 256x256x256mm Impresora 3D FDM Bambu Lab USADA 30 dias de garantía, se retira armada en SUC MORON",
-      "category": "Impresoras",
-      "price": 850000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 807500,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
-      "available": true,
-      "brand": "Bambu Lab",
-      "tags": [
-        "Bambu Lab"
-      ],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/img_6a4d0ea0b732a2.48867799.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/a1-combo-usada-256x256x256mm-impresora-3d-fdm-bambu-lab-usada-30-dias-de-garantia-se-retira-armada-en-suc-moron",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=1-impresoras-3d&page=2",
-      "variants": []
-    },
-    {
       "id": "tecknicam3d-creator-5-pro-256-256-256mm-impresora-3d-flashforge",
       "sourceProductId": "creator-5-pro-256-256-256mm-impresora-3d-flashforge",
       "store": "Tecknicam 3D",
@@ -668,6 +644,30 @@
       "variants": []
     },
     {
+      "id": "tecknicam3d-3089",
+      "sourceProductId": "3089",
+      "store": "Tecknicam 3D",
+      "domain": "tecknicam3d.com.ar",
+      "name": "Creator 5 256×256×256mm IMPRESORA 3D FLASHFORGE",
+      "category": "Impresoras",
+      "price": 1931900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 1835305,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 4,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [],
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/Creator-5-1.png",
+      "url": "https://www.tecknicam3d.com.ar/productos/creator-5-256-256-256mm-impresora-3d-flashforge",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=1-impresoras-3d&page=2",
+      "variants": []
+    },
+    {
       "id": "tecknicam3d-ender-3-v4-220x220x235-impresora-3d-fdm-creality",
       "sourceProductId": "ender-3-v4-220x220x235-impresora-3d-fdm-creality",
       "store": "Tecknicam 3D",
@@ -692,26 +692,26 @@
       "variants": []
     },
     {
-      "id": "tecknicam3d-3089",
-      "sourceProductId": "3089",
+      "id": "tecknicam3d-saturn-3-12k-218x122x250mm-lcd-impresora-resina-elegoo",
+      "sourceProductId": "saturn-3-12k-218x122x250mm-lcd-impresora-resina-elegoo",
       "store": "Tecknicam 3D",
       "domain": "tecknicam3d.com.ar",
-      "name": "Creator 5 256×256×256mm IMPRESORA 3D FLASHFORGE",
-      "category": "Impresoras",
-      "price": 1931900,
+      "name": "Saturn 3 12k 218x122x250mm Lcd Impresora Resina Elegoo",
+      "category": "Resina",
+      "price": 662900,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 1835305,
-      "purchaseModes": [
-        "Entrega inmediata"
+      "transferPrice": 629755,
+      "purchaseModes": [],
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Elegoo",
+      "tags": [
+        "Elegoo"
       ],
-      "stock": 4,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/Creator-5-1.png",
-      "url": "https://www.tecknicam3d.com.ar/productos/creator-5-256-256-256mm-impresora-3d-flashforge",
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/Saturn-3-12k-218x122x250mm-Lcd-Impresora-Resina-Elegoo.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/saturn-3-12k-218x122x250mm-lcd-impresora-resina-elegoo",
       "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=1-impresoras-3d&page=2",
       "variants": []
     },
@@ -895,7 +895,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 62,
+      "stock": 58,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -921,7 +921,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 51,
+      "stock": 49,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -1001,7 +1001,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 14,
+      "stock": 13,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -1109,7 +1109,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 16,
+      "stock": 15,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -1217,7 +1217,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 29,
+      "stock": 27,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -1273,7 +1273,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 1,
+      "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": null,
@@ -1528,8 +1528,8 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 4,
-      "stockLabel": "En stock",
+      "stock": 3,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "W3D",
       "tags": [
@@ -1556,7 +1556,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 7,
+      "stock": 6,
       "stockLabel": "En stock",
       "available": true,
       "brand": "W3D",
@@ -1721,7 +1721,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 11,
+      "stock": 8,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -2506,6 +2506,32 @@
       "variants": []
     },
     {
+      "id": "tecknicam3d-3989",
+      "sourceProductId": "3989",
+      "store": "Tecknicam 3D",
+      "domain": "tecknicam3d.com.ar",
+      "name": "ALGOLASER PIXI 10W 100x100mm GRABADORA LASER INTELIGENTE CON CARCASA - INCLUYE CAPACITACIÓN INICIAL",
+      "category": "Herramientas",
+      "price": 850000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "Pocas unidades",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Laser"
+      ],
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/pixi10w-1792611645-486a0da2.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/algolaser-pixi-10w-100x100mm-grabadora-laser-inteligente-con-carcasa-incluye-capacitacion-inicial",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=4-laser",
+      "variants": []
+    },
+    {
       "id": "tecknicam3d-20w-fibra-grabadora-laser-gac",
       "sourceProductId": "20w-fibra-grabadora-laser-gac",
       "store": "Tecknicam 3D",
@@ -2734,80 +2760,28 @@
       "variants": []
     },
     {
-      "id": "tecknicam3d-1412",
-      "sourceProductId": "1412",
+      "id": "tecknicam3d-1415",
+      "sourceProductId": "1415",
       "store": "Tecknicam 3D",
       "domain": "tecknicam3d.com.ar",
-      "name": "Algolaser Alpha Mk2 22w de exposición 100x100x100 mm Laser Algolaser se retira armado por suc moron 30 dias de garantia",
+      "name": "Soporte de objetos para marcado/grabado laser C26",
       "category": "Herramientas",
-      "price": 1438338,
+      "price": 25000,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
+      "stock": 18,
+      "stockLabel": "En stock",
       "available": true,
       "brand": null,
       "tags": [
         "Laser"
       ],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/Algolaser-Mk2-22w-2-100x100-1.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/algolaser-alpha-mk2-22w-de-exposicion-100x100x100-mm-laser-algolaser-se-retira-armado-por-suc-moron-30-dias-de-garantia",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=4-laser",
-      "variants": []
-    },
-    {
-      "id": "tecknicam3d-1410",
-      "sourceProductId": "1410",
-      "store": "Tecknicam 3D",
-      "domain": "tecknicam3d.com.ar",
-      "name": "ROTADOR GIRATORIO PARA MÁQUINA DE GRABADO Algolaser Accesorio Rotativo Chuck",
-      "category": "Herramientas",
-      "price": 363550,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "Laser"
-      ],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/Accesorio-Rotativo-Chuck.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/rotador-giratorio-para-maquina-de-grabado-algolaser-accesorio-rotativo-chuck",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=4-laser",
-      "variants": []
-    },
-    {
-      "id": "tecknicam3d-1411",
-      "sourceProductId": "1411",
-      "store": "Tecknicam 3D",
-      "domain": "tecknicam3d.com.ar",
-      "name": "Alpha Mk2 20w 400x400mm Laser Algolaser",
-      "category": "Herramientas",
-      "price": 1850600,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "Laser"
-      ],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/Algolaser-Mk2-22w-2-100x100-1.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/alpha-mk2-20w-400x400mm-laser-algolaser",
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/111.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/soporte-de-objetos-para-marcado-grabado-laser-c26",
       "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=4-laser",
       "variants": []
     },
@@ -2839,6 +2813,58 @@
       "variants": []
     },
     {
+      "id": "tecknicam3d-1410",
+      "sourceProductId": "1410",
+      "store": "Tecknicam 3D",
+      "domain": "tecknicam3d.com.ar",
+      "name": "ROTADOR GIRATORIO PARA MÁQUINA DE GRABADO Algolaser Accesorio Rotativo Chuck",
+      "category": "Herramientas",
+      "price": 363550,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "Pocas unidades",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Laser"
+      ],
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/Accesorio-Rotativo-Chuck.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/rotador-giratorio-para-maquina-de-grabado-algolaser-accesorio-rotativo-chuck",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=4-laser",
+      "variants": []
+    },
+    {
+      "id": "tecknicam3d-1412",
+      "sourceProductId": "1412",
+      "store": "Tecknicam 3D",
+      "domain": "tecknicam3d.com.ar",
+      "name": "Algolaser Alpha Mk2 22w de exposición 100x100x100 mm Laser Algolaser se retira armado por suc moron 30 dias de garantia",
+      "category": "Herramientas",
+      "price": 1438338,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "Pocas unidades",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Laser"
+      ],
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/Algolaser-Mk2-22w-2-100x100-1.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/algolaser-alpha-mk2-22w-de-exposicion-100x100x100-mm-laser-algolaser-se-retira-armado-por-suc-moron-30-dias-de-garantia",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=4-laser",
+      "variants": []
+    },
+    {
       "id": "tecknicam3d-1414",
       "sourceProductId": "1414",
       "store": "Tecknicam 3D",
@@ -2865,115 +2891,16 @@
       "variants": []
     },
     {
-      "id": "tecknicam3d-1415",
-      "sourceProductId": "1415",
+      "id": "tecknicam3d-1411",
+      "sourceProductId": "1411",
       "store": "Tecknicam 3D",
       "domain": "tecknicam3d.com.ar",
-      "name": "Soporte de objetos para marcado/grabado laser C26",
+      "name": "Alpha Mk2 20w 400x400mm Laser Algolaser",
       "category": "Herramientas",
-      "price": 25000,
+      "price": 1850600,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 18,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "Laser"
-      ],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/111.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/soporte-de-objetos-para-marcado-grabado-laser-c26",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=4-laser",
-      "variants": []
-    },
-    {
-      "id": "tecknicam3d-ts2-40w-max-735-x-1230-x-190-mm-two-trees-grabadora-laser-preventa-marzo",
-      "sourceProductId": "ts2-40w-max-735-x-1230-x-190-mm-two-trees-grabadora-laser-preventa-marzo",
-      "store": "Tecknicam 3D",
-      "domain": "tecknicam3d.com.ar",
-      "name": "TS2 40W Max - 735 x 1230 x 190 mm -TWO TREES-Grabadora Láser- PREVENTA MARZO",
-      "category": "Herramientas",
-      "price": 3190000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": null,
-      "tags": [
-        "Laser"
-      ],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/620108029_1-700x700-1.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/ts2-40w-max-735-x-1230-x-190-mm-two-trees-grabadora-laser-preventa-marzo",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=4-laser",
-      "variants": []
-    },
-    {
-      "id": "tecknicam3d-cubierta-protectora-funda-carpa-para-grabador-laser-creality-4008020045",
-      "sourceProductId": "cubierta-protectora-funda-carpa-para-grabador-laser-creality-4008020045",
-      "store": "Tecknicam 3D",
-      "domain": "tecknicam3d.com.ar",
-      "name": "CUBIERTA PROTECTORA FUNDA CARPA PARA GRABADOR LÁSER CREALITY 4008020045",
-      "category": "Impresoras",
-      "price": 106000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Creality",
-      "tags": [
-        "Creality",
-        "Laser"
-      ],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/img_6a4d0e1c1417c1.43619926.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/cubierta-protectora-funda-carpa-para-grabador-laser-creality-4008020045",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=4-laser&page=2",
-      "variants": []
-    },
-    {
-      "id": "tecknicam3d-laser-uv-5w-aire-10x10",
-      "sourceProductId": "laser-uv-5w-aire-10x10",
-      "store": "Tecknicam 3D",
-      "domain": "tecknicam3d.com.ar",
-      "name": "Laser UV 5W AIRE 10X10",
-      "category": "Herramientas",
-      "price": 10687500,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": null,
-      "tags": [
-        "Laser"
-      ],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/Captura-de-pantalla-2025-12-04-121814.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/laser-uv-5w-aire-10x10",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=4-laser&page=2",
-      "variants": []
-    },
-    {
-      "id": "tecknicam3d-1399",
-      "sourceProductId": "1399",
-      "store": "Tecknicam 3D",
-      "domain": "tecknicam3d.com.ar",
-      "name": "Lente F-Theta para Laser de Fibra GALVO F100 1064nm Longitud de Escaneo ~70x70 C22",
-      "category": "Herramientas",
-      "price": 206720,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 185014.4,
       "purchaseModes": [
         "Entrega inmediata"
       ],
@@ -2984,9 +2911,9 @@
       "tags": [
         "Laser"
       ],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/Lente-F-Theta-para-Laser-de-Fibra-GALVO-1788793274-720ffe79.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/lente-f-theta-para-laser-de-fibra-galvo-f100-1064nm-longitud-de-escaneo-70x70-c22",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=4-laser&page=2",
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/Algolaser-Mk2-22w-2-100x100-1.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/alpha-mk2-20w-400x400mm-laser-algolaser",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=4-laser",
       "variants": []
     },
     {
@@ -3042,6 +2969,81 @@
       "variants": []
     },
     {
+      "id": "tecknicam3d-1399",
+      "sourceProductId": "1399",
+      "store": "Tecknicam 3D",
+      "domain": "tecknicam3d.com.ar",
+      "name": "Lente F-Theta para Laser de Fibra GALVO F100 1064nm Longitud de Escaneo ~70x70 C22",
+      "category": "Herramientas",
+      "price": 206720,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 185014.4,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "Pocas unidades",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Laser"
+      ],
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/Lente-F-Theta-para-Laser-de-Fibra-GALVO-1788793274-720ffe79.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/lente-f-theta-para-laser-de-fibra-galvo-f100-1064nm-longitud-de-escaneo-70x70-c22",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=4-laser&page=2",
+      "variants": []
+    },
+    {
+      "id": "tecknicam3d-cubierta-protectora-funda-carpa-para-grabador-laser-creality-4008020045",
+      "sourceProductId": "cubierta-protectora-funda-carpa-para-grabador-laser-creality-4008020045",
+      "store": "Tecknicam 3D",
+      "domain": "tecknicam3d.com.ar",
+      "name": "CUBIERTA PROTECTORA FUNDA CARPA PARA GRABADOR LÁSER CREALITY 4008020045",
+      "category": "Impresoras",
+      "price": 106000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Creality",
+      "tags": [
+        "Creality",
+        "Laser"
+      ],
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/img_6a4d0e1c1417c1.43619926.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/cubierta-protectora-funda-carpa-para-grabador-laser-creality-4008020045",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=4-laser&page=2",
+      "variants": []
+    },
+    {
+      "id": "tecknicam3d-laser-uv-5w-aire-10x10",
+      "sourceProductId": "laser-uv-5w-aire-10x10",
+      "store": "Tecknicam 3D",
+      "domain": "tecknicam3d.com.ar",
+      "name": "Laser UV 5W AIRE 10X10",
+      "category": "Herramientas",
+      "price": 10687500,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": null,
+      "tags": [
+        "Laser"
+      ],
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/Captura-de-pantalla-2025-12-04-121814.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/laser-uv-5w-aire-10x10",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=4-laser&page=2",
+      "variants": []
+    },
+    {
       "id": "tecknicam3d-ts2-40w-735-x-720-x-190-mm-two-trees-grabadora-laser-preventa-marzo",
       "sourceProductId": "ts2-40w-735-x-720-x-190-mm-two-trees-grabadora-laser-preventa-marzo",
       "store": "Tecknicam 3D",
@@ -3086,6 +3088,30 @@
       ],
       "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/621600003_1-700x700-1.webp",
       "url": "https://www.tecknicam3d.com.ar/productos/ts1-mini-157-x-157-x-167-mm-two-trees-grabadora-laser-preventa-marzo",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=4-laser&page=2",
+      "variants": []
+    },
+    {
+      "id": "tecknicam3d-ts2-40w-max-735-x-1230-x-190-mm-two-trees-grabadora-laser-preventa-marzo",
+      "sourceProductId": "ts2-40w-max-735-x-1230-x-190-mm-two-trees-grabadora-laser-preventa-marzo",
+      "store": "Tecknicam 3D",
+      "domain": "tecknicam3d.com.ar",
+      "name": "TS2 40W Max - 735 x 1230 x 190 mm -TWO TREES-Grabadora Láser- PREVENTA MARZO",
+      "category": "Herramientas",
+      "price": 3190000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": null,
+      "tags": [
+        "Laser"
+      ],
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/620108029_1-700x700-1.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/ts2-40w-max-735-x-1230-x-190-mm-two-trees-grabadora-laser-preventa-marzo",
       "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=4-laser&page=2",
       "variants": []
     },
@@ -3284,6 +3310,28 @@
       "variants": []
     },
     {
+      "id": "tecknicam3d-argolla-de-union-mm-x-100-unidades-llavero",
+      "sourceProductId": "argolla-de-union-mm-x-100-unidades-llavero",
+      "store": "Tecknicam 3D",
+      "domain": "tecknicam3d.com.ar",
+      "name": "Argolla de unión mm x 100 unidades llavero",
+      "category": "Impresoras",
+      "price": 2128,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 1766.24,
+      "purchaseModes": [],
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": null,
+      "tags": [],
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/argollita-1792595515-141aa033.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/argolla-de-union-mm-x-100-unidades-llavero",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=5-repuestos-impresoras",
+      "variants": []
+    },
+    {
       "id": "tecknicam3d-3962",
       "sourceProductId": "3962",
       "store": "Tecknicam 3D",
@@ -3467,7 +3515,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 3,
+      "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Bambu Lab",
@@ -3674,7 +3722,7 @@
       "tags": [],
       "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/Kobra-3-Max-nozzle-0-6mm-1-75mm-1789754605-6d13b96c.webp",
       "url": "https://www.tecknicam3d.com.ar/productos/pico-kobra-3-max-nozzle-0-8mm-1-75mm-generico-ma3-bk08175",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=5-repuestos-impresoras",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=5-repuestos-impresoras&page=2",
       "variants": []
     },
     {
@@ -4044,30 +4092,6 @@
       "variants": []
     },
     {
-      "id": "tecknicam3d-3880",
-      "sourceProductId": "3880",
-      "store": "Tecknicam 3D",
-      "domain": "tecknicam3d.com.ar",
-      "name": "Knurled copper nut M3*4*OD 4.5 insertos impresion 3d Nut-M3*4*4.5 C22",
-      "category": "Impresoras",
-      "price": 121.6,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 115.52,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
-      "available": true,
-      "brand": null,
-      "tags": [],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/Knurled-copper-nut-1789741868-6971181d.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/knurled-copper-nut-m3-4-od-4-5-insertos-impresion-3d-nut-m3-4-4-5-c22",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=5-repuestos-impresoras&page=2",
-      "variants": []
-    },
-    {
       "id": "tecknicam3d-transparente-100-unidades-vaso-milkshake-de-plastico-polimero-con-sorbete-300-ml-at",
       "sourceProductId": "transparente-100-unidades-vaso-milkshake-de-plastico-polimero-con-sorbete-300-ml-at",
       "store": "Tecknicam 3D",
@@ -4103,7 +4127,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 67,
+      "stock": 51,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -4389,7 +4413,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 3,
+      "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": null,
@@ -4743,7 +4767,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 308,
+      "stock": 306,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,

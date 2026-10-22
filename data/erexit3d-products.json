@@ -5,7 +5,7 @@
     "baseUrl": "https://erexit3d.com",
     "listingPath": "/productos/"
   },
-  "scrapedAt": "2026-10-21T13:36:08.920Z",
+  "scrapedAt": "2026-10-22T13:37:49.897Z",
   "count": 65,
   "pages": [
     {
@@ -95,7 +95,7 @@
       "price": 28110,
       "currency": "ARS",
       "transferPrice": 26704.5,
-      "stock": 792,
+      "stock": 776,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -123,7 +123,7 @@
           "id": 1604038186,
           "sku": "BAMBU-PLALITECARR-VER",
           "price": 28110,
-          "stock": 37,
+          "stock": 36,
           "available": true,
           "options": [
             "Verde"
@@ -134,7 +134,7 @@
           "id": 1604038195,
           "sku": "BAMBU-PLALITECARR-NEG",
           "price": 28110,
-          "stock": 77,
+          "stock": 75,
           "available": true,
           "options": [
             "Negro"
@@ -145,7 +145,7 @@
           "id": 1604038196,
           "sku": "BAMBU-PLALITECARR-BLA",
           "price": 28110,
-          "stock": 71,
+          "stock": 69,
           "available": true,
           "options": [
             "Blanco"
@@ -178,7 +178,7 @@
           "id": 1605467742,
           "sku": "BAMBU-PLALITECARR-GRIOSC",
           "price": 28110,
-          "stock": 8,
+          "stock": 7,
           "available": true,
           "options": [
             "Gris oscuro"
@@ -211,7 +211,7 @@
           "id": 1610835418,
           "sku": "BAMBU-PLALITECARR-NAR",
           "price": 28110,
-          "stock": 17,
+          "stock": 16,
           "available": true,
           "options": [
             "Naranja"
@@ -233,7 +233,7 @@
           "id": 1610837527,
           "sku": "BAMBU-PLALITECARR-GRI",
           "price": 28110,
-          "stock": 12,
+          "stock": 11,
           "available": true,
           "options": [
             "Gris"
@@ -289,38 +289,6 @@
       ]
     },
     {
-      "id": "erexit3d-290862347",
-      "sourceProductId": "290862347",
-      "store": "Erexit 3D",
-      "domain": "erexit3d.com",
-      "name": "Bambu Lab A1 | Impresora 3D",
-      "category": "Impresoras",
-      "price": 968900,
-      "currency": "ARS",
-      "transferPrice": 920455,
-      "stock": 26,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Bambu Lab",
-      "tags": [
-        "Bambu Lab"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/bambu-lab-a1-2-1-895d2224d34539786317564974616120-1024-1024.webp",
-      "url": "https://erexit3d.com/productos/bambulab-a1/",
-      "scrapedFrom": "https://erexit3d.com/productos/",
-      "variants": [
-        {
-          "id": 1300529798,
-          "sku": "BAMBU-A1",
-          "price": 968900,
-          "stock": 13,
-          "available": true,
-          "options": [],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/bambu-lab-a1-2-1-895d2224d34539786317564974616120-1024-1024.webp"
-        }
-      ]
-    },
-    {
       "id": "erexit3d-370120236",
       "sourceProductId": "370120236",
       "store": "Erexit 3D",
@@ -330,7 +298,7 @@
       "price": 23668,
       "currency": "ARS",
       "transferPrice": 22484.6,
-      "stock": 906,
+      "stock": 896,
       "stockLabel": "En stock",
       "available": true,
       "brand": "FlashForge",
@@ -347,7 +315,7 @@
           "id": 1606433058,
           "sku": "FF-PLA1KG-BLA",
           "price": 23668,
-          "stock": 100,
+          "stock": 99,
           "available": true,
           "options": [
             "Blanco"
@@ -369,7 +337,7 @@
           "id": 1606433060,
           "sku": "FF-PLA1KG-VER",
           "price": 25123,
-          "stock": 28,
+          "stock": 27,
           "available": true,
           "options": [
             "Verde"
@@ -380,7 +348,7 @@
           "id": 1606433061,
           "sku": "FF-PLA1KG-ROS",
           "price": 25123,
-          "stock": 26,
+          "stock": 25,
           "available": true,
           "options": [
             "Rosa"
@@ -391,7 +359,7 @@
           "id": 1606433063,
           "sku": "FF-PLA1KG-NEG",
           "price": 23668,
-          "stock": 69,
+          "stock": 67,
           "available": true,
           "options": [
             "Negro"
@@ -533,6 +501,38 @@
       ]
     },
     {
+      "id": "erexit3d-290862347",
+      "sourceProductId": "290862347",
+      "store": "Erexit 3D",
+      "domain": "erexit3d.com",
+      "name": "Bambu Lab A1 | Impresora 3D",
+      "category": "Impresoras",
+      "price": 968900,
+      "currency": "ARS",
+      "transferPrice": 920455,
+      "stock": 24,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab"
+      ],
+      "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/bambu-lab-a1-2-1-895d2224d34539786317564974616120-1024-1024.webp",
+      "url": "https://erexit3d.com/productos/bambulab-a1/",
+      "scrapedFrom": "https://erexit3d.com/productos/",
+      "variants": [
+        {
+          "id": 1300529798,
+          "sku": "BAMBU-A1",
+          "price": 968900,
+          "stock": 12,
+          "available": true,
+          "options": [],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/bambu-lab-a1-2-1-895d2224d34539786317564974616120-1024-1024.webp"
+        }
+      ]
+    },
+    {
       "id": "erexit3d-369450626",
       "sourceProductId": "369450626",
       "store": "Erexit 3D",
@@ -542,7 +542,7 @@
       "price": 22840,
       "currency": "ARS",
       "transferPrice": 21698,
-      "stock": 1136,
+      "stock": 1114,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -559,7 +559,7 @@
           "id": 1604038274,
           "sku": "BAMBU-PLALITESINCARR-NAR",
           "price": 22840,
-          "stock": 34,
+          "stock": 33,
           "available": true,
           "options": [
             "Naranja"
@@ -570,7 +570,7 @@
           "id": 1604038280,
           "sku": "BAMBU-PLALITESINCARR-CIA",
           "price": 22840,
-          "stock": 52,
+          "stock": 51,
           "available": true,
           "options": [
             "Cyan"
@@ -614,7 +614,7 @@
           "id": 1604038318,
           "sku": "BAMBU-PLALITESINCARR-NEG",
           "price": 22840,
-          "stock": 100,
+          "stock": 95,
           "available": true,
           "options": [
             "Negro"
@@ -636,7 +636,7 @@
           "id": 1604038326,
           "sku": "BAMBU-PLALITESINCARR-BLA",
           "price": 22840,
-          "stock": 31,
+          "stock": 27,
           "available": true,
           "options": [
             "Blanco"
@@ -732,7 +732,7 @@
       "price": 24444,
       "currency": "ARS",
       "transferPrice": 23221.8,
-      "stock": 254,
+      "stock": 250,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Elegoo",
@@ -804,7 +804,7 @@
           "id": 1606433172,
           "sku": "ELG-PLA1KG-PUR",
           "price": 24444,
-          "stock": 7,
+          "stock": 5,
           "available": true,
           "options": [
             "Violeta"
@@ -979,7 +979,7 @@
       "price": 25500,
       "currency": "ARS",
       "transferPrice": 24225,
-      "stock": 290,
+      "stock": 276,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -996,7 +996,7 @@
           "id": 1605469060,
           "sku": "BAMBU-PETGBASCARR-NEG",
           "price": 25500,
-          "stock": 27,
+          "stock": 20,
           "available": true,
           "options": [
             "Negro"
@@ -1059,7 +1059,7 @@
       "price": 21990,
       "currency": "ARS",
       "transferPrice": 20890.5,
-      "stock": 826,
+      "stock": 820,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -1098,7 +1098,7 @@
           "id": 1606434677,
           "sku": "HB-ECOFPLA1-ROS",
           "price": 21990,
-          "stock": 28,
+          "stock": 27,
           "available": true,
           "options": [
             "Rosa"
@@ -1142,8 +1142,8 @@
           "id": 1606434681,
           "sku": "HB-ECOFPLA1-MAR",
           "price": 21990,
-          "stock": 1,
-          "available": true,
+          "stock": 0,
+          "available": false,
           "options": [
             "Marrón"
           ],
@@ -1186,7 +1186,7 @@
           "id": 1606434685,
           "sku": "HB-ECOFPLA1-MARCLA",
           "price": 21990,
-          "stock": 26,
+          "stock": 25,
           "available": true,
           "options": [
             "Marron claro"
@@ -1302,6 +1302,150 @@
           "available": true,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/5-03280e113783303e6e17771241510953-1024-1024-db0ee69a568643db8e17773102005803-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "erexit3d-370120219",
+      "sourceProductId": "370120219",
+      "store": "Erexit 3D",
+      "domain": "erexit3d.com",
+      "name": "Filamento FLASHFORGE PETG BASIC 1.75mm",
+      "category": "Filamentos",
+      "price": 23668,
+      "currency": "ARS",
+      "transferPrice": 22484.6,
+      "stock": 422,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PETG"
+      ],
+      "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/repuestos-45-8bb020383ec74e8dc017861329320641-1024-1024-ee9439f699423056cb17904027148263-1024-1024.webp",
+      "url": "https://erexit3d.com/productos/filamento-flashforge-petg-basic-1-75mm-2hozo/",
+      "scrapedFrom": "https://erexit3d.com/productos/page/2/",
+      "variants": [
+        {
+          "id": 1606433018,
+          "sku": "FF-PETGBASINEGR-BLA",
+          "price": 23668,
+          "stock": 39,
+          "available": true,
+          "options": [
+            "Blanco"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/repuestos-45-8bb020383ec74e8dc017861329320641-1024-1024-ee9439f699423056cb17904027148263-1024-1024.webp"
+        },
+        {
+          "id": 1606433019,
+          "sku": "FF-PETGBASINEGR-NEG",
+          "price": 23668,
+          "stock": 39,
+          "available": true,
+          "options": [
+            "Negro"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/repuestos-6-2-19f588bc80ad2659ee17861329319796-1024-1024-a90b1bf671f434c9ae17904027067263-1024-1024.webp"
+        },
+        {
+          "id": 1606433020,
+          "sku": "FF-PETGBASINEGR-GRI",
+          "price": 23668,
+          "stock": 39,
+          "available": true,
+          "options": [
+            "Gris"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/repuestos-41-d763c718c7132f959e17861329320280-1024-1024-30af8d40588275635c17904027128679-1024-1024.webp"
+        },
+        {
+          "id": 1606433021,
+          "sku": "FF-PETGBASINEGR-ROJ",
+          "price": 23668,
+          "stock": 9,
+          "available": true,
+          "options": [
+            "Rojo"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/repuestos-12-2-5ab98c7d0480a1fb4817891467279895-1024-1024-217ffac4f662477ea317904027168190-1024-1024.webp"
+        },
+        {
+          "id": 1606433022,
+          "sku": "FF-PETGBASINEGR-AMA",
+          "price": 23668,
+          "stock": 15,
+          "available": true,
+          "options": [
+            "Amarillo"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/repuestos-33-ca49f24ae070af2fd517891467305276-1024-1024-266b10265e85f9fd5117904027187614-1024-1024.webp"
+        },
+        {
+          "id": 1606433024,
+          "sku": "FF-PETGBASINEGR-AZU",
+          "price": 23668,
+          "stock": 18,
+          "available": true,
+          "options": [
+            "Azul"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/repuestos-35-2068e4c2230530e5cd17891467331926-1024-1024-fc9bad8f124419437f17904027206698-1024-1024.webp"
+        },
+        {
+          "id": 1606433025,
+          "sku": "FF-PETGBASINEGR-VER",
+          "price": 23668,
+          "stock": 13,
+          "available": true,
+          "options": [
+            "Verde"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/repuestos-10-2-4ef786f0965d95c9fb17891467359773-1024-1024-9f700d1ae8fec67fd917904027227447-1024-1024.webp"
+        },
+        {
+          "id": 1606433026,
+          "sku": "FF-PETGBASINEGR-VIO",
+          "price": 23668,
+          "stock": 10,
+          "available": true,
+          "options": [
+            "Violeta"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/repuestos-40-2d8059919089e110b717891467387838-1024-1024-8c59082d06685534d417904027247482-1024-1024.webp"
+        },
+        {
+          "id": 1606441972,
+          "sku": "FF-PETGBASINEGR-NAT",
+          "price": 23668,
+          "stock": 16,
+          "available": true,
+          "options": [
+            "Natural"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/repuestos-46-d88048b1ddf07c2b2c17904065808090-1024-1024.webp"
+        },
+        {
+          "id": 1606441974,
+          "sku": "FF-PETGBASINEGR-NAR",
+          "price": 23668,
+          "stock": 6,
+          "available": true,
+          "options": [
+            "Naranja"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/repuestos-37-c7b394cde836433dda17904065856227-1024-1024.webp"
+        },
+        {
+          "id": 1606441976,
+          "sku": "FF-PETGBASINEGR-ROS",
+          "price": 23668,
+          "stock": 7,
+          "available": true,
+          "options": [
+            "Rosa"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/flashforge-petg-basic-rosa-c6bdcfa802a43913e317904076679011-1024-1024.webp"
         }
       ]
     },
@@ -1561,150 +1705,6 @@
       ]
     },
     {
-      "id": "erexit3d-370120219",
-      "sourceProductId": "370120219",
-      "store": "Erexit 3D",
-      "domain": "erexit3d.com",
-      "name": "Filamento FLASHFORGE PETG BASIC 1.75mm",
-      "category": "Filamentos",
-      "price": 23668,
-      "currency": "ARS",
-      "transferPrice": 22484.6,
-      "stock": 424,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "PETG"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/repuestos-45-8bb020383ec74e8dc017861329320641-1024-1024-ee9439f699423056cb17904027148263-1024-1024.webp",
-      "url": "https://erexit3d.com/productos/filamento-flashforge-petg-basic-1-75mm-2hozo/",
-      "scrapedFrom": "https://erexit3d.com/productos/page/2/",
-      "variants": [
-        {
-          "id": 1606433018,
-          "sku": "FF-PETGBASINEGR-BLA",
-          "price": 23668,
-          "stock": 39,
-          "available": true,
-          "options": [
-            "Blanco"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/repuestos-45-8bb020383ec74e8dc017861329320641-1024-1024-ee9439f699423056cb17904027148263-1024-1024.webp"
-        },
-        {
-          "id": 1606433019,
-          "sku": "FF-PETGBASINEGR-NEG",
-          "price": 23668,
-          "stock": 40,
-          "available": true,
-          "options": [
-            "Negro"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/repuestos-6-2-19f588bc80ad2659ee17861329319796-1024-1024-a90b1bf671f434c9ae17904027067263-1024-1024.webp"
-        },
-        {
-          "id": 1606433020,
-          "sku": "FF-PETGBASINEGR-GRI",
-          "price": 23668,
-          "stock": 39,
-          "available": true,
-          "options": [
-            "Gris"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/repuestos-41-d763c718c7132f959e17861329320280-1024-1024-30af8d40588275635c17904027128679-1024-1024.webp"
-        },
-        {
-          "id": 1606433021,
-          "sku": "FF-PETGBASINEGR-ROJ",
-          "price": 23668,
-          "stock": 9,
-          "available": true,
-          "options": [
-            "Rojo"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/repuestos-12-2-5ab98c7d0480a1fb4817891467279895-1024-1024-217ffac4f662477ea317904027168190-1024-1024.webp"
-        },
-        {
-          "id": 1606433022,
-          "sku": "FF-PETGBASINEGR-AMA",
-          "price": 23668,
-          "stock": 15,
-          "available": true,
-          "options": [
-            "Amarillo"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/repuestos-33-ca49f24ae070af2fd517891467305276-1024-1024-266b10265e85f9fd5117904027187614-1024-1024.webp"
-        },
-        {
-          "id": 1606433024,
-          "sku": "FF-PETGBASINEGR-AZU",
-          "price": 23668,
-          "stock": 18,
-          "available": true,
-          "options": [
-            "Azul"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/repuestos-35-2068e4c2230530e5cd17891467331926-1024-1024-fc9bad8f124419437f17904027206698-1024-1024.webp"
-        },
-        {
-          "id": 1606433025,
-          "sku": "FF-PETGBASINEGR-VER",
-          "price": 23668,
-          "stock": 13,
-          "available": true,
-          "options": [
-            "Verde"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/repuestos-10-2-4ef786f0965d95c9fb17891467359773-1024-1024-9f700d1ae8fec67fd917904027227447-1024-1024.webp"
-        },
-        {
-          "id": 1606433026,
-          "sku": "FF-PETGBASINEGR-VIO",
-          "price": 23668,
-          "stock": 10,
-          "available": true,
-          "options": [
-            "Violeta"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/repuestos-40-2d8059919089e110b717891467387838-1024-1024-8c59082d06685534d417904027247482-1024-1024.webp"
-        },
-        {
-          "id": 1606441972,
-          "sku": "FF-PETGBASINEGR-NAT",
-          "price": 23668,
-          "stock": 16,
-          "available": true,
-          "options": [
-            "Natural"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/repuestos-46-d88048b1ddf07c2b2c17904065808090-1024-1024.webp"
-        },
-        {
-          "id": 1606441974,
-          "sku": "FF-PETGBASINEGR-NAR",
-          "price": 23668,
-          "stock": 6,
-          "available": true,
-          "options": [
-            "Naranja"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/repuestos-37-c7b394cde836433dda17904065856227-1024-1024.webp"
-        },
-        {
-          "id": 1606441976,
-          "sku": "FF-PETGBASINEGR-ROS",
-          "price": 23668,
-          "stock": 7,
-          "available": true,
-          "options": [
-            "Rosa"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/flashforge-petg-basic-rosa-c6bdcfa802a43913e317904076679011-1024-1024.webp"
-        }
-      ]
-    },
-    {
       "id": "erexit3d-370120710",
       "sourceProductId": "370120710",
       "store": "Erexit 3D",
@@ -1714,7 +1714,7 @@
       "price": 21260,
       "currency": "ARS",
       "transferPrice": 20197,
-      "stock": 98,
+      "stock": 96,
       "stockLabel": "En stock",
       "available": true,
       "brand": "GST3D",
@@ -1775,7 +1775,7 @@
           "id": 1606434576,
           "sku": "GSTCOSMOS-PLA-YELLOW",
           "price": 21260,
-          "stock": 16,
+          "stock": 15,
           "available": true,
           "options": [
             "Amarillo"
@@ -1838,7 +1838,7 @@
       "price": 30749,
       "currency": "ARS",
       "transferPrice": 29211.55,
-      "stock": 246,
+      "stock": 242,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Elegoo",
@@ -1877,7 +1877,7 @@
           "id": 1606434418,
           "sku": "ELG-PLASILK1KG-ROSCOR",
           "price": 30749,
-          "stock": 23,
+          "stock": 22,
           "available": true,
           "options": [
             "Rosa coral Silk"
@@ -1888,7 +1888,7 @@
           "id": 1606434420,
           "sku": "ELG-PLASILK1KG-VERACE",
           "price": 30749,
-          "stock": 18,
+          "stock": 17,
           "available": true,
           "options": [
             "Verde Acebo Silk"
@@ -1984,7 +1984,7 @@
       "price": 21000,
       "currency": "ARS",
       "transferPrice": 19950,
-      "stock": 174,
+      "stock": 170,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -2012,7 +2012,7 @@
           "id": 1605469094,
           "sku": "BAMBU-PETGBASSINCARR-BLA",
           "price": 21000,
-          "stock": 63,
+          "stock": 61,
           "available": true,
           "options": [
             "Blanco"
@@ -2277,7 +2277,7 @@
       "price": 24638,
       "currency": "ARS",
       "transferPrice": 23406.1,
-      "stock": 26,
+      "stock": 22,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -2314,7 +2314,7 @@
           "id": 1606442216,
           "sku": "FF-PLASILK1-GOLD",
           "price": 24638,
-          "stock": 5,
+          "stock": 3,
           "available": true,
           "options": [
             "Gold"
@@ -2371,6 +2371,38 @@
       ]
     },
     {
+      "id": "erexit3d-290868932",
+      "sourceProductId": "290868932",
+      "store": "Erexit 3D",
+      "domain": "erexit3d.com",
+      "name": "Bambu Lab P1S | Impresora 3D",
+      "category": "Impresoras",
+      "price": 1480900,
+      "currency": "ARS",
+      "transferPrice": 1406855,
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab"
+      ],
+      "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/impresora-3d-bambulab-p1s-fdm-72bc66f7074b93609f17564991610768-1024-1024.webp",
+      "url": "https://erexit3d.com/productos/bambulab-p1s/",
+      "scrapedFrom": "https://erexit3d.com/productos/page/3/",
+      "variants": [
+        {
+          "id": 1300575843,
+          "sku": "BAMBU-P1S",
+          "price": 1480900,
+          "stock": null,
+          "available": true,
+          "options": [],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/impresora-3d-bambulab-p1s-fdm-72bc66f7074b93609f17564991610768-1024-1024.webp"
+        }
+      ]
+    },
+    {
       "id": "erexit3d-341341809",
       "sourceProductId": "341341809",
       "store": "Erexit 3D",
@@ -2412,7 +2444,7 @@
       "price": 26481,
       "currency": "ARS",
       "transferPrice": 25156.95,
-      "stock": 96,
+      "stock": 94,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Elegoo",
@@ -2440,7 +2472,7 @@
           "id": 1606442244,
           "sku": "ELG-PETGPRO-AZU",
           "price": 26481,
-          "stock": 5,
+          "stock": 4,
           "available": true,
           "options": [
             "Azul"
@@ -2674,35 +2706,36 @@
       ]
     },
     {
-      "id": "erexit3d-290871256",
-      "sourceProductId": "290871256",
+      "id": "erexit3d-346758466",
+      "sourceProductId": "346758466",
       "store": "Erexit 3D",
       "domain": "erexit3d.com",
-      "name": "Bambu Lab H2S Combo | Impresora 3D multicolor + AMS 2 PRO",
-      "category": "Impresoras",
-      "price": 4701900,
+      "name": "Bambu Lab A1 Mini | Impresora 3D + 4 KG DE FILAMENTO + 1KG DE REGALO",
+      "category": "Filamentos",
+      "price": 698900,
       "currency": "ARS",
-      "transferPrice": 4466805,
+      "transferPrice": 663955,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": true,
-      "brand": "Bambu Lab",
+      "brand": "Bambulab",
       "tags": [
-        "Bambu Lab",
-        "multicolor"
+        "Bambulab",
+        "1kg",
+        "Bambu Lab"
       ],
-      "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/h2s-1-b4a7306e3fb96dfc1817564997074161-1024-1024.webp",
-      "url": "https://erexit3d.com/productos/bambulab-h2s-combo-jd85z/",
-      "scrapedFrom": "https://erexit3d.com/productos/page/3/",
+      "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/a1-mini-1000x1000-65404ad9db8e27a66017798456298566-1024-1024.png",
+      "url": "https://erexit3d.com/productos/bambu-lab-a1-mini-impresora-3d-4-kg-de-filamento-1kg-de-regalo-er9ue/",
+      "scrapedFrom": "https://erexit3d.com/productos/page/4/",
       "variants": [
         {
-          "id": 1300592445,
-          "sku": "BAMBU-H2SCOMBMULT",
-          "price": 4701900,
+          "id": 1532105665,
+          "sku": "BAMBU-A1MINI4",
+          "price": 698900,
           "stock": null,
           "available": true,
           "options": [],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/h2s-1-b4a7306e3fb96dfc1817564997074161-1024-1024.webp"
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/a1-mini-1000x1000-65404ad9db8e27a66017798456298566-1024-1024.png"
         }
       ]
     },
@@ -2767,6 +2800,38 @@
           "available": true,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/medidas-tienda-2-57a3390f03d5d06b5317670554818614-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "erexit3d-300332759",
+      "sourceProductId": "300332759",
+      "store": "Erexit 3D",
+      "domain": "erexit3d.com",
+      "name": "Bambu Lab P2S | Impresora 3D",
+      "category": "Impresoras",
+      "price": 2081900,
+      "currency": "ARS",
+      "transferPrice": 1977805,
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab"
+      ],
+      "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/2-decab826410697ca9217605498234775-1024-1024.webp",
+      "url": "https://erexit3d.com/productos/bambulab-p2s-entrega-febrero-preventa-1h62c/",
+      "scrapedFrom": "https://erexit3d.com/productos/page/4/",
+      "variants": [
+        {
+          "id": 1339202839,
+          "sku": "BAMBU-P2S",
+          "price": 2081900,
+          "stock": null,
+          "available": true,
+          "options": [],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/2-decab826410697ca9217605498234775-1024-1024.webp"
         }
       ]
     },
@@ -3020,39 +3085,6 @@
       ]
     },
     {
-      "id": "erexit3d-291284501",
-      "sourceProductId": "291284501",
-      "store": "Erexit 3D",
-      "domain": "erexit3d.com",
-      "name": "Flashforge AD5X | Impresora 3D Multicolor + IFS",
-      "category": "Impresoras",
-      "price": 988900,
-      "currency": "ARS",
-      "transferPrice": 939455,
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Flashforge",
-      "tags": [
-        "Flashforge",
-        "multicolor"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/ffadvent5x-68275efbddb67-e3c8d039e68863a51c17488224867638-1024-1024-c403dc27825cfbed9317630450744793-1024-1024.webp",
-      "url": "https://erexit3d.com/productos/flashforge-adventurer-ad5x-bu9af/",
-      "scrapedFrom": "https://erexit3d.com/productos/page/4/",
-      "variants": [
-        {
-          "id": 1303131418,
-          "sku": "FF-AD5XMULTIFS",
-          "price": 988900,
-          "stock": 0,
-          "available": false,
-          "options": [],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/ffadvent5x-68275efbddb67-e3c8d039e68863a51c17488224867638-1024-1024-c403dc27825cfbed9317630450744793-1024-1024.webp"
-        }
-      ]
-    },
-    {
       "id": "erexit3d-290866730",
       "sourceProductId": "290866730",
       "store": "Erexit 3D",
@@ -3071,7 +3103,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/a1-mini-1000x1000-dfe13f70e3b62bcc4617564984976191-1024-1024.webp",
       "url": "https://erexit3d.com/productos/bambulab-a1-mini/",
-      "scrapedFrom": "https://erexit3d.com/productos/page/4/",
+      "scrapedFrom": "https://erexit3d.com/productos/page/5/",
       "variants": [
         {
           "id": 1300561113,
@@ -3081,6 +3113,38 @@
           "available": false,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/a1-mini-1000x1000-dfe13f70e3b62bcc4617564984976191-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "erexit3d-290578067",
+      "sourceProductId": "290578067",
+      "store": "Erexit 3D",
+      "domain": "erexit3d.com",
+      "name": "Elegoo Centauri Carbon | Impresora 3D Filamento",
+      "category": "Filamentos",
+      "price": 968933,
+      "currency": "ARS",
+      "transferPrice": 920486.35,
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Elegoo",
+      "tags": [
+        "Elegoo"
+      ],
+      "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/cc-1_2_1220x1220_crop_center-80d7fbebd2150b819b17564056278082-1024-1024.webp",
+      "url": "https://erexit3d.com/productos/elegoo-centauri-carbon-l6csl/",
+      "scrapedFrom": "https://erexit3d.com/productos/page/5/",
+      "variants": [
+        {
+          "id": 1299411491,
+          "sku": "ELG-CENTCARB",
+          "price": 968933,
+          "stock": 0,
+          "available": false,
+          "options": [],
+          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/cc-1_2_1220x1220_crop_center-80d7fbebd2150b819b17564056278082-1024-1024.webp"
         }
       ]
     },
@@ -3282,38 +3346,6 @@
       ]
     },
     {
-      "id": "erexit3d-290868932",
-      "sourceProductId": "290868932",
-      "store": "Erexit 3D",
-      "domain": "erexit3d.com",
-      "name": "Bambu Lab P1S | Impresora 3D",
-      "category": "Impresoras",
-      "price": 1480900,
-      "currency": "ARS",
-      "transferPrice": 1406855,
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Bambu Lab",
-      "tags": [
-        "Bambu Lab"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/impresora-3d-bambulab-p1s-fdm-72bc66f7074b93609f17564991610768-1024-1024.webp",
-      "url": "https://erexit3d.com/productos/bambulab-p1s/",
-      "scrapedFrom": "https://erexit3d.com/productos/page/5/",
-      "variants": [
-        {
-          "id": 1300575843,
-          "sku": "BAMBU-P1S",
-          "price": 1480900,
-          "stock": 0,
-          "available": false,
-          "options": [],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/impresora-3d-bambulab-p1s-fdm-72bc66f7074b93609f17564991610768-1024-1024.webp"
-        }
-      ]
-    },
-    {
       "id": "erexit3d-292042224",
       "sourceProductId": "292042224",
       "store": "Erexit 3D",
@@ -3374,38 +3406,6 @@
           "available": false,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/1600-1600_32deeb8a-9fa4-4980-b891-ab4a73cf934f-f9d0be7160bcb5e42517564863451599-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "erexit3d-300332759",
-      "sourceProductId": "300332759",
-      "store": "Erexit 3D",
-      "domain": "erexit3d.com",
-      "name": "Bambu Lab P2S | Impresora 3D",
-      "category": "Impresoras",
-      "price": 2081900,
-      "currency": "ARS",
-      "transferPrice": 1977805,
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Bambu Lab",
-      "tags": [
-        "Bambu Lab"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/2-decab826410697ca9217605498234775-1024-1024.webp",
-      "url": "https://erexit3d.com/productos/bambulab-p2s-entrega-febrero-preventa-1h62c/",
-      "scrapedFrom": "https://erexit3d.com/productos/page/5/",
-      "variants": [
-        {
-          "id": 1339202839,
-          "sku": "BAMBU-P2S",
-          "price": 2081900,
-          "stock": 0,
-          "available": false,
-          "options": [],
-          "image": "https://acdn-us.mitiendanube.com/stores/006/653/377/products/2-decab826410697ca9217605498234775-1024-1024.webp"
         }
       ]
     },
