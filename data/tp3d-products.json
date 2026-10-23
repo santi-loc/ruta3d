@@ -4,7 +4,7 @@
     "domain": "tp3d.com.ar",
     "baseUrl": "https://tp3d.com.ar"
   },
-  "scrapedAt": "2026-10-22T13:38:14.284Z",
+  "scrapedAt": "2026-10-23T13:14:29.100Z",
   "count": 509,
   "pages": [
     {
@@ -342,31 +342,6 @@
       ],
       "image": "https://tp3d.com.ar/5335-large_default/filamento-hellbot-ecofila-pla-silk-copa-del-mundo-175mm-1kg.jpg",
       "url": "https://tp3d.com.ar/filamentos-3d/1854-592-filamento-hellbot-ecofila-pla-silk-copa-del-mundo-175mm-1kg.html#/2-color-rojo",
-      "scrapedFrom": "https://tp3d.com.ar/127-insumos",
-      "variants": []
-    },
-    {
-      "id": "tp3d-2569",
-      "sourceProductId": "2569",
-      "store": "TP3D",
-      "domain": "tp3d.com.ar",
-      "name": "Filamento Hellbot ECOFILA PLA con carrete inyectado Combo 2kg Seleccion Argentina",
-      "category": "Filamentos",
-      "price": 35980,
-      "currency": "ARS",
-      "transferPrice": 34181,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "PLA",
-        "Hellbot",
-        "combo",
-        "Insumos"
-      ],
-      "image": "https://tp3d.com.ar/8864-large_default/filamento-hellbot-ecofila-pla-con-carrete-inyectado-combo-2kg-seleccion-argentina.jpg",
-      "url": "https://tp3d.com.ar/filamentos-3d/2569-filamento-hellbot-ecofila-pla-con-carrete-inyectado-combo-2kg-seleccion-argentina.html",
       "scrapedFrom": "https://tp3d.com.ar/127-insumos",
       "variants": []
     },
@@ -783,7 +758,7 @@
       ],
       "image": "https://tp3d.com.ar/1903-large_default/resina-estandar-dura-hellbot-x-250ml.jpg",
       "url": "https://tp3d.com.ar/resinas-3d/1127-106-resina-estandar-dura-hellbot-x-250ml.html#/4-color-negro",
-      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=2",
+      "scrapedFrom": "https://tp3d.com.ar/127-insumos",
       "variants": []
     },
     {
@@ -1365,7 +1340,7 @@
       ],
       "image": "https://tp3d.com.ar/10386-large_default/filamento-hellbot-ecofila-pla-satinado-175mm-1kg.jpg",
       "url": "https://tp3d.com.ar/filamentos-3d/2737-1683-filamento-hellbot-ecofila-pla-satinado-175mm-1kg.html#/4-color-negro",
-      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=3",
+      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=2",
       "variants": []
     },
     {
@@ -1765,6 +1740,31 @@
       ],
       "image": "https://tp3d.com.ar/5259-large_default/filamento-hellbot-ecofila-pla-silk-duotriple-1kg.jpg",
       "url": "https://tp3d.com.ar/filamentos-3d/1857-filamento-hellbot-ecofila-pla-silk-duotriple-1kg.html",
+      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=3",
+      "variants": []
+    },
+    {
+      "id": "tp3d-2569",
+      "sourceProductId": "2569",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Filamento Hellbot ECOFILA PLA con carrete inyectado Combo 2kg Seleccion Argentina",
+      "category": "Filamentos",
+      "price": 35980,
+      "currency": "ARS",
+      "transferPrice": 34181,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA",
+        "Hellbot",
+        "combo",
+        "Insumos"
+      ],
+      "image": "https://tp3d.com.ar/8864-large_default/filamento-hellbot-ecofila-pla-con-carrete-inyectado-combo-2kg-seleccion-argentina.jpg",
+      "url": "https://tp3d.com.ar/filamentos-3d/2569-filamento-hellbot-ecofila-pla-con-carrete-inyectado-combo-2kg-seleccion-argentina.html",
       "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=3",
       "variants": []
     },
@@ -2447,29 +2447,6 @@
       "variants": []
     },
     {
-      "id": "tp3d-1889",
-      "sourceProductId": "1889",
-      "store": "TP3D",
-      "domain": "tp3d.com.ar",
-      "name": "Impresora 3D Bambu Lab A1 FDM",
-      "category": "Impresoras",
-      "price": 968900,
-      "currency": "ARS",
-      "transferPrice": 920455,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "Bambu Lab",
-        "Impresoras FDM"
-      ],
-      "image": "https://tp3d.com.ar/10046-large_default/impresora-3d-bambulab-a1-fdm.jpg",
-      "url": "https://tp3d.com.ar/impresoras-fdm/1889-impresora-3d-bambulab-a1-fdm.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm",
-      "variants": []
-    },
-    {
       "id": "tp3d-1654",
       "sourceProductId": "1654",
       "store": "TP3D",
@@ -2490,53 +2467,6 @@
       ],
       "image": "https://tp3d.com.ar/5127-large_default/impresora-bambulab-a1-mini-combo.jpg",
       "url": "https://tp3d.com.ar/impresoras-fdm/1654-impresora-bambulab-a1-mini-combo.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm",
-      "variants": []
-    },
-    {
-      "id": "tp3d-1850",
-      "sourceProductId": "1850",
-      "store": "TP3D",
-      "domain": "tp3d.com.ar",
-      "name": "Impresora 3D Creality K2 PLUS Combo FDM",
-      "category": "Impresoras",
-      "price": 3040999,
-      "currency": "ARS",
-      "transferPrice": 2888949,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "Creality",
-        "combo",
-        "Impresoras FDM"
-      ],
-      "image": "https://tp3d.com.ar/7038-large_default/impresora-3d-creality-k2-plus-combo-fdm.jpg",
-      "url": "https://tp3d.com.ar/impresoras-fdm/1850-impresora-3d-creality-k2-plus-combo-fdm.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm",
-      "variants": []
-    },
-    {
-      "id": "tp3d-1671",
-      "sourceProductId": "1671",
-      "store": "TP3D",
-      "domain": "tp3d.com.ar",
-      "name": "Impresora 3D Bambu Lab A1 Mini",
-      "category": "Impresoras",
-      "price": 578900,
-      "currency": "ARS",
-      "transferPrice": 549955,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "Bambu Lab",
-        "Impresoras FDM"
-      ],
-      "image": "https://tp3d.com.ar/5128-large_default/impresora-bambulab-a1-mini.jpg",
-      "url": "https://tp3d.com.ar/impresoras-fdm/1671-impresora-bambulab-a1-mini.html",
       "scrapedFrom": "https://tp3d.com.ar/203-all-fdm",
       "variants": []
     },
@@ -2712,9 +2642,9 @@
       "domain": "tp3d.com.ar",
       "name": "Refurbished Impresora 3D Anycubic Kobra S1 Combo FDM",
       "category": "Impresoras",
-      "price": 1008990,
+      "price": 1169990,
       "currency": "ARS",
-      "transferPrice": 958541,
+      "transferPrice": 1111491,
       "stock": null,
       "stockLabel": "En stock",
       "available": true,
@@ -3012,7 +2942,7 @@
       ],
       "image": "https://tp3d.com.ar/10223-large_default/impresora-3d-bambu-lab-a1-fdm-envio-en-el-dia-cabagba.jpg",
       "url": "https://tp3d.com.ar/impresoras-fdm/2722-impresora-3d-bambu-lab-a1-fdm-envio-en-el-dia-cabagba.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=2",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm",
       "variants": []
     },
     {
@@ -3036,7 +2966,7 @@
       ],
       "image": "https://tp3d.com.ar/10353-large_default/refurbished-impresora-3d-creality-hi-combo-fdm.jpg",
       "url": "https://tp3d.com.ar/impresoras-fdm/2734-refurbished-impresora-3d-creality-hi-combo-fdm.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=2",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm",
       "variants": []
     },
     {
@@ -3059,7 +2989,7 @@
       ],
       "image": "https://tp3d.com.ar/10431-large_default/preventa-noviembre-impresora-creality-sparkx-i7-cfs-nano-i7.jpg",
       "url": "https://tp3d.com.ar/impresoras-fdm/2743-preventa-noviembre-impresora-creality-sparkx-i7-cfs-nano-i7.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=2",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm",
       "variants": []
     },
     {
@@ -3179,54 +3109,6 @@
       ],
       "image": "https://tp3d.com.ar/11185-large_default/combo-impresora-bambulab-a1-combo-5kg-filamento-bambu-pla-lite.jpg",
       "url": "https://tp3d.com.ar/combos/2791-combo-impresora-bambulab-a1-combo-5kg-filamento-bambu-pla-lite.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=2",
-      "variants": []
-    },
-    {
-      "id": "tp3d-2795",
-      "sourceProductId": "2795",
-      "store": "TP3D",
-      "domain": "tp3d.com.ar",
-      "name": "Combo Impresora Bambulab A1 Mini + 5kg Filamento Bambu PLA LITE",
-      "category": "Filamentos",
-      "price": 698900,
-      "currency": "ARS",
-      "transferPrice": 663955,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "PLA",
-        "combo",
-        "Impresoras FDM"
-      ],
-      "image": "https://tp3d.com.ar/11222-large_default/combo-impresora-bambulab-a1-mini-5kg-filamento-bambu-pla-lite.jpg",
-      "url": "https://tp3d.com.ar/combos/2795-combo-impresora-bambulab-a1-mini-5kg-filamento-bambu-pla-lite.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=2",
-      "variants": []
-    },
-    {
-      "id": "tp3d-2796",
-      "sourceProductId": "2796",
-      "store": "TP3D",
-      "domain": "tp3d.com.ar",
-      "name": "Combo Impresora Bambulab A1 Mini + 8kg Filamento Bambu PLA LITE",
-      "category": "Filamentos",
-      "price": 754900,
-      "currency": "ARS",
-      "transferPrice": 717155,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "PLA",
-        "combo",
-        "Impresoras FDM"
-      ],
-      "image": "https://tp3d.com.ar/11229-large_default/combo-impresora-bambulab-a1-mini-8kg-filamento-bambu-pla-lite.jpg",
-      "url": "https://tp3d.com.ar/combos/2796-combo-impresora-bambulab-a1-mini-8kg-filamento-bambu-pla-lite.html",
       "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=2",
       "variants": []
     },
@@ -3582,7 +3464,7 @@
       ],
       "image": "https://tp3d.com.ar/5124-large_default/impresora-3d-bambulab-p1s-combo-multicolore-con-ams-4-colores-fdm.jpg",
       "url": "https://tp3d.com.ar/impresoras-fdm/1888-impresora-3d-bambulab-p1s-combo-multicolore-con-ams-4-colores-fdm.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=3",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=2",
       "variants": []
     },
     {
@@ -3606,7 +3488,30 @@
       ],
       "image": "https://tp3d.com.ar/4008-large_default/impresora-anycubic-kobra-3-combo-fdm.jpg",
       "url": "https://tp3d.com.ar/impresoras-fdm/1607-impresora-anycubic-kobra-3-combo-fdm.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=3",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=2",
+      "variants": []
+    },
+    {
+      "id": "tp3d-1889",
+      "sourceProductId": "1889",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Impresora 3D Bambu Lab A1 FDM",
+      "category": "Impresoras",
+      "price": 968900,
+      "currency": "ARS",
+      "transferPrice": 920455,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Bambu Lab",
+        "Impresoras FDM"
+      ],
+      "image": "https://tp3d.com.ar/10046-large_default/impresora-3d-bambulab-a1-fdm.jpg",
+      "url": "https://tp3d.com.ar/impresoras-fdm/1889-impresora-3d-bambulab-a1-fdm.html",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=2",
       "variants": []
     },
     {
@@ -3629,7 +3534,7 @@
       ],
       "image": "https://tp3d.com.ar/2487-large_default/impresora-creality-ender-3-v3-ke.jpg",
       "url": "https://tp3d.com.ar/impresoras-fdm/1264-impresora-creality-ender-3-v3-ke.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=3",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=2",
       "variants": []
     },
     {
@@ -3653,6 +3558,30 @@
       ],
       "image": "https://tp3d.com.ar/5989-large_default/impresora-3d-creality-hi-combo-fdm.jpg",
       "url": "https://tp3d.com.ar/impresoras-fdm/1927-impresora-3d-creality-hi-combo-fdm.html",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=2",
+      "variants": []
+    },
+    {
+      "id": "tp3d-1850",
+      "sourceProductId": "1850",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Impresora 3D Creality K2 PLUS Combo FDM",
+      "category": "Impresoras",
+      "price": 3040999,
+      "currency": "ARS",
+      "transferPrice": 2888949,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Creality",
+        "combo",
+        "Impresoras FDM"
+      ],
+      "image": "https://tp3d.com.ar/7038-large_default/impresora-3d-creality-k2-plus-combo-fdm.jpg",
+      "url": "https://tp3d.com.ar/impresoras-fdm/1850-impresora-3d-creality-k2-plus-combo-fdm.html",
       "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=3",
       "variants": []
     },
@@ -3861,6 +3790,29 @@
       ],
       "image": "https://tp3d.com.ar/3615-large_default/impresora-hellbot-hidra-plus-v2.jpg",
       "url": "https://tp3d.com.ar/impresoras-fdm/1565-impresora-hellbot-hidra-plus-v2.html",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=3",
+      "variants": []
+    },
+    {
+      "id": "tp3d-1671",
+      "sourceProductId": "1671",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Impresora 3D Bambu Lab A1 Mini",
+      "category": "Impresoras",
+      "price": 578900,
+      "currency": "ARS",
+      "transferPrice": 549955,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Bambu Lab",
+        "Impresoras FDM"
+      ],
+      "image": "https://tp3d.com.ar/5128-large_default/impresora-bambulab-a1-mini.jpg",
+      "url": "https://tp3d.com.ar/impresoras-fdm/1671-impresora-bambulab-a1-mini.html",
       "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=3",
       "variants": []
     },
@@ -4144,7 +4096,7 @@
       ],
       "image": "https://tp3d.com.ar/1752-large_default/impresora-hellbot-magna-se-pro-fdm.jpg",
       "url": "https://tp3d.com.ar/TP3D/24-impresora-hellbot-magna-se-pro-fdm.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=4",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=3",
       "variants": []
     },
     {
@@ -4168,7 +4120,7 @@
       ],
       "image": "https://tp3d.com.ar/7663-large_default/impresora-3d-anycubic-kobra-3-v2-combo-fdm.jpg",
       "url": "https://tp3d.com.ar/impresoras-fdm/2437-impresora-3d-anycubic-kobra-3-v2-combo-fdm.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=4",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=3",
       "variants": []
     },
     {
@@ -4575,6 +4527,54 @@
       "variants": []
     },
     {
+      "id": "tp3d-2795",
+      "sourceProductId": "2795",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Combo Impresora Bambulab A1 Mini + 5kg Filamento Bambu PLA LITE",
+      "category": "Filamentos",
+      "price": 698900,
+      "currency": "ARS",
+      "transferPrice": 663955,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA",
+        "combo",
+        "Impresoras FDM"
+      ],
+      "image": "https://tp3d.com.ar/11222-large_default/combo-impresora-bambulab-a1-mini-5kg-filamento-bambu-pla-lite.jpg",
+      "url": "https://tp3d.com.ar/combos/2795-combo-impresora-bambulab-a1-mini-5kg-filamento-bambu-pla-lite.html",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=4",
+      "variants": []
+    },
+    {
+      "id": "tp3d-2796",
+      "sourceProductId": "2796",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Combo Impresora Bambulab A1 Mini + 8kg Filamento Bambu PLA LITE",
+      "category": "Filamentos",
+      "price": 754900,
+      "currency": "ARS",
+      "transferPrice": 717155,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA",
+        "combo",
+        "Impresoras FDM"
+      ],
+      "image": "https://tp3d.com.ar/11229-large_default/combo-impresora-bambulab-a1-mini-8kg-filamento-bambu-pla-lite.jpg",
+      "url": "https://tp3d.com.ar/combos/2796-combo-impresora-bambulab-a1-mini-8kg-filamento-bambu-pla-lite.html",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=4",
+      "variants": []
+    },
+    {
       "id": "tp3d-2830",
       "sourceProductId": "2830",
       "store": "TP3D",
@@ -4620,29 +4620,6 @@
       "image": "https://tp3d.com.ar/11571-large_default/preventa-febrero-impresora-bambu-lab-p2s-combo.jpg",
       "url": "https://tp3d.com.ar/envio-flash/2836-preventa-febrero-impresora-bambu-lab-p2s-combo.html",
       "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=4",
-      "variants": []
-    },
-    {
-      "id": "tp3d-1914",
-      "sourceProductId": "1914",
-      "store": "TP3D",
-      "domain": "tp3d.com.ar",
-      "name": "Impresora 3D Anycubic Photon Mono M7 DLP",
-      "category": "Resina",
-      "price": 990000,
-      "currency": "ARS",
-      "transferPrice": 940500,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "Anycubic",
-        "Impresoras Resina"
-      ],
-      "image": "https://tp3d.com.ar/5218-large_default/impresora-anycubic-photon-mono-m7.jpg",
-      "url": "https://tp3d.com.ar/impresoras-resina/1914-impresora-anycubic-photon-mono-m7.html",
-      "scrapedFrom": "https://tp3d.com.ar/7-impresoras-resina",
       "variants": []
     },
     {
@@ -4897,6 +4874,29 @@
       ],
       "image": "https://tp3d.com.ar/7163-large_default/impresora-3d-creality-halot-x1-combo.jpg",
       "url": "https://tp3d.com.ar/impresoras-resina/2381-impresora-3d-creality-halot-x1-combo.html",
+      "scrapedFrom": "https://tp3d.com.ar/7-impresoras-resina",
+      "variants": []
+    },
+    {
+      "id": "tp3d-1914",
+      "sourceProductId": "1914",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Impresora 3D Anycubic Photon Mono M7 DLP",
+      "category": "Resina",
+      "price": 990000,
+      "currency": "ARS",
+      "transferPrice": 940500,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Anycubic",
+        "Impresoras Resina"
+      ],
+      "image": "https://tp3d.com.ar/5218-large_default/impresora-anycubic-photon-mono-m7.jpg",
+      "url": "https://tp3d.com.ar/impresoras-resina/1914-impresora-anycubic-photon-mono-m7.html",
       "scrapedFrom": "https://tp3d.com.ar/7-impresoras-resina",
       "variants": []
     },
@@ -11005,28 +11005,6 @@
       "variants": []
     },
     {
-      "id": "tp3d-2778",
-      "sourceProductId": "2778",
-      "store": "TP3D",
-      "domain": "tp3d.com.ar",
-      "name": "Preventa Octubre Modulo Laser 2W IR Falcon A1 Pro",
-      "category": "Herramientas",
-      "price": 999990,
-      "currency": "ARS",
-      "transferPrice": 949991,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "Accesorios"
-      ],
-      "image": "https://tp3d.com.ar/11042-large_default/preventa-octubre-modulo-laser-2w-ir-falcon-a1-pro.jpg",
-      "url": "https://tp3d.com.ar/accesorios-grabadoras-laser/2778-preventa-octubre-modulo-laser-2w-ir-falcon-a1-pro.html",
-      "scrapedFrom": "https://tp3d.com.ar/15-accesorios-y-complementos-3d?page=3",
-      "variants": []
-    },
-    {
       "id": "tp3d-2857",
       "sourceProductId": "2857",
       "store": "TP3D",
@@ -11070,7 +11048,7 @@
       ],
       "image": "https://tp3d.com.ar/5286-large_default/lapiz-3d-hellbot-celeste.jpg",
       "url": "https://tp3d.com.ar/accesorios-y-complementos-3d/1907-808-lapiz-3d-hellbot-celeste.html#/8-color-celeste",
-      "scrapedFrom": "https://tp3d.com.ar/15-accesorios-y-complementos-3d?page=4",
+      "scrapedFrom": "https://tp3d.com.ar/15-accesorios-y-complementos-3d?page=3",
       "variants": []
     },
     {
@@ -11588,7 +11566,7 @@
       ],
       "image": "https://tp3d.com.ar/7430-large_default/pey-230-trama-2.jpg",
       "url": "https://tp3d.com.ar/accesorios-y-complementos-3d/2369-pey-230-trama-2.html",
-      "scrapedFrom": "https://tp3d.com.ar/15-accesorios-y-complementos-3d?page=5",
+      "scrapedFrom": "https://tp3d.com.ar/15-accesorios-y-complementos-3d?page=4",
       "variants": []
     },
     {
@@ -11768,6 +11746,28 @@
       ],
       "image": "https://tp3d.com.ar/10979-large_default/refurbished-pantalla-tactil-creality-sonic-pad-para-impresora-3d.jpg",
       "url": "https://tp3d.com.ar/accesorios-y-complementos-3d/2770-refurbished-pantalla-tactil-creality-sonic-pad-para-impresora-3d.html",
+      "scrapedFrom": "https://tp3d.com.ar/15-accesorios-y-complementos-3d?page=5",
+      "variants": []
+    },
+    {
+      "id": "tp3d-2778",
+      "sourceProductId": "2778",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Preventa Octubre Modulo Laser 2W IR Falcon A1 Pro",
+      "category": "Herramientas",
+      "price": 999990,
+      "currency": "ARS",
+      "transferPrice": 949991,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Accesorios"
+      ],
+      "image": "https://tp3d.com.ar/11042-large_default/preventa-octubre-modulo-laser-2w-ir-falcon-a1-pro.jpg",
+      "url": "https://tp3d.com.ar/accesorios-grabadoras-laser/2778-preventa-octubre-modulo-laser-2w-ir-falcon-a1-pro.html",
       "scrapedFrom": "https://tp3d.com.ar/15-accesorios-y-complementos-3d?page=5",
       "variants": []
     },
