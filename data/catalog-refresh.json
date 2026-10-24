@@ -1,84 +1,84 @@
 {
-  "startedAt": "2026-10-23T13:13:56.881Z",
-  "refreshedAt": "2026-10-23T13:14:52.480Z",
+  "startedAt": "2026-10-24T12:31:44.315Z",
+  "refreshedAt": "2026-10-24T12:32:36.933Z",
   "status": "partial",
   "lastSuccessfulFullRefreshAt": "2026-10-05T17:03:57.693Z",
-  "updatedStores": 20,
-  "staleStores": 1,
+  "updatedStores": 19,
+  "staleStores": 2,
   "oldestScrapedAt": "2026-10-07T15:25:43.272Z",
-  "newestScrapedAt": "2026-10-23T13:14:52.467Z",
+  "newestScrapedAt": "2026-10-24T12:32:36.921Z",
   "stores": [
     {
       "store": "3DTisk",
       "status": "updated",
-      "count": 204,
-      "scrapedAt": "2026-10-23T13:14:02.149Z"
+      "count": 205,
+      "scrapedAt": "2026-10-24T12:31:50.621Z"
     },
     {
       "store": "3Dimension",
       "status": "updated",
       "count": 13,
-      "scrapedAt": "2026-10-23T13:14:00.505Z"
+      "scrapedAt": "2026-10-24T12:31:47.758Z"
     },
     {
       "store": "Creaxis 3D",
       "status": "updated",
-      "count": 106,
-      "scrapedAt": "2026-10-23T13:14:01.211Z"
+      "count": 107,
+      "scrapedAt": "2026-10-24T12:31:48.142Z"
     },
     {
       "store": "Dino 3D",
       "status": "updated",
       "count": 503,
-      "scrapedAt": "2026-10-23T13:13:59.090Z"
+      "scrapedAt": "2026-10-24T12:31:46.413Z"
     },
     {
       "store": "Erexit 3D",
       "status": "updated",
       "count": 65,
-      "scrapedAt": "2026-10-23T13:14:03.674Z"
+      "scrapedAt": "2026-10-24T12:31:50.428Z"
     },
     {
       "store": "Filacolor",
       "status": "updated",
       "count": 44,
-      "scrapedAt": "2026-10-23T13:14:03.325Z"
+      "scrapedAt": "2026-10-24T12:31:50.375Z"
     },
     {
       "store": "Laboratorio 3D",
       "status": "updated",
       "count": 85,
-      "scrapedAt": "2026-10-23T13:14:03.938Z"
+      "scrapedAt": "2026-10-24T12:31:49.294Z"
     },
     {
       "store": "i3D Tienda",
       "status": "updated",
       "count": 362,
-      "scrapedAt": "2026-10-23T13:14:20.376Z"
+      "scrapedAt": "2026-10-24T12:32:06.882Z"
     },
     {
       "store": "Gprint 3D",
       "status": "updated",
       "count": 202,
-      "scrapedAt": "2026-10-23T13:14:15.312Z"
+      "scrapedAt": "2026-10-24T12:32:02.040Z"
     },
     {
       "store": "Global Value",
       "status": "updated",
-      "count": 271,
-      "scrapedAt": "2026-10-23T13:14:20.934Z"
+      "count": 281,
+      "scrapedAt": "2026-10-24T12:32:03.532Z"
     },
     {
       "store": "Lefasoc",
       "status": "updated",
-      "count": 170,
-      "scrapedAt": "2026-10-23T13:14:07.576Z"
+      "count": 182,
+      "scrapedAt": "2026-10-24T12:31:54.609Z"
     },
     {
       "store": "TP3D",
       "status": "updated",
-      "count": 509,
-      "scrapedAt": "2026-10-23T13:14:29.100Z"
+      "count": 503,
+      "scrapedAt": "2026-10-24T12:32:16.590Z"
     },
     {
       "store": "Proyecto Color",
@@ -90,42 +90,43 @@
     {
       "store": "Kimera 3D",
       "status": "updated",
-      "count": 326,
-      "scrapedAt": "2026-10-23T13:14:34.314Z"
+      "count": 329,
+      "scrapedAt": "2026-10-24T12:32:19.069Z"
     },
     {
       "store": "Osiris 3D",
       "status": "updated",
       "count": 44,
-      "scrapedAt": "2026-10-23T13:14:52.467Z"
+      "scrapedAt": "2026-10-24T12:32:36.921Z"
     },
     {
       "store": "Todo 3D",
       "status": "updated",
       "count": 65,
-      "scrapedAt": "2026-10-23T13:14:27.886Z"
+      "scrapedAt": "2026-10-24T12:32:14.842Z"
     },
     {
       "store": "Trimetra 3D",
       "status": "updated",
-      "count": 63,
-      "scrapedAt": "2026-10-23T13:14:39.663Z"
+      "count": 61,
+      "scrapedAt": "2026-10-24T12:32:16.772Z"
     },
     {
       "store": "WeTech",
       "status": "updated",
-      "count": 291,
-      "scrapedAt": "2026-10-23T13:14:32.997Z"
+      "count": 290,
+      "scrapedAt": "2026-10-24T12:32:19.542Z"
     },
     {
       "store": "Llaveprint",
       "status": "updated",
       "count": 11,
-      "scrapedAt": "2026-10-23T13:14:34.292Z"
+      "scrapedAt": "2026-10-24T12:32:17.644Z"
     },
     {
       "store": "Star Impression 3D",
-      "status": "updated",
+      "status": "stale",
+      "reason": "exit 1",
       "count": 398,
       "scrapedAt": "2026-10-23T13:14:42.464Z"
     },
@@ -133,7 +134,7 @@
       "store": "Tecknicam 3D",
       "status": "updated",
       "count": 219,
-      "scrapedAt": "2026-10-23T13:14:45.506Z"
+      "scrapedAt": "2026-10-24T12:32:29.753Z"
     }
   ]
 }

@@ -5,7 +5,7 @@
     "baseUrl": "https://creaxis.com.ar",
     "apiPath": "/wp-json/wc/store/v1/products"
   },
-  "scrapedAt": "2026-10-23T13:14:01.211Z",
+  "scrapedAt": "2026-10-24T12:31:48.142Z",
   "source": "https://creaxis.com.ar/wp-json/wc/store/v1/products",
   "pages": [
     {
@@ -17,8 +17,8 @@
     {
       "page": 2,
       "url": "https://creaxis.com.ar/wp-json/wc/store/v1/products?per_page=100&page=2",
-      "found": 6,
-      "added": 6
+      "found": 7,
+      "added": 7
     }
   ],
   "products": [
@@ -187,10 +187,12 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 508900,
-      "purchaseModes": [],
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
+      "available": true,
       "brand": "Bambu Lab",
       "tags": [
         "Bambu Lab"
@@ -214,7 +216,7 @@
       "purchaseModes": [
         "Preventa"
       ],
-      "stock": 1,
+      "stock": 3,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Bambu Lab",
@@ -879,6 +881,32 @@
       ],
       "image": "https://creaxis.com.ar/wp-content/uploads/2026/07/Creality-PETG-Soleyin-Basic-Negro-1KG.webp",
       "url": "https://creaxis.com.ar/producto/creality-petg-soleyin-basic-negro-1kg/",
+      "scrapedFrom": "https://creaxis.com.ar/wp-json/wc/store/v1/products",
+      "variants": []
+    },
+    {
+      "id": "creaxis-2633",
+      "sourceProductId": "2633",
+      "store": "Creaxis 3D",
+      "domain": "creaxis.com.ar",
+      "name": "Creality SPARKX i7 Color Combo",
+      "category": "Impresoras",
+      "price": 1256999,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 1083999,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 4,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Creality",
+      "tags": [
+        "Creality"
+      ],
+      "image": "https://creaxis.com.ar/wp-content/uploads/2026/10/sparkx-i7-color-combo.webp",
+      "url": "https://creaxis.com.ar/producto/creality-sparkx-i7-color-combo/",
       "scrapedFrom": "https://creaxis.com.ar/wp-json/wc/store/v1/products",
       "variants": []
     },
@@ -2899,7 +2927,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 2,
+      "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": null,

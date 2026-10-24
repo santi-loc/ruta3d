@@ -5,15 +5,15 @@
     "baseUrl": "https://shop.wetech.ar",
     "listingPath": "/products"
   },
-  "scrapedAt": "2026-10-23T13:14:32.997Z",
-  "count": 291,
+  "scrapedAt": "2026-10-24T12:32:19.542Z",
+  "count": 290,
   "pages": [
     {
       "page": 1,
       "path": "/stk-item/catalogo",
       "url": "https://back.wetech.ar/stk-item/catalogo",
       "found": 619,
-      "added": 291
+      "added": 290
     }
   ],
   "products": [
@@ -129,7 +129,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 19998.8,
-      "stock": 27,
+      "stock": 25,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3n3",
@@ -230,7 +230,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 12799.3,
-      "stock": 445,
+      "stock": 437,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3n3",
@@ -656,7 +656,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 25998.95,
-      "stock": 51,
+      "stock": 49,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3n3",
@@ -1104,7 +1104,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 16999.15,
-      "stock": 247,
+      "stock": 234,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3nMax",
@@ -1183,7 +1183,7 @@
         },
         {
           "id": "3X-PLA-1KG-CHOC",
-          "available": true,
+          "available": false,
           "price": 24705,
           "options": [
             "Chocolate",
@@ -3084,7 +3084,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 2974.12,
-      "stock": 44,
+      "stock": 41,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -7541,7 +7541,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 8610.13,
-      "stock": 70,
+      "stock": 69,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -7571,7 +7571,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 26999.4,
-      "stock": 76,
+      "stock": 74,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -8157,7 +8157,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 26999.4,
-      "stock": 85,
+      "stock": 82,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -8694,7 +8694,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 23499.1,
-      "stock": 154,
+      "stock": 153,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -8941,7 +8941,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 24999.35,
-      "stock": 321,
+      "stock": 307,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -9200,7 +9200,7 @@
         },
         {
           "id": "G3-PLA2-1KG-FUCS",
-          "available": true,
+          "available": false,
           "price": 30587,
           "options": [
             "Fucsia",
@@ -10306,7 +10306,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 19998.8,
-      "stock": 62,
+      "stock": 46,
       "stockLabel": "En stock",
       "available": true,
       "brand": "GST3D",
@@ -10496,7 +10496,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 21998.85,
-      "stock": 30,
+      "stock": 34,
       "stockLabel": "En stock",
       "available": true,
       "brand": "GST3D",
@@ -10574,7 +10574,7 @@
         },
         {
           "id": "GSB-SILK-1KG-DORA",
-          "available": false,
+          "available": true,
           "price": 25881,
           "options": [
             "Dorado",
@@ -10597,11 +10597,11 @@
           ]
         },
         {
-          "id": "GSB-SILK-1KG-ALUM",
+          "id": "GSB-SILK-1KG-GRAP",
           "available": false,
           "price": 25881,
           "options": [
-            "Gris Aluminio",
+            "Gris Grafito",
             "1kg",
             "PLA+ Silk",
             "Básico",
@@ -10609,11 +10609,11 @@
           ]
         },
         {
-          "id": "GSB-SILK-1KG-GRAP",
+          "id": "GSB-SILK-1KG-ALUM",
           "available": false,
           "price": 25881,
           "options": [
-            "Gris Grafito",
+            "Gris Aluminio",
             "1kg",
             "PLA+ Silk",
             "Básico",
@@ -10743,131 +10743,6 @@
       ]
     },
     {
-      "id": "wetech-gst3d-pla-silk-duo-basico-nacional",
-      "sourceProductId": "GST3D-PLA+ SILK DUO-BÁSICO-NACIONAL",
-      "store": "WeTech",
-      "domain": "shop.wetech.ar",
-      "name": "GST3D Black PLA SILK BICOLOR",
-      "category": "Filamentos",
-      "price": 25881,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 21998.85,
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "GST3D",
-      "tags": [
-        "GST3D",
-        "PLA+ Silk DUO",
-        "Básico",
-        "Nacional",
-        "Filamentos PLA",
-        "1kg"
-      ],
-      "image": "https://ik.imagekit.io/8x5mvqkfl0/GST3D/GST3D%20BLACK/BICOLOR%20SILK/PLA%201KG%20BISILK%20ARGENTO_Mesa%20de%20trabajo%201.png?updatedAt=1781117191821",
-      "url": "https://shop.wetech.ar/product/GST3D-PLA%2B%20SILK%20DUO-B%C3%81SICO-NACIONAL",
-      "scrapedFrom": "https://shop.wetech.ar/products",
-      "variants": [
-        {
-          "id": "GSB-SIDU-1KG-ARGE",
-          "available": false,
-          "price": 25881,
-          "options": [
-            "Celeste + Blanco Argento",
-            "1kg",
-            "PLA+ Silk DUO",
-            "Básico",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "GSB-SIDU-1KG-FUDO",
-          "available": false,
-          "price": 25881,
-          "options": [
-            "Fucsia + Dorado",
-            "1kg",
-            "PLA+ Silk DUO",
-            "Básico",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "GSB-SIDU-1KG-GRDO",
-          "available": false,
-          "price": 25881,
-          "options": [
-            "Grafito + Dorado",
-            "1kg",
-            "PLA+ Silk DUO",
-            "Básico",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "GSB-SIDU-1KG-GRPE",
-          "available": false,
-          "price": 25881,
-          "options": [
-            "Grafito + Perla",
-            "1kg",
-            "PLA+ Silk DUO",
-            "Básico",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "GSB-SIDU-1KG-GRPU",
-          "available": false,
-          "price": 25881,
-          "options": [
-            "Grafito + Purpura",
-            "1kg",
-            "PLA+ Silk DUO",
-            "Básico",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "GSB-SIDU-1KG-GRRO",
-          "available": false,
-          "price": 25881,
-          "options": [
-            "Grafito + Rojo",
-            "1kg",
-            "PLA+ Silk DUO",
-            "Básico",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "GSB-SIDU-1KG-GRVE",
-          "available": false,
-          "price": 25881,
-          "options": [
-            "Grafito + Verde",
-            "1kg",
-            "PLA+ Silk DUO",
-            "Básico",
-            "Nacional"
-          ]
-        },
-        {
-          "id": "GSB-SIDU-1KG-NADO",
-          "available": false,
-          "price": 25881,
-          "options": [
-            "Naranja + Dorado",
-            "1kg",
-            "PLA+ Silk DUO",
-            "Básico",
-            "Nacional"
-          ]
-        }
-      ]
-    },
-    {
       "id": "wetech-gst3d-pla-silk-trio-basico-nacional",
       "sourceProductId": "GST3D-PLA+ SILK TRIO-BÁSICO-NACIONAL",
       "store": "WeTech",
@@ -10878,7 +10753,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 23998.9,
-      "stock": 21,
+      "stock": 13,
       "stockLabel": "En stock",
       "available": true,
       "brand": "GST3D",
@@ -11027,7 +10902,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 19998.8,
-      "stock": 457,
+      "stock": 469,
       "stockLabel": "En stock",
       "available": true,
       "brand": "GST3D",
@@ -11045,7 +10920,7 @@
       "variants": [
         {
           "id": "GSB-PLA-1KG-AMAR",
-          "available": false,
+          "available": true,
           "price": 23528,
           "options": [
             "Amarillo",
@@ -11093,7 +10968,7 @@
         },
         {
           "id": "GSB-PLA-1KG-GLAZ",
-          "available": false,
+          "available": true,
           "price": 23528,
           "options": [
             "Azul Glitter",
@@ -11261,7 +11136,7 @@
         },
         {
           "id": "GSB-PLA-1KG-MACL",
-          "available": false,
+          "available": true,
           "price": 23528,
           "options": [
             "Marron Claro",
@@ -11333,7 +11208,7 @@
         },
         {
           "id": "GSB-PLA-1KG-PLAT",
-          "available": false,
+          "available": true,
           "price": 23528,
           "options": [
             "Plata",
@@ -11702,7 +11577,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 29999.05,
-      "stock": 15,
+      "stock": 12,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -11952,7 +11827,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 19998.8,
-      "stock": 370,
+      "stock": 359,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -12426,7 +12301,7 @@
         },
         {
           "id": "HB-PLA-1KG-VIOL",
-          "available": true,
+          "available": false,
           "price": 23528,
           "options": [
             "Violeta",
@@ -12779,7 +12654,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 48024.06,
-      "stock": 11,
+      "stock": 10,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -13229,7 +13104,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 2974.12,
-      "stock": 14,
+      "stock": 19,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
