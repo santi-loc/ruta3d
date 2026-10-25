@@ -5,7 +5,7 @@
     "baseUrl": "https://creaxis.com.ar",
     "apiPath": "/wp-json/wc/store/v1/products"
   },
-  "scrapedAt": "2026-10-24T12:31:48.142Z",
+  "scrapedAt": "2026-10-25T13:04:33.394Z",
   "source": "https://creaxis.com.ar/wp-json/wc/store/v1/products",
   "pages": [
     {
@@ -17,8 +17,8 @@
     {
       "page": 2,
       "url": "https://creaxis.com.ar/wp-json/wc/store/v1/products?per_page=100&page=2",
-      "found": 7,
-      "added": 7
+      "found": 10,
+      "added": 10
     }
   ],
   "products": [
@@ -138,8 +138,8 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 7,
-      "stockLabel": "En stock",
+      "stock": 3,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Bambu Lab",
       "tags": [
@@ -164,8 +164,8 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 3,
-      "stockLabel": "Pocas unidades",
+      "stock": 8,
+      "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
       "tags": [
@@ -190,7 +190,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 2,
+      "stock": 3,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Bambu Lab",
@@ -216,8 +216,8 @@
       "purchaseModes": [
         "Preventa"
       ],
-      "stock": 3,
-      "stockLabel": "Pocas unidades",
+      "stock": 14,
+      "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
       "tags": [
@@ -243,8 +243,8 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
+      "stock": 11,
+      "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
       "tags": [
@@ -269,7 +269,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 2,
+      "stock": 3,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Bambu Lab",
@@ -345,7 +345,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 1,
+      "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Bambu Lab",
@@ -525,14 +525,16 @@
       "domain": "creaxis.com.ar",
       "name": "Creality Ender 3 V3 SE",
       "category": "Impresoras",
-      "price": 475000,
+      "price": 509900,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 359999,
-      "purchaseModes": [],
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
+      "transferPrice": 399900,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 10,
+      "stockLabel": "En stock",
+      "available": true,
       "brand": "Creality",
       "tags": [
         "Creality"
@@ -610,7 +612,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 11,
+      "stock": 10,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Creality",
@@ -713,7 +715,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 2,
+      "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Creality",
@@ -739,7 +741,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 3,
+      "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Creality",
@@ -762,12 +764,10 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 1441999,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 2,
-      "stockLabel": "Pocas unidades",
-      "available": true,
+      "purchaseModes": [],
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": "Creality",
       "tags": [
         "Creality"
@@ -978,7 +978,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 3,
+      "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Filar",
@@ -1008,7 +1008,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 7,
+      "stock": 6,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Filar",
@@ -1117,12 +1117,10 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 22690,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
-      "available": true,
+      "purchaseModes": [],
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": "Filar",
       "tags": [
         "Filar",
@@ -1178,8 +1176,8 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 2,
-      "stockLabel": "Pocas unidades",
+      "stock": 12,
+      "stockLabel": "En stock",
       "available": true,
       "brand": "Filar",
       "tags": [
@@ -1206,7 +1204,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 15,
+      "stock": 12,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Filar",
@@ -1262,7 +1260,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 10,
+      "stock": 9,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Filar",
@@ -1315,10 +1313,12 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 22690,
-      "purchaseModes": [],
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 20,
+      "stockLabel": "En stock",
+      "available": true,
       "brand": "Filar",
       "tags": [
         "Filar",
@@ -1400,7 +1400,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 4,
+      "stock": 13,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Filar",
@@ -1456,8 +1456,8 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 2,
-      "stockLabel": "Pocas unidades",
+      "stock": 13,
+      "stockLabel": "En stock",
       "available": true,
       "brand": "Filar",
       "tags": [
@@ -1481,10 +1481,12 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 22690,
-      "purchaseModes": [],
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "Pocas unidades",
+      "available": true,
       "brand": "Filar",
       "tags": [
         "Filar",
@@ -1512,8 +1514,8 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
+      "stock": 11,
+      "stockLabel": "En stock",
       "available": true,
       "brand": "Filar",
       "tags": [
@@ -1598,7 +1600,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 19,
+      "stock": 15,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Filar",
@@ -1712,8 +1714,8 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 5,
-      "stockLabel": "En stock",
+      "stock": 3,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Filar",
       "tags": [
@@ -1739,10 +1741,12 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 22690,
-      "purchaseModes": [],
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 8,
+      "stockLabel": "En stock",
+      "available": true,
       "brand": "Filar",
       "tags": [
         "Filar",
@@ -1770,8 +1774,8 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 2,
-      "stockLabel": "Pocas unidades",
+      "stock": 12,
+      "stockLabel": "En stock",
       "available": true,
       "brand": "Filar",
       "tags": [
@@ -1800,7 +1804,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 4,
+      "stock": 15,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Filar",
@@ -1828,7 +1832,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 10,
+      "stock": 11,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Filar",
@@ -1858,7 +1862,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 6,
+      "stock": 12,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Filar",
@@ -1914,7 +1918,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 9,
+      "stock": 7,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Filar",
@@ -2048,7 +2052,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 19,
+      "stock": 14,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2059,6 +2063,34 @@
       ],
       "image": "https://creaxis.com.ar/wp-content/uploads/2026/04/filamento-pla-hellbot-amarillo.webp",
       "url": "https://creaxis.com.ar/producto/hellbot-ecofila-pla-amarillo-1kg/",
+      "scrapedFrom": "https://creaxis.com.ar/wp-json/wc/store/v1/products",
+      "variants": []
+    },
+    {
+      "id": "creaxis-2652",
+      "sourceProductId": "2652",
+      "store": "Creaxis 3D",
+      "domain": "creaxis.com.ar",
+      "name": "Hellbot Ecofila PLA Amarillo Fluo 1kg",
+      "category": "Filamentos",
+      "price": 25188,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 20990,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 10,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot",
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://creaxis.com.ar/wp-content/uploads/2026/10/filamento-hellbot-ecofila-pla-amarillo-fluo-1kg.webp",
+      "url": "https://creaxis.com.ar/producto/hellbot-ecofila-pla-amarillo-fluo-1kg/",
       "scrapedFrom": "https://creaxis.com.ar/wp-json/wc/store/v1/products",
       "variants": []
     },
@@ -2076,7 +2108,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 9,
+      "stock": 8,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Anycubic",
@@ -2104,7 +2136,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 19,
+      "stock": 17,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2160,7 +2192,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 35,
+      "stock": 24,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2216,7 +2248,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 8,
+      "stock": 7,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2244,7 +2276,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 9,
+      "stock": 16,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2298,7 +2330,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 14,
+      "stock": 23,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2378,7 +2410,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 10,
+      "stock": 9,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2417,6 +2449,34 @@
       ],
       "image": "https://creaxis.com.ar/wp-content/uploads/2026/09/Hellbot-pla-gris-grafito.webp",
       "url": "https://creaxis.com.ar/producto/hellbot-ecofila-pla-gris-grafito-1kg/",
+      "scrapedFrom": "https://creaxis.com.ar/wp-json/wc/store/v1/products",
+      "variants": []
+    },
+    {
+      "id": "creaxis-2648",
+      "sourceProductId": "2648",
+      "store": "Creaxis 3D",
+      "domain": "creaxis.com.ar",
+      "name": "Hellbot Ecofila PLA Kiwi Pastel 1kg",
+      "category": "Filamentos",
+      "price": 25188,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 20990,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 10,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot",
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://creaxis.com.ar/wp-content/uploads/2026/10/filamento-hellbot-ecofila-pla-kiwi-pastel-1kg.webp",
+      "url": "https://creaxis.com.ar/producto/hellbot-ecofila-pla-kiwi-pastel-1kg/",
       "scrapedFrom": "https://creaxis.com.ar/wp-json/wc/store/v1/products",
       "variants": []
     },
@@ -2462,7 +2522,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 14,
+      "stock": 12,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2490,7 +2550,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 7,
+      "stock": 4,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2518,7 +2578,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 19,
+      "stock": 18,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2572,7 +2632,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 44,
+      "stock": 47,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2600,7 +2660,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 18,
+      "stock": 27,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2654,7 +2714,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 19,
+      "stock": 20,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2665,6 +2725,34 @@
       ],
       "image": "https://creaxis.com.ar/wp-content/uploads/2026/04/filamento-pla-hellbot-rojo.webp",
       "url": "https://creaxis.com.ar/producto/hellbot-ecofila-pla-rojo-1kg/",
+      "scrapedFrom": "https://creaxis.com.ar/wp-json/wc/store/v1/products",
+      "variants": []
+    },
+    {
+      "id": "creaxis-2647",
+      "sourceProductId": "2647",
+      "store": "Creaxis 3D",
+      "domain": "creaxis.com.ar",
+      "name": "Hellbot Ecofila PLA Rosa 1kg",
+      "category": "Filamentos",
+      "price": 25188,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 20990,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 20,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot",
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://creaxis.com.ar/wp-content/uploads/2026/10/filamento-hellbot-ecofila-pla-rosa-1kg.webp",
+      "url": "https://creaxis.com.ar/producto/hellbot-ecofila-pla-rosa-1kg/",
       "scrapedFrom": "https://creaxis.com.ar/wp-json/wc/store/v1/products",
       "variants": []
     },
@@ -2766,7 +2854,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 6,
+      "stock": 5,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2794,7 +2882,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 20,
+      "stock": 17,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2848,8 +2936,8 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
+      "stock": 10,
+      "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
       "tags": [

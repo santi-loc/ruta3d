@@ -5,8 +5,8 @@
     "baseUrl": "https://laboratorio3d.com.ar",
     "listingPath": "/productos/"
   },
-  "scrapedAt": "2026-10-24T12:31:49.294Z",
-  "count": 85,
+  "scrapedAt": "2026-10-25T13:04:36.020Z",
+  "count": 86,
   "pages": [
     {
       "page": 1,
@@ -17,8 +17,8 @@
     {
       "page": 2,
       "url": "https://laboratorio3d.com.ar/productos/page/2/",
-      "found": 25,
-      "added": 25
+      "found": 26,
+      "added": 26
     },
     {
       "page": 3,
@@ -28,6 +28,285 @@
     }
   ],
   "products": [
+    {
+      "id": "laboratorio3d-344363999",
+      "sourceProductId": "344363999",
+      "store": "Laboratorio 3D",
+      "domain": "laboratorio3d.com.ar",
+      "name": "Filamento PLA Filalab High Speed 1,75 mm 1 kg",
+      "category": "Filamentos",
+      "price": 20900,
+      "currency": "ARS",
+      "transferPrice": 19019,
+      "purchaseModes": [],
+      "stock": 24832,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "FILALAB",
+      "tags": [
+        "FILALAB",
+        "PLA",
+        "1kg",
+        "Filalab"
+      ],
+      "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/whatsapp-image-2026-05-15-at-16-01-20-1-0c79fd245deecd651817788722219269-1024-1024.webp",
+      "url": "https://laboratorio3d.com.ar/productos/filamento-filalab-3d-pla-1-75mm-1kg-1jorn/",
+      "scrapedFrom": "https://laboratorio3d.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1525232606,
+          "sku": "FILALAB-PLA-BEIGE",
+          "price": 20900,
+          "isDeposit": false,
+          "stock": 300,
+          "available": true,
+          "options": [
+            "Beige"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/whatsapp-image-2026-05-15-at-16-01-20-1-0c79fd245deecd651817788722219269-1024-1024.webp"
+        },
+        {
+          "id": 1525232609,
+          "sku": "FILALAB-PLA-BLACK",
+          "price": 20900,
+          "isDeposit": false,
+          "stock": 4100,
+          "available": true,
+          "options": [
+            "Negro"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/whatsapp-image-2026-05-15-at-16-01-20-2-701a0bf0ddb1081b4b17788722238512-1024-1024.webp"
+        },
+        {
+          "id": 1525232611,
+          "sku": "FILALAB-PLA-BROWN",
+          "price": 20900,
+          "isDeposit": false,
+          "stock": 292,
+          "available": true,
+          "options": [
+            "Marrón"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/whatsapp-image-2026-05-15-at-16-01-21-8779a926dea4ae818717788722291294-1024-1024.webp"
+        },
+        {
+          "id": 1525232615,
+          "sku": "FILALAB-PLA-GREY",
+          "price": 20900,
+          "isDeposit": false,
+          "stock": 303,
+          "available": true,
+          "options": [
+            "Gris"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/whatsapp-image-2026-05-15-at-16-01-21-2-f73b1bd5826da34fee17788722919198-1024-1024.webp"
+        },
+        {
+          "id": 1525232617,
+          "sku": "FILALAB-PLA-MARBLE",
+          "price": 20900,
+          "isDeposit": false,
+          "stock": 579,
+          "available": true,
+          "options": [
+            "Marmol"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/whatsapp-image-2026-05-15-at-16-01-22-2-8c6cf5543ce52e40c517788722915858-1024-1024.webp"
+        },
+        {
+          "id": 1525232622,
+          "sku": "FILALAB-PLA-PINK",
+          "price": 20900,
+          "isDeposit": false,
+          "stock": 375,
+          "available": true,
+          "options": [
+            "Rosa"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/whatsapp-image-2026-05-15-at-16-01-23-1-d08b6822658ce3792c17788723038056-1024-1024.webp"
+        },
+        {
+          "id": 1525232629,
+          "sku": "FILALAB-PLA-WHITE",
+          "price": 20900,
+          "isDeposit": false,
+          "stock": 923,
+          "available": true,
+          "options": [
+            "Blanco"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/whatsapp-image-2026-05-15-at-16-01-25-2fe01b44bab1cabf5f17788723164796-1024-1024.webp"
+        },
+        {
+          "id": 1525232630,
+          "sku": "FILALAB-PLA-WOODCOLOR",
+          "price": 20900,
+          "isDeposit": false,
+          "stock": 272,
+          "available": true,
+          "options": [
+            "Madera"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/whatsapp-image-2026-05-15-at-16-01-25-1-4b44de5677144232f117788723164594-1024-1024.webp"
+        },
+        {
+          "id": 1525232633,
+          "sku": "FILALAB-PLA-YELLOW",
+          "price": 20900,
+          "isDeposit": false,
+          "stock": 468,
+          "available": true,
+          "options": [
+            "Amarillo"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/whatsapp-image-2026-05-15-at-16-01-25-2-0887b3a6e181ca711417788723167532-1024-1024.webp"
+        },
+        {
+          "id": 1525232635,
+          "sku": "FILALAB-PLA-MARBLEBRICKGREY",
+          "price": 20900,
+          "isDeposit": false,
+          "stock": 304,
+          "available": true,
+          "options": [
+            "Mármol Gris Ladrillo"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/whatsapp-image-2026-05-15-at-16-01-22-2f21a0d85360b1d8d117788723037518-1024-1024.webp"
+        },
+        {
+          "id": 1525232638,
+          "sku": "FILALAB-PLA-TRANSLUCENT",
+          "price": 20900,
+          "isDeposit": false,
+          "stock": 306,
+          "available": true,
+          "options": [
+            "Translucido"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/whatsapp-image-2026-05-15-at-16-01-24-3-0199267bd5cb70162617788723112268-1024-1024.webp"
+        },
+        {
+          "id": 1525232639,
+          "sku": "FILALAB-PLA-PURPLE",
+          "price": 20900,
+          "isDeposit": false,
+          "stock": 301,
+          "available": true,
+          "options": [
+            "Purpura"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/whatsapp-image-2026-05-15-at-16-01-23-2-b21b2bcd5ed32106d917788723044061-1024-1024.webp"
+        },
+        {
+          "id": 1525232640,
+          "sku": "FILALAB-PLA-SEAGREEN",
+          "price": 20900,
+          "isDeposit": false,
+          "stock": 398,
+          "available": true,
+          "options": [
+            "Verde"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/whatsapp-image-2026-05-15-at-16-01-21-1-d53a9634f777014c4e17788730573067-1024-1024.webp"
+        },
+        {
+          "id": 1625715639,
+          "sku": "FILALAB-PLA-REDORANG",
+          "price": 20900,
+          "isDeposit": false,
+          "stock": 533,
+          "available": true,
+          "options": [
+            "Rojo Anaranjado"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/pla-rojo-naranja-702aaee7615d32352717928545147759-1024-1024.webp"
+        },
+        {
+          "id": 1625715640,
+          "sku": "FILALAB-PLA-GREYSILVER",
+          "price": 20900,
+          "isDeposit": false,
+          "stock": 407,
+          "available": true,
+          "options": [
+            "Gris Plata"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/pla-gris-azul-b9b04236f2dc8afd5217928545152710-1024-1024.webp"
+        },
+        {
+          "id": 1625715641,
+          "sku": "FILALAB-PLA-BLUEVIOL",
+          "price": 20900,
+          "isDeposit": false,
+          "stock": 371,
+          "available": true,
+          "options": [
+            "Azul Violaceo"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/pla-azul-violeta-023c6a2d3dda4c053917928545154710-1024-1024.webp"
+        },
+        {
+          "id": 1625715642,
+          "sku": "FILALAB-PLA-NAVYBLUE",
+          "price": 20900,
+          "isDeposit": false,
+          "stock": 613,
+          "available": true,
+          "options": [
+            "Azul Navy"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/pla-navy-blue-33020460165ff2802117928545150943-1024-1024.webp"
+        },
+        {
+          "id": 1625715643,
+          "sku": "FILALAB-PLA-CYAN",
+          "price": 20900,
+          "isDeposit": false,
+          "stock": 401,
+          "available": true,
+          "options": [
+            "Cyan / Celeste"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/pla-cyan-5f3af8769bdc3c69f717928545149647-1024-1024.webp"
+        },
+        {
+          "id": 1625715644,
+          "sku": "FILALAB-PLA-ORANGPRAG",
+          "price": 20900,
+          "isDeposit": false,
+          "stock": 401,
+          "available": true,
+          "options": [
+            "Naranja Praga"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/pla-jancint-29e827a20abca7eff817928545149106-1024-1024.webp"
+        },
+        {
+          "id": 1625715645,
+          "sku": "FILALAB-PLA-ARMYGREEN",
+          "price": 20900,
+          "isDeposit": false,
+          "stock": 482,
+          "available": true,
+          "options": [
+            "Verde Militar"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/pla-army-green-32641566762d59735417928545151872-1024-1024.webp"
+        },
+        {
+          "id": 1625715646,
+          "sku": "FILALAB-PLA-SKYN",
+          "price": 20900,
+          "isDeposit": false,
+          "stock": 287,
+          "available": true,
+          "options": [
+            "Piel"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/pla-skyn-c3b3d21e7d95cf67f717928545146003-1024-1024.webp"
+        }
+      ]
+    },
     {
       "id": "laboratorio3d-344970804",
       "sourceProductId": "344970804",
@@ -39,7 +318,7 @@
       "currency": "ARS",
       "transferPrice": 20309.38,
       "purchaseModes": [],
-      "stock": 492,
+      "stock": 458,
       "stockLabel": "En stock",
       "available": true,
       "brand": "FILALAB",
@@ -57,8 +336,8 @@
           "sku": "FILALAB-PLAMATTE-BLACK",
           "price": 22318,
           "isDeposit": false,
-          "stock": 8,
-          "available": true,
+          "stock": 0,
+          "available": false,
           "options": [
             "Negro Matte"
           ],
@@ -69,7 +348,7 @@
           "sku": "FILALAB-PLAMATTE-WHITE",
           "price": 22318,
           "isDeposit": false,
-          "stock": 200,
+          "stock": 192,
           "available": true,
           "options": [
             "Blanco Matte"
@@ -105,7 +384,7 @@
           "sku": "FILALAB-PLAMATTE-TEALGREEN",
           "price": 22318,
           "isDeposit": false,
-          "stock": 38,
+          "stock": 37,
           "available": true,
           "options": [
             "Verde Azulado Matte"
@@ -233,7 +512,7 @@
       "currency": "ARS",
       "transferPrice": 18534.88,
       "purchaseModes": [],
-      "stock": 680,
+      "stock": 652,
       "stockLabel": "En stock",
       "available": true,
       "brand": "FILASUR",
@@ -263,7 +542,7 @@
           "sku": "FILASURBE",
           "price": 20368,
           "isDeposit": false,
-          "stock": 29,
+          "stock": 23,
           "available": true,
           "options": [
             "Beige"
@@ -311,7 +590,7 @@
           "sku": "FILASURBLA",
           "price": 20368,
           "isDeposit": false,
-          "stock": 240,
+          "stock": 236,
           "available": true,
           "options": [
             "Blanco"
@@ -359,7 +638,7 @@
           "sku": "FILASURAZUL",
           "price": 20368,
           "isDeposit": false,
-          "stock": 68,
+          "stock": 67,
           "available": true,
           "options": [
             "Azul Policia"
@@ -455,8 +734,8 @@
           "sku": "FILASURCELE",
           "price": 20368,
           "isDeposit": false,
-          "stock": 3,
-          "available": true,
+          "stock": 0,
+          "available": false,
           "options": [
             "Celeste"
           ],
@@ -483,11 +762,11 @@
       "domain": "laboratorio3d.com.ar",
       "name": "Filamento Filalab PETG 1,75 mm 1 kg",
       "category": "Filamentos",
-      "price": 19809,
+      "price": 20300,
       "currency": "ARS",
-      "transferPrice": 18026.19,
+      "transferPrice": 18473,
       "purchaseModes": [],
-      "stock": 106,
+      "stock": 13522,
       "stockLabel": "En stock",
       "available": true,
       "brand": "FILALAB",
@@ -504,10 +783,10 @@
         {
           "id": 1523608216,
           "sku": "FILALAB-PETG-BLACK",
-          "price": 19809,
+          "price": 20300,
           "isDeposit": false,
-          "stock": 0,
-          "available": false,
+          "stock": 1941,
+          "available": true,
           "options": [
             "Negro"
           ],
@@ -516,58 +795,22 @@
         {
           "id": 1523608219,
           "sku": "FILALAB-PETG-BLUE",
-          "price": 19809,
+          "price": 20300,
           "isDeposit": false,
-          "stock": 0,
-          "available": false,
+          "stock": 256,
+          "available": true,
           "options": [
             "Azul"
           ],
           "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/whatsapp-image-2026-05-13-at-12-48-27-1-8764976a5abd5c349617786956467807-1024-1024.webp"
         },
         {
-          "id": 1523608221,
-          "sku": "FILALAB-PETG-GREEN",
-          "price": 19809,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Verde"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/whatsapp-image-2026-05-13-at-12-48-25-9-3fef70c42eff8b2bc617786955566054-1024-1024.webp"
-        },
-        {
-          "id": 1523608222,
-          "sku": "FILALAB-PETG-GREY",
-          "price": 19809,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Gris"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/whatsapp-image-2026-05-13-at-12-48-27-3-55a5208f3f8534f35917786956607645-1024-1024.webp"
-        },
-        {
-          "id": 1523608223,
-          "sku": "FILALAB-PETG-ORANGE",
-          "price": 19809,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Naranja"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/whatsapp-image-2026-05-13-at-12-48-28-d929a8b60d4824eecc17786956970276-1024-1024.webp"
-        },
-        {
           "id": 1523608224,
           "sku": "FILALAB-PETG-RED",
-          "price": 19809,
+          "price": 20300,
           "isDeposit": false,
-          "stock": 0,
-          "available": false,
+          "stock": 272,
+          "available": true,
           "options": [
             "Rojo"
           ],
@@ -576,10 +819,10 @@
         {
           "id": 1523608225,
           "sku": "FILALAB-PETG-WHITE",
-          "price": 19809,
+          "price": 20300,
           "isDeposit": false,
-          "stock": 0,
-          "available": false,
+          "stock": 756,
+          "available": true,
           "options": [
             "Blanco"
           ],
@@ -588,9 +831,9 @@
         {
           "id": 1523608228,
           "sku": "FILALAB-PETG-YELLOW",
-          "price": 19809,
+          "price": 20300,
           "isDeposit": false,
-          "stock": 18,
+          "stock": 273,
           "available": true,
           "options": [
             "Amarillo"
@@ -598,23 +841,11 @@
           "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/whatsapp-image-2026-05-13-at-12-48-25-11-ea87d05cadb2d2943c17786955570628-1024-1024.webp"
         },
         {
-          "id": 1523608229,
-          "sku": "FILALAB-PETG-BROWN",
-          "price": 19809,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Marrón"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/whatsapp-image-2026-05-13-at-12-48-25-4-a4f2a0920d9d5cf62f17786955567523-1024-1024.webp"
-        },
-        {
           "id": 1523608231,
           "sku": "FILALAB-PETG-BEIGE",
-          "price": 19809,
+          "price": 20300,
           "isDeposit": false,
-          "stock": 35,
+          "stock": 7,
           "available": true,
           "options": [
             "Beige Oscuro"
@@ -622,28 +853,148 @@
           "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/beige-oscuro-ce8907d515da9ae52517837061940760-1024-1024.webp"
         },
         {
-          "id": 1523608232,
-          "sku": "FILALAB-PETG-SPACEGREY",
-          "price": 19809,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Gris space"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/whatsapp-image-2026-05-13-at-12-48-25-7-8c7e87f9ce7c5c8bb517786955564117-1024-1024.webp"
-        },
-        {
           "id": 1523608233,
           "sku": "FILALAB-PETG-TRANSPARENT",
-          "price": 19809,
+          "price": 20300,
           "isDeposit": false,
-          "stock": 0,
-          "available": false,
+          "stock": 268,
+          "available": true,
           "options": [
             "Transparente"
           ],
           "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/whatsapp-image-2026-05-13-at-12-48-25-8-8729ceee7b275cc18d17786955565911-1024-1024.webp"
+        },
+        {
+          "id": 1625672082,
+          "sku": "FILALAB-PETG-DARKGREEN",
+          "price": 20300,
+          "isDeposit": false,
+          "stock": 273,
+          "available": true,
+          "options": [
+            "Verde Oscuro"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/petg-bambo-green-78f4b7b36f4b495c9817928504244102-1024-1024.webp"
+        },
+        {
+          "id": 1625672083,
+          "sku": "FILALAB-PETG-ORGPRAGA",
+          "price": 20300,
+          "isDeposit": false,
+          "stock": 272,
+          "available": true,
+          "options": [
+            "Naranja Praga"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/petg-jacint-2f84c9fe7c8818941117928504248097-1024-1024.webp"
+        },
+        {
+          "id": 1523608222,
+          "sku": "FILALAB-PETG-GREY",
+          "price": 20300,
+          "isDeposit": false,
+          "stock": 272,
+          "available": true,
+          "options": [
+            "Gris"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/whatsapp-image-2026-05-13-at-12-48-27-3-55a5208f3f8534f35917786956607645-1024-1024.webp"
+        },
+        {
+          "id": 1625672084,
+          "sku": "FILALAB-PETG-REDTRANSPARENT",
+          "price": 20300,
+          "isDeposit": false,
+          "stock": 270,
+          "available": true,
+          "options": [
+            "Rojo Transparente"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/petg-trans-red-886ffef072a483bde017928502408636-1024-1024.webp"
+        },
+        {
+          "id": 1625672085,
+          "sku": "FILALAB-PETG-YELLOWTRANSPARENT",
+          "price": 20300,
+          "isDeposit": false,
+          "stock": 271,
+          "available": true,
+          "options": [
+            "Amarillo Transparente"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/petg-trans-yell-b47102c1acccdc02d717928502406769-1024-1024.webp"
+        },
+        {
+          "id": 1625672086,
+          "sku": "FILALAB-PETG-BLUETRANSPARENT",
+          "price": 20300,
+          "isDeposit": false,
+          "stock": 271,
+          "available": true,
+          "options": [
+            "Azul Transparente"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/petg-trans-blue-f98d98a0f778481bd317928502412051-1024-1024.webp"
+        },
+        {
+          "id": 1625672087,
+          "sku": "FILALAB-PETG-GREENTRANSPARENT",
+          "price": 20300,
+          "isDeposit": false,
+          "stock": 274,
+          "available": true,
+          "options": [
+            "Verde Transparente"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/petg-trans-gree-707c2d9378b05668ee17928502405550-1024-1024.webp"
+        },
+        {
+          "id": 1625672088,
+          "sku": "FILALAB-PETG-WHITETRANSPARENT",
+          "price": 20300,
+          "isDeposit": false,
+          "stock": 275,
+          "available": true,
+          "options": [
+            "Blanco Transparente"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/petg-trans-whi-ab570e80eac3df8fdc17928502406885-1024-1024.webp"
+        },
+        {
+          "id": 1625672089,
+          "sku": "FILALAB-PETG-PINKTRANSPARENT",
+          "price": 20300,
+          "isDeposit": false,
+          "stock": 264,
+          "available": true,
+          "options": [
+            "Rosa Transparente"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/petg-trans-pink-ca8cd46128c07cf76617928502403756-1024-1024.webp"
+        },
+        {
+          "id": 1625672090,
+          "sku": "FILALAB-PETG-PURPLE",
+          "price": 20300,
+          "isDeposit": false,
+          "stock": 273,
+          "available": true,
+          "options": [
+            "Púrpura"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/petg-pruple-2b6649499f3254d7d317928502405300-1024-1024.webp"
+        },
+        {
+          "id": 1625672091,
+          "sku": "FILALAB-PETG-PINKCH",
+          "price": 20300,
+          "isDeposit": false,
+          "stock": 273,
+          "available": true,
+          "options": [
+            "Magenta"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/petg-rose-red-4a2e3c0df85a11f82317928502407751-1024-1024.webp"
         }
       ]
     },
@@ -658,7 +1009,7 @@
       "currency": "ARS",
       "transferPrice": 24115,
       "purchaseModes": [],
-      "stock": 536,
+      "stock": 520,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -675,7 +1026,7 @@
           "sku": "BambuLITECCBCO",
           "price": 26500,
           "isDeposit": false,
-          "stock": 72,
+          "stock": 70,
           "available": true,
           "options": [
             "Blanco"
@@ -687,7 +1038,7 @@
           "sku": "BambuLITECCNEG",
           "price": 26500,
           "isDeposit": false,
-          "stock": 86,
+          "stock": 83,
           "available": true,
           "options": [
             "Negro"
@@ -723,7 +1074,7 @@
           "sku": "BambuLITECCAZUL",
           "price": 26500,
           "isDeposit": false,
-          "stock": 22,
+          "stock": 21,
           "available": true,
           "options": [
             "Azul"
@@ -747,7 +1098,7 @@
           "sku": "BambuLITECCVDE",
           "price": 26500,
           "isDeposit": false,
-          "stock": 27,
+          "stock": 26,
           "available": true,
           "options": [
             "Verde"
@@ -795,7 +1146,7 @@
           "sku": "BambuLITECCAMAGI",
           "price": 26500,
           "isDeposit": false,
-          "stock": 35,
+          "stock": 34,
           "available": true,
           "options": [
             "Amarillo Girasol"
@@ -815,7 +1166,7 @@
       "currency": "ARS",
       "transferPrice": 22295,
       "purchaseModes": [],
-      "stock": 172,
+      "stock": 168,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Printalot",
@@ -929,7 +1280,7 @@
           "sku": "FPLA17510113",
           "price": 24500,
           "isDeposit": false,
-          "stock": 15,
+          "stock": 13,
           "available": true,
           "options": [
             "Verde"
@@ -1237,7 +1588,7 @@
       "currency": "ARS",
       "transferPrice": 19656,
       "purchaseModes": [],
-      "stock": 484,
+      "stock": 476,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -1254,7 +1605,7 @@
           "sku": "BambuLITESCBLA",
           "price": 21600,
           "isDeposit": false,
-          "stock": 14,
+          "stock": 12,
           "available": true,
           "options": [
             "Blanco"
@@ -1266,7 +1617,7 @@
           "sku": "BambuLITESCNEG",
           "price": 21600,
           "isDeposit": false,
-          "stock": 37,
+          "stock": 36,
           "available": true,
           "options": [
             "Negro"
@@ -1338,7 +1689,7 @@
           "sku": "BambuLITESCNAR",
           "price": 21600,
           "isDeposit": false,
-          "stock": 33,
+          "stock": 32,
           "available": true,
           "options": [
             "Naranja"
@@ -1396,7 +1747,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 158,
+      "stock": 156,
       "stockLabel": "En stock",
       "available": true,
       "brand": "BAMBU LAB",
@@ -1413,7 +1764,7 @@
           "sku": "BBLAB-A1COMBO",
           "price": 1464900,
           "isDeposit": false,
-          "stock": 79,
+          "stock": 78,
           "available": true,
           "options": [
             "FDM",
@@ -1434,7 +1785,7 @@
       "currency": "ARS",
       "transferPrice": 22516.13,
       "purchaseModes": [],
-      "stock": 58,
+      "stock": 54,
       "stockLabel": "En stock",
       "available": true,
       "brand": "FILALAB",
@@ -1476,7 +1827,7 @@
           "sku": "FILALAB-SILK-BRONZE",
           "price": 24743,
           "isDeposit": false,
-          "stock": 23,
+          "stock": 22,
           "available": true,
           "options": [
             "Silk Bronce"
@@ -1524,8 +1875,8 @@
           "sku": "FILALAB-SILK-RED",
           "price": 24743,
           "isDeposit": false,
-          "stock": 1,
-          "available": true,
+          "stock": 0,
+          "available": false,
           "options": [
             "Silk Rojo"
           ],
@@ -1580,7 +1931,7 @@
       "currency": "ARS",
       "transferPrice": 23545.34,
       "purchaseModes": [],
-      "stock": 298,
+      "stock": 294,
       "stockLabel": "En stock",
       "available": true,
       "brand": "FILALAB",
@@ -1622,7 +1973,7 @@
           "sku": "FILALAB-DUALSILK-BLACK-RED",
           "price": 25874,
           "isDeposit": false,
-          "stock": 44,
+          "stock": 43,
           "available": true,
           "options": [
             "DUAL SILK Rojo Negro"
@@ -1682,7 +2033,7 @@
           "sku": "FILALAB-DUALSILK-BLACK-GREEN",
           "price": 25874,
           "isDeposit": false,
-          "stock": 72,
+          "stock": 71,
           "available": true,
           "options": [
             "DUAL SILK Verde Negro"
@@ -1789,7 +2140,7 @@
       "currency": "ARS",
       "transferPrice": 20970.95,
       "purchaseModes": [],
-      "stock": 46,
+      "stock": 38,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -1830,7 +2181,7 @@
           "sku": "FILALAB-ASA-LATTE",
           "price": 23045,
           "isDeposit": false,
-          "stock": 23,
+          "stock": 19,
           "available": true,
           "options": [
             "Latte"
@@ -1886,7 +2237,7 @@
       "purchaseModes": [
         "Preventa"
       ],
-      "stock": 196,
+      "stock": 192,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -1902,7 +2253,7 @@
           "sku": "BB-LAB-A2LCOMBO",
           "price": 1649600,
           "isDeposit": false,
-          "stock": 49,
+          "stock": 48,
           "available": true,
           "options": [
             "PREVENTA - ENTREGA NOVIEMBRE"
@@ -1914,7 +2265,7 @@
           "sku": "BB-LAB-A2LCOMBO",
           "price": 824800,
           "isDeposit": true,
-          "stock": 49,
+          "stock": 48,
           "available": true,
           "options": [
             "SEÑA PREVENTA NOVIEMBRE"
@@ -1936,7 +2287,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 40,
+      "stock": 38,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -1952,7 +2303,7 @@
           "sku": "BBLAB-A1",
           "price": 968900,
           "isDeposit": false,
-          "stock": 20,
+          "stock": 19,
           "available": true,
           "options": [
             "ENTREGA INMEDIATA",
@@ -1973,7 +2324,7 @@
       "currency": "ARS",
       "transferPrice": 34578.18,
       "purchaseModes": [],
-      "stock": 192,
+      "stock": 190,
       "stockLabel": "En stock",
       "available": true,
       "brand": "FILALAB",
@@ -1991,7 +2342,7 @@
           "sku": "FILALAB-PETG-CF",
           "price": 37998,
           "isDeposit": false,
-          "stock": 96,
+          "stock": 95,
           "available": true,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/1-446bc747bfd4ec5ae017786761397680-1024-1024.webp"
@@ -2158,7 +2509,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 90,
+      "stock": 86,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -2174,7 +2525,7 @@
           "sku": "BB-A2LCOMBO-INM",
           "price": 1832900,
           "isDeposit": false,
-          "stock": 45,
+          "stock": 43,
           "available": true,
           "options": [
             "Entrega inmediata"
@@ -2194,7 +2545,7 @@
       "currency": "ARS",
       "transferPrice": 20020,
       "purchaseModes": [],
-      "stock": 10,
+      "stock": 8,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -2235,7 +2586,7 @@
           "sku": "BambuPETCCAMA",
           "price": 22000,
           "isDeposit": false,
-          "stock": 5,
+          "stock": 4,
           "available": true,
           "options": [
             "Amarillo"
@@ -2518,44 +2869,6 @@
       ]
     },
     {
-      "id": "laboratorio3d-340384167",
-      "sourceProductId": "340384167",
-      "store": "Laboratorio 3D",
-      "domain": "laboratorio3d.com.ar",
-      "name": "Impresora 3D Elegoo Centauri Carbon 2 Combo",
-      "category": "Impresoras",
-      "price": 1410900,
-      "currency": "ARS",
-      "transferPrice": 1283919,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 16,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Elegoo",
-      "tags": [
-        "Elegoo"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/3-7a86b158997ad4a17e17912037004103-1024-1024.webp",
-      "url": "https://laboratorio3d.com.ar/productos/elegoo-centauri-carbon2-multicolor/",
-      "scrapedFrom": "https://laboratorio3d.com.ar/productos/",
-      "variants": [
-        {
-          "id": 1512646160,
-          "sku": "CENTAURI-CARBON2",
-          "price": 1410900,
-          "isDeposit": false,
-          "stock": 8,
-          "available": true,
-          "options": [
-            "ENTREGA INMEDIATA"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/3-7a86b158997ad4a17e17912037004103-1024-1024.webp"
-        }
-      ]
-    },
-    {
       "id": "laboratorio3d-365030432",
       "sourceProductId": "365030432",
       "store": "Laboratorio 3D",
@@ -2701,6 +3014,44 @@
       ]
     },
     {
+      "id": "laboratorio3d-340384167",
+      "sourceProductId": "340384167",
+      "store": "Laboratorio 3D",
+      "domain": "laboratorio3d.com.ar",
+      "name": "Impresora 3D Elegoo Centauri Carbon 2 Combo",
+      "category": "Impresoras",
+      "price": 1410900,
+      "currency": "ARS",
+      "transferPrice": 1283919,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 16,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Elegoo",
+      "tags": [
+        "Elegoo"
+      ],
+      "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/3-7a86b158997ad4a17e17912037004103-1024-1024.webp",
+      "url": "https://laboratorio3d.com.ar/productos/elegoo-centauri-carbon2-multicolor/",
+      "scrapedFrom": "https://laboratorio3d.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1512646160,
+          "sku": "CENTAURI-CARBON2",
+          "price": 1410900,
+          "isDeposit": false,
+          "stock": 8,
+          "available": true,
+          "options": [
+            "ENTREGA INMEDIATA"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/3-7a86b158997ad4a17e17912037004103-1024-1024.webp"
+        }
+      ]
+    },
+    {
       "id": "laboratorio3d-364268615",
       "sourceProductId": "364268615",
       "store": "Laboratorio 3D",
@@ -2731,6 +3082,91 @@
           "available": true,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/a1-combo-8-filamentos-53c2014c042905b05117920081586209-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "laboratorio3d-356924741",
+      "sourceProductId": "356924741",
+      "store": "Laboratorio 3D",
+      "domain": "laboratorio3d.com.ar",
+      "name": "Filamento ABS Printalot 1 kg",
+      "category": "Filamentos",
+      "price": 20000,
+      "currency": "ARS",
+      "transferPrice": 18200,
+      "purchaseModes": [],
+      "stock": 32,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "ABS",
+        "1kg"
+      ],
+      "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/fabs17510101-2-594d12a3b0e19a67e517847190197472-1024-1024.webp",
+      "url": "https://laboratorio3d.com.ar/productos/filamento-abs-printalot-1kg-1j3mt/",
+      "scrapedFrom": "https://laboratorio3d.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1563250752,
+          "sku": "FABS17510101",
+          "price": 20000,
+          "isDeposit": false,
+          "stock": 1,
+          "available": true,
+          "options": [
+            "Blanco"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/fabs17510101-2-594d12a3b0e19a67e517847190197472-1024-1024.webp"
+        },
+        {
+          "id": 1563250753,
+          "sku": "FABS17510120",
+          "price": 20000,
+          "isDeposit": false,
+          "stock": 0,
+          "available": false,
+          "options": [
+            "Negro"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/fabs17510120-6deaf88d8f34f4d29817847190083190-1024-1024.webp"
+        },
+        {
+          "id": 1589406006,
+          "sku": "FABS17510102",
+          "price": 20000,
+          "isDeposit": false,
+          "stock": 9,
+          "available": true,
+          "options": [
+            "Amarillo"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/fabs17510102-1-25a9d5f5ac63697c6317883795798898-1024-1024.webp"
+        },
+        {
+          "id": 1589406007,
+          "sku": "FABS17510110",
+          "price": 20000,
+          "isDeposit": false,
+          "stock": 5,
+          "available": true,
+          "options": [
+            "Rojo"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/fabs17510110-1-27a4d2417c7a82f8f217883795970868-1024-1024.webp"
+        },
+        {
+          "id": 1589406008,
+          "sku": "FABS17510119",
+          "price": 20000,
+          "isDeposit": false,
+          "stock": 1,
+          "available": true,
+          "options": [
+            "Gris Oscuro"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/fabs17510119-1-fc266a227d1f62e91417883796372833-1024-1024.webp"
         }
       ]
     },
@@ -2823,91 +3259,6 @@
       ]
     },
     {
-      "id": "laboratorio3d-356924741",
-      "sourceProductId": "356924741",
-      "store": "Laboratorio 3D",
-      "domain": "laboratorio3d.com.ar",
-      "name": "Filamento ABS Printalot 1 kg",
-      "category": "Filamentos",
-      "price": 20000,
-      "currency": "ARS",
-      "transferPrice": 18200,
-      "purchaseModes": [],
-      "stock": 46,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "ABS",
-        "1kg"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/fabs17510101-2-594d12a3b0e19a67e517847190197472-1024-1024.webp",
-      "url": "https://laboratorio3d.com.ar/productos/filamento-abs-printalot-1kg-1j3mt/",
-      "scrapedFrom": "https://laboratorio3d.com.ar/productos/",
-      "variants": [
-        {
-          "id": 1563250752,
-          "sku": "FABS17510101",
-          "price": 20000,
-          "isDeposit": false,
-          "stock": 3,
-          "available": true,
-          "options": [
-            "Blanco"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/fabs17510101-2-594d12a3b0e19a67e517847190197472-1024-1024.webp"
-        },
-        {
-          "id": 1563250753,
-          "sku": "FABS17510120",
-          "price": 20000,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Negro"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/fabs17510120-6deaf88d8f34f4d29817847190083190-1024-1024.webp"
-        },
-        {
-          "id": 1589406006,
-          "sku": "FABS17510102",
-          "price": 20000,
-          "isDeposit": false,
-          "stock": 9,
-          "available": true,
-          "options": [
-            "Amarillo"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/fabs17510102-1-25a9d5f5ac63697c6317883795798898-1024-1024.webp"
-        },
-        {
-          "id": 1589406007,
-          "sku": "FABS17510110",
-          "price": 20000,
-          "isDeposit": false,
-          "stock": 8,
-          "available": true,
-          "options": [
-            "Rojo"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/fabs17510110-1-27a4d2417c7a82f8f217883795970868-1024-1024.webp"
-        },
-        {
-          "id": 1589406008,
-          "sku": "FABS17510119",
-          "price": 20000,
-          "isDeposit": false,
-          "stock": 3,
-          "available": true,
-          "options": [
-            "Gris Oscuro"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/fabs17510119-1-fc266a227d1f62e91417883796372833-1024-1024.webp"
-        }
-      ]
-    },
-    {
       "id": "laboratorio3d-359010373",
       "sourceProductId": "359010373",
       "store": "Laboratorio 3D",
@@ -2921,7 +3272,7 @@
         "Preventa",
         "Entrega inmediata"
       ],
-      "stock": 9989,
+      "stock": 9988,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Snapmaker",
@@ -2937,7 +3288,7 @@
           "sku": "SNAPOCT-TAPA",
           "price": 2700000,
           "isDeposit": false,
-          "stock": 9989,
+          "stock": 9988,
           "available": true,
           "options": [
             "ENTREGA INMEDIATA",
@@ -3010,7 +3361,7 @@
       "currency": "ARS",
       "transferPrice": 31840.9,
       "purchaseModes": [],
-      "stock": 274,
+      "stock": 272,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Biqu",
@@ -3098,7 +3449,7 @@
           "sku": "3010030157",
           "price": 38990,
           "isDeposit": false,
-          "stock": 9,
+          "stock": 8,
           "available": true,
           "options": [
             "Serie P2S 0.4"
@@ -3267,7 +3618,7 @@
       "currency": "ARS",
       "transferPrice": 2891889,
       "purchaseModes": [],
-      "stock": 8,
+      "stock": 6,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -3283,7 +3634,7 @@
           "sku": "",
           "price": 3177900,
           "isDeposit": false,
-          "stock": 4,
+          "stock": 3,
           "available": true,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/p2s-combo-8-filamentos-7b66bf8eecf788146717920085152704-1024-1024.webp"
@@ -3340,7 +3691,7 @@
       "currency": "ARS",
       "transferPrice": 25470.9,
       "purchaseModes": [],
-      "stock": 468,
+      "stock": 464,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Biqu",
@@ -3357,7 +3708,7 @@
           "sku": "1060000734",
           "price": 41990,
           "isDeposit": false,
-          "stock": 92,
+          "stock": 90,
           "available": true,
           "options": [
             "Compatible P1, P2, X1, A1"
@@ -4048,7 +4399,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/3010200092_01-3659a0f0f89770a88a17920083108655-1024-1024.webp",
       "url": "https://laboratorio3d.com.ar/productos/cama-de-impresion-biqu-panda-cryogrip-pro-lisa-compatible-elegoo-5p1gv/",
-      "scrapedFrom": "https://laboratorio3d.com.ar/productos/",
+      "scrapedFrom": "https://laboratorio3d.com.ar/productos/page/2/",
       "variants": [
         {
           "id": 1618895508,
@@ -4059,6 +4410,44 @@
           "available": true,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/3010200092_01-3659a0f0f89770a88a17920083108655-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "laboratorio3d-364268409",
+      "sourceProductId": "364268409",
+      "store": "Laboratorio 3D",
+      "domain": "laboratorio3d.com.ar",
+      "name": "Bambu Lab A2L Combo + 8 Filamentos",
+      "category": "Filamentos",
+      "price": 2008900,
+      "currency": "ARS",
+      "transferPrice": 1828099,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 18,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Bambu Lab"
+      ],
+      "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/a2l-combo-8-filamentos-20266fd5463a8ed03417920082053885-1024-1024.webp",
+      "url": "https://laboratorio3d.com.ar/productos/a2l-combo-6-filamentos-2-de-regalo-1mrpj/",
+      "scrapedFrom": "https://laboratorio3d.com.ar/productos/page/2/",
+      "variants": [
+        {
+          "id": 1618900610,
+          "sku": "BBLAB-A2L8COMBOFILAS",
+          "price": 2008900,
+          "isDeposit": false,
+          "stock": 9,
+          "available": true,
+          "options": [
+            "ENTREGA INMEDIATA"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/a2l-combo-8-filamentos-20266fd5463a8ed03417920082053885-1024-1024.webp"
         }
       ]
     },
@@ -4342,44 +4731,6 @@
             "Resina"
           ],
           "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/15-7cae7f1e0925e3c85817633186362820-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "laboratorio3d-364268409",
-      "sourceProductId": "364268409",
-      "store": "Laboratorio 3D",
-      "domain": "laboratorio3d.com.ar",
-      "name": "Bambu Lab A2L Combo + 8 Filamentos",
-      "category": "Filamentos",
-      "price": 2008900,
-      "currency": "ARS",
-      "transferPrice": 1828099,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 20,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "Bambu Lab"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/a2l-combo-8-filamentos-20266fd5463a8ed03417920082053885-1024-1024.webp",
-      "url": "https://laboratorio3d.com.ar/productos/a2l-combo-6-filamentos-2-de-regalo-1mrpj/",
-      "scrapedFrom": "https://laboratorio3d.com.ar/productos/page/2/",
-      "variants": [
-        {
-          "id": 1618900610,
-          "sku": "BBLAB-A2L8COMBOFILAS",
-          "price": 2008900,
-          "isDeposit": false,
-          "stock": 10,
-          "available": true,
-          "options": [
-            "ENTREGA INMEDIATA"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/005/528/607/products/a2l-combo-8-filamentos-20266fd5463a8ed03417920082053885-1024-1024.webp"
         }
       ]
     },
