@@ -5,7 +5,7 @@
     "baseUrl": "https://creaxis.com.ar",
     "apiPath": "/wp-json/wc/store/v1/products"
   },
-  "scrapedAt": "2026-10-25T13:04:33.394Z",
+  "scrapedAt": "2026-10-26T15:00:02.573Z",
   "source": "https://creaxis.com.ar/wp-json/wc/store/v1/products",
   "pages": [
     {
@@ -609,12 +609,10 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 19990,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 10,
-      "stockLabel": "En stock",
-      "available": true,
+      "purchaseModes": [],
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": "Creality",
       "tags": [
         "Creality",

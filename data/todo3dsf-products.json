@@ -4,7 +4,7 @@
     "domain": "todo3dsf.com.ar",
     "baseUrl": "https://www.todo3dsf.com.ar"
   },
-  "scrapedAt": "2026-10-25T13:04:59.334Z",
+  "scrapedAt": "2026-10-26T15:00:38.592Z",
   "count": 65,
   "pages": [
     {
@@ -1463,8 +1463,8 @@
       "variants": []
     },
     {
-      "id": "todo3dsf-hub-ams-lite-a1-series",
-      "sourceProductId": "hub-ams-lite-a1-series",
+      "id": "todo3dsf-26484474",
+      "sourceProductId": "26484474",
       "store": "Todo 3D",
       "domain": "todo3dsf.com.ar",
       "name": "HUB AMS LITE - A1 SERIES",
@@ -1473,10 +1473,12 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
       "brand": null,
       "tags": [],
       "image": "https://d22fxaf9t8d39k.cloudfront.net/60ee16178106bc6fd3e1f60374558d2f745dddaa287d042275a444e2b07b96fa32164.webp",

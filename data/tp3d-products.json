@@ -4,8 +4,8 @@
     "domain": "tp3d.com.ar",
     "baseUrl": "https://tp3d.com.ar"
   },
-  "scrapedAt": "2026-10-25T13:04:59.806Z",
-  "count": 503,
+  "scrapedAt": "2026-10-26T15:00:30.094Z",
+  "count": 502,
   "pages": [
     {
       "listing": "Insumos",
@@ -32,8 +32,8 @@
       "listing": "Insumos",
       "page": 4,
       "url": "https://tp3d.com.ar/127-insumos?page=4",
-      "found": 14,
-      "added": 14
+      "found": 13,
+      "added": 13
     },
     {
       "listing": "Impresoras FDM",
@@ -171,6 +171,31 @@
   ],
   "products": [
     {
+      "id": "tp3d-2662",
+      "sourceProductId": "2662",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Combo Filamento Hellbot ECOFILA Pla Blanco Mix 3kg 1,75mm",
+      "category": "Filamentos",
+      "price": 52990,
+      "currency": "ARS",
+      "transferPrice": 50341,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA",
+        "Hellbot",
+        "combo",
+        "Insumos"
+      ],
+      "image": "https://tp3d.com.ar/9690-large_default/combo-filamento-hellbot-ecofila-pla-blanco-mix-3kg-175mm.jpg",
+      "url": "https://tp3d.com.ar/TP3D/2662-combo-filamento-hellbot-ecofila-pla-blanco-mix-3kg-175mm.html",
+      "scrapedFrom": "https://tp3d.com.ar/127-insumos",
+      "variants": []
+    },
+    {
       "id": "tp3d-2660",
       "sourceProductId": "2660",
       "store": "TP3D",
@@ -267,6 +292,56 @@
       ],
       "image": "https://tp3d.com.ar/5335-large_default/filamento-hellbot-ecofila-pla-silk-copa-del-mundo-175mm-1kg.jpg",
       "url": "https://tp3d.com.ar/filamentos-3d/1854-592-filamento-hellbot-ecofila-pla-silk-copa-del-mundo-175mm-1kg.html#/2-color-rojo",
+      "scrapedFrom": "https://tp3d.com.ar/127-insumos",
+      "variants": []
+    },
+    {
+      "id": "tp3d-2569",
+      "sourceProductId": "2569",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Filamento Hellbot ECOFILA PLA con carrete inyectado Combo 2kg Seleccion Argentina",
+      "category": "Filamentos",
+      "price": 35980,
+      "currency": "ARS",
+      "transferPrice": 34181,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA",
+        "Hellbot",
+        "combo",
+        "Insumos"
+      ],
+      "image": "https://tp3d.com.ar/8864-large_default/filamento-hellbot-ecofila-pla-con-carrete-inyectado-combo-2kg-seleccion-argentina.jpg",
+      "url": "https://tp3d.com.ar/filamentos-3d/2569-filamento-hellbot-ecofila-pla-con-carrete-inyectado-combo-2kg-seleccion-argentina.html",
+      "scrapedFrom": "https://tp3d.com.ar/127-insumos",
+      "variants": []
+    },
+    {
+      "id": "tp3d-2570",
+      "sourceProductId": "2570",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Filamento Hellbot ECOFILA PLA con carrete inyectado Combo 4kg Seleccion Argentina",
+      "category": "Filamentos",
+      "price": 71960,
+      "currency": "ARS",
+      "transferPrice": 68362,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA",
+        "Hellbot",
+        "combo",
+        "Insumos"
+      ],
+      "image": "https://tp3d.com.ar/8874-large_default/filamento-hellbot-ecofila-pla-con-carrete-inyectado-combo-4kg-seleccion-argentina.jpg",
+      "url": "https://tp3d.com.ar/filamentos-3d/2570-filamento-hellbot-ecofila-pla-con-carrete-inyectado-combo-4kg-seleccion-argentina.html",
       "scrapedFrom": "https://tp3d.com.ar/127-insumos",
       "variants": []
     },
@@ -494,31 +569,6 @@
       "variants": []
     },
     {
-      "id": "tp3d-1873",
-      "sourceProductId": "1873",
-      "store": "TP3D",
-      "domain": "tp3d.com.ar",
-      "name": "Filamento 3D Anycubic PLA 1,75mm 1kg",
-      "category": "Filamentos",
-      "price": 21330,
-      "currency": "ARS",
-      "transferPrice": 20264,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "PLA",
-        "Anycubic",
-        "1kg",
-        "Insumos"
-      ],
-      "image": "https://tp3d.com.ar/4995-large_default/filamento-anycubic-pla-1kg.jpg",
-      "url": "https://tp3d.com.ar/filamentos-3d/1873-736-filamento-anycubic-pla-1kg.html#/4-color-negro",
-      "scrapedFrom": "https://tp3d.com.ar/127-insumos",
-      "variants": []
-    },
-    {
       "id": "tp3d-1859",
       "sourceProductId": "1859",
       "store": "TP3D",
@@ -731,7 +781,7 @@
       ],
       "image": "https://tp3d.com.ar/1925-large_default/resina-creality-alta-velocidad-clear-1kg-botella-plastica.jpg",
       "url": "https://tp3d.com.ar/resinas-3d/1173-resina-creality-alta-velocidad-clear-1kg-botella-plastica.html",
-      "scrapedFrom": "https://tp3d.com.ar/127-insumos",
+      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=2",
       "variants": []
     },
     {
@@ -755,7 +805,7 @@
       ],
       "image": "https://tp3d.com.ar/1926-large_default/resina-creality-alta-velocidad-gris-1kg-botella-plastica.jpg",
       "url": "https://tp3d.com.ar/resinas-3d/1172-resina-creality-alta-velocidad-gris-1kg-botella-plastica.html",
-      "scrapedFrom": "https://tp3d.com.ar/127-insumos",
+      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=2",
       "variants": []
     },
     {
@@ -1316,7 +1366,7 @@
       ],
       "image": "https://tp3d.com.ar/11691-large_default/combo-filamento-hellbot-ecofila-pla-negro-10kg-175mm.jpg",
       "url": "https://tp3d.com.ar/TP3D/2840-combo-filamento-hellbot-ecofila-pla-negro-10kg-175mm.html",
-      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=2",
+      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=3",
       "variants": []
     },
     {
@@ -1341,7 +1391,7 @@
       ],
       "image": "https://tp3d.com.ar/11693-large_default/combo-filamento-hellbot-ecofila-pla-recarga-10kg-175mm.jpg",
       "url": "https://tp3d.com.ar/TP3D/2842-combo-filamento-hellbot-ecofila-pla-recarga-10kg-175mm.html",
-      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=2",
+      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=3",
       "variants": []
     },
     {
@@ -1470,31 +1520,6 @@
       "variants": []
     },
     {
-      "id": "tp3d-2662",
-      "sourceProductId": "2662",
-      "store": "TP3D",
-      "domain": "tp3d.com.ar",
-      "name": "Combo Filamento Hellbot ECOFILA Pla Blanco Mix 3kg 1,75mm",
-      "category": "Filamentos",
-      "price": 52990,
-      "currency": "ARS",
-      "transferPrice": 50341,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "PLA",
-        "Hellbot",
-        "combo",
-        "Insumos"
-      ],
-      "image": "https://tp3d.com.ar/9690-large_default/combo-filamento-hellbot-ecofila-pla-blanco-mix-3kg-175mm.jpg",
-      "url": "https://tp3d.com.ar/TP3D/2662-combo-filamento-hellbot-ecofila-pla-blanco-mix-3kg-175mm.html",
-      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=3",
-      "variants": []
-    },
-    {
       "id": "tp3d-2663",
       "sourceProductId": "2663",
       "store": "TP3D",
@@ -1541,56 +1566,6 @@
       ],
       "image": "https://tp3d.com.ar/5259-large_default/filamento-hellbot-ecofila-pla-silk-duotriple-1kg.jpg",
       "url": "https://tp3d.com.ar/filamentos-3d/1857-filamento-hellbot-ecofila-pla-silk-duotriple-1kg.html",
-      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=3",
-      "variants": []
-    },
-    {
-      "id": "tp3d-2569",
-      "sourceProductId": "2569",
-      "store": "TP3D",
-      "domain": "tp3d.com.ar",
-      "name": "Filamento Hellbot ECOFILA PLA con carrete inyectado Combo 2kg Seleccion Argentina",
-      "category": "Filamentos",
-      "price": 35980,
-      "currency": "ARS",
-      "transferPrice": 34181,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "PLA",
-        "Hellbot",
-        "combo",
-        "Insumos"
-      ],
-      "image": "https://tp3d.com.ar/8864-large_default/filamento-hellbot-ecofila-pla-con-carrete-inyectado-combo-2kg-seleccion-argentina.jpg",
-      "url": "https://tp3d.com.ar/filamentos-3d/2569-filamento-hellbot-ecofila-pla-con-carrete-inyectado-combo-2kg-seleccion-argentina.html",
-      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=3",
-      "variants": []
-    },
-    {
-      "id": "tp3d-2570",
-      "sourceProductId": "2570",
-      "store": "TP3D",
-      "domain": "tp3d.com.ar",
-      "name": "Filamento Hellbot ECOFILA PLA con carrete inyectado Combo 4kg Seleccion Argentina",
-      "category": "Filamentos",
-      "price": 71960,
-      "currency": "ARS",
-      "transferPrice": 68362,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "PLA",
-        "Hellbot",
-        "combo",
-        "Insumos"
-      ],
-      "image": "https://tp3d.com.ar/8874-large_default/filamento-hellbot-ecofila-pla-con-carrete-inyectado-combo-4kg-seleccion-argentina.jpg",
-      "url": "https://tp3d.com.ar/filamentos-3d/2570-filamento-hellbot-ecofila-pla-con-carrete-inyectado-combo-4kg-seleccion-argentina.html",
       "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=3",
       "variants": []
     },
@@ -1957,7 +1932,7 @@
       ],
       "image": "https://tp3d.com.ar/1924-large_default/resina-creality-alta-velocidad-azul-1kg-botella-plastica.jpg",
       "url": "https://tp3d.com.ar/resinas-3d/1174-resina-creality-alta-velocidad-azul-1kg-botella-plastica.html",
-      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=4",
+      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=3",
       "variants": []
     },
     {

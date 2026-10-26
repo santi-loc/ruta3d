@@ -5,8 +5,8 @@
     "baseUrl": "https://starimpression3d.com",
     "apiPath": "/wp-json/wc/store/v1/products"
   },
-  "scrapedAt": "2026-10-23T13:14:42.464Z",
-  "count": 398,
+  "scrapedAt": "2026-10-26T15:00:48.918Z",
+  "count": 399,
   "pages": [
     {
       "page": 1,
@@ -18,13 +18,13 @@
       "page": 2,
       "url": "https://starimpression3d.com/wp-json/wc/store/v1/products?per_page=100&page=2",
       "found": 100,
-      "added": 88
+      "added": 89
     },
     {
       "page": 3,
       "url": "https://starimpression3d.com/wp-json/wc/store/v1/products?per_page=100&page=3",
       "found": 100,
-      "added": 77
+      "added": 76
     },
     {
       "page": 4,
@@ -35,11 +35,69 @@
     {
       "page": 5,
       "url": "https://starimpression3d.com/wp-json/wc/store/v1/products?per_page=100&page=5",
-      "found": 36,
-      "added": 36
+      "found": 37,
+      "added": 37
     }
   ],
   "products": [
+    {
+      "id": "starimpression3d-67562",
+      "sourceProductId": "67562",
+      "store": "Star Impression 3D",
+      "domain": "starimpression3d.com",
+      "name": "ECOFILA HELLBOT PLA SATINADO 1KG",
+      "category": "Filamentos",
+      "price": 24990,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot",
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://starimpression3d.com/wp-content/uploads/2026/10/9c20155c-5180-4e53-9f1b-da979f7c667d.jpg",
+      "url": "https://starimpression3d.com/producto/ecofila-hellbot-pla-satinado-1kg/",
+      "scrapedFrom": "https://starimpression3d.com/wp-json/wc/store/v1/products",
+      "variants": [
+        {
+          "id": "starimpression3d-67567",
+          "sku": "67567",
+          "available": false,
+          "options": [
+            "Seleccionar color: gris"
+          ]
+        },
+        {
+          "id": "starimpression3d-67568",
+          "sku": "67568",
+          "available": false,
+          "options": [
+            "Seleccionar color: negro"
+          ]
+        },
+        {
+          "id": "starimpression3d-67569",
+          "sku": "67569",
+          "available": false,
+          "options": [
+            "Seleccionar color: hueso"
+          ]
+        },
+        {
+          "id": "starimpression3d-67570",
+          "sku": "67570",
+          "available": false,
+          "options": [
+            "Seleccionar color: blanco"
+          ]
+        }
+      ]
+    },
     {
       "id": "starimpression3d-67478",
       "sourceProductId": "67478",
@@ -239,7 +297,7 @@
       "domain": "starimpression3d.com",
       "name": "PRINTALOT FLEX 1KG",
       "category": "Repuestos",
-      "price": 27300,
+      "price": 29000,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -327,9 +385,9 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
+      "stock": 1,
+      "stockLabel": "Pocas unidades",
+      "available": true,
       "brand": "W3D",
       "tags": [
         "W3D",
@@ -838,7 +896,7 @@
       "sourceProductId": "66478",
       "store": "Star Impression 3D",
       "domain": "starimpression3d.com",
-      "name": "PREVENTA OCTUBRE TOP COVER POPCAP PARA SNAPMAKER U1",
+      "name": "PREVENTA NOVIEMBRE TOP COVER POPCAP PARA SNAPMAKER U1",
       "category": "Accesorios",
       "price": 219000,
       "currency": "ARS",
@@ -892,7 +950,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 40,
+      "stock": 34,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -982,7 +1040,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 159,
+      "stock": 148,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -1034,7 +1092,7 @@
           "sku": "65981",
           "available": true,
           "options": [
-            "Opciones de Compra: preventa-septiembre"
+            "Opciones de Compra: preventa-noviembre"
           ]
         },
         {
@@ -1058,7 +1116,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 2327,
+      "stock": 2260,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -2871,7 +2929,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 9,
+      "stock": 8,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -2954,7 +3012,7 @@
       "domain": "starimpression3d.com",
       "name": "PRINTALOT PLA FLEX 1KG ESSENTIA",
       "category": "Filamentos",
-      "price": 30000,
+      "price": 30900,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -3074,9 +3132,9 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
+      "stock": 7,
+      "stockLabel": "En stock",
+      "available": true,
       "brand": "Anycubic",
       "tags": [
         "Anycubic",
@@ -3173,8 +3231,8 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 5,
-      "stockLabel": "En stock",
+      "stock": 3,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Bambu lab",
       "tags": [
@@ -4652,7 +4710,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 34,
+      "stock": 33,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -4880,7 +4938,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 40,
+      "stock": 36,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -5161,7 +5219,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 8,
+      "stock": 7,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -6326,7 +6384,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 17,
+      "stock": 15,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -7335,7 +7393,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 9,
+      "stock": 8,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Creality",
@@ -7662,7 +7720,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": null,
+      "stock": 1,
       "stockLabel": "Consultar",
       "available": false,
       "brand": "Creality",
@@ -8049,9 +8107,9 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 7,
-      "stockLabel": "En stock",
-      "available": true,
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": "Creality",
       "tags": [
         "Creality",
@@ -8352,7 +8410,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 8,
+      "stock": 7,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Creality",
@@ -8448,7 +8506,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 76,
+      "stock": 75,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -8718,7 +8776,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 9,
+      "stock": 8,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -8784,7 +8842,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 2,
+      "stock": 3,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Creality",
@@ -8832,7 +8890,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 18,
+      "stock": 20,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Creality",
@@ -9008,7 +9066,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 11,
+      "stock": 10,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu lab",
@@ -10797,8 +10855,8 @@
       "previousPrice": null,
       "transferPrice": null,
       "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": "Hellbot",
       "tags": [
         "Hellbot",
@@ -10814,7 +10872,7 @@
         {
           "id": "starimpression3d-59045",
           "sku": "59045",
-          "available": true,
+          "available": false,
           "options": [
             "Seleccionar color: mate-pastel"
           ]
@@ -10822,7 +10880,7 @@
         {
           "id": "starimpression3d-59046",
           "sku": "59046",
-          "available": true,
+          "available": false,
           "options": [
             "Seleccionar color: rainbow"
           ]
@@ -10830,7 +10888,7 @@
         {
           "id": "starimpression3d-59047",
           "sku": "59047",
-          "available": true,
+          "available": false,
           "options": [
             "Seleccionar color: silk-multicolor"
           ]
@@ -13052,7 +13110,7 @@
       "domain": "starimpression3d.com",
       "name": "HOTEND PARA BAMBU LAB P1S ACERO",
       "category": "Repuestos",
-      "price": 49000,
+      "price": 58900,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -14623,7 +14681,7 @@
       "domain": "starimpression3d.com",
       "name": "PLASTAR PLA 1KG",
       "category": "Filamentos",
-      "price": 17300,
+      "price": 18000,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -15009,9 +15067,9 @@
       "sourceProductId": "58628",
       "store": "Star Impression 3D",
       "domain": "starimpression3d.com",
-      "name": "PRINTALOS PLA ART HELIOS 1KG",
+      "name": "PRINTALOT PLA ART HELIOS 1KG",
       "category": "Filamentos",
-      "price": 36500,
+      "price": 38000,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -15046,7 +15104,7 @@
       "domain": "starimpression3d.com",
       "name": "PRINTALOT ABS 1KG",
       "category": "Filamentos",
-      "price": 20000,
+      "price": 20400,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -15494,7 +15552,7 @@
       "domain": "starimpression3d.com",
       "name": "PRINTALOT PLA 1KG",
       "category": "Filamentos",
-      "price": 24500,
+      "price": 25500,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -15931,7 +15989,7 @@
       "domain": "starimpression3d.com",
       "name": "PRINTALOT PLA 5KG",
       "category": "Filamentos",
-      "price": 105500,
+      "price": 109800,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -15988,7 +16046,7 @@
       "domain": "starimpression3d.com",
       "name": "PRINTALOT PLA ART COFFEE 1KG",
       "category": "Filamentos",
-      "price": 27300,
+      "price": 27800,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -16163,7 +16221,7 @@
       "domain": "starimpression3d.com",
       "name": "PRINTALOT PLA ART GLOW 1KG",
       "category": "Filamentos",
-      "price": 38600,
+      "price": 40200,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -16197,7 +16255,7 @@
       "domain": "starimpression3d.com",
       "name": "PRINTALOT PLA ART VULCANO 1KG",
       "category": "Filamentos",
-      "price": 36500,
+      "price": 38000,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -16232,7 +16290,7 @@
       "domain": "starimpression3d.com",
       "name": "PRINTALOT PLA FLEX 1KG",
       "category": "Filamentos",
-      "price": 27400,
+      "price": 27900,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
