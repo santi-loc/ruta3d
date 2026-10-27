@@ -5,8 +5,8 @@
     "baseUrl": "https://3dtisk.com.ar",
     "listingPath": "/productos/"
   },
-  "scrapedAt": "2026-10-26T15:00:05.291Z",
-  "count": 228,
+  "scrapedAt": "2026-10-27T14:12:57.160Z",
+  "count": 236,
   "pages": [
     {
       "page": 1,
@@ -35,14 +35,14 @@
     {
       "page": 5,
       "url": "https://3dtisk.com.ar/productos/?page=5",
-      "found": 46,
-      "added": 46
+      "found": 39,
+      "added": 39
     },
     {
       "page": 6,
       "url": "https://3dtisk.com.ar/productos/?page=6",
-      "found": 11,
-      "added": 11
+      "found": 26,
+      "added": 26
     },
     {
       "page": 7,
@@ -134,7 +134,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 88,
+      "stock": 82,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -150,7 +150,7 @@
           "sku": "40",
           "price": 19990,
           "isDeposit": false,
-          "stock": 44,
+          "stock": 41,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084184182211-7589eebfbfdc1a37d317775813516820-1024-1024.webp"
@@ -299,49 +299,13 @@
       ]
     },
     {
-      "id": "3dtisk-341418406",
-      "sourceProductId": "341418406",
-      "store": "3DTisk",
-      "domain": "3dtisk.com.ar",
-      "name": "Filamento PLA Elegoo Negro",
-      "category": "Impresoras",
-      "price": 25900,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 6,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Elegoo",
-      "tags": [
-        "Elegoo",
-        "PLA"
-      ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177706469054191-1f23aef2963a60860217775802002906-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/filamento-pla-elegoo-negro-1f2g5/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/",
-      "variants": [
-        {
-          "id": 1515999765,
-          "sku": "735",
-          "price": 25900,
-          "isDeposit": false,
-          "stock": 3,
-          "available": true,
-          "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177706469054191-1f23aef2963a60860217775802002906-1024-1024.webp"
-        }
-      ]
-    },
-    {
       "id": "3dtisk-341418250",
       "sourceProductId": "341418250",
       "store": "3DTisk",
       "domain": "3dtisk.com.ar",
       "name": "Filamento PLA Elegoo Naranja",
       "category": "Impresoras",
-      "price": 25100,
+      "price": 25900,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -361,47 +325,12 @@
         {
           "id": 1515999030,
           "sku": "777",
-          "price": 25100,
+          "price": 25900,
           "isDeposit": false,
           "stock": 13,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177729871157629-d3dca07e740cb7b5ce17775801684770-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "3dtisk-376481726",
-      "sourceProductId": "376481726",
-      "store": "3DTisk",
-      "domain": "3dtisk.com.ar",
-      "name": "Filamento PLA Ender FAST Rojo Fuego",
-      "category": "Filamentos",
-      "price": 25360,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "PLA"
-      ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179285490053405-c396279472d70aab4517928553640592-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/filamento-pla-ender-fast-rojo-fuego-s4lai/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/",
-      "variants": [
-        {
-          "id": 1625719043,
-          "sku": "1292",
-          "price": 25360,
-          "isDeposit": false,
-          "stock": null,
-          "available": true,
-          "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179285490053405-c396279472d70aab4517928553640592-1024-1024.webp"
         }
       ]
     },
@@ -522,7 +451,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 32,
+      "stock": 28,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -538,7 +467,7 @@
           "sku": "56",
           "price": 19990,
           "isDeposit": false,
-          "stock": 16,
+          "stock": 14,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084209452907-06ecfcf51c7e10d57217775813150221-1024-1024.webp"
@@ -798,7 +727,7 @@
       "domain": "3dtisk.com.ar",
       "name": "Filamento PLA Elegoo Verde Marino",
       "category": "Impresoras",
-      "price": 25100,
+      "price": 25900,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -818,7 +747,7 @@
         {
           "id": 1515996679,
           "sku": "778",
-          "price": 25100,
+          "price": 25900,
           "isDeposit": false,
           "stock": 4,
           "available": true,
@@ -834,7 +763,7 @@
       "domain": "3dtisk.com.ar",
       "name": "Filamento PLA Elegoo Azul Cielo",
       "category": "Impresoras",
-      "price": 25100,
+      "price": 25900,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -854,7 +783,7 @@
         {
           "id": 1515996559,
           "sku": "780",
-          "price": 25100,
+          "price": 25900,
           "isDeposit": false,
           "stock": 8,
           "available": true,
@@ -980,7 +909,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 22,
+      "stock": 20,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -996,7 +925,7 @@
           "sku": "1178",
           "price": 21600,
           "isDeposit": false,
-          "stock": 11,
+          "stock": 10,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179140326990464-0a5b562e3680bedb3517928585324595-1024-1024.webp"
@@ -1105,6 +1034,41 @@
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179285492842590-5f43ae3e52386436e317928553662376-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-376481726",
+      "sourceProductId": "376481726",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "Filamento PLA Ender FAST Rojo Fuego",
+      "category": "Filamentos",
+      "price": 25360,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179285490053405-c396279472d70aab4517928553640592-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/filamento-pla-ender-fast-rojo-fuego-s4lai/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1625719043,
+          "sku": "1292",
+          "price": 25360,
+          "isDeposit": false,
+          "stock": null,
+          "available": true,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179285490053405-c396279472d70aab4517928553640592-1024-1024.webp"
         }
       ]
     },
@@ -1757,7 +1721,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179138480476055-ef71a28f15794b667817921888661624-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/w3d-plaazul-1xdvj/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/",
       "variants": [
         {
           "id": 1619611729,
@@ -1853,7 +1817,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 32,
+      "stock": 30,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -1869,7 +1833,7 @@
           "sku": "1215",
           "price": 20600,
           "isDeposit": false,
-          "stock": 16,
+          "stock": 15,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179138353651174-0278bff47df49e675517921037776263-1024-1024.webp"
@@ -2308,7 +2272,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 6,
+      "stock": 4,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -2324,7 +2288,7 @@
           "sku": "1232",
           "price": 20600,
           "isDeposit": false,
-          "stock": 3,
+          "stock": 2,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179138109865924-2013723a038fb60e9c17924411085008-1024-1024.webp"
@@ -2470,42 +2434,6 @@
       ]
     },
     {
-      "id": "3dtisk-362388741",
-      "sourceProductId": "362388741",
-      "store": "3DTisk",
-      "domain": "3dtisk.com.ar",
-      "name": "Filamento Elegoo PETG PRO Rojo Borgona",
-      "category": "Impresoras",
-      "price": 27300,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Elegoo",
-      "tags": [
-        "Elegoo",
-        "PETG"
-      ],
-      "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/filamento-elegoo-petg-pro-rojo-borgona-bkuda/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
-      "variants": [
-        {
-          "id": 1581390718,
-          "sku": "1060",
-          "price": 27300,
-          "isDeposit": false,
-          "stock": null,
-          "available": true,
-          "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp"
-        }
-      ]
-    },
-    {
       "id": "3dtisk-359306720",
       "sourceProductId": "359306720",
       "store": "3DTisk",
@@ -2616,7 +2544,7 @@
       "sourceProductId": "356746683",
       "store": "3DTisk",
       "domain": "3dtisk.com.ar",
-      "name": "Filamento PLA PRO Elegoo Verde",
+      "name": "Filamento Elegoo PLA PRO Verde",
       "category": "Impresoras",
       "price": 30000,
       "currency": "ARS",
@@ -2632,7 +2560,7 @@
         "PLA"
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/178464678324868-5e89795665ca3b65f017846469709915-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/filamento-pla-pro-elegoo-verde-4hu89/",
+      "url": "https://3dtisk.com.ar/productos/filamento-elegoo-pla-pro-verde-1ayj6/",
       "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
       "variants": [
         {
@@ -2690,7 +2618,7 @@
       "domain": "3dtisk.com.ar",
       "name": "Elegoo SILK Azul Violeta Negro",
       "category": "Impresoras",
-      "price": 31600,
+      "price": 32500,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -2709,7 +2637,7 @@
         {
           "id": 1548623867,
           "sku": "908",
-          "price": 31600,
+          "price": 32500,
           "isDeposit": false,
           "stock": 2,
           "available": true,
@@ -3054,7 +2982,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179227550626198-90c7af00903341caca17922755087951-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/scanner-creality-cr-scan-otter-1k64j/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
       "variants": [
         {
           "id": 1520675093,
@@ -3089,7 +3017,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179227547742342-d4698e55e8c82b9c1117922755068250-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/scanner-creality-cr-raptor-pr1l4/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=2",
       "variants": [
         {
           "id": 1520675084,
@@ -3218,7 +3146,7 @@
       "domain": "3dtisk.com.ar",
       "name": "Filamento ABS Elegoo Blanco",
       "category": "Impresoras",
-      "price": 28600,
+      "price": 29500,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -3238,7 +3166,7 @@
         {
           "id": 1519215506,
           "sku": "793",
-          "price": 28600,
+          "price": 29500,
           "isDeposit": false,
           "stock": 6,
           "available": true,
@@ -3367,7 +3295,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 18,
+      "stock": 10,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Flashforge",
@@ -3384,7 +3312,7 @@
           "sku": "781",
           "price": 24100,
           "isDeposit": false,
-          "stock": 9,
+          "stock": 5,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177790178549148-9fc4103ad2ac3ba5bd17779026081939-1024-1024.webp"
@@ -3438,7 +3366,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 42,
+      "stock": 40,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -3454,7 +3382,7 @@
           "sku": "3",
           "price": 21990,
           "isDeposit": false,
-          "stock": 21,
+          "stock": 20,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084093618115-a1eabab963e2c4946c17775814352794-1024-1024.webp"
@@ -4743,7 +4671,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084374863980-98434c8d282958eba217775813029822-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-r-indigo-pastel-19zsi/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1516020102,
@@ -4778,7 +4706,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084376831771-ae51c6febfadf7e02917775812984230-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-r-menta-pastel-103ta/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1516020021,
@@ -5401,7 +5329,7 @@
       "previousPrice": null,
       "transferPrice": null,
       "purchaseModes": [],
-      "stock": 38,
+      "stock": 34,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -5417,7 +5345,7 @@
           "sku": "535",
           "price": 21990,
           "isDeposit": false,
-          "stock": 19,
+          "stock": 17,
           "available": true,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/17708362274246-fd575952d7a7fdc04317775804332636-1024-1024.webp"
@@ -5856,7 +5784,7 @@
       "domain": "3dtisk.com.ar",
       "name": "Filamento PLA Elegoo Gris Espacial",
       "category": "Impresoras",
-      "price": 25100,
+      "price": 25900,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -5876,7 +5804,7 @@
         {
           "id": 1515999318,
           "sku": "772",
-          "price": 25100,
+          "price": 25900,
           "isDeposit": false,
           "stock": 6,
           "available": true,
@@ -5892,7 +5820,7 @@
       "domain": "3dtisk.com.ar",
       "name": "Filamento PLA Elegoo Bronce Relleno",
       "category": "Impresoras",
-      "price": 30600,
+      "price": 32500,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -5912,7 +5840,7 @@
         {
           "id": 1515999275,
           "sku": "773",
-          "price": 30600,
+          "price": 32500,
           "isDeposit": false,
           "stock": 4,
           "available": true,
@@ -5928,7 +5856,7 @@
       "domain": "3dtisk.com.ar",
       "name": "Filamento PLA Elegoo Natural",
       "category": "Impresoras",
-      "price": 25100,
+      "price": 25900,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -5948,7 +5876,7 @@
         {
           "id": 1515999160,
           "sku": "775",
-          "price": 25100,
+          "price": 25900,
           "isDeposit": false,
           "stock": 14,
           "available": true,
@@ -5990,6 +5918,42 @@
           "available": false,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177706460420542-d5d1ba55e3b48cddaf17775801980711-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-341418406",
+      "sourceProductId": "341418406",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "Filamento PLA Elegoo Negro",
+      "category": "Impresoras",
+      "price": 25900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Elegoo",
+      "tags": [
+        "Elegoo",
+        "PLA"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177706469054191-1f23aef2963a60860217775802002906-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/filamento-pla-elegoo-negro-1f2g5/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
+      "variants": [
+        {
+          "id": 1515999765,
+          "sku": "735",
+          "price": 25900,
+          "isDeposit": false,
+          "stock": 0,
+          "available": false,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177706469054191-1f23aef2963a60860217775802002906-1024-1024.webp"
         }
       ]
     },
@@ -6085,7 +6049,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177729619973515-edf28eb0c7a71fcee817775801934935-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/filamento-pla-elegoo-amarillo-1kr44/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=4",
       "variants": [
         {
           "id": 1515999578,
@@ -6106,7 +6070,7 @@
       "domain": "3dtisk.com.ar",
       "name": "Filamento PLA Elegoo Rosa",
       "category": "Impresoras",
-      "price": 25100,
+      "price": 25900,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -6126,7 +6090,7 @@
         {
           "id": 1515999405,
           "sku": "770",
-          "price": 25100,
+          "price": 25900,
           "isDeposit": false,
           "stock": 0,
           "available": false,
@@ -6142,7 +6106,7 @@
       "domain": "3dtisk.com.ar",
       "name": "Filamento PLA Elegoo Rojo",
       "category": "Impresoras",
-      "price": 25100,
+      "price": 25900,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -6162,12 +6126,329 @@
         {
           "id": 1515999086,
           "sku": "776",
-          "price": 25100,
+          "price": 25900,
           "isDeposit": false,
           "stock": 0,
           "available": false,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/1777298608510-c1534ec7ced15f20f517775801708220-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-376867169",
+      "sourceProductId": "376867169",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "Filamento Elegoo Rojo Auténtico",
+      "category": "Impresoras",
+      "price": 32500,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Elegoo",
+      "tags": [
+        "Elegoo"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179304434017860-ded9451ef96df29de617930444158839-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/filamento-elegoo-rojo-autentico-1ct5g/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
+      "variants": [
+        {
+          "id": 1626915126,
+          "sku": "1312",
+          "price": 32500,
+          "isDeposit": false,
+          "stock": 0,
+          "available": false,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179304434017860-ded9451ef96df29de617930444158839-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-376866756",
+      "sourceProductId": "376866756",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "Filamento Elegoo Rosa Durazno",
+      "category": "Impresoras",
+      "price": 32500,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Elegoo",
+      "tags": [
+        "Elegoo"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179304425247332-1fc9d2f6c301e102f017930444134729-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/filamento-elegoo-rosa-durazno-obgz6/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
+      "variants": [
+        {
+          "id": 1626913747,
+          "sku": "1311",
+          "price": 32500,
+          "isDeposit": false,
+          "stock": 0,
+          "available": false,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179304425247332-1fc9d2f6c301e102f017930444134729-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-376865926",
+      "sourceProductId": "376865926",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "Filamento Elegoo SILK Violeta Azulado",
+      "category": "Impresoras",
+      "price": 32500,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Elegoo",
+      "tags": [
+        "Elegoo"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179304419139284-98a18791ec4174398b17930442259639-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/filamento-elegoo-silk-violeta-azulado-w59e8/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
+      "variants": [
+        {
+          "id": 1626911042,
+          "sku": "1309",
+          "price": 32500,
+          "isDeposit": false,
+          "stock": 0,
+          "available": false,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179304419139284-98a18791ec4174398b17930442259639-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-376865706",
+      "sourceProductId": "376865706",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "Filamento Elegoo SILK Azul Cielo",
+      "category": "Impresoras",
+      "price": 32500,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Elegoo",
+      "tags": [
+        "Elegoo"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179304400858547-6c84ff6ade5c61ef0917930444102365-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/filamento-elegoo-silk-azul-cielo-46szw/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
+      "variants": [
+        {
+          "id": 1626910252,
+          "sku": "1308",
+          "price": 32500,
+          "isDeposit": false,
+          "stock": 0,
+          "available": false,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179304400858547-6c84ff6ade5c61ef0917930444102365-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-376864881",
+      "sourceProductId": "376864881",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "Filamento Elegoo SILK Amarillo Purpura",
+      "category": "Impresoras",
+      "price": 32500,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Elegoo",
+      "tags": [
+        "Elegoo"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179304382119631-7476f7a66844ab010f17930444078783-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/filamento-elegoo-silk-amarillo-purpura-1bcl0/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
+      "variants": [
+        {
+          "id": 1626907355,
+          "sku": "1306",
+          "price": 32500,
+          "isDeposit": false,
+          "stock": 0,
+          "available": false,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179304382119631-7476f7a66844ab010f17930444078783-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-376864127",
+      "sourceProductId": "376864127",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "Filamento Elegoo SILK Negro Verde",
+      "category": "Impresoras",
+      "price": 32500,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Elegoo",
+      "tags": [
+        "Elegoo"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179304375764287-ebd402fe73cdf8425b17930438058262-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/filamento-elegoo-silk-negro-verde-scf6x/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
+      "variants": [
+        {
+          "id": 1626905139,
+          "sku": "1305",
+          "price": 32500,
+          "isDeposit": false,
+          "stock": 0,
+          "available": false,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179304375764287-ebd402fe73cdf8425b17930438058262-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-376859943",
+      "sourceProductId": "376859943",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "Filamento Elegoo SILK Azul Magenta",
+      "category": "Impresoras",
+      "price": 32500,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Elegoo",
+      "tags": [
+        "Elegoo"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179304289466766-646b556933204110af17930429669068-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/filamento-elegoo-silk-azul-magenta-exws5/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
+      "variants": [
+        {
+          "id": 1626889748,
+          "sku": "1303",
+          "price": 32500,
+          "isDeposit": false,
+          "stock": 0,
+          "available": false,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179304289466766-646b556933204110af17930429669068-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-376840672",
+      "sourceProductId": "376840672",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "Filament Rapid PETG Elegoo Transparente",
+      "category": "Impresoras",
+      "price": 22500,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Elegoo",
+      "tags": [
+        "Elegoo",
+        "PETG"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/17930399519343-f370010752c0ca786917930400349267-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/filament-rapid-petg-elegoo-transparente-1yc89/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
+      "variants": [
+        {
+          "id": 1626819582,
+          "sku": "1302",
+          "price": 22500,
+          "isDeposit": false,
+          "stock": 0,
+          "available": false,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/17930399519343-f370010752c0ca786917930400349267-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "3dtisk-376833483",
+      "sourceProductId": "376833483",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "Filamento Elegoo PETG PRO Negro",
+      "category": "Impresoras",
+      "price": 28100,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Elegoo",
+      "tags": [
+        "Elegoo",
+        "PETG"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179303872259019-b1ab14b9bae2485db217930388293240-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/filamento-elegoo-petg-pro-negro-ql0kg/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
+      "variants": [
+        {
+          "id": 1626794437,
+          "sku": "1301",
+          "price": 28100,
+          "isDeposit": false,
+          "stock": 0,
+          "available": false,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179303872259019-b1ab14b9bae2485db217930388293240-1024-1024.webp"
         }
       ]
     },
@@ -6450,13 +6731,49 @@
       ]
     },
     {
+      "id": "3dtisk-362388741",
+      "sourceProductId": "362388741",
+      "store": "3DTisk",
+      "domain": "3dtisk.com.ar",
+      "name": "Filamento Elegoo PETG PRO Rojo Borgona",
+      "category": "Impresoras",
+      "price": 28100,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Elegoo",
+      "tags": [
+        "Elegoo",
+        "PETG"
+      ],
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179303844297491-9a5736cb1a442e1c3917930384660554-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/filamento-elegoo-petg-pro-rojo-borgona-bkuda/",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
+      "variants": [
+        {
+          "id": 1581390718,
+          "sku": "1060",
+          "price": 28100,
+          "isDeposit": false,
+          "stock": 0,
+          "available": false,
+          "options": [],
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179303844297491-9a5736cb1a442e1c3917930384660554-1024-1024.webp"
+        }
+      ]
+    },
+    {
       "id": "3dtisk-356723334",
       "sourceProductId": "356723334",
       "store": "3DTisk",
       "domain": "3dtisk.com.ar",
-      "name": "Filamento Elegoo PLA+ Rapid Beige",
+      "name": "Filamento Elegoo PLA + Rapid Beige",
       "category": "Impresoras",
-      "price": 25700,
+      "price": 28100,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -6469,19 +6786,19 @@
         "Elegoo",
         "PLA"
       ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/178464017192456-ae0bd75fde4aa46de317846430129647-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/filamento-elegoo-pla-rapid-beige-1goci/",
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179303110763953-374232851ce684767017930311458579-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/filamento-elegoo-pla-rapid-beige-69jcn/",
       "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
       "variants": [
         {
           "id": 1562627001,
           "sku": "919",
-          "price": 25700,
+          "price": 28100,
           "isDeposit": false,
           "stock": 0,
           "available": false,
           "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/178464017192456-ae0bd75fde4aa46de317846430129647-1024-1024.webp"
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179303110763953-374232851ce684767017930311458579-1024-1024.webp"
         }
       ]
     },
@@ -6526,9 +6843,9 @@
       "sourceProductId": "352077333",
       "store": "3DTisk",
       "domain": "3dtisk.com.ar",
-      "name": "Elegoo PETG PRO Blanco",
+      "name": "Filamento Elegoo PETG PRO Blanco",
       "category": "Impresoras",
-      "price": 27300,
+      "price": 28100,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -6541,19 +6858,19 @@
         "Elegoo",
         "PETG"
       ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/178231339767493-8fa1ccfa19b1733f6e17823134486738-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/elegoo-petg-pro-blanco-1l29a/",
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179303840420915-7cb50a28121554023017930384088327-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/filamento-elegoo-petg-pro-blanco-1iecq/",
       "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
       "variants": [
         {
           "id": 1548205370,
           "sku": "907",
-          "price": 27300,
+          "price": 28100,
           "isDeposit": false,
           "stock": 0,
           "available": false,
           "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/178231339767493-8fa1ccfa19b1733f6e17823134486738-1024-1024.webp"
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179303840420915-7cb50a28121554023017930384088327-1024-1024.webp"
         }
       ]
     },
@@ -6598,9 +6915,9 @@
       "sourceProductId": "352063870",
       "store": "3DTisk",
       "domain": "3dtisk.com.ar",
-      "name": "Elegoo PLA+ Rapid Blanco",
+      "name": "Filamento Elegoo PLA + Rapid Blanco",
       "category": "Impresoras",
-      "price": 27300,
+      "price": 28100,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -6613,19 +6930,19 @@
         "Elegoo",
         "PLA"
       ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/178223877389868-c11e46c5a8235bc44217822388086586-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/elegoo-pla-rapid-blanco-7xm0z/",
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179303124063994-567dd094f4651ece4217930312671053-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/filamento-elegoo-pla-rapid-blanco-3udm3/",
       "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
       "variants": [
         {
           "id": 1548161640,
           "sku": "905",
-          "price": 27300,
+          "price": 28100,
           "isDeposit": false,
           "stock": 0,
           "available": false,
           "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/178223877389868-c11e46c5a8235bc44217822388086586-1024-1024.webp"
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179303124063994-567dd094f4651ece4217930312671053-1024-1024.webp"
         }
       ]
     },
@@ -6634,9 +6951,9 @@
       "sourceProductId": "344799012",
       "store": "3DTisk",
       "domain": "3dtisk.com.ar",
-      "name": "Filamento PLA Matte Elegoo Negro",
+      "name": "Filamento Elegoo PLA Matte Negro",
       "category": "Impresoras",
-      "price": 29800,
+      "price": 29200,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -6649,19 +6966,19 @@
         "Elegoo",
         "PLA"
       ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177911499850200-e247b8914bd82ab31317791150295003-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/filamento-pla-matte-elegoo-negro-1e6yr/",
+      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179304848841275-51cd9f501f27551dce17930485460321-1024-1024.webp",
+      "url": "https://3dtisk.com.ar/productos/filamento-elegoo-pla-matte-negro-17qvk/",
       "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
       "variants": [
         {
           "id": 1526630554,
           "sku": "851",
-          "price": 29800,
+          "price": 29200,
           "isDeposit": false,
           "stock": 0,
           "available": false,
           "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177911499850200-e247b8914bd82ab31317791150295003-1024-1024.webp"
+          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/179304848841275-51cd9f501f27551dce17930485460321-1024-1024.webp"
         }
       ]
     },
@@ -6672,7 +6989,7 @@
       "domain": "3dtisk.com.ar",
       "name": "Filamento RAPID PETG Elegoo Beige",
       "category": "Impresoras",
-      "price": 21900,
+      "price": 22500,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -6692,7 +7009,7 @@
         {
           "id": 1522884541,
           "sku": "834",
-          "price": 21900,
+          "price": 22500,
           "isDeposit": false,
           "stock": 0,
           "available": false,
@@ -6708,7 +7025,7 @@
       "domain": "3dtisk.com.ar",
       "name": "Filamento RAPID PETG Elegoo Marron",
       "category": "Impresoras",
-      "price": 21900,
+      "price": 22500,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -6728,7 +7045,7 @@
         {
           "id": 1522881980,
           "sku": "832",
-          "price": 21900,
+          "price": 22500,
           "isDeposit": false,
           "stock": 0,
           "available": false,
@@ -6744,7 +7061,7 @@
       "domain": "3dtisk.com.ar",
       "name": "Filamento RAPID PETG Elegoo Plata",
       "category": "Impresoras",
-      "price": 21900,
+      "price": 22500,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -6765,7 +7082,7 @@
         {
           "id": 1522879653,
           "sku": "831",
-          "price": 21900,
+          "price": 22500,
           "isDeposit": false,
           "stock": 0,
           "available": false,
@@ -6781,7 +7098,7 @@
       "domain": "3dtisk.com.ar",
       "name": "Filamento RAPID PETG Elegoo Naranja",
       "category": "Impresoras",
-      "price": 21900,
+      "price": 22500,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -6801,7 +7118,7 @@
         {
           "id": 1522878297,
           "sku": "830",
-          "price": 21900,
+          "price": 22500,
           "isDeposit": false,
           "stock": 0,
           "available": false,
@@ -6817,7 +7134,7 @@
       "domain": "3dtisk.com.ar",
       "name": "Filamento RAPID PETG Elegoo Rojo",
       "category": "Impresoras",
-      "price": 21900,
+      "price": 22500,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -6837,7 +7154,7 @@
         {
           "id": 1522872429,
           "sku": "829",
-          "price": 21900,
+          "price": 22500,
           "isDeposit": false,
           "stock": 0,
           "available": false,
@@ -6853,7 +7170,7 @@
       "domain": "3dtisk.com.ar",
       "name": "Filamento RAPID PETG Elegoo Azul",
       "category": "Impresoras",
-      "price": 21900,
+      "price": 22500,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -6873,7 +7190,7 @@
         {
           "id": 1522868290,
           "sku": "828",
-          "price": 21900,
+          "price": 22500,
           "isDeposit": false,
           "stock": 0,
           "available": false,
@@ -6889,7 +7206,7 @@
       "domain": "3dtisk.com.ar",
       "name": "Filamento RAPID PETG Elegoo Verde",
       "category": "Impresoras",
-      "price": 21900,
+      "price": 22500,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -6909,7 +7226,7 @@
         {
           "id": 1522862596,
           "sku": "827",
-          "price": 21900,
+          "price": 22500,
           "isDeposit": false,
           "stock": 0,
           "available": false,
@@ -6925,7 +7242,7 @@
       "domain": "3dtisk.com.ar",
       "name": "Filamento RAPID PETG Elegoo Amarillo",
       "category": "Impresoras",
-      "price": 21900,
+      "price": 22500,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -6945,7 +7262,7 @@
         {
           "id": 1522099885,
           "sku": "823",
-          "price": 21900,
+          "price": 22500,
           "isDeposit": false,
           "stock": 0,
           "available": false,
@@ -6961,7 +7278,7 @@
       "domain": "3dtisk.com.ar",
       "name": "Filamento RAPID PETG Elegoo Gris",
       "category": "Impresoras",
-      "price": 21900,
+      "price": 22500,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -6981,7 +7298,7 @@
         {
           "id": 1522096284,
           "sku": "822",
-          "price": 21900,
+          "price": 22500,
           "isDeposit": false,
           "stock": 0,
           "available": false,
@@ -6997,7 +7314,7 @@
       "domain": "3dtisk.com.ar",
       "name": "Filamento RAPID PETG Elegoo Blanco",
       "category": "Impresoras",
-      "price": 21900,
+      "price": 22500,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -7017,7 +7334,7 @@
         {
           "id": 1522089723,
           "sku": "821",
-          "price": 21900,
+          "price": 22500,
           "isDeposit": false,
           "stock": 0,
           "available": false,
@@ -7033,7 +7350,7 @@
       "domain": "3dtisk.com.ar",
       "name": "Filamento RAPID PETG Elegoo Negro",
       "category": "Impresoras",
-      "price": 21900,
+      "price": 22500,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -7053,7 +7370,7 @@
         {
           "id": 1522085691,
           "sku": "820",
-          "price": 21900,
+          "price": 22500,
           "isDeposit": false,
           "stock": 0,
           "available": false,
@@ -7069,7 +7386,7 @@
       "domain": "3dtisk.com.ar",
       "name": "Filamento ABS Elegoo Gris",
       "category": "Impresoras",
-      "price": 28600,
+      "price": 29500,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -7089,7 +7406,7 @@
         {
           "id": 1517836628,
           "sku": "724",
-          "price": 28600,
+          "price": 29500,
           "isDeposit": false,
           "stock": 0,
           "available": false,
@@ -7156,7 +7473,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177790460138520-b2ceb660988804747617779046579752-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/filamento-pla-flashforge-naranja-1tpif/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=6",
       "variants": [
         {
           "id": 1517790506,
@@ -7192,7 +7509,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177790424041402-85b5ade6bbc83a037e17779042879188-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/filamento-pla-flashforge-rosa-bj6ep/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=6",
       "variants": [
         {
           "id": 1517783819,
@@ -7228,7 +7545,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177790383231206-29957758f00fee704517779039287968-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/filamento-pla-flashforge-rojo-ghwdi/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=6",
       "variants": [
         {
           "id": 1517777584,
@@ -7264,7 +7581,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177790270757050-0f935f69446e137e5317779032687083-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/filamento-pla-flashforge-gris-o3q4n/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=6",
       "variants": [
         {
           "id": 1517766335,
@@ -7300,7 +7617,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/17779023595765-5b440b3d930805b9eb17779023680412-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/filamento-pla-flashforge-blanco-iq1hd/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=6",
       "variants": [
         {
           "id": 1517760943,
@@ -7335,7 +7652,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084098513864-9bd9c12fb96886efe317775814282622-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-e-marmol-1urny/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=6",
       "variants": [
         {
           "id": 1516022697,
@@ -7370,7 +7687,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084121710895-a8fffd4bde00ee0bfc17775814007647-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-e-marron-16gio/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=6",
       "variants": [
         {
           "id": 1516022126,
@@ -7405,7 +7722,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084124193954-c295405b6fc55d4c4217775813961623-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-e-lavanda-pastel-io7zz/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=6",
       "variants": [
         {
           "id": 1516021993,
@@ -7440,7 +7757,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084131350128-1125121752c9a0f3a217775813877180-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-e-arena-pastel-1frqb/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=6",
       "variants": [
         {
           "id": 1516021748,
@@ -7475,7 +7792,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/tmp/stores/001/604/828/products/177084134220-d033dcdfa3925400b317775813836194.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-e-kiwi-pastel-1v5ry/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=6",
       "variants": [
         {
           "id": 1516021640,
@@ -7510,7 +7827,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084135086885-400873f1e10ec723eb17775813812647-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-e-celeste-pastel-irw6g/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=6",
       "variants": [
         {
           "id": 1516021586,
@@ -7545,7 +7862,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084136855751-bedfb6da5d5fbd995317775813788700-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-e-rosa-pastel-fss00/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=6",
       "variants": [
         {
           "id": 1516021528,
@@ -7580,7 +7897,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084137838884-d556ab0ff07b5e48cd17775813763659-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-e-copa-del-mundo-xqblo/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=6",
       "variants": [
         {
           "id": 1516021478,
@@ -7615,7 +7932,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084203519113-cafc42e0238d1f658617775813215786-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-r-naranja-ak1ux/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=6",
       "variants": [
         {
           "id": 1516020393,
@@ -7650,7 +7967,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084383135086-56adbed79f80a8b04117775812911751-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-r-rosa-pastel-pw73r/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=6",
       "variants": [
         {
           "id": 1516019855,
@@ -7685,7 +8002,7 @@
       ],
       "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177084384399407-b313aec06d594b201d17775812887127-1024-1024.webp",
       "url": "https://3dtisk.com.ar/productos/hellbot-r-copa-del-mundo-lwnh9/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=5",
+      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=6",
       "variants": [
         {
           "id": 1516019819,
@@ -7952,7 +8269,7 @@
       "domain": "3dtisk.com.ar",
       "name": "Filamento PLA Elegoo Purpura",
       "category": "Impresoras",
-      "price": 25100,
+      "price": 25900,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -7972,7 +8289,7 @@
         {
           "id": 1515999456,
           "sku": "769",
-          "price": 25100,
+          "price": 25900,
           "isDeposit": false,
           "stock": 0,
           "available": false,
@@ -7988,7 +8305,7 @@
       "domain": "3dtisk.com.ar",
       "name": "Filamento PLA Elegoo Azul Oscuro",
       "category": "Impresoras",
-      "price": 25100,
+      "price": 25900,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -8008,7 +8325,7 @@
         {
           "id": 1515999362,
           "sku": "771",
-          "price": 25100,
+          "price": 25900,
           "isDeposit": false,
           "stock": 0,
           "available": false,
@@ -8024,7 +8341,7 @@
       "domain": "3dtisk.com.ar",
       "name": "Filamento PLA Elegoo Marmol",
       "category": "Impresoras",
-      "price": 25100,
+      "price": 32500,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -8044,48 +8361,12 @@
         {
           "id": 1515999229,
           "sku": "774",
-          "price": 25100,
+          "price": 32500,
           "isDeposit": false,
           "stock": 0,
           "available": false,
           "options": [],
           "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177729828492721-e95c17479edca5311517775801756384-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "3dtisk-341417772",
-      "sourceProductId": "341417772",
-      "store": "3DTisk",
-      "domain": "3dtisk.com.ar",
-      "name": "Filamento PLA Elegoo Madera",
-      "category": "Impresoras",
-      "price": 25100,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Elegoo",
-      "tags": [
-        "Elegoo",
-        "PLA"
-      ],
-      "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177729903999129-a2bdc7c2079ad14d3617775800735944-1024-1024.webp",
-      "url": "https://3dtisk.com.ar/productos/filamento-pla-elegoo-madera-vxks9/",
-      "scrapedFrom": "https://3dtisk.com.ar/productos/?page=6",
-      "variants": [
-        {
-          "id": 1515996613,
-          "sku": "779",
-          "price": 25100,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [],
-          "image": "https://dcdn-us.mitiendanube.com/stores/001/604/828/products/177729903999129-a2bdc7c2079ad14d3617775800735944-1024-1024.webp"
         }
       ]
     }

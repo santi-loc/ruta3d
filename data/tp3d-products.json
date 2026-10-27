@@ -4,8 +4,8 @@
     "domain": "tp3d.com.ar",
     "baseUrl": "https://tp3d.com.ar"
   },
-  "scrapedAt": "2026-10-26T15:00:30.094Z",
-  "count": 502,
+  "scrapedAt": "2026-10-27T14:13:23.404Z",
+  "count": 503,
   "pages": [
     {
       "listing": "Insumos",
@@ -60,8 +60,8 @@
       "listing": "Impresoras FDM",
       "page": 4,
       "url": "https://tp3d.com.ar/203-all-fdm?page=4",
-      "found": 21,
-      "added": 21
+      "found": 22,
+      "added": 22
     },
     {
       "listing": "Impresoras Resina",
@@ -192,6 +192,31 @@
       ],
       "image": "https://tp3d.com.ar/9690-large_default/combo-filamento-hellbot-ecofila-pla-blanco-mix-3kg-175mm.jpg",
       "url": "https://tp3d.com.ar/TP3D/2662-combo-filamento-hellbot-ecofila-pla-blanco-mix-3kg-175mm.html",
+      "scrapedFrom": "https://tp3d.com.ar/127-insumos",
+      "variants": []
+    },
+    {
+      "id": "tp3d-2663",
+      "sourceProductId": "2663",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Mega Combo Filamento Hellbot ECOFILA Pla Blanco Mix 5kg 1,75mm",
+      "category": "Filamentos",
+      "price": 87350,
+      "currency": "ARS",
+      "transferPrice": 82983,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA",
+        "Hellbot",
+        "combo",
+        "Insumos"
+      ],
+      "image": "https://tp3d.com.ar/9699-large_default/mega-combo-filamento-hellbot-ecofila-pla-blanco-mix-5kg-175mm.jpg",
+      "url": "https://tp3d.com.ar/TP3D/2663-mega-combo-filamento-hellbot-ecofila-pla-blanco-mix-5kg-175mm.html",
       "scrapedFrom": "https://tp3d.com.ar/127-insumos",
       "variants": []
     },
@@ -757,7 +782,7 @@
       ],
       "image": "https://tp3d.com.ar/1922-large_default/resina-creality-casteable-dental-botella-alumunio-1kg.jpg",
       "url": "https://tp3d.com.ar/insumos/1130-120-resina-creality-casteable-dental-botella-alumunio-1kg.html#/42-color-verde_transparente",
-      "scrapedFrom": "https://tp3d.com.ar/127-insumos",
+      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=2",
       "variants": []
     },
     {
@@ -1341,7 +1366,7 @@
       ],
       "image": "https://tp3d.com.ar/11345-large_default/filamento-bambu-lab-pla-matte-recarga-1kg-175mm.jpg",
       "url": "https://tp3d.com.ar/filamentos-3d/2805-2086-filamento-bambu-lab-pla-matte-recarga-1kg-175mm.html#/69-color-dorado",
-      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=2",
+      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=3",
       "variants": []
     },
     {
@@ -1391,6 +1416,31 @@
       ],
       "image": "https://tp3d.com.ar/11693-large_default/combo-filamento-hellbot-ecofila-pla-recarga-10kg-175mm.jpg",
       "url": "https://tp3d.com.ar/TP3D/2842-combo-filamento-hellbot-ecofila-pla-recarga-10kg-175mm.html",
+      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=3",
+      "variants": []
+    },
+    {
+      "id": "tp3d-2843",
+      "sourceProductId": "2843",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Combo Filamento Hellbot ECOFILA Pla Recarga Blanco 10kg 1,75mm",
+      "category": "Filamentos",
+      "price": 159920,
+      "currency": "ARS",
+      "transferPrice": 151924,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA",
+        "Hellbot",
+        "combo",
+        "Insumos"
+      ],
+      "image": "https://tp3d.com.ar/11694-large_default/combo-filamento-hellbot-ecofila-pla-recarga-blanco-10kg-175mm.jpg",
+      "url": "https://tp3d.com.ar/TP3D/2843-combo-filamento-hellbot-ecofila-pla-recarga-blanco-10kg-175mm.html",
       "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=3",
       "variants": []
     },
@@ -1516,31 +1566,6 @@
       ],
       "image": "https://tp3d.com.ar/9669-large_default/combo-filamento-hellbot-ecofila-pla-primarios-recarga-3kg-175mm.jpg",
       "url": "https://tp3d.com.ar/TP3D/2659-combo-filamento-hellbot-ecofila-pla-primarios-recarga-3kg-175mm.html",
-      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=3",
-      "variants": []
-    },
-    {
-      "id": "tp3d-2663",
-      "sourceProductId": "2663",
-      "store": "TP3D",
-      "domain": "tp3d.com.ar",
-      "name": "Mega Combo Filamento Hellbot ECOFILA Pla Blanco Mix 5kg 1,75mm",
-      "category": "Filamentos",
-      "price": 87350,
-      "currency": "ARS",
-      "transferPrice": 82983,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "PLA",
-        "Hellbot",
-        "combo",
-        "Insumos"
-      ],
-      "image": "https://tp3d.com.ar/9699-large_default/mega-combo-filamento-hellbot-ecofila-pla-blanco-mix-5kg-175mm.jpg",
-      "url": "https://tp3d.com.ar/TP3D/2663-mega-combo-filamento-hellbot-ecofila-pla-blanco-mix-5kg-175mm.html",
       "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=3",
       "variants": []
     },
@@ -1932,7 +1957,7 @@
       ],
       "image": "https://tp3d.com.ar/1924-large_default/resina-creality-alta-velocidad-azul-1kg-botella-plastica.jpg",
       "url": "https://tp3d.com.ar/resinas-3d/1174-resina-creality-alta-velocidad-azul-1kg-botella-plastica.html",
-      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=3",
+      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=4",
       "variants": []
     },
     {
@@ -2223,31 +2248,6 @@
       "variants": []
     },
     {
-      "id": "tp3d-2843",
-      "sourceProductId": "2843",
-      "store": "TP3D",
-      "domain": "tp3d.com.ar",
-      "name": "Combo Filamento Hellbot ECOFILA Pla Recarga Blanco 10kg 1,75mm",
-      "category": "Filamentos",
-      "price": 159920,
-      "currency": "ARS",
-      "transferPrice": 151924,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "PLA",
-        "Hellbot",
-        "combo",
-        "Insumos"
-      ],
-      "image": "https://tp3d.com.ar/11694-large_default/combo-filamento-hellbot-ecofila-pla-recarga-blanco-10kg-175mm.jpg",
-      "url": "https://tp3d.com.ar/TP3D/2843-combo-filamento-hellbot-ecofila-pla-recarga-blanco-10kg-175mm.html",
-      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=4",
-      "variants": []
-    },
-    {
       "id": "tp3d-1886",
       "sourceProductId": "1886",
       "store": "TP3D",
@@ -2315,29 +2315,6 @@
       ],
       "image": "https://tp3d.com.ar/5128-large_default/impresora-bambulab-a1-mini.jpg",
       "url": "https://tp3d.com.ar/impresoras-fdm/1671-impresora-bambulab-a1-mini.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm",
-      "variants": []
-    },
-    {
-      "id": "tp3d-1175",
-      "sourceProductId": "1175",
-      "store": "TP3D",
-      "domain": "tp3d.com.ar",
-      "name": "Impresora 3D Creality Ender 3 V3 SE FDM",
-      "category": "Impresoras",
-      "price": 370999,
-      "currency": "ARS",
-      "transferPrice": 352449,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "Creality",
-        "Impresoras FDM"
-      ],
-      "image": "https://tp3d.com.ar/1696-large_default/impresora-creality-ender-3-v3-se.jpg",
-      "url": "https://tp3d.com.ar/impresoras-fdm/1175-impresora-creality-ender-3-v3-se.html",
       "scrapedFrom": "https://tp3d.com.ar/203-all-fdm",
       "variants": []
     },
@@ -2441,7 +2418,7 @@
       "sourceProductId": "2464",
       "store": "TP3D",
       "domain": "tp3d.com.ar",
-      "name": "Impresora Bambu Lab H2S AMS Full Combo",
+      "name": "Impresora Bambu Lab H2S AMS Full Combo 10w",
       "category": "Impresoras",
       "price": 6873900,
       "currency": "ARS",
@@ -2553,31 +2530,6 @@
       ],
       "image": "https://tp3d.com.ar/8877-large_default/impresora-creality-sparkx-i7-color-combo.jpg",
       "url": "https://tp3d.com.ar/impresoras-fdm/2575-impresora-creality-sparkx-i7-color-combo.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm",
-      "variants": []
-    },
-    {
-      "id": "tp3d-2592",
-      "sourceProductId": "2592",
-      "store": "TP3D",
-      "domain": "tp3d.com.ar",
-      "name": "Combo Impresora 3D Creality Ender 3 V3 SE FDM + 5kg Filamento PLA Soleyin",
-      "category": "Filamentos",
-      "price": 413259,
-      "currency": "ARS",
-      "transferPrice": 392596,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "PLA",
-        "Creality",
-        "combo",
-        "Impresoras FDM"
-      ],
-      "image": "https://tp3d.com.ar/9017-large_default/combo-impresora-3d-creality-ender-3-v3-se-fdm-5kg-filamento-pla-soleyin.jpg",
-      "url": "https://tp3d.com.ar/combos/2592-combo-impresora-3d-creality-ender-3-v3-se-fdm-5kg-filamento-pla-soleyin.html",
       "scrapedFrom": "https://tp3d.com.ar/203-all-fdm",
       "variants": []
     },
@@ -2729,7 +2681,7 @@
       "sourceProductId": "2677",
       "store": "TP3D",
       "domain": "tp3d.com.ar",
-      "name": "Showroom Impresora Bambu Lab H2S AMS Full Combo",
+      "name": "Showroom Impresora Bambu Lab H2S AMS Full 10w Combo",
       "category": "Impresoras",
       "price": 4669990,
       "currency": "ARS",
@@ -2839,7 +2791,7 @@
       ],
       "image": "https://tp3d.com.ar/10431-large_default/preventa-noviembre-impresora-creality-sparkx-i7-cfs-nano-i7.jpg",
       "url": "https://tp3d.com.ar/impresoras-fdm/2743-preventa-noviembre-impresora-creality-sparkx-i7-cfs-nano-i7.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=2",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm",
       "variants": []
     },
     {
@@ -2863,7 +2815,7 @@
       ],
       "image": "https://tp3d.com.ar/10437-large_default/preventa-noviembre-impresora-creality-sparkx-i7-color-combo.jpg",
       "url": "https://tp3d.com.ar/impresoras-fdm/2745-preventa-noviembre-impresora-creality-sparkx-i7-color-combo.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=2",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm",
       "variants": []
     },
     {
@@ -2887,54 +2839,6 @@
       ],
       "image": "https://tp3d.com.ar/10963-large_default/refurbished-impresora-creality-sparkx-i7-color-combo.jpg",
       "url": "https://tp3d.com.ar/impresoras-fdm/2768-refurbished-impresora-creality-sparkx-i7-color-combo.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=2",
-      "variants": []
-    },
-    {
-      "id": "tp3d-2782",
-      "sourceProductId": "2782",
-      "store": "TP3D",
-      "domain": "tp3d.com.ar",
-      "name": "Combo Impresora Bambulab A1 + 5 kg Filamento Pla LITE",
-      "category": "Filamentos",
-      "price": 1088900,
-      "currency": "ARS",
-      "transferPrice": 1034455,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "PLA",
-        "combo",
-        "Impresoras FDM"
-      ],
-      "image": "https://tp3d.com.ar/11133-large_default/combo-impresora-bambulab-a1-5-kg-filamento-pla-lite.jpg",
-      "url": "https://tp3d.com.ar/combos/2782-combo-impresora-bambulab-a1-5-kg-filamento-pla-lite.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=2",
-      "variants": []
-    },
-    {
-      "id": "tp3d-2786",
-      "sourceProductId": "2786",
-      "store": "TP3D",
-      "domain": "tp3d.com.ar",
-      "name": "Combo Impresora Bambulab A1 + 8kg Filamento Pla LITE",
-      "category": "Filamentos",
-      "price": 1144900,
-      "currency": "ARS",
-      "transferPrice": 1087655,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "PLA",
-        "combo",
-        "Impresoras FDM"
-      ],
-      "image": "https://tp3d.com.ar/11145-large_default/combo-impresora-bambulab-a1-8kg-filamento-pla-lite.jpg",
-      "url": "https://tp3d.com.ar/combos/2786-combo-impresora-bambulab-a1-8kg-filamento-pla-lite.html",
       "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=2",
       "variants": []
     },
@@ -3248,6 +3152,29 @@
       "variants": []
     },
     {
+      "id": "tp3d-2820",
+      "sourceProductId": "2820",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Preventa Diciembre Impresora 3D Anycubic Kobra X Multicolor 4 Colores FDM",
+      "category": "Impresoras",
+      "price": 1089000,
+      "currency": "ARS",
+      "transferPrice": 1034550,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Anycubic",
+        "Impresoras FDM"
+      ],
+      "image": "https://tp3d.com.ar/11467-large_default/preventa-diciembre-impresora-3d-anycubic-kobra-x-multicolor-4-colores-fdm.jpg",
+      "url": "https://tp3d.com.ar/impresoras-fdm/2820-preventa-diciembre-impresora-3d-anycubic-kobra-x-multicolor-4-colores-fdm.html",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=2",
+      "variants": []
+    },
+    {
       "id": "tp3d-2833",
       "sourceProductId": "2833",
       "store": "TP3D",
@@ -3409,7 +3336,7 @@
       ],
       "image": "https://tp3d.com.ar/10046-large_default/impresora-3d-bambulab-a1-fdm.jpg",
       "url": "https://tp3d.com.ar/impresoras-fdm/1889-impresora-3d-bambulab-a1-fdm.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=3",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=2",
       "variants": []
     },
     {
@@ -3432,7 +3359,7 @@
       ],
       "image": "https://tp3d.com.ar/2487-large_default/impresora-creality-ender-3-v3-ke.jpg",
       "url": "https://tp3d.com.ar/impresoras-fdm/1264-impresora-creality-ender-3-v3-ke.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=3",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=2",
       "variants": []
     },
     {
@@ -3456,7 +3383,7 @@
       ],
       "image": "https://tp3d.com.ar/5989-large_default/impresora-3d-creality-hi-combo-fdm.jpg",
       "url": "https://tp3d.com.ar/impresoras-fdm/1927-impresora-3d-creality-hi-combo-fdm.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=3",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=2",
       "variants": []
     },
     {
@@ -3854,6 +3781,29 @@
       "variants": []
     },
     {
+      "id": "tp3d-1175",
+      "sourceProductId": "1175",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Impresora 3D Creality Ender 3 V3 SE FDM",
+      "category": "Impresoras",
+      "price": 370999,
+      "currency": "ARS",
+      "transferPrice": 352449,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Creality",
+        "Impresoras FDM"
+      ],
+      "image": "https://tp3d.com.ar/1696-large_default/impresora-creality-ender-3-v3-se.jpg",
+      "url": "https://tp3d.com.ar/impresoras-fdm/1175-impresora-creality-ender-3-v3-se.html",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=3",
+      "variants": []
+    },
+    {
       "id": "tp3d-2370",
       "sourceProductId": "2370",
       "store": "TP3D",
@@ -3971,7 +3921,7 @@
       ],
       "image": "https://tp3d.com.ar/8345-large_default/combo-impresora-3d-anycubic-kobra-2-neo-fdm-10kg-filamento-hellbot.jpg",
       "url": "https://tp3d.com.ar/combos/2429-combo-impresora-3d-anycubic-kobra-2-neo-fdm-10kg-filamento-hellbot.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=4",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=3",
       "variants": []
     },
     {
@@ -3994,7 +3944,7 @@
       ],
       "image": "https://tp3d.com.ar/1752-large_default/impresora-hellbot-magna-se-pro-fdm.jpg",
       "url": "https://tp3d.com.ar/TP3D/24-impresora-hellbot-magna-se-pro-fdm.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=4",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=3",
       "variants": []
     },
     {
@@ -4161,6 +4111,31 @@
       ],
       "image": "https://tp3d.com.ar/9015-large_default/combo-impresora-3d-creality-ender-3-v3-ke-fdm-5kg-filamento-soleyin.jpg",
       "url": "https://tp3d.com.ar/combos/2591-combo-impresora-3d-creality-ender-3-v3-ke-fdm-5kg-filamento-soleyin.html",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=4",
+      "variants": []
+    },
+    {
+      "id": "tp3d-2592",
+      "sourceProductId": "2592",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Combo Impresora 3D Creality Ender 3 V3 SE FDM + 5kg Filamento PLA Soleyin",
+      "category": "Filamentos",
+      "price": 413259,
+      "currency": "ARS",
+      "transferPrice": 392596,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA",
+        "Creality",
+        "combo",
+        "Impresoras FDM"
+      ],
+      "image": "https://tp3d.com.ar/9017-large_default/combo-impresora-3d-creality-ender-3-v3-se-fdm-5kg-filamento-pla-soleyin.jpg",
+      "url": "https://tp3d.com.ar/combos/2592-combo-impresora-3d-creality-ender-3-v3-se-fdm-5kg-filamento-pla-soleyin.html",
       "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=4",
       "variants": []
     },
@@ -4376,6 +4351,30 @@
       "variants": []
     },
     {
+      "id": "tp3d-2782",
+      "sourceProductId": "2782",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Combo Impresora Bambulab A1 + 5 kg Filamento Pla LITE",
+      "category": "Filamentos",
+      "price": 1088900,
+      "currency": "ARS",
+      "transferPrice": 1034455,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA",
+        "combo",
+        "Impresoras FDM"
+      ],
+      "image": "https://tp3d.com.ar/11133-large_default/combo-impresora-bambulab-a1-5-kg-filamento-pla-lite.jpg",
+      "url": "https://tp3d.com.ar/combos/2782-combo-impresora-bambulab-a1-5-kg-filamento-pla-lite.html",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=4",
+      "variants": []
+    },
+    {
       "id": "tp3d-2784",
       "sourceProductId": "2784",
       "store": "TP3D",
@@ -4396,6 +4395,30 @@
       ],
       "image": "https://tp3d.com.ar/11131-large_default/refurbished-impresora-3d-anycubic-kobra-3-v2-combo-fdm.jpg",
       "url": "https://tp3d.com.ar/impresoras-fdm/2784-refurbished-impresora-3d-anycubic-kobra-3-v2-combo-fdm.html",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=4",
+      "variants": []
+    },
+    {
+      "id": "tp3d-2786",
+      "sourceProductId": "2786",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Combo Impresora Bambulab A1 + 8kg Filamento Pla LITE",
+      "category": "Filamentos",
+      "price": 1144900,
+      "currency": "ARS",
+      "transferPrice": 1087655,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA",
+        "combo",
+        "Impresoras FDM"
+      ],
+      "image": "https://tp3d.com.ar/11145-large_default/combo-impresora-bambulab-a1-8kg-filamento-pla-lite.jpg",
+      "url": "https://tp3d.com.ar/combos/2786-combo-impresora-bambulab-a1-8kg-filamento-pla-lite.html",
       "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=4",
       "variants": []
     },
@@ -10533,29 +10556,6 @@
       "variants": []
     },
     {
-      "id": "tp3d-2361",
-      "sourceProductId": "2361",
-      "store": "TP3D",
-      "domain": "tp3d.com.ar",
-      "name": "Kit de Accesorios para Grabadores Láser Creality CR-Laser Falcon 5W y 10W",
-      "category": "Impresoras",
-      "price": 136000,
-      "currency": "ARS",
-      "transferPrice": 129200,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "Creality",
-        "Accesorios"
-      ],
-      "image": "https://tp3d.com.ar/7008-large_default/kit-de-accesorios-para-grabadores-laser-creality-cr-laser-falcon-5w-y-10w.jpg",
-      "url": "https://tp3d.com.ar/TP3D/2361-kit-de-accesorios-para-grabadores-laser-creality-cr-laser-falcon-5w-y-10w.html",
-      "scrapedFrom": "https://tp3d.com.ar/15-accesorios-y-complementos-3d?page=3",
-      "variants": []
-    },
-    {
       "id": "tp3d-2454",
       "sourceProductId": "2454",
       "store": "TP3D",
@@ -10575,6 +10575,28 @@
       ],
       "image": "https://tp3d.com.ar/7783-large_default/ams-2-pro-multicolor-bambu-lab-4-colores.jpg",
       "url": "https://tp3d.com.ar/sistema-multicolor/2454-ams-2-pro-multicolor-bambu-lab-4-colores.html",
+      "scrapedFrom": "https://tp3d.com.ar/15-accesorios-y-complementos-3d?page=3",
+      "variants": []
+    },
+    {
+      "id": "tp3d-2456",
+      "sourceProductId": "2456",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "AMS HT Sistema de Material Automatico",
+      "category": "Accesorios",
+      "price": 546900,
+      "currency": "ARS",
+      "transferPrice": 519555,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Accesorios"
+      ],
+      "image": "https://tp3d.com.ar/7798-large_default/copy-of-maquina-de-secado-de-filamentos-20-creality.jpg",
+      "url": "https://tp3d.com.ar/accesorios-y-complementos-3d/2456-copy-of-maquina-de-secado-de-filamentos-20-creality.html",
       "scrapedFrom": "https://tp3d.com.ar/15-accesorios-y-complementos-3d?page=3",
       "variants": []
     },
@@ -11396,24 +11418,25 @@
       "variants": []
     },
     {
-      "id": "tp3d-2456",
-      "sourceProductId": "2456",
+      "id": "tp3d-2361",
+      "sourceProductId": "2361",
       "store": "TP3D",
       "domain": "tp3d.com.ar",
-      "name": "AMS HT Sistema de Material Automatico",
-      "category": "Accesorios",
-      "price": 546900,
+      "name": "Kit de Accesorios para Grabadores Láser Creality CR-Laser Falcon 5W y 10W",
+      "category": "Impresoras",
+      "price": 136000,
       "currency": "ARS",
-      "transferPrice": 519555,
+      "transferPrice": 129200,
       "stock": null,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
       "tags": [
+        "Creality",
         "Accesorios"
       ],
-      "image": "https://tp3d.com.ar/7798-large_default/copy-of-maquina-de-secado-de-filamentos-20-creality.jpg",
-      "url": "https://tp3d.com.ar/accesorios-y-complementos-3d/2456-copy-of-maquina-de-secado-de-filamentos-20-creality.html",
+      "image": "https://tp3d.com.ar/7008-large_default/kit-de-accesorios-para-grabadores-laser-creality-cr-laser-falcon-5w-y-10w.jpg",
+      "url": "https://tp3d.com.ar/TP3D/2361-kit-de-accesorios-para-grabadores-laser-creality-cr-laser-falcon-5w-y-10w.html",
       "scrapedFrom": "https://tp3d.com.ar/15-accesorios-y-complementos-3d?page=5",
       "variants": []
     },

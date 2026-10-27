@@ -5,7 +5,7 @@
     "baseUrl": "https://creaxis.com.ar",
     "apiPath": "/wp-json/wc/store/v1/products"
   },
-  "scrapedAt": "2026-10-26T15:00:02.573Z",
+  "scrapedAt": "2026-10-27T14:12:55.206Z",
   "source": "https://creaxis.com.ar/wp-json/wc/store/v1/products",
   "pages": [
     {
@@ -17,8 +17,8 @@
     {
       "page": 2,
       "url": "https://creaxis.com.ar/wp-json/wc/store/v1/products?per_page=100&page=2",
-      "found": 10,
-      "added": 10
+      "found": 8,
+      "added": 8
     }
   ],
   "products": [
@@ -243,7 +243,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 11,
+      "stock": 10,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -710,12 +710,10 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 1070000,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
-      "available": true,
+      "purchaseModes": [],
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": "Creality",
       "tags": [
         "Creality"
@@ -736,12 +734,10 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 317900,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
-      "available": true,
+      "purchaseModes": [],
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": "Creality",
       "tags": [
         "Creality"
@@ -772,34 +768,6 @@
       ],
       "image": "https://creaxis.com.ar/wp-content/uploads/2025/12/x1-4.webp",
       "url": "https://creaxis.com.ar/producto/creality-halot-x1-combo-impresora-3d-resina-16k/",
-      "scrapedFrom": "https://creaxis.com.ar/wp-json/wc/store/v1/products",
-      "variants": []
-    },
-    {
-      "id": "creaxis-1316",
-      "sourceProductId": "1316",
-      "store": "Creaxis 3D",
-      "domain": "creaxis.com.ar",
-      "name": "Creality Hi",
-      "category": "Impresoras",
-      "price": 750000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 559700,
-      "purchaseModes": [],
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Creality",
-      "tags": [
-        "Creality",
-        "PLA",
-        "PETG",
-        "ABS",
-        "TPU"
-      ],
-      "image": "https://creaxis.com.ar/wp-content/uploads/2026/05/Impresora-3d-creality-Hi.webp",
-      "url": "https://creaxis.com.ar/producto/impresora-3d-creality-hi/",
       "scrapedFrom": "https://creaxis.com.ar/wp-json/wc/store/v1/products",
       "variants": []
     },
@@ -1006,7 +974,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 6,
+      "stock": 5,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Filar",
@@ -1174,7 +1142,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 12,
+      "stock": 11,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Filar",
@@ -1258,7 +1226,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 9,
+      "stock": 8,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Filar",
@@ -1423,12 +1391,10 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 22690,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
-      "available": true,
+      "purchaseModes": [],
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": "Filar",
       "tags": [
         "Filar",
@@ -1454,7 +1420,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 13,
+      "stock": 11,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Filar",
@@ -1570,8 +1536,8 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 4,
-      "stockLabel": "En stock",
+      "stock": 3,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Filar",
       "tags": [
@@ -1628,7 +1594,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 3,
+      "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Filar",
@@ -1656,7 +1622,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 6,
+      "stock": 5,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Filar",
@@ -1712,7 +1678,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 3,
+      "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Filar",
@@ -1742,7 +1708,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 8,
+      "stock": 7,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Filar",
@@ -1772,7 +1738,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 12,
+      "stock": 11,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Filar",
@@ -1860,7 +1826,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 12,
+      "stock": 11,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Filar",
@@ -2050,7 +2016,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 14,
+      "stock": 11,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2106,7 +2072,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 8,
+      "stock": 6,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Anycubic",
@@ -2134,7 +2100,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 17,
+      "stock": 16,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2190,7 +2156,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 24,
+      "stock": 23,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2218,7 +2184,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 11,
+      "stock": 10,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2274,7 +2240,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 16,
+      "stock": 14,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2328,7 +2294,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 23,
+      "stock": 22,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2576,7 +2542,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 18,
+      "stock": 17,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2740,7 +2706,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 20,
+      "stock": 18,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2794,7 +2760,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 3,
+      "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Hellbot",
@@ -2880,7 +2846,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 17,
+      "stock": 15,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2934,7 +2900,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 10,
+      "stock": 8,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2996,30 +2962,6 @@
       ],
       "image": "https://creaxis.com.ar/wp-content/uploads/2026/04/snapmaker-u1-2.webp",
       "url": "https://creaxis.com.ar/producto/snapmaker-u1-multicolor/",
-      "scrapedFrom": "https://creaxis.com.ar/wp-json/wc/store/v1/products",
-      "variants": []
-    },
-    {
-      "id": "creaxis-663",
-      "sourceProductId": "663",
-      "store": "Creaxis 3D",
-      "domain": "creaxis.com.ar",
-      "name": "Test",
-      "category": "Accesorios",
-      "price": 1200,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 1000,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
-      "available": true,
-      "brand": null,
-      "tags": [],
-      "image": null,
-      "url": "https://creaxis.com.ar/producto/test/",
       "scrapedFrom": "https://creaxis.com.ar/wp-json/wc/store/v1/products",
       "variants": []
     }

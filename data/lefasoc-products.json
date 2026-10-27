@@ -5,8 +5,8 @@
     "baseUrl": "https://lefasoc.com.ar",
     "listingPath": "/productos/"
   },
-  "scrapedAt": "2026-10-26T15:00:10.070Z",
-  "count": 183,
+  "scrapedAt": "2026-10-27T14:13:01.553Z",
+  "count": 181,
   "pages": [
     {
       "page": 1,
@@ -29,8 +29,8 @@
     {
       "page": 4,
       "url": "https://lefasoc.com.ar/productos/?page=4",
-      "found": 33,
-      "added": 33
+      "found": 31,
+      "added": 31
     },
     {
       "page": 5,
@@ -52,7 +52,7 @@
       "previousPrice": null,
       "transferPrice": 23750,
       "purchaseModes": [],
-      "stock": 1898,
+      "stock": 2352,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -94,7 +94,7 @@
           "sku": "M10IAZ175CJ",
           "price": 25000,
           "isDeposit": false,
-          "stock": 14,
+          "stock": 11,
           "available": true,
           "options": [
             "Azul"
@@ -106,7 +106,7 @@
           "sku": "M10IAP175CJ",
           "price": 25000,
           "isDeposit": false,
-          "stock": 28,
+          "stock": 27,
           "available": true,
           "options": [
             "Azul prusia"
@@ -118,7 +118,7 @@
           "sku": "M10IBL175CJ",
           "price": 25000,
           "isDeposit": false,
-          "stock": 48,
+          "stock": 163,
           "available": true,
           "options": [
             "Blanco"
@@ -126,11 +126,23 @@
           "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/pla_blanco-0314d623a4260231e217731649579492-1024-1024.webp"
         },
         {
+          "id": 1454570132,
+          "sku": "M10IBR175CJ",
+          "price": 25000,
+          "isDeposit": false,
+          "stock": 12,
+          "available": true,
+          "options": [
+            "Bronce"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/pla_bronce-d55d3f50632ccc06eb17731649680081-1024-1024.webp"
+        },
+        {
           "id": 1454570136,
           "sku": "M10ICA175CJ",
           "price": 25000,
           "isDeposit": false,
-          "stock": 75,
+          "stock": 73,
           "available": true,
           "options": [
             "Carpincho"
@@ -142,7 +154,7 @@
           "sku": "M10ICE175CJ",
           "price": 25000,
           "isDeposit": false,
-          "stock": 33,
+          "stock": 31,
           "available": true,
           "options": [
             "Celeste"
@@ -166,7 +178,7 @@
           "sku": "M10IDO175CJ",
           "price": 25000,
           "isDeposit": false,
-          "stock": 21,
+          "stock": 13,
           "available": true,
           "options": [
             "Dorado"
@@ -178,7 +190,7 @@
           "sku": "M10IFU175CJ",
           "price": 25000,
           "isDeposit": false,
-          "stock": 15,
+          "stock": 13,
           "available": true,
           "options": [
             "Fucsia"
@@ -190,7 +202,7 @@
           "sku": "M10IGE175CJ",
           "price": 25000,
           "isDeposit": false,
-          "stock": 20,
+          "stock": 15,
           "available": true,
           "options": [
             "Gris espacial"
@@ -202,7 +214,7 @@
           "sku": "M10IGR175CJ",
           "price": 25000,
           "isDeposit": false,
-          "stock": 111,
+          "stock": 108,
           "available": true,
           "options": [
             "Gris plata"
@@ -226,7 +238,7 @@
           "sku": "M10ING175CJ",
           "price": 25000,
           "isDeposit": false,
-          "stock": 142,
+          "stock": 194,
           "available": true,
           "options": [
             "Negro"
@@ -250,7 +262,7 @@
           "sku": "M10IP1175CJ",
           "price": 25000,
           "isDeposit": false,
-          "stock": 11,
+          "stock": 4,
           "available": true,
           "options": [
             "Piel 720"
@@ -262,7 +274,7 @@
           "sku": "M10IRJ175CJ",
           "price": 25000,
           "isDeposit": false,
-          "stock": 53,
+          "stock": 51,
           "available": true,
           "options": [
             "Rojo"
@@ -286,7 +298,7 @@
           "sku": "M10IVR175CJ",
           "price": 25000,
           "isDeposit": false,
-          "stock": 71,
+          "stock": 155,
           "available": true,
           "options": [
             "Verde"
@@ -310,24 +322,12 @@
           "sku": "M10IVM175CJ",
           "price": 25000,
           "isDeposit": false,
-          "stock": 12,
+          "stock": 11,
           "available": true,
           "options": [
             "Verde manzana"
           ],
           "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/pla_verde_manzana-506b1d667fcd91ceb117731650580352-1024-1024.webp"
-        },
-        {
-          "id": 1454570186,
-          "sku": "M10IVI175CJ",
-          "price": 25000,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Violeta"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/pla_violeta-ddb6d36fd665c180bd17731650639585-1024-1024.webp"
         },
         {
           "id": 1513465142,
@@ -406,7 +406,7 @@
       "previousPrice": null,
       "transferPrice": 20900,
       "purchaseModes": [],
-      "stock": 2512,
+      "stock": 3144,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3n3",
@@ -424,7 +424,7 @@
           "sku": "M80IAM175CJ",
           "price": 22000,
           "isDeposit": false,
-          "stock": 82,
+          "stock": 80,
           "available": true,
           "options": [
             "amarillo"
@@ -448,7 +448,7 @@
           "sku": "M80IAZ175CJ",
           "price": 22000,
           "isDeposit": false,
-          "stock": 95,
+          "stock": 93,
           "available": true,
           "options": [
             "azul"
@@ -460,7 +460,7 @@
           "sku": "M80IBL175CJ",
           "price": 22000,
           "isDeposit": false,
-          "stock": 122,
+          "stock": 225,
           "available": true,
           "options": [
             "blanco"
@@ -484,7 +484,7 @@
           "sku": "M80ICE175CJ",
           "price": 22000,
           "isDeposit": false,
-          "stock": 317,
+          "stock": 316,
           "available": true,
           "options": [
             "celeste"
@@ -508,7 +508,7 @@
           "sku": "M80IGA175CJ",
           "price": 22000,
           "isDeposit": false,
-          "stock": 26,
+          "stock": 22,
           "available": true,
           "options": [
             "Gris acero"
@@ -520,7 +520,7 @@
           "sku": "M80IGR175CJ",
           "price": 22000,
           "isDeposit": false,
-          "stock": 1,
+          "stock": 116,
           "available": true,
           "options": [
             "Gris plomo"
@@ -532,7 +532,7 @@
           "sku": "M80IHU175CJ",
           "price": 22000,
           "isDeposit": false,
-          "stock": 107,
+          "stock": 99,
           "available": true,
           "options": [
             "hueso"
@@ -544,7 +544,7 @@
           "sku": "M80INR175CJ",
           "price": 22000,
           "isDeposit": false,
-          "stock": 77,
+          "stock": 70,
           "available": true,
           "options": [
             "naranja"
@@ -556,7 +556,7 @@
           "sku": "M80INT175CJ",
           "price": 22000,
           "isDeposit": false,
-          "stock": 31,
+          "stock": 29,
           "available": true,
           "options": [
             "natural"
@@ -568,7 +568,7 @@
           "sku": "M80ING175CJ",
           "price": 22000,
           "isDeposit": false,
-          "stock": 151,
+          "stock": 277,
           "available": true,
           "options": [
             "negro"
@@ -592,7 +592,7 @@
           "sku": "M80IRU175CJ",
           "price": 22000,
           "isDeposit": false,
-          "stock": 27,
+          "stock": 26,
           "available": true,
           "options": [
             "rustico"
@@ -604,24 +604,12 @@
           "sku": "M80IVR175CJ",
           "price": 22000,
           "isDeposit": false,
-          "stock": 108,
+          "stock": 107,
           "available": true,
           "options": [
             "verde"
           ],
           "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/d_nq_np_2x_903344-mla102785265333_122025-f-d5b946ead73202921017756600422879-1024-1024.webp"
-        },
-        {
-          "id": 1458669916,
-          "sku": "M80IVF175CJ",
-          "price": 22000,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "verde fluo"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/verde_fluio-8757d7b0c20117252417731635109395-1024-1024.webp"
         }
       ]
     },
@@ -637,7 +625,7 @@
       "previousPrice": null,
       "transferPrice": 20900,
       "purchaseModes": [],
-      "stock": 318,
+      "stock": 300,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -655,7 +643,7 @@
           "sku": "M77IBL175CJ",
           "price": 22000,
           "isDeposit": false,
-          "stock": 74,
+          "stock": 67,
           "available": true,
           "options": [
             "Blanco"
@@ -667,7 +655,7 @@
           "sku": "M77ICH175CJ",
           "price": 22000,
           "isDeposit": false,
-          "stock": 56,
+          "stock": 55,
           "available": true,
           "options": [
             "Chocolate"
@@ -691,7 +679,7 @@
           "sku": "M77IAZ175CJ",
           "price": 22000,
           "isDeposit": false,
-          "stock": 19,
+          "stock": 18,
           "available": true,
           "options": [
             "Clear azul"
@@ -736,7 +724,7 @@
       "previousPrice": null,
       "transferPrice": 19000,
       "purchaseModes": [],
-      "stock": 308,
+      "stock": 282,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3n3",
@@ -774,11 +762,23 @@
           "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/petg_blanco_ml-0e560b5b6821de18b917733250667655-1024-1024.webp"
         },
         {
+          "id": 1454594126,
+          "sku": "M88IGE175CJ",
+          "price": 20000,
+          "isDeposit": false,
+          "stock": 3,
+          "available": true,
+          "options": [
+            "Gris espacial"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/petg_gris_espacial_ml-25bcc198f346d99fb617733250674098-1024-1024.webp"
+        },
+        {
           "id": 1454594142,
           "sku": "M88ING175CJ",
           "price": 20000,
           "isDeposit": false,
-          "stock": 92,
+          "stock": 79,
           "available": true,
           "options": [
             "negro"
@@ -790,7 +790,7 @@
           "sku": "M88IRJ175CJ",
           "price": 20000,
           "isDeposit": false,
-          "stock": 8,
+          "stock": 5,
           "available": true,
           "options": [
             "rojo"
@@ -811,7 +811,7 @@
       "previousPrice": null,
       "transferPrice": 23750,
       "purchaseModes": [],
-      "stock": 476,
+      "stock": 668,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -835,6 +835,18 @@
             "boutique acqua"
           ],
           "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/pla_boutique_ml_acqua-91fe9cab6d2e7cb34a17731642036094-1024-1024.webp"
+        },
+        {
+          "id": 1454586710,
+          "sku": "M17IAR175CJ",
+          "price": 25000,
+          "isDeposit": false,
+          "stock": 33,
+          "available": true,
+          "options": [
+            "boutique arena"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/pla_boutique_ml_arena-e51d14ee837299ca4d17731642062845-1024-1024.webp"
         },
         {
           "id": 1454586716,
@@ -865,7 +877,7 @@
           "sku": "M17ICH175CJ",
           "price": 25000,
           "isDeposit": false,
-          "stock": 13,
+          "stock": 9,
           "available": true,
           "options": [
             "boutique chocolate"
@@ -877,7 +889,7 @@
           "sku": "M17ICI175CJ",
           "price": 25000,
           "isDeposit": false,
-          "stock": 21,
+          "stock": 20,
           "available": true,
           "options": [
             "boutique crema del cielo"
@@ -901,7 +913,7 @@
           "sku": "M17IES175CJ",
           "price": 25000,
           "isDeposit": false,
-          "stock": 80,
+          "stock": 79,
           "available": true,
           "options": [
             "boutique esmeralda"
@@ -913,12 +925,24 @@
           "sku": "M17IFR175CJ",
           "price": 25000,
           "isDeposit": false,
-          "stock": 16,
+          "stock": 50,
           "available": true,
           "options": [
             "boutique frutilla"
           ],
           "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/pla_boutique_ml_frutilla-3e3eb90d9baa1eb67217731642340839-1024-1024.webp"
+        },
+        {
+          "id": 1454586766,
+          "sku": "M17ILA175CJ",
+          "price": 25000,
+          "isDeposit": false,
+          "stock": 35,
+          "available": true,
+          "options": [
+            "boutique lavanda"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/pla_boutique_ml_lavanda-fa4204c1df22acf4ff17731642386003-1024-1024.webp"
         },
         {
           "id": 1454586773,
@@ -1156,7 +1180,7 @@
       "previousPrice": null,
       "transferPrice": 19475,
       "purchaseModes": [],
-      "stock": 70,
+      "stock": 68,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Generico",
@@ -1185,7 +1209,7 @@
           "sku": "100100143",
           "price": 20500,
           "isDeposit": false,
-          "stock": 5,
+          "stock": 4,
           "available": true,
           "options": [
             "0.4"
@@ -1305,18 +1329,6 @@
             "Negro"
           ],
           "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/40838_1-e514dafe07d1500c8d17803308852787-1024-1024.webp"
-        },
-        {
-          "id": 1535395487,
-          "sku": "4540",
-          "price": 26500,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Blanco"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/40837_1-2afd3034f5811aeb5217803308852383-1024-1024.webp"
         }
       ]
     },
@@ -1332,7 +1344,7 @@
       "previousPrice": null,
       "transferPrice": 25270,
       "purchaseModes": [],
-      "stock": 14,
+      "stock": 12,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Elegoo",
@@ -1350,24 +1362,12 @@
           "sku": "502030043",
           "price": 26600,
           "isDeposit": false,
-          "stock": 3,
+          "stock": 2,
           "available": true,
           "options": [
             "Rojo"
           ],
           "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/81rkyixt6rl-79662bc2768e29f90b17763761090773-1024-1024.webp"
-        },
-        {
-          "id": 1505163165,
-          "sku": "502030464",
-          "price": 41400,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Fibra de Carbono"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/d_q_np_630969-mla100038903499_122025-o-72931209c70c9055bf17763760265738-1024-1024.webp"
         },
         {
           "id": 1567477249,
@@ -1395,7 +1395,7 @@
       "previousPrice": null,
       "transferPrice": 2375,
       "purchaseModes": [],
-      "stock": 198,
+      "stock": 194,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Generico",
@@ -1411,12 +1411,62 @@
           "sku": "AGUJA0.4",
           "price": 2500,
           "isDeposit": false,
-          "stock": 99,
+          "stock": 97,
           "available": true,
           "options": [
             "0.4mm"
           ],
           "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/d_nq_np_2x_912268-mla84164758387_042025-f-9fe8112415130f85e517760932322582-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "lefasoc-371658286",
+      "sourceProductId": "371658286",
+      "store": "Lefasoc",
+      "domain": "lefasoc.com.ar",
+      "name": "Filamento 3NMax CE PLA+",
+      "category": "Filamentos",
+      "price": 19000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 18050,
+      "purchaseModes": [],
+      "stock": 1564,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "3NMax",
+      "tags": [
+        "3NMax",
+        "PLA"
+      ],
+      "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/d_nq_np_685653-mla100016492022_122025-o-e9e73e9233bd02b09217909743830592-1024-1024.webp",
+      "url": "https://lefasoc.com.ar/productos/filamento-3nmax-ce-pla/",
+      "scrapedFrom": "https://lefasoc.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1610988811,
+          "sku": "M81ING175CE",
+          "price": 19000,
+          "isDeposit": false,
+          "stock": 353,
+          "available": true,
+          "options": [
+            "Negro"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/d_nq_np_685653-mla100016492022_122025-o-e9e73e9233bd02b09217909743830592-1024-1024.webp"
+        },
+        {
+          "id": 1610988813,
+          "sku": "M81IBL175CE",
+          "price": 19000,
+          "isDeposit": false,
+          "stock": 429,
+          "available": true,
+          "options": [
+            "Blanco"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/3nmax-pla-blanco-175mm-x1kg-9a0b0f2dbcf378996b17909726538792-1024-1024.webp"
         }
       ]
     },
@@ -1508,56 +1558,6 @@
       ]
     },
     {
-      "id": "lefasoc-371658286",
-      "sourceProductId": "371658286",
-      "store": "Lefasoc",
-      "domain": "lefasoc.com.ar",
-      "name": "Filamento 3NMax CE PLA+",
-      "category": "Filamentos",
-      "price": 19000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 18050,
-      "purchaseModes": [],
-      "stock": 1630,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "3NMax",
-      "tags": [
-        "3NMax",
-        "PLA"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/d_nq_np_685653-mla100016492022_122025-o-e9e73e9233bd02b09217909743830592-1024-1024.webp",
-      "url": "https://lefasoc.com.ar/productos/filamento-3nmax-ce-pla/",
-      "scrapedFrom": "https://lefasoc.com.ar/productos/",
-      "variants": [
-        {
-          "id": 1610988811,
-          "sku": "M81ING175CE",
-          "price": 19000,
-          "isDeposit": false,
-          "stock": 370,
-          "available": true,
-          "options": [
-            "Negro"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/d_nq_np_685653-mla100016492022_122025-o-e9e73e9233bd02b09217909743830592-1024-1024.webp"
-        },
-        {
-          "id": 1610988813,
-          "sku": "M81IBL175CE",
-          "price": 19000,
-          "isDeposit": false,
-          "stock": 445,
-          "available": true,
-          "options": [
-            "Blanco"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/3nmax-pla-blanco-175mm-x1kg-9a0b0f2dbcf378996b17909726538792-1024-1024.webp"
-        }
-      ]
-    },
-    {
       "id": "lefasoc-336456739",
       "sourceProductId": "336456739",
       "store": "Lefasoc",
@@ -1604,7 +1604,7 @@
       "previousPrice": null,
       "transferPrice": 1391655,
       "purchaseModes": [],
-      "stock": 26,
+      "stock": 24,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -1620,7 +1620,7 @@
           "sku": "A1-COMBO",
           "price": 1464900,
           "isDeposit": false,
-          "stock": 13,
+          "stock": 12,
           "available": true,
           "options": [
             "blanco"
@@ -1664,18 +1664,6 @@
             "Blanco"
           ],
           "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/blanco-cb-290ad88d9c76c3831817921813824670-1024-1024.webp"
-        },
-        {
-          "id": 1610015100,
-          "sku": "6937285509710",
-          "price": 22000,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Negro"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/40937-6d63c871248d7eac0f17908847820469-1024-1024.webp"
         }
       ]
     },
@@ -1726,7 +1714,7 @@
       "previousPrice": null,
       "transferPrice": 27360,
       "purchaseModes": [],
-      "stock": 28,
+      "stock": 26,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Elegoo",
@@ -1744,12 +1732,24 @@
           "sku": "502030115",
           "price": 28800,
           "isDeposit": false,
-          "stock": 4,
+          "stock": 2,
           "available": true,
           "options": [
             "Blanco"
           ],
           "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/d_nq_np_886790-mla99555611546_122025-o-8ddaf8e2e7cfbd554517763766169143-1024-1024.webp"
+        },
+        {
+          "id": 1505164946,
+          "sku": "502030119",
+          "price": 28800,
+          "isDeposit": false,
+          "stock": 1,
+          "available": true,
+          "options": [
+            "Rojo"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/d_nq_np_604455-mla106498139553_022026-o-e17f8121aff6eb6e9a17763766169263-1024-1024.webp"
         },
         {
           "id": 1505169878,
@@ -1962,7 +1962,7 @@
       "previousPrice": null,
       "transferPrice": 17100,
       "purchaseModes": [],
-      "stock": 30,
+      "stock": 28,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Lefasoc",
@@ -1990,7 +1990,7 @@
           "sku": "100100257",
           "price": 19999,
           "isDeposit": false,
-          "stock": 11,
+          "stock": 10,
           "available": true,
           "options": [
             "0.6"
@@ -2099,6 +2099,43 @@
       ]
     },
     {
+      "id": "lefasoc-337360914",
+      "sourceProductId": "337360914",
+      "store": "Lefasoc",
+      "domain": "lefasoc.com.ar",
+      "name": "Kit Cepillos Metalicos x3 Nylon, bronce y Acero",
+      "category": "Accesorios",
+      "price": 4000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 3800,
+      "purchaseModes": [],
+      "stock": 16,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Generico",
+      "tags": [
+        "Generico"
+      ],
+      "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/d_nq_np_956753-mla51231752663_082022-o-aa20da9c165c82c58717761776013040-1024-1024.webp",
+      "url": "https://lefasoc.com.ar/productos/Kit-Cepillos-Metalicos-x3-Nylon-bronce-y-Acero/",
+      "scrapedFrom": "https://lefasoc.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1499587266,
+          "sku": "100100184",
+          "price": 4000,
+          "isDeposit": false,
+          "stock": 8,
+          "available": true,
+          "options": [
+            "Negro"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/d_nq_np_956753-mla51231752663_082022-o-aa20da9c165c82c58717761776013040-1024-1024.webp"
+        }
+      ]
+    },
+    {
       "id": "lefasoc-336456720",
       "sourceProductId": "336456720",
       "store": "Lefasoc",
@@ -2146,7 +2183,7 @@
       "previousPrice": null,
       "transferPrice": 32300,
       "purchaseModes": [],
-      "stock": 158,
+      "stock": 156,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Generico",
@@ -2163,7 +2200,7 @@
           "sku": "100100141",
           "price": 34000,
           "isDeposit": false,
-          "stock": 79,
+          "stock": 78,
           "available": true,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/41hgaah8t3l-_ac_uf350350_ql80_-75a4cdde1597f91ee817757420517269-1024-1024.webp"
@@ -2241,43 +2278,6 @@
             "Negro"
           ],
           "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/images-50f3f9d24c9dc035d917761055459127-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "lefasoc-337360914",
-      "sourceProductId": "337360914",
-      "store": "Lefasoc",
-      "domain": "lefasoc.com.ar",
-      "name": "Kit Cepillos Metalicos x3 Nylon, bronce y Acero",
-      "category": "Accesorios",
-      "price": 4000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 3800,
-      "purchaseModes": [],
-      "stock": 18,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Generico",
-      "tags": [
-        "Generico"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/d_nq_np_956753-mla51231752663_082022-o-aa20da9c165c82c58717761776013040-1024-1024.webp",
-      "url": "https://lefasoc.com.ar/productos/Kit-Cepillos-Metalicos-x3-Nylon-bronce-y-Acero/",
-      "scrapedFrom": "https://lefasoc.com.ar/productos/",
-      "variants": [
-        {
-          "id": 1499587266,
-          "sku": "100100184",
-          "price": 4000,
-          "isDeposit": false,
-          "stock": 9,
-          "available": true,
-          "options": [
-            "Negro"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/d_nq_np_956753-mla51231752663_082022-o-aa20da9c165c82c58717761776013040-1024-1024.webp"
         }
       ]
     },
@@ -2465,18 +2465,6 @@
             "Cerezo"
           ],
           "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/wood_cerezo-600x600-e932d685f948bc173317743901173313-1024-1024.webp"
-        },
-        {
-          "id": 1484396073,
-          "sku": "M20IPI175CJ",
-          "price": 38000,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Pino"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/wood_pino-a0520583d7449b299717743901175527-1024-1024.webp"
         }
       ]
     },
@@ -2686,7 +2674,7 @@
       "previousPrice": null,
       "transferPrice": 25460,
       "purchaseModes": [],
-      "stock": 6,
+      "stock": 4,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Flashforge",
@@ -2704,7 +2692,7 @@
           "sku": "6937120317029",
           "price": 26800,
           "isDeposit": false,
-          "stock": 3,
+          "stock": 2,
           "available": true,
           "options": [
             "Dorado Brillante"
@@ -2897,18 +2885,6 @@
           "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/captura-de-pantalla-2025-10-07-131922-3d9a83139d599fdd4a17745513164148-1024-1024.webp"
         },
         {
-          "id": 1486478238,
-          "sku": "M82IRJ175CJ",
-          "price": 24500,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "Rojo"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/captura-de-pantalla-2025-10-07-130243-115dbbdd4f9bb62d3017745513168640-1024-1024.webp"
-        },
-        {
           "id": 1486478250,
           "sku": "M82IVR175CJ",
           "price": 24500,
@@ -2982,43 +2958,6 @@
             "Astra nebula"
           ],
           "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/astra_nebula-600x600-180ecc38ce7d49c23117745539177549-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "lefasoc-347971895",
-      "sourceProductId": "347971895",
-      "store": "Lefasoc",
-      "domain": "lefasoc.com.ar",
-      "name": "Bambu Lab A2L Combo Entrega inmediata",
-      "category": "Impresoras",
-      "price": 1832900,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 1741255,
-      "purchaseModes": [],
-      "stock": 6,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Bambu Lab",
-      "tags": [
-        "Bambu Lab"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/bambulab-a2lcombo_1-c8cb5a84d8c8a16ab217804067353563-1024-1024.webp",
-      "url": "https://lefasoc.com.ar/productos/bambu-lab-a2l-combo/",
-      "scrapedFrom": "https://lefasoc.com.ar/productos/",
-      "variants": [
-        {
-          "id": 1607933793,
-          "sku": "a2l-combo",
-          "price": 1832900,
-          "isDeposit": false,
-          "stock": 3,
-          "available": true,
-          "options": [
-            "Inmediata"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/bambulab-a2lcombo_1-c8cb5a84d8c8a16ab217804067353563-1024-1024.webp"
         }
       ]
     },
@@ -3154,7 +3093,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/d_q_np_2x_967237-mla85394969993_052025-p-68e06f38c3995d5bfc17758311096034-1024-1024.webp",
       "url": "https://lefasoc.com.ar/productos/Nozzle-3D-Creality-Alta-Velocidad-para-Ender-7-3-v3-SE/",
-      "scrapedFrom": "https://lefasoc.com.ar/productos/?page=2",
+      "scrapedFrom": "https://lefasoc.com.ar/productos/",
       "variants": [
         {
           "id": 1527251038,
@@ -3294,7 +3233,7 @@
       "previousPrice": null,
       "transferPrice": 22800,
       "purchaseModes": [],
-      "stock": 144,
+      "stock": 142,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3N3",
@@ -3348,7 +3287,7 @@
           "sku": "M84IPA175CJ",
           "price": 24000,
           "isDeposit": false,
-          "stock": 14,
+          "stock": 13,
           "available": true,
           "options": [
             "Papaya"
@@ -3451,7 +3390,7 @@
       "previousPrice": null,
       "transferPrice": 1340355,
       "purchaseModes": [],
-      "stock": 8,
+      "stock": 6,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Centauri",
@@ -3467,7 +3406,7 @@
           "sku": "CENTAURI-CARBON2-COMBO",
           "price": 1410900,
           "isDeposit": false,
-          "stock": 4,
+          "stock": 3,
           "available": true,
           "options": [
             "Inmediata"
@@ -3759,7 +3698,7 @@
       "previousPrice": null,
       "transferPrice": 1900,
       "purchaseModes": [],
-      "stock": 100,
+      "stock": 88,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Generico",
@@ -3776,7 +3715,7 @@
           "sku": "100100138",
           "price": 2000,
           "isDeposit": false,
-          "stock": 50,
+          "stock": 44,
           "available": true,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/33094_1-a4bc651a94b753839f17661849152798-1024-1024-13e0c33f3f1b2540f017757438133783-1024-1024.webp"
@@ -4083,31 +4022,31 @@
       "domain": "lefasoc.com.ar",
       "name": "KIT HOTEND reforzado para ELEGOO Centauri-carbon 2 0.4mm",
       "category": "Repuestos",
-      "price": 35000,
+      "price": 40000,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 33250,
+      "transferPrice": 38000,
       "purchaseModes": [],
-      "stock": 12,
+      "stock": 10,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Elegoo",
       "tags": [
         "Elegoo"
       ],
-      "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/imagen5-02bdae3038bddefd1017788732709863-1024-1024.webp",
+      "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/cc2-11-5196405e3abb060de117930451084457-1024-1024.webp",
       "url": "https://lefasoc.com.ar/productos/kit-hotend-reforzado-para-elegoo-centauri-carbon-0-4mm/",
       "scrapedFrom": "https://lefasoc.com.ar/productos/?page=2",
       "variants": [
         {
           "id": 1525246611,
-          "sku": "100100247",
-          "price": 35000,
+          "sku": "100100267",
+          "price": 40000,
           "isDeposit": false,
-          "stock": 6,
+          "stock": 5,
           "available": true,
           "options": [],
-          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/imagen5-02bdae3038bddefd1017788732709863-1024-1024.webp"
+          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/cc2-11-5196405e3abb060de117930451084457-1024-1024.webp"
         }
       ]
     },
@@ -4886,7 +4825,7 @@
       "previousPrice": null,
       "transferPrice": 18050,
       "purchaseModes": [],
-      "stock": 700,
+      "stock": 696,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3NMax",
@@ -4915,7 +4854,7 @@
           "sku": "M81IRJ175CJ",
           "price": 19000,
           "isDeposit": false,
-          "stock": 115,
+          "stock": 113,
           "available": true,
           "options": [
             "Rojo"
@@ -5140,7 +5079,7 @@
       "previousPrice": null,
       "transferPrice": 20520,
       "purchaseModes": [],
-      "stock": 36,
+      "stock": 30,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -5181,7 +5120,7 @@
           "sku": "6937285501035",
           "price": 21600,
           "isDeposit": false,
-          "stock": 3,
+          "stock": 2,
           "available": true,
           "options": [
             "Amarillo"
@@ -5193,7 +5132,7 @@
           "sku": "6937285501073",
           "price": 21600,
           "isDeposit": false,
-          "stock": 3,
+          "stock": 2,
           "available": true,
           "options": [
             "Rojo"
@@ -5205,7 +5144,7 @@
           "sku": "6937285505606",
           "price": 21600,
           "isDeposit": false,
-          "stock": 3,
+          "stock": 2,
           "available": true,
           "options": [
             "Verde"
@@ -5374,41 +5313,6 @@
       ]
     },
     {
-      "id": "lefasoc-359791431",
-      "sourceProductId": "359791431",
-      "store": "Lefasoc",
-      "domain": "lefasoc.com.ar",
-      "name": "AD5X Camera with cable",
-      "category": "Accesorios",
-      "price": 67700,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 64315,
-      "purchaseModes": [],
-      "stock": 2,
-      "stockLabel": "Pocas unidades",
-      "available": true,
-      "brand": "Lefasoc",
-      "tags": [
-        "Lefasoc"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/flashforge-ad5x-camera-with-cable-33092-35432f8b7bca8805c617861087051725-1024-1024.webp",
-      "url": "https://lefasoc.com.ar/productos/ad5x-camera-with-cable-fzdy4/",
-      "scrapedFrom": "https://lefasoc.com.ar/productos/?page=3",
-      "variants": [
-        {
-          "id": 1572709567,
-          "sku": "20004114001",
-          "price": 67700,
-          "isDeposit": false,
-          "stock": 1,
-          "available": true,
-          "options": [],
-          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/flashforge-ad5x-camera-with-cable-33092-35432f8b7bca8805c617861087051725-1024-1024.webp"
-        }
-      ]
-    },
-    {
       "id": "lefasoc-359700415",
       "sourceProductId": "359700415",
       "store": "Lefasoc",
@@ -5430,7 +5334,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/ams-ht-c28f3c4186ddbe7a2b17860482932938-1024-1024.webp",
       "url": "https://lefasoc.com.ar/productos/bambu-lab-ams-ht/",
-      "scrapedFrom": "https://lefasoc.com.ar/productos/?page=3",
+      "scrapedFrom": "https://lefasoc.com.ar/productos/?page=2",
       "variants": [
         {
           "id": 1572371588,
@@ -5891,7 +5795,7 @@
       "previousPrice": null,
       "transferPrice": 2850,
       "purchaseModes": [],
-      "stock": 14,
+      "stock": 6,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Elegoo",
@@ -5907,7 +5811,7 @@
           "sku": "100100109",
           "price": 3000,
           "isDeposit": false,
-          "stock": 5,
+          "stock": 3,
           "available": true,
           "options": [
             "0.4"
@@ -5919,8 +5823,8 @@
           "sku": "100100110",
           "price": 3000,
           "isDeposit": false,
-          "stock": 2,
-          "available": true,
+          "stock": 0,
+          "available": false,
           "options": [
             "0.8"
           ],
@@ -6743,7 +6647,7 @@
       "previousPrice": null,
       "transferPrice": 2375,
       "purchaseModes": [],
-      "stock": 40,
+      "stock": 32,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Generico",
@@ -6760,7 +6664,7 @@
           "sku": "100100192",
           "price": 2500,
           "isDeposit": false,
-          "stock": 20,
+          "stock": 16,
           "available": true,
           "options": [
             "gris"
@@ -7298,7 +7202,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/images-a899164ea97acc370e17757478213936-1024-1024.webp",
       "url": "https://lefasoc.com.ar/productos/Nozzle-3D-Creality-Acero-Reforzado-MK8-para-series-Ender-3-5-6/",
-      "scrapedFrom": "https://lefasoc.com.ar/productos/?page=4",
+      "scrapedFrom": "https://lefasoc.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1527248592,
@@ -7336,7 +7240,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/d_nq_np_2x_660354-mla100109708683_122025-f-cbb0339959fb8a4e9417757481733188-1024-1024.webp",
       "url": "https://lefasoc.com.ar/productos/Nozzle-3D-Creality-MK8-para-series-Ender-3-5-6/",
-      "scrapedFrom": "https://lefasoc.com.ar/productos/?page=4",
+      "scrapedFrom": "https://lefasoc.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1496132258,
@@ -8452,39 +8356,39 @@
       ]
     },
     {
-      "id": "lefasoc-336456695",
-      "sourceProductId": "336456695",
+      "id": "lefasoc-347971895",
+      "sourceProductId": "347971895",
       "store": "Lefasoc",
       "domain": "lefasoc.com.ar",
-      "name": "Kit Hotend Flashforge 5M",
+      "name": "Bambu Lab A2L Combo Entrega inmediata",
       "category": "Impresoras",
-      "price": 21000,
+      "price": 1832900,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 19950,
+      "transferPrice": 1741255,
       "purchaseModes": [],
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
-      "brand": "Generico",
+      "brand": "Bambu Lab",
       "tags": [
-        "Generico"
+        "Bambu Lab"
       ],
-      "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/514dlaiuohl-d2129932e8c516c67e17757414691672-1024-1024.webp",
-      "url": "https://lefasoc.com.ar/productos/Kit-Hotend-Flashforge-5M/",
+      "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/bambulab-a2lcombo_1-c8cb5a84d8c8a16ab217804067353563-1024-1024.webp",
+      "url": "https://lefasoc.com.ar/productos/bambu-lab-a2l-combo/",
       "scrapedFrom": "https://lefasoc.com.ar/productos/?page=4",
       "variants": [
         {
-          "id": 1508946775,
-          "sku": "100100153",
-          "price": 21000,
+          "id": 1607933793,
+          "sku": "a2l-combo",
+          "price": 1832900,
           "isDeposit": false,
           "stock": 0,
           "available": false,
           "options": [
-            "0.4"
+            "Inmediata"
           ],
-          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/514dlaiuohl-d2129932e8c516c67e17757414691672-1024-1024.webp"
+          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/bambulab-a2lcombo_1-c8cb5a84d8c8a16ab217804067353563-1024-1024.webp"
         }
       ]
     },
@@ -8563,41 +8467,6 @@
       ]
     },
     {
-      "id": "lefasoc-341389701",
-      "sourceProductId": "341389701",
-      "store": "Lefasoc",
-      "domain": "lefasoc.com.ar",
-      "name": "Toner Toshiba Original T2822U - PARA Estudio 2822AM",
-      "category": "Accesorios",
-      "price": 167099,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 158744.05,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Toshiba",
-      "tags": [
-        "Toshiba"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/d_nq_np_764669-mla93548201811_092025-o-6e3e514c8e5766395017775739683704-1024-1024.webp",
-      "url": "https://lefasoc.com.ar/productos/toner-toshiba-original-t2822u-para-estudio-2822am/",
-      "scrapedFrom": "https://lefasoc.com.ar/productos/?page=4",
-      "variants": [
-        {
-          "id": 1515870406,
-          "sku": "T2822U",
-          "price": 167099,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [],
-          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/d_nq_np_764669-mla93548201811_092025-o-6e3e514c8e5766395017775739683704-1024-1024.webp"
-        }
-      ]
-    },
-    {
       "id": "lefasoc-372291811",
       "sourceProductId": "372291811",
       "store": "Lefasoc",
@@ -8631,6 +8500,41 @@
             "Inmediata"
           ],
           "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/bambu-lab-a2l-1-1ba79f50b78694b14c17912947818167-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "lefasoc-359791431",
+      "sourceProductId": "359791431",
+      "store": "Lefasoc",
+      "domain": "lefasoc.com.ar",
+      "name": "AD5X Camera with cable",
+      "category": "Accesorios",
+      "price": 67700,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 64315,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Lefasoc",
+      "tags": [
+        "Lefasoc"
+      ],
+      "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/flashforge-ad5x-camera-with-cable-33092-35432f8b7bca8805c617861087051725-1024-1024.webp",
+      "url": "https://lefasoc.com.ar/productos/ad5x-camera-with-cable-fzdy4/",
+      "scrapedFrom": "https://lefasoc.com.ar/productos/?page=4",
+      "variants": [
+        {
+          "id": 1572709567,
+          "sku": "20004114001",
+          "price": 67700,
+          "isDeposit": false,
+          "stock": 0,
+          "available": false,
+          "options": [],
+          "image": "https://acdn-us.mitiendanube.com/stores/007/254/218/products/flashforge-ad5x-camera-with-cable-33092-35432f8b7bca8805c617861087051725-1024-1024.webp"
         }
       ]
     }
