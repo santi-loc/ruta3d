@@ -5,14 +5,14 @@
     "baseUrl": "https://filacolor.com.ar",
     "apiPath": "/wp-json/wc/store/v1/products"
   },
-  "scrapedAt": "2026-10-27T14:12:56.687Z",
+  "scrapedAt": "2026-10-28T14:58:01.082Z",
   "source": "https://filacolor.com.ar/wp-json/wc/store/v1/products",
   "pages": [
     {
       "page": 1,
       "url": "https://filacolor.com.ar/wp-json/wc/store/v1/products?per_page=100&page=1",
       "found": 72,
-      "added": 48
+      "added": 49
     }
   ],
   "products": [
@@ -866,9 +866,9 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
-      "available": true,
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": "Creality",
       "tags": [
         "Creality"
@@ -1625,6 +1625,80 @@
       ]
     },
     {
+      "id": "filacolor-7874",
+      "sourceProductId": "7874",
+      "store": "Filacolor",
+      "domain": "filacolor.com.ar",
+      "name": "Ender Pla Series",
+      "category": "Filamentos",
+      "price": 21000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Creality",
+      "tags": [
+        "Creality",
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://filacolor.com.ar/wp-content/uploads/2025/09/AMARILLO-ENDER-PLA-CREALITY-Filamento-3D-1.75-1KG-1-1.webp",
+      "url": "https://filacolor.com.ar/producto/ender-pla-series-2/",
+      "scrapedFrom": "https://filacolor.com.ar/wp-json/wc/store/v1/products",
+      "variants": [
+        {
+          "id": "filacolor-7882",
+          "sku": "7882",
+          "available": false,
+          "options": [
+            "Colores: amarillo"
+          ]
+        },
+        {
+          "id": "filacolor-7883",
+          "sku": "7883",
+          "available": false,
+          "options": [
+            "Colores: azul"
+          ]
+        },
+        {
+          "id": "filacolor-7884",
+          "sku": "7884",
+          "available": false,
+          "options": [
+            "Colores: blanco"
+          ]
+        },
+        {
+          "id": "filacolor-7885",
+          "sku": "7885",
+          "available": false,
+          "options": [
+            "Colores: gris"
+          ]
+        },
+        {
+          "id": "filacolor-7886",
+          "sku": "7886",
+          "available": false,
+          "options": [
+            "Colores: negro"
+          ]
+        },
+        {
+          "id": "filacolor-7887",
+          "sku": "7887",
+          "available": false,
+          "options": [
+            "Colores: rojo"
+          ]
+        }
+      ]
+    },
+    {
       "id": "filacolor-7861",
       "sourceProductId": "7861",
       "store": "Filacolor",
@@ -1703,8 +1777,8 @@
       "previousPrice": null,
       "transferPrice": null,
       "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": "Flashforge",
       "tags": [
         "Flashforge",
@@ -1718,7 +1792,7 @@
         {
           "id": "filacolor-10977",
           "sku": "10977",
-          "available": true,
+          "available": false,
           "options": [
             "Colores: azul"
           ]
@@ -1726,7 +1800,7 @@
         {
           "id": "filacolor-10978",
           "sku": "10978",
-          "available": true,
+          "available": false,
           "options": [
             "Colores: gris"
           ]
@@ -1734,7 +1808,7 @@
         {
           "id": "filacolor-10979",
           "sku": "10979",
-          "available": true,
+          "available": false,
           "options": [
             "Colores: negro"
           ]
@@ -1742,7 +1816,7 @@
         {
           "id": "filacolor-10980",
           "sku": "10980",
-          "available": true,
+          "available": false,
           "options": [
             "Colores: rojo"
           ]

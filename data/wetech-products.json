@@ -5,15 +5,15 @@
     "baseUrl": "https://shop.wetech.ar",
     "listingPath": "/products"
   },
-  "scrapedAt": "2026-10-27T14:13:35.362Z",
-  "count": 290,
+  "scrapedAt": "2026-10-28T14:58:45.367Z",
+  "count": 293,
   "pages": [
     {
       "page": 1,
       "path": "/stk-item/catalogo",
       "url": "https://back.wetech.ar/stk-item/catalogo",
       "found": 621,
-      "added": 290
+      "added": 293
     }
   ],
   "products": [
@@ -28,7 +28,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 19998.8,
-      "stock": 31,
+      "stock": 29,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3n3",
@@ -129,7 +129,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 19998.8,
-      "stock": 22,
+      "stock": 20,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3n3",
@@ -230,7 +230,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 12799.3,
-      "stock": 415,
+      "stock": 401,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3n3",
@@ -633,7 +633,7 @@
         },
         {
           "id": "3N-PLA-500-VEFL",
-          "available": false,
+          "available": true,
           "price": 15058,
           "options": [
             "Verde Fluo",
@@ -656,7 +656,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 25998.95,
-      "stock": 47,
+      "stock": 46,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3n3",
@@ -698,7 +698,7 @@
         },
         {
           "id": "3N-SILK-1KG-PAPA",
-          "available": true,
+          "available": false,
           "price": 30587,
           "options": [
             "Papaya",
@@ -1104,7 +1104,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 16999.15,
-      "stock": 223,
+      "stock": 212,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3nMax",
@@ -1818,7 +1818,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 14637.95,
-      "stock": 24,
+      "stock": 25,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -2138,36 +2138,6 @@
       ]
     },
     {
-      "id": "wetech-bloque-cr10s-cr6se",
-      "sourceProductId": "BLOQUE CR10S-CR6SE",
-      "store": "WeTech",
-      "domain": "shop.wetech.ar",
-      "name": "Bloque Calefactor | Creality | CR10 Smart / CR 6 SE",
-      "category": "Repuestos",
-      "price": 10471.8,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 8901.03,
-      "stock": 7,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "Bloques y Extrusión"
-      ],
-      "image": null,
-      "url": "https://shop.wetech.ar/product/BLOQUE%20CR10S-CR6SE",
-      "scrapedFrom": "https://shop.wetech.ar/products",
-      "variants": [
-        {
-          "id": "BLOQUE CR10S-CR6SE",
-          "available": true,
-          "price": 10471.8,
-          "options": []
-        }
-      ]
-    },
-    {
       "id": "wetech-bloque-ender3v3se",
       "sourceProductId": "BLOQUE ENDER3V3SE",
       "store": "WeTech",
@@ -2193,6 +2163,36 @@
           "id": "BLOQUE ENDER3V3SE",
           "available": true,
           "price": 10995.55,
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "wetech-bloque-cr10s-cr6se",
+      "sourceProductId": "BLOQUE CR10S-CR6SE",
+      "store": "WeTech",
+      "domain": "shop.wetech.ar",
+      "name": "Bloque Calefactor | Creality | Series CR",
+      "category": "Repuestos",
+      "price": 10471.8,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 8901.03,
+      "stock": 7,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Bloques y Extrusión"
+      ],
+      "image": null,
+      "url": "https://shop.wetech.ar/product/BLOQUE%20CR10S-CR6SE",
+      "scrapedFrom": "https://shop.wetech.ar/products",
+      "variants": [
+        {
+          "id": "BLOQUE CR10S-CR6SE",
+          "available": true,
+          "price": 10471.8,
           "options": []
         }
       ]
@@ -3018,7 +3018,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 3824.04,
-      "stock": 55,
+      "stock": 54,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -3315,7 +3315,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 5609.12,
-      "stock": 157,
+      "stock": 155,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -4868,10 +4868,10 @@
       "domain": "shop.wetech.ar",
       "name": "Cubierta inferior frontal | Bambu Lab | A1",
       "category": "Repuestos",
-      "price": 1550,
+      "price": 59999,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 1317.5,
+      "transferPrice": 50999.15,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -4886,7 +4886,7 @@
         {
           "id": "CARCASA INFRONT BLA1",
           "available": false,
-          "price": 1550,
+          "price": 59999,
           "options": []
         }
       ]
@@ -5872,7 +5872,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 22254.16,
-      "stock": 23,
+      "stock": 24,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -6322,7 +6322,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 6489.49,
-      "stock": 2,
+      "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": null,
@@ -6604,6 +6604,59 @@
       ]
     },
     {
+      "id": "wetech-fremover-asa-premium-importado",
+      "sourceProductId": "FREMOVER-ASA-PREMIUM-IMPORTADO",
+      "store": "WeTech",
+      "domain": "shop.wetech.ar",
+      "name": "Fremover ASA",
+      "category": "Filamentos",
+      "price": 42352,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 35999.2,
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Fremover",
+      "tags": [
+        "Fremover",
+        "ASA",
+        "Premium",
+        "Importado",
+        "Filamentos Técnicos",
+        "1kg"
+      ],
+      "image": "https://ik.imagekit.io/8x5mvqkfl0/FREMOVER/ASA/ASA%201KG%20BLANCO_Mesa%20de%20trabajo%201.png?updatedAt=1781111588169",
+      "url": "https://shop.wetech.ar/product/FREMOVER-ASA-PREMIUM-IMPORTADO",
+      "scrapedFrom": "https://shop.wetech.ar/products",
+      "variants": [
+        {
+          "id": "FM-ASA-1KG-BLAN",
+          "available": false,
+          "price": 42352,
+          "options": [
+            "Blanco",
+            "1kg",
+            "ASA",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "FM-ASA-1KG-NEGR",
+          "available": false,
+          "price": 42352,
+          "options": [
+            "Negro",
+            "1kg",
+            "ASA",
+            "Premium",
+            "Importado"
+          ]
+        }
+      ]
+    },
+    {
       "id": "wetech-fremover-high-speed-petg-fibra-carbono-premium-importado",
       "sourceProductId": "FREMOVER-HIGH SPEED PETG FIBRA CARBONO-PREMIUM-IMPORTADO",
       "store": "WeTech",
@@ -6679,6 +6732,47 @@
             "Negro",
             "1kg",
             "High Speed PetG Fibra Vidrio",
+            "Premium",
+            "Importado"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wetech-fremover-pla-cambio-de-color-con-calor-premium-importado",
+      "sourceProductId": "FREMOVER-PLA CAMBIO DE COLOR CON CALOR-PREMIUM-IMPORTADO",
+      "store": "WeTech",
+      "domain": "shop.wetech.ar",
+      "name": "Fremover PLA",
+      "category": "Filamentos",
+      "price": 31764,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 26999.4,
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Fremover",
+      "tags": [
+        "Fremover",
+        "PLA Cambio de color con calor",
+        "Premium",
+        "Importado",
+        "Filamentos PLA",
+        "1kg"
+      ],
+      "image": "https://ik.imagekit.io/8x5mvqkfl0/FREMOVER/PLA+%20HEAT%20COLOR%20CHANGE/PLA+%20HEAT%20COLOR%20CHANGE%201KG%20BLUE%20TO%20PINK_Mesa%20de%20trabajo%201.png?updatedAt=1779218349536",
+      "url": "https://shop.wetech.ar/product/FREMOVER-PLA%20CAMBIO%20DE%20COLOR%20CON%20CALOR-PREMIUM-IMPORTADO",
+      "scrapedFrom": "https://shop.wetech.ar/products",
+      "variants": [
+        {
+          "id": "FM-PLAH-1KG-AZRO",
+          "available": false,
+          "price": 31764,
+          "options": [
+            "Azul a Rosa",
+            "1kg",
+            "PLA Cambio de color con calor",
             "Premium",
             "Importado"
           ]
@@ -8694,7 +8788,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 23499.1,
-      "stock": 137,
+      "stock": 118,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -8941,7 +9035,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 24999.35,
-      "stock": 276,
+      "stock": 264,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -9344,7 +9438,7 @@
         },
         {
           "id": "G3-PLA2-1KG-VERD",
-          "available": true,
+          "available": false,
           "price": 30587,
           "options": [
             "Verde",
@@ -9504,7 +9598,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 29999.05,
-      "stock": 52,
+      "stock": 49,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -10034,7 +10128,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 45998.6,
-      "stock": 90,
+      "stock": 89,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -10306,7 +10400,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 19998.8,
-      "stock": 26,
+      "stock": 27,
       "stockLabel": "En stock",
       "available": true,
       "brand": "GST3D",
@@ -10348,7 +10442,7 @@
         },
         {
           "id": "GSB-PETG-1KG-BLAN",
-          "available": false,
+          "available": true,
           "price": 23528,
           "options": [
             "Blanco",
@@ -10372,7 +10466,7 @@
         },
         {
           "id": "GSB-PETG-1KG-NEGR",
-          "available": true,
+          "available": false,
           "price": 23528,
           "options": [
             "Negro",
@@ -10753,7 +10847,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 23998.9,
-      "stock": 35,
+      "stock": 36,
       "stockLabel": "En stock",
       "available": true,
       "brand": "GST3D",
@@ -10795,7 +10889,7 @@
         },
         {
           "id": "GSB-SITR-1KG-DOROAZ",
-          "available": false,
+          "available": true,
           "price": 28234,
           "options": [
             "Dorado + Rojo + Azul",
@@ -10902,7 +10996,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 19998.8,
-      "stock": 447,
+      "stock": 450,
       "stockLabel": "En stock",
       "available": true,
       "brand": "GST3D",
@@ -11160,7 +11254,7 @@
         },
         {
           "id": "GSB-PLA-1KG-NARA",
-          "available": true,
+          "available": false,
           "price": 23528,
           "options": [
             "Naranja",
@@ -11232,7 +11326,7 @@
         },
         {
           "id": "GSB-PLA-1KG-ROJO",
-          "available": false,
+          "available": true,
           "price": 23528,
           "options": [
             "Rojo",
@@ -11827,7 +11921,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 19998.8,
-      "stock": 340,
+      "stock": 323,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -12109,7 +12203,7 @@
         },
         {
           "id": "HB-PLA-1KG-ROJO",
-          "available": true,
+          "available": false,
           "price": 23528,
           "options": [
             "Rojo",
@@ -13104,7 +13198,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 2974.12,
-      "stock": 13,
+      "stock": 14,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -13149,6 +13243,36 @@
           "id": "PASTA TERMICA",
           "available": false,
           "price": 8377.28,
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "wetech-perilla-extrusor",
+      "sourceProductId": "PERILLA EXTRUSOR",
+      "store": "WeTech",
+      "domain": "shop.wetech.ar",
+      "name": "Perilla para Extrusor | Creality | Series Ender",
+      "category": "Repuestos",
+      "price": 11999,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 10199.15,
+      "stock": 1,
+      "stockLabel": "Pocas unidades",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Bloques y Extrusión"
+      ],
+      "image": null,
+      "url": "https://shop.wetech.ar/product/PERILLA%20EXTRUSOR",
+      "scrapedFrom": "https://shop.wetech.ar/products",
+      "variants": [
+        {
+          "id": "PERILLA EXTRUSOR",
+          "available": true,
+          "price": 11999,
           "options": []
         }
       ]

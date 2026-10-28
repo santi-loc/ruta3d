@@ -4,7 +4,7 @@
     "domain": "tecknicam3d.com.ar",
     "baseUrl": "https://www.tecknicam3d.com.ar"
   },
-  "scrapedAt": "2026-10-27T14:13:45.881Z",
+  "scrapedAt": "2026-10-28T14:58:51.715Z",
   "count": 219,
   "pages": [
     {
@@ -148,8 +148,8 @@
       "variants": []
     },
     {
-      "id": "tecknicam3d-a2l-330x320x325-mm-impresora-3d-fdm-bambu-lab",
-      "sourceProductId": "a2l-330x320x325-mm-impresora-3d-fdm-bambu-lab",
+      "id": "tecknicam3d-3979",
+      "sourceProductId": "3979",
       "store": "Tecknicam 3D",
       "domain": "tecknicam3d.com.ar",
       "name": "A2L 330x320x325 mm Impresora 3D FDM Bambu Lab",
@@ -158,10 +158,12 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 1236805,
-      "purchaseModes": [],
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
+      "available": true,
       "brand": "Bambu Lab",
       "tags": [
         "Bambu Lab"
@@ -616,8 +618,8 @@
       "variants": []
     },
     {
-      "id": "tecknicam3d-creator-5-pro-256-256-256mm-impresora-3d-flashforge",
-      "sourceProductId": "creator-5-pro-256-256-256mm-impresora-3d-flashforge",
+      "id": "tecknicam3d-3088",
+      "sourceProductId": "3088",
       "store": "Tecknicam 3D",
       "domain": "tecknicam3d.com.ar",
       "name": "Creator 5 Pro 256×256×256mm IMPRESORA 3D FLASHFORGE",
@@ -626,10 +628,12 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 2044305,
-      "purchaseModes": [],
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 3,
+      "stockLabel": "Pocas unidades",
+      "available": true,
       "brand": null,
       "tags": [],
       "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/Creator-5-Pro-256--256--256mm--IMPRESORA-3D-FLASHF-1788273927-ad9715af.webp",
@@ -902,6 +906,34 @@
       "variants": []
     },
     {
+      "id": "tecknicam3d-4019",
+      "sourceProductId": "4019",
+      "store": "Tecknicam 3D",
+      "domain": "tecknicam3d.com.ar",
+      "name": "GRIS PLA Bambu Lab Lite SIN CARRETEL Filamento 1kg 1.75mm GRIS",
+      "category": "Impresoras",
+      "price": 23058.4,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 7,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab",
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/GRIS-SIN-CARRETEL-1793131858-bf79621b.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/gris-pla-bambu-lab-lite-sin-carretel-filamento-1kg-1-75mm-gris",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock",
+      "variants": []
+    },
+    {
       "id": "tecknicam3d-3995",
       "sourceProductId": "3995",
       "store": "Tecknicam 3D",
@@ -996,7 +1028,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 46,
+      "stock": 41,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -1022,7 +1054,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 29,
+      "stock": 16,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -1156,7 +1188,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 12,
+      "stock": 11,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -1166,33 +1198,6 @@
       ],
       "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/FNO-CHROMA-PLA-YELLOW_01-portada-blanca-1791646488-dae93ed8.webp",
       "url": "https://www.tecknicam3d.com.ar/productos/amarillo-pla-high-speed-filanova-chroma-filamento-x1-kg",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock",
-      "variants": []
-    },
-    {
-      "id": "tecknicam3d-3968",
-      "sourceProductId": "3968",
-      "store": "Tecknicam 3D",
-      "domain": "tecknicam3d.com.ar",
-      "name": "BLANCO PLA+ High Speed Filanova Chroma Filamento x1 Kg.",
-      "category": "Filamentos",
-      "price": 19912,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 17821.24,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 2,
-      "stockLabel": "Pocas unidades",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/FNO-CHROMA-PLA-WHITE_01-portada-blanca-1791646420-1c7a6e6c.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/blanco-pla-high-speed-filanova-chroma-filamento-x1-kg",
       "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock",
       "variants": []
     },
@@ -1374,7 +1379,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 19,
+      "stock": 16,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -1384,8 +1389,8 @@
         "1kg",
         "ECOFILA"
       ],
-      "image": null,
-      "url": "https://www.tecknicam3d.com.ar/productos/rubi-traslucido-sin-carretel-filamento-hellbot-ecofila-1kg-pla-1-75mm-ecofila-3675",
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/filamento-hellbot-ecofila-recarga-pla-175mm-1kg--2-1793114093-f96fe4b5.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/rubi-traslucido-sin-carretel-recerga-pla-filamento-hellbot-ecofila-1kg-1-75mm-3675",
       "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock&page=2",
       "variants": []
     },
@@ -1430,7 +1435,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 15,
+      "stock": 5,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -1459,7 +1464,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 18,
+      "stock": 15,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -1469,7 +1474,7 @@
         "1kg",
         "ECOFILA"
       ],
-      "image": null,
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/D_NQ_NP_2X_964306-MLA99426979260_112025-F-1793114428-1ad4c443.webp",
       "url": "https://www.tecknicam3d.com.ar/productos/esmeralda-traslucido-sin-carretel-pla-filamento-3d-hellbot-1kg-1-75mm-ecofila-3661",
       "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock&page=2",
       "variants": []
@@ -1498,7 +1503,7 @@
         "1kg",
         "ECOFILA"
       ],
-      "image": null,
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/filamento-hellbot-ecofila-recarga-pla-175mm-1kg--1-1793114035-2dc68eaf.webp",
       "url": "https://www.tecknicam3d.com.ar/productos/diamante-traslucido-sin-carretel-pla-filamento-3d-hellbot-1kg-1-75mm-ecofila-3659",
       "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock&page=2",
       "variants": []
@@ -1592,7 +1597,7 @@
       "sourceProductId": "3836",
       "store": "Tecknicam 3D",
       "domain": "tecknicam3d.com.ar",
-      "name": "NEGRO ESPUMADO (Foam Black) TPU W3D FILAMENTO 3D 1.75MM 1KG",
+      "name": "NEGRO ESPUMADO (Foaming Black) TPU W3D FILAMENTO 3D 1.75MM 1KG 109001",
       "category": "Filamentos",
       "price": 66484.8,
       "currency": "ARS",
@@ -1601,7 +1606,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 2,
+      "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "W3D",
@@ -1611,7 +1616,7 @@
         "1kg"
       ],
       "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/DSC1755-1789667063-5b5afc2a.webp",
-      "url": "https://www.tecknicam3d.com.ar/productos/negro-espumado-foam-black-tpu-w3d-filamento-3d-1-75mm-1kg",
+      "url": "https://www.tecknicam3d.com.ar/productos/negro-espumado-foaming-black-tpu-w3d-filamento-3d-1-75mm-1kg-109001",
       "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock&page=2",
       "variants": []
     },
@@ -1740,7 +1745,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 11,
+      "stock": 6,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -4145,7 +4150,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 49,
+      "stock": 47,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -4274,8 +4279,8 @@
       "variants": []
     },
     {
-      "id": "tecknicam3d-interior-para-mate-3d-de-aluminio-solo-interior-140m-las-medidas-pueden-variar",
-      "sourceProductId": "interior-para-mate-3d-de-aluminio-solo-interior-140m-las-medidas-pueden-variar",
+      "id": "tecknicam3d-3916",
+      "sourceProductId": "3916",
       "store": "Tecknicam 3D",
       "domain": "tecknicam3d.com.ar",
       "name": "Interior Para Mate 3d De Aluminio Solo Interior 140m (LAS MEDIDAS PUEDEN VARIAR)",
@@ -4284,10 +4289,12 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 2169.95,
-      "purchaseModes": [],
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 39,
+      "stockLabel": "En stock",
+      "available": true,
       "brand": null,
       "tags": [],
       "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/MATE-INTERIOR-1790081736-c51ac1dc.webp",
@@ -4717,7 +4724,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 24,
+      "stock": 23,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -4785,7 +4792,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 301,
+      "stock": 290,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,

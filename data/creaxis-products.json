@@ -5,20 +5,20 @@
     "baseUrl": "https://creaxis.com.ar",
     "apiPath": "/wp-json/wc/store/v1/products"
   },
-  "scrapedAt": "2026-10-27T14:12:55.206Z",
+  "scrapedAt": "2026-10-28T14:58:00.662Z",
   "source": "https://creaxis.com.ar/wp-json/wc/store/v1/products",
   "pages": [
     {
       "page": 1,
       "url": "https://creaxis.com.ar/wp-json/wc/store/v1/products?per_page=100&page=1",
       "found": 100,
-      "added": 100
+      "added": 93
     },
     {
       "page": 2,
       "url": "https://creaxis.com.ar/wp-json/wc/store/v1/products?per_page=100&page=2",
-      "found": 8,
-      "added": 8
+      "found": 15,
+      "added": 15
     }
   ],
   "products": [
@@ -87,7 +87,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 7,
+      "stock": 6,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Anycubic",
@@ -164,7 +164,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 8,
+      "stock": 7,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -269,7 +269,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 3,
+      "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Bambu Lab",
@@ -811,7 +811,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 9,
+      "stock": 8,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Creality",
@@ -1002,7 +1002,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 3,
+      "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Filar",
@@ -1032,7 +1032,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 17,
+      "stock": 16,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Filar",
@@ -1478,7 +1478,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 11,
+      "stock": 10,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Filar",
@@ -1564,7 +1564,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 15,
+      "stock": 14,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Filar",
@@ -2156,7 +2156,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 23,
+      "stock": 22,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2596,7 +2596,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 47,
+      "stock": 46,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",

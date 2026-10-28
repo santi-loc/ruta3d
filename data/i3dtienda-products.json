@@ -5,8 +5,8 @@
     "baseUrl": "https://www.i3dtienda.com.ar",
     "listingPath": "/productos/"
   },
-  "scrapedAt": "2026-10-27T14:13:15.708Z",
-  "count": 362,
+  "scrapedAt": "2026-10-28T14:58:17.860Z",
+  "count": 356,
   "pages": [
     {
       "page": 1,
@@ -185,18 +185,12 @@
     {
       "page": 30,
       "url": "https://www.i3dtienda.com.ar/productos/?page=30",
-      "found": 12,
-      "added": 12
+      "found": 8,
+      "added": 8
     },
     {
       "page": 31,
       "url": "https://www.i3dtienda.com.ar/productos/?page=31",
-      "found": 2,
-      "added": 2
-    },
-    {
-      "page": 32,
-      "url": "https://www.i3dtienda.com.ar/productos/?page=32",
       "found": 0,
       "added": 0
     }
@@ -214,7 +208,7 @@
       "previousPrice": null,
       "transferPrice": 11270.6,
       "purchaseModes": [],
-      "stock": 1726,
+      "stock": 1700,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3n3",
@@ -258,7 +252,7 @@
           "sku": "3N3PLA1AZU",
           "price": 20990,
           "isDeposit": false,
-          "stock": 26,
+          "stock": 24,
           "available": true,
           "options": [
             "1 KG",
@@ -271,7 +265,7 @@
           "sku": "3N3PLA1BL",
           "price": 20990,
           "isDeposit": false,
-          "stock": 145,
+          "stock": 143,
           "available": true,
           "options": [
             "1 KG",
@@ -401,7 +395,7 @@
           "sku": "3N3PLA1NA",
           "price": 20990,
           "isDeposit": false,
-          "stock": 34,
+          "stock": 32,
           "available": true,
           "options": [
             "1 KG",
@@ -414,7 +408,7 @@
           "sku": "3N3PLA1NE",
           "price": 20990,
           "isDeposit": false,
-          "stock": 106,
+          "stock": 102,
           "available": true,
           "options": [
             "1 KG",
@@ -453,7 +447,7 @@
           "sku": "3N3PLA1ROJ",
           "price": 20990,
           "isDeposit": false,
-          "stock": 29,
+          "stock": 28,
           "available": true,
           "options": [
             "1 KG",
@@ -531,7 +525,7 @@
           "sku": "3N3PLA05AM",
           "price": 11990,
           "isDeposit": false,
-          "stock": 16,
+          "stock": 15,
           "available": true,
           "options": [
             "0,5 KG",
@@ -635,7 +629,7 @@
           "sku": "3N3PLA05NE",
           "price": 11990,
           "isDeposit": false,
-          "stock": 14,
+          "stock": 13,
           "available": true,
           "options": [
             "0,5 KG",
@@ -683,7 +677,7 @@
       "previousPrice": null,
       "transferPrice": 18790.6,
       "purchaseModes": [],
-      "stock": 2416,
+      "stock": 2392,
       "stockLabel": "En stock",
       "available": true,
       "brand": "HELLBOT",
@@ -766,7 +760,7 @@
           "sku": "HELLECOLRECPLA1AZU",
           "price": 19990,
           "isDeposit": false,
-          "stock": 75,
+          "stock": 72,
           "available": true,
           "options": [
             "1 KG",
@@ -779,7 +773,7 @@
           "sku": "HELLECOLRECPLA1BL",
           "price": 19990,
           "isDeposit": false,
-          "stock": 66,
+          "stock": 64,
           "available": true,
           "options": [
             "1 KG",
@@ -1013,7 +1007,7 @@
           "sku": "HELLECOLRECPLA1MARR",
           "price": 19990,
           "isDeposit": false,
-          "stock": 33,
+          "stock": 30,
           "available": true,
           "options": [
             "1 KG",
@@ -1091,7 +1085,7 @@
           "sku": "HELLECOLRECPLA1NE",
           "price": 19990,
           "isDeposit": false,
-          "stock": 60,
+          "stock": 59,
           "available": true,
           "options": [
             "1 KG",
@@ -1143,8 +1137,8 @@
           "sku": "HELLECOLRECPLA1ROSP",
           "price": 19990,
           "isDeposit": false,
-          "stock": 1,
-          "available": true,
+          "stock": 0,
+          "available": false,
           "options": [
             "1 KG",
             "ROSA PASTEL"
@@ -1182,7 +1176,7 @@
           "sku": "HELLECOLRECPLA1VE",
           "price": 19990,
           "isDeposit": false,
-          "stock": 65,
+          "stock": 63,
           "available": true,
           "options": [
             "1 KG",
@@ -1256,7 +1250,7 @@
       "previousPrice": null,
       "transferPrice": 4136,
       "purchaseModes": [],
-      "stock": 4380,
+      "stock": 4348,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -1283,7 +1277,7 @@
           "sku": "ACC00042",
           "price": 4400,
           "isDeposit": false,
-          "stock": 526,
+          "stock": 517,
           "available": true,
           "options": [
             "ALUMINIO",
@@ -1296,7 +1290,7 @@
           "sku": "ACC00050",
           "price": 4600,
           "isDeposit": false,
-          "stock": 614,
+          "stock": 608,
           "available": true,
           "options": [
             "ALUMINIO",
@@ -1322,7 +1316,7 @@
           "sku": "ACC00041",
           "price": 5000,
           "isDeposit": false,
-          "stock": 505,
+          "stock": 504,
           "available": true,
           "options": [
             "ALUMINIO",
@@ -1344,7 +1338,7 @@
       "previousPrice": null,
       "transferPrice": 25286,
       "purchaseModes": [],
-      "stock": 1180,
+      "stock": 1148,
       "stockLabel": "En stock",
       "available": true,
       "brand": "GRILON3",
@@ -1375,7 +1369,7 @@
           "sku": "GRIPLA1DO",
           "price": 27900,
           "isDeposit": false,
-          "stock": 90,
+          "stock": 89,
           "available": true,
           "options": [
             "1 KG",
@@ -1388,7 +1382,7 @@
           "sku": "GRIPLA1CAR",
           "price": 27900,
           "isDeposit": false,
-          "stock": 30,
+          "stock": 29,
           "available": true,
           "options": [
             "1 KG",
@@ -1401,7 +1395,7 @@
           "sku": "GRIPLA1AMA",
           "price": 27900,
           "isDeposit": false,
-          "stock": 55,
+          "stock": 51,
           "available": true,
           "options": [
             "1 KG",
@@ -1518,7 +1512,7 @@
           "sku": "GRIPLA1FU",
           "price": 27900,
           "isDeposit": false,
-          "stock": 15,
+          "stock": 14,
           "available": true,
           "options": [
             "1 KG",
@@ -1609,7 +1603,7 @@
           "sku": "GRIPLA1PI720",
           "price": 27900,
           "isDeposit": false,
-          "stock": 41,
+          "stock": 36,
           "available": true,
           "options": [
             "1 KG",
@@ -1622,7 +1616,7 @@
           "sku": "GRIPLA1ROJ",
           "price": 26900,
           "isDeposit": false,
-          "stock": 81,
+          "stock": 79,
           "available": true,
           "options": [
             "1 KG",
@@ -1700,7 +1694,7 @@
           "sku": "GRIPLA1VI",
           "price": 27900,
           "isDeposit": false,
-          "stock": 13,
+          "stock": 11,
           "available": true,
           "options": [
             "1 KG",
@@ -1722,7 +1716,7 @@
       "previousPrice": null,
       "transferPrice": 9390.6,
       "purchaseModes": [],
-      "stock": 1694,
+      "stock": 1652,
       "stockLabel": "En stock",
       "available": true,
       "brand": "PRINTALOT",
@@ -1870,7 +1864,7 @@
           "sku": "PALPLA1CE",
           "price": 24990,
           "isDeposit": false,
-          "stock": 19,
+          "stock": 18,
           "available": true,
           "options": [
             "1 KG",
@@ -1935,7 +1929,7 @@
           "sku": "PALPLA1FU",
           "price": 24990,
           "isDeposit": false,
-          "stock": 15,
+          "stock": 14,
           "available": true,
           "options": [
             "1 KG",
@@ -2273,7 +2267,7 @@
           "sku": "PALPLA1VEMM",
           "price": 24990,
           "isDeposit": false,
-          "stock": 31,
+          "stock": 30,
           "available": true,
           "options": [
             "1 KG",
@@ -2364,8 +2358,8 @@
           "sku": "PALPLA025AMT",
           "price": 9990,
           "isDeposit": false,
-          "stock": 1,
-          "available": true,
+          "stock": 0,
+          "available": false,
           "options": [
             "0,25 KG",
             "AMARILLO TRANSLÚCIDO"
@@ -2390,8 +2384,8 @@
           "sku": "PALPLA025AZUF",
           "price": 9990,
           "isDeposit": false,
-          "stock": 1,
-          "available": true,
+          "stock": 0,
+          "available": false,
           "options": [
             "0,25 KG",
             "AZUL FLÚO"
@@ -2416,7 +2410,7 @@
           "sku": "PALPLA025AZUT",
           "price": 9990,
           "isDeposit": false,
-          "stock": 6,
+          "stock": 1,
           "available": true,
           "options": [
             "0,25 KG",
@@ -2442,8 +2436,8 @@
           "sku": "PALPLA025BLC",
           "price": 9990,
           "isDeposit": false,
-          "stock": 1,
-          "available": true,
+          "stock": 0,
+          "available": false,
           "options": [
             "0,25 KG",
             "BLANCO CÁLIDO"
@@ -2520,8 +2514,8 @@
           "sku": "PALPLA025FU",
           "price": 9990,
           "isDeposit": false,
-          "stock": 1,
-          "available": true,
+          "stock": 0,
+          "available": false,
           "options": [
             "0,25 KG",
             "FUCSIA"
@@ -2559,8 +2553,8 @@
           "sku": "PALPLA025GRC",
           "price": 9990,
           "isDeposit": false,
-          "stock": 1,
-          "available": true,
+          "stock": 0,
+          "available": false,
           "options": [
             "0,25 KG",
             "GRIS CLARO"
@@ -2663,8 +2657,8 @@
           "sku": "PALPLA025PIED",
           "price": 9990,
           "isDeposit": false,
-          "stock": 1,
-          "available": true,
+          "stock": 0,
+          "available": false,
           "options": [
             "0,25 KG",
             "PIEDRA"
@@ -2754,8 +2748,8 @@
           "sku": "PALPLA025SA",
           "price": 9990,
           "isDeposit": false,
-          "stock": 1,
-          "available": true,
+          "stock": 0,
+          "available": false,
           "options": [
             "0,25 KG",
             "SAFRANO"
@@ -2767,8 +2761,8 @@
           "sku": "PALPLA025TAN",
           "price": 9990,
           "isDeposit": false,
-          "stock": 1,
-          "available": true,
+          "stock": 0,
+          "available": false,
           "options": [
             "0,25 KG",
             "TAN"
@@ -2806,8 +2800,8 @@
           "sku": "PALPLA025VEN",
           "price": 9990,
           "isDeposit": false,
-          "stock": 1,
-          "available": true,
+          "stock": 0,
+          "available": false,
           "options": [
             "0,25 KG",
             "VERDE NINJA"
@@ -2832,8 +2826,8 @@
           "sku": "PALPLA025VEF",
           "price": 9990,
           "isDeposit": false,
-          "stock": 1,
-          "available": true,
+          "stock": 0,
+          "available": false,
           "options": [
             "0,25 KG",
             "VERDE FLÚO"
@@ -2858,8 +2852,8 @@
           "sku": "PALPLA025VEMM",
           "price": 9990,
           "isDeposit": false,
-          "stock": 1,
-          "available": true,
+          "stock": 0,
+          "available": false,
           "options": [
             "0,25 KG",
             "VERDE MILITAR METALIZADO"
@@ -2871,8 +2865,8 @@
           "sku": "PALPLA025VET",
           "price": 9990,
           "isDeposit": false,
-          "stock": 2,
-          "available": true,
+          "stock": 0,
+          "available": false,
           "options": [
             "0,25 KG",
             "VERDE TRANSLÚCIDO"
@@ -2971,7 +2965,7 @@
       "previousPrice": null,
       "transferPrice": 20670.6,
       "purchaseModes": [],
-      "stock": 592,
+      "stock": 578,
       "stockLabel": "En stock",
       "available": true,
       "brand": "HELLBOT",
@@ -3015,7 +3009,7 @@
           "sku": "HELLECOLPLA1AM",
           "price": 21990,
           "isDeposit": false,
-          "stock": 8,
+          "stock": 7,
           "available": true,
           "options": [
             "1 KG",
@@ -3080,7 +3074,7 @@
           "sku": "HELLECOLPLA1BLIN",
           "price": 21990,
           "isDeposit": false,
-          "stock": 2,
+          "stock": 1,
           "available": true,
           "options": [
             "1 KG",
@@ -3158,7 +3152,7 @@
           "sku": "HELLECOLPLA1DO",
           "price": 21990,
           "isDeposit": false,
-          "stock": 14,
+          "stock": 13,
           "available": true,
           "options": [
             "1 KG",
@@ -3301,7 +3295,7 @@
           "sku": "HELLECOLPLA1MARR",
           "price": 21990,
           "isDeposit": false,
-          "stock": 12,
+          "stock": 11,
           "available": true,
           "options": [
             "1 KG",
@@ -3379,7 +3373,7 @@
           "sku": "HELLECOLPLA1NE",
           "price": 21990,
           "isDeposit": false,
-          "stock": 23,
+          "stock": 20,
           "available": true,
           "options": [
             "1 KG",
@@ -3533,540 +3527,6 @@
       ]
     },
     {
-      "id": "i3dtienda-198024359",
-      "sourceProductId": "198024359",
-      "store": "i3D Tienda",
-      "domain": "i3dtienda.com.ar",
-      "name": "Filamento HELLBOT PLA ECOFILA RECARGA 1Kg 1,75mm",
-      "category": "Filamentos",
-      "price": 18990,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 17850.6,
-      "purchaseModes": [],
-      "stock": 10,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "HELBOT",
-      "tags": [
-        "HELBOT",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/pla-ecofila-recarga-aqua-cf5bb647f16714f3ef17066245687566-1024-1024.webp",
-      "url": "https://www.i3dtienda.com.ar/productos/hellbot-pla-ecofila-recarga-1kg/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/",
-      "variants": [
-        {
-          "id": 807990216,
-          "sku": "HELLECOPLAREC1ACQ",
-          "price": 18990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "AQUA"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/pla-ecofila-recarga-aqua-cf5bb647f16714f3ef17066245687566-1024-1024.webp"
-        },
-        {
-          "id": 807990220,
-          "sku": "HELLECOPLAREC1ACQP",
-          "price": 18990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "ACQUA PASTEL"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/aqua-pastel-1-3c184debed4718c00617066253136427-1024-1024.webp"
-        },
-        {
-          "id": 807990221,
-          "sku": "HELLECOPLAREC1ARP",
-          "price": 18990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "ARENA PASTEL"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/arena-pastel-1-615afbf56aaaac07fa17066253130779-1024-1024.webp"
-        },
-        {
-          "id": 807990223,
-          "sku": "HELLECOPLAREC1AM",
-          "price": 18990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "AMARILLO"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/amarillo-1-1-f7a90d9df4ce8f04ec17066245978782-1024-1024.webp"
-        },
-        {
-          "id": 807990225,
-          "sku": "HELLECOPLAREC1AMFL",
-          "price": 18990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "AMARILLO FLUO"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/pla-recarga-amarillo-fluo-904f163e5e75dab31e17066276115780-1024-1024.webp"
-        },
-        {
-          "id": 807990227,
-          "sku": "HELLECOPLAREC1AZU",
-          "price": 18990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "AZUL"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/azul-1-4e0948e28de25b663a17066245980434-1024-1024.webp"
-        },
-        {
-          "id": 807990229,
-          "sku": "HELLECOPLAREC1BL",
-          "price": 18990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "BLANCO"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/blanco-1-49345a466855318d7d17066245984525-1024-1024.webp"
-        },
-        {
-          "id": 807990231,
-          "sku": "HELLECOPLAREC1BR",
-          "price": 18990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "BRONCE"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/pla-recarga-bronce-3aec1ed824979fb64917066268475480-1024-1024.webp"
-        },
-        {
-          "id": 807990233,
-          "sku": "HELLECOPLAREC1CE",
-          "price": 18990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "CELESTE"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/celeste-1-485bb4c07510382fb717066248981450-1024-1024.webp"
-        },
-        {
-          "id": 807990236,
-          "sku": "HELLECOPLAREC1CEP",
-          "price": 18990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "CELESTE PASTEL"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/celeste-pastel-1-c299e2c759637ecb2717066253129027-1024-1024.webp"
-        },
-        {
-          "id": 807990239,
-          "sku": "HELLECOPLAREC1CO",
-          "price": 18990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "COBALTO"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/cobalto-1-3873b48203b7f5340317066247571398-1024-1024.webp"
-        },
-        {
-          "id": 807990243,
-          "sku": "HELLECOPLAREC1COPDM",
-          "price": 18990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "COPA DEL MUNDO"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/800_0004_copa-del-mundo-1-00df4693908d99f42017144930444103-1024-1024.webp"
-        },
-        {
-          "id": 807990246,
-          "sku": "HELLECOPLAREC1DIAT",
-          "price": 18990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "DIAMANTE TRASLÚCIDO"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/diamante-translucido-1-015e7057e259596bf917066245976184-1024-1024.webp"
-        },
-        {
-          "id": 807990247,
-          "sku": "HELLECOPLAREC1DO",
-          "price": 18990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "DORADO"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/pla-recarga-dorado-99ce16dc30505083b617066268479876-1024-1024.webp"
-        },
-        {
-          "id": 807990248,
-          "sku": "HELLECOPLAREC1EST",
-          "price": 18990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "ESMERALDA TRASLÚCIDO"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/esmeralda-translucido-1-7cae16bae84dcf72d917066245984005-1024-1024.webp"
-        },
-        {
-          "id": 807990249,
-          "sku": "HELLECOPLAREC1INP",
-          "price": 18990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "ÍNDIGO PASTEL"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/indigo-pastel-1-c321acf81c1e207e2b17066253136854-1024-1024.webp"
-        },
-        {
-          "id": 807990250,
-          "sku": "HELLECOPLAREC1GRC",
-          "price": 18990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "GRIS CLARO"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/pla-recarga-gris-9601ce24a09da001ea17066245686326-1024-1024.webp"
-        },
-        {
-          "id": 807990252,
-          "sku": "HELLECOPLAREC1GRG",
-          "price": 18990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "GRIS GRAFITO"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/pla-recarga-gris-grafito-5cad1a0e2432fbfff317066268727487-1024-1024.webp"
-        },
-        {
-          "id": 807990256,
-          "sku": "HELLECOPLAREC1KIWP",
-          "price": 18990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "KIWI PASTEL"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/menta-pastel-1-46373676cc90e9226c17066253135327-1024-1024.webp"
-        },
-        {
-          "id": 807990258,
-          "sku": "HELLECOPLAREC1LAVP",
-          "price": 18990,
-          "isDeposit": false,
-          "stock": 2,
-          "available": true,
-          "options": [
-            "1 KG",
-            "LAVANDA PASTEL"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/lavanda-pastel-1-fac424f0d3c5ac033717066253136978-1024-1024.webp"
-        },
-        {
-          "id": 807990261,
-          "sku": "HELLECOPLAREC1MAR",
-          "price": 18990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "MÁRMOL"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/recarga-marmol-ps2-2f5f45e0535458b71017144947658482-1024-1024.webp"
-        },
-        {
-          "id": 807990264,
-          "sku": "HELLECOPLAREC1MARR",
-          "price": 18990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "MARRÓN"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/pla-recarga-marron-d662ce48e19d6f397b17066245691665-1024-1024.webp"
-        },
-        {
-          "id": 807990267,
-          "sku": "HELLECOPLAREC1MENP",
-          "price": 18990,
-          "isDeposit": false,
-          "stock": 3,
-          "available": true,
-          "options": [
-            "1 KG",
-            "MENTA PASTEL"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/kiwi-pastel-1-bc45ac72451e84f97f17066253130229-1024-1024.webp"
-        },
-        {
-          "id": 807990268,
-          "sku": "HELLECOPLAREC1NA",
-          "price": 18990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "NARANJA"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/pla-recarga-naranja-cede6e6935aa673fdf17066245685131-1024-1024.webp"
-        },
-        {
-          "id": 807990269,
-          "sku": "HELLECOPLAREC1NAFL",
-          "price": 18990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "NARANJA FLUO"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/5-naranja-fluo-4dac6c1e91c3b7783117066276233972-1024-1024.webp"
-        },
-        {
-          "id": 807990270,
-          "sku": "HELLECOPLAREC1NATC",
-          "price": 18990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "NATURAL CRISTAL"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/recarga-natural-cristal-ps2-cebec59886911a895617144941398038-1024-1024.jpg"
-        },
-        {
-          "id": 807990272,
-          "sku": "HELLECOPLAREC1NE",
-          "price": 18990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "NEGRO"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/pla-recarga-negro-071c45560313e1c96117066245682658-1024-1024.webp"
-        },
-        {
-          "id": 807990274,
-          "sku": "HELLECOPLAREC1PL",
-          "price": 18990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "PLATEADO"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/pla-recarga-plateado-b0400fd888c585a7bb17066268477461-1024-1024.webp"
-        },
-        {
-          "id": 807990275,
-          "sku": "HELLECOPLAREC1ROJ",
-          "price": 18990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "ROJO"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/pla-recarga-rojo-2955007620dfc62ae217066245686447-1024-1024.webp"
-        },
-        {
-          "id": 807990276,
-          "sku": "HELLECOPLAREC1ROS",
-          "price": 18990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "ROSA"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/pla-recarga-rosa-f8cff451b9a798dcfc17066245689692-1024-1024.webp"
-        },
-        {
-          "id": 807990277,
-          "sku": "HELLECOPLAREC1ROSP",
-          "price": 18990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "ROSA PASTEL"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/rosa-pastel-1-f5e5ee31ecd4db3d0117066253136850-1024-1024.webp"
-        },
-        {
-          "id": 807990279,
-          "sku": "HELLECOPLAREC1RUBT",
-          "price": 18990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "RUBÍ TRASLÚCIDO"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/rubi-translucido-1-ef1ff4dddfadfba44317066245982804-1024-1024.webp"
-        },
-        {
-          "id": 807990282,
-          "sku": "HELLECOPLAREC1VAIP",
-          "price": 18990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "VAINILLA PASTEL"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/vainilla-pastel-1-18ad07704846a20a7a17066253130557-1024-1024.webp"
-        },
-        {
-          "id": 807990287,
-          "sku": "HELLECOPLAREC1VE",
-          "price": 18990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "VERDE"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/pla-recarga-verde-3c7aacd76f39f9d26417066245689827-1024-1024.webp"
-        },
-        {
-          "id": 807990291,
-          "sku": "HELLECOPLAREC1VEC",
-          "price": 18990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "VERDE CLARO"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/pla-recarga-verde-claro-cbd0897e5b3ae5e95917066245684324-1024-1024.webp"
-        },
-        {
-          "id": 807990297,
-          "sku": "HELLECOPLAREC1VEFL",
-          "price": 18990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "VERDE FLUO"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/5-verde-fluo-96ab1f1373ad194d5f17066276232120-1024-1024.webp"
-        },
-        {
-          "id": 807990302,
-          "sku": "HELLECOPLAREC1VIO",
-          "price": 18990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "VIOLETA"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/pla-recarga-violeta-acf9464cdd2582fbda17066245682227-1024-1024.webp"
-        },
-        {
-          "id": 807990308,
-          "sku": "HELLECOPLAREC1ZAT",
-          "price": 18990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "ZAFIRO TRASLÚCIDO"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/zafiro-translucido-1-a41d513be727a17b9317066245996233-1024-1024.webp"
-        },
-        {
-          "id": 807990310,
-          "sku": "HELLECOPLAREC1RAN",
-          "price": 18990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "RANDOM"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/random-4-20b65e36b0983fc43517068815428427-1024-1024.webp"
-        }
-      ]
-    },
-    {
       "id": "i3dtienda-198200596",
       "sourceProductId": "198200596",
       "store": "i3D Tienda",
@@ -4078,7 +3538,7 @@
       "previousPrice": null,
       "transferPrice": 17484,
       "purchaseModes": [],
-      "stock": 574,
+      "stock": 560,
       "stockLabel": "En stock",
       "available": true,
       "brand": "PLAST.AR",
@@ -4122,7 +3582,7 @@
           "sku": "PLASPLA1AZ",
           "price": 18600,
           "isDeposit": false,
-          "stock": 52,
+          "stock": 51,
           "available": true,
           "options": [
             "1 KG",
@@ -4135,7 +3595,7 @@
           "sku": "PLASPLA1BL",
           "price": 18600,
           "isDeposit": false,
-          "stock": 24,
+          "stock": 22,
           "available": true,
           "options": [
             "1 KG",
@@ -4174,7 +3634,7 @@
           "sku": "PLASPLA1MARM",
           "price": 18600,
           "isDeposit": false,
-          "stock": 9,
+          "stock": 8,
           "available": true,
           "options": [
             "1 KG",
@@ -4200,8 +3660,8 @@
           "sku": "PLASPLA1NAT",
           "price": 18600,
           "isDeposit": false,
-          "stock": 1,
-          "available": true,
+          "stock": 0,
+          "available": false,
           "options": [
             "1 KG",
             "NATURAL"
@@ -4213,7 +3673,7 @@
           "sku": "PLASPLA1NE",
           "price": 18600,
           "isDeposit": false,
-          "stock": 33,
+          "stock": 32,
           "available": true,
           "options": [
             "1 KG",
@@ -4239,7 +3699,7 @@
           "sku": "PLASPLA1ROJ",
           "price": 18600,
           "isDeposit": false,
-          "stock": 37,
+          "stock": 36,
           "available": true,
           "options": [
             "1 KG",
@@ -4274,7 +3734,7 @@
       "previousPrice": null,
       "transferPrice": 26508,
       "purchaseModes": [],
-      "stock": 370,
+      "stock": 366,
       "stockLabel": "En stock",
       "available": true,
       "brand": "GRILON3",
@@ -4409,7 +3869,7 @@
           "sku": "GRIPLAB1FRU",
           "price": 28200,
           "isDeposit": false,
-          "stock": 11,
+          "stock": 9,
           "available": true,
           "options": [
             "1 KG",
@@ -4823,7 +4283,7 @@
       "previousPrice": null,
       "transferPrice": 22550.6,
       "purchaseModes": [],
-      "stock": 736,
+      "stock": 714,
       "stockLabel": "En stock",
       "available": true,
       "brand": "FILAR",
@@ -4932,8 +4392,8 @@
           "sku": "FILPLA1BLAANT",
           "price": 23990,
           "isDeposit": false,
-          "stock": 1,
-          "available": true,
+          "stock": 0,
+          "available": false,
           "options": [
             "1 KG",
             "Blanco Antártida"
@@ -5179,7 +4639,7 @@
           "sku": "FILPLA1NARTIG",
           "price": 23990,
           "isDeposit": false,
-          "stock": 5,
+          "stock": 2,
           "available": true,
           "options": [
             "1 KG",
@@ -5244,7 +4704,7 @@
           "sku": "FILPLA1PIE",
           "price": 23990,
           "isDeposit": false,
-          "stock": 38,
+          "stock": 36,
           "available": true,
           "options": [
             "1 KG",
@@ -5309,7 +4769,7 @@
           "sku": "FILPLA1ROSFLA",
           "price": 23990,
           "isDeposit": false,
-          "stock": 2,
+          "stock": 1,
           "available": true,
           "options": [
             "1 KG",
@@ -5374,7 +4834,7 @@
           "sku": "FILPLA1UVAMAT",
           "price": 23990,
           "isDeposit": false,
-          "stock": 17,
+          "stock": 16,
           "available": true,
           "options": [
             "1 KG",
@@ -5439,7 +4899,7 @@
           "sku": "FILPLA1VERPIX",
           "price": 23990,
           "isDeposit": false,
-          "stock": 7,
+          "stock": 4,
           "available": true,
           "options": [
             "1 KG",
@@ -5499,7 +4959,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/petg_clear_amarillo_ml-81be7363be29fc601a17057637060934-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/grilon3-petg/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=2",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/",
       "variants": [
         {
           "id": 805291721,
@@ -5684,7 +5144,7 @@
       "previousPrice": null,
       "transferPrice": 24346,
       "purchaseModes": [],
-      "stock": 102,
+      "stock": 100,
       "stockLabel": "En stock",
       "available": true,
       "brand": "GRILON3",
@@ -5794,8 +5254,8 @@
           "sku": "GRIABS1NE",
           "price": 25900,
           "isDeposit": false,
-          "stock": 1,
-          "available": true,
+          "stock": 0,
+          "available": false,
           "options": [
             "1 KG",
             "NEGRO"
@@ -6425,527 +5885,6 @@
       ]
     },
     {
-      "id": "i3dtienda-198024342",
-      "sourceProductId": "198024342",
-      "store": "i3D Tienda",
-      "domain": "i3dtienda.com.ar",
-      "name": "Filamento HELLBOT PLA ECOFILA 1Kg 1,75mm",
-      "category": "Filamentos",
-      "price": 19990,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 18790.6,
-      "purchaseModes": [],
-      "stock": 4,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "HELBOT",
-      "tags": [
-        "HELBOT",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/03-aqua-66418b7280e95c9ab817060220994507-1024-1024.webp",
-      "url": "https://www.i3dtienda.com.ar/productos/hellbot-pla-ecofila-1kg/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=2",
-      "variants": [
-        {
-          "id": 807990084,
-          "sku": "HELLECOPLA1ACQ",
-          "price": 19990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "AQUA"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/03-aqua-66418b7280e95c9ab817060220994507-1024-1024.webp"
-        },
-        {
-          "id": 807990095,
-          "sku": "HELLECOPLA1ACQP",
-          "price": 19990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "AQUA PASTEL"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/aqua-pastel-2-d03dd4a5e6a4fc240517060222709099-1024-1024.webp"
-        },
-        {
-          "id": 807990098,
-          "sku": "HELLECOPLA1ARP",
-          "price": 19990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "ARENA PASTEL"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/pla-ecofila-arena-pastel-hellbot-175-x-1kg-8ede3e7bc5691bc25817060224777936-1024-1024.webp"
-        },
-        {
-          "id": 807990101,
-          "sku": "HELLECOPLA1AM",
-          "price": 19990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "AMARILLO"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/03-amarillo-a879988c46a77d38d517060220990880-1024-1024.webp"
-        },
-        {
-          "id": 807990104,
-          "sku": "HELLECOPLA1AMFL",
-          "price": 19990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "AMARILLO FLUO"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/1-amarillo-fluo-c2eec25699d602b38917060222417105-1024-1024.webp"
-        },
-        {
-          "id": 807990106,
-          "sku": "HELLECOPLA1AZU",
-          "price": 19990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "AZUL"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/03-azul-5a4b4832df05e6454217060220993041-1024-1024.webp"
-        },
-        {
-          "id": 807990108,
-          "sku": "HELLECOPLA1BL",
-          "price": 19990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "BLANCO"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/03-blanco-31aa4e28e9bc0dfbbe17060220988153-1024-1024.webp"
-        },
-        {
-          "id": 807990109,
-          "sku": "HELLECOPLA1BR",
-          "price": 19990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "BRONCE"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/1-bronce-8fe31fa817293bc30e17060222547652-1024-1024.webp"
-        },
-        {
-          "id": 807990110,
-          "sku": "HELLECOPLA1CE",
-          "price": 19990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "CELESTE"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/03-celeste-1f1b9eead5ca9e413f17060220992791-1024-1024.webp"
-        },
-        {
-          "id": 807990111,
-          "sku": "HELLECOPLA1CEP",
-          "price": 19990,
-          "isDeposit": false,
-          "stock": 1,
-          "available": true,
-          "options": [
-            "1 KG",
-            "CELESTE PASTEL"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/indigo-pastel-2-1605fb9c522f1aee3917060222703041-1024-1024.webp"
-        },
-        {
-          "id": 807990112,
-          "sku": "HELLECOPLA1CO",
-          "price": 19990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "COBALTO"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/03-cobalto-f7e5e5f289f3173a3417060221000313-1024-1024.webp"
-        },
-        {
-          "id": 807990113,
-          "sku": "HELLECOPLA1COPDM",
-          "price": 19990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "COPA DEL MUNDO"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/pla-ecofila-copa-del-mundo-hellbot-175-x-1kg-990b0a41e78c29f24d17060226428173-1024-1024.webp"
-        },
-        {
-          "id": 807990115,
-          "sku": "HELLECOPLA1DIAT",
-          "price": 19990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "DIAMANTE TRASLÚCIDO"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/diamante-translucido-2-8a97c3e24f2075f67617060222935325-1024-1024.webp"
-        },
-        {
-          "id": 807990117,
-          "sku": "HELLECOPLA1DO",
-          "price": 19990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "DORADO"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/1-dorado-44ffeafb98c71b849217060222553516-1024-1024.webp"
-        },
-        {
-          "id": 807990118,
-          "sku": "HELLECOPLA1EST",
-          "price": 19990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "ESMERALDA TRASLÚCIDO"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/esmeralda-translucido-2-4ec4c585a7f8311e0717060222936426-1024-1024.webp"
-        },
-        {
-          "id": 807990120,
-          "sku": "HELLECOPLA1INP",
-          "price": 19990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "ÍNDIGO PASTEL"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/aqua-pastel-2-d03dd4a5e6a4fc240517060222709099-1024-1024.webp"
-        },
-        {
-          "id": 807990123,
-          "sku": "HELLECOPLA1GR",
-          "price": 19990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "GRIS"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/03-gris-9a4ef0ca5c407dc00417060220994678-1024-1024.webp"
-        },
-        {
-          "id": 807990128,
-          "sku": "HELLECOPLA1GRG",
-          "price": 19990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "GRIS GRAFITO"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/03-grafito-dc27e6eae771593ede17060220995092-1024-1024.webp"
-        },
-        {
-          "id": 807990133,
-          "sku": "HELLECOPLA1KIWP",
-          "price": 19990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "KIWI PASTEL"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/kiwi-pastel-2-17ca094afd28c0f71e17060222704288-1024-1024.webp"
-        },
-        {
-          "id": 807990138,
-          "sku": "HELLECOPLA1LAVP",
-          "price": 19990,
-          "isDeposit": false,
-          "stock": 1,
-          "available": true,
-          "options": [
-            "1 KG",
-            "LAVANDA PASTEL"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/lavanda-pastel-2-31ad7a2eb441e2937817060222703844-1024-1024.webp"
-        },
-        {
-          "id": 807990145,
-          "sku": "HELLECOPLA1MAR",
-          "price": 19990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "MÁRMOL"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/03-marmol-fb1d07632d6e4ab91f17060220989556-1024-1024.webp"
-        },
-        {
-          "id": 807990149,
-          "sku": "HELLECOPLA1MARR",
-          "price": 19990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "MARRÓN"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/03-marron-288de67bd11e6df2d817060220999759-1024-1024.webp"
-        },
-        {
-          "id": 807990155,
-          "sku": "HELLECOPLA1MENP",
-          "price": 19990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "MENTA PASTEL"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/menta-pastel-2-fc2be267be10d5f35f17060222705644-1024-1024.webp"
-        },
-        {
-          "id": 807990160,
-          "sku": "HELLECOPLA1NA",
-          "price": 19990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "NARANJA"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/03-naranja-6d26f8d5eb6ff47da517060220995918-1024-1024.webp"
-        },
-        {
-          "id": 807990163,
-          "sku": "HELLECOPLA1NAFL",
-          "price": 19990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "NARANJA FLUO"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/1-naranja-fluo-b6c176cea984d122d117060222418226-1024-1024.webp"
-        },
-        {
-          "id": 807990169,
-          "sku": "HELLECOPLA1NAT",
-          "price": 19990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "NATURAL CRISTAL"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/03-naturalcristal-4d3d0038d27aeab8f417060220996452-1024-1024.webp"
-        },
-        {
-          "id": 807990174,
-          "sku": "HELLECOPLA1NE",
-          "price": 19990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "NEGRO"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/03-negro-b7162683f952bade5417060220992431-1024-1024.webp"
-        },
-        {
-          "id": 807990180,
-          "sku": "HELLECOPLA1PL",
-          "price": 19990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "PLATEADO"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/1-plateado-30a2627b9c0897165f17060222552362-1024-1024.webp"
-        },
-        {
-          "id": 807990184,
-          "sku": "HELLECOPLA1ROJ",
-          "price": 19990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "ROJO"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/03-rojo-154bf899fac2e10ea417060221000469-1024-1024.webp"
-        },
-        {
-          "id": 807990188,
-          "sku": "HELLECOPLA1ROS",
-          "price": 19990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "ROSA"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/pla-ecofila-rosa-hellbot-175-x-1kg-72d5a14f7c2fd2561b17060220896586-1024-1024.webp"
-        },
-        {
-          "id": 807990190,
-          "sku": "HELLECOPLA1ROSP",
-          "price": 19990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "ROSA PASTEL"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/rosa-pastel-2-1179ca25688171a41717060222705937-1024-1024.webp"
-        },
-        {
-          "id": 807990193,
-          "sku": "HELLECOPLA1RUBT",
-          "price": 19990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "RUBÍ TRASLÚCIDO"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/rubi-translucido-2-5b9621e4fb75dcd7ad17060222939414-1024-1024.webp"
-        },
-        {
-          "id": 807990196,
-          "sku": "HELLECOPLA1VAIP",
-          "price": 19990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "VAINILLA PASTEL"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/vainilla-pastel-2-d6cc1372a1b3e7246717060222699597-1024-1024.webp"
-        },
-        {
-          "id": 807990200,
-          "sku": "HELLECOPLA1VE",
-          "price": 19990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "VERDE"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/03-verde-79c174d8bba83d982317060220996288-1024-1024.webp"
-        },
-        {
-          "id": 807990204,
-          "sku": "HELLECOPLA1VEC",
-          "price": 19990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "VERDE CLARO"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/03-verdeclaro-d0ecb562ef7e3bcbd617060220994302-1024-1024.webp"
-        },
-        {
-          "id": 807990205,
-          "sku": "HELLECOPLA1VEFL",
-          "price": 19990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "VERDE FLUO"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/1-verde-fluo-9ec41188975360683417060222419630-1024-1024.webp"
-        },
-        {
-          "id": 807990208,
-          "sku": "HELLECOPLA1VIO",
-          "price": 19990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "VIOLETA"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/03-violeta-905f544a584297d81217060220994913-1024-1024.webp"
-        },
-        {
-          "id": 807990210,
-          "sku": "HELLECOPLA1ZAT",
-          "price": 19990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "ZAFIRO TRASLÚCIDO"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/zafiro-translucido-2-a0082593346f3c494917060222934710-1024-1024.webp"
-        }
-      ]
-    },
-    {
       "id": "i3dtienda-197887520",
       "sourceProductId": "197887520",
       "store": "i3D Tienda",
@@ -7166,7 +6105,7 @@
       "previousPrice": null,
       "transferPrice": 9390.6,
       "purchaseModes": [],
-      "stock": 88,
+      "stock": 86,
       "stockLabel": "En stock",
       "available": true,
       "brand": "PRINTALOT",
@@ -7289,7 +6228,7 @@
           "sku": "PALPETG1NE",
           "price": 21990,
           "isDeposit": false,
-          "stock": 20,
+          "stock": 19,
           "available": true,
           "options": [
             "1 KG",
@@ -7679,8 +6618,8 @@
           "sku": "PALPETG025PLA",
           "price": 9990,
           "isDeposit": false,
-          "stock": 1,
-          "available": true,
+          "stock": 0,
+          "available": false,
           "options": [
             "0,25 KG",
             "PLATA METALIZADO"
@@ -7909,7 +6848,7 @@
       "previousPrice": null,
       "transferPrice": 23490.6,
       "purchaseModes": [],
-      "stock": 150,
+      "stock": 148,
       "stockLabel": "En stock",
       "available": true,
       "brand": "PRINTALOT",
@@ -7921,7 +6860,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/captura-de-pantalla-2026-09-03-144127-8c4fb76b19fbcd156017884574257450-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/printalot-flex/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=3",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=2",
       "variants": [
         {
           "id": 810034885,
@@ -8045,7 +6984,7 @@
           "sku": "PALFLEX1NE",
           "price": 27990,
           "isDeposit": false,
-          "stock": 12,
+          "stock": 11,
           "available": true,
           "options": [
             "1 KG",
@@ -8249,21 +7188,21 @@
       "previousPrice": null,
       "transferPrice": 808.4,
       "purchaseModes": [],
-      "stock": 686,
+      "stock": 682,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
       "tags": [],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/gemini_generated_image_p4vgefp4vgefp4vg-d321af2d09c149e99d17660102711090-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/vaso-milk-300ml/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=3",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=2",
       "variants": [
         {
           "id": 1361172593,
           "sku": "ACC00051",
           "price": 860,
           "isDeposit": false,
-          "stock": 39,
+          "stock": 38,
           "available": true,
           "options": [
             "AMARILLO"
@@ -8443,7 +7382,7 @@
           "sku": "ACC00063",
           "price": 860,
           "isDeposit": false,
-          "stock": 52,
+          "stock": 51,
           "available": true,
           "options": [
             "VERDE MANZANA"
@@ -8476,7 +7415,7 @@
       "previousPrice": null,
       "transferPrice": 1410,
       "purchaseModes": [],
-      "stock": 1214,
+      "stock": 1212,
       "stockLabel": "En stock",
       "available": true,
       "brand": "POLYMER",
@@ -8492,7 +7431,7 @@
           "sku": "ACC00017",
           "price": 1500,
           "isDeposit": false,
-          "stock": 342,
+          "stock": 341,
           "available": true,
           "options": [
             "NEGRO"
@@ -9968,7 +8907,7 @@
       "previousPrice": null,
       "transferPrice": 5264,
       "purchaseModes": [],
-      "stock": 42,
+      "stock": 36,
       "stockLabel": "En stock",
       "available": true,
       "brand": "ROBY",
@@ -9984,7 +8923,7 @@
           "sku": "CON00014",
           "price": 8900,
           "isDeposit": false,
-          "stock": 9,
+          "stock": 7,
           "available": true,
           "options": [
             "392ml/277g"
@@ -9996,7 +8935,7 @@
           "sku": "CON00016",
           "price": 5600,
           "isDeposit": false,
-          "stock": 12,
+          "stock": 11,
           "available": true,
           "options": [
             "180ml/127g"
@@ -10029,7 +8968,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/tmp_b64_3e58e1f9-de91-4117-a57a-75a2e5d329c1_4109334_4262022-82572515643573ef5f17746424482730-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/filar-petg/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=4",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 1487348137,
@@ -10264,7 +9203,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/pla-ht_1080_2-1407040c922a2d69a217056816970352-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/grilon3-pla-ht/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=4",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=3",
       "variants": [
         {
           "id": 803711991,
@@ -10788,7 +9727,7 @@
       "previousPrice": null,
       "transferPrice": 20670.6,
       "purchaseModes": [],
-      "stock": 82,
+      "stock": 80,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3n3",
@@ -10845,7 +9784,7 @@
           "sku": "3N33NFLEX05NE",
           "price": 21990,
           "isDeposit": false,
-          "stock": 2,
+          "stock": 1,
           "available": true,
           "options": [
             "0,5 KG",
@@ -11101,7 +10040,7 @@
       "previousPrice": null,
       "transferPrice": 38446,
       "purchaseModes": [],
-      "stock": 68,
+      "stock": 64,
       "stockLabel": "En stock",
       "available": true,
       "brand": "GRILON3",
@@ -11171,8 +10110,8 @@
           "sku": "GRISIM1NE",
           "price": 40900,
           "isDeposit": false,
-          "stock": 2,
-          "available": true,
+          "stock": 0,
+          "available": false,
           "options": [
             "1 KG",
             "NEGRO"
@@ -11503,7 +10442,7 @@
       "previousPrice": 21990,
       "transferPrice": 19730.6,
       "purchaseModes": [],
-      "stock": 1702,
+      "stock": 1688,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3n3",
@@ -11521,7 +10460,7 @@
           "sku": "3NMAXCEPLA+1BL",
           "price": 20990,
           "isDeposit": false,
-          "stock": 430,
+          "stock": 425,
           "available": true,
           "options": [
             "1 KG",
@@ -11534,7 +10473,7 @@
           "sku": "3NMAXCEPLA+1NE",
           "price": 20990,
           "isDeposit": false,
-          "stock": 421,
+          "stock": 419,
           "available": true,
           "options": [
             "1 KG",
@@ -11671,7 +10610,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/captura-de-pantalla-2025-02-04-085550-e54b803d28383331e317386706598503-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/grilon3-pp/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=5",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=4",
       "variants": [
         {
           "id": 967537737,
@@ -11752,7 +10691,7 @@
       "previousPrice": null,
       "transferPrice": 7050,
       "purchaseModes": [],
-      "stock": 538,
+      "stock": 536,
       "stockLabel": "En stock",
       "available": true,
       "brand": "UNIFIX",
@@ -11761,7 +10700,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/dsc4643-1-1536x1407-ac13836827ef2fe84d17635852700290-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/unifix-cianoacrilato/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=5",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=4",
       "variants": [
         {
           "id": 1361172498,
@@ -11820,7 +10759,7 @@
           "sku": "CON00068",
           "price": 13200,
           "isDeposit": false,
-          "stock": 22,
+          "stock": 21,
           "available": true,
           "options": [
             "RP30 BAJA",
@@ -12183,8 +11122,8 @@
       "previousPrice": null,
       "transferPrice": 9390.6,
       "purchaseModes": [],
-      "stock": 10,
-      "stockLabel": "En stock",
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "PRINTALOT",
       "tags": [
@@ -12200,7 +11139,7 @@
           "sku": "PALPLAARTGL025AMT",
           "price": 9990,
           "isDeposit": false,
-          "stock": 2,
+          "stock": 1,
           "available": true,
           "options": [
             "0,25 KG",
@@ -12239,8 +11178,8 @@
           "sku": "PALPLAARTGL025NE",
           "price": 9990,
           "isDeposit": false,
-          "stock": 1,
-          "available": true,
+          "stock": 0,
+          "available": false,
           "options": [
             "0,25 KG",
             "NEGRO"
@@ -12252,8 +11191,8 @@
           "sku": "PALPLAARTGL025ROJT",
           "price": 9990,
           "isDeposit": false,
-          "stock": 2,
-          "available": true,
+          "stock": 0,
+          "available": false,
           "options": [
             "0,25 KG",
             "ROJO TRANSLÚCIDO"
@@ -12781,7 +11720,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/f3di17510116_2000-e08d4a98a557d3b2d117075154141184-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/printalot-pla-3di/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=6",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=5",
       "variants": [
         {
           "id": 810034719,
@@ -12913,7 +11852,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/fprf17510120-4150e53d619162d55917084308215367-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/plastar-flex/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=6",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=5",
       "variants": [
         {
           "id": 809057858,
@@ -13609,7 +12548,7 @@
       "tags": [],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/01-51-48ef845e52a489c6c716805486107436-1024-1024-38bb6b3c46932de65b17660111413033-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/maquina-reloj-pared-55x15mm/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=7",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=6",
       "variants": [
         {
           "id": 1361172662,
@@ -13694,7 +12633,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/mkt0070dxe-1-844021179b6ac3cd2617571636219557-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/nictom-lapiz-3d-azul/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=7",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=6",
       "variants": [
         {
           "id": 1251522254,
@@ -14015,7 +12954,7 @@
       "previousPrice": null,
       "transferPrice": 1377006,
       "purchaseModes": [],
-      "stock": 26,
+      "stock": 24,
       "stockLabel": "En stock",
       "available": true,
       "brand": "BAMBU LAB",
@@ -14032,7 +12971,7 @@
           "sku": "FDMBA1AMSLITE",
           "price": 1464900,
           "isDeposit": false,
-          "stock": 13,
+          "stock": 12,
           "available": true,
           "options": [
             "FDM",
@@ -14277,7 +13216,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/fvul17502531-1-f2046f21b42d4b570b17140662001097-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/printalot-pla-art-vulcano/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=8",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=7",
       "variants": [
         {
           "id": 869597571,
@@ -14328,7 +13267,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/lubricante-escudo-rg2-3251acd588abd50f9117131858966700-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/aerosol-rg2-escudo/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=8",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=7",
       "variants": [
         {
           "id": 864573242,
@@ -14637,6 +13576,47 @@
       ]
     },
     {
+      "id": "i3dtienda-366775795",
+      "sourceProductId": "366775795",
+      "store": "i3D Tienda",
+      "domain": "i3dtienda.com.ar",
+      "name": "Impresora 3D BAMBU LAB A2L COMBO AMS LITE Preventa Noviembre 2026",
+      "category": "Impresoras",
+      "price": 1649600,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 1550624,
+      "purchaseModes": [
+        "Preventa"
+      ],
+      "stock": 16,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "BAMBU LAB",
+      "tags": [
+        "BAMBU LAB",
+        "Bambu Lab"
+      ],
+      "image": "https://acdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp",
+      "url": "https://www.i3dtienda.com.ar/productos/bambu-a2l-amslite/",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=8",
+      "variants": [
+        {
+          "id": 1594768286,
+          "sku": "FDMBA2LC",
+          "price": 1649600,
+          "isDeposit": false,
+          "stock": 8,
+          "available": true,
+          "options": [
+            "FDM",
+            "X330 Y320 Z325"
+          ],
+          "image": "https://acdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp"
+        }
+      ]
+    },
+    {
       "id": "i3dtienda-366473468",
       "sourceProductId": "366473468",
       "store": "i3D Tienda",
@@ -14648,7 +13628,7 @@
       "previousPrice": null,
       "transferPrice": 23490.6,
       "purchaseModes": [],
-      "stock": 90,
+      "stock": 88,
       "stockLabel": "En stock",
       "available": true,
       "brand": "HELBOT",
@@ -14770,7 +13750,7 @@
           "sku": "HELLECOPETG1VE",
           "price": 24990,
           "isDeposit": false,
-          "stock": 7,
+          "stock": 6,
           "available": true,
           "options": [
             "1 KG",
@@ -14993,7 +13973,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/grilon3-pla-pro-hyper-175mm-azul-6cb5d6d6195ea1a91017854323866476-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/grilon3-pla-pro-hyper/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=9",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=8",
       "variants": [
         {
           "id": 1529201212,
@@ -15217,8 +14197,8 @@
       "previousPrice": null,
       "transferPrice": 1220026,
       "purchaseModes": [],
-      "stock": 2,
-      "stockLabel": "Pocas unidades",
+      "stock": 12,
+      "stockLabel": "En stock",
       "available": true,
       "brand": "BAMBU LAB",
       "tags": [
@@ -15234,7 +14214,7 @@
           "sku": "FDMBAMS2PRO",
           "price": 1297900,
           "isDeposit": false,
-          "stock": 1,
+          "stock": 6,
           "available": true,
           "options": [
             "FDM"
@@ -15554,7 +14534,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/3500-white-lub-100ml-676f5de6dc9acb8b2217635869335270-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/aceite-white-lub-100ml-orbi-quimica/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=10",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=9",
       "variants": [
         {
           "id": 1361172569,
@@ -15620,7 +14600,7 @@
       "previousPrice": null,
       "transferPrice": 29046,
       "purchaseModes": [],
-      "stock": 182,
+      "stock": 180,
       "stockLabel": "En stock",
       "available": true,
       "brand": "HELBOT",
@@ -15729,7 +14709,7 @@
           "sku": "HELLECOPLASIL1ROJ",
           "price": 30900,
           "isDeposit": false,
-          "stock": 6,
+          "stock": 5,
           "available": true,
           "options": [
             "1 KG",
@@ -16133,7 +15113,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/32202-9d5c482e2b328d5d7617391913746909-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/aislante-compatible-e3d-v6-pt100/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=11",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=10",
       "variants": [
         {
           "id": 1123785986,
@@ -17006,7 +15986,7 @@
       "tags": [],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/30108_1-df91d5147b4b46e3e317386784092287-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/rodamiento-lineal-lm8luu/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=12",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=11",
       "variants": [
         {
           "id": 1120114097,
@@ -17422,7 +16402,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/4010-mx-buje-4b1094c758ba1c146817138842660335-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/cooler-axial-4010-24v-mx-buje/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=13",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=12",
       "variants": [
         {
           "id": 873683195,
@@ -17912,7 +16892,7 @@
       "tags": [],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/recortadora-rb1000-cutter-de-recorte-con-mango-metalico-ef547a429eb6a5836c17133519173457-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/recortadora-rb1000-mango-magnetico/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=14",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=13",
       "variants": [
         {
           "id": 863769708,
@@ -18336,7 +17316,7 @@
       "tags": [],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/cama-caliente-geeetech-mk2a-200x200mm-removebg-preview-1-e4f0bfb026438bfd4817126932671152-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/cama-caliente-mk2a-rojo-geeetech/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=15",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=14",
       "variants": [
         {
           "id": 848849635,
@@ -18766,7 +17746,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/bloque-creality-cr10s/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=16",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=15",
       "variants": [
         {
           "id": 847437979,
@@ -19506,7 +18486,7 @@
       "tags": [],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/nozzle_v6_bronce__laton_-removebg-preview-29bc2688de2fd1b2ce17127763192619-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/nozzle-V6-bronce/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=17",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=16",
       "variants": [
         {
           "id": 847314523,
@@ -20020,12 +19000,12 @@
       "domain": "i3dtienda.com.ar",
       "name": "Filamento PrintaLot PLA ART COFFEE 1,75mm",
       "category": "Filamentos",
-      "price": 9990,
+      "price": 27590,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 9390.6,
+      "transferPrice": 25934.6,
       "purchaseModes": [],
-      "stock": 28,
+      "stock": 26,
       "stockLabel": "En stock",
       "available": true,
       "brand": "PRINTALOT",
@@ -20043,8 +19023,8 @@
           "sku": "PALPLAART025COF",
           "price": 9990,
           "isDeposit": false,
-          "stock": 1,
-          "available": true,
+          "stock": 0,
+          "available": false,
           "options": [
             "0,25 KG",
             "COFFEE"
@@ -20482,7 +19462,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/zeta_cristal_ml-e054d925df4345561e17057634745430-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/grilon3-pla-zeta/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=18",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=17",
       "variants": [
         {
           "id": 805291383,
@@ -21828,7 +20808,7 @@
       "tags": [],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/aguja-destapapicos-037mm-80mm-d0bb5e16f953bbb51b17132826367165-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/aguja-037-80mm/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=19",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=18",
       "variants": [
         {
           "id": 863769813,
@@ -22352,7 +21332,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/filamento-hellbot-ecofila-pla-silk-oro-copa-del-mundo-1kg-175mm-1-665de729b42d3a8e4e17795455394549-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/hellbot-ecofila-pla-silk-1kg/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=20",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=19",
       "variants": [
         {
           "id": 1523991631,
@@ -22831,7 +21811,7 @@
       "tags": [],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/pinza-brusela-esd-15-punta-curva-106mm-antimagnetico-antiacido-no-corrosivo-acero-inoxidable-85903e7d3fa066708b17132845818543-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/pinza-brusela-sd15/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=21",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=20",
       "variants": [
         {
           "id": 863769807,
@@ -23178,112 +22158,6 @@
       ]
     },
     {
-      "id": "i3dtienda-198024355",
-      "sourceProductId": "198024355",
-      "store": "i3D Tienda",
-      "domain": "i3dtienda.com.ar",
-      "name": "Filamento HELLBOT PLA ECOFILA XL 2Kg 1,75mm",
-      "category": "Filamentos",
-      "price": 33990,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 31950.6,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "HELBOT",
-      "tags": [
-        "HELBOT",
-        "PLA"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/xl-blanco-1-4b128ab6dfc267d72717068809166891-1024-1024.webp",
-      "url": "https://www.i3dtienda.com.ar/productos/hellbot-pla-ecofila-XL/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=21",
-      "variants": [
-        {
-          "id": 807990211,
-          "sku": "HELLECOPLAXL2BL",
-          "price": 33990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "2 KG",
-            "BLANCO"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/xl-blanco-1-4b128ab6dfc267d72717068809166891-1024-1024.webp"
-        },
-        {
-          "id": 807990213,
-          "sku": "HELLECOPLAXL2GR",
-          "price": 33990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "2 KG",
-            "GRIS"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/xl-gris-1-d88ebe82627a09764c17068809166928-1024-1024.webp"
-        },
-        {
-          "id": 807990214,
-          "sku": "HELLECOPLAXL2NE",
-          "price": 33990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "2 KG",
-            "NEGRO"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/xl-negro-1-55a6596d0cf622a55f17068809334701-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "i3dtienda-366775795",
-      "sourceProductId": "366775795",
-      "store": "i3D Tienda",
-      "domain": "i3dtienda.com.ar",
-      "name": "Impresora 3D BAMBU LAB A2L COMBO AMS LITE Preventa Noviembre 2026",
-      "category": "Impresoras",
-      "price": 1649600,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 1550624,
-      "purchaseModes": [
-        "Preventa"
-      ],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "BAMBU LAB",
-      "tags": [
-        "BAMBU LAB",
-        "Bambu Lab"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp",
-      "url": "https://www.i3dtienda.com.ar/productos/bambu-a2l-amslite/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=21",
-      "variants": [
-        {
-          "id": 1594768286,
-          "sku": "FDMBA2LC",
-          "price": 1649600,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "FDM",
-            "X330 Y320 Z325"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp"
-        }
-      ]
-    },
-    {
       "id": "i3dtienda-366775790",
       "sourceProductId": "366775790",
       "store": "i3D Tienda",
@@ -23307,7 +22181,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/bambu-a2l/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=22",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=21",
       "variants": [
         {
           "id": 1594768279,
@@ -23346,7 +22220,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/3350-2-f07ae8d9d82a88a52417855234550971-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/bambu-a1/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=22",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=21",
       "variants": [
         {
           "id": 1563685673,
@@ -23385,7 +22259,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/3352-1-e79873a5c847520eb317884540618370-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/bambu-a1mini/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=22",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=21",
       "variants": [
         {
           "id": 1563685649,
@@ -23781,7 +22655,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/3010200048_biqu_cryogripproglacier_256x278-3x0-68mm_kobracombo3_bq_logo-b789d148537d05408317661818644981-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/cama-bq-cryogrip-pro-glacier-kobra3/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=23",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=22",
       "variants": [
         {
           "id": 1371064839,
@@ -23816,7 +22690,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/1060000758_biqu_cryogrip_pro_glacier_v1-0_k1_max-ender-3_v3_pluss1_plus_1f5e1257-d733-467c-8cb9-a401f0586053-1982deb64e9ab8168c17661484248874-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/cama-bq-cryogrip-pro-glacier-k1/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=23",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=22",
       "variants": [
         {
           "id": 1371064829,
@@ -23851,7 +22725,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/1060000760_biqu_cryogrip_pro_glacier_v1-0_ender3ad5m_bq_logo_80a219a9-1154-4516-8c57-bfb5b9c93787-b4cff556c55bbff56617661461902273-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/cama-bq-cryogrip-pro-glacier-ender/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=23",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=22",
       "variants": [
         {
           "id": 1371064812,
@@ -24254,7 +23128,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/32734-1-5b55e08c348e3bb02517391948661527-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/hotendkit-bimetal-550grados-compatible-creality-max-v3-ke/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=24",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=23",
       "variants": [
         {
           "id": 1123785957,
@@ -24289,7 +23163,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/32619-ca435a6e94ee95884317391958937680-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/hotendkit-compatible-artillery-artillery/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=24",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=23",
       "variants": [
         {
           "id": 1123785943,
@@ -24322,7 +23196,7 @@
       "tags": [],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/30920-fdf81fff4114972e4217386788474652-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/rodamiento-lineal-lm12luu/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=24",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=23",
       "variants": [
         {
           "id": 1120114118,
@@ -24591,86 +23465,6 @@
       ]
     },
     {
-      "id": "i3dtienda-214694179",
-      "sourceProductId": "214694179",
-      "store": "i3D Tienda",
-      "domain": "i3dtienda.com.ar",
-      "name": "Filamento HELLBOT PETG ECOFILA RECARGA RANDOM 1Kg 1,75mm",
-      "category": "Filamentos",
-      "price": 20490,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 19260.6,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "HELBOT",
-      "tags": [
-        "HELBOT",
-        "PETG",
-        "1kg"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/01-random1-304766e9e062d662b217175311767888-1024-1024.webp",
-      "url": "https://www.i3dtienda.com.ar/productos/hellbot-petg-ecofila-recarga-1kg-random/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=24",
-      "variants": [
-        {
-          "id": 939705137,
-          "sku": "HELLECOPETGREC1RA",
-          "price": 20490,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "RANDOM"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/01-random1-304766e9e062d662b217175311767888-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "i3dtienda-214694178",
-      "sourceProductId": "214694178",
-      "store": "i3D Tienda",
-      "domain": "i3dtienda.com.ar",
-      "name": "Filamento HELLBOT PLA ECOFILA RECARGA RANDOM 1Kg 1,75mm",
-      "category": "Filamentos",
-      "price": 18990,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 17850.6,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "HELBOT",
-      "tags": [
-        "HELBOT",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/dsc_5238-a158eddb7a59dfabe717175305603503-1024-1024.webp",
-      "url": "https://www.i3dtienda.com.ar/productos/hellbot-pla-ecofila-recarga-1kg-random/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=24",
-      "variants": [
-        {
-          "id": 939705124,
-          "sku": "HELLECOPLAREC1RAN",
-          "price": 18990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "1 KG",
-            "RANDOM"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/dsc_5238-a158eddb7a59dfabe717175305603503-1024-1024.webp"
-        }
-      ]
-    },
-    {
       "id": "i3dtienda-213706613",
       "sourceProductId": "213706613",
       "store": "i3D Tienda",
@@ -24691,7 +23485,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/kit-robustito-28a84142107d32c0f417170096994222-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/robustito-kit-inicial/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=25",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=24",
       "variants": [
         {
           "id": 935703002,
@@ -24726,7 +23520,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/kit-robustito-6899a6a60f3704bf7c17170093696394-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/robustito-kit-3dmaker/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=25",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=24",
       "variants": [
         {
           "id": 935703000,
@@ -24761,7 +23555,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/kit-robustito-2ef435955ffaef019617170064114243-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/robustito-kit-escolar/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=25",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=24",
       "variants": [
         {
           "id": 935702999,
@@ -24797,7 +23591,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/cr-m4-image-8-2b2d9a24baa2cfbb6017132037501818-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/creality-cr-m4/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=25",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=24",
       "variants": [
         {
           "id": 869597558,
@@ -24836,7 +23630,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/grasa-azul-9a9496fa89a8f4ee4c17131818396730-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/grasa-azul-litio-wurth/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=25",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=24",
       "variants": [
         {
           "id": 864573260,
@@ -25115,7 +23909,7 @@
       "tags": [],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/pinza-brusela-esd-11-punta-recta-antimagnetico-antiacido-no-corrosivo-acero-inoxidable-92c5a84cafdd90041a17132972861629-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/pinza-brusela-sd11/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=26",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=25",
       "variants": [
         {
           "id": 863769775,
@@ -25148,7 +23942,7 @@
       "tags": [],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/pinza-brusela-esd-10-punta-recta-antimagnetico-antiacido-no-corrosivo-acero-inoxidable-c8306986b89e1b291717133002549587-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/pinza-brusela-sd10/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=26",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=25",
       "variants": [
         {
           "id": 863769763,
@@ -25181,7 +23975,7 @@
       "tags": [],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/desatascador-22cm-2ed42f3007f47afa0c17133616872688-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/desatascador-mango-3D-noclogger/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=26",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=25",
       "variants": [
         {
           "id": 863769743,
@@ -25217,7 +24011,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/cooler-axial-5010-24v-creality/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=26",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=25",
       "variants": [
         {
           "id": 860898032,
@@ -25255,7 +24049,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/cooler-turbina-7530-24v-pengda-tecnology/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=26",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=25",
       "variants": [
         {
           "id": 860897996,
@@ -25540,7 +24334,7 @@
       "tags": [],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/placa2-cff16e3f68c8330c6a17138747847735-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/ramps-shield-1-5/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=27",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=26",
       "variants": [
         {
           "id": 860881970,
@@ -25573,7 +24367,7 @@
       "tags": [],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/polea-pom-eje-5mm-15-3x8-8-rodamiento-para-perfil-v-slot-bosch-rueda-2-b1052c5d7459e667c917123473011449-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/polea-plastica-eje5mm-15x8/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=27",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=26",
       "variants": [
         {
           "id": 848849646,
@@ -25608,7 +24402,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/cama-caliente-hellbot-hidra-plus-removebg-preview-84bf947ed7c8e3923117127612802011-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/cama-caliente-hellbot-hidra-plus/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=27",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=26",
       "variants": [
         {
           "id": 848849642,
@@ -25643,7 +24437,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/cama-caliente-hellbot-hidra-removebg-preview-40a63518a2d837b7df17127523895788-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/cama-caliente-hellbot-hidra/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=27",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=26",
       "variants": [
         {
           "id": 848849641,
@@ -25678,7 +24472,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/cama_caliente_hellbot_magna_2_500_con_cables_soldados22-removebg-preview-e6f428321139cdc02117129385245268-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/cama-caliente-hellbot-magna2-500/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=27",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=26",
       "variants": [
         {
           "id": 848849640,
@@ -25950,7 +24744,7 @@
       "tags": [],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/tuerca_cuadrada-removebg-preview-605d90082f2fc178e917138103541997-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/tuerca-cuadrada-m4/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=28",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=27",
       "variants": [
         {
           "id": 847533086,
@@ -25983,7 +24777,7 @@
       "tags": [],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/tuerca-slinder-deslizante-m5-para-perfil-2020-tipo-bosch-cb0779f0de5c43a62817138843636406-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/tuerca-slider-m5/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=28",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=27",
       "variants": [
         {
           "id": 847533076,
@@ -26016,7 +24810,7 @@
       "tags": [],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/escuadra-interna-2020-para-perfil-v-slot-tipo-bosch-serie-20-05a806e59abf3f57d017138855868177-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/escuadra-interna-2020/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=28",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=27",
       "variants": [
         {
           "id": 847533073,
@@ -26049,7 +24843,7 @@
       "tags": [],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/perfil-t-slot-2040-aluminio-1mt-tipo-bosch-05c17d0ea1f394c13317110454631547-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/perfil-tslot-2040/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=28",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=27",
       "variants": [
         {
           "id": 847533072,
@@ -26084,7 +24878,7 @@
       "tags": [],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/perfil-t-slot-2020-aluminio-1mt-tipo-bosch-2e9264f925daef245117110517818355-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/perfil-tslot-2020/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=28",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=27",
       "variants": [
         {
           "id": 847533069,
@@ -26825,7 +25619,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/resina-low-odor-creality-8396404a67797e0d7417087850260078-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/creality-resina-bajo-olor-500gr-aluminio/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=29",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=28",
       "variants": [
         {
           "id": 830006562,
@@ -26994,7 +25788,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/resina-uv-standar-aluminio-mas-pantonera-7fa1f56981dd1c484f17171156545754-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/creality-resina-estandar-500gr-aluminio/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=29",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=28",
       "variants": [
         {
           "id": 830006522,
@@ -27175,7 +25969,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/assets/stores/img/no-photo-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/mintion-beagle/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=29",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=28",
       "variants": [
         {
           "id": 821907263,
@@ -27214,7 +26008,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/sonic-pad-49614b45be61a082c917092189293280-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/creality-sonic-pad/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=29",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=28",
       "variants": [
         {
           "id": 821907222,
@@ -27253,7 +26047,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/0e0f20ca-0c58-44d0-8110-21965c844848-3a549ebc7f57bd5dfc17092192972388-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/creality-falcon-22w/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=29",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=28",
       "variants": [
         {
           "id": 821907051,
@@ -27564,7 +26358,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/cea034dfe8b76cc2dc43a89554328048-b554c04008a81362cb17092182353853-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/creality-ender3-s1-plus/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=30",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=29",
       "variants": [
         {
           "id": 821906233,
@@ -27603,7 +26397,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/24e2ae0a43a2c50b9751198797a77fa4-1-5facfb03fb01503c7d17092160478949-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/creality-ender3-neo/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=30",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=29",
       "variants": [
         {
           "id": 821906162,
@@ -27642,7 +26436,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/img_6071-47e0b79675b63f22fe17092155741323-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/creality-ender3/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=30",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=29",
       "variants": [
         {
           "id": 821906123,
@@ -27681,7 +26475,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/washandcure-21750e8d2b18cf31da16987802356616-1024-1024-9a5b482130cbc30c3517086228789064-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/creality-uw-02/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=30",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=29",
       "variants": [
         {
           "id": 821905976,
@@ -27721,7 +26515,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/impresora_creality3d_halot_one_cl_60_resina_01_l-ff00a35a1938178f3b17092156778355-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/creality-halot-one/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=30",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=29",
       "variants": [
         {
           "id": 821905872,
@@ -28060,71 +26854,6 @@
       ]
     },
     {
-      "id": "i3dtienda-198024366",
-      "sourceProductId": "198024366",
-      "store": "i3D Tienda",
-      "domain": "i3dtienda.com.ar",
-      "name": "Filamento HELLBOT PLA ECOFILA RECARGA XL 2Kg 1,75mm",
-      "category": "Filamentos",
-      "price": 30990,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 29130.6,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "HELBOT",
-      "tags": [
-        "HELBOT",
-        "PLA"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/xl-blanco-1-1-dcc06fdfc258fc2d1b17068812511334-1024-1024.png",
-      "url": "https://www.i3dtienda.com.ar/productos/hellbot-pla-ecofila-recarga-XL/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=30",
-      "variants": [
-        {
-          "id": 807990313,
-          "sku": "HELLECOPLARECXL2BL",
-          "price": 30990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "2 KG",
-            "BLANCO"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/xl-blanco-1-1-dcc06fdfc258fc2d1b17068812511334-1024-1024.png"
-        },
-        {
-          "id": 807990316,
-          "sku": "HELLECOPLARECXL2GR",
-          "price": 30990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "2 KG",
-            "GRIS"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/xl-blanco-1-1-dcc06fdfc258fc2d1b17068812511334-1024-1024.png"
-        },
-        {
-          "id": 807990318,
-          "sku": "HELLECOPLARECXL2NE",
-          "price": 30990,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [
-            "2 KG",
-            "NEGRO"
-          ],
-          "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/xl-blanco-1-1-dcc06fdfc258fc2d1b17068812511334-1024-1024.png"
-        }
-      ]
-    },
-    {
       "id": "i3dtienda-197763574",
       "sourceProductId": "197763574",
       "store": "i3D Tienda",
@@ -28186,7 +26915,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/petg_maxicarrete_blanco1-9d972ecc229d095e9617059331855926-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/grilon3-petg-maxicarrete/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=31",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=30",
       "variants": [
         {
           "id": 805291838,
@@ -28238,7 +26967,7 @@
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/004/109/334/products/pla850_maxicarrete_azul_ml-1cc9090dfa0f56a95d17059332250080-1024-1024.webp",
       "url": "https://www.i3dtienda.com.ar/productos/grilon3-pla-850-maxicarrete/",
-      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=31",
+      "scrapedFrom": "https://www.i3dtienda.com.ar/productos/?page=30",
       "variants": [
         {
           "id": 805291357,

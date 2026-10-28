@@ -5,8 +5,8 @@
     "baseUrl": "https://starimpression3d.com",
     "apiPath": "/wp-json/wc/store/v1/products"
   },
-  "scrapedAt": "2026-10-26T15:00:48.918Z",
-  "count": 399,
+  "scrapedAt": "2026-10-28T14:58:48.955Z",
+  "count": 403,
   "pages": [
     {
       "page": 1,
@@ -18,13 +18,13 @@
       "page": 2,
       "url": "https://starimpression3d.com/wp-json/wc/store/v1/products?per_page=100&page=2",
       "found": 100,
-      "added": 89
+      "added": 91
     },
     {
       "page": 3,
       "url": "https://starimpression3d.com/wp-json/wc/store/v1/products?per_page=100&page=3",
       "found": 100,
-      "added": 76
+      "added": 74
     },
     {
       "page": 4,
@@ -35,11 +35,134 @@
     {
       "page": 5,
       "url": "https://starimpression3d.com/wp-json/wc/store/v1/products?per_page=100&page=5",
-      "found": 37,
-      "added": 37
+      "found": 41,
+      "added": 41
     }
   ],
   "products": [
+    {
+      "id": "starimpression3d-67643",
+      "sourceProductId": "67643",
+      "store": "Star Impression 3D",
+      "domain": "starimpression3d.com",
+      "name": "BAMBU LAB A2L",
+      "category": "Impresoras",
+      "price": 1373900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu lab",
+      "tags": [
+        "Bambu lab"
+      ],
+      "image": "https://starimpression3d.com/wp-content/uploads/2026/10/1ca88dc5-6262-4615-8a27-9467c7c04411.jpg",
+      "url": "https://starimpression3d.com/producto/bambu-lab-a2l/",
+      "scrapedFrom": "https://starimpression3d.com/wp-json/wc/store/v1/products",
+      "variants": [
+        {
+          "id": "starimpression3d-67644",
+          "sku": "67644",
+          "available": true,
+          "options": [
+            "Opciones de Compra: entrega-inmediata"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "starimpression3d-67639",
+      "sourceProductId": "67639",
+      "store": "Star Impression 3D",
+      "domain": "starimpression3d.com",
+      "name": "BAMBU LAB A2L COMBO",
+      "category": "Impresoras",
+      "price": 1832900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu lab",
+      "tags": [
+        "Bambu lab",
+        "combo"
+      ],
+      "image": "https://starimpression3d.com/wp-content/uploads/2026/10/78c10708-b141-48b0-9665-13fc4771cbfb.jpg",
+      "url": "https://starimpression3d.com/producto/bambu-lab-a2l-combo/",
+      "scrapedFrom": "https://starimpression3d.com/wp-json/wc/store/v1/products",
+      "variants": [
+        {
+          "id": "starimpression3d-67640",
+          "sku": "67640",
+          "available": true,
+          "options": [
+            "Opciones de Compra: entrega-inmediata"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "starimpression3d-67636",
+      "sourceProductId": "67636",
+      "store": "Star Impression 3D",
+      "domain": "starimpression3d.com",
+      "name": "ELEGOO ORANGE STORM GIGA",
+      "category": "Impresoras",
+      "price": 7849000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Elegoo",
+      "tags": [
+        "Elegoo",
+        "PLA",
+        "PETG",
+        "TPU"
+      ],
+      "image": "https://starimpression3d.com/wp-content/uploads/2026/10/b2bf55b8-787d-4308-890b-2a9a291567dc.jpg",
+      "url": "https://starimpression3d.com/producto/elegoo-orange-storm-giga/",
+      "scrapedFrom": "https://starimpression3d.com/wp-json/wc/store/v1/products",
+      "variants": [
+        {
+          "id": "starimpression3d-67637",
+          "sku": "67637",
+          "available": false,
+          "options": [
+            "Opciones de Compra: preventa-enero"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "starimpression3d-67609",
+      "sourceProductId": "67609",
+      "store": "Star Impression 3D",
+      "domain": "starimpression3d.com",
+      "name": "PREVENTA NOVIEMBRE BAMBU LAB A2L",
+      "category": "Impresoras",
+      "price": 1236500,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "stock": 69,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu lab",
+      "tags": [
+        "Bambu lab"
+      ],
+      "image": "https://starimpression3d.com/wp-content/uploads/2026/06/da510881-c603-43bb-ad0e-a5ad509a4993.jpg",
+      "url": "https://starimpression3d.com/producto/preventa-noviembre-bambu-lab-a2l/",
+      "scrapedFrom": "https://starimpression3d.com/wp-json/wc/store/v1/products",
+      "variants": []
+    },
     {
       "id": "starimpression3d-67562",
       "sourceProductId": "67562",
@@ -410,7 +533,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 6,
+      "stock": 5,
       "stockLabel": "En stock",
       "available": true,
       "brand": "W3D",
@@ -1040,7 +1163,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 148,
+      "stock": 144,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -1116,7 +1239,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 2260,
+      "stock": 2164,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -1970,13 +2093,13 @@
       "sourceProductId": "63573",
       "store": "Star Impression 3D",
       "domain": "starimpression3d.com",
-      "name": "PREVENTA OCTUBRE BAMBU LAB A2L COMBO",
+      "name": "PREVENTA NOVIEMBRE BAMBU LAB A2L COMBO",
       "category": "Impresoras",
       "price": 1649600,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 74,
+      "stock": 95,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu lab",
@@ -2000,9 +2123,9 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
-      "available": true,
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": "Anycubic",
       "tags": [
         "Anycubic",
@@ -2929,7 +3052,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 8,
+      "stock": 7,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -2952,7 +3075,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 88,
+      "stock": 76,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -3183,7 +3306,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 14,
+      "stock": 13,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Anycubic",
@@ -4406,8 +4529,8 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 4,
-      "stockLabel": "En stock",
+      "stock": 3,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Algolaser",
       "tags": [
@@ -4710,7 +4833,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 33,
+      "stock": 32,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -4825,7 +4948,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 32,
+      "stock": 28,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Creality",
@@ -5577,7 +5700,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 2,
+      "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Artillery",
@@ -5623,7 +5746,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 15,
+      "stock": 12,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Creality",
@@ -5646,7 +5769,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 3,
+      "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Creality",
@@ -6254,7 +6377,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 25,
+      "stock": 24,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -6275,7 +6398,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 2,
+      "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": null,
@@ -6712,9 +6835,9 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
-      "available": true,
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": "Creality",
       "tags": [
         "Creality",
@@ -7815,9 +7938,9 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
-      "available": true,
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": "Creality",
       "tags": [
         "Creality"
@@ -8506,7 +8629,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 75,
+      "stock": 74,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -8548,7 +8671,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 24,
+      "stock": 23,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -8709,7 +8832,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 2,
+      "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": null,
@@ -14554,6 +14677,22 @@
           "available": true,
           "options": [
             "Seleccionar color: blanco-perlado-050"
+          ]
+        },
+        {
+          "id": "starimpression3d-67685",
+          "sku": "67685",
+          "available": true,
+          "options": [
+            "Seleccionar color: ocre-amarillo-ferroso-812"
+          ]
+        },
+        {
+          "id": "starimpression3d-67686",
+          "sku": "67686",
+          "available": true,
+          "options": [
+            "Seleccionar color: cobre-iridisicente-030"
           ]
         }
       ]
