@@ -5,7 +5,7 @@
     "baseUrl": "https://starimpression3d.com",
     "apiPath": "/wp-json/wc/store/v1/products"
   },
-  "scrapedAt": "2026-10-28T14:58:48.955Z",
+  "scrapedAt": "2026-10-29T15:04:32.052Z",
   "count": 403,
   "pages": [
     {
@@ -1139,9 +1139,9 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
+      "available": true,
       "brand": "Bambu lab",
       "tags": [
         "Bambu lab",
@@ -1163,7 +1163,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 144,
+      "stock": 141,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -1239,7 +1239,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 2164,
+      "stock": 2087,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -3052,7 +3052,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 7,
+      "stock": 6,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -3075,7 +3075,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 76,
+      "stock": 74,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -4833,7 +4833,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 32,
+      "stock": 31,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -6200,8 +6200,8 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "stock": 4,
-      "stockLabel": "En stock",
+      "stock": 3,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Bambu lab",
       "tags": [
@@ -14678,22 +14678,6 @@
           "options": [
             "Seleccionar color: blanco-perlado-050"
           ]
-        },
-        {
-          "id": "starimpression3d-67685",
-          "sku": "67685",
-          "available": true,
-          "options": [
-            "Seleccionar color: ocre-amarillo-ferroso-812"
-          ]
-        },
-        {
-          "id": "starimpression3d-67686",
-          "sku": "67686",
-          "available": true,
-          "options": [
-            "Seleccionar color: cobre-iridisicente-030"
-          ]
         }
       ]
     },
@@ -16190,8 +16174,8 @@
       "previousPrice": null,
       "transferPrice": null,
       "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
+      "stockLabel": "En stock",
+      "available": true,
       "brand": "Printalot",
       "tags": [
         "Printalot",
@@ -16205,7 +16189,7 @@
         {
           "id": "starimpression3d-58456",
           "sku": "58456",
-          "available": false,
+          "available": true,
           "options": [
             "Seleccionar color: coffee"
           ]

@@ -4,8 +4,8 @@
     "domain": "tp3d.com.ar",
     "baseUrl": "https://tp3d.com.ar"
   },
-  "scrapedAt": "2026-10-28T14:58:41.613Z",
-  "count": 509,
+  "scrapedAt": "2026-10-29T15:04:24.120Z",
+  "count": 510,
   "pages": [
     {
       "listing": "Insumos",
@@ -152,21 +152,21 @@
       "page": 3,
       "url": "https://tp3d.com.ar/15-accesorios-y-complementos-3d?page=3",
       "found": 24,
-      "added": 23
+      "added": 22
     },
     {
       "listing": "Accesorios",
       "page": 4,
       "url": "https://tp3d.com.ar/15-accesorios-y-complementos-3d?page=4",
       "found": 24,
-      "added": 23
+      "added": 24
     },
     {
       "listing": "Accesorios",
       "page": 5,
       "url": "https://tp3d.com.ar/15-accesorios-y-complementos-3d?page=5",
-      "found": 9,
-      "added": 9
+      "found": 10,
+      "added": 10
     },
     {
       "listing": "Scanners",
@@ -1080,6 +1080,28 @@
       "variants": []
     },
     {
+      "id": "tp3d-2477",
+      "sourceProductId": "2477",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Filamento Bambu PPS-CF Negro 750 grms",
+      "category": "Filamentos",
+      "price": 167990,
+      "currency": "ARS",
+      "transferPrice": 159591,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Insumos"
+      ],
+      "image": "https://tp3d.com.ar/8175-large_default/filamento-bambu-pps-cf-negro-750-grms.jpg",
+      "url": "https://tp3d.com.ar/filamentos-3d/2477-filamento-bambu-pps-cf-negro-750-grms.html",
+      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=2",
+      "variants": []
+    },
+    {
       "id": "tp3d-2489",
       "sourceProductId": "2489",
       "store": "TP3D",
@@ -1347,7 +1369,7 @@
       ],
       "image": "https://tp3d.com.ar/11345-large_default/filamento-bambu-lab-pla-matte-recarga-1kg-175mm.jpg",
       "url": "https://tp3d.com.ar/filamentos-3d/2805-2086-filamento-bambu-lab-pla-matte-recarga-1kg-175mm.html#/69-color-dorado",
-      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=2",
+      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=3",
       "variants": []
     },
     {
@@ -1940,7 +1962,7 @@
       ],
       "image": "https://tp3d.com.ar/1918-large_default/resina-casteable-dental-hellbot-x-250ml.jpg",
       "url": "https://tp3d.com.ar/resinas-3d/1122-resina-casteable-dental-hellbot-x-250ml.html",
-      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=3",
+      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=4",
       "variants": []
     },
     {
@@ -2111,28 +2133,6 @@
       "variants": []
     },
     {
-      "id": "tp3d-2477",
-      "sourceProductId": "2477",
-      "store": "TP3D",
-      "domain": "tp3d.com.ar",
-      "name": "Filamento Bambu PPS-CF Negro 750 grms",
-      "category": "Filamentos",
-      "price": 167990,
-      "currency": "ARS",
-      "transferPrice": 159591,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "Insumos"
-      ],
-      "image": "https://tp3d.com.ar/8175-large_default/filamento-bambu-pps-cf-negro-750-grms.jpg",
-      "url": "https://tp3d.com.ar/filamentos-3d/2477-filamento-bambu-pps-cf-negro-750-grms.html",
-      "scrapedFrom": "https://tp3d.com.ar/127-insumos?page=4",
-      "variants": []
-    },
-    {
       "id": "tp3d-2563",
       "sourceProductId": "2563",
       "store": "TP3D",
@@ -2279,29 +2279,6 @@
       "variants": []
     },
     {
-      "id": "tp3d-1889",
-      "sourceProductId": "1889",
-      "store": "TP3D",
-      "domain": "tp3d.com.ar",
-      "name": "Impresora 3D Bambu Lab A1 FDM",
-      "category": "Impresoras",
-      "price": 968900,
-      "currency": "ARS",
-      "transferPrice": 920455,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "Bambu Lab",
-        "Impresoras FDM"
-      ],
-      "image": "https://tp3d.com.ar/10046-large_default/impresora-3d-bambulab-a1-fdm.jpg",
-      "url": "https://tp3d.com.ar/impresoras-fdm/1889-impresora-3d-bambulab-a1-fdm.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm",
-      "variants": []
-    },
-    {
       "id": "tp3d-1654",
       "sourceProductId": "1654",
       "store": "TP3D",
@@ -2322,6 +2299,30 @@
       ],
       "image": "https://tp3d.com.ar/5127-large_default/impresora-bambulab-a1-mini-combo.jpg",
       "url": "https://tp3d.com.ar/impresoras-fdm/1654-impresora-bambulab-a1-mini-combo.html",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm",
+      "variants": []
+    },
+    {
+      "id": "tp3d-1850",
+      "sourceProductId": "1850",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Impresora 3D Creality K2 PLUS Combo FDM",
+      "category": "Impresoras",
+      "price": 3040999,
+      "currency": "ARS",
+      "transferPrice": 2888949,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Creality",
+        "combo",
+        "Impresoras FDM"
+      ],
+      "image": "https://tp3d.com.ar/7038-large_default/impresora-3d-creality-k2-plus-combo-fdm.jpg",
+      "url": "https://tp3d.com.ar/impresoras-fdm/1850-impresora-3d-creality-k2-plus-combo-fdm.html",
       "scrapedFrom": "https://tp3d.com.ar/203-all-fdm",
       "variants": []
     },
@@ -3450,6 +3451,29 @@
       "variants": []
     },
     {
+      "id": "tp3d-1889",
+      "sourceProductId": "1889",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Impresora 3D Bambu Lab A1 FDM",
+      "category": "Impresoras",
+      "price": 968900,
+      "currency": "ARS",
+      "transferPrice": 920455,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Bambu Lab",
+        "Impresoras FDM"
+      ],
+      "image": "https://tp3d.com.ar/10046-large_default/impresora-3d-bambulab-a1-fdm.jpg",
+      "url": "https://tp3d.com.ar/impresoras-fdm/1889-impresora-3d-bambulab-a1-fdm.html",
+      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=3",
+      "variants": []
+    },
+    {
       "id": "tp3d-1264",
       "sourceProductId": "1264",
       "store": "TP3D",
@@ -3493,30 +3517,6 @@
       ],
       "image": "https://tp3d.com.ar/5989-large_default/impresora-3d-creality-hi-combo-fdm.jpg",
       "url": "https://tp3d.com.ar/impresoras-fdm/1927-impresora-3d-creality-hi-combo-fdm.html",
-      "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=3",
-      "variants": []
-    },
-    {
-      "id": "tp3d-1850",
-      "sourceProductId": "1850",
-      "store": "TP3D",
-      "domain": "tp3d.com.ar",
-      "name": "Impresora 3D Creality K2 PLUS Combo FDM",
-      "category": "Impresoras",
-      "price": 3040999,
-      "currency": "ARS",
-      "transferPrice": 2888949,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "Creality",
-        "combo",
-        "Impresoras FDM"
-      ],
-      "image": "https://tp3d.com.ar/7038-large_default/impresora-3d-creality-k2-plus-combo-fdm.jpg",
-      "url": "https://tp3d.com.ar/impresoras-fdm/1850-impresora-3d-creality-k2-plus-combo-fdm.html",
       "scrapedFrom": "https://tp3d.com.ar/203-all-fdm?page=3",
       "variants": []
     },
@@ -10713,29 +10713,6 @@
       "variants": []
     },
     {
-      "id": "tp3d-2454",
-      "sourceProductId": "2454",
-      "store": "TP3D",
-      "domain": "tp3d.com.ar",
-      "name": "AMS 2 PRO multicolor Bambu Lab 4 colores",
-      "category": "Impresoras",
-      "price": 1297900,
-      "currency": "ARS",
-      "transferPrice": 1233005,
-      "stock": null,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "Bambu Lab",
-        "Accesorios"
-      ],
-      "image": "https://tp3d.com.ar/7783-large_default/ams-2-pro-multicolor-bambu-lab-4-colores.jpg",
-      "url": "https://tp3d.com.ar/sistema-multicolor/2454-ams-2-pro-multicolor-bambu-lab-4-colores.html",
-      "scrapedFrom": "https://tp3d.com.ar/15-accesorios-y-complementos-3d?page=3",
-      "variants": []
-    },
-    {
       "id": "tp3d-2456",
       "sourceProductId": "2456",
       "store": "TP3D",
@@ -11594,6 +11571,29 @@
       ],
       "image": "https://tp3d.com.ar/7008-large_default/kit-de-accesorios-para-grabadores-laser-creality-cr-laser-falcon-5w-y-10w.jpg",
       "url": "https://tp3d.com.ar/TP3D/2361-kit-de-accesorios-para-grabadores-laser-creality-cr-laser-falcon-5w-y-10w.html",
+      "scrapedFrom": "https://tp3d.com.ar/15-accesorios-y-complementos-3d?page=4",
+      "variants": []
+    },
+    {
+      "id": "tp3d-2454",
+      "sourceProductId": "2454",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "AMS 2 PRO multicolor Bambu Lab 4 colores",
+      "category": "Impresoras",
+      "price": 1297900,
+      "currency": "ARS",
+      "transferPrice": 1233005,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Bambu Lab",
+        "Accesorios"
+      ],
+      "image": "https://tp3d.com.ar/7783-large_default/ams-2-pro-multicolor-bambu-lab-4-colores.jpg",
+      "url": "https://tp3d.com.ar/sistema-multicolor/2454-ams-2-pro-multicolor-bambu-lab-4-colores.html",
       "scrapedFrom": "https://tp3d.com.ar/15-accesorios-y-complementos-3d?page=5",
       "variants": []
     },
@@ -11774,6 +11774,29 @@
       ],
       "image": "https://tp3d.com.ar/11042-large_default/preventa-octubre-modulo-laser-2w-ir-falcon-a1-pro.jpg",
       "url": "https://tp3d.com.ar/accesorios-grabadoras-laser/2778-preventa-octubre-modulo-laser-2w-ir-falcon-a1-pro.html",
+      "scrapedFrom": "https://tp3d.com.ar/15-accesorios-y-complementos-3d?page=5",
+      "variants": []
+    },
+    {
+      "id": "tp3d-2863",
+      "sourceProductId": "2863",
+      "store": "TP3D",
+      "domain": "tp3d.com.ar",
+      "name": "Máquina de Secado de Filamentos Creality Space V2 Plus",
+      "category": "Filamentos",
+      "price": 110000,
+      "currency": "ARS",
+      "transferPrice": 104500,
+      "stock": null,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Creality",
+        "Accesorios"
+      ],
+      "image": "https://tp3d.com.ar/11800-large_default/maquina-de-secado-de-filamentos-creality-space-v2-plus.jpg",
+      "url": "https://tp3d.com.ar/accesorios-y-complementos-3d/2863-maquina-de-secado-de-filamentos-creality-space-v2-plus.html",
       "scrapedFrom": "https://tp3d.com.ar/15-accesorios-y-complementos-3d?page=5",
       "variants": []
     },

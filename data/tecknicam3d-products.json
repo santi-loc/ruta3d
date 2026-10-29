@@ -4,7 +4,7 @@
     "domain": "tecknicam3d.com.ar",
     "baseUrl": "https://www.tecknicam3d.com.ar"
   },
-  "scrapedAt": "2026-10-28T14:58:51.715Z",
+  "scrapedAt": "2026-10-29T15:04:36.856Z",
   "count": 219,
   "pages": [
     {
@@ -226,8 +226,8 @@
       "variants": []
     },
     {
-      "id": "tecknicam3d-creator-5-pro-de-exposicion-256-256-256mm-impresora-3d-flashforge-30-dias-de-garantia-usada",
-      "sourceProductId": "creator-5-pro-de-exposicion-256-256-256mm-impresora-3d-flashforge-30-dias-de-garantia-usada",
+      "id": "tecknicam3d-3742",
+      "sourceProductId": "3742",
       "store": "Tecknicam 3D",
       "domain": "tecknicam3d.com.ar",
       "name": "Creator 5 Pro de exposición 256×256×256mm IMPRESORA 3D FLASHFORGE (30 días de garantía usada)",
@@ -236,10 +236,12 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 1826660,
-      "purchaseModes": [],
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "Pocas unidades",
+      "available": true,
       "brand": null,
       "tags": [],
       "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/Creator-5-Pro-256--256--256mm--IMPRESORA-3D-FLASHF-1788273927-ad9715af.webp",
@@ -248,8 +250,8 @@
       "variants": []
     },
     {
-      "id": "tecknicam3d-3707",
-      "sourceProductId": "3707",
+      "id": "tecknicam3d-ams-lite-sistema-automatico-de-materiales-impresora-3d-fdm-bambu-lab-sin-caja-30-dias-de-garantia",
+      "sourceProductId": "ams-lite-sistema-automatico-de-materiales-impresora-3d-fdm-bambu-lab-sin-caja-30-dias-de-garantia",
       "store": "Tecknicam 3D",
       "domain": "tecknicam3d.com.ar",
       "name": "AMS-LITE Sistema Automático de Materiales Impresora 3D FDM Bambu Lab (sin caja 30 días de garantía )",
@@ -258,12 +260,10 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 370975,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
-      "available": true,
+      "purchaseModes": [],
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": "Bambu Lab",
       "tags": [
         "Bambu Lab"
@@ -1080,7 +1080,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 6,
+      "stock": 5,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -1134,7 +1134,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 13,
+      "stock": 12,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -1161,7 +1161,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 3,
+      "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": null,
@@ -1215,7 +1215,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 14,
+      "stock": 13,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -1418,6 +1418,33 @@
       ],
       "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/AZUL-BLUE-GST-LINEA-COSMOS-CON-CAJA-PLA-Filamento--1790111702-fff1d68b.webp",
       "url": "https://www.tecknicam3d.com.ar/productos/azul-blue-gst-linea-cosmos-con-caja-pla-filamento-3d-1-75-1kg",
+      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock&page=2",
+      "variants": []
+    },
+    {
+      "id": "tecknicam3d-3925",
+      "sourceProductId": "3925",
+      "store": "Tecknicam 3D",
+      "domain": "tecknicam3d.com.ar",
+      "name": "NEGRO BLACK Filamento PLA High Speed x1kg TOOLBOX NEW",
+      "category": "Filamentos",
+      "price": 18990,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 15761.7,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "Pocas unidades",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/NEGRO-BLACK-Filamento-PLA-High-Speed-x1kg-TOOLBOX--1790110935-b6d60b51.webp",
+      "url": "https://www.tecknicam3d.com.ar/productos/negro-black-filamento-pla-high-speed-x1kg-toolbox-new",
       "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock&page=2",
       "variants": []
     },
@@ -1757,33 +1784,6 @@
       ],
       "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/D_NQ_NP_2X_691499-MLA99976492779_112025-F-1788386330-18d2a3ff.webp",
       "url": "https://www.tecknicam3d.com.ar/productos/vainilla-pastel-sin-carretel-recerga-pla-filamento-hellbot-ecofila-1kg-1-75mm-3645",
-      "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock&page=2",
-      "variants": []
-    },
-    {
-      "id": "tecknicam3d-3716",
-      "sourceProductId": "3716",
-      "store": "Tecknicam 3D",
-      "domain": "tecknicam3d.com.ar",
-      "name": "AZUL FRANCIA PETG FilAr Filamento 1.75 1KG",
-      "category": "Filamentos",
-      "price": 24016,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 22815.2,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 8,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "PETG",
-        "1kg"
-      ],
-      "image": null,
-      "url": "https://www.tecknicam3d.com.ar/productos/azul-francia-filar-filamento-petg-1-75-1kg",
       "scrapedFrom": "https://www.tecknicam3d.com.ar/productos?categoria=2-filamento-3d&stock=con_stock&page=2",
       "variants": []
     },
@@ -2197,8 +2197,8 @@
       "variants": []
     },
     {
-      "id": "tecknicam3d-86",
-      "sourceProductId": "86",
+      "id": "tecknicam3d-azul-transparente-resina-elegoo-estandar-1-kg-50-103-0016",
+      "sourceProductId": "azul-transparente-resina-elegoo-estandar-1-kg-50-103-0016",
       "store": "Tecknicam 3D",
       "domain": "tecknicam3d.com.ar",
       "name": "AZUL TRANSPARENTE RESINA ELEGOO ESTANDAR 1KG. 50.103.0016",
@@ -2207,12 +2207,10 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 4,
-      "stockLabel": "En stock",
-      "available": true,
+      "purchaseModes": [],
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": "Elegoo",
       "tags": [
         "Elegoo",
@@ -2224,8 +2222,8 @@
       "variants": []
     },
     {
-      "id": "tecknicam3d-87",
-      "sourceProductId": "87",
+      "id": "tecknicam3d-verde-transparente-estandar-resina-elegoo-1-kg-50-103-0088",
+      "sourceProductId": "verde-transparente-estandar-resina-elegoo-1-kg-50-103-0088",
       "store": "Tecknicam 3D",
       "domain": "tecknicam3d.com.ar",
       "name": "VERDE TRANSPARENTE ESTANDAR RESINA ELEGOO 1 KG 50.103.0088",
@@ -2234,12 +2232,10 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
-      "available": true,
+      "purchaseModes": [],
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": "Elegoo",
       "tags": [
         "Elegoo",
@@ -4150,7 +4146,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 47,
+      "stock": 43,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -4233,8 +4229,8 @@
       "variants": []
     },
     {
-      "id": "tecknicam3d-mate-3d-de-acero-inoxidable-mod1-solo-interior-140m-las-medidas-pueden-variar",
-      "sourceProductId": "mate-3d-de-acero-inoxidable-mod1-solo-interior-140m-las-medidas-pueden-variar",
+      "id": "tecknicam3d-3960",
+      "sourceProductId": "3960",
       "store": "Tecknicam 3D",
       "domain": "tecknicam3d.com.ar",
       "name": "Mate 3d De Acero Inoxidable MOD1 Solo Interior 140m (LAS MEDIDAS PUEDEN VARIAR)",
@@ -4243,10 +4239,12 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 2964.76,
-      "purchaseModes": [],
-      "stock": null,
-      "stockLabel": "Consultar",
-      "available": false,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 30,
+      "stockLabel": "En stock",
+      "available": true,
       "brand": null,
       "tags": [],
       "image": "https://www.tecknicam3d.com.ar/public/uploads/products/7/mate-acero3-1791320127-fedb8c17.webp",
@@ -4438,7 +4436,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 2,
+      "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": null,
@@ -4724,7 +4722,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 23,
+      "stock": 22,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -4792,7 +4790,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 290,
+      "stock": 283,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,

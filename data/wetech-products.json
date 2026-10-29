@@ -5,7 +5,7 @@
     "baseUrl": "https://shop.wetech.ar",
     "listingPath": "/products"
   },
-  "scrapedAt": "2026-10-28T14:58:45.367Z",
+  "scrapedAt": "2026-10-29T15:04:24.829Z",
   "count": 293,
   "pages": [
     {
@@ -28,7 +28,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 19998.8,
-      "stock": 29,
+      "stock": 27,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3n3",
@@ -230,7 +230,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 12799.3,
-      "stock": 401,
+      "stock": 394,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3n3",
@@ -656,7 +656,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 25998.95,
-      "stock": 46,
+      "stock": 45,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3n3",
@@ -1104,7 +1104,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 16999.15,
-      "stock": 212,
+      "stock": 196,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3nMax",
@@ -5962,7 +5962,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 21526.63,
-      "stock": 11,
+      "stock": 5,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -5992,7 +5992,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 10277.42,
-      "stock": 3,
+      "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": null,
@@ -6172,9 +6172,9 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 12461.84,
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
-      "available": true,
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": null,
       "tags": [
         "Ventiladores y Refrigeración"
@@ -6185,7 +6185,7 @@
       "variants": [
         {
           "id": "FAN AXIAL 6015 12V",
-          "available": true,
+          "available": false,
           "price": 14660.99,
           "options": []
         }
@@ -6322,9 +6322,9 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 6489.49,
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
-      "available": true,
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": null,
       "tags": [
         "Ventiladores y Refrigeración"
@@ -6335,7 +6335,7 @@
       "variants": [
         {
           "id": "FAN CAPA 4010 SE-KE",
-          "available": true,
+          "available": false,
           "price": 7634.7,
           "options": []
         }
@@ -6442,7 +6442,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 17879.4,
-      "stock": 3,
+      "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": null,
@@ -7665,7 +7665,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 26999.4,
-      "stock": 74,
+      "stock": 75,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -7887,7 +7887,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 49998.7,
-      "stock": 24,
+      "stock": 27,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -7988,7 +7988,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 27999,
-      "stock": 131,
+      "stock": 140,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -8251,7 +8251,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 26999.4,
-      "stock": 78,
+      "stock": 87,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -8294,7 +8294,7 @@
         },
         {
           "id": "G3-BOUT-1KG-ACQU",
-          "available": true,
+          "available": false,
           "price": 31764,
           "options": [
             "Acqua",
@@ -8788,7 +8788,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 23499.1,
-      "stock": 118,
+      "stock": 141,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -8844,7 +8844,7 @@
         },
         {
           "id": "G3-MEGP-4KG-NEGR",
-          "available": false,
+          "available": true,
           "price": 85881,
           "options": [
             "Negro",
@@ -8880,7 +8880,7 @@
         },
         {
           "id": "G3-PETG-1KG-AMBA",
-          "available": true,
+          "available": false,
           "price": 27646,
           "options": [
             "Ambar Clear",
@@ -9035,7 +9035,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 24999.35,
-      "stock": 264,
+      "stock": 263,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -9234,7 +9234,7 @@
         },
         {
           "id": "G3-PLA2-1KG-BRON",
-          "available": true,
+          "available": false,
           "price": 30587,
           "options": [
             "Bronce",
@@ -9294,7 +9294,7 @@
         },
         {
           "id": "G3-PLA2-1KG-FUCS",
-          "available": false,
+          "available": true,
           "price": 30587,
           "options": [
             "Fucsia",
@@ -9378,7 +9378,7 @@
         },
         {
           "id": "G3-PLA2-1KG-PI72",
-          "available": false,
+          "available": true,
           "price": 30587,
           "options": [
             "Piel 720",
@@ -9438,7 +9438,7 @@
         },
         {
           "id": "G3-PLA2-1KG-VERD",
-          "available": false,
+          "available": true,
           "price": 30587,
           "options": [
             "Verde",
@@ -9462,7 +9462,7 @@
         },
         {
           "id": "G3-PLA2-1KG-VEMA",
-          "available": false,
+          "available": true,
           "price": 30587,
           "options": [
             "Verde Manzana",
@@ -9497,7 +9497,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 29999.05,
-      "stock": 126,
+      "stock": 128,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -9598,7 +9598,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 29999.05,
-      "stock": 49,
+      "stock": 51,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -9723,7 +9723,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 39999.3,
-      "stock": 48,
+      "stock": 49,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -9800,7 +9800,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 37999.25,
-      "stock": 14,
+      "stock": 15,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -10400,7 +10400,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 19998.8,
-      "stock": 27,
+      "stock": 22,
       "stockLabel": "En stock",
       "available": true,
       "brand": "GST3D",
@@ -10847,7 +10847,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 23998.9,
-      "stock": 36,
+      "stock": 33,
       "stockLabel": "En stock",
       "available": true,
       "brand": "GST3D",
@@ -10996,7 +10996,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 19998.8,
-      "stock": 450,
+      "stock": 444,
       "stockLabel": "En stock",
       "available": true,
       "brand": "GST3D",
@@ -11921,7 +11921,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 19998.8,
-      "stock": 323,
+      "stock": 320,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -11963,7 +11963,7 @@
         },
         {
           "id": "HB-PLA-1KG-ARPA",
-          "available": true,
+          "available": false,
           "price": 23528,
           "options": [
             "Arena Pastel",
@@ -13198,7 +13198,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 2974.12,
-      "stock": 14,
+      "stock": 12,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,

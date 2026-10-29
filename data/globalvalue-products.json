@@ -4,8 +4,8 @@
     "domain": "globalvalue.ar",
     "baseUrl": "https://globalvalue.ar"
   },
-  "scrapedAt": "2026-10-28T14:58:18.244Z",
-  "count": 285,
+  "scrapedAt": "2026-10-29T15:04:10.449Z",
+  "count": 294,
   "pages": [
     {
       "page": 1,
@@ -16,14 +16,14 @@
     {
       "page": 2,
       "url": "https://globalvalue.ar/shop/page/2",
-      "found": 19,
-      "added": 19
+      "found": 20,
+      "added": 20
     },
     {
       "page": 3,
       "url": "https://globalvalue.ar/shop/page/3",
-      "found": 20,
-      "added": 20
+      "found": 19,
+      "added": 19
     },
     {
       "page": 4,
@@ -70,14 +70,14 @@
     {
       "page": 11,
       "url": "https://globalvalue.ar/shop/page/11",
-      "found": 18,
-      "added": 18
+      "found": 19,
+      "added": 19
     },
     {
       "page": 12,
       "url": "https://globalvalue.ar/shop/page/12",
-      "found": 20,
-      "added": 20
+      "found": 19,
+      "added": 19
     },
     {
       "page": 13,
@@ -88,14 +88,14 @@
     {
       "page": 14,
       "url": "https://globalvalue.ar/shop/page/14",
-      "found": 19,
-      "added": 19
+      "found": 20,
+      "added": 20
     },
     {
       "page": 15,
       "url": "https://globalvalue.ar/shop/page/15",
-      "found": 9,
-      "added": 9
+      "found": 17,
+      "added": 17
     }
   ],
   "products": [
@@ -198,6 +198,162 @@
       ],
       "image": "https://globalvalue.ar/web/image/product.template/4140/image_512",
       "url": "https://globalvalue.ar/shop/000565-filamento-pla-marble-marmol-blanco-1kg-bambulab-4140",
+      "scrapedFrom": "https://globalvalue.ar/shop",
+      "variants": []
+    },
+    {
+      "id": "globalvalue-4131",
+      "sourceProductId": "4142",
+      "store": "Global Value",
+      "domain": "globalvalue.ar",
+      "name": "Filamento PLA Matte Gris Ceniza 1kg Bambulab",
+      "category": "Filamentos",
+      "price": 48280.5,
+      "currency": "ARS",
+      "previousPrice": 53645,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab"
+      ],
+      "image": "https://globalvalue.ar/web/image/product.template/4131/image_512",
+      "url": "https://globalvalue.ar/shop/000556-filamento-pla-matte-gris-ceniza-1kg-bambulab-4131",
+      "scrapedFrom": "https://globalvalue.ar/shop",
+      "variants": []
+    },
+    {
+      "id": "globalvalue-4130",
+      "sourceProductId": "4141",
+      "store": "Global Value",
+      "domain": "globalvalue.ar",
+      "name": "Filamento PLA Matte Verde Pasto 1kg Bambulab",
+      "category": "Filamentos",
+      "price": 48280.5,
+      "currency": "ARS",
+      "previousPrice": 53645,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab"
+      ],
+      "image": "https://globalvalue.ar/web/image/product.template/4130/image_512",
+      "url": "https://globalvalue.ar/shop/000555-filamento-pla-matte-verde-pasto-1kg-bambulab-4130",
+      "scrapedFrom": "https://globalvalue.ar/shop",
+      "variants": []
+    },
+    {
+      "id": "globalvalue-4129",
+      "sourceProductId": "4140",
+      "store": "Global Value",
+      "domain": "globalvalue.ar",
+      "name": "Filamento PLA Matte Azul Hielo 1kg Bambulab",
+      "category": "Filamentos",
+      "price": 48278.94,
+      "currency": "ARS",
+      "previousPrice": 53643.27,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab"
+      ],
+      "image": "https://globalvalue.ar/web/image/product.template/4129/image_512",
+      "url": "https://globalvalue.ar/shop/000554-filamento-pla-matte-azul-hielo-1kg-bambulab-4129",
+      "scrapedFrom": "https://globalvalue.ar/shop",
+      "variants": []
+    },
+    {
+      "id": "globalvalue-4128",
+      "sourceProductId": "4139",
+      "store": "Global Value",
+      "domain": "globalvalue.ar",
+      "name": "Filamento PLA Matte Azul Marino 1kg Bambulab",
+      "category": "Filamentos",
+      "price": 48280.5,
+      "currency": "ARS",
+      "previousPrice": 53645,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab"
+      ],
+      "image": "https://globalvalue.ar/web/image/product.template/4128/image_512",
+      "url": "https://globalvalue.ar/shop/000553-filamento-pla-matte-azul-marino-1kg-bambulab-4128",
+      "scrapedFrom": "https://globalvalue.ar/shop",
+      "variants": []
+    },
+    {
+      "id": "globalvalue-4127",
+      "sourceProductId": "4138",
+      "store": "Global Value",
+      "domain": "globalvalue.ar",
+      "name": "Filamento PLA Matte Naranja Mandarina 1kg Bambulab",
+      "category": "Filamentos",
+      "price": 48280.5,
+      "currency": "ARS",
+      "previousPrice": 53645,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab"
+      ],
+      "image": "https://globalvalue.ar/web/image/product.template/4127/image_512",
+      "url": "https://globalvalue.ar/shop/000552-filamento-pla-matte-naranja-mandarina-1kg-bambulab-4127",
+      "scrapedFrom": "https://globalvalue.ar/shop",
+      "variants": []
+    },
+    {
+      "id": "globalvalue-4126",
+      "sourceProductId": "4137",
+      "store": "Global Value",
+      "domain": "globalvalue.ar",
+      "name": "Filamento Pla lite Negro 1kg Bambulab",
+      "category": "Filamentos",
+      "price": 40410,
+      "currency": "ARS",
+      "previousPrice": 44900,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab"
+      ],
+      "image": "https://globalvalue.ar/web/image/product.template/4126/image_512",
+      "url": "https://globalvalue.ar/shop/000551-filamento-pla-lite-negro-1kg-bambulab-4126",
       "scrapedFrom": "https://globalvalue.ar/shop",
       "variants": []
     },
@@ -308,6 +464,84 @@
       "variants": []
     },
     {
+      "id": "globalvalue-3918",
+      "sourceProductId": "3929",
+      "store": "Global Value",
+      "domain": "globalvalue.ar",
+      "name": "Conector Mr30 Macho Y Hembra (el Par) Para Cortadora Y Grabadora Laser Vppfull",
+      "category": "Corte láser",
+      "price": 8910,
+      "currency": "ARS",
+      "previousPrice": 9900,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Laser"
+      ],
+      "image": "https://globalvalue.ar/web/image/product.template/3918/image_512",
+      "url": "https://globalvalue.ar/shop/000516-conector-mr30-macho-y-hembra-el-par-para-cortadora-y-grabadora-laser-vppfull-3918",
+      "scrapedFrom": "https://globalvalue.ar/shop",
+      "variants": []
+    },
+    {
+      "id": "globalvalue-3915",
+      "sourceProductId": "3926",
+      "store": "Global Value",
+      "domain": "globalvalue.ar",
+      "name": "Filamento Pla lite Rojo 1kg Bambulab",
+      "category": "Filamentos",
+      "price": 40410,
+      "currency": "ARS",
+      "previousPrice": 44900,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab"
+      ],
+      "image": "https://globalvalue.ar/web/image/product.template/3915/image_512",
+      "url": "https://globalvalue.ar/shop/000513-filamento-pla-lite-rojo-1kg-bambulab-3915",
+      "scrapedFrom": "https://globalvalue.ar/shop",
+      "variants": []
+    },
+    {
+      "id": "globalvalue-3914",
+      "sourceProductId": "3925",
+      "store": "Global Value",
+      "domain": "globalvalue.ar",
+      "name": "Filamento Pla lite Blanco 1kg Bambulab",
+      "category": "Filamentos",
+      "price": 40410,
+      "currency": "ARS",
+      "previousPrice": 44900,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab"
+      ],
+      "image": "https://globalvalue.ar/web/image/product.template/3914/image_512",
+      "url": "https://globalvalue.ar/shop/000512-filamento-pla-lite-blanco-1kg-bambulab-3914",
+      "scrapedFrom": "https://globalvalue.ar/shop",
+      "variants": []
+    },
+    {
       "id": "globalvalue-3875",
       "sourceProductId": "3885",
       "store": "Global Value",
@@ -412,8 +646,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3835/image_512",
-      "url": "https://globalvalue.ar/shop/000570-impresora-3d-h2s-combo-apta-laser-10w-plateada-bambu-lab-3835",
-      "scrapedFrom": "https://globalvalue.ar/shop",
+      "url": "https://globalvalue.ar/shop/000570-impresora-3d-h2s-combo-apta-laser-10w-plateada-bambu-lab-3835?page=2",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/2",
       "variants": []
     },
     {
@@ -439,8 +673,8 @@
         "Rotatorio"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3832/image_512",
-      "url": "https://globalvalue.ar/shop/000400-rotativo-creality-p-grabadora-falcon-serie-lentes-de-proteccion-3832",
-      "scrapedFrom": "https://globalvalue.ar/shop",
+      "url": "https://globalvalue.ar/shop/000400-rotativo-creality-p-grabadora-falcon-serie-lentes-de-proteccion-3832?page=2",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/2",
       "variants": []
     },
     {
@@ -467,8 +701,8 @@
         "Diodo"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3830/image_512",
-      "url": "https://globalvalue.ar/shop/000427-grabadora-cortadora-laser-laservii-l1-pro-12w-30x30-diodo-3830",
-      "scrapedFrom": "https://globalvalue.ar/shop",
+      "url": "https://globalvalue.ar/shop/000427-grabadora-cortadora-laser-laservii-l1-pro-12w-30x30-diodo-3830?page=2",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/2",
       "variants": []
     },
     {
@@ -494,8 +728,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3829/image_512",
-      "url": "https://globalvalue.ar/shop/000426-grabadora-y-cortadora-laser-laservii-m1s-24w-con-cabina-3829",
-      "scrapedFrom": "https://globalvalue.ar/shop",
+      "url": "https://globalvalue.ar/shop/000426-grabadora-y-cortadora-laser-laservii-m1s-24w-con-cabina-3829?page=2",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/2",
       "variants": []
     },
     {
@@ -521,8 +755,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3828/image_512",
-      "url": "https://globalvalue.ar/shop/000425-grabadora-y-cortadora-laser-laservii-m1s-12w-con-cabina-3828",
-      "scrapedFrom": "https://globalvalue.ar/shop",
+      "url": "https://globalvalue.ar/shop/000425-grabadora-y-cortadora-laser-laservii-m1s-12w-con-cabina-3828?page=2",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/2",
       "variants": []
     },
     {
@@ -548,8 +782,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3827/image_512",
-      "url": "https://globalvalue.ar/shop/000424-grabadora-laser-laservii-m1s-infrarroja-2w-con-cabina-3827",
-      "scrapedFrom": "https://globalvalue.ar/shop",
+      "url": "https://globalvalue.ar/shop/000424-grabadora-laser-laservii-m1s-infrarroja-2w-con-cabina-3827?page=2",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/2",
       "variants": []
     },
     {
@@ -575,8 +809,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3823/image_512",
-      "url": "https://globalvalue.ar/shop/000420-grabadora-laser-algolaser-pixi-1-5w-infrarroja-metales-joyas-con-embalaje-adiciona-3823",
-      "scrapedFrom": "https://globalvalue.ar/shop",
+      "url": "https://globalvalue.ar/shop/000420-grabadora-laser-algolaser-pixi-1-5w-infrarroja-metales-joyas-con-embalaje-adiciona-3823?page=2",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/2",
       "variants": []
     },
     {
@@ -602,8 +836,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3821/image_512",
-      "url": "https://globalvalue.ar/shop/000418-cubierta-protectora-para-grabadora-laser-sculpfun-b70-3821",
-      "scrapedFrom": "https://globalvalue.ar/shop",
+      "url": "https://globalvalue.ar/shop/000418-cubierta-protectora-para-grabadora-laser-sculpfun-b70-3821?page=2",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/2",
       "variants": []
     },
     {
@@ -629,8 +863,8 @@
         "Panal"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3820/image_512",
-      "url": "https://globalvalue.ar/shop/000417-panal-de-abejas-sculpfun-h4-84x82cm-3820",
-      "scrapedFrom": "https://globalvalue.ar/shop",
+      "url": "https://globalvalue.ar/shop/000417-panal-de-abejas-sculpfun-h4-84x82cm-3820?page=2",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/2",
       "variants": []
     },
     {
@@ -936,8 +1170,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3773/image_512",
-      "url": "https://globalvalue.ar/shop/000362-cabezal-laser-two-trees-20w-para-ttc-450-3773?page=2",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/2",
+      "url": "https://globalvalue.ar/shop/000362-cabezal-laser-two-trees-20w-para-ttc-450-3773?page=3",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/3",
       "variants": []
     },
     {
@@ -964,8 +1198,8 @@
         "Fibra"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3772/image_512",
-      "url": "https://globalvalue.ar/shop/000356-cabezal-laser-de-fibra-sculpfun-ir20-20w-3772?page=2",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/2",
+      "url": "https://globalvalue.ar/shop/000356-cabezal-laser-de-fibra-sculpfun-ir20-20w-3772?page=3",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/3",
       "variants": []
     },
     {
@@ -991,8 +1225,8 @@
         "Fibra"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3770/image_512",
-      "url": "https://globalvalue.ar/shop/000357-laser-fibra-800w-30x30cm-ideal-joyeria-y-pequenas-piezas-3770?page=2",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/2",
+      "url": "https://globalvalue.ar/shop/000357-laser-fibra-800w-30x30cm-ideal-joyeria-y-pequenas-piezas-3770?page=3",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/3",
       "variants": []
     },
     {
@@ -1018,8 +1252,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3757/image_512",
-      "url": "https://globalvalue.ar/shop/000346-repuesto-de-filtro-para-purificador-de-aire-algolaser-3757?page=2",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/2",
+      "url": "https://globalvalue.ar/shop/000346-repuesto-de-filtro-para-purificador-de-aire-algolaser-3757?page=3",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/3",
       "variants": []
     },
     {
@@ -1045,8 +1279,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3756/image_512",
-      "url": "https://globalvalue.ar/shop/000345-cabezal-laser-5-5w-algolaser-3756?page=2",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/2",
+      "url": "https://globalvalue.ar/shop/000345-cabezal-laser-5-5w-algolaser-3756?page=3",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/3",
       "variants": []
     },
     {
@@ -1071,8 +1305,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3751/image_512",
-      "url": "https://globalvalue.ar/shop/000341-kit-de-limpieza-lentes-cabezales-laser-3751?page=2",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/2",
+      "url": "https://globalvalue.ar/shop/000341-kit-de-limpieza-lentes-cabezales-laser-3751?page=3",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/3",
       "variants": []
     },
     {
@@ -1097,8 +1331,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3750/image_512",
-      "url": "https://globalvalue.ar/shop/000340-tinta-para-grabado-laser-en-metales-deep-ink-50-g-3750?page=2",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/2",
+      "url": "https://globalvalue.ar/shop/000340-tinta-para-grabado-laser-en-metales-deep-ink-50-g-3750?page=3",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/3",
       "variants": []
     },
     {
@@ -1124,8 +1358,8 @@
         "Diodo"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3748/image_512",
-      "url": "https://globalvalue.ar/shop/000336-tinta-para-grabar-metales-con-laser-diodo-deep-ink-100g-3748?page=2",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/2",
+      "url": "https://globalvalue.ar/shop/000336-tinta-para-grabar-metales-con-laser-diodo-deep-ink-100g-3748?page=3",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/3",
       "variants": []
     },
     {
@@ -1448,8 +1682,8 @@
         "Fibra"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3719/image_512",
-      "url": "https://globalvalue.ar/shop/000159-laser-de-fibra-30w-raycus-max-area-20x20-cm-3719?page=3",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/3",
+      "url": "https://globalvalue.ar/shop/000159-laser-de-fibra-30w-raycus-max-area-20x20-cm-3719?page=4",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/4",
       "variants": []
     },
     {
@@ -1475,8 +1709,8 @@
         "Fibra"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3662/image_512",
-      "url": "https://globalvalue.ar/shop/000143-laser-de-fibra-rayzen-noir-30w-2-en-1-portatil-3662?page=3",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/3",
+      "url": "https://globalvalue.ar/shop/000143-laser-de-fibra-rayzen-noir-30w-2-en-1-portatil-3662?page=4",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/4",
       "variants": []
     },
     {
@@ -1503,8 +1737,8 @@
         "Rotatorio"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3661/image_512",
-      "url": "https://globalvalue.ar/shop/000142-rotativo-rayzen-para-maquina-de-fibra-y-uv-para-anillos-3661?page=3",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/3",
+      "url": "https://globalvalue.ar/shop/000142-rotativo-rayzen-para-maquina-de-fibra-y-uv-para-anillos-3661?page=4",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/4",
       "variants": []
     },
     {
@@ -1531,8 +1765,8 @@
         "Rotatorio"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3660/image_512",
-      "url": "https://globalvalue.ar/shop/000141-rotativo-rayzen-para-maquina-de-fibra-y-uv-tipo-mandril-d80-3660?page=3",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/3",
+      "url": "https://globalvalue.ar/shop/000141-rotativo-rayzen-para-maquina-de-fibra-y-uv-tipo-mandril-d80-3660?page=4",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/4",
       "variants": []
     },
     {
@@ -1557,8 +1791,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3657/image_512",
-      "url": "https://globalvalue.ar/shop/000138-asistente-de-aire-atomstack-f80-para-grabado-y-corte-laser-3657?page=3",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/3",
+      "url": "https://globalvalue.ar/shop/000138-asistente-de-aire-atomstack-f80-para-grabado-y-corte-laser-3657?page=4",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/4",
       "variants": []
     },
     {
@@ -1584,8 +1818,8 @@
         "Fibra"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3644/image_512",
-      "url": "https://globalvalue.ar/shop/000137-laser-de-fibra-rayzen-20w-3644?page=3",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/3",
+      "url": "https://globalvalue.ar/shop/000137-laser-de-fibra-rayzen-20w-3644?page=4",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/4",
       "variants": []
     },
     {
@@ -1611,8 +1845,8 @@
         "Fibra"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3636/image_512",
-      "url": "https://globalvalue.ar/shop/000135-laser-de-fibra-rayzen-noir-20w-3636?page=3",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/3",
+      "url": "https://globalvalue.ar/shop/000135-laser-de-fibra-rayzen-noir-20w-3636?page=4",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/4",
       "variants": []
     },
     {
@@ -1637,8 +1871,8 @@
         "Rotatorio"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3635/image_512",
-      "url": "https://globalvalue.ar/shop/000283-rotativos-atomstack-pro-kit-r8-r6-3635?page=3",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/3",
+      "url": "https://globalvalue.ar/shop/000283-rotativos-atomstack-pro-kit-r8-r6-3635?page=4",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/4",
       "variants": []
     },
     {
@@ -1663,8 +1897,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3628/image_512",
-      "url": "https://globalvalue.ar/shop/000134-grabadora-laser-atomstack-atelier-12w-con-galvanometro-3628?page=3",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/3",
+      "url": "https://globalvalue.ar/shop/000134-grabadora-laser-atomstack-atelier-12w-con-galvanometro-3628?page=4",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/4",
       "variants": []
     },
     {
@@ -1991,8 +2225,8 @@
         "Rotatorio"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3463/image_512",
-      "url": "https://globalvalue.ar/shop/000117-laser-de-fibra-rayzen-noir-30w-2-en-1-portatil-rotativo-3463?page=4",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/4",
+      "url": "https://globalvalue.ar/shop/000117-laser-de-fibra-rayzen-noir-30w-2-en-1-portatil-rotativo-3463?page=5",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/5",
       "variants": []
     },
     {
@@ -2019,8 +2253,8 @@
         "Rotatorio"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3462/image_512",
-      "url": "https://globalvalue.ar/shop/000193-laser-de-fibra-60w-raycus-con-gabinete-20x20cm-rotativo-3462?page=4",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/4",
+      "url": "https://globalvalue.ar/shop/000193-laser-de-fibra-60w-raycus-con-gabinete-20x20cm-rotativo-3462?page=5",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/5",
       "variants": []
     },
     {
@@ -2043,8 +2277,8 @@
       "brand": null,
       "tags": [],
       "image": "https://globalvalue.ar/web/image/product.template/3447/image_512",
-      "url": "https://globalvalue.ar/shop/000278-cinta-transportadora-atomstack-r7-compatible-con-kraft-3447?page=4",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/4",
+      "url": "https://globalvalue.ar/shop/000278-cinta-transportadora-atomstack-r7-compatible-con-kraft-3447?page=5",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/5",
       "variants": []
     },
     {
@@ -2069,8 +2303,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3442/image_512",
-      "url": "https://globalvalue.ar/shop/000181-cabezal-laser-tree-60w-k60-3442?page=4",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/4",
+      "url": "https://globalvalue.ar/shop/000181-cabezal-laser-tree-60w-k60-3442?page=5",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/5",
       "variants": []
     },
     {
@@ -2095,8 +2329,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3441/image_512",
-      "url": "https://globalvalue.ar/shop/000112-cabezal-algo-laser-infrarrojo-2w-1064nm-3441?page=4",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/4",
+      "url": "https://globalvalue.ar/shop/000112-cabezal-algo-laser-infrarrojo-2w-1064nm-3441?page=5",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/5",
       "variants": []
     },
     {
@@ -2122,8 +2356,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3440/image_512",
-      "url": "https://globalvalue.ar/shop/000114-cabezal-laser-algolaser-20w-3440?page=4",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/4",
+      "url": "https://globalvalue.ar/shop/000114-cabezal-laser-algolaser-20w-3440?page=5",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/5",
       "variants": []
     },
     {
@@ -2150,8 +2384,8 @@
         "Diodo"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3439/image_512",
-      "url": "https://globalvalue.ar/shop/000113-cabezal-laser-algolaser-10w-diodo-3439?page=4",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/4",
+      "url": "https://globalvalue.ar/shop/000113-cabezal-laser-algolaser-10w-diodo-3439?page=5",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/5",
       "variants": []
     },
     {
@@ -2177,8 +2411,8 @@
         "Rotatorio"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3438/image_512",
-      "url": "https://globalvalue.ar/shop/000115-rotativo-algo-laser-arr-2-0-mini-para-pixi-3438?page=4",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/4",
+      "url": "https://globalvalue.ar/shop/000115-rotativo-algo-laser-arr-2-0-mini-para-pixi-3438?page=5",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/5",
       "variants": []
     },
     {
@@ -2204,8 +2438,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3437/image_512",
-      "url": "https://globalvalue.ar/shop/000116-asistente-de-aire-algolaser-1-0-220v-3437?page=4",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/4",
+      "url": "https://globalvalue.ar/shop/000116-asistente-de-aire-algolaser-1-0-220v-3437?page=5",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/5",
       "variants": []
     },
     {
@@ -2520,8 +2754,8 @@
         "CNC"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3171/image_512",
-      "url": "https://globalvalue.ar/shop/000055-router-cnc-two-trees-h40-100x100-500w-3171?page=5",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/5",
+      "url": "https://globalvalue.ar/shop/000055-router-cnc-two-trees-h40-100x100-500w-3171?page=6",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/6",
       "variants": []
     },
     {
@@ -2547,8 +2781,8 @@
         "CNC"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3170/image_512",
-      "url": "https://globalvalue.ar/shop/000052-cnc-corte-laser-cloud-l10-10w-100x100cm-3170?page=5",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/5",
+      "url": "https://globalvalue.ar/shop/000052-cnc-corte-laser-cloud-l10-10w-100x100cm-3170?page=6",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/6",
       "variants": []
     },
     {
@@ -2574,8 +2808,8 @@
         "CNC"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3169/image_512",
-      "url": "https://globalvalue.ar/shop/000330-cnc-corte-laser-cloud-l10-100x100cm-20w-asistente-aire-3169?page=5",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/5",
+      "url": "https://globalvalue.ar/shop/000330-cnc-corte-laser-cloud-l10-100x100cm-20w-asistente-aire-3169?page=6",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/6",
       "variants": []
     },
     {
@@ -2598,8 +2832,8 @@
       "brand": null,
       "tags": [],
       "image": "https://globalvalue.ar/web/image/product.template/3167/image_512",
-      "url": "https://globalvalue.ar/shop/000051-base-elevadora-atomstack-h4-para-kraft-3167?page=5",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/5",
+      "url": "https://globalvalue.ar/shop/000051-base-elevadora-atomstack-h4-para-kraft-3167?page=6",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/6",
       "variants": []
     },
     {
@@ -2626,8 +2860,8 @@
         "CNC"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3166/image_512",
-      "url": "https://globalvalue.ar/shop/000050-cnc-corte-laser-sculpfun-s30-pro-max-20w-35x35cm-3166?page=5",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/5",
+      "url": "https://globalvalue.ar/shop/000050-cnc-corte-laser-sculpfun-s30-pro-max-20w-35x35cm-3166?page=6",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/6",
       "variants": []
     },
     {
@@ -2652,8 +2886,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3165/image_512",
-      "url": "https://globalvalue.ar/shop/000049-cabezal-laser-infrarrojo-atomstack-p1-1-2w-3165?page=5",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/5",
+      "url": "https://globalvalue.ar/shop/000049-cabezal-laser-infrarrojo-atomstack-p1-1-2w-3165?page=6",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/6",
       "variants": []
     },
     {
@@ -2679,8 +2913,8 @@
         "CNC"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3163/image_512",
-      "url": "https://globalvalue.ar/shop/000048-cnc-corte-laser-atomstack-swift-12w-30x30-3163?page=5",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/5",
+      "url": "https://globalvalue.ar/shop/000048-cnc-corte-laser-atomstack-swift-12w-30x30-3163?page=6",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/6",
       "variants": []
     },
     {
@@ -2706,8 +2940,8 @@
         "CNC"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3162/image_512",
-      "url": "https://globalvalue.ar/shop/000047-cabezal-laser-lasertree-k40-40w-opticos-para-cnc-3162?page=5",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/5",
+      "url": "https://globalvalue.ar/shop/000047-cabezal-laser-lasertree-k40-40w-opticos-para-cnc-3162?page=6",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/6",
       "variants": []
     },
     {
@@ -2733,8 +2967,8 @@
         "CNC"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3161/image_512",
-      "url": "https://globalvalue.ar/shop/000046-placa-mdf-40x40-cm-pack-x-10u-3mm-cnc-laser-para-artesanias-3161?page=5",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/5",
+      "url": "https://globalvalue.ar/shop/000046-placa-mdf-40x40-cm-pack-x-10u-3mm-cnc-laser-para-artesanias-3161?page=6",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/6",
       "variants": []
     },
     {
@@ -3052,8 +3286,8 @@
         "Panal"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3145/image_512",
-      "url": "https://globalvalue.ar/shop/000033-cnc-corte-laser-tyvok-spider-x1s-20w-800-800mm-asistente-de-aire-50l-panal-de-abejas-pies-de-altura-3145?page=6",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/6",
+      "url": "https://globalvalue.ar/shop/000033-cnc-corte-laser-tyvok-spider-x1s-20w-800-800mm-asistente-de-aire-50l-panal-de-abejas-pies-de-altura-3145?page=7",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/7",
       "variants": []
     },
     {
@@ -3078,8 +3312,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3144/image_512",
-      "url": "https://globalvalue.ar/shop/000032-maquina-corte-laser-tyvok-spider-x1c-20w-40x40cm-aire-cobertor-3144?page=6",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/6",
+      "url": "https://globalvalue.ar/shop/000032-maquina-corte-laser-tyvok-spider-x1c-20w-40x40cm-aire-cobertor-3144?page=7",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/7",
       "variants": []
     },
     {
@@ -3105,8 +3339,8 @@
         "Rotatorio"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3139/image_512",
-      "url": "https://globalvalue.ar/shop/000030-rotativo-algo-laser-arr-compatible-con-otras-marcas-y-pixi-3139?page=6",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/6",
+      "url": "https://globalvalue.ar/shop/000030-rotativo-algo-laser-arr-compatible-con-otras-marcas-y-pixi-3139?page=7",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/7",
       "variants": []
     },
     {
@@ -3132,8 +3366,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3137/image_512",
-      "url": "https://globalvalue.ar/shop/000028-cortadora-y-grabadora-laser-algolaser-pixi-10w-3137?page=6",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/6",
+      "url": "https://globalvalue.ar/shop/000028-cortadora-y-grabadora-laser-algolaser-pixi-10w-3137?page=7",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/7",
       "variants": []
     },
     {
@@ -3158,8 +3392,8 @@
         "Two Trees"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3131/image_512",
-      "url": "https://globalvalue.ar/shop/000022-kit-extension-area-de-trabajo-two-trees-600-600mm-para-tts-3131?page=6",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/6",
+      "url": "https://globalvalue.ar/shop/000022-kit-extension-area-de-trabajo-two-trees-600-600mm-para-tts-3131?page=7",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/7",
       "variants": []
     },
     {
@@ -3186,8 +3420,8 @@
         "Rotatorio"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3129/image_512",
-      "url": "https://globalvalue.ar/shop/000020-rotativo-two-trees-tr2-para-laser-multifuncion-4-en-1-3129?page=6",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/6",
+      "url": "https://globalvalue.ar/shop/000020-rotativo-two-trees-tr2-para-laser-multifuncion-4-en-1-3129?page=7",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/7",
       "variants": []
     },
     {
@@ -3214,8 +3448,8 @@
         "CNC"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3125/image_512",
-      "url": "https://globalvalue.ar/shop/000017-bomba-aire-two-trees-para-laser-cnc-3125?page=6",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/6",
+      "url": "https://globalvalue.ar/shop/000017-bomba-aire-two-trees-para-laser-cnc-3125?page=7",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/7",
       "variants": []
     },
     {
@@ -3240,8 +3474,8 @@
         "Rotatorio"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3123/image_512",
-      "url": "https://globalvalue.ar/shop/000015-accesorio-rotativo-4-eje-para-ttc-450-450-pro-6050-h40-3123?page=6",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/6",
+      "url": "https://globalvalue.ar/shop/000015-accesorio-rotativo-4-eje-para-ttc-450-450-pro-6050-h40-3123?page=7",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/7",
       "variants": []
     },
     {
@@ -3267,8 +3501,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/3122/image_512",
-      "url": "https://globalvalue.ar/shop/000014-grabadora-laser-two-trees-ts5-3122?page=6",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/6",
+      "url": "https://globalvalue.ar/shop/000014-grabadora-laser-two-trees-ts5-3122?page=7",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/7",
       "variants": []
     },
     {
@@ -3583,8 +3817,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2749/image_512",
-      "url": "https://globalvalue.ar/shop/000203-grabadora-y-cortadora-laser-ortur-f10-20w-trabajos-grandes-2749?page=7",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/7",
+      "url": "https://globalvalue.ar/shop/000203-grabadora-y-cortadora-laser-ortur-f10-20w-trabajos-grandes-2749?page=8",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/8",
       "variants": []
     },
     {
@@ -3609,8 +3843,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2748/image_512",
-      "url": "https://globalvalue.ar/shop/000173-smart-hub-algo-laser-para-modelos-alpha-delta-y-diy-kit-2748?page=7",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/7",
+      "url": "https://globalvalue.ar/shop/000173-smart-hub-algo-laser-para-modelos-alpha-delta-y-diy-kit-2748?page=8",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/8",
       "variants": []
     },
     {
@@ -3636,8 +3870,8 @@
         "CNC"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2747/image_512",
-      "url": "https://globalvalue.ar/shop/000170-camara-algo-laser-para-software-lightburn-cnc-laser-2747?page=7",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/7",
+      "url": "https://globalvalue.ar/shop/000170-camara-algo-laser-para-software-lightburn-cnc-laser-2747?page=8",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/8",
       "variants": []
     },
     {
@@ -3662,8 +3896,8 @@
         "Sculpfun"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2745/image_512",
-      "url": "https://globalvalue.ar/shop/000219-kit-de-expansion-area-de-trabajo-para-sculpfun-g9-2745?page=7",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/7",
+      "url": "https://globalvalue.ar/shop/000219-kit-de-expansion-area-de-trabajo-para-sculpfun-g9-2745?page=8",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/8",
       "variants": []
     },
     {
@@ -3688,8 +3922,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2744/image_512",
-      "url": "https://globalvalue.ar/shop/000174-kit-expansion-para-grabadora-laser-algo-laser-diy-kit-mk2-2744?page=7",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/7",
+      "url": "https://globalvalue.ar/shop/000174-kit-expansion-para-grabadora-laser-algo-laser-diy-kit-mk2-2744?page=8",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/8",
       "variants": []
     },
     {
@@ -3712,8 +3946,8 @@
       "brand": null,
       "tags": [],
       "image": "https://globalvalue.ar/web/image/product.template/2743/image_512",
-      "url": "https://globalvalue.ar/shop/000290-pies-elevadores-altura-atomstack-h1-para-a6-a12-a24-pro-2743?page=7",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/7",
+      "url": "https://globalvalue.ar/shop/000290-pies-elevadores-altura-atomstack-h1-para-a6-a12-a24-pro-2743?page=8",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/8",
       "variants": []
     },
     {
@@ -3736,8 +3970,8 @@
       "brand": null,
       "tags": [],
       "image": "https://globalvalue.ar/web/image/product.template/2742/image_512",
-      "url": "https://globalvalue.ar/shop/000285-asistente-aire-atomstack-f60-para-a6-a12-a24-2742?page=7",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/7",
+      "url": "https://globalvalue.ar/shop/000285-asistente-aire-atomstack-f60-para-a6-a12-a24-2742?page=8",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/8",
       "variants": []
     },
     {
@@ -3762,8 +3996,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2740/image_512",
-      "url": "https://globalvalue.ar/shop/000320-magic-paper-tamano-a4-para-grabadora-laser-x-10-unidad-2740?page=7",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/7",
+      "url": "https://globalvalue.ar/shop/000320-magic-paper-tamano-a4-para-grabadora-laser-x-10-unidad-2740?page=8",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/8",
       "variants": []
     },
     {
@@ -3786,8 +4020,8 @@
       "brand": null,
       "tags": [],
       "image": "https://globalvalue.ar/web/image/product.template/2739/image_512",
-      "url": "https://globalvalue.ar/shop/000280-pantalla-tactil-atomstack-cr1-para-x12-x24-a6-a12-a24-pro-2739?page=7",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/7",
+      "url": "https://globalvalue.ar/shop/000280-pantalla-tactil-atomstack-cr1-para-x12-x24-a6-a12-a24-pro-2739?page=8",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/8",
       "variants": []
     },
     {
@@ -4109,8 +4343,8 @@
         "CNC"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2726/image_512",
-      "url": "https://globalvalue.ar/shop/000133-extractor-de-humo-doble-boca-para-cnc-laser-gran-potencia-2726?page=8",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/8",
+      "url": "https://globalvalue.ar/shop/000133-extractor-de-humo-doble-boca-para-cnc-laser-gran-potencia-2726?page=9",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/9",
       "variants": []
     },
     {
@@ -4133,8 +4367,8 @@
       "brand": null,
       "tags": [],
       "image": "https://globalvalue.ar/web/image/product.template/2725/image_512",
-      "url": "https://globalvalue.ar/shop/000331-purificador-aire-wainlux-md22-para-wainlux-k8-2725?page=8",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/8",
+      "url": "https://globalvalue.ar/shop/000331-purificador-aire-wainlux-md22-para-wainlux-k8-2725?page=9",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/9",
       "variants": []
     },
     {
@@ -4161,8 +4395,8 @@
         "Diodo"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2724/image_512",
-      "url": "https://globalvalue.ar/shop/000592-cnc-corte-laser-guepardo-85-x-82-cm-laser-diodo-30w-opticos-2724?page=8",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/8",
+      "url": "https://globalvalue.ar/shop/000592-cnc-corte-laser-guepardo-85-x-82-cm-laser-diodo-30w-opticos-2724?page=9",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/9",
       "variants": []
     },
     {
@@ -4188,8 +4422,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2723/image_512",
-      "url": "https://globalvalue.ar/shop/000298-grabadora-laser-mini-two-trees-ts1-3w-2723?page=8",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/8",
+      "url": "https://globalvalue.ar/shop/000298-grabadora-laser-mini-two-trees-ts1-3w-2723?page=9",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/9",
       "variants": []
     },
     {
@@ -4214,8 +4448,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2722/image_512",
-      "url": "https://globalvalue.ar/shop/000156-grabadora-laser-wainlux-x1-10w-con-cobertor-2722?page=8",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/8",
+      "url": "https://globalvalue.ar/shop/000156-grabadora-laser-wainlux-x1-10w-con-cobertor-2722?page=9",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/9",
       "variants": []
     },
     {
@@ -4240,8 +4474,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2721/image_512",
-      "url": "https://globalvalue.ar/shop/000343-laser-grabado-y-corte-portatil-plegable-wainlux-z3-2721?page=8",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/8",
+      "url": "https://globalvalue.ar/shop/000343-laser-grabado-y-corte-portatil-plegable-wainlux-z3-2721?page=9",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/9",
       "variants": []
     },
     {
@@ -4268,8 +4502,8 @@
         "Diodo"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2720/image_512",
-      "url": "https://globalvalue.ar/shop/000355-laser-portatil-dual-fibra-20w-y-diodo-5w-wainlux-z6-2720?page=8",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/8",
+      "url": "https://globalvalue.ar/shop/000355-laser-portatil-dual-fibra-20w-y-diodo-5w-wainlux-z6-2720?page=9",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/9",
       "variants": []
     },
     {
@@ -4294,8 +4528,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2719/image_512",
-      "url": "https://globalvalue.ar/shop/000352-mini-laser-portatil-wainlux-z4-puede-grabar-en-360-grados-2719?page=8",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/8",
+      "url": "https://globalvalue.ar/shop/000352-mini-laser-portatil-wainlux-z4-puede-grabar-en-360-grados-2719?page=9",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/9",
       "variants": []
     },
     {
@@ -4320,8 +4554,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2718/image_512",
-      "url": "https://globalvalue.ar/shop/000458-maquina-laser-grabado-portatil-wainlux-k10-5w-2718?page=8",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/8",
+      "url": "https://globalvalue.ar/shop/000458-maquina-laser-grabado-portatil-wainlux-k10-5w-2718?page=9",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/9",
       "variants": []
     },
     {
@@ -4644,8 +4878,8 @@
         "Rotatorio"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2705/image_512",
-      "url": "https://globalvalue.ar/shop/000301-router-cnc-two-trees-ttc-450pro-500w-rotativo-aspiradora-2705?page=9",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/9",
+      "url": "https://globalvalue.ar/shop/000301-router-cnc-two-trees-ttc-450pro-500w-rotativo-aspiradora-2705?page=10",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/10",
       "variants": []
     },
     {
@@ -4671,8 +4905,8 @@
         "Fibra"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2704/image_512",
-      "url": "https://globalvalue.ar/shop/000189-laser-de-fibra-20w-raycus-2704?page=9",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/9",
+      "url": "https://globalvalue.ar/shop/000189-laser-de-fibra-20w-raycus-2704?page=10",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/10",
       "variants": []
     },
     {
@@ -4698,8 +4932,8 @@
         "UV"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2703/image_512",
-      "url": "https://globalvalue.ar/shop/000268-maquina-uv-laser-gainlaser-5w-graba-cualquier-material-2703?page=9",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/9",
+      "url": "https://globalvalue.ar/shop/000268-maquina-uv-laser-gainlaser-5w-graba-cualquier-material-2703?page=10",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/10",
       "variants": []
     },
     {
@@ -4725,8 +4959,8 @@
         "CNC"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2702/image_512",
-      "url": "https://globalvalue.ar/shop/000300-router-cnc-two-trees-ttc-450pro-500w-aspiradora-2702?page=9",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/9",
+      "url": "https://globalvalue.ar/shop/000300-router-cnc-two-trees-ttc-450pro-500w-aspiradora-2702?page=10",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/10",
       "variants": []
     },
     {
@@ -4752,8 +4986,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2697/image_512",
-      "url": "https://globalvalue.ar/shop/000208-laser-grabado-y-corte-sculpfun-icube-pro-max-10w-2697?page=9",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/9",
+      "url": "https://globalvalue.ar/shop/000208-laser-grabado-y-corte-sculpfun-icube-pro-max-10w-2697?page=10",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/10",
       "variants": []
     },
     {
@@ -4780,8 +5014,8 @@
         "CO2"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2696/image_512",
-      "url": "https://globalvalue.ar/shop/000158-cnc-laser-co2-50w-40x40-cm-placa-ruida-2696?page=9",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/9",
+      "url": "https://globalvalue.ar/shop/000158-cnc-laser-co2-50w-40x40-cm-placa-ruida-2696?page=10",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/10",
       "variants": []
     },
     {
@@ -4807,8 +5041,8 @@
         "CO2"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2695/image_512",
-      "url": "https://globalvalue.ar/shop/000388-laser-co2-50w-30x20-cm-corta-acrilico-transparente-m0-2695?page=9",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/9",
+      "url": "https://globalvalue.ar/shop/000388-laser-co2-50w-30x20-cm-corta-acrilico-transparente-m0-2695?page=10",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/10",
       "variants": []
     },
     {
@@ -4833,8 +5067,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2693/image_512",
-      "url": "https://globalvalue.ar/shop/000179-cabezal-laser-tree-30w-optico-k30-2693?page=9",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/9",
+      "url": "https://globalvalue.ar/shop/000179-cabezal-laser-tree-30w-optico-k30-2693?page=10",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/10",
       "variants": []
     },
     {
@@ -4860,8 +5094,8 @@
         "Rotatorio"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2690/image_512",
-      "url": "https://globalvalue.ar/shop/000311-rotativo-two-trees-tr3-2690?page=9",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/9",
+      "url": "https://globalvalue.ar/shop/000311-rotativo-two-trees-tr3-2690?page=10",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/10",
       "variants": []
     },
     {
@@ -5184,8 +5418,8 @@
         "Panal"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2674/image_512",
-      "url": "https://globalvalue.ar/shop/000188-cnc-laser-acmer-p3-48w-cubierta-panal-aire-camara-rotativo-2674?page=10",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/10",
+      "url": "https://globalvalue.ar/shop/000188-cnc-laser-acmer-p3-48w-cubierta-panal-aire-camara-rotativo-2674?page=11",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/11",
       "variants": []
     },
     {
@@ -5210,8 +5444,8 @@
         "Rotatorio"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2672/image_512",
-      "url": "https://globalvalue.ar/shop/000185-accesorio-rotativo-acmer-m2-copas-2672?page=10",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/10",
+      "url": "https://globalvalue.ar/shop/000185-accesorio-rotativo-acmer-m2-copas-2672?page=11",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/11",
       "variants": []
     },
     {
@@ -5234,8 +5468,8 @@
       "brand": null,
       "tags": [],
       "image": "https://globalvalue.ar/web/image/product.template/2671/image_512",
-      "url": "https://globalvalue.ar/shop/000157-mr-carve-daja-a6-pro-dual-10w-1w-infrarojo-con-cobertor-2671?page=10",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/10",
+      "url": "https://globalvalue.ar/shop/000157-mr-carve-daja-a6-pro-dual-10w-1w-infrarojo-con-cobertor-2671?page=11",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/11",
       "variants": []
     },
     {
@@ -5262,8 +5496,8 @@
         "Rotatorio"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2670/image_512",
-      "url": "https://globalvalue.ar/shop/000190-laser-de-fibra-30w-raycus-max-area-20x20-cm-rotativo-2670?page=10",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/10",
+      "url": "https://globalvalue.ar/shop/000190-laser-de-fibra-30w-raycus-max-area-20x20-cm-rotativo-2670?page=11",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/11",
       "variants": []
     },
     {
@@ -5289,8 +5523,8 @@
         "Fibra"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2667/image_512",
-      "url": "https://globalvalue.ar/shop/000460-grabadora-laser-de-fibra-de-mano-20w-v1-mark-f1-handheld-2667?page=10",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/10",
+      "url": "https://globalvalue.ar/shop/000460-grabadora-laser-de-fibra-de-mano-20w-v1-mark-f1-handheld-2667?page=11",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/11",
       "variants": []
     },
     {
@@ -5316,8 +5550,8 @@
         "Fibra"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2666/image_512",
-      "url": "https://globalvalue.ar/shop/000461-grabadora-laser-de-fibra-de-mano-30w-v1-mark-f1-handheld-2666?page=10",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/10",
+      "url": "https://globalvalue.ar/shop/000461-grabadora-laser-de-fibra-de-mano-30w-v1-mark-f1-handheld-2666?page=11",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/11",
       "variants": []
     },
     {
@@ -5343,8 +5577,8 @@
         "CO2"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2665/image_512",
-      "url": "https://globalvalue.ar/shop/000154-laser-co2-atomstack-hurricane-55w-corta-acrilico-transp-2665?page=10",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/10",
+      "url": "https://globalvalue.ar/shop/000154-laser-co2-atomstack-hurricane-55w-corta-acrilico-transp-2665?page=11",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/11",
       "variants": []
     },
     {
@@ -5370,8 +5604,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2662/image_512",
-      "url": "https://globalvalue.ar/shop/000246-cubierta-protectora-para-grabadora-laser-creality-3d-2662?page=10",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/10",
+      "url": "https://globalvalue.ar/shop/000246-cubierta-protectora-para-grabadora-laser-creality-3d-2662?page=11",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/11",
       "variants": []
     },
     {
@@ -5397,8 +5631,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2661/image_512",
-      "url": "https://globalvalue.ar/shop/000153-grabador-laser-sculpfun-g9-dual-con-galvanometro-2661?page=10",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/10",
+      "url": "https://globalvalue.ar/shop/000153-grabador-laser-sculpfun-g9-dual-con-galvanometro-2661?page=11",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/11",
       "variants": []
     },
     {
@@ -5690,8 +5924,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2644/image_512",
-      "url": "https://globalvalue.ar/shop/000176-pies-elevadores-de-altura-algo-laser-para-alpha-delta-y-diy-kit-2644?page=11",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/11",
+      "url": "https://globalvalue.ar/shop/000176-pies-elevadores-de-altura-algo-laser-para-alpha-delta-y-diy-kit-2644?page=12",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/12",
       "variants": []
     },
     {
@@ -5718,8 +5952,8 @@
         "Panal"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2643/image_512",
-      "url": "https://globalvalue.ar/shop/000172-panal-de-abejas-algolaser-40x40cm-base-de-apoyo-2643?page=11",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/11",
+      "url": "https://globalvalue.ar/shop/000172-panal-de-abejas-algolaser-40x40cm-base-de-apoyo-2643?page=12",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/12",
       "variants": []
     },
     {
@@ -5744,8 +5978,8 @@
         "Sculpfun"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2641/image_512",
-      "url": "https://globalvalue.ar/shop/000222-pantalla-tactil-sculpfun-ts1-controlador-offline-sd-wifi-2641?page=11",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/11",
+      "url": "https://globalvalue.ar/shop/000222-pantalla-tactil-sculpfun-ts1-controlador-offline-sd-wifi-2641?page=12",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/12",
       "variants": []
     },
     {
@@ -5768,8 +6002,8 @@
       "brand": null,
       "tags": [],
       "image": "https://globalvalue.ar/web/image/product.template/2639/image_512",
-      "url": "https://globalvalue.ar/shop/000273-repuesto-placa-controladora-atomstack-x7-a10-s10-x20-p9-2639?page=11",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/11",
+      "url": "https://globalvalue.ar/shop/000273-repuesto-placa-controladora-atomstack-x7-a10-s10-x20-p9-2639?page=12",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/12",
       "variants": []
     },
     {
@@ -5795,8 +6029,8 @@
         "Rotatorio"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2637/image_512",
-      "url": "https://globalvalue.ar/shop/000224-rotativo-sculpfun-ra-pro-max-chuck-4-en-1-2637?page=11",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/11",
+      "url": "https://globalvalue.ar/shop/000224-rotativo-sculpfun-ra-pro-max-chuck-4-en-1-2637?page=12",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/12",
       "variants": []
     },
     {
@@ -5819,8 +6053,8 @@
       "brand": null,
       "tags": [],
       "image": "https://globalvalue.ar/web/image/product.template/2636/image_512",
-      "url": "https://globalvalue.ar/shop/000001-repuesto-lente-focus-cabezal-atomstack-m50-x7-a10-s10-2636?page=11",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/11",
+      "url": "https://globalvalue.ar/shop/000001-repuesto-lente-focus-cabezal-atomstack-m50-x7-a10-s10-2636?page=12",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/12",
       "variants": []
     },
     {
@@ -5845,8 +6079,8 @@
         "Rotatorio"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2634/image_512",
-      "url": "https://globalvalue.ar/shop/000198-rotativo-ortur-chuck-yrc-1-0-2634?page=11",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/11",
+      "url": "https://globalvalue.ar/shop/000198-rotativo-ortur-chuck-yrc-1-0-2634?page=12",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/12",
       "variants": []
     },
     {
@@ -5869,8 +6103,8 @@
       "brand": null,
       "tags": [],
       "image": "https://globalvalue.ar/web/image/product.template/2632/image_512",
-      "url": "https://globalvalue.ar/shop/000003-repuesto-lente-window-ortur-lu2-10w-kit-x-3-2632?page=11",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/11",
+      "url": "https://globalvalue.ar/shop/000003-repuesto-lente-window-ortur-lu2-10w-kit-x-3-2632?page=12",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/12",
       "variants": []
     },
     {
@@ -6178,8 +6412,8 @@
         "Rotatorio"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2615/image_512",
-      "url": "https://globalvalue.ar/shop/000360-neje-4-max-20w-75x46-cm-plotter-dibujo-rotativo-aire-pad-2615?page=12",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/12",
+      "url": "https://globalvalue.ar/shop/000360-neje-4-max-20w-75x46-cm-plotter-dibujo-rotativo-aire-pad-2615?page=13",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/13",
       "variants": []
     },
     {
@@ -6205,8 +6439,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2613/image_512",
-      "url": "https://globalvalue.ar/shop/000245-maquina-cortadora-y-grabadora-laser-creality-falcon2-pro-40w-2613?page=12",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/12",
+      "url": "https://globalvalue.ar/shop/000245-maquina-cortadora-y-grabadora-laser-creality-falcon2-pro-40w-2613?page=13",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/13",
       "variants": []
     },
     {
@@ -6232,8 +6466,8 @@
         "CNC"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2611/image_512",
-      "url": "https://globalvalue.ar/shop/000274-cnc-corte-laser-atomstack-x70-max-70w-2611?page=12",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/12",
+      "url": "https://globalvalue.ar/shop/000274-cnc-corte-laser-atomstack-x70-max-70w-2611?page=13",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/13",
       "variants": []
     },
     {
@@ -6256,8 +6490,8 @@
       "brand": null,
       "tags": [],
       "image": "https://globalvalue.ar/web/image/product.template/2610/image_512",
-      "url": "https://globalvalue.ar/shop/000271-atomstack-ac2-camara-para-lightburn-2610?page=12",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/12",
+      "url": "https://globalvalue.ar/shop/000271-atomstack-ac2-camara-para-lightburn-2610?page=13",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/13",
       "variants": []
     },
     {
@@ -6282,8 +6516,8 @@
         "Rotatorio"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2609/image_512",
-      "url": "https://globalvalue.ar/shop/000275-atomstack-m4-pro-graba-metales-y-plasticos-acepta-rotativo-2609?page=12",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/12",
+      "url": "https://globalvalue.ar/shop/000275-atomstack-m4-pro-graba-metales-y-plasticos-acepta-rotativo-2609?page=13",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/13",
       "variants": []
     },
     {
@@ -6308,8 +6542,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2608/image_512",
-      "url": "https://globalvalue.ar/shop/000180-cabezal-laser-tree-20w-optico-k20-2608?page=12",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/12",
+      "url": "https://globalvalue.ar/shop/000180-cabezal-laser-tree-20w-optico-k20-2608?page=13",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/13",
       "variants": []
     },
     {
@@ -6334,8 +6568,8 @@
         "Creality"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2606/image_512",
-      "url": "https://globalvalue.ar/shop/000231-impresora-3d-creality-k1c-con-nivelacion-automatica-y-camara-2606?page=12",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/12",
+      "url": "https://globalvalue.ar/shop/000231-impresora-3d-creality-k1c-con-nivelacion-automatica-y-camara-2606?page=13",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/13",
       "variants": []
     },
     {
@@ -6360,8 +6594,8 @@
         "Rotatorio"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2605/image_512",
-      "url": "https://globalvalue.ar/shop/000199-rotativo-ortur-yrr-3-0-para-copas-2605?page=12",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/12",
+      "url": "https://globalvalue.ar/shop/000199-rotativo-ortur-yrr-3-0-para-copas-2605?page=13",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/13",
       "variants": []
     },
     {
@@ -6384,8 +6618,8 @@
       "brand": null,
       "tags": [],
       "image": "https://globalvalue.ar/web/image/product.template/2603/image_512",
-      "url": "https://globalvalue.ar/shop/000194-cobertor-enclousure-ortur-anti-humo-llamas-polvo-2603?page=12",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/12",
+      "url": "https://globalvalue.ar/shop/000194-cobertor-enclousure-ortur-anti-humo-llamas-polvo-2603?page=13",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/13",
       "variants": []
     },
     {
@@ -6708,8 +6942,8 @@
         "Sculpfun"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2578/image_512",
-      "url": "https://globalvalue.ar/shop/000214-cam-500-sculpfun-para-lightburn-escaner-posicionamiento-2578?page=13",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/13",
+      "url": "https://globalvalue.ar/shop/000214-cam-500-sculpfun-para-lightburn-escaner-posicionamiento-2578?page=14",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/14",
       "variants": []
     },
     {
@@ -6732,8 +6966,8 @@
       "brand": null,
       "tags": [],
       "image": "https://globalvalue.ar/web/image/product.template/2576/image_512",
-      "url": "https://globalvalue.ar/shop/000218-kit-expansion-sculpun-para-s30-expande-area-de-trabajo-94x41-2576?page=13",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/13",
+      "url": "https://globalvalue.ar/shop/000218-kit-expansion-sculpun-para-s30-expande-area-de-trabajo-94x41-2576?page=14",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/14",
       "variants": []
     },
     {
@@ -6759,8 +6993,8 @@
         "CNC"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2574/image_512",
-      "url": "https://globalvalue.ar/shop/000151-cnc-laser-atomstack-i-kier-k1-pro-24w-opticos-2574?page=13",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/13",
+      "url": "https://globalvalue.ar/shop/000151-cnc-laser-atomstack-i-kier-k1-pro-24w-opticos-2574?page=14",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/14",
       "variants": []
     },
     {
@@ -6786,8 +7020,8 @@
         "CNC"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2573/image_512",
-      "url": "https://globalvalue.ar/shop/000295-cnc-laser-atomstack-a24-pro-24w-2573?page=13",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/13",
+      "url": "https://globalvalue.ar/shop/000295-cnc-laser-atomstack-a24-pro-24w-2573?page=14",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/14",
       "variants": []
     },
     {
@@ -6810,8 +7044,8 @@
       "brand": null,
       "tags": [],
       "image": "https://globalvalue.ar/web/image/product.template/2572/image_512",
-      "url": "https://globalvalue.ar/shop/000250-grabadora-y-cortadora-atomstack-a12-pro-12w-2572?page=13",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/13",
+      "url": "https://globalvalue.ar/shop/000250-grabadora-y-cortadora-atomstack-a12-pro-12w-2572?page=14",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/14",
       "variants": []
     },
     {
@@ -6837,8 +7071,8 @@
         "Fibra"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2571/image_512",
-      "url": "https://globalvalue.ar/shop/000289-cabezal-laser-atmstack-r30-v2-infrarojo-fibra-graba-metales-2571?page=13",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/13",
+      "url": "https://globalvalue.ar/shop/000289-cabezal-laser-atmstack-r30-v2-infrarojo-fibra-graba-metales-2571?page=14",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/14",
       "variants": []
     },
     {
@@ -6863,8 +7097,8 @@
         "Two Trees"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2569/image_512",
-      "url": "https://globalvalue.ar/shop/000451-husillo-500w-two-trees-para-router-ttc-3018-450-450-pro-6050-h40-2569?page=13",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/13",
+      "url": "https://globalvalue.ar/shop/000451-husillo-500w-two-trees-para-router-ttc-3018-450-450-pro-6050-h40-2569?page=14",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/14",
       "variants": []
     },
     {
@@ -6887,8 +7121,8 @@
       "brand": null,
       "tags": [],
       "image": "https://globalvalue.ar/web/image/product.template/2566/image_512",
-      "url": "https://globalvalue.ar/shop/000287-kit-expansion-atomstack-x20-pro-aumenta-area-850x400mm-2566?page=13",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/13",
+      "url": "https://globalvalue.ar/shop/000287-kit-expansion-atomstack-x20-pro-aumenta-area-850x400mm-2566?page=14",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/14",
       "variants": []
     },
     {
@@ -6913,8 +7147,8 @@
         "Laser"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2565/image_512",
-      "url": "https://globalvalue.ar/shop/000195-plataforma-grabado-laser-ortur-lep-1-0-400x450-mm-2565?page=13",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/13",
+      "url": "https://globalvalue.ar/shop/000195-plataforma-grabado-laser-ortur-lep-1-0-400x450-mm-2565?page=14",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/14",
       "variants": []
     },
     {
@@ -7229,8 +7463,8 @@
         "Fibra"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2541/image_512",
-      "url": "https://globalvalue.ar/shop/000148-laser-de-fibra-atomstack-m4-2-en-1-graba-metales-oro-plata-2541?page=14",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/14",
+      "url": "https://globalvalue.ar/shop/000148-laser-de-fibra-atomstack-m4-2-en-1-graba-metales-oro-plata-2541?page=15",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/15",
       "variants": []
     },
     {
@@ -7256,8 +7490,8 @@
         "CNC"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2540/image_512",
-      "url": "https://globalvalue.ar/shop/000329-cnc-corte-laser-100x100cm-80w-10w-opticos-asistente-aire-corta-mdf-3mm-2540?page=14",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/14",
+      "url": "https://globalvalue.ar/shop/000329-cnc-corte-laser-100x100cm-80w-10w-opticos-asistente-aire-corta-mdf-3mm-2540?page=15",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/15",
       "variants": []
     },
     {
@@ -7285,8 +7519,8 @@
         "Panal"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2536/image_512",
-      "url": "https://globalvalue.ar/shop/000216-panel-abejas-sculpfun-400x400-mm-para-cnc-laser-2536?page=14",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/14",
+      "url": "https://globalvalue.ar/shop/000216-panel-abejas-sculpfun-400x400-mm-para-cnc-laser-2536?page=15",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/15",
       "variants": []
     },
     {
@@ -7313,8 +7547,8 @@
         "Rotatorio"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2534/image_512",
-      "url": "https://globalvalue.ar/shop/000361-accesorio-rotativo-cnc-laser-compatible-con-todas-las-marcas-2534?page=14",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/14",
+      "url": "https://globalvalue.ar/shop/000361-accesorio-rotativo-cnc-laser-compatible-con-todas-las-marcas-2534?page=15",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/15",
       "variants": []
     },
     {
@@ -7341,8 +7575,8 @@
         "CNC"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2529/image_512",
-      "url": "https://globalvalue.ar/shop/000225-cnc-laser-sculpfun-s10-10w-2529?page=14",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/14",
+      "url": "https://globalvalue.ar/shop/000225-cnc-laser-sculpfun-s10-10w-2529?page=15",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/15",
       "variants": []
     },
     {
@@ -7365,8 +7599,8 @@
       "brand": null,
       "tags": [],
       "image": "https://globalvalue.ar/web/image/product.template/2528/image_512",
-      "url": "https://globalvalue.ar/shop/000217-kit-expansion-sculpun-para-s9-y-s10-area-de-trabajo-95x41-2528?page=14",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/14",
+      "url": "https://globalvalue.ar/shop/000217-kit-expansion-sculpun-para-s9-y-s10-area-de-trabajo-95x41-2528?page=15",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/15",
       "variants": []
     },
     {
@@ -7392,8 +7626,8 @@
         "Fibra"
       ],
       "image": "https://globalvalue.ar/web/image/product.template/2526/image_512",
-      "url": "https://globalvalue.ar/shop/000457-laser-de-fibra-portatil-5w-meenjet-m3-pantalla-color-bateria-litio-2526?page=14",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/14",
+      "url": "https://globalvalue.ar/shop/000457-laser-de-fibra-portatil-5w-meenjet-m3-pantalla-color-bateria-litio-2526?page=15",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/15",
       "variants": []
     },
     {
@@ -7416,8 +7650,8 @@
       "brand": null,
       "tags": [],
       "image": "https://globalvalue.ar/web/image/product.template/2525/image_512",
-      "url": "https://globalvalue.ar/shop/000288-kit-expansion-area-de-trabajo-atomstack-x7-a10-s10-pro-2525?page=14",
-      "scrapedFrom": "https://globalvalue.ar/shop/page/14",
+      "url": "https://globalvalue.ar/shop/000288-kit-expansion-area-de-trabajo-atomstack-x7-a10-s10-pro-2525?page=15",
+      "scrapedFrom": "https://globalvalue.ar/shop/page/15",
       "variants": []
     },
     {

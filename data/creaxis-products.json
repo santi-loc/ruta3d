@@ -5,14 +5,14 @@
     "baseUrl": "https://creaxis.com.ar",
     "apiPath": "/wp-json/wc/store/v1/products"
   },
-  "scrapedAt": "2026-10-28T14:58:00.662Z",
+  "scrapedAt": "2026-10-29T15:03:50.398Z",
   "source": "https://creaxis.com.ar/wp-json/wc/store/v1/products",
   "pages": [
     {
       "page": 1,
       "url": "https://creaxis.com.ar/wp-json/wc/store/v1/products?per_page=100&page=1",
       "found": 100,
-      "added": 93
+      "added": 100
     },
     {
       "page": 2,
@@ -266,12 +266,10 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 1610900,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "Pocas unidades",
-      "available": true,
+      "purchaseModes": [],
+      "stock": null,
+      "stockLabel": "Consultar",
+      "available": false,
       "brand": "Bambu Lab",
       "tags": [
         "Bambu Lab"
@@ -345,7 +343,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 2,
+      "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Bambu Lab",
@@ -354,6 +352,202 @@
       ],
       "image": "https://creaxis.com.ar/wp-content/uploads/2026/06/Bambu-lab-p2s-combo.webp",
       "url": "https://creaxis.com.ar/producto/bambu-lab-p2s-combo-ams-2-pro/",
+      "scrapedFrom": "https://creaxis.com.ar/wp-json/wc/store/v1/products",
+      "variants": []
+    },
+    {
+      "id": "creaxis-2715",
+      "sourceProductId": "2715",
+      "store": "Creaxis 3D",
+      "domain": "creaxis.com.ar",
+      "name": "Bambu Lab PLA Basic Azul Gris 1kg",
+      "category": "Filamentos",
+      "price": 38280,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 31900,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 5,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab",
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://creaxis.com.ar/wp-content/uploads/2026/10/Bobina-Bambu-Lab-y-jarron-espiral.webp",
+      "url": "https://creaxis.com.ar/producto/bambu-lab-pla-basic-azul-gris-1kg/",
+      "scrapedFrom": "https://creaxis.com.ar/wp-json/wc/store/v1/products",
+      "variants": []
+    },
+    {
+      "id": "creaxis-2711",
+      "sourceProductId": "2711",
+      "store": "Creaxis 3D",
+      "domain": "creaxis.com.ar",
+      "name": "Bambu Lab PLA Basic Beige 1kg",
+      "category": "Filamentos",
+      "price": 38280,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 31900,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 5,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab",
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://creaxis.com.ar/wp-content/uploads/2026/10/Carrete-de-filamento-y-jarron-espiral.webp",
+      "url": "https://creaxis.com.ar/producto/bambu-lab-pla-basic-beige-1kg/",
+      "scrapedFrom": "https://creaxis.com.ar/wp-json/wc/store/v1/products",
+      "variants": []
+    },
+    {
+      "id": "creaxis-2714",
+      "sourceProductId": "2714",
+      "store": "Creaxis 3D",
+      "domain": "creaxis.com.ar",
+      "name": "Bambu Lab PLA Basic Gris 1kg",
+      "category": "Filamentos",
+      "price": 38280,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 31900,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 5,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab",
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://creaxis.com.ar/wp-content/uploads/2026/10/Carrete-Bambu-Lab-y-Espiral-3D.webp",
+      "url": "https://creaxis.com.ar/producto/bambu-lab-pla-basic-gris-1kg/",
+      "scrapedFrom": "https://creaxis.com.ar/wp-json/wc/store/v1/products",
+      "variants": []
+    },
+    {
+      "id": "creaxis-2710",
+      "sourceProductId": "2710",
+      "store": "Creaxis 3D",
+      "domain": "creaxis.com.ar",
+      "name": "Bambu Lab PLA Basic Marrón 1kg",
+      "category": "Filamentos",
+      "price": 38280,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 31900,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 5,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab",
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://creaxis.com.ar/wp-content/uploads/2026/10/Bobina-Bambu-Lab-y-Vaso-Espiral-Terracota.webp",
+      "url": "https://creaxis.com.ar/producto/bambu-lab-pla-basic-marron-1kg/",
+      "scrapedFrom": "https://creaxis.com.ar/wp-json/wc/store/v1/products",
+      "variants": []
+    },
+    {
+      "id": "creaxis-2716",
+      "sourceProductId": "2716",
+      "store": "Creaxis 3D",
+      "domain": "creaxis.com.ar",
+      "name": "Bambu Lab PLA Basic Negro 1kg",
+      "category": "Filamentos",
+      "price": 38280,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 31900,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 10,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab",
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://creaxis.com.ar/wp-content/uploads/2026/10/Carrete-Bambu-Lab-y-Vaso-Espiral.webp",
+      "url": "https://creaxis.com.ar/producto/bambu-lab-pla-basic-negro-1kg/",
+      "scrapedFrom": "https://creaxis.com.ar/wp-json/wc/store/v1/products",
+      "variants": []
+    },
+    {
+      "id": "creaxis-2712",
+      "sourceProductId": "2712",
+      "store": "Creaxis 3D",
+      "domain": "creaxis.com.ar",
+      "name": "Bambu Lab PLA Basic Rojo 1kg",
+      "category": "Filamentos",
+      "price": 38280,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 31900,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 5,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab",
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://creaxis.com.ar/wp-content/uploads/2026/10/Bobina-Bambu-Lab-con-Vortice-Rojo.webp",
+      "url": "https://creaxis.com.ar/producto/bambu-lab-pla-basic-rojo-1kg/",
+      "scrapedFrom": "https://creaxis.com.ar/wp-json/wc/store/v1/products",
+      "variants": []
+    },
+    {
+      "id": "creaxis-2713",
+      "sourceProductId": "2713",
+      "store": "Creaxis 3D",
+      "domain": "creaxis.com.ar",
+      "name": "Bambu Lab PLA Basic Verde 1kg",
+      "category": "Filamentos",
+      "price": 38280,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 31900,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 5,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab",
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://creaxis.com.ar/wp-content/uploads/2026/10/Bobina-Bambu-Lab-y-Objeto-Verde.webp",
+      "url": "https://creaxis.com.ar/producto/bambu-lab-pla-basic-verde-1kg/",
       "scrapedFrom": "https://creaxis.com.ar/wp-json/wc/store/v1/products",
       "variants": []
     },
@@ -584,7 +778,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 13,
+      "stock": 12,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Creality",
@@ -937,10 +1131,10 @@
       "domain": "creaxis.com.ar",
       "name": "Filar PLA Amarillo Mate 1kg",
       "category": "Filamentos",
-      "price": 27228,
+      "price": 28788,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 22690,
+      "transferPrice": 23990,
       "purchaseModes": [
         "Entrega inmediata"
       ],
@@ -967,10 +1161,10 @@
       "domain": "creaxis.com.ar",
       "name": "Filar PLA Azul Francia 1kg",
       "category": "Filamentos",
-      "price": 27228,
+      "price": 28788,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 22690,
+      "transferPrice": 23990,
       "purchaseModes": [
         "Entrega inmediata"
       ],
@@ -995,10 +1189,10 @@
       "domain": "creaxis.com.ar",
       "name": "Filar PLA Azul Mate 1kg",
       "category": "Filamentos",
-      "price": 27228,
+      "price": 28788,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 22690,
+      "transferPrice": 23990,
       "purchaseModes": [
         "Entrega inmediata"
       ],
@@ -1025,10 +1219,10 @@
       "domain": "creaxis.com.ar",
       "name": "Filar PLA Blanco Antártida 1kg",
       "category": "Filamentos",
-      "price": 27228,
+      "price": 28788,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 22690,
+      "transferPrice": 23990,
       "purchaseModes": [
         "Entrega inmediata"
       ],
@@ -1053,10 +1247,10 @@
       "domain": "creaxis.com.ar",
       "name": "Filar PLA Blanco Cálido 1kg",
       "category": "Filamentos",
-      "price": 27228,
+      "price": 28788,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 22690,
+      "transferPrice": 23990,
       "purchaseModes": [],
       "stock": null,
       "stockLabel": "Consultar",
@@ -1079,10 +1273,10 @@
       "domain": "creaxis.com.ar",
       "name": "Filar PLA Blanco Mate 1kg",
       "category": "Filamentos",
-      "price": 27228,
+      "price": 28788,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 22690,
+      "transferPrice": 23990,
       "purchaseModes": [],
       "stock": null,
       "stockLabel": "Consultar",
@@ -1107,10 +1301,10 @@
       "domain": "creaxis.com.ar",
       "name": "Filar PLA Bronce 1kg",
       "category": "Filamentos",
-      "price": 27228,
+      "price": 28788,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 22690,
+      "transferPrice": 23990,
       "purchaseModes": [
         "Entrega inmediata"
       ],
@@ -1135,10 +1329,10 @@
       "domain": "creaxis.com.ar",
       "name": "Filar PLA Café con Leche 1kg",
       "category": "Filamentos",
-      "price": 27228,
+      "price": 28788,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 22690,
+      "transferPrice": 23990,
       "purchaseModes": [
         "Entrega inmediata"
       ],
@@ -1163,10 +1357,10 @@
       "domain": "creaxis.com.ar",
       "name": "Filar PLA Carpincho 1kg",
       "category": "Filamentos",
-      "price": 27228,
+      "price": 28788,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 22690,
+      "transferPrice": 23990,
       "purchaseModes": [
         "Entrega inmediata"
       ],
@@ -1191,10 +1385,10 @@
       "domain": "creaxis.com.ar",
       "name": "Filar PLA Celeste Cielo 1kg",
       "category": "Filamentos",
-      "price": 27228,
+      "price": 28788,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 22690,
+      "transferPrice": 23990,
       "purchaseModes": [
         "Entrega inmediata"
       ],
@@ -1219,10 +1413,10 @@
       "domain": "creaxis.com.ar",
       "name": "Filar PLA Chocolate Mate 1kg",
       "category": "Filamentos",
-      "price": 27228,
+      "price": 28788,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 22690,
+      "transferPrice": 23990,
       "purchaseModes": [
         "Entrega inmediata"
       ],
@@ -1249,10 +1443,10 @@
       "domain": "creaxis.com.ar",
       "name": "Filar PLA Cobre 1kg",
       "category": "Filamentos",
-      "price": 27228,
+      "price": 28788,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 22690,
+      "transferPrice": 23990,
       "purchaseModes": [],
       "stock": null,
       "stockLabel": "Consultar",
@@ -1275,10 +1469,10 @@
       "domain": "creaxis.com.ar",
       "name": "Filar PLA Dorado 1kg",
       "category": "Filamentos",
-      "price": 27228,
+      "price": 28788,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 22690,
+      "transferPrice": 23990,
       "purchaseModes": [
         "Entrega inmediata"
       ],
@@ -1303,10 +1497,10 @@
       "domain": "creaxis.com.ar",
       "name": "Filar PLA Gris Ceniza 1kg",
       "category": "Filamentos",
-      "price": 27228,
+      "price": 28788,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 22690,
+      "transferPrice": 23990,
       "purchaseModes": [
         "Entrega inmediata"
       ],
@@ -1331,10 +1525,10 @@
       "domain": "creaxis.com.ar",
       "name": "Filar PLA Gris Mate 1kg",
       "category": "Filamentos",
-      "price": 27228,
+      "price": 28788,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 22690,
+      "transferPrice": 23990,
       "purchaseModes": [],
       "stock": null,
       "stockLabel": "Consultar",
@@ -1359,10 +1553,10 @@
       "domain": "creaxis.com.ar",
       "name": "Filar PLA Gris Pizarra 1kg",
       "category": "Filamentos",
-      "price": 27228,
+      "price": 28788,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 22690,
+      "transferPrice": 23990,
       "purchaseModes": [
         "Entrega inmediata"
       ],
@@ -1387,10 +1581,10 @@
       "domain": "creaxis.com.ar",
       "name": "Filar PLA Gris Plata 1kg",
       "category": "Filamentos",
-      "price": 27228,
+      "price": 28788,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 22690,
+      "transferPrice": 23990,
       "purchaseModes": [],
       "stock": null,
       "stockLabel": "Consultar",
@@ -1413,10 +1607,10 @@
       "domain": "creaxis.com.ar",
       "name": "Filar PLA Manteca 1kg",
       "category": "Filamentos",
-      "price": 27228,
+      "price": 28788,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 22690,
+      "transferPrice": 23990,
       "purchaseModes": [
         "Entrega inmediata"
       ],
@@ -1441,10 +1635,10 @@
       "domain": "creaxis.com.ar",
       "name": "Filar PLA Marrón Mate 1kg",
       "category": "Filamentos",
-      "price": 27228,
+      "price": 28788,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 22690,
+      "transferPrice": 23990,
       "purchaseModes": [
         "Entrega inmediata"
       ],
@@ -1471,10 +1665,10 @@
       "domain": "creaxis.com.ar",
       "name": "Filar PLA Naranja Mate 1kg",
       "category": "Filamentos",
-      "price": 27228,
+      "price": 28788,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 22690,
+      "transferPrice": 23990,
       "purchaseModes": [
         "Entrega inmediata"
       ],
@@ -1501,10 +1695,10 @@
       "domain": "creaxis.com.ar",
       "name": "Filar PLA Naranja Tigre 1kg",
       "category": "Filamentos",
-      "price": 27228,
+      "price": 28788,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 22690,
+      "transferPrice": 23990,
       "purchaseModes": [
         "Entrega inmediata"
       ],
@@ -1529,10 +1723,10 @@
       "domain": "creaxis.com.ar",
       "name": "Filar PLA Negro Azabache 1kg",
       "category": "Filamentos",
-      "price": 27228,
+      "price": 28788,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 22690,
+      "transferPrice": 23990,
       "purchaseModes": [
         "Entrega inmediata"
       ],
@@ -1557,10 +1751,10 @@
       "domain": "creaxis.com.ar",
       "name": "Filar PLA Negro Mate 1kg",
       "category": "Filamentos",
-      "price": 27228,
+      "price": 28788,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 22690,
+      "transferPrice": 23990,
       "purchaseModes": [
         "Entrega inmediata"
       ],
@@ -1587,10 +1781,10 @@
       "domain": "creaxis.com.ar",
       "name": "Filar PLA Oro 1kg",
       "category": "Filamentos",
-      "price": 27228,
+      "price": 28788,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 22690,
+      "transferPrice": 23990,
       "purchaseModes": [
         "Entrega inmediata"
       ],
@@ -1615,10 +1809,10 @@
       "domain": "creaxis.com.ar",
       "name": "Filar PLA Piel 1kg",
       "category": "Filamentos",
-      "price": 27228,
+      "price": 28788,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 22690,
+      "transferPrice": 23990,
       "purchaseModes": [
         "Entrega inmediata"
       ],
@@ -1643,10 +1837,10 @@
       "domain": "creaxis.com.ar",
       "name": "Filar PLA Rojo de Carreras 1kg",
       "category": "Filamentos",
-      "price": 27228,
+      "price": 28788,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 22690,
+      "transferPrice": 23990,
       "purchaseModes": [
         "Entrega inmediata"
       ],
@@ -1671,14 +1865,14 @@
       "domain": "creaxis.com.ar",
       "name": "Filar PLA Rojo Mate 1kg",
       "category": "Filamentos",
-      "price": 27228,
+      "price": 28788,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 22690,
+      "transferPrice": 23990,
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 2,
+      "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Filar",
@@ -1701,14 +1895,14 @@
       "domain": "creaxis.com.ar",
       "name": "Filar PLA Rosa Mate 1kg",
       "category": "Filamentos",
-      "price": 27228,
+      "price": 28788,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 22690,
+      "transferPrice": 23990,
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 7,
+      "stock": 6,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Filar",
@@ -1731,10 +1925,10 @@
       "domain": "creaxis.com.ar",
       "name": "Filar PLA Uva Mate 1kg",
       "category": "Filamentos",
-      "price": 27228,
+      "price": 28788,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 22690,
+      "transferPrice": 23990,
       "purchaseModes": [
         "Entrega inmediata"
       ],
@@ -1761,10 +1955,10 @@
       "domain": "creaxis.com.ar",
       "name": "Filar PLA Verde FilAr 1kg",
       "category": "Filamentos",
-      "price": 27228,
+      "price": 28788,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 22690,
+      "transferPrice": 23990,
       "purchaseModes": [
         "Entrega inmediata"
       ],
@@ -1789,10 +1983,10 @@
       "domain": "creaxis.com.ar",
       "name": "Filar PLA Verde Mate 1kg",
       "category": "Filamentos",
-      "price": 27228,
+      "price": 28788,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 22690,
+      "transferPrice": 23990,
       "purchaseModes": [
         "Entrega inmediata"
       ],
@@ -1819,10 +2013,10 @@
       "domain": "creaxis.com.ar",
       "name": "Filar PLA Verde Oliva 1kg",
       "category": "Filamentos",
-      "price": 27228,
+      "price": 28788,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 22690,
+      "transferPrice": 23990,
       "purchaseModes": [
         "Entrega inmediata"
       ],
@@ -1847,10 +2041,10 @@
       "domain": "creaxis.com.ar",
       "name": "Filar PLA Verde Pixel 1kg",
       "category": "Filamentos",
-      "price": 27228,
+      "price": 28788,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 22690,
+      "transferPrice": 23990,
       "purchaseModes": [
         "Entrega inmediata"
       ],
@@ -1875,10 +2069,10 @@
       "domain": "creaxis.com.ar",
       "name": "Filar PLA Violeta Jacarandá 1kg",
       "category": "Filamentos",
-      "price": 27228,
+      "price": 28788,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 22690,
+      "transferPrice": 23990,
       "purchaseModes": [
         "Entrega inmediata"
       ],
@@ -1903,10 +2097,10 @@
       "domain": "creaxis.com.ar",
       "name": "Filar PLA Violeta Mate 1kg",
       "category": "Filamentos",
-      "price": 27228,
+      "price": 28788,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 22690,
+      "transferPrice": 23990,
       "purchaseModes": [],
       "stock": null,
       "stockLabel": "Consultar",
@@ -2016,7 +2210,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 11,
+      "stock": 10,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2156,7 +2350,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 22,
+      "stock": 20,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2458,7 +2652,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 10,
+      "stock": 9,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -2678,7 +2872,7 @@
       "purchaseModes": [
         "Entrega inmediata"
       ],
-      "stock": 20,
+      "stock": 19,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
