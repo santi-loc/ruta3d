@@ -4,15 +4,15 @@
     "domain": "gprint3d.com.ar",
     "baseUrl": "https://gprint3d.com.ar"
   },
-  "scrapedAt": "2026-10-29T15:04:04.330Z",
-  "count": 202,
+  "scrapedAt": "2026-11-09T18:32:40.003Z",
+  "count": 210,
   "pages": [
     {
       "listing": "Impresoras FDM",
       "page": 1,
       "url": "https://gprint3d.com.ar/16-impresoras-3d-filamentos-",
-      "found": 31,
-      "added": 31
+      "found": 32,
+      "added": 32
     },
     {
       "listing": "Impresoras Resina",
@@ -46,8 +46,8 @@
       "listing": "PETG",
       "page": 1,
       "url": "https://gprint3d.com.ar/21-petg",
-      "found": 8,
-      "added": 8
+      "found": 11,
+      "added": 11
     },
     {
       "listing": "ABS",
@@ -81,8 +81,8 @@
       "listing": "Repuestos",
       "page": 1,
       "url": "https://gprint3d.com.ar/14-repuestos",
-      "found": 18,
-      "added": 9
+      "found": 22,
+      "added": 13
     },
     {
       "listing": "Impresoras Laser",
@@ -95,11 +95,39 @@
       "listing": "Novedades",
       "page": 1,
       "url": "https://gprint3d.com.ar/novedades",
-      "found": 0,
+      "found": 8,
       "added": 0
     }
   ],
   "products": [
+    {
+      "id": "gprint3d-475",
+      "sourceProductId": "475",
+      "store": "Gprint 3D",
+      "domain": "gprint3d.com.ar",
+      "name": "Bambulab A2L COMBO",
+      "category": "Impresoras",
+      "price": 1832900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab",
+        "combo",
+        "Impresoras FDM"
+      ],
+      "image": "https://gprint3d.com.ar/1048-large_default/-bambulab-a2l-combo.jpg",
+      "url": "https://gprint3d.com.ar/impresoras-3d-filamentos-/475--bambulab-a2l-combo.html",
+      "scrapedFrom": "https://gprint3d.com.ar/16-impresoras-3d-filamentos-",
+      "variants": []
+    },
     {
       "id": "gprint3d-412",
       "sourceProductId": "412",
@@ -262,6 +290,33 @@
       ],
       "image": "https://gprint3d.com.ar/204-large_default/grabadora-laser-creality-falcon-a1-10w.jpg",
       "url": "https://gprint3d.com.ar/grabadoras-laser/22-grabadora-laser-creality-falcon-a1-10w.html",
+      "scrapedFrom": "https://gprint3d.com.ar/16-impresoras-3d-filamentos-",
+      "variants": []
+    },
+    {
+      "id": "gprint3d-464",
+      "sourceProductId": "464",
+      "store": "Gprint 3D",
+      "domain": "gprint3d.com.ar",
+      "name": "Snapmaker u1",
+      "category": "Impresoras",
+      "price": 2490000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Snapmaker",
+      "tags": [
+        "Snapmaker",
+        "Impresoras FDM"
+      ],
+      "image": "https://gprint3d.com.ar/967-large_default/snapmaker-u1.jpg",
+      "url": "https://gprint3d.com.ar/impresoras-3d-filamentos-/464-snapmaker-u1.html",
       "scrapedFrom": "https://gprint3d.com.ar/16-impresoras-3d-filamentos-",
       "variants": []
     },
@@ -510,32 +565,6 @@
       "variants": []
     },
     {
-      "id": "gprint3d-458",
-      "sourceProductId": "458",
-      "store": "Gprint 3D",
-      "domain": "gprint3d.com.ar",
-      "name": "AMS 2 PRO",
-      "category": "Impresoras",
-      "price": 1119000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "Impresoras FDM"
-      ],
-      "image": "https://gprint3d.com.ar/929-large_default/ams-2-pro-.jpg",
-      "url": "https://gprint3d.com.ar/repuestos/458-ams-2-pro-.html",
-      "scrapedFrom": "https://gprint3d.com.ar/16-impresoras-3d-filamentos-",
-      "variants": []
-    },
-    {
       "id": "gprint3d-449",
       "sourceProductId": "449",
       "store": "Gprint 3D",
@@ -724,13 +753,13 @@
       "variants": []
     },
     {
-      "id": "gprint3d-464",
-      "sourceProductId": "464",
+      "id": "gprint3d-458",
+      "sourceProductId": "458",
       "store": "Gprint 3D",
       "domain": "gprint3d.com.ar",
-      "name": "Snapmaker u1",
+      "name": "AMS 2 PRO",
       "category": "Impresoras",
-      "price": 3030000,
+      "price": 1119000,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -738,13 +767,12 @@
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
-      "brand": "Snapmaker",
+      "brand": null,
       "tags": [
-        "Snapmaker",
         "Impresoras FDM"
       ],
-      "image": "https://gprint3d.com.ar/967-large_default/snapmaker-u1.jpg",
-      "url": "https://gprint3d.com.ar/impresoras-3d-filamentos-/464-snapmaker-u1.html",
+      "image": "https://gprint3d.com.ar/929-large_default/ams-2-pro-.jpg",
+      "url": "https://gprint3d.com.ar/repuestos/458-ams-2-pro-.html",
       "scrapedFrom": "https://gprint3d.com.ar/16-impresoras-3d-filamentos-",
       "variants": []
     },
@@ -1059,33 +1087,6 @@
       "variants": []
     },
     {
-      "id": "gprint3d-44",
-      "sourceProductId": "44",
-      "store": "Gprint 3D",
-      "domain": "gprint3d.com.ar",
-      "name": "Filamento Hellbot PLA Recarga Lock Lavanda Pastel",
-      "category": "Filamentos",
-      "price": 18991,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Hellbot",
-      "tags": [
-        "Hellbot",
-        "PLA"
-      ],
-      "image": "https://gprint3d.com.ar/72-large_default/filamento-hellbot-pla-recarga-lock-lavanda-pastel.jpg",
-      "url": "https://gprint3d.com.ar/inicio/44-filamento-hellbot-pla-recarga-lock-lavanda-pastel.html",
-      "scrapedFrom": "https://gprint3d.com.ar/20-pla",
-      "variants": []
-    },
-    {
       "id": "gprint3d-42",
       "sourceProductId": "42",
       "store": "Gprint 3D",
@@ -1136,6 +1137,33 @@
       ],
       "image": "https://gprint3d.com.ar/80-large_default/filamento-hellbot-pla-recarga-lock-naranja-fluo.jpg",
       "url": "https://gprint3d.com.ar/inicio/48-filamento-hellbot-pla-recarga-lock-naranja-fluo.html",
+      "scrapedFrom": "https://gprint3d.com.ar/20-pla",
+      "variants": []
+    },
+    {
+      "id": "gprint3d-44",
+      "sourceProductId": "44",
+      "store": "Gprint 3D",
+      "domain": "gprint3d.com.ar",
+      "name": "Filamento Hellbot PLA Recarga Lock Lavanda Pastel",
+      "category": "Filamentos",
+      "price": 18991,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot",
+        "PLA"
+      ],
+      "image": "https://gprint3d.com.ar/72-large_default/filamento-hellbot-pla-recarga-lock-lavanda-pastel.jpg",
+      "url": "https://gprint3d.com.ar/inicio/44-filamento-hellbot-pla-recarga-lock-lavanda-pastel.html",
       "scrapedFrom": "https://gprint3d.com.ar/20-pla",
       "variants": []
     },
@@ -1277,6 +1305,33 @@
       "variants": []
     },
     {
+      "id": "gprint3d-37",
+      "sourceProductId": "37",
+      "store": "Gprint 3D",
+      "domain": "gprint3d.com.ar",
+      "name": "Copia De Filamento Hellbot PLA Recarga Lock Dorado",
+      "category": "Filamentos",
+      "price": 18991,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot",
+        "PLA"
+      ],
+      "image": "https://gprint3d.com.ar/59-large_default/copia-de-filamento-hellbot-pla-recarga-lock-dorado.jpg",
+      "url": "https://gprint3d.com.ar/inicio/37-copia-de-filamento-hellbot-pla-recarga-lock-dorado.html",
+      "scrapedFrom": "https://gprint3d.com.ar/20-pla",
+      "variants": []
+    },
+    {
       "id": "gprint3d-29",
       "sourceProductId": "29",
       "store": "Gprint 3D",
@@ -1301,6 +1356,33 @@
       ],
       "image": "https://gprint3d.com.ar/43-large_default/filamento-hellbot-ecofila-recarga-pla-175mm-1kg-lock.jpg",
       "url": "https://gprint3d.com.ar/inicio/29-filamento-hellbot-ecofila-recarga-pla-175mm-1kg-lock.html",
+      "scrapedFrom": "https://gprint3d.com.ar/20-pla",
+      "variants": []
+    },
+    {
+      "id": "gprint3d-78",
+      "sourceProductId": "78",
+      "store": "Gprint 3D",
+      "domain": "gprint3d.com.ar",
+      "name": "Filamento 3d Hellbot PLA Lock Dorado",
+      "category": "Filamentos",
+      "price": 20891,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot",
+        "PLA"
+      ],
+      "image": "https://gprint3d.com.ar/155-large_default/filamento-3d-hellbot-pla-lock-dorado.jpg",
+      "url": "https://gprint3d.com.ar/insumos/78-filamento-3d-hellbot-pla-lock-dorado.html",
       "scrapedFrom": "https://gprint3d.com.ar/20-pla",
       "variants": []
     },
@@ -1333,6 +1415,88 @@
       "variants": []
     },
     {
+      "id": "gprint3d-51",
+      "sourceProductId": "51",
+      "store": "Gprint 3D",
+      "domain": "gprint3d.com.ar",
+      "name": "Filamento Hellbot PLA Recarga Lock Negro",
+      "category": "Filamentos",
+      "price": 18991,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot",
+        "PLA"
+      ],
+      "image": "https://gprint3d.com.ar/86-large_default/filamento-hellbot-pla-recarga-lock-negro.jpg",
+      "url": "https://gprint3d.com.ar/inicio/51-filamento-hellbot-pla-recarga-lock-negro.html",
+      "scrapedFrom": "https://gprint3d.com.ar/20-pla",
+      "variants": []
+    },
+    {
+      "id": "gprint3d-61",
+      "sourceProductId": "61",
+      "store": "Gprint 3D",
+      "domain": "gprint3d.com.ar",
+      "name": "Filamento Hellbot PLA Recarga Lock Violeta",
+      "category": "Filamentos",
+      "price": 18991,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot",
+        "PLA"
+      ],
+      "image": "https://gprint3d.com.ar/106-large_default/filamento-hellbot-pla-recarga-lock-violeta.jpg",
+      "url": "https://gprint3d.com.ar/inicio/61-filamento-hellbot-pla-recarga-lock-violeta.html",
+      "scrapedFrom": "https://gprint3d.com.ar/20-pla",
+      "variants": []
+    },
+    {
+      "id": "gprint3d-31",
+      "sourceProductId": "31",
+      "store": "Gprint 3D",
+      "domain": "gprint3d.com.ar",
+      "name": "Filamento Hellbot Ecofila Recarga PLA 175mm 1kg Lock",
+      "category": "Filamentos",
+      "price": 18991,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot",
+        "PLA",
+        "1kg"
+      ],
+      "image": "https://gprint3d.com.ar/47-large_default/filamento-hellbot-ecofila-recarga-pla-175mm-1kg-lock.jpg",
+      "url": "https://gprint3d.com.ar/inicio/31-filamento-hellbot-ecofila-recarga-pla-175mm-1kg-lock.html",
+      "scrapedFrom": "https://gprint3d.com.ar/20-pla",
+      "variants": []
+    },
+    {
       "id": "gprint3d-95",
       "sourceProductId": "95",
       "store": "Gprint 3D",
@@ -1356,6 +1520,33 @@
       ],
       "image": "https://gprint3d.com.ar/189-large_default/filamento-3d-hellbot-pla-lock-rubi-traslucido.jpg",
       "url": "https://gprint3d.com.ar/insumos/95-filamento-3d-hellbot-pla-lock-rubi-traslucido.html",
+      "scrapedFrom": "https://gprint3d.com.ar/20-pla",
+      "variants": []
+    },
+    {
+      "id": "gprint3d-94",
+      "sourceProductId": "94",
+      "store": "Gprint 3D",
+      "domain": "gprint3d.com.ar",
+      "name": "Filamento 3d Hellbot PLA Lock Rosa",
+      "category": "Filamentos",
+      "price": 20891,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot",
+        "PLA"
+      ],
+      "image": "https://gprint3d.com.ar/187-large_default/filamento-3d-hellbot-pla-lock-rosa.jpg",
+      "url": "https://gprint3d.com.ar/insumos/94-filamento-3d-hellbot-pla-lock-rosa.html",
       "scrapedFrom": "https://gprint3d.com.ar/20-pla",
       "variants": []
     },
@@ -1524,6 +1715,32 @@
       "variants": []
     },
     {
+      "id": "gprint3d-459",
+      "sourceProductId": "459",
+      "store": "Gprint 3D",
+      "domain": "gprint3d.com.ar",
+      "name": "Filamento 3D PLA Grilon Dorado",
+      "category": "Filamentos",
+      "price": 24100,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA"
+      ],
+      "image": "https://gprint3d.com.ar/935-large_default/-filamento-3d-pla-grilon-dorado.jpg",
+      "url": "https://gprint3d.com.ar/insumos/459--filamento-3d-pla-grilon-dorado.html",
+      "scrapedFrom": "https://gprint3d.com.ar/20-pla",
+      "variants": []
+    },
+    {
       "id": "gprint3d-101",
       "sourceProductId": "101",
       "store": "Gprint 3D",
@@ -1547,6 +1764,33 @@
       ],
       "image": "https://gprint3d.com.ar/201-large_default/filamento-3d-hellbot-pla-lock-zafiro-traslucido.jpg",
       "url": "https://gprint3d.com.ar/insumos/101-filamento-3d-hellbot-pla-lock-zafiro-traslucido.html",
+      "scrapedFrom": "https://gprint3d.com.ar/20-pla",
+      "variants": []
+    },
+    {
+      "id": "gprint3d-100",
+      "sourceProductId": "100",
+      "store": "Gprint 3D",
+      "domain": "gprint3d.com.ar",
+      "name": "Filamento 3d Hellbot PLA Lock Violeta",
+      "category": "Filamentos",
+      "price": 20891,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot",
+        "PLA"
+      ],
+      "image": "https://gprint3d.com.ar/199-large_default/filamento-3d-hellbot-pla-lock-violeta.jpg",
+      "url": "https://gprint3d.com.ar/insumos/100-filamento-3d-hellbot-pla-lock-violeta.html",
       "scrapedFrom": "https://gprint3d.com.ar/20-pla",
       "variants": []
     },
@@ -1628,6 +1872,114 @@
       ],
       "image": "https://gprint3d.com.ar/137-large_default/filamento-3d-hellbot-pla-lock-aqua-.jpg",
       "url": "https://gprint3d.com.ar/insumos/69-filamento-3d-hellbot-pla-lock-aqua-.html",
+      "scrapedFrom": "https://gprint3d.com.ar/20-pla",
+      "variants": []
+    },
+    {
+      "id": "gprint3d-68",
+      "sourceProductId": "68",
+      "store": "Gprint 3D",
+      "domain": "gprint3d.com.ar",
+      "name": "Filamento 3d Hellbot PLA Lock Aqua Pastel",
+      "category": "Filamentos",
+      "price": 20891,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot",
+        "PLA"
+      ],
+      "image": "https://gprint3d.com.ar/135-large_default/filamento-3d-hellbot-pla-lock-aqua-pastel.jpg",
+      "url": "https://gprint3d.com.ar/insumos/68-filamento-3d-hellbot-pla-lock-aqua-pastel.html",
+      "scrapedFrom": "https://gprint3d.com.ar/20-pla",
+      "variants": []
+    },
+    {
+      "id": "gprint3d-67",
+      "sourceProductId": "67",
+      "store": "Gprint 3D",
+      "domain": "gprint3d.com.ar",
+      "name": "Filamento 3d Hellbot PLA Lock Amarillo",
+      "category": "Filamentos",
+      "price": 20891,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot",
+        "PLA"
+      ],
+      "image": "https://gprint3d.com.ar/133-large_default/filamento-3d-hellbot-pla-lock-amarillo.jpg",
+      "url": "https://gprint3d.com.ar/insumos/67-filamento-3d-hellbot-pla-lock-amarillo.html",
+      "scrapedFrom": "https://gprint3d.com.ar/20-pla",
+      "variants": []
+    },
+    {
+      "id": "gprint3d-53",
+      "sourceProductId": "53",
+      "store": "Gprint 3D",
+      "domain": "gprint3d.com.ar",
+      "name": "Filamento Hellbot PLA Recarga Lock Rojo",
+      "category": "Filamentos",
+      "price": 18991,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot",
+        "PLA"
+      ],
+      "image": "https://gprint3d.com.ar/90-large_default/filamento-hellbot-pla-recarga-lock-rojo.jpg",
+      "url": "https://gprint3d.com.ar/inicio/53-filamento-hellbot-pla-recarga-lock-rojo.html",
+      "scrapedFrom": "https://gprint3d.com.ar/20-pla",
+      "variants": []
+    },
+    {
+      "id": "gprint3d-50",
+      "sourceProductId": "50",
+      "store": "Gprint 3D",
+      "domain": "gprint3d.com.ar",
+      "name": "Copia De Filamento Hellbot PLA Recarga Lock Natural Cristal",
+      "category": "Filamentos",
+      "price": 18991,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot",
+        "PLA"
+      ],
+      "image": "https://gprint3d.com.ar/84-large_default/copia-de-filamento-hellbot-pla-recarga-lock-natural-cristal.jpg",
+      "url": "https://gprint3d.com.ar/inicio/50-copia-de-filamento-hellbot-pla-recarga-lock-natural-cristal.html",
       "scrapedFrom": "https://gprint3d.com.ar/20-pla",
       "variants": []
     },
@@ -1794,6 +2146,60 @@
       "variants": []
     },
     {
+      "id": "gprint3d-84",
+      "sourceProductId": "84",
+      "store": "Gprint 3D",
+      "domain": "gprint3d.com.ar",
+      "name": "Filamento 3d Hellbot PLA Lock Marmol",
+      "category": "Filamentos",
+      "price": 20891,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot",
+        "PLA"
+      ],
+      "image": "https://gprint3d.com.ar/167-large_default/-filamento-3d-hellbot-pla-lock-marmol.jpg",
+      "url": "https://gprint3d.com.ar/insumos/84--filamento-3d-hellbot-pla-lock-marmol.html",
+      "scrapedFrom": "https://gprint3d.com.ar/20-pla",
+      "variants": []
+    },
+    {
+      "id": "gprint3d-83",
+      "sourceProductId": "83",
+      "store": "Gprint 3D",
+      "domain": "gprint3d.com.ar",
+      "name": "Filamento 3d Hellbot PLA Lock Lavanda Pastel",
+      "category": "Filamentos",
+      "price": 20891,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot",
+        "PLA"
+      ],
+      "image": "https://gprint3d.com.ar/165-large_default/filamento-3d-hellbot-pla-lock-lavanda-pastel.jpg",
+      "url": "https://gprint3d.com.ar/insumos/83-filamento-3d-hellbot-pla-lock-lavanda-pastel.html",
+      "scrapedFrom": "https://gprint3d.com.ar/20-pla",
+      "variants": []
+    },
+    {
       "id": "gprint3d-81",
       "sourceProductId": "81",
       "store": "Gprint 3D",
@@ -1817,6 +2223,33 @@
       ],
       "image": "https://gprint3d.com.ar/161-large_default/-filamento-3d-hellbot-pla-lock-indigo-pastel.jpg",
       "url": "https://gprint3d.com.ar/insumos/81--filamento-3d-hellbot-pla-lock-indigo-pastel.html",
+      "scrapedFrom": "https://gprint3d.com.ar/20-pla",
+      "variants": []
+    },
+    {
+      "id": "gprint3d-80",
+      "sourceProductId": "80",
+      "store": "Gprint 3D",
+      "domain": "gprint3d.com.ar",
+      "name": "Copia De Filamento 3d Hellbot PLA Lock Gris Grafito",
+      "category": "Filamentos",
+      "price": 20891,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot",
+        "PLA"
+      ],
+      "image": "https://gprint3d.com.ar/159-large_default/copia-de-filamento-3d-hellbot-pla-lock-gris-grafito.jpg",
+      "url": "https://gprint3d.com.ar/insumos/80-copia-de-filamento-3d-hellbot-pla-lock-gris-grafito.html",
       "scrapedFrom": "https://gprint3d.com.ar/20-pla",
       "variants": []
     },
@@ -1902,6 +2335,60 @@
       "variants": []
     },
     {
+      "id": "gprint3d-54",
+      "sourceProductId": "54",
+      "store": "Gprint 3D",
+      "domain": "gprint3d.com.ar",
+      "name": "Filamento Hellbot PLA Recarga Lock Rosa Pastel",
+      "category": "Filamentos",
+      "price": 18991,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot",
+        "PLA"
+      ],
+      "image": "https://gprint3d.com.ar/92-large_default/filamento-hellbot-pla-recarga-lock-rosa-pastel.jpg",
+      "url": "https://gprint3d.com.ar/inicio/54-filamento-hellbot-pla-recarga-lock-rosa-pastel.html",
+      "scrapedFrom": "https://gprint3d.com.ar/20-pla",
+      "variants": []
+    },
+    {
+      "id": "gprint3d-46",
+      "sourceProductId": "46",
+      "store": "Gprint 3D",
+      "domain": "gprint3d.com.ar",
+      "name": "Filamento Hellbot PLA Recarga Lock Marron",
+      "category": "Filamentos",
+      "price": 18991,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot",
+        "PLA"
+      ],
+      "image": "https://gprint3d.com.ar/76-large_default/filamento-hellbot-pla-recarga-lock-marron.jpg",
+      "url": "https://gprint3d.com.ar/inicio/46-filamento-hellbot-pla-recarga-lock-marron.html",
+      "scrapedFrom": "https://gprint3d.com.ar/20-pla",
+      "variants": []
+    },
+    {
       "id": "gprint3d-41",
       "sourceProductId": "41",
       "store": "Gprint 3D",
@@ -1982,32 +2469,6 @@
       "variants": []
     },
     {
-      "id": "gprint3d-468",
-      "sourceProductId": "468",
-      "store": "Gprint 3D",
-      "domain": "gprint3d.com.ar",
-      "name": "Filamento 3d PLA Grilon Chocolate",
-      "category": "Filamentos",
-      "price": 24100,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "PLA"
-      ],
-      "image": "https://gprint3d.com.ar/1000-large_default/-filamento-3d-pla-grilon-chocolate-.jpg",
-      "url": "https://gprint3d.com.ar/insumos/468--filamento-3d-pla-grilon-chocolate-.html",
-      "scrapedFrom": "https://gprint3d.com.ar/20-pla",
-      "variants": []
-    },
-    {
       "id": "gprint3d-467",
       "sourceProductId": "467",
       "store": "Gprint 3D",
@@ -2030,32 +2491,6 @@
       ],
       "image": "https://gprint3d.com.ar/996-large_default/filamento-3d-pla-grilon-amarillo.jpg",
       "url": "https://gprint3d.com.ar/insumos/467-filamento-3d-pla-grilon-amarillo.html",
-      "scrapedFrom": "https://gprint3d.com.ar/20-pla",
-      "variants": []
-    },
-    {
-      "id": "gprint3d-463",
-      "sourceProductId": "463",
-      "store": "Gprint 3D",
-      "domain": "gprint3d.com.ar",
-      "name": "Filamento 3D PLA Grilon Rojo",
-      "category": "Filamentos",
-      "price": 24100,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "PLA"
-      ],
-      "image": "https://gprint3d.com.ar/951-large_default/filamento-3d-pla-grilon-rojo.jpg",
-      "url": "https://gprint3d.com.ar/insumos/463-filamento-3d-pla-grilon-rojo.html",
       "scrapedFrom": "https://gprint3d.com.ar/20-pla",
       "variants": []
     },
@@ -2248,33 +2683,6 @@
       "variants": []
     },
     {
-      "id": "gprint3d-118",
-      "sourceProductId": "118",
-      "store": "Gprint 3D",
-      "domain": "gprint3d.com.ar",
-      "name": "Filamento 3D PLA 3N3 Blanco",
-      "category": "Filamentos",
-      "price": 19300,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "3N3",
-      "tags": [
-        "3N3",
-        "PLA"
-      ],
-      "image": "https://gprint3d.com.ar/301-large_default/filamento-3d-pla-3n3-blanco.jpg",
-      "url": "https://gprint3d.com.ar/insumos/118-filamento-3d-pla-3n3-blanco.html",
-      "scrapedFrom": "https://gprint3d.com.ar/20-pla",
-      "variants": []
-    },
-    {
       "id": "gprint3d-112",
       "sourceProductId": "112",
       "store": "Gprint 3D",
@@ -2350,32 +2758,6 @@
       ],
       "image": "https://gprint3d.com.ar/602-large_default/filamento-3d-pla-grilon-fucsia.jpg",
       "url": "https://gprint3d.com.ar/insumos/110-filamento-3d-pla-grilon-fucsia.html",
-      "scrapedFrom": "https://gprint3d.com.ar/20-pla",
-      "variants": []
-    },
-    {
-      "id": "gprint3d-107",
-      "sourceProductId": "107",
-      "store": "Gprint 3D",
-      "domain": "gprint3d.com.ar",
-      "name": "Filamento 3D PLA Grilon Negro",
-      "category": "Filamentos",
-      "price": 24100,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "PLA"
-      ],
-      "image": "https://gprint3d.com.ar/243-large_default/filamento-3d-pla-grilon-negro.jpg",
-      "url": "https://gprint3d.com.ar/insumos/107-filamento-3d-pla-grilon-negro.html",
       "scrapedFrom": "https://gprint3d.com.ar/20-pla",
       "variants": []
     },
@@ -2542,33 +2924,6 @@
       "variants": []
     },
     {
-      "id": "gprint3d-37",
-      "sourceProductId": "37",
-      "store": "Gprint 3D",
-      "domain": "gprint3d.com.ar",
-      "name": "Copia De Filamento Hellbot PLA Recarga Lock Dorado",
-      "category": "Filamentos",
-      "price": 18991,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Hellbot",
-      "tags": [
-        "Hellbot",
-        "PLA"
-      ],
-      "image": "https://gprint3d.com.ar/59-large_default/copia-de-filamento-hellbot-pla-recarga-lock-dorado.jpg",
-      "url": "https://gprint3d.com.ar/inicio/37-copia-de-filamento-hellbot-pla-recarga-lock-dorado.html",
-      "scrapedFrom": "https://gprint3d.com.ar/20-pla",
-      "variants": []
-    },
-    {
       "id": "gprint3d-34",
       "sourceProductId": "34",
       "store": "Gprint 3D",
@@ -2651,13 +3006,65 @@
       "variants": []
     },
     {
+      "id": "gprint3d-468",
+      "sourceProductId": "468",
+      "store": "Gprint 3D",
+      "domain": "gprint3d.com.ar",
+      "name": "Filamento 3d PLA Grilon Chocolate",
+      "category": "Filamentos",
+      "price": 24100,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA"
+      ],
+      "image": "https://gprint3d.com.ar/1000-large_default/-filamento-3d-pla-grilon-chocolate-.jpg",
+      "url": "https://gprint3d.com.ar/insumos/468--filamento-3d-pla-grilon-chocolate-.html",
+      "scrapedFrom": "https://gprint3d.com.ar/20-pla",
+      "variants": []
+    },
+    {
+      "id": "gprint3d-463",
+      "sourceProductId": "463",
+      "store": "Gprint 3D",
+      "domain": "gprint3d.com.ar",
+      "name": "Filamento 3D PLA Grilon Rojo",
+      "category": "Filamentos",
+      "price": 24100,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA"
+      ],
+      "image": "https://gprint3d.com.ar/951-large_default/filamento-3d-pla-grilon-rojo.jpg",
+      "url": "https://gprint3d.com.ar/insumos/463-filamento-3d-pla-grilon-rojo.html",
+      "scrapedFrom": "https://gprint3d.com.ar/20-pla",
+      "variants": []
+    },
+    {
       "id": "gprint3d-460",
       "sourceProductId": "460",
       "store": "Gprint 3D",
       "domain": "gprint3d.com.ar",
       "name": "Filamento 3D PLA 3N3 Oro",
       "category": "Filamentos",
-      "price": 19300,
+      "price": 19500,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -2845,7 +3252,7 @@
       "domain": "gprint3d.com.ar",
       "name": "Filamento 3D PLA 3N3 Verde",
       "category": "Filamentos",
-      "price": 19300,
+      "price": 19500,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -2872,7 +3279,7 @@
       "domain": "gprint3d.com.ar",
       "name": "Filamento 3D PLA 3N3 Negro",
       "category": "Filamentos",
-      "price": 19300,
+      "price": 19500,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -2889,6 +3296,86 @@
       ],
       "image": "https://gprint3d.com.ar/304-large_default/-filamento-3d-pla-3n3-negro.jpg",
       "url": "https://gprint3d.com.ar/insumos/119--filamento-3d-pla-3n3-negro.html",
+      "scrapedFrom": "https://gprint3d.com.ar/20-pla",
+      "variants": []
+    },
+    {
+      "id": "gprint3d-118",
+      "sourceProductId": "118",
+      "store": "Gprint 3D",
+      "domain": "gprint3d.com.ar",
+      "name": "Filamento 3D PLA 3N3 Blanco",
+      "category": "Filamentos",
+      "price": 19500,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "3N3",
+      "tags": [
+        "3N3",
+        "PLA"
+      ],
+      "image": "https://gprint3d.com.ar/301-large_default/filamento-3d-pla-3n3-blanco.jpg",
+      "url": "https://gprint3d.com.ar/insumos/118-filamento-3d-pla-3n3-blanco.html",
+      "scrapedFrom": "https://gprint3d.com.ar/20-pla",
+      "variants": []
+    },
+    {
+      "id": "gprint3d-113",
+      "sourceProductId": "113",
+      "store": "Gprint 3D",
+      "domain": "gprint3d.com.ar",
+      "name": "Filamento 3D PLA Silk Dorado",
+      "category": "Filamentos",
+      "price": 31000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA",
+        "PLA Silk"
+      ],
+      "image": "https://gprint3d.com.ar/275-large_default/-filamento-3d-pla-silk-dorado.jpg",
+      "url": "https://gprint3d.com.ar/insumos/113--filamento-3d-pla-silk-dorado.html",
+      "scrapedFrom": "https://gprint3d.com.ar/20-pla",
+      "variants": []
+    },
+    {
+      "id": "gprint3d-107",
+      "sourceProductId": "107",
+      "store": "Gprint 3D",
+      "domain": "gprint3d.com.ar",
+      "name": "Filamento 3D PLA Grilon Negro",
+      "category": "Filamentos",
+      "price": 24100,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA"
+      ],
+      "image": "https://gprint3d.com.ar/243-large_default/filamento-3d-pla-grilon-negro.jpg",
+      "url": "https://gprint3d.com.ar/insumos/107-filamento-3d-pla-grilon-negro.html",
       "scrapedFrom": "https://gprint3d.com.ar/20-pla",
       "variants": []
     },
@@ -2947,13 +3434,13 @@
       "variants": []
     },
     {
-      "id": "gprint3d-72",
-      "sourceProductId": "72",
+      "id": "gprint3d-57",
+      "sourceProductId": "57",
       "store": "Gprint 3D",
       "domain": "gprint3d.com.ar",
-      "name": "Filamento 3d Hellbot PLA Lock Blanco",
+      "name": "Flamento Hellbot PLA Recarga Lock Vainilla Pastel",
       "category": "Filamentos",
-      "price": 20891,
+      "price": 18991,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -2968,8 +3455,8 @@
         "Hellbot",
         "PLA"
       ],
-      "image": "https://gprint3d.com.ar/143-large_default/-filamento-3d-hellbot-pla-lock-blanco.jpg",
-      "url": "https://gprint3d.com.ar/insumos/72--filamento-3d-hellbot-pla-lock-blanco.html",
+      "image": "https://gprint3d.com.ar/98-large_default/flamento-hellbot-pla-recarga-lock-vainilla-pastel.jpg",
+      "url": "https://gprint3d.com.ar/inicio/57-flamento-hellbot-pla-recarga-lock-vainilla-pastel.html",
       "scrapedFrom": "https://gprint3d.com.ar/20-pla",
       "variants": []
     },
@@ -3138,39 +3625,13 @@
       "variants": []
     },
     {
-      "id": "gprint3d-451",
-      "sourceProductId": "451",
-      "store": "Gprint 3D",
-      "domain": "gprint3d.com.ar",
-      "name": "Filamento 3D PLA Grilon Bordo",
-      "category": "Filamentos",
-      "price": 24100,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "PLA"
-      ],
-      "image": "https://gprint3d.com.ar/866-large_default/-filamento-3d-pla-grilon-bordo.jpg",
-      "url": "https://gprint3d.com.ar/insumos/451--filamento-3d-pla-grilon-bordo.html",
-      "scrapedFrom": "https://gprint3d.com.ar/20-pla",
-      "variants": []
-    },
-    {
       "id": "gprint3d-445",
       "sourceProductId": "445",
       "store": "Gprint 3D",
       "domain": "gprint3d.com.ar",
       "name": "Filamento 3D PLA 3N3 Rojo",
       "category": "Filamentos",
-      "price": 19300,
+      "price": 19500,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -3187,33 +3648,6 @@
       ],
       "image": "https://gprint3d.com.ar/820-large_default/filamento-3d-pla-3n3-rojo.jpg",
       "url": "https://gprint3d.com.ar/insumos/445-filamento-3d-pla-3n3-rojo.html",
-      "scrapedFrom": "https://gprint3d.com.ar/20-pla",
-      "variants": []
-    },
-    {
-      "id": "gprint3d-420",
-      "sourceProductId": "420",
-      "store": "Gprint 3D",
-      "domain": "gprint3d.com.ar",
-      "name": "Filamento 3d Hellbot PLA Lock Fucsia",
-      "category": "Filamentos",
-      "price": 20891,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Hellbot",
-      "tags": [
-        "Hellbot",
-        "PLA"
-      ],
-      "image": "https://gprint3d.com.ar/703-large_default/filamento-3d-hellbot-pla-lock-fucsia.jpg",
-      "url": "https://gprint3d.com.ar/insumos/420-filamento-3d-hellbot-pla-lock-fucsia.html",
       "scrapedFrom": "https://gprint3d.com.ar/20-pla",
       "variants": []
     },
@@ -3303,7 +3737,7 @@
       "domain": "gprint3d.com.ar",
       "name": "Filamento 3D PLA 3N3 Amarillo",
       "category": "Filamentos",
-      "price": 19300,
+      "price": 19500,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -3320,7 +3754,7 @@
       ],
       "image": "https://gprint3d.com.ar/308-large_default/filamento-3d-pla-3n3-amarillo.jpg",
       "url": "https://gprint3d.com.ar/insumos/120-filamento-3d-pla-3n3-amarillo.html",
-      "scrapedFrom": "https://gprint3d.com.ar/20-pla",
+      "scrapedFrom": "https://gprint3d.com.ar/20-pla?page=2",
       "variants": []
     },
     {
@@ -3346,7 +3780,33 @@
       ],
       "image": "https://gprint3d.com.ar/254-large_default/filamento-3d-pla-grilon-gris-plata.jpg",
       "url": "https://gprint3d.com.ar/insumos/109-filamento-3d-pla-grilon-gris-plata.html",
-      "scrapedFrom": "https://gprint3d.com.ar/20-pla",
+      "scrapedFrom": "https://gprint3d.com.ar/20-pla?page=2",
+      "variants": []
+    },
+    {
+      "id": "gprint3d-108",
+      "sourceProductId": "108",
+      "store": "Gprint 3D",
+      "domain": "gprint3d.com.ar",
+      "name": "Filamento 3D PLA Grilon Azul",
+      "category": "Filamentos",
+      "price": 24100,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "PLA"
+      ],
+      "image": "https://gprint3d.com.ar/249-large_default/filamento-3d-pla-grilon-azul.jpg",
+      "url": "https://gprint3d.com.ar/insumos/108-filamento-3d-pla-grilon-azul.html",
+      "scrapedFrom": "https://gprint3d.com.ar/20-pla?page=2",
       "variants": []
     },
     {
@@ -3373,7 +3833,7 @@
       ],
       "image": "https://gprint3d.com.ar/185-large_default/filamento-3d-hellbot-pla-lock-rosa-pastel.jpg",
       "url": "https://gprint3d.com.ar/insumos/93-filamento-3d-hellbot-pla-lock-rosa-pastel.html",
-      "scrapedFrom": "https://gprint3d.com.ar/20-pla",
+      "scrapedFrom": "https://gprint3d.com.ar/20-pla?page=2",
       "variants": []
     },
     {
@@ -3400,61 +3860,7 @@
       ],
       "image": "https://gprint3d.com.ar/179-large_default/filamento-3d-hellbot-pla-lock-negro.jpg",
       "url": "https://gprint3d.com.ar/insumos/90-filamento-3d-hellbot-pla-lock-negro.html",
-      "scrapedFrom": "https://gprint3d.com.ar/20-pla",
-      "variants": []
-    },
-    {
-      "id": "gprint3d-63",
-      "sourceProductId": "63",
-      "store": "Gprint 3D",
-      "domain": "gprint3d.com.ar",
-      "name": "Filamento Hellbot PLA Recarga Lock Capibara",
-      "category": "Filamentos",
-      "price": 18991,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Hellbot",
-      "tags": [
-        "Hellbot",
-        "PLA"
-      ],
-      "image": "https://gprint3d.com.ar/110-large_default/filamento-hellbot-pla-recarga-lock-capibara.jpg",
-      "url": "https://gprint3d.com.ar/inicio/63-filamento-hellbot-pla-recarga-lock-capibara.html",
-      "scrapedFrom": "https://gprint3d.com.ar/20-pla",
-      "variants": []
-    },
-    {
-      "id": "gprint3d-54",
-      "sourceProductId": "54",
-      "store": "Gprint 3D",
-      "domain": "gprint3d.com.ar",
-      "name": "Filamento Hellbot PLA Recarga Lock Rosa Pastel",
-      "category": "Filamentos",
-      "price": 18991,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Hellbot",
-      "tags": [
-        "Hellbot",
-        "PLA"
-      ],
-      "image": "https://gprint3d.com.ar/92-large_default/filamento-hellbot-pla-recarga-lock-rosa-pastel.jpg",
-      "url": "https://gprint3d.com.ar/inicio/54-filamento-hellbot-pla-recarga-lock-rosa-pastel.html",
-      "scrapedFrom": "https://gprint3d.com.ar/20-pla",
+      "scrapedFrom": "https://gprint3d.com.ar/20-pla?page=2",
       "variants": []
     },
     {
@@ -3481,35 +3887,7 @@
       ],
       "image": "https://gprint3d.com.ar/82-large_default/filamento-hellbot-pla-recarga-lock-naranja.jpg",
       "url": "https://gprint3d.com.ar/inicio/49-filamento-hellbot-pla-recarga-lock-naranja.html",
-      "scrapedFrom": "https://gprint3d.com.ar/20-pla",
-      "variants": []
-    },
-    {
-      "id": "gprint3d-31",
-      "sourceProductId": "31",
-      "store": "Gprint 3D",
-      "domain": "gprint3d.com.ar",
-      "name": "Filamento Hellbot Ecofila Recarga PLA 175mm 1kg Lock",
-      "category": "Filamentos",
-      "price": 18991,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Hellbot",
-      "tags": [
-        "Hellbot",
-        "PLA",
-        "1kg"
-      ],
-      "image": "https://gprint3d.com.ar/47-large_default/filamento-hellbot-ecofila-recarga-pla-175mm-1kg-lock.jpg",
-      "url": "https://gprint3d.com.ar/inicio/31-filamento-hellbot-ecofila-recarga-pla-175mm-1kg-lock.html",
-      "scrapedFrom": "https://gprint3d.com.ar/20-pla",
+      "scrapedFrom": "https://gprint3d.com.ar/20-pla?page=2",
       "variants": []
     },
     {
@@ -3536,33 +3914,7 @@
       ],
       "image": "https://gprint3d.com.ar/1027-large_default/-filamento-3d-pla-soleyin-creality-ultra-pla-lavanda.jpg",
       "url": "https://gprint3d.com.ar/insumos/472--filamento-3d-pla-soleyin-creality-ultra-pla-lavanda.html",
-      "scrapedFrom": "https://gprint3d.com.ar/20-pla",
-      "variants": []
-    },
-    {
-      "id": "gprint3d-459",
-      "sourceProductId": "459",
-      "store": "Gprint 3D",
-      "domain": "gprint3d.com.ar",
-      "name": "Filamento 3D PLA Grilon Dorado",
-      "category": "Filamentos",
-      "price": 24100,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "PLA"
-      ],
-      "image": "https://gprint3d.com.ar/935-large_default/-filamento-3d-pla-grilon-dorado.jpg",
-      "url": "https://gprint3d.com.ar/insumos/459--filamento-3d-pla-grilon-dorado.html",
-      "scrapedFrom": "https://gprint3d.com.ar/20-pla",
+      "scrapedFrom": "https://gprint3d.com.ar/20-pla?page=2",
       "variants": []
     },
     {
@@ -3589,17 +3941,17 @@
       ],
       "image": "https://gprint3d.com.ar/920-large_default/filamento-3d-pla-soleyin-creality-ultra-pla-rojo.jpg",
       "url": "https://gprint3d.com.ar/insumos/457-filamento-3d-pla-soleyin-creality-ultra-pla-rojo.html",
-      "scrapedFrom": "https://gprint3d.com.ar/20-pla",
+      "scrapedFrom": "https://gprint3d.com.ar/20-pla?page=2",
       "variants": []
     },
     {
-      "id": "gprint3d-452",
-      "sourceProductId": "452",
+      "id": "gprint3d-420",
+      "sourceProductId": "420",
       "store": "Gprint 3D",
       "domain": "gprint3d.com.ar",
-      "name": "Filamento 3d PLA Grilon Verde Aviador",
+      "name": "Filamento 3d Hellbot PLA Lock Fucsia",
       "category": "Filamentos",
-      "price": 24100,
+      "price": 20891,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -3609,13 +3961,14 @@
       "stock": 1,
       "stockLabel": "En stock",
       "available": true,
-      "brand": null,
+      "brand": "Hellbot",
       "tags": [
+        "Hellbot",
         "PLA"
       ],
-      "image": "https://gprint3d.com.ar/870-large_default/-filamento-3d-pla-grilon-verde-aviador.jpg",
-      "url": "https://gprint3d.com.ar/insumos/452--filamento-3d-pla-grilon-verde-aviador.html",
-      "scrapedFrom": "https://gprint3d.com.ar/20-pla",
+      "image": "https://gprint3d.com.ar/703-large_default/filamento-3d-hellbot-pla-lock-fucsia.jpg",
+      "url": "https://gprint3d.com.ar/insumos/420-filamento-3d-hellbot-pla-lock-fucsia.html",
+      "scrapedFrom": "https://gprint3d.com.ar/20-pla?page=2",
       "variants": []
     },
     {
@@ -3642,7 +3995,7 @@
       ],
       "image": "https://gprint3d.com.ar/574-large_default/filamento-3d-pla-creality-negro.jpg",
       "url": "https://gprint3d.com.ar/insumos/402-filamento-3d-pla-creality-negro.html",
-      "scrapedFrom": "https://gprint3d.com.ar/20-pla",
+      "scrapedFrom": "https://gprint3d.com.ar/20-pla?page=2",
       "variants": []
     },
     {
@@ -3669,7 +4022,7 @@
       ],
       "image": "https://gprint3d.com.ar/403-large_default/filamento-3d-pla-printalot-rojo-fluo.jpg",
       "url": "https://gprint3d.com.ar/insumos/375-filamento-3d-pla-printalot-rojo-fluo.html",
-      "scrapedFrom": "https://gprint3d.com.ar/20-pla",
+      "scrapedFrom": "https://gprint3d.com.ar/20-pla?page=2",
       "variants": []
     },
     {
@@ -3695,7 +4048,7 @@
       ],
       "image": "https://gprint3d.com.ar/322-large_default/-filamento-3d-pla-boutique-crema-del-cielo.jpg",
       "url": "https://gprint3d.com.ar/insumos/123--filamento-3d-pla-boutique-crema-del-cielo.html",
-      "scrapedFrom": "https://gprint3d.com.ar/20-pla",
+      "scrapedFrom": "https://gprint3d.com.ar/20-pla?page=2",
       "variants": []
     },
     {
@@ -3803,33 +4156,6 @@
       "variants": []
     },
     {
-      "id": "gprint3d-113",
-      "sourceProductId": "113",
-      "store": "Gprint 3D",
-      "domain": "gprint3d.com.ar",
-      "name": "Filamento 3D PLA Silk Dorado",
-      "category": "Filamentos",
-      "price": 31000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": null,
-      "tags": [
-        "PLA",
-        "PLA Silk"
-      ],
-      "image": "https://gprint3d.com.ar/275-large_default/-filamento-3d-pla-silk-dorado.jpg",
-      "url": "https://gprint3d.com.ar/insumos/113--filamento-3d-pla-silk-dorado.html",
-      "scrapedFrom": "https://gprint3d.com.ar/20-pla?page=2",
-      "variants": []
-    },
-    {
       "id": "gprint3d-106",
       "sourceProductId": "106",
       "store": "Gprint 3D",
@@ -3910,33 +4236,6 @@
       "variants": []
     },
     {
-      "id": "gprint3d-78",
-      "sourceProductId": "78",
-      "store": "Gprint 3D",
-      "domain": "gprint3d.com.ar",
-      "name": "Filamento 3d Hellbot PLA Lock Dorado",
-      "category": "Filamentos",
-      "price": 20891,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Hellbot",
-      "tags": [
-        "Hellbot",
-        "PLA"
-      ],
-      "image": "https://gprint3d.com.ar/155-large_default/filamento-3d-hellbot-pla-lock-dorado.jpg",
-      "url": "https://gprint3d.com.ar/insumos/78-filamento-3d-hellbot-pla-lock-dorado.html",
-      "scrapedFrom": "https://gprint3d.com.ar/20-pla?page=2",
-      "variants": []
-    },
-    {
       "id": "gprint3d-77",
       "sourceProductId": "77",
       "store": "Gprint 3D",
@@ -3991,6 +4290,60 @@
       "variants": []
     },
     {
+      "id": "gprint3d-72",
+      "sourceProductId": "72",
+      "store": "Gprint 3D",
+      "domain": "gprint3d.com.ar",
+      "name": "Filamento 3d Hellbot PLA Lock Blanco",
+      "category": "Filamentos",
+      "price": 20891,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot",
+        "PLA"
+      ],
+      "image": "https://gprint3d.com.ar/143-large_default/-filamento-3d-hellbot-pla-lock-blanco.jpg",
+      "url": "https://gprint3d.com.ar/insumos/72--filamento-3d-hellbot-pla-lock-blanco.html",
+      "scrapedFrom": "https://gprint3d.com.ar/20-pla?page=2",
+      "variants": []
+    },
+    {
+      "id": "gprint3d-63",
+      "sourceProductId": "63",
+      "store": "Gprint 3D",
+      "domain": "gprint3d.com.ar",
+      "name": "Filamento Hellbot PLA Recarga Lock Capibara",
+      "category": "Filamentos",
+      "price": 18991,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot",
+        "PLA"
+      ],
+      "image": "https://gprint3d.com.ar/110-large_default/filamento-hellbot-pla-recarga-lock-capibara.jpg",
+      "url": "https://gprint3d.com.ar/inicio/63-filamento-hellbot-pla-recarga-lock-capibara.html",
+      "scrapedFrom": "https://gprint3d.com.ar/20-pla?page=2",
+      "variants": []
+    },
+    {
       "id": "gprint3d-58",
       "sourceProductId": "58",
       "store": "Gprint 3D",
@@ -4018,29 +4371,50 @@
       "variants": []
     },
     {
-      "id": "gprint3d-57",
-      "sourceProductId": "57",
+      "id": "gprint3d-452",
+      "sourceProductId": "452",
       "store": "Gprint 3D",
       "domain": "gprint3d.com.ar",
-      "name": "Flamento Hellbot PLA Recarga Lock Vainilla Pastel",
+      "name": "Filamento 3d PLA Grilon Verde Aviador",
       "category": "Filamentos",
-      "price": 18991,
+      "price": 24100,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
-      "purchaseModes": [
-        "Entrega inmediata"
-      ],
-      "stock": 1,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Hellbot",
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": null,
       "tags": [
-        "Hellbot",
         "PLA"
       ],
-      "image": "https://gprint3d.com.ar/98-large_default/flamento-hellbot-pla-recarga-lock-vainilla-pastel.jpg",
-      "url": "https://gprint3d.com.ar/inicio/57-flamento-hellbot-pla-recarga-lock-vainilla-pastel.html",
+      "image": "https://gprint3d.com.ar/870-large_default/-filamento-3d-pla-grilon-verde-aviador.jpg",
+      "url": "https://gprint3d.com.ar/insumos/452--filamento-3d-pla-grilon-verde-aviador.html",
+      "scrapedFrom": "https://gprint3d.com.ar/20-pla?page=2",
+      "variants": []
+    },
+    {
+      "id": "gprint3d-451",
+      "sourceProductId": "451",
+      "store": "Gprint 3D",
+      "domain": "gprint3d.com.ar",
+      "name": "Filamento 3D PLA Grilon Bordo",
+      "category": "Filamentos",
+      "price": 24100,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": null,
+      "tags": [
+        "PLA"
+      ],
+      "image": "https://gprint3d.com.ar/866-large_default/-filamento-3d-pla-grilon-bordo.jpg",
+      "url": "https://gprint3d.com.ar/insumos/451--filamento-3d-pla-grilon-bordo.html",
       "scrapedFrom": "https://gprint3d.com.ar/20-pla?page=2",
       "variants": []
     },
@@ -4502,7 +4876,7 @@
       "domain": "gprint3d.com.ar",
       "name": "Filamento 3D PLA 3N3 Naranja",
       "category": "Filamentos",
-      "price": 19300,
+      "price": 19500,
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": null,
@@ -4517,80 +4891,6 @@
       ],
       "image": "https://gprint3d.com.ar/313-large_default/filamento-3d-pla-3n3-naranja.jpg",
       "url": "https://gprint3d.com.ar/insumos/121-filamento-3d-pla-3n3-naranja.html",
-      "scrapedFrom": "https://gprint3d.com.ar/20-pla?page=2",
-      "variants": []
-    },
-    {
-      "id": "gprint3d-108",
-      "sourceProductId": "108",
-      "store": "Gprint 3D",
-      "domain": "gprint3d.com.ar",
-      "name": "Filamento 3D PLA Grilon Azul",
-      "category": "Filamentos",
-      "price": 24100,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": null,
-      "tags": [
-        "PLA"
-      ],
-      "image": "https://gprint3d.com.ar/249-large_default/filamento-3d-pla-grilon-azul.jpg",
-      "url": "https://gprint3d.com.ar/insumos/108-filamento-3d-pla-grilon-azul.html",
-      "scrapedFrom": "https://gprint3d.com.ar/20-pla?page=2",
-      "variants": []
-    },
-    {
-      "id": "gprint3d-100",
-      "sourceProductId": "100",
-      "store": "Gprint 3D",
-      "domain": "gprint3d.com.ar",
-      "name": "Filamento 3d Hellbot PLA Lock Violeta",
-      "category": "Filamentos",
-      "price": 20891,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Hellbot",
-      "tags": [
-        "Hellbot",
-        "PLA"
-      ],
-      "image": "https://gprint3d.com.ar/199-large_default/filamento-3d-hellbot-pla-lock-violeta.jpg",
-      "url": "https://gprint3d.com.ar/insumos/100-filamento-3d-hellbot-pla-lock-violeta.html",
-      "scrapedFrom": "https://gprint3d.com.ar/20-pla?page=2",
-      "variants": []
-    },
-    {
-      "id": "gprint3d-94",
-      "sourceProductId": "94",
-      "store": "Gprint 3D",
-      "domain": "gprint3d.com.ar",
-      "name": "Filamento 3d Hellbot PLA Lock Rosa",
-      "category": "Filamentos",
-      "price": 20891,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Hellbot",
-      "tags": [
-        "Hellbot",
-        "PLA"
-      ],
-      "image": "https://gprint3d.com.ar/187-large_default/filamento-3d-hellbot-pla-lock-rosa.jpg",
-      "url": "https://gprint3d.com.ar/insumos/94-filamento-3d-hellbot-pla-lock-rosa.html",
       "scrapedFrom": "https://gprint3d.com.ar/20-pla?page=2",
       "variants": []
     },
@@ -4670,181 +4970,6 @@
       "variants": []
     },
     {
-      "id": "gprint3d-84",
-      "sourceProductId": "84",
-      "store": "Gprint 3D",
-      "domain": "gprint3d.com.ar",
-      "name": "Filamento 3d Hellbot PLA Lock Marmol",
-      "category": "Filamentos",
-      "price": 20891,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Hellbot",
-      "tags": [
-        "Hellbot",
-        "PLA"
-      ],
-      "image": "https://gprint3d.com.ar/167-large_default/-filamento-3d-hellbot-pla-lock-marmol.jpg",
-      "url": "https://gprint3d.com.ar/insumos/84--filamento-3d-hellbot-pla-lock-marmol.html",
-      "scrapedFrom": "https://gprint3d.com.ar/20-pla?page=2",
-      "variants": []
-    },
-    {
-      "id": "gprint3d-83",
-      "sourceProductId": "83",
-      "store": "Gprint 3D",
-      "domain": "gprint3d.com.ar",
-      "name": "Filamento 3d Hellbot PLA Lock Lavanda Pastel",
-      "category": "Filamentos",
-      "price": 20891,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Hellbot",
-      "tags": [
-        "Hellbot",
-        "PLA"
-      ],
-      "image": "https://gprint3d.com.ar/165-large_default/filamento-3d-hellbot-pla-lock-lavanda-pastel.jpg",
-      "url": "https://gprint3d.com.ar/insumos/83-filamento-3d-hellbot-pla-lock-lavanda-pastel.html",
-      "scrapedFrom": "https://gprint3d.com.ar/20-pla?page=2",
-      "variants": []
-    },
-    {
-      "id": "gprint3d-80",
-      "sourceProductId": "80",
-      "store": "Gprint 3D",
-      "domain": "gprint3d.com.ar",
-      "name": "Copia De Filamento 3d Hellbot PLA Lock Gris Grafito",
-      "category": "Filamentos",
-      "price": 20891,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Hellbot",
-      "tags": [
-        "Hellbot",
-        "PLA"
-      ],
-      "image": "https://gprint3d.com.ar/159-large_default/copia-de-filamento-3d-hellbot-pla-lock-gris-grafito.jpg",
-      "url": "https://gprint3d.com.ar/insumos/80-copia-de-filamento-3d-hellbot-pla-lock-gris-grafito.html",
-      "scrapedFrom": "https://gprint3d.com.ar/20-pla?page=2",
-      "variants": []
-    },
-    {
-      "id": "gprint3d-68",
-      "sourceProductId": "68",
-      "store": "Gprint 3D",
-      "domain": "gprint3d.com.ar",
-      "name": "Filamento 3d Hellbot PLA Lock Aqua Pastel",
-      "category": "Filamentos",
-      "price": 20891,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Hellbot",
-      "tags": [
-        "Hellbot",
-        "PLA"
-      ],
-      "image": "https://gprint3d.com.ar/135-large_default/filamento-3d-hellbot-pla-lock-aqua-pastel.jpg",
-      "url": "https://gprint3d.com.ar/insumos/68-filamento-3d-hellbot-pla-lock-aqua-pastel.html",
-      "scrapedFrom": "https://gprint3d.com.ar/20-pla?page=2",
-      "variants": []
-    },
-    {
-      "id": "gprint3d-67",
-      "sourceProductId": "67",
-      "store": "Gprint 3D",
-      "domain": "gprint3d.com.ar",
-      "name": "Filamento 3d Hellbot PLA Lock Amarillo",
-      "category": "Filamentos",
-      "price": 20891,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Hellbot",
-      "tags": [
-        "Hellbot",
-        "PLA"
-      ],
-      "image": "https://gprint3d.com.ar/133-large_default/filamento-3d-hellbot-pla-lock-amarillo.jpg",
-      "url": "https://gprint3d.com.ar/insumos/67-filamento-3d-hellbot-pla-lock-amarillo.html",
-      "scrapedFrom": "https://gprint3d.com.ar/20-pla?page=2",
-      "variants": []
-    },
-    {
-      "id": "gprint3d-61",
-      "sourceProductId": "61",
-      "store": "Gprint 3D",
-      "domain": "gprint3d.com.ar",
-      "name": "Filamento Hellbot PLA Recarga Lock Violeta",
-      "category": "Filamentos",
-      "price": 18991,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Hellbot",
-      "tags": [
-        "Hellbot",
-        "PLA"
-      ],
-      "image": "https://gprint3d.com.ar/106-large_default/filamento-hellbot-pla-recarga-lock-violeta.jpg",
-      "url": "https://gprint3d.com.ar/inicio/61-filamento-hellbot-pla-recarga-lock-violeta.html",
-      "scrapedFrom": "https://gprint3d.com.ar/20-pla?page=2",
-      "variants": []
-    },
-    {
-      "id": "gprint3d-53",
-      "sourceProductId": "53",
-      "store": "Gprint 3D",
-      "domain": "gprint3d.com.ar",
-      "name": "Filamento Hellbot PLA Recarga Lock Rojo",
-      "category": "Filamentos",
-      "price": 18991,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Hellbot",
-      "tags": [
-        "Hellbot",
-        "PLA"
-      ],
-      "image": "https://gprint3d.com.ar/90-large_default/filamento-hellbot-pla-recarga-lock-rojo.jpg",
-      "url": "https://gprint3d.com.ar/inicio/53-filamento-hellbot-pla-recarga-lock-rojo.html",
-      "scrapedFrom": "https://gprint3d.com.ar/20-pla?page=2",
-      "variants": []
-    },
-    {
       "id": "gprint3d-52",
       "sourceProductId": "52",
       "store": "Gprint 3D",
@@ -4866,81 +4991,6 @@
       ],
       "image": "https://gprint3d.com.ar/88-large_default/filamento-hellbot-pla-recarga-lock-plateado.jpg",
       "url": "https://gprint3d.com.ar/inicio/52-filamento-hellbot-pla-recarga-lock-plateado.html",
-      "scrapedFrom": "https://gprint3d.com.ar/20-pla?page=2",
-      "variants": []
-    },
-    {
-      "id": "gprint3d-51",
-      "sourceProductId": "51",
-      "store": "Gprint 3D",
-      "domain": "gprint3d.com.ar",
-      "name": "Filamento Hellbot PLA Recarga Lock Negro",
-      "category": "Filamentos",
-      "price": 18991,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Hellbot",
-      "tags": [
-        "Hellbot",
-        "PLA"
-      ],
-      "image": "https://gprint3d.com.ar/86-large_default/filamento-hellbot-pla-recarga-lock-negro.jpg",
-      "url": "https://gprint3d.com.ar/inicio/51-filamento-hellbot-pla-recarga-lock-negro.html",
-      "scrapedFrom": "https://gprint3d.com.ar/20-pla?page=2",
-      "variants": []
-    },
-    {
-      "id": "gprint3d-50",
-      "sourceProductId": "50",
-      "store": "Gprint 3D",
-      "domain": "gprint3d.com.ar",
-      "name": "Copia De Filamento Hellbot PLA Recarga Lock Natural Cristal",
-      "category": "Filamentos",
-      "price": 18991,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Hellbot",
-      "tags": [
-        "Hellbot",
-        "PLA"
-      ],
-      "image": "https://gprint3d.com.ar/84-large_default/copia-de-filamento-hellbot-pla-recarga-lock-natural-cristal.jpg",
-      "url": "https://gprint3d.com.ar/inicio/50-copia-de-filamento-hellbot-pla-recarga-lock-natural-cristal.html",
-      "scrapedFrom": "https://gprint3d.com.ar/20-pla?page=2",
-      "variants": []
-    },
-    {
-      "id": "gprint3d-46",
-      "sourceProductId": "46",
-      "store": "Gprint 3D",
-      "domain": "gprint3d.com.ar",
-      "name": "Filamento Hellbot PLA Recarga Lock Marron",
-      "category": "Filamentos",
-      "price": 18991,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": null,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Hellbot",
-      "tags": [
-        "Hellbot",
-        "PLA"
-      ],
-      "image": "https://gprint3d.com.ar/76-large_default/filamento-hellbot-pla-recarga-lock-marron.jpg",
-      "url": "https://gprint3d.com.ar/inicio/46-filamento-hellbot-pla-recarga-lock-marron.html",
       "scrapedFrom": "https://gprint3d.com.ar/20-pla?page=2",
       "variants": []
     },
@@ -4968,6 +5018,87 @@
       ],
       "image": "https://gprint3d.com.ar/987-large_default/filamento-3d-petg-3n3-blanco.jpg",
       "url": "https://gprint3d.com.ar/insumos/466-filamento-3d-petg-3n3-blanco.html",
+      "scrapedFrom": "https://gprint3d.com.ar/21-petg",
+      "variants": []
+    },
+    {
+      "id": "gprint3d-480",
+      "sourceProductId": "480",
+      "store": "Gprint 3D",
+      "domain": "gprint3d.com.ar",
+      "name": "Filamento 3d PETG Hellbot Negro",
+      "category": "Filamentos",
+      "price": 22981,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot",
+        "PETG"
+      ],
+      "image": "https://gprint3d.com.ar/1076-large_default/filamento-3d-petg-hellbot-negro.jpg",
+      "url": "https://gprint3d.com.ar/insumos/480-filamento-3d-petg-hellbot-negro.html",
+      "scrapedFrom": "https://gprint3d.com.ar/21-petg",
+      "variants": []
+    },
+    {
+      "id": "gprint3d-479",
+      "sourceProductId": "479",
+      "store": "Gprint 3D",
+      "domain": "gprint3d.com.ar",
+      "name": "Filamento 3D Petg Hellbot Azul",
+      "category": "Filamentos",
+      "price": 22981,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot",
+        "PETG"
+      ],
+      "image": "https://gprint3d.com.ar/1074-large_default/filamento-3d-petg-hellbot-azul.jpg",
+      "url": "https://gprint3d.com.ar/insumos/479-filamento-3d-petg-hellbot-azul.html",
+      "scrapedFrom": "https://gprint3d.com.ar/21-petg",
+      "variants": []
+    },
+    {
+      "id": "gprint3d-478",
+      "sourceProductId": "478",
+      "store": "Gprint 3D",
+      "domain": "gprint3d.com.ar",
+      "name": "Filamento 3d PETG Hellbot Blanco",
+      "category": "Filamentos",
+      "price": 22981,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Hellbot",
+      "tags": [
+        "Hellbot",
+        "PETG"
+      ],
+      "image": "https://gprint3d.com.ar/1072-large_default/filamento-3d-petg-hellbot-blanco.jpg",
+      "url": "https://gprint3d.com.ar/insumos/478-filamento-3d-petg-hellbot-blanco.html",
       "scrapedFrom": "https://gprint3d.com.ar/21-petg",
       "variants": []
     },
@@ -5287,6 +5418,86 @@
       "variants": []
     },
     {
+      "id": "gprint3d-477",
+      "sourceProductId": "477",
+      "store": "Gprint 3D",
+      "domain": "gprint3d.com.ar",
+      "name": "Diametro 04",
+      "category": "Repuestos",
+      "price": 42000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": null,
+      "tags": [
+        "Repuestos"
+      ],
+      "image": "https://gprint3d.com.ar/1064-large_default/hotend-kit-nozzle-creality-sparkx-i7.jpg",
+      "url": "https://gprint3d.com.ar/repuestos/477-40-hotend-kit-nozzle-creality-sparkx-i7.html#/40-diametro-04",
+      "scrapedFrom": "https://gprint3d.com.ar/14-repuestos",
+      "variants": []
+    },
+    {
+      "id": "gprint3d-481",
+      "sourceProductId": "481",
+      "store": "Gprint 3D",
+      "domain": "gprint3d.com.ar",
+      "name": "Tubo Teflon PTFE X 2M Creality",
+      "category": "Impresoras",
+      "price": 30100,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Creality",
+      "tags": [
+        "Creality",
+        "Repuestos"
+      ],
+      "image": "https://gprint3d.com.ar/1085-large_default/tubo-teflon-x-2mt-creality-original.jpg",
+      "url": "https://gprint3d.com.ar/repuestos/481-tubo-teflon-x-2mt-creality-original.html",
+      "scrapedFrom": "https://gprint3d.com.ar/14-repuestos",
+      "variants": []
+    },
+    {
+      "id": "gprint3d-476",
+      "sourceProductId": "476",
+      "store": "Gprint 3D",
+      "domain": "gprint3d.com.ar",
+      "name": "Kit Calentamiento Hotend Creality Sparkx I7 24v",
+      "category": "Impresoras",
+      "price": 29900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Creality",
+      "tags": [
+        "Creality",
+        "Repuestos"
+      ],
+      "image": "https://gprint3d.com.ar/1055-large_default/-kit-calentamiento-hotend-creality-sparkx-i7-24v.jpg",
+      "url": "https://gprint3d.com.ar/repuestos/476--kit-calentamiento-hotend-creality-sparkx-i7-24v.html",
+      "scrapedFrom": "https://gprint3d.com.ar/14-repuestos",
+      "variants": []
+    },
+    {
       "id": "gprint3d-447",
       "sourceProductId": "447",
       "store": "Gprint 3D",
@@ -5336,6 +5547,33 @@
       ],
       "image": "https://gprint3d.com.ar/339-large_default/nozzle-m6-pico-bronce-creality.jpg",
       "url": "https://gprint3d.com.ar/repuestos/126-nozzle-m6-pico-bronce-creality.html",
+      "scrapedFrom": "https://gprint3d.com.ar/14-repuestos",
+      "variants": []
+    },
+    {
+      "id": "gprint3d-482",
+      "sourceProductId": "482",
+      "store": "Gprint 3D",
+      "domain": "gprint3d.com.ar",
+      "name": "Kit De Extrusor 3d Creality HI Original",
+      "category": "Impresoras",
+      "price": 62000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": null,
+      "purchaseModes": [
+        "Entrega inmediata"
+      ],
+      "stock": 1,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Creality",
+      "tags": [
+        "Creality",
+        "Repuestos"
+      ],
+      "image": "https://gprint3d.com.ar/1089-large_default/kit-de-extrusor-3d-creality-hi-original.jpg",
+      "url": "https://gprint3d.com.ar/repuestos/482-kit-de-extrusor-3d-creality-hi-original.html",
       "scrapedFrom": "https://gprint3d.com.ar/14-repuestos",
       "variants": []
     },

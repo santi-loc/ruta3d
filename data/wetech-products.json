@@ -5,15 +5,15 @@
     "baseUrl": "https://shop.wetech.ar",
     "listingPath": "/products"
   },
-  "scrapedAt": "2026-10-29T15:04:24.829Z",
-  "count": 293,
+  "scrapedAt": "2026-11-09T18:33:00.085Z",
+  "count": 295,
   "pages": [
     {
       "page": 1,
       "path": "/stk-item/catalogo",
       "url": "https://back.wetech.ar/stk-item/catalogo",
       "found": 621,
-      "added": 293
+      "added": 295
     }
   ],
   "products": [
@@ -28,7 +28,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 19998.8,
-      "stock": 27,
+      "stock": 21,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3n3",
@@ -129,7 +129,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 19998.8,
-      "stock": 20,
+      "stock": 18,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3n3",
@@ -159,7 +159,7 @@
         },
         {
           "id": "3N-PETG-1KG-BLAN",
-          "available": true,
+          "available": false,
           "price": 23528,
           "options": [
             "Blanco",
@@ -230,7 +230,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 12799.3,
-      "stock": 394,
+      "stock": 448,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3n3",
@@ -273,7 +273,7 @@
         },
         {
           "id": "3N-PLA-1KG-HUES",
-          "available": false,
+          "available": true,
           "price": 24705,
           "options": [
             "Hueso",
@@ -285,7 +285,7 @@
         },
         {
           "id": "3N-PLA-1KG-AZUL",
-          "available": false,
+          "available": true,
           "price": 24705,
           "options": [
             "Azul",
@@ -297,7 +297,7 @@
         },
         {
           "id": "3N-PLA-1KG-BLAN",
-          "available": true,
+          "available": false,
           "price": 24705,
           "options": [
             "Blanco",
@@ -309,7 +309,7 @@
         },
         {
           "id": "3N-PLA-1KG-BRON",
-          "available": true,
+          "available": false,
           "price": 24705,
           "options": [
             "Bronce",
@@ -345,7 +345,7 @@
         },
         {
           "id": "3N-PLA-1KG-ORO",
-          "available": false,
+          "available": true,
           "price": 24705,
           "options": [
             "Oro",
@@ -369,7 +369,7 @@
         },
         {
           "id": "3N-PLA-1KG-GRAC",
-          "available": true,
+          "available": false,
           "price": 24705,
           "options": [
             "Gris Acero",
@@ -381,7 +381,7 @@
         },
         {
           "id": "3N-PLA-1KG-GRPL",
-          "available": false,
+          "available": true,
           "price": 24705,
           "options": [
             "Gris Plomo",
@@ -405,7 +405,7 @@
         },
         {
           "id": "3N-PLA-1KG-NARA",
-          "available": false,
+          "available": true,
           "price": 24705,
           "options": [
             "Naranja",
@@ -417,7 +417,7 @@
         },
         {
           "id": "3N-PLA-1KG-NEGR",
-          "available": false,
+          "available": true,
           "price": 24705,
           "options": [
             "Negro",
@@ -465,7 +465,7 @@
         },
         {
           "id": "3N-PLA-1KG-NATU",
-          "available": true,
+          "available": false,
           "price": 24705,
           "options": [
             "Translucido Natural",
@@ -537,7 +537,7 @@
         },
         {
           "id": "3N-PLA-500-BLAN",
-          "available": true,
+          "available": false,
           "price": 15058,
           "options": [
             "Blanco",
@@ -561,7 +561,7 @@
         },
         {
           "id": "3N-PLA-500-CELE",
-          "available": true,
+          "available": false,
           "price": 15058,
           "options": [
             "Celeste",
@@ -609,7 +609,7 @@
         },
         {
           "id": "3N-PLA-500-NEGR",
-          "available": true,
+          "available": false,
           "price": 15058,
           "options": [
             "Negro",
@@ -633,7 +633,7 @@
         },
         {
           "id": "3N-PLA-500-VEFL",
-          "available": true,
+          "available": false,
           "price": 15058,
           "options": [
             "Verde Fluo",
@@ -656,7 +656,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 25998.95,
-      "stock": 45,
+      "stock": 28,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3n3",
@@ -745,7 +745,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 22999.3,
-      "stock": 47,
+      "stock": 42,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3n3",
@@ -884,7 +884,7 @@
         },
         {
           "id": "3N-TPU-500-ROJO",
-          "available": true,
+          "available": false,
           "price": 27058,
           "options": [
             "Rojo",
@@ -1104,7 +1104,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 16999.15,
-      "stock": 196,
+      "stock": 301,
       "stockLabel": "En stock",
       "available": true,
       "brand": "3nMax",
@@ -1135,7 +1135,7 @@
         },
         {
           "id": "3X-PLA-1KG-AZUL",
-          "available": false,
+          "available": true,
           "price": 24705,
           "options": [
             "Azul",
@@ -1147,7 +1147,7 @@
         },
         {
           "id": "3X-PLA-1KG-BLAN",
-          "available": true,
+          "available": false,
           "price": 24705,
           "options": [
             "Blanco",
@@ -1159,7 +1159,7 @@
         },
         {
           "id": "3X-PLA-1KG-BRON",
-          "available": false,
+          "available": true,
           "price": 24705,
           "options": [
             "Bronce",
@@ -1195,7 +1195,7 @@
         },
         {
           "id": "3X-PLA-1KG-GRPL",
-          "available": true,
+          "available": false,
           "price": 24705,
           "options": [
             "Gris Plomo",
@@ -1231,7 +1231,7 @@
         },
         {
           "id": "3X-PLA-1KG-NEGR",
-          "available": false,
+          "available": true,
           "price": 24705,
           "options": [
             "Negro",
@@ -1243,7 +1243,7 @@
         },
         {
           "id": "3X-PLA-1KG-ROJO",
-          "available": true,
+          "available": false,
           "price": 24705,
           "options": [
             "Rojo",
@@ -1255,7 +1255,7 @@
         },
         {
           "id": "3X-PLA-1KG-ROSA",
-          "available": true,
+          "available": false,
           "price": 24705,
           "options": [
             "Rosa",
@@ -1267,7 +1267,7 @@
         },
         {
           "id": "3X-PLA-1KG-UVA",
-          "available": true,
+          "available": false,
           "price": 24705,
           "options": [
             "Uva",
@@ -1327,7 +1327,7 @@
         },
         {
           "id": "3X-PLA-750-BRON",
-          "available": true,
+          "available": false,
           "price": 19999,
           "options": [
             "Bronce",
@@ -1351,7 +1351,7 @@
         },
         {
           "id": "3X-PLA-750-CHOC",
-          "available": true,
+          "available": false,
           "price": 19999,
           "options": [
             "Chocolate",
@@ -1375,7 +1375,7 @@
         },
         {
           "id": "3X-PLA-750-LILA",
-          "available": false,
+          "available": true,
           "price": 19999,
           "options": [
             "Lila",
@@ -1454,10 +1454,10 @@
       "domain": "shop.wetech.ar",
       "name": "Acople flexible | Geeetech | 5x8mm",
       "category": "Repuestos",
-      "price": 9750.59,
+      "price": 11284,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 8288,
+      "transferPrice": 9591.4,
       "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -1472,7 +1472,7 @@
         {
           "id": "ACOPLE GEEETECH",
           "available": true,
-          "price": 9750.59,
+          "price": 11284,
           "options": []
         }
       ]
@@ -1484,11 +1484,11 @@
       "domain": "shop.wetech.ar",
       "name": "Aguja para destapar | 0.2mm",
       "category": "Repuestos",
-      "price": 3664.36,
+      "price": 3487.5,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 3114.7,
-      "stock": 2,
+      "transferPrice": 2964.38,
+      "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": null,
@@ -1502,7 +1502,7 @@
         {
           "id": "AGUJA 0.2MM",
           "available": true,
-          "price": 3664.36,
+          "price": 3487.5,
           "options": []
         }
       ]
@@ -1514,11 +1514,11 @@
       "domain": "shop.wetech.ar",
       "name": "Aguja para destapar | 0.4mm",
       "category": "Repuestos",
-      "price": 3544.7,
+      "price": 3487.5,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 3012.99,
-      "stock": 82,
+      "transferPrice": 2964.38,
+      "stock": 80,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -1532,7 +1532,7 @@
         {
           "id": "AGUJA 0.4MM",
           "available": true,
-          "price": 3544.7,
+          "price": 3487.5,
           "options": []
         }
       ]
@@ -1544,11 +1544,11 @@
       "domain": "shop.wetech.ar",
       "name": "Aislante silicona | Bambu Lab | Negro | A1",
       "category": "Repuestos",
-      "price": 9114,
+      "price": 10199,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 7746.9,
-      "stock": 8,
+      "transferPrice": 8669.15,
+      "stock": 5,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -1562,7 +1562,7 @@
         {
           "id": "SILICONA BAMBUA1",
           "available": true,
-          "price": 9114,
+          "price": 10199,
           "options": []
         }
       ]
@@ -1574,11 +1574,11 @@
       "domain": "shop.wetech.ar",
       "name": "Aislante silicona | Creality | Color Negro | Ender 3 v3 SE",
       "category": "Repuestos",
-      "price": 11649.18,
+      "price": 8998.99,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 9901.8,
-      "stock": 15,
+      "transferPrice": 7649.14,
+      "stock": 14,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -1592,7 +1592,7 @@
         {
           "id": "SILICONA ENDER3V3SE",
           "available": true,
-          "price": 11649.18,
+          "price": 8998.99,
           "options": []
         }
       ]
@@ -1604,10 +1604,10 @@
       "domain": "shop.wetech.ar",
       "name": "Aislante silicona | Creality | Ender 5 Max",
       "category": "Repuestos",
-      "price": 9424.62,
+      "price": 9998.9,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 8010.93,
+      "transferPrice": 8499.06,
       "stock": 4,
       "stockLabel": "En stock",
       "available": true,
@@ -1622,7 +1622,7 @@
         {
           "id": "SILICONA ENDER5MAX",
           "available": true,
-          "price": 9424.62,
+          "price": 9998.9,
           "options": []
         }
       ]
@@ -1634,10 +1634,10 @@
       "domain": "shop.wetech.ar",
       "name": "Aislante silicona | Creality | Ender S1",
       "category": "Repuestos",
-      "price": 5235.43,
+      "price": 9997.5,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 4450.12,
+      "transferPrice": 8497.88,
       "stock": 85,
       "stockLabel": "En stock",
       "available": true,
@@ -1652,7 +1652,7 @@
         {
           "id": "SILICONA ENDERS1",
           "available": true,
-          "price": 5235.43,
+          "price": 9997.5,
           "options": []
         }
       ]
@@ -1664,10 +1664,10 @@
       "domain": "shop.wetech.ar",
       "name": "Aislante silicona | Creality | Hi Combo / K2 Plus",
       "category": "Repuestos",
-      "price": 10995.55,
+      "price": 12498.89,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 9346.21,
+      "transferPrice": 10624.06,
       "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -1682,7 +1682,7 @@
         {
           "id": "SILICONA HI/K2",
           "available": true,
-          "price": 10995.55,
+          "price": 12498.89,
           "options": []
         }
       ]
@@ -1694,11 +1694,11 @@
       "domain": "shop.wetech.ar",
       "name": "Aislante silicona | Creality | K1-KE / Ender 3 v3 Plus",
       "category": "Repuestos",
-      "price": 6076,
+      "price": 7998.93,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 5164.6,
-      "stock": 15,
+      "transferPrice": 6799.09,
+      "stock": 14,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -1712,7 +1712,7 @@
         {
           "id": "SILICONA K1 KE V3PLU",
           "available": true,
-          "price": 6076,
+          "price": 7998.93,
           "options": []
         }
       ]
@@ -1724,10 +1724,10 @@
       "domain": "shop.wetech.ar",
       "name": "Aislante silicona | Creality | Negro | K1C",
       "category": "Repuestos",
-      "price": 9424.62,
+      "price": 7998.93,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 8010.93,
+      "transferPrice": 6799.09,
       "stock": 6,
       "stockLabel": "En stock",
       "available": true,
@@ -1742,7 +1742,7 @@
         {
           "id": "SILICONA K1C",
           "available": true,
-          "price": 9424.62,
+          "price": 7998.93,
           "options": []
         }
       ]
@@ -1754,11 +1754,11 @@
       "domain": "shop.wetech.ar",
       "name": "Aislante silicona | Creality | Negro | MK8 / Series Ender-3",
       "category": "Repuestos",
-      "price": 5235.43,
+      "price": 10698.88,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 4450.12,
-      "stock": 22,
+      "transferPrice": 9094.04,
+      "stock": 21,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -1772,7 +1772,7 @@
         {
           "id": "SILICONA MK8",
           "available": true,
-          "price": 5235.43,
+          "price": 10698.88,
           "options": []
         }
       ]
@@ -1784,10 +1784,10 @@
       "domain": "shop.wetech.ar",
       "name": "Aislante silicona | Creality | Negro | Serie CR",
       "category": "Repuestos",
-      "price": 6282.61,
+      "price": 6998.87,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 5340.22,
+      "transferPrice": 5949.04,
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
@@ -1802,7 +1802,7 @@
         {
           "id": "SILICONA CR6",
           "available": false,
-          "price": 6282.61,
+          "price": 6998.87,
           "options": []
         }
       ]
@@ -1814,11 +1814,11 @@
       "domain": "shop.wetech.ar",
       "name": "Alicate Oblicuo | Plato | Modelo 170",
       "category": "Filamentos",
-      "price": 17221.12,
+      "price": 16998.85,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 14637.95,
-      "stock": 25,
+      "transferPrice": 14449.02,
+      "stock": 21,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -1832,7 +1832,7 @@
         {
           "id": "ALICATE SIMIL CRE",
           "available": true,
-          "price": 17221.12,
+          "price": 16998.85,
           "options": []
         }
       ]
@@ -1844,10 +1844,10 @@
       "domain": "shop.wetech.ar",
       "name": "Barrel | Creality | CR-10 MAX / CR10 S Pro V2 / CR10 S Pro",
       "category": "Repuestos",
-      "price": 16094.89,
+      "price": 11998.55,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 13680.66,
+      "transferPrice": 10198.77,
       "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -1862,7 +1862,7 @@
         {
           "id": "BARREL CR10 S PRO V2",
           "available": true,
-          "price": 16094.89,
+          "price": 11998.55,
           "options": []
         }
       ]
@@ -1878,7 +1878,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 9436.07,
-      "stock": 3,
+      "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": null,
@@ -1994,10 +1994,10 @@
       "domain": "shop.wetech.ar",
       "name": "Barrel Bimetalico | Creality | CR-10 Smart / CR-6 SE / CR-6 MAX",
       "category": "Repuestos",
-      "price": 20944.84,
+      "price": 15498.45,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 17803.11,
+      "transferPrice": 13173.68,
       "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -2012,7 +2012,7 @@
         {
           "id": "BARREL BIMECR6 CR10S",
           "available": true,
-          "price": 20944.84,
+          "price": 15498.45,
           "options": []
         }
       ]
@@ -2024,10 +2024,10 @@
       "domain": "shop.wetech.ar",
       "name": "Barrel Bimetalico | Creality | Ender 3 V3 KE",
       "category": "Repuestos",
-      "price": 21992.17,
+      "price": 15998.94,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 18693.35,
+      "transferPrice": 13599.1,
       "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -2042,7 +2042,7 @@
         {
           "id": "BARREL BIME E3V3KE",
           "available": true,
-          "price": 21992.17,
+          "price": 15998.94,
           "options": []
         }
       ]
@@ -2238,7 +2238,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 9791.26,
-      "stock": 23,
+      "stock": 22,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -2358,7 +2358,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 9901.8,
-      "stock": 15,
+      "stock": 12,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -2457,7 +2457,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 9901.8,
-      "stock": 6,
+      "stock": 5,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -2622,7 +2622,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 9009.06,
-      "stock": 8,
+      "stock": 6,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -3183,7 +3183,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 4450.12,
-      "stock": 64,
+      "stock": 60,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -3513,7 +3513,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 6026.9,
-      "stock": 11,
+      "stock": 8,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -3909,7 +3909,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 24110.25,
-      "stock": 12,
+      "stock": 11,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -4662,7 +4662,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 56949.07,
-      "stock": 3,
+      "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": null,
@@ -5142,7 +5142,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 25499.15,
-      "stock": 20,
+      "stock": 14,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Elegoo",
@@ -5435,9 +5435,9 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 27999,
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
+      "available": true,
       "brand": "Elegoo",
       "tags": [
         "Elegoo",
@@ -5585,7 +5585,7 @@
         },
         {
           "id": "EG-PLAM-1KG-VEAZ",
-          "available": false,
+          "available": true,
           "price": 32940,
           "options": [
             "Verde Azulado Teal",
@@ -6108,10 +6108,10 @@
       "domain": "shop.wetech.ar",
       "name": "Fan Axial | Creality | 4020 | 24V | 0.20A | Ficha Fuente",
       "category": "Repuestos",
-      "price": 11605.93,
+      "price": 14988.5,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 9865.04,
+      "transferPrice": 12740.23,
       "stock": 3,
       "stockLabel": "Pocas unidades",
       "available": true,
@@ -6126,7 +6126,7 @@
         {
           "id": "FAN AXIA 4020 CRELIT",
           "available": true,
-          "price": 11605.93,
+          "price": 14988.5,
           "options": []
         }
       ]
@@ -6532,8 +6532,8 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 49998.7,
-      "stock": 4,
-      "stockLabel": "En stock",
+      "stock": 3,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "FlashForge",
       "tags": [
@@ -6708,7 +6708,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 46499.25,
-      "stock": 9,
+      "stock": 8,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Fremover",
@@ -6732,6 +6732,263 @@
             "Negro",
             "1kg",
             "High Speed PetG Fibra Vidrio",
+            "Premium",
+            "Importado"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wetech-fremover-high-speed-pla-premium-importado",
+      "sourceProductId": "FREMOVER-HIGH SPEED PLA-PREMIUM-IMPORTADO",
+      "store": "WeTech",
+      "domain": "shop.wetech.ar",
+      "name": "Fremover PLA",
+      "category": "Filamentos",
+      "price": 29411,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 24999.35,
+      "stock": 5,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Fremover",
+      "tags": [
+        "Fremover",
+        "High Speed PLA",
+        "Premium",
+        "Importado",
+        "Filamentos PLA",
+        "1kg"
+      ],
+      "image": "https://ik.imagekit.io/8x5mvqkfl0/FREMOVER/PLA+%20CLASSIC/PLA+%201KG%20YELLOW_Mesa%20de%20trabajo%201.png?updatedAt=1779218349362",
+      "url": "https://shop.wetech.ar/product/FREMOVER-HIGH%20SPEED%20PLA-PREMIUM-IMPORTADO",
+      "scrapedFrom": "https://shop.wetech.ar/products",
+      "variants": [
+        {
+          "id": "FM-PLA-1KG-AMAR",
+          "available": false,
+          "price": 29411,
+          "options": [
+            "Amarillo",
+            "1kg",
+            "High Speed PLA",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "FM-PLA-1KG-AZUL",
+          "available": false,
+          "price": 29411,
+          "options": [
+            "Azul",
+            "1kg",
+            "High Speed PLA",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "FM-PLA-1KG-BLAN",
+          "available": false,
+          "price": 29411,
+          "options": [
+            "Blanco",
+            "1kg",
+            "High Speed PLA",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "FM-PLA-1KG-AZCI",
+          "available": true,
+          "price": 29411,
+          "options": [
+            "Celeste Cielo",
+            "1kg",
+            "High Speed PLA",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "FM-PLA-1KG-GRIS",
+          "available": false,
+          "price": 29411,
+          "options": [
+            "Gris",
+            "1kg",
+            "High Speed PLA",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "FM-PLA-1KG-MARB",
+          "available": false,
+          "price": 29411,
+          "options": [
+            "Marmol",
+            "1kg",
+            "High Speed PLA",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "FM-PLA-1KG-MARR",
+          "available": false,
+          "price": 29411,
+          "options": [
+            "Marron",
+            "1kg",
+            "High Speed PLA",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "FM-PLA-1KG-NARN",
+          "available": false,
+          "price": 29411,
+          "options": [
+            "Naranja",
+            "1kg",
+            "High Speed PLA",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "FM-PLA-1KG-DURA",
+          "available": false,
+          "price": 29411,
+          "options": [
+            "Naranja Durazno",
+            "1kg",
+            "High Speed PLA",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "FM-PLA-1KG-NEGR",
+          "available": false,
+          "price": 29411,
+          "options": [
+            "Negro",
+            "1kg",
+            "High Speed PLA",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "FM-PLA-1KG-ROJO",
+          "available": false,
+          "price": 29411,
+          "options": [
+            "Rojo",
+            "1kg",
+            "High Speed PLA",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "FM-PLA-1KG-VINO",
+          "available": false,
+          "price": 29411,
+          "options": [
+            "Vino",
+            "1kg",
+            "High Speed PLA",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "FM-PLA-1KG-LOPO",
+          "available": false,
+          "price": 29411,
+          "options": [
+            "Rosa Polvo de Loto",
+            "1kg",
+            "High Speed PLA",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "FM-PLA-1KG-VAIN",
+          "available": false,
+          "price": 29411,
+          "options": [
+            "Vainilla",
+            "1kg",
+            "High Speed PLA",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "FM-PLA-1KG-CEVE",
+          "available": false,
+          "price": 29411,
+          "options": [
+            "Verde Cebolleta",
+            "1kg",
+            "High Speed PLA",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "FM-PLA-1KG-ESME",
+          "available": false,
+          "price": 29411,
+          "options": [
+            "Esmeralda",
+            "1kg",
+            "High Speed PLA",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "FM-PLA-1KG-VEMI",
+          "available": false,
+          "price": 29411,
+          "options": [
+            "Verde Militar",
+            "1kg",
+            "High Speed PLA",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "FM-PLA-1KG-LAVA",
+          "available": true,
+          "price": 29411,
+          "options": [
+            "Violeta Lavanda",
+            "1kg",
+            "High Speed PLA",
+            "Premium",
+            "Importado"
+          ]
+        },
+        {
+          "id": "FM-PLA-1KG-PURP",
+          "available": false,
+          "price": 29411,
+          "options": [
+            "Purpura",
+            "1kg",
+            "High Speed PLA",
             "Premium",
             "Importado"
           ]
@@ -7631,11 +7888,11 @@
       "domain": "shop.wetech.ar",
       "name": "Grasa Siliconada | 10gr",
       "category": "Filamentos",
-      "price": 10129.56,
+      "price": 9998.9,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 8610.13,
-      "stock": 65,
+      "transferPrice": 8499.06,
+      "stock": 58,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -7649,7 +7906,7 @@
         {
           "id": "GRASA SILICONADA",
           "available": true,
-          "price": 10129.56,
+          "price": 9998.9,
           "options": []
         }
       ]
@@ -7665,7 +7922,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 26999.4,
-      "stock": 75,
+      "stock": 73,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -7988,7 +8245,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 27999,
-      "stock": 140,
+      "stock": 133,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -8001,7 +8258,7 @@
         "1kg",
         "2.5kg"
       ],
-      "image": "https://i.imgur.com/H5qx6wg.png",
+      "image": "https://ik.imagekit.io/8x5mvqkfl0/Grilon3/TECNICOS/ABS/800X800/ABS%201KG%20AMARILLO_Mesa%20de%20trabajo%201.png?updatedAt=1772572881344",
       "url": "https://shop.wetech.ar/product/GRILON3-ABS-PREMIUM-NACIONAL",
       "scrapedFrom": "https://shop.wetech.ar/products",
       "variants": [
@@ -8091,7 +8348,7 @@
         },
         {
           "id": "G3-ABS-1KG-ROJO",
-          "available": false,
+          "available": true,
           "price": 32940,
           "options": [
             "Rojo",
@@ -8251,7 +8508,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 26999.4,
-      "stock": 87,
+      "stock": 122,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -8306,7 +8563,7 @@
         },
         {
           "id": "G3-BOUT-1KG-AREN",
-          "available": false,
+          "available": true,
           "price": 31764,
           "options": [
             "Arena",
@@ -8318,7 +8575,7 @@
         },
         {
           "id": "G3-BOUT-1KG-ZAFI",
-          "available": false,
+          "available": true,
           "price": 31764,
           "options": [
             "Zafiro",
@@ -8378,7 +8635,7 @@
         },
         {
           "id": "G3-BOUT-1KG-CHOC",
-          "available": false,
+          "available": true,
           "price": 31764,
           "options": [
             "Chocolate",
@@ -8438,7 +8695,7 @@
         },
         {
           "id": "G3-BOUT-1KG-LAVA",
-          "available": false,
+          "available": true,
           "price": 31764,
           "options": [
             "Violeta Lavanda",
@@ -8462,7 +8719,7 @@
         },
         {
           "id": "G3-BOUT-1KG-SALM",
-          "available": false,
+          "available": true,
           "price": 31764,
           "options": [
             "Salmon",
@@ -8788,7 +9045,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 23499.1,
-      "stock": 141,
+      "stock": 96,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -8844,7 +9101,7 @@
         },
         {
           "id": "G3-MEGP-4KG-NEGR",
-          "available": true,
+          "available": false,
           "price": 85881,
           "options": [
             "Negro",
@@ -8928,7 +9185,7 @@
         },
         {
           "id": "G3-PETG-1KG-GRAC",
-          "available": true,
+          "available": false,
           "price": 27646,
           "options": [
             "Gris Acero",
@@ -9012,7 +9269,7 @@
         },
         {
           "id": "G3-PETG-1KG-VECL",
-          "available": true,
+          "available": false,
           "price": 27646,
           "options": [
             "Verde Clear",
@@ -9035,7 +9292,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 24999.35,
-      "stock": 263,
+      "stock": 342,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -9186,7 +9443,7 @@
         },
         {
           "id": "G3-PLA2-1KG-AZUL",
-          "available": true,
+          "available": false,
           "price": 30587,
           "options": [
             "Azul",
@@ -9294,7 +9551,7 @@
         },
         {
           "id": "G3-PLA2-1KG-FUCS",
-          "available": true,
+          "available": false,
           "price": 30587,
           "options": [
             "Fucsia",
@@ -9306,7 +9563,7 @@
         },
         {
           "id": "G3-PLA2-1KG-GRES",
-          "available": true,
+          "available": false,
           "price": 30587,
           "options": [
             "Gris Espacial",
@@ -9354,7 +9611,7 @@
         },
         {
           "id": "G3-PLA1-1KG-NEGR",
-          "available": false,
+          "available": true,
           "price": 29411,
           "options": [
             "Negro",
@@ -9378,7 +9635,7 @@
         },
         {
           "id": "G3-PLA2-1KG-PI72",
-          "available": true,
+          "available": false,
           "price": 30587,
           "options": [
             "Piel 720",
@@ -9438,7 +9695,7 @@
         },
         {
           "id": "G3-PLA2-1KG-VERD",
-          "available": true,
+          "available": false,
           "price": 30587,
           "options": [
             "Verde",
@@ -9462,7 +9719,7 @@
         },
         {
           "id": "G3-PLA2-1KG-VEMA",
-          "available": true,
+          "available": false,
           "price": 30587,
           "options": [
             "Verde Manzana",
@@ -9598,7 +9855,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 29999.05,
-      "stock": 51,
+      "stock": 49,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -9723,7 +9980,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 39999.3,
-      "stock": 49,
+      "stock": 46,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -9800,7 +10057,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 37999.25,
-      "stock": 15,
+      "stock": 13,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -9889,9 +10146,9 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 32998.7,
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
+      "stock": 3,
+      "stockLabel": "Pocas unidades",
+      "available": true,
       "brand": "Grilon3",
       "tags": [
         "Grilon3",
@@ -10028,7 +10285,7 @@
         },
         {
           "id": "G3-PLAPR-1KG-NEGR",
-          "available": false,
+          "available": true,
           "price": 38822,
           "options": [
             "Negro",
@@ -10128,7 +10385,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 45998.6,
-      "stock": 89,
+      "stock": 87,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -10140,7 +10397,7 @@
         "Filamentos Técnicos",
         "1kg"
       ],
-      "image": "https://ik.imagekit.io/8x5mvqkfl0/Grilon3/TECNICOS/SIMPLIFLEX/400X400/SIMPLIFLEX%201KG%20BLANCO_Mesa%20de%20trabajo%201%20copia.png?updatedAt=1772572929228",
+      "image": "https://ik.imagekit.io/8x5mvqkfl0/Grilon3/TECNICOS/SIMPLIFLEX/800X800/SIMPLIFLEX%201KG%20BLANCO_Mesa%20de%20trabajo%201.png?updatedAt=1772572930368",
       "url": "https://shop.wetech.ar/product/GRILON3-TPU%20SIMPLIFLEX-PREMIUM-NACIONAL",
       "scrapedFrom": "https://shop.wetech.ar/products",
       "variants": [
@@ -10241,7 +10498,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 32998.7,
-      "stock": 32,
+      "stock": 30,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Grilon3",
@@ -10400,7 +10657,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 19998.8,
-      "stock": 22,
+      "stock": 21,
       "stockLabel": "En stock",
       "available": true,
       "brand": "GST3D",
@@ -10442,7 +10699,7 @@
         },
         {
           "id": "GSB-PETG-1KG-BLAN",
-          "available": true,
+          "available": false,
           "price": 23528,
           "options": [
             "Blanco",
@@ -10466,7 +10723,7 @@
         },
         {
           "id": "GSB-PETG-1KG-NEGR",
-          "available": false,
+          "available": true,
           "price": 23528,
           "options": [
             "Negro",
@@ -10590,7 +10847,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 21998.85,
-      "stock": 34,
+      "stock": 71,
       "stockLabel": "En stock",
       "available": true,
       "brand": "GST3D",
@@ -10632,7 +10889,7 @@
         },
         {
           "id": "GSB-SILK-1KG-AZUL",
-          "available": false,
+          "available": true,
           "price": 25881,
           "options": [
             "Azul",
@@ -10644,7 +10901,7 @@
         },
         {
           "id": "GSB-SILK-1KG-PERL",
-          "available": false,
+          "available": true,
           "price": 25881,
           "options": [
             "Blanco Perla",
@@ -10704,7 +10961,7 @@
         },
         {
           "id": "GSB-SILK-1KG-ALUM",
-          "available": false,
+          "available": true,
           "price": 25881,
           "options": [
             "Gris Aluminio",
@@ -10752,7 +11009,7 @@
         },
         {
           "id": "GSB-SILK-1KG-ROJO",
-          "available": false,
+          "available": true,
           "price": 25881,
           "options": [
             "Rojo",
@@ -10837,6 +11094,131 @@
       ]
     },
     {
+      "id": "wetech-gst3d-pla-silk-duo-basico-nacional",
+      "sourceProductId": "GST3D-PLA+ SILK DUO-BÁSICO-NACIONAL",
+      "store": "WeTech",
+      "domain": "shop.wetech.ar",
+      "name": "GST3D Black PLA SILK BICOLOR",
+      "category": "Filamentos",
+      "price": 25881,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 21998.85,
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "GST3D",
+      "tags": [
+        "GST3D",
+        "PLA+ Silk DUO",
+        "Básico",
+        "Nacional",
+        "Filamentos PLA",
+        "1kg"
+      ],
+      "image": "https://ik.imagekit.io/8x5mvqkfl0/GST3D/GST3D%20BLACK/BICOLOR%20SILK/PLA%201KG%20BISILK%20ARGENTO_Mesa%20de%20trabajo%201.png?updatedAt=1781117191821",
+      "url": "https://shop.wetech.ar/product/GST3D-PLA%2B%20SILK%20DUO-B%C3%81SICO-NACIONAL",
+      "scrapedFrom": "https://shop.wetech.ar/products",
+      "variants": [
+        {
+          "id": "GSB-SIDU-1KG-ARGE",
+          "available": false,
+          "price": 25881,
+          "options": [
+            "Celeste + Blanco Argento",
+            "1kg",
+            "PLA+ Silk DUO",
+            "Básico",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "GSB-SIDU-1KG-FUDO",
+          "available": false,
+          "price": 25881,
+          "options": [
+            "Fucsia + Dorado",
+            "1kg",
+            "PLA+ Silk DUO",
+            "Básico",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "GSB-SIDU-1KG-GRDO",
+          "available": false,
+          "price": 25881,
+          "options": [
+            "Grafito + Dorado",
+            "1kg",
+            "PLA+ Silk DUO",
+            "Básico",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "GSB-SIDU-1KG-GRPE",
+          "available": false,
+          "price": 25881,
+          "options": [
+            "Grafito + Perla",
+            "1kg",
+            "PLA+ Silk DUO",
+            "Básico",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "GSB-SIDU-1KG-GRPU",
+          "available": false,
+          "price": 25881,
+          "options": [
+            "Grafito + Purpura",
+            "1kg",
+            "PLA+ Silk DUO",
+            "Básico",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "GSB-SIDU-1KG-GRRO",
+          "available": false,
+          "price": 25881,
+          "options": [
+            "Grafito + Rojo",
+            "1kg",
+            "PLA+ Silk DUO",
+            "Básico",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "GSB-SIDU-1KG-GRVE",
+          "available": false,
+          "price": 25881,
+          "options": [
+            "Grafito + Verde",
+            "1kg",
+            "PLA+ Silk DUO",
+            "Básico",
+            "Nacional"
+          ]
+        },
+        {
+          "id": "GSB-SIDU-1KG-NADO",
+          "available": false,
+          "price": 25881,
+          "options": [
+            "Naranja + Dorado",
+            "1kg",
+            "PLA+ Silk DUO",
+            "Básico",
+            "Nacional"
+          ]
+        }
+      ]
+    },
+    {
       "id": "wetech-gst3d-pla-silk-trio-basico-nacional",
       "sourceProductId": "GST3D-PLA+ SILK TRIO-BÁSICO-NACIONAL",
       "store": "WeTech",
@@ -10847,7 +11229,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 23998.9,
-      "stock": 33,
+      "stock": 57,
       "stockLabel": "En stock",
       "available": true,
       "brand": "GST3D",
@@ -10877,7 +11259,7 @@
         },
         {
           "id": "GSB-SITR-1KG-DOPUAZ",
-          "available": true,
+          "available": false,
           "price": 28234,
           "options": [
             "Dorado + Purpura + Azul",
@@ -10889,7 +11271,7 @@
         },
         {
           "id": "GSB-SITR-1KG-DOROAZ",
-          "available": true,
+          "available": false,
           "price": 28234,
           "options": [
             "Dorado + Rojo + Azul",
@@ -10937,7 +11319,7 @@
         },
         {
           "id": "GSB-SITR-1KG-LAMB",
-          "available": true,
+          "available": false,
           "price": 28234,
           "options": [
             "Lambo Verde + Azul + Fucsia",
@@ -10996,7 +11378,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 19998.8,
-      "stock": 444,
+      "stock": 837,
       "stockLabel": "En stock",
       "available": true,
       "brand": "GST3D",
@@ -11158,7 +11540,7 @@
         },
         {
           "id": "GSB-PLA-1KG-GOLD",
-          "available": false,
+          "available": true,
           "price": 23528,
           "options": [
             "Dorado",
@@ -11254,7 +11636,7 @@
         },
         {
           "id": "GSB-PLA-1KG-NARA",
-          "available": false,
+          "available": true,
           "price": 23528,
           "options": [
             "Naranja",
@@ -11278,7 +11660,7 @@
         },
         {
           "id": "GSB-PLA-1KG-NEGR",
-          "available": false,
+          "available": true,
           "price": 23528,
           "options": [
             "Negro",
@@ -11671,7 +12053,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 29999.05,
-      "stock": 11,
+      "stock": 7,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -11921,7 +12303,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 19998.8,
-      "stock": 320,
+      "stock": 174,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -11987,7 +12369,7 @@
         },
         {
           "id": "HB-PLA-1KG-COBA",
-          "available": true,
+          "available": false,
           "price": 23528,
           "options": [
             "Cobalto",
@@ -12083,7 +12465,7 @@
         },
         {
           "id": "HB-PLA-1KG-GRGR",
-          "available": true,
+          "available": false,
           "price": 23528,
           "options": [
             "Gris Grafito",
@@ -12299,7 +12681,7 @@
         },
         {
           "id": "HB-PLA-1KG-VAPA",
-          "available": true,
+          "available": false,
           "price": 23528,
           "options": [
             "Vainilla Pastel",
@@ -12311,7 +12693,7 @@
         },
         {
           "id": "HB-PLA-1KG-VERD",
-          "available": true,
+          "available": false,
           "price": 23528,
           "options": [
             "Verde",
@@ -12748,7 +13130,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 48024.06,
-      "stock": 9,
+      "stock": 6,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -12838,7 +13220,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 27624.02,
-      "stock": 12,
+      "stock": 6,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -12924,11 +13306,11 @@
       "domain": "shop.wetech.ar",
       "name": "Kit Hotend Boquilla Intercambiable 0.6mm | Bambu Lab | A1 / A1 Mini",
       "category": "Repuestos",
-      "price": 42041.43,
+      "price": 41998.96,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 35735.21,
-      "stock": 15,
+      "transferPrice": 35699.11,
+      "stock": 11,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -12942,7 +13324,7 @@
         {
           "id": "KITHOTEND INBLA1 0.6",
           "available": true,
-          "price": 42041.43,
+          "price": 41998.96,
           "options": []
         }
       ]
@@ -13198,7 +13580,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 2974.12,
-      "stock": 12,
+      "stock": 7,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -13888,7 +14270,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 19844.32,
-      "stock": 2,
+      "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": null,
@@ -14188,7 +14570,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 14207.39,
-      "stock": 14,
+      "stock": 13,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,
@@ -14244,10 +14626,10 @@
       "domain": "shop.wetech.ar",
       "name": "Resistencia Ceramica | Creality | Hi",
       "category": "Repuestos",
-      "price": 23563.1,
+      "price": 23498.93,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 20028.63,
+      "transferPrice": 19974.09,
       "stock": 4,
       "stockLabel": "En stock",
       "available": true,
@@ -14262,7 +14644,7 @@
         {
           "id": "RESISTENCIA CE CR HI",
           "available": true,
-          "price": 23563.1,
+          "price": 23498.93,
           "options": []
         }
       ]
@@ -14308,7 +14690,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 8901.03,
-      "stock": 3,
+      "stock": 2,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": null,
@@ -14634,10 +15016,10 @@
       "domain": "shop.wetech.ar",
       "name": "Termistor | Creality | Hi",
       "category": "Repuestos",
-      "price": 19897.51,
+      "price": 19998.88,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 16912.88,
+      "transferPrice": 16999.04,
       "stock": 5,
       "stockLabel": "En stock",
       "available": true,
@@ -14652,7 +15034,7 @@
         {
           "id": "TERMISTOR CR HI",
           "available": true,
-          "price": 19897.51,
+          "price": 19998.88,
           "options": []
         }
       ]
@@ -14728,7 +15110,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 8901.03,
-      "stock": 2,
+      "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": null,
@@ -14998,7 +15380,7 @@
       "currency": "ARS",
       "previousPrice": null,
       "transferPrice": 21674.06,
-      "stock": 16,
+      "stock": 15,
       "stockLabel": "En stock",
       "available": true,
       "brand": null,

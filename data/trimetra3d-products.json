@@ -5,7 +5,7 @@
     "baseUrl": "https://trimetra3d.com.ar",
     "listingPath": "/productos/"
   },
-  "scrapedAt": "2026-10-29T15:04:21.067Z",
+  "scrapedAt": "2026-11-09T18:32:57.932Z",
   "count": 50,
   "pages": [
     {
@@ -17,7 +17,7 @@
     {
       "page": 2,
       "url": "https://trimetra3d.com.ar/productos/?page=2",
-      "found": 3,
+      "found": 2,
       "added": 2
     },
     {
@@ -40,7 +40,7 @@
       "previousPrice": null,
       "transferPrice": 19440,
       "purchaseModes": [],
-      "stock": 234,
+      "stock": 90,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -50,7 +50,7 @@
         "1kg"
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambulab-pla_lite-yellow_sc-2-2c06f8e07d06a4f6bc17759382005900-1024-1024.webp",
-      "url": "https://www.trimetra3d.com.ar/productos/bambu-lab-pla-lite-sin-carretel-1-kg/",
+      "url": "https://www.trimetra3d.com.ar/productos/bambu-lab-pla-lite-sin-carretel-1-kg/?entry_path=category",
       "scrapedFrom": "https://trimetra3d.com.ar/productos/",
       "variants": [
         {
@@ -58,7 +58,7 @@
           "sku": "BAMBULAB-PLA_LITE-YELLOW_SC",
           "price": 21600,
           "isDeposit": false,
-          "stock": 13,
+          "stock": 10,
           "available": true,
           "options": [
             "PLA",
@@ -71,7 +71,7 @@
           "sku": "BAMBULAB-PLA_LITE-SUNFLOWER-YELLOW_SC",
           "price": 21600,
           "isDeposit": false,
-          "stock": 10,
+          "stock": 7,
           "available": true,
           "options": [
             "PLA",
@@ -110,7 +110,7 @@
           "sku": "BAMBULAB-PLA_LITE-CYAN_SC",
           "price": 21600,
           "isDeposit": false,
-          "stock": 20,
+          "stock": 16,
           "available": true,
           "options": [
             "PLA",
@@ -149,7 +149,7 @@
           "sku": "BAMBULAB-PLA_LITE-ORANGE_SC",
           "price": 21600,
           "isDeposit": false,
-          "stock": 5,
+          "stock": 2,
           "available": true,
           "options": [
             "PLA",
@@ -162,7 +162,7 @@
           "sku": "BAMBULAB-PLA_LITE-BLACK_SC",
           "price": 21600,
           "isDeposit": false,
-          "stock": 67,
+          "stock": 55,
           "available": true,
           "options": [
             "PLA",
@@ -175,8 +175,8 @@
           "sku": "BAMBULAB-PLA_LITE-RED_SC",
           "price": 21600,
           "isDeposit": false,
-          "stock": 2,
-          "available": true,
+          "stock": 0,
+          "available": false,
           "options": [
             "PLA",
             "Rojo"
@@ -210,7 +210,7 @@
       "previousPrice": null,
       "transferPrice": 17991,
       "purchaseModes": [],
-      "stock": 336,
+      "stock": 129,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Hellbot",
@@ -220,7 +220,7 @@
         "1kg"
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/hellbot-pla_eco-amarillo_sc-9e0bd6f832e25ca80b17761233960096-1024-1024.webp",
-      "url": "https://www.trimetra3d.com.ar/productos/hellbot-pla-sin-carretel-1-kg/",
+      "url": "https://www.trimetra3d.com.ar/productos/hellbot-pla-sin-carretel-1-kg/?entry_path=category",
       "scrapedFrom": "https://trimetra3d.com.ar/productos/",
       "variants": [
         {
@@ -228,8 +228,8 @@
           "sku": "HELLBOT-PLA_ECO-AMARILLO_SC",
           "price": 19990,
           "isDeposit": false,
-          "stock": 4,
-          "available": true,
+          "stock": 0,
+          "available": false,
           "options": [
             "PLA+",
             "Amarillo"
@@ -241,7 +241,7 @@
           "sku": "HELLBOT-PLA_ECO-AMARILLO_FLUO_SC",
           "price": 19990,
           "isDeposit": false,
-          "stock": 15,
+          "stock": 7,
           "available": true,
           "options": [
             "PLA+",
@@ -267,7 +267,7 @@
           "sku": "HELLBOT-PLA_ECO-AQUA_PASTEL_SC",
           "price": 19990,
           "isDeposit": false,
-          "stock": 16,
+          "stock": 14,
           "available": true,
           "options": [
             "PLA+",
@@ -280,7 +280,7 @@
           "sku": "HELLBOT-PLA_ECO-ARENA_PASTEL_SC",
           "price": 19990,
           "isDeposit": false,
-          "stock": 67,
+          "stock": 62,
           "available": true,
           "options": [
             "PLA+",
@@ -293,8 +293,8 @@
           "sku": "HELLBOT-PLA_ECO-AZUL_SC",
           "price": 19990,
           "isDeposit": false,
-          "stock": 2,
-          "available": true,
+          "stock": 0,
+          "available": false,
           "options": [
             "PLA+",
             "Azul"
@@ -319,7 +319,7 @@
           "sku": "HELLBOT-PLA_ECO-BRONCE_SC",
           "price": 19990,
           "isDeposit": false,
-          "stock": 7,
+          "stock": 6,
           "available": true,
           "options": [
             "PLA+",
@@ -371,8 +371,8 @@
           "sku": "HELLBOT-PLA_ECO-DIAMANTE_TRASLUCIDO_SC",
           "price": 19990,
           "isDeposit": false,
-          "stock": 2,
-          "available": true,
+          "stock": 0,
+          "available": false,
           "options": [
             "PLA+",
             "Diamante Traslucido"
@@ -397,7 +397,7 @@
           "sku": "HELLBOT-PLA_ECO-ESMERALDA_TRASLUCIDO_SC",
           "price": 19990,
           "isDeposit": false,
-          "stock": 3,
+          "stock": 1,
           "available": true,
           "options": [
             "PLA+",
@@ -540,8 +540,8 @@
           "sku": "HELLBOT-PLA_ECO-NEGRO_SC",
           "price": 19990,
           "isDeposit": false,
-          "stock": 7,
-          "available": true,
+          "stock": 0,
+          "available": false,
           "options": [
             "PLA+",
             "Negro"
@@ -579,7 +579,7 @@
           "sku": "HELLBOT-PLA_ECO-PLATEADO_SC",
           "price": 19990,
           "isDeposit": false,
-          "stock": 7,
+          "stock": 1,
           "available": true,
           "options": [
             "PLA+",
@@ -783,7 +783,7 @@
       "previousPrice": null,
       "transferPrice": 1318410,
       "purchaseModes": [],
-      "stock": 26,
+      "stock": 123,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -791,7 +791,7 @@
         "Bambu Lab"
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambu-lab-a1-combo01-c161995f601bf6183e17758630056747-1024-1024.webp",
-      "url": "https://www.trimetra3d.com.ar/productos/bambu-lab-a1-combo/",
+      "url": "https://www.trimetra3d.com.ar/productos/bambu-lab-a1-combo/?entry_path=category",
       "scrapedFrom": "https://trimetra3d.com.ar/productos/",
       "variants": [
         {
@@ -799,7 +799,7 @@
           "sku": "BAMBULAB-A1COMBO",
           "price": 1464900,
           "isDeposit": false,
-          "stock": 13,
+          "stock": 123,
           "available": true,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambu-lab-a1-combo01-c161995f601bf6183e17758630056747-1024-1024.webp"
@@ -818,7 +818,7 @@
       "previousPrice": null,
       "transferPrice": 521010,
       "purchaseModes": [],
-      "stock": 38,
+      "stock": 51,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -826,7 +826,7 @@
         "Bambu Lab"
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambu-lab-a1-mini01-2362ee6cc72443d34b17758631070053-1024-1024.webp",
-      "url": "https://www.trimetra3d.com.ar/productos/bambu-lab-a1-mini/",
+      "url": "https://www.trimetra3d.com.ar/productos/bambu-lab-a1-mini/?entry_path=category",
       "scrapedFrom": "https://trimetra3d.com.ar/productos/",
       "variants": [
         {
@@ -834,185 +834,10 @@
           "sku": "BAMBULAB-A1MINI",
           "price": 578900,
           "isDeposit": false,
-          "stock": 19,
+          "stock": 51,
           "available": true,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambu-lab-a1-mini01-2362ee6cc72443d34b17758631070053-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "trimetra3d-337390358",
-      "sourceProductId": "337390358",
-      "store": "Trimetra 3D",
-      "domain": "trimetra3d.com.ar",
-      "name": "Snapmaker -- U1",
-      "category": "Impresoras",
-      "price": 2490000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 2241000,
-      "purchaseModes": [],
-      "stock": 2,
-      "stockLabel": "Pocas unidades",
-      "available": true,
-      "brand": "SnapMaker",
-      "tags": [
-        "SnapMaker"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/snapmaker-u11-6b9352a2f2e1c5f8b717759380147925-1024-1024.webp",
-      "url": "https://www.trimetra3d.com.ar/productos/snapmaker-u1/",
-      "scrapedFrom": "https://trimetra3d.com.ar/productos/",
-      "variants": [
-        {
-          "id": 1499696637,
-          "sku": "SNAPMAKER-U1",
-          "price": 2490000,
-          "isDeposit": false,
-          "stock": 1,
-          "available": true,
-          "options": [],
-          "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/snapmaker-u11-6b9352a2f2e1c5f8b717759380147925-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "trimetra3d-336549634",
-      "sourceProductId": "336549634",
-      "store": "Trimetra 3D",
-      "domain": "trimetra3d.com.ar",
-      "name": "Bambu Lab -- A1 Mini Combo",
-      "category": "Impresoras",
-      "price": 1056900,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 951210,
-      "purchaseModes": [],
-      "stock": 16,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Bambu Lab",
-      "tags": [
-        "Bambu Lab"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambu-lab-a1-mini-combo01-49c54a41708fc1c99717758631471561-1024-1024.webp",
-      "url": "https://www.trimetra3d.com.ar/productos/bambu-lab-a1-mini-combo/",
-      "scrapedFrom": "https://trimetra3d.com.ar/productos/",
-      "variants": [
-        {
-          "id": 1496474065,
-          "sku": "BAMBULAB-A1MINICOMBO",
-          "price": 1056900,
-          "isDeposit": false,
-          "stock": 8,
-          "available": true,
-          "options": [],
-          "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambu-lab-a1-mini-combo01-49c54a41708fc1c99717758631471561-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "trimetra3d-362571548",
-      "sourceProductId": "362571548",
-      "store": "Trimetra 3D",
-      "domain": "trimetra3d.com.ar",
-      "name": "Secadora Creality Space -- PI",
-      "category": "Impresoras",
-      "price": 132250,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 119025,
-      "purchaseModes": [],
-      "stock": 12,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Creality",
-      "tags": [
-        "Creality"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/creality-space-pi-1-e10ed65211bee47af417874331473938-1024-1024.webp",
-      "url": "https://www.trimetra3d.com.ar/productos/creality-space-pi/",
-      "scrapedFrom": "https://trimetra3d.com.ar/productos/",
-      "variants": [
-        {
-          "id": 1581838787,
-          "sku": "CREALITY-SPACE-PI",
-          "price": 132250,
-          "isDeposit": false,
-          "stock": 6,
-          "available": true,
-          "options": [],
-          "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/creality-space-pi-1-e10ed65211bee47af417874331473938-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "trimetra3d-336549630",
-      "sourceProductId": "336549630",
-      "store": "Trimetra 3D",
-      "domain": "trimetra3d.com.ar",
-      "name": "Bambu Lab -- A1",
-      "category": "Impresoras",
-      "price": 968900,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 872010,
-      "purchaseModes": [],
-      "stock": 2,
-      "stockLabel": "Pocas unidades",
-      "available": true,
-      "brand": "Bambu Lab",
-      "tags": [
-        "Bambu Lab"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambulab-a1-1-a06b79049c9c2f02d717756468925428-1024-1024.webp",
-      "url": "https://www.trimetra3d.com.ar/productos/bambu-lab-a1/",
-      "scrapedFrom": "https://trimetra3d.com.ar/productos/",
-      "variants": [
-        {
-          "id": 1496474049,
-          "sku": "BAMBULAB-A1",
-          "price": 968900,
-          "isDeposit": false,
-          "stock": 1,
-          "available": true,
-          "options": [],
-          "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambulab-a1-1-a06b79049c9c2f02d717756468925428-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "trimetra3d-336549638",
-      "sourceProductId": "336549638",
-      "store": "Trimetra 3D",
-      "domain": "trimetra3d.com.ar",
-      "name": "Bambu Lab -- H2S Combo",
-      "category": "Impresoras",
-      "price": 4701900,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 4231710,
-      "purchaseModes": [],
-      "stock": 4,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Bambu Lab",
-      "tags": [
-        "Bambu Lab"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/h2s-combo01-6395d940e781b106f917758635037228-1024-1024.webp",
-      "url": "https://www.trimetra3d.com.ar/productos/bambu-lab-h2s-combo/",
-      "scrapedFrom": "https://trimetra3d.com.ar/productos/",
-      "variants": [
-        {
-          "id": 1496474076,
-          "sku": "BAMBULAB-H2SCOMBO",
-          "price": 4701900,
-          "isDeposit": false,
-          "stock": 2,
-          "available": true,
-          "options": [],
-          "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/h2s-combo01-6395d940e781b106f917758635037228-1024-1024.webp"
         }
       ]
     },
@@ -1028,7 +853,7 @@
       "previousPrice": null,
       "transferPrice": 1649610,
       "purchaseModes": [],
-      "stock": 90,
+      "stock": 10,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -1036,7 +861,7 @@
         "Bambu Lab"
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambulab-a2lcombo-01-a5a29e9a10a54b725b17822475586880-1024-1024.jpg",
-      "url": "https://www.trimetra3d.com.ar/productos/bambu-lab-a2l-combo/",
+      "url": "https://www.trimetra3d.com.ar/productos/bambu-lab-a2l-combo/?entry_path=category",
       "scrapedFrom": "https://trimetra3d.com.ar/productos/",
       "variants": [
         {
@@ -1044,10 +869,45 @@
           "sku": "BAMBULAB-A2LCOMBO",
           "price": 1832900,
           "isDeposit": false,
-          "stock": 45,
+          "stock": 10,
           "available": true,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambulab-a2lcombo-01-a5a29e9a10a54b725b17822475586880-1024-1024.jpg"
+        }
+      ]
+    },
+    {
+      "id": "trimetra3d-336549634",
+      "sourceProductId": "336549634",
+      "store": "Trimetra 3D",
+      "domain": "trimetra3d.com.ar",
+      "name": "Bambu Lab -- A1 Mini Combo",
+      "category": "Impresoras",
+      "price": 1056900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 951210,
+      "purchaseModes": [],
+      "stock": 12,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab"
+      ],
+      "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambu-lab-a1-mini-combo01-49c54a41708fc1c99717758631471561-1024-1024.webp",
+      "url": "https://www.trimetra3d.com.ar/productos/bambu-lab-a1-mini-combo/?entry_path=category",
+      "scrapedFrom": "https://trimetra3d.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1496474065,
+          "sku": "BAMBULAB-A1MINICOMBO",
+          "price": 1056900,
+          "isDeposit": false,
+          "stock": 12,
+          "available": true,
+          "options": [],
+          "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambu-lab-a1-mini-combo01-49c54a41708fc1c99717758631471561-1024-1024.webp"
         }
       ]
     },
@@ -1058,14 +918,14 @@
       "domain": "trimetra3d.com.ar",
       "name": "Creality -- K2 Combo -- Preventa Noviembre",
       "category": "Impresoras",
-      "price": 1275850,
+      "price": 1500999,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 1148265,
+      "transferPrice": 1350899.1,
       "purchaseModes": [
         "Preventa"
       ],
-      "stock": 22,
+      "stock": 11,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Creality",
@@ -1073,18 +933,88 @@
         "Creality"
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/creality-k2-combo-1-ab9cbc233f18113abc17850017259034-1024-1024-0ec094f2b7a852ebcc17919903547378-1024-1024.webp",
-      "url": "https://www.trimetra3d.com.ar/productos/creality-k2-combo-preventa-noviembre/",
+      "url": "https://www.trimetra3d.com.ar/productos/creality-k2-combo-preventa-noviembre/?entry_path=category",
       "scrapedFrom": "https://trimetra3d.com.ar/productos/",
       "variants": [
         {
           "id": 1618703908,
           "sku": "CREALITY-K2COMBO-NOV26",
-          "price": 1275850,
+          "price": 1500999,
           "isDeposit": false,
           "stock": 11,
           "available": true,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/creality-k2-combo-1-ab9cbc233f18113abc17850017259034-1024-1024-0ec094f2b7a852ebcc17919903547378-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "trimetra3d-336549630",
+      "sourceProductId": "336549630",
+      "store": "Trimetra 3D",
+      "domain": "trimetra3d.com.ar",
+      "name": "Bambu Lab -- A1",
+      "category": "Impresoras",
+      "price": 968900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 872010,
+      "purchaseModes": [],
+      "stock": 14,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab"
+      ],
+      "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambulab-a1-1-a06b79049c9c2f02d717756468925428-1024-1024.webp",
+      "url": "https://www.trimetra3d.com.ar/productos/bambu-lab-a1/?entry_path=category",
+      "scrapedFrom": "https://trimetra3d.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1496474049,
+          "sku": "BAMBULAB-A1",
+          "price": 968900,
+          "isDeposit": false,
+          "stock": 14,
+          "available": true,
+          "options": [],
+          "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambulab-a1-1-a06b79049c9c2f02d717756468925428-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "trimetra3d-337293814",
+      "sourceProductId": "337293814",
+      "store": "Trimetra 3D",
+      "domain": "trimetra3d.com.ar",
+      "name": "Bambu Lab -- P2S Combo",
+      "category": "Impresoras",
+      "price": 3001900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 2701710,
+      "purchaseModes": [],
+      "stock": 44,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab"
+      ],
+      "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambu-lab-p2s-combo-2-a0617803cc4974273c17759357881446-1024-1024.webp",
+      "url": "https://www.trimetra3d.com.ar/productos/bambu-lab-p2s-combo/?entry_path=category",
+      "scrapedFrom": "https://trimetra3d.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1499334058,
+          "sku": "BAMBULAB-P2SCOMBO",
+          "price": 3001900,
+          "isDeposit": false,
+          "stock": 44,
+          "available": true,
+          "options": [],
+          "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambu-lab-p2s-combo-2-a0617803cc4974273c17759357881446-1024-1024.webp"
         }
       ]
     },
@@ -1100,15 +1030,15 @@
       "previousPrice": null,
       "transferPrice": 911538,
       "purchaseModes": [],
-      "stock": 18,
-      "stockLabel": "En stock",
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Creality",
       "tags": [
         "Creality"
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/creality-sparkx-i7-combo-1-6e14fead225c5b43cb17852684759341-1024-1024.webp",
-      "url": "https://www.trimetra3d.com.ar/productos/creality-sparkx-i7-combo/",
+      "url": "https://www.trimetra3d.com.ar/productos/creality-sparkx-i7-combo/?entry_path=category",
       "scrapedFrom": "https://trimetra3d.com.ar/productos/",
       "variants": [
         {
@@ -1116,7 +1046,7 @@
           "sku": "CREALITY-SPARKX-I7-COMBO",
           "price": 1012820,
           "isDeposit": false,
-          "stock": 9,
+          "stock": 2,
           "available": true,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/creality-sparkx-i7-combo-1-6e14fead225c5b43cb17852684759341-1024-1024.webp"
@@ -1124,37 +1054,72 @@
       ]
     },
     {
-      "id": "trimetra3d-357654283",
-      "sourceProductId": "357654283",
+      "id": "trimetra3d-337293810",
+      "sourceProductId": "337293810",
       "store": "Trimetra 3D",
       "domain": "trimetra3d.com.ar",
-      "name": "Creality -- Sparkx i7",
+      "name": "Bambu Lab -- P1S Combo",
       "category": "Impresoras",
-      "price": 711999,
+      "price": 2019900,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 640799.1,
+      "transferPrice": 1817910,
       "purchaseModes": [],
-      "stock": 6,
+      "stock": 19,
       "stockLabel": "En stock",
       "available": true,
-      "brand": "Creality",
+      "brand": "Bambu Lab",
       "tags": [
-        "Creality"
+        "Bambu Lab"
       ],
-      "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/creality-sparkx-i7-1-beba2f689fd7eda62b17850108570256-1024-1024.webp",
-      "url": "https://www.trimetra3d.com.ar/productos/creality-sparx-i7/",
+      "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambu-lab-p1s-combo-0ffe62cc43ab034be817828521332953-1024-1024.webp",
+      "url": "https://www.trimetra3d.com.ar/productos/bambu-lab-p1s-combo/?entry_path=category",
       "scrapedFrom": "https://trimetra3d.com.ar/productos/",
       "variants": [
         {
-          "id": 1565487219,
-          "sku": "CREALITY-SPARKX-I7",
-          "price": 711999,
+          "id": 1499334049,
+          "sku": "BAMBULAB-P1SCOMBO",
+          "price": 2019900,
           "isDeposit": false,
-          "stock": 3,
+          "stock": 19,
           "available": true,
           "options": [],
-          "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/creality-sparkx-i7-1-beba2f689fd7eda62b17850108570256-1024-1024.webp"
+          "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambu-lab-p1s-combo-0ffe62cc43ab034be817828521332953-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "trimetra3d-336549638",
+      "sourceProductId": "336549638",
+      "store": "Trimetra 3D",
+      "domain": "trimetra3d.com.ar",
+      "name": "Bambu Lab -- H2S Combo",
+      "category": "Impresoras",
+      "price": 4701900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 4231710,
+      "purchaseModes": [],
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab"
+      ],
+      "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/h2s-combo01-6395d940e781b106f917758635037228-1024-1024.webp",
+      "url": "https://www.trimetra3d.com.ar/productos/bambu-lab-h2s-combo/?entry_path=category",
+      "scrapedFrom": "https://trimetra3d.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1496474076,
+          "sku": "BAMBULAB-H2SCOMBO",
+          "price": 4701900,
+          "isDeposit": false,
+          "stock": 2,
+          "available": true,
+          "options": [],
+          "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/h2s-combo01-6395d940e781b106f917758635037228-1024-1024.webp"
         }
       ]
     },
@@ -1170,15 +1135,15 @@
       "previousPrice": null,
       "transferPrice": 3346110,
       "purchaseModes": [],
-      "stock": 2,
-      "stockLabel": "Pocas unidades",
+      "stock": 16,
+      "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
       "tags": [
         "Bambu Lab"
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambulab-x2dcombo-92541af720e91158f817781889682340-1024-1024.webp",
-      "url": "https://www.trimetra3d.com.ar/productos/bambu-lab-x2d-combo/",
+      "url": "https://www.trimetra3d.com.ar/productos/bambu-lab-x2d-combo/?entry_path=category",
       "scrapedFrom": "https://trimetra3d.com.ar/productos/",
       "variants": [
         {
@@ -1186,7 +1151,7 @@
           "sku": "BAMBULAB-X2DCOMBO",
           "price": 3717900,
           "isDeposit": false,
-          "stock": 1,
+          "stock": 16,
           "available": true,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambulab-x2dcombo-92541af720e91158f817781889682340-1024-1024.webp"
@@ -1194,72 +1159,72 @@
       ]
     },
     {
-      "id": "trimetra3d-375397218",
-      "sourceProductId": "375397218",
+      "id": "trimetra3d-352105839",
+      "sourceProductId": "352105839",
       "store": "Trimetra 3D",
       "domain": "trimetra3d.com.ar",
-      "name": "Impresora 3d Flashforge Creator 5 Pro",
+      "name": "Bambu Lab -- A2L",
       "category": "Impresoras",
-      "price": 2469900,
+      "price": 1373900,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 2222910,
+      "transferPrice": 1236510,
       "purchaseModes": [],
-      "stock": 8,
-      "stockLabel": "En stock",
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
       "available": true,
-      "brand": "Flashforge",
+      "brand": "Bambu Lab",
       "tags": [
-        "Flashforge"
+        "Bambu Lab"
       ],
-      "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/5pro1-487a4e9c21c11c580817925065696234-1024-1024.webp",
-      "url": "https://www.trimetra3d.com.ar/productos/impresora-3d-flashforge-creator-5-pro-1d98n/",
+      "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambulab-a2l-01-093fa46267acc9380317822475205408-1024-1024.webp",
+      "url": "https://www.trimetra3d.com.ar/productos/bambu-lab-a2l/?entry_path=category",
       "scrapedFrom": "https://trimetra3d.com.ar/productos/",
       "variants": [
         {
-          "id": 1622553450,
-          "sku": "CREATOR-5PRO",
-          "price": 2469900,
-          "isDeposit": false,
-          "stock": 4,
-          "available": true,
-          "options": [],
-          "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/5pro1-487a4e9c21c11c580817925065696234-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "trimetra3d-362571553",
-      "sourceProductId": "362571553",
-      "store": "Trimetra 3D",
-      "domain": "trimetra3d.com.ar",
-      "name": "Secadora Creality Space -- PI X4L",
-      "category": "Impresoras",
-      "price": 419738.5,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 377764.65,
-      "purchaseModes": [],
-      "stock": 4,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Creality",
-      "tags": [
-        "Creality"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/creality-space-pi_x4l-1-b7627b65b7e512d7c017874332300234-1024-1024.webp",
-      "url": "https://www.trimetra3d.com.ar/productos/creality-space-pi-x4l/",
-      "scrapedFrom": "https://trimetra3d.com.ar/productos/",
-      "variants": [
-        {
-          "id": 1581838792,
-          "sku": "CREALITY-SPACE-PI_X4L",
-          "price": 419738.5,
+          "id": 1548296165,
+          "sku": "BAMBULAB-A2L",
+          "price": 1373900,
           "isDeposit": false,
           "stock": 2,
           "available": true,
           "options": [],
-          "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/creality-space-pi_x4l-1-b7627b65b7e512d7c017874332300234-1024-1024.webp"
+          "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambulab-a2l-01-093fa46267acc9380317822475205408-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "trimetra3d-337293805",
+      "sourceProductId": "337293805",
+      "store": "Trimetra 3D",
+      "domain": "trimetra3d.com.ar",
+      "name": "Bambu Lab -- P1S",
+      "category": "Impresoras",
+      "price": 1480900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 1332810,
+      "purchaseModes": [],
+      "stock": 4,
+      "stockLabel": "En stock",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab"
+      ],
+      "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambu-lab-p1s-ed40f4e2b30acb902617828521152923-1024-1024.webp",
+      "url": "https://www.trimetra3d.com.ar/productos/bambu-lab-p1s/?entry_path=category",
+      "scrapedFrom": "https://trimetra3d.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1499334042,
+          "sku": "BAMBULAB-P1S",
+          "price": 1480900,
+          "isDeposit": false,
+          "stock": 4,
+          "available": true,
+          "options": [],
+          "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambu-lab-p1s-ed40f4e2b30acb902617828521152923-1024-1024.webp"
         }
       ]
     },
@@ -1275,15 +1240,15 @@
       "previousPrice": null,
       "transferPrice": 816210,
       "purchaseModes": [],
-      "stock": 6,
-      "stockLabel": "En stock",
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Bambu Lab",
       "tags": [
         "Bambu Lab"
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambu-lab-ams1-9052a88b418b0ff5d617758637784758-1024-1024.webp",
-      "url": "https://www.trimetra3d.com.ar/productos/bambu-lab-ams/",
+      "url": "https://www.trimetra3d.com.ar/productos/bambu-lab-ams/?entry_path=category",
       "scrapedFrom": "https://trimetra3d.com.ar/productos/",
       "variants": [
         {
@@ -1291,10 +1256,45 @@
           "sku": "BAMBULAB-AMS",
           "price": 906900,
           "isDeposit": false,
-          "stock": 3,
+          "stock": 2,
           "available": true,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambu-lab-ams1-9052a88b418b0ff5d617758637784758-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "trimetra3d-336549636",
+      "sourceProductId": "336549636",
+      "store": "Trimetra 3D",
+      "domain": "trimetra3d.com.ar",
+      "name": "Bambu Lab -- H2D Combo",
+      "category": "Impresoras",
+      "price": 6330900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 5697810,
+      "purchaseModes": [],
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab"
+      ],
+      "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambu-lab-h2d-combo01-10ed822d88f7ff776917758633483208-1024-1024.webp",
+      "url": "https://www.trimetra3d.com.ar/productos/bambu-lab-h2d-combo/?entry_path=category",
+      "scrapedFrom": "https://trimetra3d.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1496474073,
+          "sku": "BAMBULAB-H2DCOMBO",
+          "price": 6330900,
+          "isDeposit": false,
+          "stock": 2,
+          "available": true,
+          "options": [],
+          "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambu-lab-h2d-combo01-10ed822d88f7ff776917758633483208-1024-1024.webp"
         }
       ]
     },
@@ -1310,15 +1310,15 @@
       "previousPrice": null,
       "transferPrice": 6186510,
       "purchaseModes": [],
-      "stock": 4,
-      "stockLabel": "En stock",
+      "stock": 3,
+      "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Bambu Lab",
       "tags": [
         "Bambu Lab"
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/h2s-combo-full-laser01-6ecb6b49deda46cf5717758636292967-1024-1024.webp",
-      "url": "https://www.trimetra3d.com.ar/productos/bambu-lab-h2s-combo-full-laser/",
+      "url": "https://www.trimetra3d.com.ar/productos/bambu-lab-h2s-combo-full-laser/?entry_path=category",
       "scrapedFrom": "https://trimetra3d.com.ar/productos/",
       "variants": [
         {
@@ -1326,7 +1326,7 @@
           "sku": "BAMBULAB-H2SCOMBOFULLLASER",
           "price": 6873900,
           "isDeposit": false,
-          "stock": 2,
+          "stock": 3,
           "available": true,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/h2s-combo-full-laser01-6ecb6b49deda46cf5717758636292967-1024-1024.webp"
@@ -1345,7 +1345,7 @@
       "previousPrice": null,
       "transferPrice": 1542592.8,
       "purchaseModes": [],
-      "stock": 20,
+      "stock": 10,
       "stockLabel": "En stock",
       "available": true,
       "brand": "Bambu Lab",
@@ -1353,7 +1353,7 @@
         "Bambu Lab"
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambulab-a2l-01-f078204e6050ac817717807755230290-1024-1024-d72c570c6451f0fb5a17925176270234-1024-1024.webp",
-      "url": "https://www.trimetra3d.com.ar/productos/impresora-3d-bambu-lab-a2l-modulo-de-corte-19cr6/",
+      "url": "https://www.trimetra3d.com.ar/productos/impresora-3d-bambu-lab-a2l-modulo-de-corte-19cr6/?entry_path=category",
       "scrapedFrom": "https://trimetra3d.com.ar/productos/",
       "variants": [
         {
@@ -1369,113 +1369,6 @@
       ]
     },
     {
-      "id": "trimetra3d-375437497",
-      "sourceProductId": "375437497",
-      "store": "Trimetra 3D",
-      "domain": "trimetra3d.com.ar",
-      "name": "Snapmaker -- U1 -- Preventa Noviembre",
-      "category": "Impresoras",
-      "price": 2290000,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 2061000,
-      "purchaseModes": [
-        "Preventa"
-      ],
-      "stock": 40,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Snapmaker",
-      "tags": [
-        "Snapmaker"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/snapmaker-u101-f1e8a13af6dae8bd0217874220582580-1024-1024-608b5d345b8823db6817925155364625-1024-1024.webp",
-      "url": "https://www.trimetra3d.com.ar/productos/snapmaker-u1-preventa-noviembre-ybpp1/",
-      "scrapedFrom": "https://trimetra3d.com.ar/productos/",
-      "variants": [
-        {
-          "id": 1622683776,
-          "sku": "SNAPMAKER-U1-NOV26",
-          "price": 2290000,
-          "isDeposit": false,
-          "stock": 20,
-          "available": true,
-          "options": [],
-          "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/snapmaker-u101-f1e8a13af6dae8bd0217874220582580-1024-1024-608b5d345b8823db6817925155364625-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "trimetra3d-365295908",
-      "sourceProductId": "365295908",
-      "store": "Trimetra 3D",
-      "domain": "trimetra3d.com.ar",
-      "name": "Bambu Lab -- AMS 2 Pro · Sistema multifilamento",
-      "category": "Impresoras",
-      "price": 1297900,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 1168110,
-      "purchaseModes": [],
-      "stock": 2,
-      "stockLabel": "Pocas unidades",
-      "available": true,
-      "brand": "Bambu Lab",
-      "tags": [
-        "Bambu Lab"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambulab-ams2pro-1-ca1a82326782c14c1a17884631731110-1024-1024.webp",
-      "url": "https://www.trimetra3d.com.ar/productos/bambu-lab-ams-2-pro/",
-      "scrapedFrom": "https://trimetra3d.com.ar/productos/",
-      "variants": [
-        {
-          "id": 1590143804,
-          "sku": "BAMBULAB-AMS2PRO",
-          "price": 1297900,
-          "isDeposit": false,
-          "stock": 1,
-          "available": true,
-          "options": [],
-          "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambulab-ams2pro-1-ca1a82326782c14c1a17884631731110-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "trimetra3d-358551621",
-      "sourceProductId": "358551621",
-      "store": "Trimetra 3D",
-      "domain": "trimetra3d.com.ar",
-      "name": "Flashforge -- AD5X",
-      "category": "Accesorios",
-      "price": 1042935,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 938641.5,
-      "purchaseModes": [],
-      "stock": 4,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Flashforge",
-      "tags": [
-        "Flashforge"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/flashforge-ad5x-1-c619fe8860dbfa7d1017854490386288-1024-1024.webp",
-      "url": "https://www.trimetra3d.com.ar/productos/flashforge-ad5x/",
-      "scrapedFrom": "https://trimetra3d.com.ar/productos/",
-      "variants": [
-        {
-          "id": 1568399458,
-          "sku": "FLASHFORGE-AD5X",
-          "price": 1042935,
-          "isDeposit": false,
-          "stock": 2,
-          "available": true,
-          "options": [],
-          "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/flashforge-ad5x-1-c619fe8860dbfa7d1017854490386288-1024-1024.webp"
-        }
-      ]
-    },
-    {
       "id": "trimetra3d-356010597",
       "sourceProductId": "356010597",
       "store": "Trimetra 3D",
@@ -1487,7 +1380,7 @@
       "previousPrice": null,
       "transferPrice": 7163910,
       "purchaseModes": [],
-      "stock": 2,
+      "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Bambu Lab",
@@ -1495,7 +1388,7 @@
         "Bambu Lab"
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambulab-h2ccombo-1-d74af5aeca4f56f87817842453244348-1024-1024.webp",
-      "url": "https://www.trimetra3d.com.ar/productos/bambu-lab-h2ccombo/",
+      "url": "https://www.trimetra3d.com.ar/productos/bambu-lab-h2ccombo/?entry_path=category",
       "scrapedFrom": "https://trimetra3d.com.ar/productos/",
       "variants": [
         {
@@ -1507,41 +1400,6 @@
           "available": true,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambulab-h2ccombo-1-d74af5aeca4f56f87817842453244348-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "trimetra3d-352105839",
-      "sourceProductId": "352105839",
-      "store": "Trimetra 3D",
-      "domain": "trimetra3d.com.ar",
-      "name": "Bambu Lab -- A2L",
-      "category": "Impresoras",
-      "price": 1373900,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 1236510,
-      "purchaseModes": [],
-      "stock": 6,
-      "stockLabel": "En stock",
-      "available": true,
-      "brand": "Bambu Lab",
-      "tags": [
-        "Bambu Lab"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambulab-a2l-01-093fa46267acc9380317822475205408-1024-1024.webp",
-      "url": "https://www.trimetra3d.com.ar/productos/bambu-lab-a2l/",
-      "scrapedFrom": "https://trimetra3d.com.ar/productos/",
-      "variants": [
-        {
-          "id": 1548296165,
-          "sku": "BAMBULAB-A2L",
-          "price": 1373900,
-          "isDeposit": false,
-          "stock": 3,
-          "available": true,
-          "options": [],
-          "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambulab-a2l-01-093fa46267acc9380317822475205408-1024-1024.webp"
         }
       ]
     },
@@ -1565,7 +1423,7 @@
         "Bambu Lab"
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambu-lab-p2s-273b710611b0dcb0a117781863311968-1024-1024.webp",
-      "url": "https://www.trimetra3d.com.ar/productos/bambu-lab-p2s/",
+      "url": "https://www.trimetra3d.com.ar/productos/bambu-lab-p2s/?entry_path=category",
       "scrapedFrom": "https://trimetra3d.com.ar/productos/",
       "variants": [
         {
@@ -1573,7 +1431,7 @@
           "sku": "BAMBULAB-P2S",
           "price": 2081900,
           "isDeposit": false,
-          "stock": 2,
+          "stock": 4,
           "available": true,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambu-lab-p2s-273b710611b0dcb0a117781863311968-1024-1024.webp"
@@ -1592,7 +1450,7 @@
       "previousPrice": null,
       "transferPrice": 3580110,
       "purchaseModes": [],
-      "stock": 2,
+      "stock": 1,
       "stockLabel": "Pocas unidades",
       "available": true,
       "brand": "Bambu Lab",
@@ -1600,7 +1458,7 @@
         "Bambu Lab"
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambu-lab-h2s-b8688c4e59832b440617781858062923-1024-1024.webp",
-      "url": "https://www.trimetra3d.com.ar/productos/bambu-lab-h2s/",
+      "url": "https://www.trimetra3d.com.ar/productos/bambu-lab-h2s/?entry_path=category",
       "scrapedFrom": "https://trimetra3d.com.ar/productos/",
       "variants": [
         {
@@ -1612,6 +1470,41 @@
           "available": true,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambu-lab-h2s-b8688c4e59832b440617781858062923-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "trimetra3d-336549635",
+      "sourceProductId": "336549635",
+      "store": "Trimetra 3D",
+      "domain": "trimetra3d.com.ar",
+      "name": "Bambu Lab -- H2D",
+      "category": "Impresoras",
+      "price": 5606900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 5046210,
+      "purchaseModes": [],
+      "stock": 2,
+      "stockLabel": "Pocas unidades",
+      "available": true,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab"
+      ],
+      "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambu-lab-h2d-combo-2-6de2eaa87ca9ec55b617781925989915-1024-1024.webp",
+      "url": "https://www.trimetra3d.com.ar/productos/bambu-lab-h2d/?entry_path=category",
+      "scrapedFrom": "https://trimetra3d.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1496474070,
+          "sku": "BAMBULAB-H2D",
+          "price": 5606900,
+          "isDeposit": false,
+          "stock": 2,
+          "available": true,
+          "options": [],
+          "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambu-lab-h2d-combo-2-6de2eaa87ca9ec55b617781925989915-1024-1024.webp"
         }
       ]
     },
@@ -1637,7 +1530,7 @@
         "1kg"
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/02-amarillo-9ea7b14d2811a7d28417761220996223-1024-1024.webp",
-      "url": "https://www.trimetra3d.com.ar/productos/hellbot-pla-con-carretel-1-kg/",
+      "url": "https://www.trimetra3d.com.ar/productos/hellbot-pla-con-carretel-1-kg/?entry_path=category",
       "scrapedFrom": "https://trimetra3d.com.ar/productos/",
       "variants": [
         {
@@ -2210,7 +2103,7 @@
         "1kg"
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambulab-pla_lite-yellow2-f2d1e5b3db367b714517756463655723-1024-1024.webp",
-      "url": "https://www.trimetra3d.com.ar/productos/bambu-lab-pla-lite-con-carretel-1-kg/",
+      "url": "https://www.trimetra3d.com.ar/productos/bambu-lab-pla-lite-con-carretel-1-kg/?entry_path=category",
       "scrapedFrom": "https://trimetra3d.com.ar/productos/",
       "variants": [
         {
@@ -2378,7 +2271,7 @@
         "Creality"
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/creality-ender3v3-se-1-4364ba0816a8e87a6317850015639187-1024-1024.webp",
-      "url": "https://www.trimetra3d.com.ar/productos/creality-ender-3-v3-se/",
+      "url": "https://www.trimetra3d.com.ar/productos/creality-ender-3-v3-se/?entry_path=category",
       "scrapedFrom": "https://trimetra3d.com.ar/productos/",
       "variants": [
         {
@@ -2394,72 +2287,72 @@
       ]
     },
     {
-      "id": "trimetra3d-337293814",
-      "sourceProductId": "337293814",
+      "id": "trimetra3d-362571548",
+      "sourceProductId": "362571548",
       "store": "Trimetra 3D",
       "domain": "trimetra3d.com.ar",
-      "name": "Bambu Lab -- P2S Combo",
+      "name": "Secadora Creality Space -- PI",
       "category": "Impresoras",
-      "price": 3001900,
+      "price": 132250,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 2701710,
+      "transferPrice": 119025,
       "purchaseModes": [],
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
-      "brand": "Bambu Lab",
+      "brand": "Creality",
       "tags": [
-        "Bambu Lab"
+        "Creality"
       ],
-      "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambu-lab-p2s-combo-2-a0617803cc4974273c17759357881446-1024-1024.webp",
-      "url": "https://www.trimetra3d.com.ar/productos/bambu-lab-p2s-combo/",
+      "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/creality-space-pi-1-e10ed65211bee47af417874331473938-1024-1024.webp",
+      "url": "https://www.trimetra3d.com.ar/productos/creality-space-pi/?entry_path=category",
       "scrapedFrom": "https://trimetra3d.com.ar/productos/",
       "variants": [
         {
-          "id": 1499334058,
-          "sku": "BAMBULAB-P2SCOMBO",
-          "price": 3001900,
+          "id": 1581838787,
+          "sku": "CREALITY-SPACE-PI",
+          "price": 132250,
           "isDeposit": false,
           "stock": 0,
           "available": false,
           "options": [],
-          "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambu-lab-p2s-combo-2-a0617803cc4974273c17759357881446-1024-1024.webp"
+          "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/creality-space-pi-1-e10ed65211bee47af417874331473938-1024-1024.webp"
         }
       ]
     },
     {
-      "id": "trimetra3d-337293810",
-      "sourceProductId": "337293810",
+      "id": "trimetra3d-357654283",
+      "sourceProductId": "357654283",
       "store": "Trimetra 3D",
       "domain": "trimetra3d.com.ar",
-      "name": "Bambu Lab -- P1S Combo",
+      "name": "Creality -- Sparkx i7",
       "category": "Impresoras",
-      "price": 2019900,
+      "price": 711999,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 1817910,
+      "transferPrice": 640799.1,
       "purchaseModes": [],
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
-      "brand": "Bambu Lab",
+      "brand": "Creality",
       "tags": [
-        "Bambu Lab"
+        "Creality"
       ],
-      "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambu-lab-p1s-combo-0ffe62cc43ab034be817828521332953-1024-1024.webp",
-      "url": "https://www.trimetra3d.com.ar/productos/bambu-lab-p1s-combo/",
+      "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/creality-sparkx-i7-1-beba2f689fd7eda62b17850108570256-1024-1024.webp",
+      "url": "https://www.trimetra3d.com.ar/productos/creality-sparx-i7/?entry_path=category",
       "scrapedFrom": "https://trimetra3d.com.ar/productos/",
       "variants": [
         {
-          "id": 1499334049,
-          "sku": "BAMBULAB-P1SCOMBO",
-          "price": 2019900,
+          "id": 1565487219,
+          "sku": "CREALITY-SPARKX-I7",
+          "price": 711999,
           "isDeposit": false,
           "stock": 0,
           "available": false,
           "options": [],
-          "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambu-lab-p1s-combo-0ffe62cc43ab034be817828521332953-1024-1024.webp"
+          "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/creality-sparkx-i7-1-beba2f689fd7eda62b17850108570256-1024-1024.webp"
         }
       ]
     },
@@ -2483,7 +2376,7 @@
         "Bambu Lab"
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambu-lab-ams-lite1-d29addbe60133d059717758638023354-1024-1024.webp",
-      "url": "https://www.trimetra3d.com.ar/productos/bambu-lab-ams-lite/",
+      "url": "https://www.trimetra3d.com.ar/productos/bambu-lab-ams-lite/?entry_path=category",
       "scrapedFrom": "https://trimetra3d.com.ar/productos/",
       "variants": [
         {
@@ -2505,10 +2398,10 @@
       "domain": "trimetra3d.com.ar",
       "name": "Creality -- K2 Combo",
       "category": "Impresoras",
-      "price": 1275850,
+      "price": 1500999,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 1148265,
+      "transferPrice": 1350899.1,
       "purchaseModes": [],
       "stock": 0,
       "stockLabel": "Consultar",
@@ -2518,13 +2411,13 @@
         "Creality"
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/creality-k2-combo-1-ab9cbc233f18113abc17850017259034-1024-1024.webp",
-      "url": "https://www.trimetra3d.com.ar/productos/creality-k2-combo/",
+      "url": "https://www.trimetra3d.com.ar/productos/creality-k2-combo/?entry_path=category",
       "scrapedFrom": "https://trimetra3d.com.ar/productos/",
       "variants": [
         {
           "id": 1565487225,
           "sku": "CREALITY-K2-COMBO",
-          "price": 1275850,
+          "price": 1500999,
           "isDeposit": false,
           "stock": 0,
           "available": false,
@@ -2534,37 +2427,37 @@
       ]
     },
     {
-      "id": "trimetra3d-337293805",
-      "sourceProductId": "337293805",
+      "id": "trimetra3d-362571553",
+      "sourceProductId": "362571553",
       "store": "Trimetra 3D",
       "domain": "trimetra3d.com.ar",
-      "name": "Bambu Lab -- P1S",
+      "name": "Secadora Creality Space -- PI X4L",
       "category": "Impresoras",
-      "price": 1480900,
+      "price": 419738.5,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 1332810,
+      "transferPrice": 377764.65,
       "purchaseModes": [],
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
-      "brand": "Bambu Lab",
+      "brand": "Creality",
       "tags": [
-        "Bambu Lab"
+        "Creality"
       ],
-      "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambu-lab-p1s-ed40f4e2b30acb902617828521152923-1024-1024.webp",
-      "url": "https://www.trimetra3d.com.ar/productos/bambu-lab-p1s/",
+      "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/creality-space-pi_x4l-1-b7627b65b7e512d7c017874332300234-1024-1024.webp",
+      "url": "https://www.trimetra3d.com.ar/productos/creality-space-pi-x4l/?entry_path=category",
       "scrapedFrom": "https://trimetra3d.com.ar/productos/",
       "variants": [
         {
-          "id": 1499334042,
-          "sku": "BAMBULAB-P1S",
-          "price": 1480900,
+          "id": 1581838792,
+          "sku": "CREALITY-SPACE-PI_X4L",
+          "price": 419738.5,
           "isDeposit": false,
           "stock": 0,
           "available": false,
           "options": [],
-          "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambu-lab-p1s-ed40f4e2b30acb902617828521152923-1024-1024.webp"
+          "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/creality-space-pi_x4l-1-b7627b65b7e512d7c017874332300234-1024-1024.webp"
         }
       ]
     },
@@ -2588,7 +2481,7 @@
         "Creality"
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/creality-ender3v3-ke-1-9884eb25554719777217850015232856-1024-1024.webp",
-      "url": "https://www.trimetra3d.com.ar/productos/creality-ender-3-v3-ke/",
+      "url": "https://www.trimetra3d.com.ar/productos/creality-ender-3-v3-ke/?entry_path=category",
       "scrapedFrom": "https://trimetra3d.com.ar/productos/",
       "variants": [
         {
@@ -2604,37 +2497,37 @@
       ]
     },
     {
-      "id": "trimetra3d-336549636",
-      "sourceProductId": "336549636",
+      "id": "trimetra3d-375397218",
+      "sourceProductId": "375397218",
       "store": "Trimetra 3D",
       "domain": "trimetra3d.com.ar",
-      "name": "Bambu Lab -- H2D Combo",
+      "name": "Impresora 3d Flashforge Creator 5 Pro",
       "category": "Impresoras",
-      "price": 6330900,
+      "price": 2469900,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 5697810,
+      "transferPrice": 2222910,
       "purchaseModes": [],
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
-      "brand": "Bambu Lab",
+      "brand": "Flashforge",
       "tags": [
-        "Bambu Lab"
+        "Flashforge"
       ],
-      "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambu-lab-h2d-combo01-10ed822d88f7ff776917758633483208-1024-1024.webp",
-      "url": "https://www.trimetra3d.com.ar/productos/bambu-lab-h2d-combo/",
+      "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/5pro1-487a4e9c21c11c580817925065696234-1024-1024.webp",
+      "url": "https://www.trimetra3d.com.ar/productos/impresora-3d-flashforge-creator-5-pro-1d98n/?entry_path=category",
       "scrapedFrom": "https://trimetra3d.com.ar/productos/",
       "variants": [
         {
-          "id": 1496474073,
-          "sku": "BAMBULAB-H2DCOMBO",
-          "price": 6330900,
+          "id": 1622553450,
+          "sku": "CREATOR-5PRO",
+          "price": 2469900,
           "isDeposit": false,
           "stock": 0,
           "available": false,
           "options": [],
-          "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambu-lab-h2d-combo01-10ed822d88f7ff776917758633483208-1024-1024.webp"
+          "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/5pro1-487a4e9c21c11c580817925065696234-1024-1024.webp"
         }
       ]
     },
@@ -2658,7 +2551,7 @@
         "Creality"
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/creality-space-pi_plus-1-18571f5cc681865ed417874330239884-1024-1024.webp",
-      "url": "https://www.trimetra3d.com.ar/productos/creality-space-pi-plus/",
+      "url": "https://www.trimetra3d.com.ar/productos/creality-space-pi-plus/?entry_path=category",
       "scrapedFrom": "https://trimetra3d.com.ar/productos/",
       "variants": [
         {
@@ -2693,7 +2586,7 @@
         "Creality"
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/creality-space-pi_se-1-32d68fcdecf269c3e517874329267122-1024-1024.webp",
-      "url": "https://www.trimetra3d.com.ar/productos/creality-space-pi-se/",
+      "url": "https://www.trimetra3d.com.ar/productos/creality-space-pi-se/?entry_path=category",
       "scrapedFrom": "https://trimetra3d.com.ar/productos/",
       "variants": [
         {
@@ -2715,10 +2608,10 @@
       "domain": "trimetra3d.com.ar",
       "name": "Creality -- K2 Pro Combo",
       "category": "Impresoras",
-      "price": 1889400,
+      "price": 2009999,
       "currency": "ARS",
       "previousPrice": null,
-      "transferPrice": 1700460,
+      "transferPrice": 1808999.1,
       "purchaseModes": [],
       "stock": 0,
       "stockLabel": "Consultar",
@@ -2728,13 +2621,13 @@
         "Creality"
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/creality-k2-procombo-1-9af5cf41a46866078b17850020264342-1024-1024.webp",
-      "url": "https://www.trimetra3d.com.ar/productos/creality-k2-pro-combo/",
+      "url": "https://www.trimetra3d.com.ar/productos/creality-k2-pro-combo/?entry_path=category",
       "scrapedFrom": "https://trimetra3d.com.ar/productos/",
       "variants": [
         {
           "id": 1565487227,
           "sku": "CREALITY-K2-PROCOMBO",
-          "price": 1889400,
+          "price": 2009999,
           "isDeposit": false,
           "stock": 0,
           "available": false,
@@ -2763,7 +2656,7 @@
         "Creality"
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/creality-k1max-1-63f461dc886c6f537717850032656541-1024-1024.webp",
-      "url": "https://www.trimetra3d.com.ar/productos/creality-k1-max/",
+      "url": "https://www.trimetra3d.com.ar/productos/creality-k1-max/?entry_path=category",
       "scrapedFrom": "https://trimetra3d.com.ar/productos/",
       "variants": [
         {
@@ -2798,7 +2691,7 @@
         "Creality"
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/creality-k2-pluscombo-1-20a76fa5190fcee4d217850028964951-1024-1024.webp",
-      "url": "https://www.trimetra3d.com.ar/productos/creality-k2-plus-combo/",
+      "url": "https://www.trimetra3d.com.ar/productos/creality-k2-plus-combo/?entry_path=category",
       "scrapedFrom": "https://trimetra3d.com.ar/productos/",
       "variants": [
         {
@@ -2810,6 +2703,43 @@
           "available": false,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/creality-k2-pluscombo-1-20a76fa5190fcee4d217850028964951-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "trimetra3d-379434917",
+      "sourceProductId": "379434917",
+      "store": "Trimetra 3D",
+      "domain": "trimetra3d.com.ar",
+      "name": "Snapmaker -- U1 -- Preventa Diciembre",
+      "category": "Impresoras",
+      "price": 2290000,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 2061000,
+      "purchaseModes": [
+        "Preventa"
+      ],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Snapmaker",
+      "tags": [
+        "Snapmaker"
+      ],
+      "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/snapmaker-u101-f1e8a13af6dae8bd0217874220582580-1024-1024-895fecb5b9edbea5cb17939757229113-1024-1024.webp",
+      "url": "https://www.trimetra3d.com.ar/productos/snapmaker-u1-preventa-diciembre-1dobh/?entry_path=category",
+      "scrapedFrom": "https://trimetra3d.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1634298176,
+          "sku": "SNAPMAKER-U1-DIC26",
+          "price": 2290000,
+          "isDeposit": false,
+          "stock": 0,
+          "available": false,
+          "options": [],
+          "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/snapmaker-u101-f1e8a13af6dae8bd0217874220582580-1024-1024-895fecb5b9edbea5cb17939757229113-1024-1024.webp"
         }
       ]
     },
@@ -2833,7 +2763,7 @@
         "Bambu Lab"
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/modulocorte-a2l-fe51b10a3c18abab9517925236979539-1024-1024.webp",
-      "url": "https://www.trimetra3d.com.ar/productos/kit-modulo-de-corte-bambu-lab-a2l-h2-series-111mb/",
+      "url": "https://www.trimetra3d.com.ar/productos/kit-modulo-de-corte-bambu-lab-a2l-h2-series-111mb/?entry_path=category",
       "scrapedFrom": "https://trimetra3d.com.ar/productos/",
       "variants": [
         {
@@ -2870,7 +2800,7 @@
         "1kg"
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/negro-22f8fc0b147fe4c6cf17925133762971-1024-1024.webp",
-      "url": "https://www.trimetra3d.com.ar/productos/filamento-toolbox-pla-high-speed-x1-kg-1thi4/",
+      "url": "https://www.trimetra3d.com.ar/productos/filamento-toolbox-pla-high-speed-x1-kg-1thi4/?entry_path=category",
       "scrapedFrom": "https://trimetra3d.com.ar/productos/",
       "variants": [
         {
@@ -3070,13 +3000,13 @@
       "stock": 0,
       "stockLabel": "Consultar",
       "available": false,
-      "brand": "BIQU",
+      "brand": "Snapmaker",
       "tags": [
-        "BIQU",
+        "Snapmaker",
         "PC"
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/tapa1-825ef54ced0626a88417925109805099-1024-1024.webp",
-      "url": "https://www.trimetra3d.com.ar/productos/biqu-popcap-tapa-superior-para-snapmaker-u1-transparente-pc-lo3f7/",
+      "url": "https://www.trimetra3d.com.ar/productos/biqu-popcap-tapa-superior-para-snapmaker-u1-transparente-pc-lo3f7/?entry_path=category",
       "scrapedFrom": "https://trimetra3d.com.ar/productos/",
       "variants": [
         {
@@ -3088,6 +3018,76 @@
           "available": false,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/tapa1-825ef54ced0626a88417925109805099-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "trimetra3d-365295908",
+      "sourceProductId": "365295908",
+      "store": "Trimetra 3D",
+      "domain": "trimetra3d.com.ar",
+      "name": "Bambu Lab -- AMS 2 Pro · Sistema multifilamento",
+      "category": "Impresoras",
+      "price": 1297900,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 1168110,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab"
+      ],
+      "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambulab-ams2pro-1-ca1a82326782c14c1a17884631731110-1024-1024.webp",
+      "url": "https://www.trimetra3d.com.ar/productos/bambu-lab-ams-2-pro/?entry_path=category",
+      "scrapedFrom": "https://trimetra3d.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1590143804,
+          "sku": "BAMBULAB-AMS2PRO",
+          "price": 1297900,
+          "isDeposit": false,
+          "stock": 0,
+          "available": false,
+          "options": [],
+          "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambulab-ams2pro-1-ca1a82326782c14c1a17884631731110-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "trimetra3d-358551621",
+      "sourceProductId": "358551621",
+      "store": "Trimetra 3D",
+      "domain": "trimetra3d.com.ar",
+      "name": "Flashforge -- AD5X",
+      "category": "Accesorios",
+      "price": 1042935,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 938641.5,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Flashforge",
+      "tags": [
+        "Flashforge"
+      ],
+      "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/flashforge-ad5x-1-c619fe8860dbfa7d1017854490386288-1024-1024.webp",
+      "url": "https://www.trimetra3d.com.ar/productos/flashforge-ad5x/?entry_path=category",
+      "scrapedFrom": "https://trimetra3d.com.ar/productos/",
+      "variants": [
+        {
+          "id": 1568399458,
+          "sku": "FLASHFORGE-AD5X",
+          "price": 1042935,
+          "isDeposit": false,
+          "stock": 0,
+          "available": false,
+          "options": [],
+          "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/flashforge-ad5x-1-c619fe8860dbfa7d1017854490386288-1024-1024.webp"
         }
       ]
     },
@@ -3111,7 +3111,7 @@
         "Creality"
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/creality-k2-plus-1-756ee86a274979b89517850020551048-1024-1024.webp",
-      "url": "https://www.trimetra3d.com.ar/productos/creality-k2-plus/",
+      "url": "https://www.trimetra3d.com.ar/productos/creality-k2-plus/?entry_path=category",
       "scrapedFrom": "https://trimetra3d.com.ar/productos/",
       "variants": [
         {
@@ -3146,7 +3146,7 @@
         "Creality"
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/creality-cfs-1-4cd312e7ba54e8aeb417850016536651-1024-1024.webp",
-      "url": "https://www.trimetra3d.com.ar/productos/creality-cfs/",
+      "url": "https://www.trimetra3d.com.ar/productos/creality-cfs/?entry_path=category",
       "scrapedFrom": "https://trimetra3d.com.ar/productos/",
       "variants": [
         {
@@ -3181,7 +3181,7 @@
         "Bambu Lab"
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/x-photoroom-675ca2ff33eafd4d7917828518489970-1024-1024.webp",
-      "url": "https://www.trimetra3d.com.ar/productos/bambu-lab-h2d-combo-laser/",
+      "url": "https://www.trimetra3d.com.ar/productos/bambu-lab-h2d-combo-laser/?entry_path=category",
       "scrapedFrom": "https://trimetra3d.com.ar/productos/",
       "variants": [
         {
@@ -3216,7 +3216,7 @@
         "Bambu Lab"
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambulab-x2d-f9674739e35462f49217781880222224-1024-1024.webp",
-      "url": "https://www.trimetra3d.com.ar/productos/bambu-lab-x2d/",
+      "url": "https://www.trimetra3d.com.ar/productos/bambu-lab-x2d/?entry_path=category",
       "scrapedFrom": "https://trimetra3d.com.ar/productos/",
       "variants": [
         {
@@ -3228,6 +3228,41 @@
           "available": false,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambulab-x2d-f9674739e35462f49217781880222224-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "id": "trimetra3d-337293817",
+      "sourceProductId": "337293817",
+      "store": "Trimetra 3D",
+      "domain": "trimetra3d.com.ar",
+      "name": "Bambu Lab -- X1 Carbon Combo",
+      "category": "Impresoras",
+      "price": 3839990,
+      "currency": "ARS",
+      "previousPrice": null,
+      "transferPrice": 3455991,
+      "purchaseModes": [],
+      "stock": 0,
+      "stockLabel": "Consultar",
+      "available": false,
+      "brand": "Bambu Lab",
+      "tags": [
+        "Bambu Lab"
+      ],
+      "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/x1-carbon-combo01-d28cb5bab41b7d40dd17759369694707-1024-1024.webp",
+      "url": "https://www.trimetra3d.com.ar/productos/bambu-lab-x1-carbon-combo/?entry_path=category",
+      "scrapedFrom": "https://trimetra3d.com.ar/productos/?page=2",
+      "variants": [
+        {
+          "id": 1499334074,
+          "sku": "BAMBULAB-X1CARBONCOMBO",
+          "price": 3839990,
+          "isDeposit": false,
+          "stock": 0,
+          "available": false,
+          "options": [],
+          "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/x1-carbon-combo01-d28cb5bab41b7d40dd17759369694707-1024-1024.webp"
         }
       ]
     },
@@ -3251,7 +3286,7 @@
         "Bambu Lab"
       ],
       "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambu-lab-x1-carbon-de227b5c889c6e349817828484796909-1024-1024.webp",
-      "url": "https://www.trimetra3d.com.ar/productos/bambu-lab-x1-carbon/",
+      "url": "https://www.trimetra3d.com.ar/productos/bambu-lab-x1-carbon/?entry_path=category",
       "scrapedFrom": "https://trimetra3d.com.ar/productos/?page=2",
       "variants": [
         {
@@ -3263,41 +3298,6 @@
           "available": false,
           "options": [],
           "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambu-lab-x1-carbon-de227b5c889c6e349817828484796909-1024-1024.webp"
-        }
-      ]
-    },
-    {
-      "id": "trimetra3d-336549635",
-      "sourceProductId": "336549635",
-      "store": "Trimetra 3D",
-      "domain": "trimetra3d.com.ar",
-      "name": "Bambu Lab -- H2D",
-      "category": "Impresoras",
-      "price": 5606900,
-      "currency": "ARS",
-      "previousPrice": null,
-      "transferPrice": 5046210,
-      "purchaseModes": [],
-      "stock": 0,
-      "stockLabel": "Consultar",
-      "available": false,
-      "brand": "Bambu Lab",
-      "tags": [
-        "Bambu Lab"
-      ],
-      "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambu-lab-h2d-combo-2-6de2eaa87ca9ec55b617781925989915-1024-1024.webp",
-      "url": "https://www.trimetra3d.com.ar/productos/bambu-lab-h2d/",
-      "scrapedFrom": "https://trimetra3d.com.ar/productos/?page=2",
-      "variants": [
-        {
-          "id": 1496474070,
-          "sku": "BAMBULAB-H2D",
-          "price": 5606900,
-          "isDeposit": false,
-          "stock": 0,
-          "available": false,
-          "options": [],
-          "image": "https://acdn-us.mitiendanube.com/stores/007/481/363/products/bambu-lab-h2d-combo-2-6de2eaa87ca9ec55b617781925989915-1024-1024.webp"
         }
       ]
     }
